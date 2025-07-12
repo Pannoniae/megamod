@@ -1980,7 +1980,7 @@ msgid "Reinforcement of %1% units has arrived."
 msgstr ""
 
 msgctxt "mp/lobby/setup/settings.preparationtime"
-msgid "Preparation time  (s)"
+msgid "Preparation time (s)"
 msgstr ""
 
 msgctxt "mp/lobby/button/start"

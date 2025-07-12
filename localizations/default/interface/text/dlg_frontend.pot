@@ -2284,7 +2284,7 @@ msgid "Easy"
 msgstr ""
 
 msgctxt "version_short_string"
-msgid "Call to Arms - Gates of Hell - version %1% - Megamod Moshpit 0.4.3"
+msgid "Call to Arms - Gates of Hell - version %1% - Megamod Mayhem 0.1.0 dev"
 msgstr ""
 
 msgctxt "options/keys/interface/toggle_equipment"
@@ -5770,6 +5770,10 @@ msgstr ""
 
 msgctxt "main_menu2/dynamic_campaign/choose_name"
 msgid "name"
+msgstr ""
+
+msgctxt "main_menu2/dynamic_campaign/select_army"
+msgid "faction"
 msgstr ""
 
 msgctxt "main_menu2/dynamic_campaign/select_region"
