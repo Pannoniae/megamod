@@ -1,0 +1,133 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Name (desc_weapon)\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgctxt "desc/weapon/20mm_solothurn"
+msgid "20mm Solothurn"
+msgstr ""
+
+msgctxt "desc/weapon/40mm_41M"
+msgid "40mm 41M"
+msgstr ""
+
+msgctxt "desc/weapon/40mm_42M"
+msgid "40mm 42M"
+msgstr ""
+
+msgctxt "desc/weapon/40mm_bofors_36m"
+msgid "40mm Bofors 36m"
+msgstr ""
+
+msgctxt "desc/weapon/75mm_41m"
+msgid "75mm 41M"
+msgstr ""
+
+msgctxt "desc/weapon/75mm_43m"
+msgid "75mm 43M"
+msgstr ""
+
+msgctxt "desc/weapon/75mm_pak97"
+msgid "75mm Pak97/38"
+msgstr ""
+
+msgctxt "desc/weapon/80mm_feldkanone"
+msgid "8cm 5/8M"
+msgstr ""
+
+msgctxt "desc/weapon/80mm_bofors"
+msgid "8cm Bofors"
+msgstr ""
+
+msgctxt "desc/weapon/105mm_40_43m"
+msgid "105mm 40/43M"
+msgstr ""
+
+msgctxt "desc/weapon/105mm_feldhaubitze"
+msgid "105mm feldhaubitze"
+msgstr ""
+
+msgctxt "desc/weapon/150mm_feldhaubitze"
+msgid "150mm feldhaubitze"
+msgstr ""
+
+msgctxt "desc/weapon/schwarzlose"
+msgid "8mm Schwarzlose | <c(FFC923)>Cartridge :8 × 50 mm R</c>"
+msgstr ""
+
+msgctxt "desc/weapon/gebauer"
+msgid "34/40M Gebauer | <c(FFC923)>Cartridge :8×56 mm R</c>"
+msgstr ""
+
+msgctxt "desc/weapon/gebauer_x2"
+msgid "2 x 34/40M Gebauer | <c(FFC923)>Cartridge :8×56 mm R</c>"
+msgstr ""
+
+msgctxt "desc/weapon/danuvia_39m"
+msgid "Danuvia 39M | <c(FFC923)>Cartridge :9 × 25 mm Mauser</c>"
+msgstr ""
+
+msgctxt "desc/weapon/danuvia_43m"
+msgid "Danuvia 43M | <c(FFC923)>Cartridge :9 × 25 mm Mauser</c>"
+msgstr ""
+
+msgctxt "desc/weapon/kampfpistole_z"
+msgid "Kampfpistole"
+msgstr ""
+
+msgctxt "desc/weapon/frommer_37m"
+msgid "FEG 37M | <c(FFC923)>Cartridge :.380 ACP</c>"
+msgstr ""
+
+msgctxt "desc/weapon/feg_35m"
+msgid " FEG 35M | <c(FFC923)>Cartridge :8×56 mm R</c>"
+msgstr ""
+
+msgctxt "desc/weapon/feg_43m"
+msgid " FEG 43M | <c(FFC923)>Cartridge :7,92 × 57 mm Mauser SmK</c>"
+msgstr ""
+
+msgctxt "desc/weapon/mannlicher_m1895"
+msgid "Steyr Mannlicher M1895 | <c(FFC923)>Cartridge :8 × 50 mm R</c>"
+msgstr ""
+
+msgctxt "desc/weapon/mannlicher_m1895c"
+msgid "Steyr Mannlicher M1895 | <c(FFC923)>Cartridge :8 × 50 mm R</c>"
+msgstr ""
+
+msgctxt "desc/weapon/solothurn_31m"
+msgid "Solothurn 31M | <c(FFC923)>Cartridge :7,92 × 57 mm Mauser SmK</c>"
+msgstr ""
+
+msgctxt "desc/weapon/mg13"
+msgid "MG-13 | <c(FFC923)>Cartridge :7,92 × 57 mm Mauser SmK</c>"
+msgstr ""
+
+msgctxt "desc/weapon/mortar_legrw_36"
+msgid "5cm leGrW 36"
+msgstr ""
+
+msgctxt "desc/weapon/zh-29"
+msgid "ZH-29 | <c(FFC923)>Cartridge :7,92 × 57 mm Mauser</c>"
+msgstr ""
+
+msgctxt "desc/weapon/zb24_s"
+msgid "ZB 24/s | <c(FFC923)>Cartridge :7,92 × 57 mm Mauser</c>"
+msgstr ""
+
+msgctxt "desc/weapon/buzoganyveto"
+msgid "44M"
+msgstr ""
+
+msgctxt "desc/weapon/buzoganyveto2"
+msgid "44M"
+msgstr ""

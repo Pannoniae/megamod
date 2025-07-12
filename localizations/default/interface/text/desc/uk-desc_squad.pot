@@ -1,0 +1,190 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Name (desc_squad)\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+
+msgctxt "desc/squad/single_auxiliary(eng)"
+msgid "Auxiliary Detach."
+msgstr ""
+
+msgctxt "desc/squad/single_at(eng)"
+msgid "AT Riflemen"
+msgstr ""
+
+msgctxt "desc/squad/single_mortar(eng)"
+msgid "Mortar"
+msgstr ""
+
+msgctxt "desc/squad/single_tankman(eng)"
+msgid "Tank Crew"
+msgstr ""
+
+msgctxt "desc/squad/single_ap_miner(eng)"
+msgid "Combat Engineer (AP mines)"
+msgstr ""
+
+msgctxt "desc/squad/single_at_miner(eng)"
+msgid "Combat Engineer (AT mines)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer(eng)"
+msgid "Combat Engineer (sappers)"
+msgstr ""
+
+msgctxt "desc/squad/single_medic(eng)"
+msgid "Medic"
+msgstr ""
+
+msgctxt "desc/squad/single_sniper(eng)"
+msgid "Lee-Enfield Sniper"
+msgstr ""
+
+msgctxt "desc/squad/single_officer(eng)"
+msgid "Officer"
+msgstr ""
+
+msgctxt "desc/squad/squad_light_late(eng)"
+msgid "Home Guard"
+msgstr ""
+
+msgctxt "desc/squad/squad_regular_late(eng)"
+msgid "Rifle Section"
+msgstr ""
+
+msgctxt "desc/squad/squad_sas_late(eng)"
+msgid "SAS Section"
+msgstr ""
+
+msgctxt "desc/squad/squad_para1st(eng)"
+msgid "1st Battalion - Special Forces"
+msgstr ""
+
+msgctxt "desc/squad/squad_scout_late(eng)"
+msgid "Scouts"
+msgstr ""
+
+msgctxt "desc/squad/squad_pionier_late(eng)"
+msgid "Paratroopers"
+msgstr ""
+
+msgctxt "desc/squad/squad_stormtrooper_late(eng)"
+msgid "Commandos"
+msgstr ""
+
+msgctxt "desc/squad/single_auxiliary_late(eng)"
+msgid "Auxiliary Detach."
+msgstr ""
+
+msgctxt "desc/squad/single_rifle_late(eng)"
+msgid "Lee-Enfield Rifleman"
+msgstr ""
+
+msgctxt "desc/squad/single_smg_late(eng)"
+msgid "Sten SMG"
+msgstr ""
+
+msgctxt "desc/squad/single_mg_late(eng)"
+msgid "Machine Gunner"
+msgstr ""
+
+msgctxt "desc/squad/single_mg(eng)"
+msgid "Bren MG Team"
+msgstr ""
+
+msgctxt "desc/squad/single_mg_sas(eng)"
+msgid "SAS Bren MG Team"
+msgstr ""
+
+msgctxt "desc/squad/single_mg_com(eng)"
+msgid "Commando Bren MG Team"
+msgstr ""
+
+msgctxt "desc/squad/single_atrifle(eng)"
+msgid "AT Rifle"
+msgstr ""
+
+msgctxt "desc/squad/single_at_late(eng)"
+msgid "AT Infantry"
+msgstr ""
+
+msgctxt "desc/squad/single_mortar_late(eng)"
+msgid "50mm Portable Mortar"
+msgstr ""
+
+msgctxt "desc/squad/single_tankman_late(eng)"
+msgid "Tank Crew"
+msgstr ""
+
+msgctxt "desc/squad/single_support_crew(eng)"
+msgid "Support Crew"
+msgstr ""
+
+msgctxt "desc/squad/single_flamer_late(eng)"
+msgid "Flamethrower"
+msgstr ""
+
+msgctxt "desc/squad/single_riflegrenade_late(eng)"
+msgid "Rilfe-Grenade Infantry"
+msgstr ""
+
+msgctxt "desc/squad/squad_scot_late(eng)"
+msgid "Highlander Section"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon(eng)"
+msgid "Special reconnaissance"
+msgstr ""
+
+msgctxt "desc/squad/squad_canadians(eng)"
+msgid "Canadian Rifle Section"
+msgstr ""
+
+msgctxt "desc/squad/squad_bef(eng)"
+msgid "British Expeditionary Section"
+msgstr ""
+
+msgctxt "desc/squad/np_conquest_flitfire"
+msgid "Flitfire"
+msgstr ""
+
+msgctxt "desc/squad/np_conquest_beaufighter_50"
+msgid "Beaufighter 50kg bomb"
+msgstr ""
+
+msgctxt "desc/squad/np_conquest_beaufighter"
+msgid "Beaufighter 250kg bomb"
+msgstr ""
+
+msgctxt "desc/squad/np_76mm_mk_ii_mortar_barrage"
+msgid "ML 3-inch mortar barrage"
+msgstr ""
+
+msgctxt "desc/squad/np_107mm_mk_ii_mortar_barrage"
+msgid "M2 4.2-inch mortar barrage"
+msgstr ""
+
+msgctxt "desc/squad/np_bl45_smoke_barrage"
+msgid "BL 4.5-inch smoke barrage"
+msgstr ""
+
+msgctxt "desc/squad/np_bl45_artillery_barrage"
+msgid "BL 4.5-inch artillery barrage"
+msgstr ""
+
+msgctxt "desc/squad/np_bl7_2-inch_artillery_barrage"
+msgid "BL 7.2-inch artillery barrage"
+msgstr ""
+
+msgctxt "desc/squad/np_para_infantry"
+msgid "Paratroopers"
+msgstr ""

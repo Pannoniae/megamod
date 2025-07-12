@@ -1,0 +1,210 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Call to Arms - Gates of Hell: Ostfront (dlg_ingame)\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.2\n"
+
+msgctxt "component/engine_malfunction"
+msgid "<c(ffff00)>Engine Malfunction"
+msgstr ""
+
+msgctxt "component/gun_malfunction"
+msgid "<c(ffff00)>Gun Jammed"
+msgstr ""
+
+msgctxt "component/gun_malfunction_repaired"
+msgid "<c(Adff2f)>Gun Unjammed"
+msgstr ""
+
+msgctxt "component/engine_overheat"
+msgid "<c(ffff00)>Engine Overheated"
+msgstr ""
+
+msgctxt "component/final_drive"
+msgid "<c(ffff00)>Final Drive Broken"
+msgstr ""
+
+msgctxt "component/air_filter"
+msgid "<c(ffff00)>Engine Failure due to Air Filters"
+msgstr ""
+
+msgctxt "component/fuel_pump"
+msgid "<c(ffff00)>Fuel Pump Failure, Engine Turned Off"
+msgstr ""
+
+msgctxt "component/track_failure"
+msgid "<c(ffff00)>Track Failure"
+msgstr ""
+
+msgctxt "component/electric_motor"
+msgid "<c(ffff00)>Electric Motors Failure"
+msgstr ""
+
+msgctxt "component/overrev"
+msgid "<c(ffff00)>Cylinder Head Failure"
+msgstr ""
+
+msgctxt "component/engine_overheat_burn"
+msgid "<c(cc1900)>Engine Overheated"
+msgstr ""
+
+msgctxt "component/carburetor_fire"
+msgid "<c(cc1900)>Carburetor Backfire"
+msgstr ""
+
+msgctxt "component/electric_malfunction"
+msgid "<c(cc1900)>Short Circuit"
+msgstr ""
+
+msgctxt "component/fuel_leak"
+msgid "<c(cc1900)>Fuel on Fire"
+msgstr ""
+
+msgctxt "component/suspension_malfunction"
+msgid "<c(ff8c00)>Suspension Malfunction"
+msgstr ""
+
+msgctxt "component/fuel_exploded"
+msgid "<c(ff8c00)>Fuel Tanks Explosion"
+msgstr ""
+
+msgctxt "component/transmission_broken"
+msgid "<c(ff8c00)>Transmission broken"
+msgstr ""
+
+msgctxt "component/ammo_overheated"
+msgid "<c(cc1900)>Ammunition Overheated"
+msgstr ""
+
+msgctxt "actionbar/mg_foxhole"
+msgid "Dig MG position"
+msgstr ""
+
+msgctxt "actionbar/mg_foxhole/action"
+msgid "Dig MG position"
+msgstr ""
+
+msgctxt "actionbar/mg_foxhole/usage"
+msgid "After clicking this button, click and drag on the map to define the position and orientation for digging a MG position."
+msgstr ""
+
+msgctxt "actionbar/deep_foxhole"
+msgid "Dig deep foxhole"
+msgstr ""
+
+msgctxt "actionbar/deep_foxhole/action"
+msgid "Dig deep foxhole"
+msgstr ""
+
+msgctxt "actionbar/deep_foxhole/usage"
+msgid "After clicking this button, click and drag on the map to define the position and orientation for digging a deep foxhole."
+msgstr ""
+
+msgctxt "actionbar/earth_pillbox"
+msgid "Build earth pillbox"
+msgstr ""
+
+msgctxt "actionbar/earth_pillbox/action"
+msgid "Build earth pillbox"
+msgstr ""
+
+msgctxt "actionbar/earth_pillbox/usage"
+msgid "After clicking this button, click and drag on the map to define the position and orientation for building an earth pillbox."
+msgstr ""
+
+msgctxt "component/medic_mode_on"
+msgid "<c(5ce65c)>Auto-revive enabled"
+msgstr ""
+
+msgctxt "component/medic_mode_off"
+msgid "<c(0f4d0f)>Auto-revive disabled"
+msgstr ""
+
+msgctxt "component/rc_in_range"
+msgid "<c(f0e7e2)>Vehicle is now in range"
+msgstr ""
+
+msgctxt "component/rc_not_in_range"
+msgid "<c(bf0026)>Vehicle is not in range!"
+msgstr ""
+
+msgctxt "component/rc_timer"
+msgid "<c(bf0026)>10 seconds before losing control!"
+msgstr ""
+
+msgctxt "actionbar/smoke_screen_toggle"
+msgid "Smoke generator"
+msgstr ""
+
+msgctxt "actionbar/smoke_screen_toggle/action"
+msgid "While moving, creates a smoke screen from smoke generator. Working for 2 minutes and cooldowns for 10 minutes."
+msgstr ""
+
+msgctxt "actionbar/smoke_screen_toggle/usage"
+msgid "Use this to cover anything behind you."
+msgstr ""
+
+msgctxt "actionbar/movement_slow"
+msgid "Slow movement mode"
+msgstr ""
+
+msgctxt "actionbar/movement_slow/action"
+msgid "The vehicle max speed will be 10km/h."
+msgstr ""
+
+msgctxt "actionbar/movement_slow/usage"
+msgid "Use this so the infantry can keep up with you."
+msgstr ""
+
+msgctxt "component/movement_slow_on"
+msgid "Slow movement mode activated"
+msgstr ""
+
+msgctxt "component/movement_slow_off"
+msgid "Slow movement mode disabled"
+msgstr ""
+
+msgctxt "actionbar/deploy_charge"
+msgid "Deploy explosive charge"
+msgstr ""
+
+msgctxt "actionbar/deploy_charge/action"
+msgid "Your vehicle will deploy the charge that will explode after 30 seconds. Resupply the explosive charge at any supply source."
+msgstr ""
+
+msgctxt "actionbar/deploy_charge/usage"
+msgid "To blow up things you really don't like."
+msgstr ""
+
+msgctxt "component/bomb_timer"
+msgid "Explosive charge will detonate in 40 seconds!"
+msgstr ""
+
+msgctxt "actionbar/lights_toggle"
+msgid "Toggle lights"
+msgstr ""
+
+msgctxt "actionbar/lights_toggle/action"
+msgid "Your vehicle will toggle its lights."
+msgstr ""
+
+msgctxt "actionbar/horn"
+msgid "Horn"
+msgstr ""
+
+msgctxt "actionbar/horn/action"
+msgid "Your vehicle will emit a loud sound signal."
+msgstr ""
+
+msgctxt "crewbar/seat15"
+msgid "<f(roboto_mono)>Passengers"
+msgstr ""

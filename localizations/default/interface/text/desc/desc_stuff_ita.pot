@@ -1,0 +1,90 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Name (desc_stuff)\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgctxt "desc/stuff/knife_ita"
+msgid "Pugnale"
+msgstr ""
+
+msgctxt "desc/stuff/balloon_ita"
+msgid "Italian Flame Balloon"
+msgstr ""
+
+msgctxt "desc/stuff/breda35"
+msgid "Breda Mod.35"
+msgstr ""
+
+msgctxt "desc/stuff/oto_mod35"
+msgid "Bomba a Mano Mod. 35 O.T.O."
+msgstr ""
+
+msgctxt "desc/stuff/breda42at"
+msgid "Breda Mod.42 anticarro"
+msgstr ""
+
+msgctxt "desc/stuff/tipo_l"
+msgid "Tipo L"
+msgstr ""
+
+msgctxt "desc/stuff/ccm34smoke"
+msgid "CCM34 fumogena"
+msgstr ""
+
+msgctxt "desc/stuff/grenade_l"
+msgid "Tipo L AT"
+msgstr ""
+
+msgctxt "desc/stuff/ammo_box_art_ita"
+msgid "Artillery ammos [ITA]"
+msgstr ""
+
+msgctxt "desc/stuff/ammo_box_inf_ita"
+msgid "Infantry ammos [ITA]"
+msgstr ""
+
+msgctxt "desc/stuff/bandage_ita"
+msgid "Bandage [ITA]"
+msgstr ""
+
+msgctxt "desc/stuff/cap_ita_beret_mas"
+msgid "Beret"
+msgstr ""
+
+msgctxt "desc/stuff/cap_ita_bn"
+msgid "Cap"
+msgstr ""
+
+msgctxt "desc/stuff/cap_ita_bustina_rsi"
+msgid "Cap"
+msgstr ""
+
+msgctxt "desc/stuff/cap_ita_gnr"
+msgid "Cap"
+msgstr ""
+
+msgctxt "desc/stuff/cap_ita_gnr_officer"
+msgid "Cap"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_ita_m33_bn"
+msgid "Helmet"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_ita_m33_gnr"
+msgid "Helmet"
+msgstr ""
+
+msgctxt "desc/stuff/helmet_ita_m33_mas"
+msgid "Helmet"
+msgstr ""
+

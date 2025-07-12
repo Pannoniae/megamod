@@ -1,0 +1,61 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Name (desc_stuff)\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgctxt "desc/stuff/lunge_mine"
+msgid "Lunge mine"
+msgstr ""
+
+msgctxt "desc/stuff/mine_antitank_jap"
+msgid "Type 99 mine"
+msgstr ""
+
+msgctxt "desc/stuff/type3at"
+msgid "Hand bomb"
+msgstr ""
+
+msgctxt "desc/stuff/type3at_a"
+msgid "AT grenade Type 3"
+msgstr ""
+
+msgctxt "desc/stuff/type97"
+msgid "AP grenade Type 97"
+msgstr ""
+
+msgctxt "desc/stuff/type99"
+msgid "AP grenade Type 99"
+msgstr ""
+
+msgctxt "desc/stuff/type99at"
+msgid "Type 99 mine"
+msgstr ""
+
+msgctxt "desc/stuff/type91_wp"
+msgid "WP grenade Type 91"
+msgstr ""
+
+msgctxt "desc/stuff/knife_japan"
+msgid "Knife"
+msgstr ""
+
+msgctxt "desc/stuff/ammo_box_art_jap"
+msgid "Artillery ammos"
+msgstr ""
+
+msgctxt "desc/stuff/ammo_box_inf_jap"
+msgid "Jap.Infantry ammos"
+msgstr ""
+
+msgctxt "desc/stuff/bandage_jap"
+msgid "Bandage [Jap]"
+msgstr ""

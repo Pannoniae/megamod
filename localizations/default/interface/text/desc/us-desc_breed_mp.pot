@@ -1,0 +1,1022 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Polish MP soldiers\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.3\n"
+
+msgctxt "desc/human/mp/usaf/early/ap_miner"
+msgid "<c(cfcfcf)>Combat engineer (AP mines)"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/at_miner"
+msgid "<c(cfcfcf)>Combat engineer (AT mines)"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/bazooker"
+msgid "<c(cfcfcf)>AT infantry"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/bazooker2"
+msgid "<c(cfcfcf)>AT support infantry"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/elite"
+msgid "<c(cfcfcf)>Airborne"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/elite2"
+msgid "<c(cfcfcf)>Airborne"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/elite3"
+msgid "<c(cfcfcf)>Airborne MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/elite8"
+msgid "<c(cfcfcf)>Airborne"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/elite4"
+msgid "<c(cfcfcf)>U.S. Marine"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/elite5"
+msgid "<c(cfcfcf)>U.S. Marine"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/elite6"
+msgid "<c(cfcfcf)>U.S. Marine MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/elite7"
+msgid "<c(cfcfcf)>U.S. Marine"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/elite_at"
+msgid "<c(cfcfcf)>Airborne AT"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/elite_para"
+msgid "<c(cfcfcf)>101st Airborne"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/flamer"
+msgid "<c(cfcfcf)>Flamethrower infantry"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/flamer2"
+msgid "<c(cfcfcf)>Flamethrower support infantry"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/home_guard"
+msgid "<c(cfcfcf)>Conscript"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/home_guard2"
+msgid "<c(cfcfcf)>Conscript"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/medic"
+msgid "<c(cfcfcf)>Medic"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/mgun"
+msgid "<c(cfcfcf)>Machine gunner"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/mgun2"
+msgid "<c(cfcfcf)>Machine gunner"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/officer"
+msgid "<c(cfcfcf)>Officer"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/radioman"
+msgid "<c(cfcfcf)>Radio operator"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/rifle"
+msgid "<c(cfcfcf)>Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/rifle2"
+msgid "<c(cfcfcf)>Assault rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/rifle3"
+msgid "<c(cfcfcf)>Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/rifle4"
+msgid "<c(cfcfcf)>Springfield rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/gr_launcher"
+msgid "<c(cfcfcf)>Mortar"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/rifle_grenade"
+msgid "<c(cfcfcf)>Rilfe-grenade"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/saper"
+msgid "<c(cfcfcf)>Mine disposal expert"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/saper2"
+msgid "<c(cfcfcf)>Combat engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/scout"
+msgid "<c(cfcfcf)>Commando"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/scout2"
+msgid "<c(cfcfcf)>Commando"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/smg"
+msgid "<c(cfcfcf)>SMG infantry"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/smg2"
+msgid "<c(cfcfcf)>Assault SMG infantry"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/sniper"
+msgid "<c(cfcfcf)>Sniper"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/shotgun"
+msgid "<c(cfcfcf)>Shotgun trooper"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/sturmovik"
+msgid "<c(cfcfcf)>Ranger Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/sturmovik2"
+msgid "<c(cfcfcf)>Ranger MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/sturmovik3"
+msgid "<c(cfcfcf)>Ranger Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/sturmovik4"
+msgid "<c(cfcfcf)>Ranger Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/sturmovik4b"
+msgid "<c(cfcfcf)>Ranger Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/sturmovik5"
+msgid "<c(cfcfcf)>Ranger Shotgun"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/sturmovik5b"
+msgid "<c(cfcfcf)>Ranger SMG"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/sturmovik6"
+msgid "<c(cfcfcf)>Ranger MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/sturmovik6b"
+msgid "<c(cfcfcf)>Ranger MG assist."
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/squadleader"
+msgid "<c(cfcfcf)>Squad leader"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/squadleader2"
+msgid "<c(cfcfcf)>Assault squad leader"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/tankman"
+msgid "<c(cfcfcf)>Tank crew"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/tankman2"
+msgid "<c(cfcfcf)>Tank commander"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/tanker"
+msgid "<c(cfcfcf)>Tank Destroyer Battalion"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/tanker2"
+msgid "<c(cfcfcf)>TDB Crew Commander"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/vehicle_supporter"
+msgid "<c(cfcfcf)>Soldier"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/pilot"
+msgid "<c(cfcfcf)>Pilot"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/ap_miner"
+msgid "<c(cfcfcf)>AP-Mine Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/at_miner"
+msgid "<c(cfcfcf)>AT-Mine Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/bazooker"
+msgid "<c(cfcfcf)>AT infantry"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/bazooker2"
+msgid "<c(cfcfcf)>AT support infantry"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/elite"
+msgid "<c(cfcfcf)>Airborne Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/elite2"
+msgid "<c(cfcfcf)>Airborne SMG"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/elite3"
+msgid "<c(cfcfcf)>Airborne MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/elite8"
+msgid "<c(cfcfcf)>Airborne Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/elite4"
+msgid "<c(cfcfcf)>U.S. Marine SMG"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/elite5"
+msgid "<c(cfcfcf)>U.S. Marine Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/elite6"
+msgid "<c(cfcfcf)>U.S. Marine MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/elite7"
+msgid "<c(cfcfcf)>U.S. Marine Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/elite_at"
+msgid "<c(cfcfcf)>Airborne AT infantry"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/elite_para"
+msgid "<c(cfcfcf)>101st Airborne"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/flamer"
+msgid "<c(cfcfcf)>Flamethrower infantry"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/flamer2"
+msgid "<c(cfcfcf)>Flamethrower support infantry"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/home_guard"
+msgid "<c(cfcfcf)>Conscript"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/home_guard2"
+msgid "<c(cfcfcf)>Conscript"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/medic"
+msgid "<c(cfcfcf)>Medic"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/mgun"
+msgid "<c(cfcfcf)>Automatic Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/mgun2"
+msgid "<c(cfcfcf)>MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/officer"
+msgid "<c(cfcfcf)>Officer"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/radioman"
+msgid "<c(cfcfcf)>Radio operator"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/rifle"
+msgid "<c(cfcfcf)>Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/rifle2"
+msgid "<c(cfcfcf)>Assault rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/rifle3"
+msgid "<c(cfcfcf)>Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/rifle4"
+msgid "<c(cfcfcf)>Springfield rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/gr_launcher"
+msgid "<c(cfcfcf)>Mortar"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/rifle_grenade"
+msgid "<c(cfcfcf)>Rifle grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/saper"
+msgid "<c(cfcfcf)>Mine disposal expert"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/saper2"
+msgid "<c(cfcfcf)>Field Engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/scout"
+msgid "<c(cfcfcf)>Commando"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/scout2"
+msgid "<c(cfcfcf)>Commando"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/smg"
+msgid "<c(cfcfcf)>SMG infantry"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/smg2"
+msgid "<c(cfcfcf)>Assault SMG infantry"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/sniper"
+msgid "<c(cfcfcf)>Sniper"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/shotgun"
+msgid "<c(cfcfcf)>Shotgunner"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/sturmovik"
+msgid "<c(cfcfcf)>Ranger Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/sturmovik_at"
+msgid "<c(cfcfcf)>Ranger AT"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/sturmovik2"
+msgid "<c(cfcfcf)>Ranger MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/sturmovik3"
+msgid "<c(cfcfcf)>Ranger Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/sturmovik4"
+msgid "<c(cfcfcf)>Ranger Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/sturmovik4b"
+msgid "<c(cfcfcf)>Ranger"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/sturmovik5"
+msgid "<c(cfcfcf)>Ranger"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/sturmovik5b"
+msgid "<c(cfcfcf)>Ranger"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/sturmovik6"
+msgid "<c(cfcfcf)>Ranger"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/sturmovik6b"
+msgid "<c(cfcfcf)>Ranger"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/squadleader"
+msgid "<c(cfcfcf)>Squad leader"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/squadleader2"
+msgid "<c(cfcfcf)>Assault squad leader"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/tankman"
+msgid "<c(cfcfcf)>Tankman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/tankman2"
+msgid "<c(cfcfcf)>Tank commander"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/tankman_ace"
+msgid "<c(cfcfcf)>Tankman ace"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/tank_commander_ace"
+msgid "<c(cfcfcf)>Tank commander ace"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/tanker"
+msgid "<c(cfcfcf)>Tank Destroyer Battalion"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/tanker2"
+msgid "<c(cfcfcf)>TDB Crew Commander"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/vehicle_supporter"
+msgid "<c(cfcfcf)>Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/pilot"
+msgid "<c(cfcfcf)>Pilot"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/ap_miner"
+msgid "<c(cfcfcf)>Combat engineer (AP mines)"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/at_miner"
+msgid "<c(cfcfcf)>Combat engineer (AT mines)"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/bazooker"
+msgid "<c(cfcfcf)>AT infantry"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/bazooker2"
+msgid "<c(cfcfcf)>AT support infantry"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/elite"
+msgid "<c(cfcfcf)>Airborne"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/elite2"
+msgid "<c(cfcfcf)>Airborne"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/elite3"
+msgid "<c(cfcfcf)>Airborne"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/elite8"
+msgid "<c(cfcfcf)>Airborne"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/elite4"
+msgid "<c(cfcfcf)>U.S. Marine"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/elite5"
+msgid "<c(cfcfcf)>U.S. Marine"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/elite6"
+msgid "<c(cfcfcf)>U.S. Marine"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/elite7"
+msgid "<c(cfcfcf)>U.S. Marine"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/elite_at"
+msgid "<c(cfcfcf)>Airborne"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/elite_para"
+msgid "<c(cfcfcf)>101st Airborne"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/flamer"
+msgid "<c(cfcfcf)>Flamethrower infantry"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/flamer2"
+msgid "<c(cfcfcf)>Flamethrower support infantry"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/home_guard"
+msgid "<c(cfcfcf)>Conscript"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/home_guard2"
+msgid "<c(cfcfcf)>Conscript"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/medic"
+msgid "<c(cfcfcf)>Medic"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/mgun"
+msgid "<c(cfcfcf)>Machine gunner"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/mgun2"
+msgid "<c(cfcfcf)>Machine gunner"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/officer"
+msgid "<c(cfcfcf)>Officer"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/radioman"
+msgid "<c(cfcfcf)>Radio operator"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/rifle"
+msgid "<c(cfcfcf)>Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/rifle2"
+msgid "<c(cfcfcf)>Assault rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/rifle3"
+msgid "<c(cfcfcf)>Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/rifle4"
+msgid "<c(cfcfcf)>Springfield rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/gr_launcher"
+msgid "<c(cfcfcf)>Mortar"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/rifle_grenade"
+msgid "<c(cfcfcf)>Rilfe-grenade"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/saper"
+msgid "<c(cfcfcf)>Mine disposal expert"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/saper2"
+msgid "<c(cfcfcf)>Combat engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/scout"
+msgid "<c(cfcfcf)>Commando"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/scout2"
+msgid "<c(cfcfcf)>Commando"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/smg"
+msgid "<c(cfcfcf)>SMG infantry"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/smg2"
+msgid "<c(cfcfcf)>Assault SMG infantry"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/sniper"
+msgid "<c(cfcfcf)>Sniper"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/shotgun"
+msgid "<c(cfcfcf)>Shotgun trooper"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/sturmovik"
+msgid "<c(cfcfcf)>Ranger Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/sturmovik_at"
+msgid "<c(cfcfcf)>Ranger AT"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/sturmovik2"
+msgid "<c(cfcfcf)>Ranger MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/sturmovik3"
+msgid "<c(cfcfcf)>Ranger Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/sturmovik4"
+msgid "<c(cfcfcf)>Ranger Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/sturmovik4b"
+msgid "<c(cfcfcf)>Ranger Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/sturmovik5"
+msgid "<c(cfcfcf)>Ranger AT"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/sturmovik5b"
+msgid "<c(cfcfcf)>Ranger AT support"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/sturmovik6"
+msgid "<c(cfcfcf)>Ranger MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/sturmovik6b"
+msgid "<c(cfcfcf)>Ranger MG assist."
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/squadleader"
+msgid "<c(cfcfcf)>Squad leader"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/squadleader2"
+msgid "<c(cfcfcf)>Assault squad leader"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/tankman"
+msgid "<c(cfcfcf)>Tank crew"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/tankman2"
+msgid "<c(cfcfcf)>Tank commander"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/tankman_ace"
+msgid "<c(cfcfcf)>Tank crew ace"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/tankman2_ace"
+msgid "<c(cfcfcf)>Tank commander ace"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/tanker"
+msgid "<c(cfcfcf)>Tank Destroyer Battalion"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/tanker2"
+msgid "<c(cfcfcf)>TDB Crew Commander"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/vehicle_supporter"
+msgid "<c(cfcfcf)>Soldier"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/pilot"
+msgid "<c(cfcfcf)>Pilot"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/elite_d"
+msgid "<c(cfcfcf)>Commando Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/elite2_d"
+msgid "<c(cfcfcf)>Commando SMG"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/elite3_d"
+msgid "<c(cfcfcf)>Commando MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/tank_commander"
+msgid "Crew commander"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/artilleryman"
+msgid "Artilleryman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/tank_commander"
+msgid "Crew commander"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/artilleryman"
+msgid "Artilleryman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/tank_commander"
+msgid "Crew commander"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/artilleryman"
+msgid "Artilleryman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/elite_d"
+msgid "<c(cfcfcf)>Commando Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/elite2_d"
+msgid "<c(cfcfcf)>Commando SMG"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/elite3_d"
+msgid "<c(cfcfcf)>Commando MG Operator"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/elite3_assist"
+msgid "<c(cfcfcf)>Airborne MG assist."
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/elite6_assist"
+msgid "<c(cfcfcf)>U.S. Marine MG assist."
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/elite3_d_assist"
+msgid "<c(cfcfcf)>Commando MG assist."
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/mgun_assist"
+msgid "<c(cfcfcf)>MG assistant"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/sturmovik2_assist"
+msgid "<c(cfcfcf)>Ranger MG assist."
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/elite_sl"
+msgid "<c(cfcfcf)>Airborne Squad leader"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/elite4_sl"
+msgid "<c(cfcfcf)>U.S. Marine Squad leader"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/elite_d_sl"
+msgid "<c(cfcfcf)>Commando Squad leader"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/sturmovik_sl"
+msgid "<c(cfcfcf)>Ranger Squad leader"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/elite3_assist"
+msgid "<c(cfcfcf)>Airborne MG assist."
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/elite6_assist"
+msgid "<c(cfcfcf)>U.S. Marine MG assist."
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/elite3_d_assist"
+msgid "<c(cfcfcf)>Commando MG assist."
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/mgun_assist"
+msgid "<c(cfcfcf)>MG assistant"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/sturmovik2_assist"
+msgid "<c(cfcfcf)>Ranger MG assist."
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/elite_sl"
+msgid "<c(cfcfcf)>Airborne Squad leader"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/elite4_sl"
+msgid "<c(cfcfcf)>U.S. Marine Squad leader"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/elite_d_sl"
+msgid "<c(cfcfcf)>Commando Squad leader"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/sturmovik_sl"
+msgid "<c(cfcfcf)>Ranger Squad leader"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/elite3_assist"
+msgid "<c(cfcfcf)>Airborne MG assist."
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/elite6_assist"
+msgid "<c(cfcfcf)>U.S. Marine MG assist."
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/mgun_assist"
+msgid "<c(cfcfcf)>MG assistant"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/sturmovik2_assist"
+msgid "<c(cfcfcf)>Ranger MG assist."
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/elite_sl"
+msgid "<c(cfcfcf)>Airborne Squad leader"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/elite4_sl"
+msgid "<c(cfcfcf)>U.S. Marine Squad leader"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/sturmovik_sl"
+msgid "<c(cfcfcf)>Ranger Squad leader"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/armor_bazooker"
+msgid "<c(cfcfcf)>armored bazooka infantry"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/armor_mgun"
+msgid "<c(cfcfcf)>armored automatic rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/armor_rifle"
+msgid "<c(cfcfcf)>armored rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/armor_grenadier"
+msgid "<c(cfcfcf)>armored rifleman grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/armor_smg"
+msgid "<c(cfcfcf)>armored infantry"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/armor_sl"
+msgid "<c(cfcfcf)>armored squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/elite_d_grenadier"
+msgid "<c(cfcfcf)>Commando grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/elite_grenadier"
+msgid "<c(cfcfcf)>Airborne grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/elite5_grenadier"
+msgid "<c(cfcfcf)>U.S. Marine grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/paramarine_rfl"
+msgid "<c(cfcfcf)>Paramarine"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/paramarine_grenadier"
+msgid "<c(cfcfcf)>Paramarine grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/paramarine_sl"
+msgid "<c(cfcfcf)>Paramarine squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/paramarine_smg"
+msgid "<c(cfcfcf)>Paramarine"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/paramarine_mg"
+msgid "<c(cfcfcf)>Paramarine machine gunner"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/paramarine_assist"
+msgid "<c(cfcfcf)>Paramarine machine gunner Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/pathfinder"
+msgid "<c(cfcfcf)>Pathfinder"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/pathfinder2"
+msgid "<c(cfcfcf)>Pathfinder"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/pathfinder_sl"
+msgid "<c(cfcfcf)>Pathfinder squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/sturmovik_grenadier"
+msgid "<c(cfcfcf)>Ranger grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/armor_bazooker"
+msgid "<c(cfcfcf)>armored bazooka infantry"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/armor_mgun"
+msgid "<c(cfcfcf)>armored automatic rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/armor_rifle"
+msgid "<c(cfcfcf)>armored rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/armor_grenadier"
+msgid "<c(cfcfcf)>armored rifleman grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/armor_smg"
+msgid "<c(cfcfcf)>armored infantry"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/armor_sl"
+msgid "<c(cfcfcf)>armored squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/elite_d_grenadier"
+msgid "<c(cfcfcf)>Commando grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/elite_grenadier"
+msgid "<c(cfcfcf)>Airborne grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/elite5_grenadier"
+msgid "<c(cfcfcf)>U.S. Marine grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/paramarine_rfl"
+msgid "<c(cfcfcf)>Paramarine"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/paramarine_grenadier"
+msgid "<c(cfcfcf)>Paramarine grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/paramarine_sl"
+msgid "<c(cfcfcf)>Paramarine squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/paramarine_smg"
+msgid "<c(cfcfcf)>Paramarine"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/paramarine_mg"
+msgid "<c(cfcfcf)>Paramarine machine gunner"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/paramarine_assist"
+msgid "<c(cfcfcf)>Paramarine machine gunner Asst."
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/pathfinder"
+msgid "<c(cfcfcf)>Pathfinder"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/pathfinder2"
+msgid "<c(cfcfcf)>Pathfinder"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/pathfinder_sl"
+msgid "<c(cfcfcf)>Pathfinder squadleader"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/mid/sturmovik_grenadier"
+msgid "<c(cfcfcf)>Ranger grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/early/sturmovik_grenadier"
+msgid "<c(cfcfcf)>Ranger grenadier"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/combat_engineer"
+msgid "<c(cfcfcf)>Combat engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/combat_engineer2"
+msgid "<c(cfcfcf)>Combat engineer"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/reco"
+msgid "<c(cfcfcf)>Scout"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/reco2"
+msgid "<c(cfcfcf)>Scout"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/mgun_afr"
+msgid "<c(cfcfcf)>Assault MG"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/mgun_assist_afr"
+msgid "<c(cfcfcf)>Assault MG assist."
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/rifle_afr"
+msgid "<c(cfcfcf)>Assault Rifleman"
+msgstr ""
+
+msgctxt "desc/human/mp/usaf/late/smg_afr"
+msgid "<c(cfcfcf)>Assault SMG infantry"
+msgstr ""

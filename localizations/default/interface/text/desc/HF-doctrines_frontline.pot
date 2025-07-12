@@ -1,0 +1,332 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CtA - Gates of Hell (doctrines cal)\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+msgctxt "mp/lobby/doctrine/"
+msgid "<c(ff6a00)>Crash the game button</c>"
+msgstr ""
+
+
+;//-----------------------------------------------EARLYF START-----------------------------------------------//
+
+msgctxt "mp/lobby/doctrine/earlyf_rus_infantry"
+msgid "[<c(ff6a00)>Frontline</c>] Infantry"
+msgstr ""
+msgctxt "mp/lobby/doctrine/earlyf_rus_infantry#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/earlyf_rus_arty"
+msgid "[<c(ff6a00)>Frontline</c>] Artillery"
+msgstr ""
+msgctxt "mp/lobby/doctrine/earlyf_rus_arty#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/earlyf_rus_tank"
+msgid "[<c(ff6a00)>Frontline</c>] Tanks"
+msgstr ""
+msgctxt "mp/lobby/doctrine/earlyf_rus_tank#hint"
+msgid ""
+msgstr ""
+
+
+msgctxt "mp/lobby/doctrine/earlyf_ger_infantry"
+msgid "[<c(ff6a00)>Frontline</c>] Infantry"
+msgstr ""
+msgctxt "mp/lobby/doctrine/earlyf_ger_infantry#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/earlyf_ger_arty"
+msgid "[<c(ff6a00)>Frontline</c>] Artillery"
+msgstr ""
+msgctxt "mp/lobby/doctrine/earlyf_ger_arty#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/earlyf_ger_tank"
+msgid "[<c(ff6a00)>Frontline</c>] Tanks"
+msgstr ""
+msgctxt "mp/lobby/doctrine/earlyf_ger_tank#hint"
+msgid ""
+msgstr ""
+
+
+msgctxt "mp/lobby/doctrine/earlyf_usa_infantry"
+msgid "[<c(ff6a00)>Frontline</c>] Infantry"
+msgstr ""
+msgctxt "mp/lobby/doctrine/earlyf_usa_infantry#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/earlyf_usa_arty"
+msgid "[<c(ff6a00)>Frontline</c>] Artillery"
+msgstr ""
+msgctxt "mp/lobby/doctrine/earlyf_usa_arty#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/earlyf_usa_tank"
+msgid "[<c(ff6a00)>Frontline</c>] Tanks"
+msgstr ""
+msgctxt "mp/lobby/doctrine/earlyf_usa_tank#hint"
+msgid ""
+msgstr ""
+
+
+msgctxt "mp/lobby/doctrine/earlyf_fin_infantry"
+msgid "[<c(ff6a00)>Frontline</c>] Infantry"
+msgstr ""
+msgctxt "mp/lobby/doctrine/earlyf_fin_infantry#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/earlyf_fin_arty"
+msgid "[<c(ff6a00)>Frontline</c>] Artillery"
+msgstr ""
+msgctxt "mp/lobby/doctrine/earlyf_fin_arty#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/earlyf_fin_tank"
+msgid "[<c(ff6a00)>Frontline</c>] Tanks"
+msgstr ""
+msgctxt "mp/lobby/doctrine/earlyf_fin_tank#hint"
+msgid ""
+msgstr ""
+
+;//-----------------------------------------------EARLYF END-----------------------------------------------//
+;//-----------------------------------------------MIDF START-----------------------------------------------//
+
+msgctxt "mp/lobby/doctrine/midf_rus_infantry"
+msgid "[<c(ff6a00)>Frontline</c>] Infantry"
+msgstr ""
+msgctxt "mp/lobby/doctrine/midf_rus_infantry#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/midf_rus_arty"
+msgid "[<c(ff6a00)>Frontline</c>] Artillery"
+msgstr ""
+msgctxt "mp/lobby/doctrine/midf_rus_arty#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/midf_rus_tank"
+msgid "[<c(ff6a00)>Frontline</c>] Tanks"
+msgstr ""
+msgctxt "mp/lobby/doctrine/midf_rus_tank#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/midf_rus_reserve"
+msgid "[<c(ff6a00)>Frontline</c>] Reserve"
+msgstr ""
+msgctxt "mp/lobby/doctrine/midf_rus_reserve#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/midf_rus_lendlease"
+msgid "[<c(ff6a00)>Frontline</c>] Lend-Lease"
+msgstr ""
+msgctxt "mp/lobby/doctrine/midf_rus_lendlease#hint"
+msgid ""
+msgstr ""
+
+
+msgctxt "mp/lobby/doctrine/midf_ger_infantry"
+msgid "[<c(ff6a00)>Frontline</c>] Infantry"
+msgstr ""
+msgctxt "mp/lobby/doctrine/midf_ger_infantry#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/midf_ger_arty"
+msgid "[<c(ff6a00)>Frontline</c>] Artillery"
+msgstr ""
+msgctxt "mp/lobby/doctrine/midf_ger_arty#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/midf_ger_tank"
+msgid "[<c(ff6a00)>Frontline</c>] Tanks"
+msgstr ""
+msgctxt "mp/lobby/doctrine/midf_ger_tank#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/midf_ger_reserve"
+msgid "[<c(ff6a00)>Frontline</c>] Reserve"
+msgstr ""
+msgctxt "mp/lobby/doctrine/midf_ger_reserve#hint"
+msgid ""
+msgstr ""
+
+
+msgctxt "mp/lobby/doctrine/midf_usa_infantry"
+msgid "[<c(ff6a00)>Frontline</c>] Infantry"
+msgstr ""
+msgctxt "mp/lobby/doctrine/midf_usa_infantry#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/midf_usa_arty"
+msgid "[<c(ff6a00)>Frontline</c>] Artillery"
+msgstr ""
+msgctxt "mp/lobby/doctrine/midf_usa_arty#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/midf_usa_tank"
+msgid "[<c(ff6a00)>Frontline</c>] Tanks"
+msgstr ""
+msgctxt "mp/lobby/doctrine/midf_usa_tank#hint"
+msgid ""
+msgstr ""
+
+
+msgctxt "mp/lobby/doctrine/midf_fin_infantry"
+msgid "[<c(ff6a00)>Frontline</c>] Infantry"
+msgstr ""
+msgctxt "mp/lobby/doctrine/midf_fin_infantry#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/midf_fin_arty"
+msgid "[<c(ff6a00)>Frontline</c>] Artillery"
+msgstr ""
+msgctxt "mp/lobby/doctrine/midf_fin_arty#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/midf_fin_tank"
+msgid "[<c(ff6a00)>Frontline</c>] Tanks"
+msgstr ""
+msgctxt "mp/lobby/doctrine/midf_fin_tank#hint"
+msgid ""
+msgstr ""
+
+;//-----------------------------------------------MIDF END-----------------------------------------------//
+;//-----------------------------------------------LATEF START-----------------------------------------------//
+
+msgctxt "mp/lobby/doctrine/latef_rus_infantry"
+msgid "[<c(ff6a00)>Frontline</c>] Infantry"
+msgstr ""
+msgctxt "mp/lobby/doctrine/latef_rus_infantry#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/latef_rus_arty"
+msgid "[<c(ff6a00)>Frontline</c>] Artillery"
+msgstr ""
+msgctxt "mp/lobby/doctrine/latef_rus_arty#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/latef_rus_tank"
+msgid "[<c(ff6a00)>Frontline</c>] Tanks"
+msgstr ""
+msgctxt "mp/lobby/doctrine/latef_rus_tank#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/latef_rus_reserve"
+msgid "[<c(ff6a00)>Frontline</c>] Reserve"
+msgstr ""
+msgctxt "mp/lobby/doctrine/latef_rus_reserve#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/latef_rus_lendlease"
+msgid "[<c(ff6a00)>Frontline</c>] Lend-Lease"
+msgstr ""
+msgctxt "mp/lobby/doctrine/latef_rus_lendlease#hint"
+msgid ""
+msgstr ""
+
+
+msgctxt "mp/lobby/doctrine/latef_ger_infantry"
+msgid "[<c(ff6a00)>Frontline</c>] Infantry"
+msgstr ""
+msgctxt "mp/lobby/doctrine/latef_ger_infantry#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/latef_ger_arty"
+msgid "[<c(ff6a00)>Frontline</c>] Artillery"
+msgstr ""
+msgctxt "mp/lobby/doctrine/latef_ger_arty#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/latef_ger_tank"
+msgid "[<c(ff6a00)>Frontline</c>] Tanks"
+msgstr ""
+msgctxt "mp/lobby/doctrine/latef_ger_tank#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/latef_ger_reserve"
+msgid "[<c(ff6a00)>Frontline</c>] Reserve"
+msgstr ""
+msgctxt "mp/lobby/doctrine/latef_ger_reserve#hint"
+msgid ""
+msgstr ""
+
+
+msgctxt "mp/lobby/doctrine/latef_usa_infantry"
+msgid "[<c(ff6a00)>Frontline</c>] Infantry"
+msgstr ""
+msgctxt "mp/lobby/doctrine/latef_usa_infantry#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/latef_usa_arty"
+msgid "[<c(ff6a00)>Frontline</c>] Artillery"
+msgstr ""
+msgctxt "mp/lobby/doctrine/latef_usa_arty#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/latef_usa_tank"
+msgid "[<c(ff6a00)>Frontline</c>] Tanks"
+msgstr ""
+msgctxt "mp/lobby/doctrine/latef_usa_tank#hint"
+msgid ""
+msgstr ""
+
+
+msgctxt "mp/lobby/doctrine/latef_fin_infantry"
+msgid "[<c(ff6a00)>Frontline</c>] Infantry"
+msgstr ""
+msgctxt "mp/lobby/doctrine/latef_fin_infantry#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/latef_fin_arty"
+msgid "[<c(ff6a00)>Frontline</c>] Artillery"
+msgstr ""
+msgctxt "mp/lobby/doctrine/latef_fin_arty#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/latef_fin_tank"
+msgid "[<c(ff6a00)>Frontline</c>] Tanks"
+msgstr ""
+msgctxt "mp/lobby/doctrine/latef_fin_tank#hint"
+msgid ""
+msgstr ""
+
+
+;//-----------------------------------------------LATEF END-----------------------------------------------//

@@ -1,0 +1,265 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Name (desc_vehicles)\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgctxt "desc/entity/8mm_breda_37"
+msgid "Breda M37"
+msgstr ""
+
+msgctxt "desc/entity/8mm_breda_37_aa"
+msgid "Breda M37"
+msgstr ""
+
+msgctxt "desc/entity/8mm_fiat_revelli_m1914_35"
+msgid "Fiat–Revelli Modello 1935"
+msgstr ""
+
+msgctxt "desc/entity/heavy_mg_8mm_fiat"
+msgid "Fiat–Revelli Modello 1935"
+msgstr ""
+
+msgctxt "desc/entity/2cm_solothurn"
+msgid "2cm Solothurn"
+msgstr ""
+
+msgctxt "desc/entity/cannone_2065"
+msgid "Breda M35"
+msgstr ""
+
+msgctxt "desc/entity/cannone_4732"
+msgid "Cannone da 47/32"
+msgstr ""
+
+msgctxt "desc/entity/cannone_7527"
+msgid "Cannone da 75/27 mod. 11"
+msgstr ""
+
+msgctxt "desc/entity/cannone_7543"
+msgid "Cannone da 75/43"
+msgstr ""
+
+msgctxt "desc/entity/cannone_8855"
+msgid "Cannone da 88/55"
+msgstr ""
+
+msgctxt "desc/entity/cannone_9053"
+msgid "Cannone da 90/53"
+msgstr ""
+
+msgctxt "desc/entity/7_5cm_pak97_38"
+msgid "Cannone da 75/39"
+msgstr ""
+
+msgctxt "desc/entity/obice_7513"
+msgid "Obice da 75/13"
+msgstr ""
+
+msgctxt "desc/entity/81mm_brandt_ita"
+msgid "Mortaio da 81 Mod.35"
+msgstr ""
+
+msgctxt "desc/entity/obice_10017"
+msgid "Obice da 100/17"
+msgstr ""
+
+msgctxt "desc/entity/obice_210"
+msgid "Obice da 210/22"
+msgstr ""
+
+msgctxt "desc/entity/fiat626"
+msgid "Fiat 626"
+msgstr ""
+
+msgctxt "desc/entity/fiat626_inf"
+msgid "Fiat 626 (Light supply)"
+msgstr ""
+
+msgctxt "desc/entity/fiat626_art"
+msgid "Fiat 626 (Supply)"
+msgstr ""
+
+msgctxt "desc/entity/fiat626_eng"
+msgid "Fiat 626 (Engineer)"
+msgstr ""
+
+msgctxt "desc/entity/fiat626_fuel"
+msgid "Fiat 626 (Fuel)"
+msgstr ""
+
+msgctxt "desc/entity/lancia"
+msgid "Lancia 3RO"
+msgstr ""
+
+msgctxt "desc/entity/as37"
+msgid "Autoprotetto S37"
+msgstr ""
+
+msgctxt "desc/entity/ab40"
+msgid "Fiat-Ansaldo Autoblindo AB40"
+msgstr ""
+
+msgctxt "desc/entity/ab40_com"
+msgid "Fiat-Ansaldo Autoblindo AB40 Command"
+msgstr ""
+
+msgctxt "desc/entity/ab41"
+msgid "Fiat-Ansaldo Autoblindo AB41"
+msgstr ""
+
+msgctxt "desc/entity/ab43"
+msgid "Fiat-Ansaldo Autoblindo AB43"
+msgstr ""
+
+msgctxt "desc/entity/as42"
+msgid "AS.42 20/Sahariana"
+msgstr ""
+
+msgctxt "desc/entity/3ro"
+msgid "Lancia 3RO 90/53"
+msgstr ""
+
+msgctxt "desc/entity/autocannone10017"
+msgid "Autocannone 100/17"
+msgstr ""
+
+msgctxt "desc/entity/cv35"
+msgid "Carro Veloce L3/35"
+msgstr ""
+
+msgctxt "desc/entity/cv35cc"
+msgid "L3/35 Contro Carro"
+msgstr ""
+
+msgctxt "desc/entity/fiat3000"
+msgid "FIAT 3000"
+msgstr ""
+
+msgctxt "desc/entity/l640"
+msgid "Carro Armato L6/40"
+msgstr ""
+
+msgctxt "desc/entity/l640_37mm"
+msgid "Carro Armato L6/40 37mm"
+msgstr ""
+
+msgctxt "desc/entity/l640fl"
+msgid "Carro Armato L6/40 Flame"
+msgstr ""
+
+msgctxt "desc/entity/m1139"
+msgid "Carro Armato M11/39"
+msgstr ""
+
+msgctxt "desc/entity/m1340"
+msgid "Carro Armato M13/40"
+msgstr ""
+
+msgctxt "desc/entity/m1441"
+msgid "Carro Armato M14/41"
+msgstr ""
+
+msgctxt "desc/entity/m1542"
+msgid "Carro Armato M15/42"
+msgstr ""
+
+msgctxt "desc/entity/m15_contraereo"
+msgid "M15 Contraereo"
+msgstr ""
+
+msgctxt "desc/entity/m7518"
+msgid "Semovente M40 da 75/18"
+msgstr ""
+
+msgctxt "desc/entity/m7532"
+msgid "Semovente M41 da 75/32"
+msgstr ""
+
+msgctxt "desc/entity/m7534"
+msgid "Semovente M41 da 75/34"
+msgstr ""
+
+msgctxt "desc/entity/m7546"
+msgid "Semovente M43 da 75/46"
+msgstr ""
+
+msgctxt "desc/entity/m10525"
+msgid "Semovente M43 da 105/25"
+msgstr ""
+
+msgctxt "desc/entity/p2640"
+msgid "Carro Armato P26/40"
+msgstr ""
+
+msgctxt "desc/entity/p2640_18"
+msgid "P.40 75/18"
+msgstr ""
+
+msgctxt "desc/entity/pz3n_ita"
+msgid "PzKpfw III Ausf.N"
+msgstr ""
+
+msgctxt "desc/entity/pz4g_ita"
+msgid "PzKpfw IV Ausf.G"
+msgstr ""
+
+msgctxt "desc/entity/stug3g_ita"
+msgid "Sturmgeschuetz III Ausf.G"
+msgstr ""
+
+msgctxt "desc/entity/inf_crate_ita"
+msgid "Infantry supply crate"
+msgstr ""
+
+msgctxt "desc/entity/sm79"
+msgid "SM 79"
+msgstr ""
+
+msgctxt "desc/entity/sm79sparviero"
+msgid "SM 79 Sparviero"
+msgstr ""
+
+msgctxt "desc/entity/macchi200"
+msgid "Macchi 200"
+msgstr ""
+
+msgctxt "desc/entity/as42_2065"
+msgid "AS42 20mm"
+msgstr ""
+
+msgctxt "desc/entity/breda_61t"
+msgid "Breda 61T"
+msgstr ""
+
+msgctxt "desc/entity/m4732"
+msgid "Semovente 47/32"
+msgstr ""
+
+msgctxt "desc/entity/obice_14912"
+msgid "Obice da 149/12"
+msgstr ""
+
+msgctxt "desc/entity/cannone_10528"
+msgid "Cannone da 105/28"
+msgstr ""
+
+msgctxt "desc/entity/pz5d_ita"
+msgid "PzKpfw V Ausf.D"
+msgstr ""
+
+msgctxt "desc/entity/fi156_ita"
+msgid "Fi 156 Storch"
+msgstr ""
+
+msgctxt "desc/entity/cr_42"
+msgid "Fiat CR.42 Falco"
+msgstr ""

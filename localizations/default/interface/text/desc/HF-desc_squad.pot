@@ -1,0 +1,606 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell Soviet Squads\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.4.2\n"
+
+msgctxt "desc/squad/single_minedetector(rus)"
+msgid "Sappers"
+msgstr ""
+
+msgctxt "desc/squad/single_minedetector(ger)"
+msgid "Sappers"
+msgstr ""
+
+msgctxt "desc/squad/single_minedetector(usa)"
+msgid "Sappers"
+msgstr ""
+
+msgctxt "desc/squad/single_minedetector(fin)"
+msgid "Sappers"
+msgstr ""
+
+msgctxt "desc/squad/single_at_miner1(rus)"
+msgid "AT Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_at_miner1(ger)"
+msgid "AT Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_at_miner2(rus)"
+msgid "AT Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_at_miner2(ger)"
+msgid "AT Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_ap_miner1(rus)"
+msgid "AP Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_ap_miner1(ger)"
+msgid "AP Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_ap_miner2(rus)"
+msgid "AP Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_ap_miner2(ger)"
+msgid "AP Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer1(rus)"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer_1(rus)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer2_1(rus)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer_1(usa)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer_1(ger)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer2_1(ger)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer2_1(usa)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer2_2(ger)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer2_2(usa)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer2_2(rus)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer3_1(rus)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer3_1_l(rus)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer3_1(ger)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer3_1_l(ger)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer2_2(fin)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer2_2_e(ger)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer2_2_e(usa)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer2_2_e(rus)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer2_2_e(fin)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer2_2_l(ger)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer2_2_l(usa)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer2_2_l(rus)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer2_2_l(fin)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer_1(fin)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer2_1(fin)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer1(ger)"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer2(rus)"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer2(ger)"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer2"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer2(usa)"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer1(usa)"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer3(rus)"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer3_l(rus)"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer3(ger)"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer3_l(ger)"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_ap_miner2(usa)"
+msgid "AP Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_ap_miner1(usa)"
+msgid "AP Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_at_miner2(usa)"
+msgid "AT Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_at_miner1(usa)"
+msgid "AT Miners"
+msgstr ""
+
+;///////////////
+
+msgctxt "desc/squad/single_minedetector_e(rus)"
+msgid "Sappers"
+msgstr ""
+
+msgctxt "desc/squad/single_minedetector_e(ger)"
+msgid "Sappers"
+msgstr ""
+
+msgctxt "desc/squad/single_minedetector_e(usa)"
+msgid "Sappers"
+msgstr ""
+
+msgctxt "desc/squad/single_minedetector_e(fin)"
+msgid "Sappers"
+msgstr ""
+
+msgctxt "desc/squad/single_at_miner1_e(rus)"
+msgid "AT Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_at_miner1_e(ger)"
+msgid "AT Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_at_miner2_e(rus)"
+msgid "AT Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_at_miner2_e(ger)"
+msgid "AT Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_ap_miner1_e(rus)"
+msgid "AP Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_ap_miner1_e(ger)"
+msgid "AP Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_ap_miner1_e(fin)"
+msgid "AP Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_at_miner1_e(fin)"
+msgid "AT Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_ap_miner2_e(rus)"
+msgid "AP Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_ap_miner2_e(ger)"
+msgid "AP Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer1_e(rus)"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer_1_e(rus)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer2_1_e(rus)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer_1_e(usa)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer_1_e(ger)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer2_1_e(ger)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer2_1_e(usa)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer_1_e(fin)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer2_1_e(fin)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer1_e(fin)"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer1_e(ger)"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer2_e(rus)"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer2_e(ger)"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer2_e"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer2_e(usa)"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer1_e(usa)"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_ap_miner2_e(usa)"
+msgid "AP Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_ap_miner1_e(usa)"
+msgid "AP Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_at_miner2_e(usa)"
+msgid "AT Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_at_miner1_e(usa)"
+msgid "AT Miners"
+msgstr ""
+
+;///////////////
+
+msgctxt "desc/squad/single_minedetector_l(rus)"
+msgid "Sappers"
+msgstr ""
+
+msgctxt "desc/squad/single_minedetector_l(ger)"
+msgid "Sappers"
+msgstr ""
+
+msgctxt "desc/squad/single_minedetector_l(usa)"
+msgid "Sappers"
+msgstr ""
+
+msgctxt "desc/squad/single_minedetector_l(fin)"
+msgid "Sappers"
+msgstr ""
+
+msgctxt "desc/squad/single_at_miner1_l(rus)"
+msgid "AT Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_at_miner1_l(ger)"
+msgid "AT Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_at_miner2_l(rus)"
+msgid "AT Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_at_miner2_l(ger)"
+msgid "AT Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_ap_miner1_l(rus)"
+msgid "AP Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_ap_miner1_l(fin)"
+msgid "AP Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_ap_miner1_l(ger)"
+msgid "AP Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_ap_miner2_l(rus)"
+msgid "AP Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_ap_miner2_l(ger)"
+msgid "AP Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer1_l(rus)"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer1_l(fin)"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer_1_l(rus)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer2_1_l(rus)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer_1_l(usa)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer_1_l(ger)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer2_1_l(ger)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer2_1_l(usa)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer_1_l(fin)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer2_1_l(fin)"
+msgid "Engineer (Light)"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer1_l(ger)"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer2_l(rus)"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer2_l(ger)"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer2_l(fin)"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer2_l(usa)"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer1_l(usa)"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_ap_miner2_l(usa)"
+msgid "AP Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_ap_miner1_l(usa)"
+msgid "AP Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_at_miner2_l(usa)"
+msgid "AT Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_at_miner1_l(usa)"
+msgid "AT Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_at_miner1_l(fin)"
+msgid "AT Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_at_miner_e(rus)"
+msgid "AT Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_at_miner_e(ger)"
+msgid "AT Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_at_miner_e(usa)"
+msgid "AT Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_at_miner_e(fin)"
+msgid "AT Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_ap_miner_e(usa)"
+msgid "AP Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_ap_miner_e(ger)"
+msgid "AP Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_ap_miner_e(rus)"
+msgid "AP Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_ap_miner_e(fin)"
+msgid "AP Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer_e(rus)"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer_e(ger)"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer_e(usa)"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer_e(fin)"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_at_miner_l(rus)"
+msgid "AT Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_at_miner_l(ger)"
+msgid "AT Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_at_miner_l(usa)"
+msgid "AT Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_at_miner_l(fin)"
+msgid "AT Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_ap_miner_l(rus)"
+msgid "AP Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_ap_miner_l(ger)"
+msgid "AP Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_ap_miner_l(usa)"
+msgid "AP Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_ap_miner_l(fin)"
+msgid "AP Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer_l(rus)"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer_l(ger)"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer_l(usa)"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer_l(fin)"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_ap_miner1(fin)"
+msgid "AP Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_at_miner1(fin)"
+msgid "AT Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer2(fin)"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer1(fin)"
+msgid "Field Engineer"
+msgstr ""

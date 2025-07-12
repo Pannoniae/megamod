@@ -1,0 +1,102 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell Generic weaponry\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.4.2\n"
+
+msgctxt "desc/weapon/88mm_kwk36_vet"
+msgid "8.8cm KwK 36 L/56 [Veteran]"
+msgstr ""
+
+msgctxt "desc/weapon/75mm_kwk42_vet"
+msgid "7.5cm KwK 42 L/70 [Veteran]"
+msgstr ""
+
+msgctxt "desc/weapon/122mm_d25_vet"
+msgid "122mm D-25T L/48.5 [Veteran]"
+msgstr ""
+
+msgctxt "desc/weapon/37mm_AAC_L44"
+msgid "37mm AAC L/44"
+msgstr ""
+
+msgctxt "desc/weapon/37mm_M1924"
+msgid "37mm M1924"
+msgstr ""
+
+msgctxt "desc/weapon/37mm_M1916"
+msgid "37mm M1916"
+msgstr ""
+
+msgctxt "desc/weapon/30mm_mk103_x2"
+msgid "3cm MK 103 Zwilling"
+msgstr ""
+
+msgctxt "desc/weapon/30mm_mk108_x2"
+msgid "3cm MK 108 Zwilling"
+msgstr ""
+
+msgctxt "desc/weapon/230mm_petard"
+msgid "230.6mm Petard Mortar"
+msgstr ""
+
+msgctxt "desc/weapon/25mm_72k_x2"
+msgid "Dual 25mm M1940 L/76.6"
+msgstr ""
+
+msgctxt "desc/weapon/105mm_stuh42_late"
+msgid "10.5cm StuH 42 L/28"
+msgstr ""
+
+msgctxt "desc/weapon/37mm_ps1"
+msgid "37mm PS-1 L/21"
+msgstr ""
+
+msgctxt "desc/weapon/borgward"
+msgid "Borgward B IV"
+msgstr ""
+
+msgctxt "desc/ammo/borgward 450kg"
+msgid "Borgward 450kg Explosive"
+msgstr ""
+
+msgctxt "desc/ammo/borgward"
+msgid "Remote Control Explosive"
+msgstr ""
+
+msgctxt "desc/weapon/fedorov_avtomat"
+msgid "Fedorov Avtomat"
+msgstr ""
+
+msgctxt "desc/ammo/6mm_arisaka"
+msgid "6.5-mm Fedorov magazine"
+msgstr ""
+
+msgctxt "desc/stuff/fedorov_avtomat_ammo"
+msgid "6.5-mm Fedorov magazine"
+msgstr ""
+
+msgctxt "desc/weapon/panzershreck_54_x6"
+msgid "6x Panzerschreck RPZB 54"
+msgstr ""
+
+msgctxt "desc/weapon/76mm_s1"
+msgid "76mm S-1 L/41.5"
+msgstr ""
+
+msgctxt "desc/weapon/122mm_a19s"
+msgid "122mm A-19S L/48.5"
+msgstr ""
+
+msgctxt "desc/weapon/shkas"
+msgid "ShKAS"
+msgstr ""

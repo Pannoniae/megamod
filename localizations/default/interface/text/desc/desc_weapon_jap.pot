@@ -1,0 +1,369 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Name (desc_weapon)\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgctxt "desc/weapon/20mm_type2"
+msgid "20mm Type 2"
+msgstr ""
+
+msgctxt "desc/weapon/20mm_type97"
+msgid "20mm Type 97"
+msgstr ""
+
+msgctxt "desc/weapon/20mm_type98"
+msgid "20mm Type 98"
+msgstr ""
+
+msgctxt "desc/weapon/37mm_type38"
+msgid "37mm Type 94"
+msgstr ""
+
+msgctxt "desc/weapon/37mm_type100"
+msgid "37mm Type 100"
+msgstr ""
+
+msgctxt "desc/weapon/37mm_type11"
+msgid "37mm Type 11"
+msgstr ""
+
+msgctxt "desc/weapon/40mm_type5"
+msgid "40mm Type 5"
+msgstr ""
+
+msgctxt "desc/weapon/47mm_type1"
+msgid "47mm Type 1"
+msgstr ""
+
+msgctxt "desc/weapon/57mm_type90"
+msgid "57mm Type 90"
+msgstr ""
+
+msgctxt "desc/weapon/57mm_type97"
+msgid "57mm Type 97"
+msgstr ""
+
+msgctxt "desc/weapon/57mm_type3_shin"
+msgid "57mm Shin"
+msgstr ""
+
+msgctxt "desc/weapon/70mm_type92"
+msgid "70mm Type 92"
+msgstr ""
+
+msgctxt "desc/weapon/70mm_type94"
+msgid "70mm Type 94"
+msgstr ""
+
+msgctxt "desc/weapon/75mm_m1897a5"
+msgid "75mm M1897a4"
+msgstr ""
+
+msgctxt "desc/weapon/75mm_type3"
+msgid "75mm Type 3"
+msgstr ""
+
+msgctxt "desc/weapon/75mm_type5"
+msgid "75mm Type I Model II"
+msgstr ""
+
+msgctxt "desc/weapon/75mm_type5ii"
+msgid "75mm Type II Model I"
+msgstr ""
+
+msgctxt "desc/weapon/75mm_type90"
+msgid "75mm Type 90"
+msgstr ""
+
+msgctxt "desc/weapon/75mm_type99"
+msgid "75mm Type 99"
+msgstr ""
+
+msgctxt "desc/weapon/88mm_type99"
+msgid "88mm Type 99"
+msgstr ""
+
+msgctxt "desc/weapon/105mm_type6"
+msgid "105mm Type 6"
+msgstr ""
+
+msgctxt "desc/weapon/105mm_type91"
+msgid "105mm Type 91"
+msgstr ""
+
+msgctxt "desc/weapon/120mm_type10"
+msgid "120mm Type 10"
+msgstr ""
+
+msgctxt "desc/weapon/120mm_type97"
+msgid "120mm Type 97"
+msgstr ""
+
+msgctxt "desc/weapon/120mm_type38"
+msgid "120mm Type 38"
+msgstr ""
+
+msgctxt "desc/weapon/150mm_type96"
+msgid "150mm Type 96"
+msgstr ""
+
+msgctxt "desc/weapon/150mm_type38"
+msgid "150mm Type 38"
+msgstr ""
+
+msgctxt "desc/weapon/flame_thrower_g"
+msgid "Flamethrower"
+msgstr ""
+
+msgctxt "desc/weapon/mp28_50"
+msgid "MP 28 | <c(FFC923)>Cartridge :9 × 19 mm Parabellum</c>"
+msgstr ""
+
+msgctxt "desc/weapon/t4_20cm"
+msgid "200mm Type 4 rocket"
+msgstr ""
+
+msgctxt "desc/weapon/t3_30cm"
+msgid "300mm Type 3 rocket"
+msgstr ""
+
+msgctxt "desc/weapon/t94"
+msgid "Type 94"
+msgstr ""
+
+msgctxt "desc/weapon/type100smg"
+msgid "Type 100 SMG | <c(FFC923)>Cartridge :8×22mm Nambu</c>"
+msgstr ""
+
+msgctxt "desc/weapon/type93hmg"
+msgid "Type 93 HMG | <c(FFC923)>Cartridge :13.2×99mm</c>"
+msgstr ""
+
+msgctxt "desc/weapon/type93hmg_x2"
+msgid "2 x Type 93 HMG | <c(FFC923)>Cartridge :13.2×99mm</c>"
+msgstr ""
+
+msgctxt "desc/weapon/type1hmg"
+msgid "Type 1 MG | <c(FFC923)>Cartridge :7.7×58mm SR Arisaka</c>"
+msgstr ""
+
+msgctxt "desc/weapon/type92lewis"
+msgid "Type 92 Lewis | <c(FFC923)>Cartridge :7.7×58mm SR Arisaka</c>"
+msgstr ""
+
+
+msgctxt "desc/weapon/type2rifle"
+msgid "Type 2 rifle | <c(FFC923)>Cartridge :7.7×58mm SR Arisaka</c>"
+msgstr ""
+
+msgctxt "desc/weapon/type2smg"
+msgid "Type 2 SMG | <c(FFC923)>Cartridge :8×22mm Nambu</c>"
+msgstr ""
+
+msgctxt "desc/weapon/type2_120mm"
+msgid "120mm Type 2"
+msgstr ""
+
+msgctxt "desc/weapon/type4_200mm"
+msgid "200mm Type 4"
+msgstr ""
+
+msgctxt "desc/weapon/type99lmg"
+msgid "Type 99 MG | <c(FFC923)>Cartridge :7.7×58mm SR Arisaka</c>"
+msgstr ""
+
+msgctxt "desc/weapon/type99rifle"
+msgid "Type 99 rifle | <c(FFC923)>Cartridge :7.7×58mm SR Arisaka</c>"
+msgstr ""
+
+msgctxt "desc/weapon/type99rifle_s"
+msgid "Type 99 sniper | <c(FFC923)>Cartridge :7.7×58mm SR Arisaka</c>"
+msgstr ""
+
+msgctxt "desc/weapon/type99rifle_b"
+msgid "Type 99 rifle | <c(FFC923)>Cartridge :7.7×58mm SR Arisaka</c>"
+msgstr ""
+
+msgctxt "desc/weapon/type99rifle_at"
+msgid "Type 99 rifle/Type 2 grenade launcher"
+msgstr ""
+
+msgctxt "desc/weapon/type99rifle_launcher"
+msgid "Type 99 rifle/Type 100 grenade launcher"
+msgstr ""
+
+msgctxt "desc/weapon/type_4at"
+msgid "Type 4 RPG"
+msgstr ""
+
+msgctxt "desc/weapon/type_97_antitank"
+msgid "Type 97 AT-Rifle | <c(FFC923)>Cartridge :</c>"
+msgstr ""
+
+msgctxt "desc/weapon/nambu_type91"
+msgid "Type 91 | <c(FFC923)>Cartridge :6.5×50mm SR Arisaka</c>"
+msgstr ""
+
+msgctxt "desc/weapon/sigm1920"
+msgid "SIG Bergmann 1920 | <c(FFC923)>Cartridge :7,65 × 21 mm Parabellum</c>"
+msgstr ""
+
+msgctxt "desc/weapon/vickers7_7"
+msgid "Vickers | <c(FFC923)>Cartridge :7.7×58mm SR Arisaka</c>"
+msgstr ""
+
+msgctxt "desc/weapon/type96lmg"
+msgid "Type 96 MG | <c(FFC923)>Cartridge :6.5×50mm SR Arisaka</c>"
+msgstr ""
+
+msgctxt "desc/weapon/type38rifle_b"
+msgid "Type 38 rifle | <c(FFC923)>Cartridge :6.5×50mm SR Arisaka</c>"
+msgstr ""
+
+msgctxt "desc/weapon/type38rifle_s"
+msgid "Type 38 sniper rifle | <c(FFC923)>Cartridge :6.5×50mm SR Arisaka</c>"
+msgstr ""
+
+msgctxt "desc/weapon/type38carbine"
+msgid "Type 38 Carbine | <c(FFC923)>Cartridge :6.5×50mm SR Arisaka</c>"
+msgstr ""
+
+msgctxt "desc/weapon/type38rifle"
+msgid "Type 38 Rifle | <c(FFC923)>Cartridge :6.5×50mm SR Arisaka</c>"
+msgstr ""
+
+msgctxt "desc/weapon/type100"
+msgid "Type 100 SMG | <c(FFC923)>Cartridge :8×22mm Nambu</c>"
+msgstr ""
+
+msgctxt "desc/weapon/75mm_type4"
+msgid "75mm Type 4"
+msgstr ""
+
+msgctxt "desc/weapon/type4"
+msgid "Type 4 | <c(FFC923)>Cartridge :6.5×50mm SR Arisaka</c>"
+msgstr ""
+
+msgctxt "desc/weapon/20mm_type_a"
+msgid "20mm Type A"
+msgstr ""
+
+msgctxt "desc/weapon/knee_mortar_type89"
+msgid "Knee Mortar Type 89"
+msgstr ""
+msgctxt "desc/weapon/type4rifle"
+msgid "Type 4 rifle| <c(FFC923)>Cartridge :7.7×58mm SR Arisaka</c>"
+msgstr ""
+
+msgctxt "desc/weapon/type44rifle"
+msgid "Type 44 rifle| <c(FFC923)>Cartridge :6.5×50mm SR Arisaka</c>"
+msgstr ""
+
+msgctxt "desc/weapon/type97rifle_s"
+msgid "Type 97 sniper | <c(FFC923)>Cartridge :6.5×50mm SR Arisaka</c>"
+msgstr ""
+
+msgctxt "desc/weapon/240mm_type45"
+msgid "240mm"
+msgstr ""
+
+msgctxt "desc/weapon/200mm_type3"
+msgid "200mm"
+msgstr ""
+
+msgctxt "desc/weapon/75mm_type41"
+msgid "75mm Type 41"
+msgstr ""
+
+msgctxt "desc/weapon/bomb_dropper_type94"
+msgid "Type 94 Mod 5 (50 kg)"
+msgstr ""
+
+msgctxt "desc/weapon/bomb_dropper_type97"
+msgid "Type 97 N6 (60 kg)"
+msgstr ""
+
+msgctxt "desc/weapon/type97mg"
+msgid "Type 97 MG | <c(FFC923)>Cartridge :.303 British</c>"
+msgstr ""
+
+msgctxt "desc/weapon/20mm_type99"
+msgid "20mm Type 99"
+msgstr ""
+
+msgctxt "desc/weapon/type97mg_x2"
+msgid "Type 97 MGx2 | <c(FFC923)>Cartridge :.303 British</c>"
+msgstr ""
+
+msgctxt "desc/weapon/type98mg"
+msgid "Type 98 MG | <c(FFC923)>Cartridge :7.7×58mm SR Arisaka</c>"
+msgstr ""
+
+msgctxt "desc/weapon/type11lmg"
+msgid "Type 11 MG | <c(FFC923)>Cartridge :6.5×50mm SR Arisaka</c>"
+msgstr ""
+
+msgctxt "desc/weapon/type92"
+msgid "Type 92 | <c(FFC923)>Cartridge :7.7×58mm SR Arisaka</c>"
+msgstr ""
+
+msgctxt "desc/weapon/vickers_inv"
+msgid "Vickers | <c(FFC923)>Cartridge :.303 British</c>"
+msgstr ""
+
+msgctxt "desc/weapon/type97tmg"
+msgid "Type 97 HMG | <c(FFC923)>Cartridge :7.7×58mm SR Arisaka</c>"
+msgstr ""
+
+msgctxt "desc/weapon/37mm_type94"
+msgid "37mm Type 94"
+msgstr ""
+
+msgctxt "desc/weapon/37mm_type94_at"
+msgid "37mm Type 94"
+msgstr ""
+
+msgctxt "desc/weapon/mortar150"
+msgid "15cm mortar"
+msgstr ""
+
+msgctxt "desc/weapon/shisei"
+msgid "15cm rockets"
+msgstr ""
+
+msgctxt "desc/weapon/type44_carbine"
+msgid "Type 44 Carbine | <c(FFC923)>Cartridge :6.5×50mm SR Arisaka</c>"
+msgstr ""
+
+msgctxt "desc/weapon/75mm_type88"
+msgid "75mm Type 88"
+msgstr ""
+
+msgctxt "desc/weapon/105mm_type92"
+msgid "105mm Type 92"
+msgstr ""
+
+msgctxt "desc/weapon/mannlicher1903_carabine"
+msgid "Mannlicher M1903/14 Carbine | <c(FFC923)>Cartridge :6.5×54mm Mannlicher–Schonauer</c>"
+msgstr ""
+
+msgctxt "desc/weapon/type2smg_b"
+msgid "Type 2 SMG | <c(FFC923)>Cartridge :8×22mm Nambu</c>"
+msgstr ""
+
+msgctxt "desc/weapon/nambu"
+msgid "Type 14 Nambu | <c(FFC923)>Cartridge :8×22mm Nambu</c>"
+msgstr ""
+
+msgctxt "desc/weapon/type97lmg"
+msgid "Type 97 LMG | <c(FFC923)>Cartridge :7.7×58mm SR Arisaka</c>"
+msgstr ""

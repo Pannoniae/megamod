@@ -1,0 +1,137 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Name (desc_weapon)\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgctxt "desc/weapon/browning_wz28"
+msgid "Browning wz. 28 | <c(FFC923)>Cartridge :7.92×57mm Mauser</c>"
+msgstr ""
+
+msgctxt "desc/weapon/browning_wz30"
+msgid "Browning wz. 30 | <c(FFC923)>Cartridge :7.92×57mm Mauser</c>"
+msgstr ""
+
+msgctxt "desc/weapon/browning_wz30x2"
+msgid "2x wz. 30 Browning | <c(FFC923)>Cartridge :7.92×57mm Mauser</c>"
+msgstr ""
+
+msgctxt "desc/weapon/kmwz33"
+msgid "KM wz. 33"
+msgstr ""
+
+msgctxt "desc/weapon/kmwz33_x4"
+msgid "4 x KM wz. 33  | <c(FFC923)>Cartridge :7.92×57mm Mauser</c>"
+msgstr ""
+
+msgctxt "desc/weapon/pwuwz33"
+msgid "PWU wz. 33 | <c(FFC923)>Cartridge :7.92×57mm Mauser</c>"
+msgstr ""
+
+msgctxt "desc/weapon/wz08_15"
+msgid "wz. 15/08 | <c(FFC923)>Cartridge :7.92×57mm Mauser</c>"
+msgstr ""
+
+msgctxt "desc/weapon/granatnik_wz36" 
+msgid "Granatnik wz.36"
+msgstr ""
+
+msgctxt "desc/weapon/vis_wz35"
+msgid "VIS wz. 35 | <c(FFC923)>Cartridge :9×19mm Parabellum</c>"
+msgstr ""
+
+msgctxt "desc/weapon/karabinek_wz29"
+msgid "Mauser wz. 29 | <c(FFC923)>Cartridge :7.92×57mm Mauser</c>"
+msgstr ""
+
+msgctxt "desc/weapon/karabin_wz98a"
+msgid "Mauser wz. 98a | <c(FFC923)>Cartridge :7.92×57mm Mauser</c>"
+msgstr ""
+
+msgctxt "desc/weapon/karabin_wz98"
+msgid "Mauser wz. 98 | <c(FFC923)>Cartridge :7.92×57mm Mauser</c>"
+msgstr ""
+
+msgctxt "desc/weapon/karabinek_wz98"
+msgid "Mauser wz. 98 | <c(FFC923)>Cartridge :7.92×57mm Mauser</c>"
+msgstr ""
+
+msgctxt "desc/weapon/karabinek_wz91_98_25"
+msgid "Karabinek wz. 91/98/25 | <c(FFC923)>Cartridge :7.92×57mm Mauser</c>"
+msgstr ""
+
+msgctxt "desc/weapon/karabin_wz98pso"
+msgid "Mauser wz. 98 | <c(FFC923)>Cartridge :7.92×57mm Mauser</c>"
+msgstr ""
+
+msgctxt "desc/weapon/polish_ptr_ur"
+msgid "wz. 35 UR | <c(FFC923)>Cartridge :7.92×107mm DS</c>"
+msgstr ""
+
+msgctxt "desc/weapon/suomi_m31"
+msgid "Suomi KP-31 | <c(FFC923)>Cartridge :9 × 19 mm Parabellum</c>"
+msgstr ""
+
+msgctxt "desc/weapon/mors_wz39"
+msgid "Mors wz. 39 | <c(FFC923)>Cartridge :9×19mm Parabellum</c>"
+msgstr ""
+
+msgctxt "desc/weapon/20mm_fka_wz"
+msgid "Nkm 20mm"
+msgstr ""
+
+msgctxt "desc/weapon/37mm_wz18"
+msgid "37mm wz. 18"
+msgstr ""
+
+msgctxt "desc/weapon/37mm_wz36"
+msgid "37mm wz. 36"
+msgstr ""
+
+msgctxt "desc/weapon/37mm_wz37"
+msgid "37mm wz. 37"
+msgstr ""
+
+msgctxt "desc/weapon/40mm_wz36"
+msgid "40mm wz. 36"
+msgstr ""
+
+msgctxt "desc/weapon/47mm_va_wze"
+msgid "OQF 3-pdr"
+msgstr ""
+
+msgctxt "desc/weapon/75mm_wz_97"
+msgid "75mm wz. 1897"
+msgstr ""
+
+msgctxt "desc/weapon/75mm_wz_02"
+msgid "75mm wz. 1902"
+msgstr ""
+
+msgctxt "desc/weapon/75mm_wz36"
+msgid "75mm wz.36"
+msgstr ""
+
+msgctxt "desc/weapon/105mm_wz_13"
+msgid "105mm wz.29"
+msgstr ""
+
+msgctxt "desc/weapon/105mm_wz_29"
+msgid "105mm wz.13"
+msgstr ""
+
+msgctxt "desc/weapon/120mm_wz_78"
+msgid "120mm wz.78"
+msgstr ""
+
+msgctxt "desc/weapon/155mm_wz_17"
+msgid "155mm wz. 1917"
+msgstr ""

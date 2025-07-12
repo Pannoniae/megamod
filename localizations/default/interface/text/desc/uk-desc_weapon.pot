@@ -1,0 +1,217 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Name (desc_weapon)\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgctxt "desc/weapon/vickers_k_mg"
+msgid "Vickers K (VGO)"}
+msgstr ""
+
+msgctxt "desc/weapon/20mm_oerlikon"
+msgid "20mm Oerlikon"
+msgstr ""
+
+msgctxt "desc/weapon/20mm_hispano" 
+msgid "20mm Hispano"
+msgstr ""
+
+msgctxt "desc/weapon/20mm_oerlikon_x2"
+msgid "2 x 20mm Oerlikon"
+msgstr ""
+
+msgctxt "desc/weapon/20mm_polsten_x3"
+msgid "3 x 20mm Polsten"
+msgstr ""
+
+msgctxt "desc/weapon/40mm_qf_aa"
+msgid "40mm M1 Bofors L/60"
+msgstr ""
+
+msgctxt "desc/weapon/40mm_oqf_at"
+msgid "40mm QF 2pdr"
+msgstr ""
+
+msgctxt "desc/weapon/40mm_oqf2pdr_2"
+msgid "40mm QF 2pdr"
+msgstr ""
+
+msgctxt "desc/weapon/57mm_oqf"
+msgid "57mm QF 6pdr Mk.III"
+msgstr ""
+
+msgctxt "desc/weapon/57mm_oqf_at"
+msgid "57mm QF 6pdr"
+msgstr ""
+
+msgctxt "desc/weapon/57mm_oqf_mkv"
+msgid "57mm QF 6pdr Mk.V"
+msgstr ""
+
+msgctxt "desc/weapon/75mm_oqf"
+msgid "75mm QF Mk.V"
+msgstr ""
+
+msgctxt "desc/weapon/75mm_hv"
+msgid "75mm Vickers HV"
+msgstr ""
+
+msgctxt "desc/weapon/76mm_qf"
+msgid "76mm QF Mk.IV"
+msgstr ""
+
+msgctxt "desc/weapon/76mm_oqf20cwt"
+msgid "76mm OQF 3in 20cwt"
+msgstr ""
+
+msgctxt "desc/weapon/84mm_oqf"
+msgid "84mm QF18"
+msgstr ""
+
+msgctxt "desc/weapon/88mm_oqf"
+msgid "88mm OQF Mk. II"
+msgstr ""
+
+msgctxt "desc/weapon/88mm_oqf2"
+msgid "88mm OQF Mk. II"
+msgstr ""
+
+msgctxt "desc/weapon/114mm_bl"
+msgid "114mm BL 4.5</c>"
+msgstr ""
+
+msgctxt "desc/weapon/152mm_bl6"
+msgid "152mm BL 6</c>"
+msgstr ""
+
+msgctxt "desc/weapon/50mm_mk2"
+msgid "2-inch Mk II"
+msgstr ""
+
+msgctxt "desc/weapon/76mm_mk2"
+msgid "3-inch Mk II"
+msgstr ""
+
+msgctxt "desc/weapon/107mm_mk2"
+msgid "107mm Mk II"
+msgstr ""
+
+msgctxt "desc/weapon/13mm_vickers50"
+msgid "Vickers .50 | <c(FFC923)>Cartridge :12.7×81mm</c>"
+msgstr ""
+
+msgctxt "desc/weapon/bren"
+msgid "Bren | <c(FFC923)>Cartridge :.303 British</c>"
+msgstr ""
+
+msgctxt "desc/weapon/bren_no_bipod"
+msgid "Bren | <c(FFC923)>Cartridge :.303 British</c>"
+msgstr ""
+
+msgctxt "desc/weapon/besa_mg" 
+msgid "Besa | <c(FFC923)>Cartridge :7.92×57mm</c>"
+msgstr ""
+
+msgctxt "desc/weapon/besa_tmg" 
+msgid "Besa | <c(FFC923)>Cartridge :7.92×57mm</c>"
+msgstr ""
+
+msgctxt "desc/weapon/em3"
+msgid "Lee-Enfield Mk.III | <c(FFC923)>Cartridge :.303 British</c>"
+msgstr ""
+
+msgctxt "desc/weapon/em4"
+msgid "Lee-Enfield No. 4 Mk.I | <c(FFC923)>Cartridge :.303 British</c>"
+msgstr ""
+
+msgctxt "desc/weapon/em4_mark1"
+msgid "Rifle grenade No.4"
+msgstr ""
+
+msgctxt "desc/weapon/piat"
+msgid "P.I.A.T. Mk.I"
+msgstr ""
+
+msgctxt "desc/weapon/lanchester"
+msgid "Lanchester Mk.I | <c(FFC923)>Cartridge :9×19mm Parabellum</c>"
+msgstr ""
+
+msgctxt "desc/weapon/sten"
+msgid "Sten Mk.III | <c(FFC923)>Cartridge :9×19mm Parabellum</c>"
+msgstr ""
+
+msgctxt "desc/weapon/sten_v"
+msgid "Sten Mk.V | <c(FFC923)>Cartridge :9×19mm Parabellum</c>"
+msgstr ""
+
+msgctxt "desc/weapon/sten_mk2"
+msgid "Sten Mk.II | <c(FFC923)>Cartridge :9×19mm Parabellum</c>"
+msgstr ""
+
+msgctxt "desc/weapon/sten_mkii"
+msgid "Sten Mk.II | <c(FFC923)>Cartridge :9×19mm Parabellum</c>"
+msgstr ""
+
+msgctxt "desc/weapon/webley"
+msgid "Webley | <c(FFC923)>Cartridge :.455 Webley</c>"
+msgstr ""
+
+msgctxt "desc/weapon/vickers_mki"
+msgid "Vickers | <c(FFC923)>Cartridge :.303 British</c>"
+msgstr ""
+
+msgctxt "desc/weapon/flamer_t_eng"
+msgid "Flamer Ronson"
+msgstr ""
+
+msgctxt "desc/weapon/15mm_besa"
+msgid "15mm BESA"
+msgstr ""
+
+msgctxt "desc/weapon/76mm_qf3"
+msgid "QF 3 inch"
+msgstr ""
+
+msgctxt "desc/weapon/183mm_gun"
+msgid "183mm"
+msgstr ""
+
+msgctxt "desc/weapon/tulip"
+msgid "76mm Tulip rockets"
+msgstr ""
+
+msgctxt "desc/weapon/tulipx4"
+msgid "76mm Tulip rockets x 4"
+msgstr ""
+
+msgctxt "desc/weapon/lm"
+msgid "76mm RP-3 rockets"
+msgstr ""
+
+msgctxt "desc/weapon/bomb_dropper_x6"
+msgid "Bomb dropper"
+msgstr ""
+
+msgctxt "desc/weapon/boyes"
+msgid "Boyes .55 Mk.I | <c(FFC923)>Cartridge :.55 Boys</c>"
+msgstr ""
+
+msgctxt "desc/weapon/sten_v_silencer"
+msgid "Sten Mk.VI Silencer | <c(FFC923)>Cartridge :9×19mm Parabellum</c>"
+msgstr ""
+
+msgctxt "desc/weapon/mortar_mkvii"
+msgid "Mortar MK VII"
+msgstr ""
+
+msgctxt "desc/weapon/em4_s"
+msgid "Lee-Enfield No. 4 sniper | <c(FFC923)>Cartridge :.303 British</c>"
+msgstr ""

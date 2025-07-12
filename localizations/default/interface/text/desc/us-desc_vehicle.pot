@@ -1,0 +1,469 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Name (desc_vehicles)\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgctxt "desc/entity/us-0_3cal_m1917a1_aa"
+msgid ".30 cal Browning M1917A1"
+msgstr ""
+
+msgctxt "desc/entity/us-0_3cal_m1917a1"
+msgid ".30 cal Browning M1917A1"
+msgstr ""
+
+msgctxt "desc/entity/us-0_3cal_m1919a4"
+msgid ".30 cal Browning M1919a4"
+msgstr ""
+
+msgctxt "desc/entity/us-0_5cal_m2hb"
+msgid ".50 cal Browning M2HB"
+msgstr ""
+
+msgctxt "desc/entity/heavy_mg_us-0_3cal"
+msgid "30 cal Browning M1917A1"
+msgstr ""
+
+msgctxt "desc/entity/us-0_5cal_maxson"
+msgid ".50 cal M45 Maxson AA"
+msgstr ""
+
+msgctxt "desc/entity/us-105_mm_m2a1l"
+msgid "105mm M2A1 L"
+msgstr ""
+
+msgctxt "desc/entity/us-107_mm_m2"
+msgid "107mm M2"
+msgstr ""
+
+msgctxt "desc/entity/us-155_mm_m1917a4"
+msgid "155mm M1917A4"
+msgstr ""
+
+msgctxt "desc/entity/us-155_mm_m1"
+msgid "155mm M1"
+msgstr ""
+
+msgctxt "desc/entity/us-155_mm_m2"
+msgid "155mm M2"
+msgstr ""
+
+msgctxt "desc/entity/us-155mm_gpf"
+msgid "155mm M1918 GPF"
+msgstr ""
+
+msgctxt "desc/entity/us-203_mm_m115"
+msgid "203mm M115"
+msgstr ""
+
+msgctxt "desc/entity/us-37_mm_m3"
+msgid "37mm gun M3"
+msgstr ""
+
+msgctxt "desc/entity/us-40_mm_m1"
+msgid "40mm M1 Bofors L/60"
+msgstr ""
+
+msgctxt "desc/entity/us-75_mm_m1897a4"
+msgid "75mm M2A3"
+msgstr ""
+
+msgctxt "desc/entity/us-75_mm_m1897a2"
+msgid "75mm M1897A2"
+msgstr ""
+
+msgctxt "desc/entity/us-75_mm_m1"
+msgid "75mm M1A1"
+msgstr ""
+
+msgctxt "desc/entity/us-76_mm_m5"
+msgid "76mm M5"
+msgstr ""
+
+msgctxt "desc/entity/us-76_mm_m5late"
+msgid "76mm M5 late"
+msgstr ""
+
+msgctxt "desc/entity/us-81_mm_m1"
+msgid "81mm M1"
+msgstr ""
+
+msgctxt "desc/entity/us-90_mm_m1"
+msgid "90mm M1A2"
+msgstr ""
+
+msgctxt "desc/entity/us-b25"
+msgid "B-25 Mitchell"
+msgstr ""
+
+msgctxt "desc/entity/us-cckw352"
+msgid "GMC CCKW352"
+msgstr ""
+
+msgctxt "desc/entity/us-cckw352_art"
+msgid "GMC CCKW352(Supply)"
+msgstr ""
+
+msgctxt "desc/entity/us-cckw353"
+msgid "GMC CCKW353"
+msgstr ""
+
+msgctxt "desc/entity/us-cckw353_2xt27"
+msgid "2 x T27"
+msgstr ""
+
+msgctxt "desc/entity/us-cckw353_eng"
+msgid "GMC CCKW353(Engineer)"
+msgstr ""
+
+msgctxt "desc/entity/us-cckw353_fuel"
+msgid "GMC CCKW353(Fuel)"
+msgstr ""
+
+msgctxt "desc/entity/us-cckw353_inf"
+msgid "GMC CCKW353(Light supply)"
+msgstr ""
+
+msgctxt "desc/entity/us-dodge"
+msgid "Dodge WC-56"
+msgstr ""
+
+msgctxt "desc/entity/us-dodge_armor"
+msgid "Dodge armored"
+msgstr ""
+
+msgctxt "desc/entity/us-dodgewc55"
+msgid "Dodge / 37mm M6"
+msgstr ""
+
+msgctxt "desc/entity/us-m10wolverine"
+msgid "M10 Wolverine"
+msgstr ""
+
+msgctxt "desc/entity/us-m10_early"
+msgid "M10 Wolverine (early)"
+msgstr ""
+
+msgctxt "desc/entity/us-m12gmc"
+msgid "M12 gun motor carriage"
+msgstr ""
+
+msgctxt "desc/entity/us-m15a1"
+msgid "M15A1 AA GMC"
+msgstr ""
+
+msgctxt "desc/entity/us-m16"
+msgid "M16 AA GMC"
+msgstr ""
+
+msgctxt "desc/entity/us-m18"
+msgid "M18 Hellcat"
+msgstr ""
+
+msgctxt "desc/entity/us-m20"
+msgid "M20"
+msgstr ""
+
+msgctxt "desc/entity/us-m22"
+msgid "M22 Locust"
+msgstr ""
+
+msgctxt "desc/entity/us-m24_chaffee"
+msgid "M24 Chaffee"
+msgstr ""
+
+msgctxt "desc/entity/us-m6"
+msgid "M6 Heavy"
+msgstr ""
+
+msgctxt "desc/entity/us-m26_pershing"
+msgid "M26 Pershing"
+msgstr ""
+
+msgctxt "desc/entity/us-m26_veteran"
+msgid "M26 Pershing veteran"
+msgstr ""
+
+msgctxt "desc/entity/us-m26e4_pershing"
+msgid "T26Е1 Pershing"
+msgstr ""
+
+msgctxt "desc/entity/us-t26e2"
+msgid "T26Е2 Pershing"
+msgstr ""
+
+msgctxt "desc/entity/us-m36gmc"
+msgid "M36B Slugger"
+msgstr ""
+
+msgctxt "desc/entity/us-m36b2"
+msgid "M36B2 Slugger"
+msgstr ""
+
+msgctxt "desc/entity/us-m3"
+msgid "M3A1 Halftrack"
+msgstr ""
+
+msgctxt "desc/entity/us-m3a1_scout"
+msgid "M3A1 Scout Car"
+msgstr ""
+
+msgctxt "desc/entity/us-m3a1_scout_tr"
+msgid "M3A1 Scout Car"
+msgstr ""
+
+msgctxt "desc/entity/us-m1a1_car"
+msgid "M1A1"
+msgstr ""
+
+msgctxt "desc/entity/us-m2a1_lt"
+msgid "M2A1"
+msgstr ""
+
+msgctxt "desc/entity/us-m2a4"
+msgid "M2A4"
+msgstr ""
+
+msgctxt "desc/entity/us-m3_stuart_early"
+msgid "M3 Stuart"
+msgstr ""
+
+msgctxt "desc/entity/us-m3_stuart"
+msgid "M3A1 Stuart"
+msgstr ""
+
+msgctxt "desc/entity/us-m3_satan"
+msgid "M3A1 Satan"
+msgstr ""
+
+msgctxt "desc/entity/us-m3lee"
+msgid "M3 Lee"
+msgstr ""
+
+msgctxt "desc/entity/us-m4a1"
+msgid "M4A1 Sherman"
+msgstr ""
+
+msgctxt "desc/entity/us-m4a3_105"
+msgid "M4A3(105) Sherman VHSS"
+msgstr ""
+
+msgctxt "desc/entity/us-m4_105"
+msgid "M4A3(105) Sherman"
+msgstr ""
+
+msgctxt "desc/entity/us-m4a3_75"
+msgid "M4A3 Sherman"
+msgstr ""
+
+msgctxt "desc/entity/us-m4a3_76"
+msgid "M4A3 (76)W"
+msgstr ""
+
+msgctxt "desc/entity/us-m4a3_zippo"
+msgid "M4A3R2 Croc"
+msgstr ""
+
+msgctxt "desc/entity/us-m4a3c"
+msgid "M4A3 Calliope"
+msgstr ""
+
+msgctxt "desc/entity/us-m4a3e2_jumbo"
+msgid "M4A3E2 Jumbo"
+msgstr ""
+
+msgctxt "desc/entity/us-m4a3e2_jumbo_76"
+msgid "M4A3E2(76)W Jumbo"
+msgstr ""
+
+msgctxt "desc/entity/us-m4a3e2_jumbo_76w"
+msgid "M4A3E2(76)W Jumbo"
+msgstr ""
+
+msgctxt "desc/entity/us-m4a3e8"
+msgid "M4A3E8(76)W Sherman"
+msgstr ""
+
+msgctxt "desc/entity/us-m4a3e8_armor"
+msgid "M4A3E8(76)W Sherman (armor)"
+msgstr ""
+
+msgctxt "desc/entity/us-m4a1e8"
+msgid "M4A1E8(76)W Sherman"
+msgstr ""
+
+msgctxt "desc/entity/us-m4halftrack"
+msgid "M4 81mm MMC"
+msgstr ""
+
+msgctxt "desc/entity/us-m2halftrack"
+msgid "M2 halftrack"
+msgstr ""
+
+msgctxt "desc/entity/us-m4"
+msgid "M4 Sherman"
+msgstr ""
+
+msgctxt "desc/entity/us-m5a1"
+msgid "M5A1 Stuart"
+msgstr ""
+
+msgctxt "desc/entity/us-m7"
+msgid "M7 Priest"
+msgstr ""
+
+msgctxt "desc/entity/us-m8"
+msgid "M8 Scott"
+msgstr ""
+
+msgctxt "desc/entity/us-m8_grayhound"
+msgid "M8 Greyhound HMG"
+msgstr ""
+
+msgctxt "desc/entity/us-m8_grayhound_2"
+msgid "M8 Greyhound"
+msgstr ""
+
+msgctxt "desc/entity/us-m8_grayhound_com"
+msgid "M8 Greyhound Command"
+msgstr ""
+
+msgctxt "desc/entity/us-p-39"
+msgid "P-39"
+msgstr ""
+
+msgctxt "desc/entity/us-p-40"
+msgid "Curtiss P-40 Warhawk"
+msgstr ""
+
+msgctxt "desc/entity/us-t12gmc"
+msgid "T12 GMC"
+msgstr ""
+
+msgctxt "desc/entity/us-t30hmc"
+msgid "T30 HMC"
+msgstr ""
+
+msgctxt "desc/entity/us-t19hmc"
+msgid "T19 HMC"
+msgstr ""
+
+msgctxt "desc/entity/us-willys_com"
+msgid "Willys"
+msgstr ""
+
+msgctxt "desc/entity/us-willys50"
+msgid "Willys Armored .50 cal"
+msgstr ""
+
+msgctxt "desc/entity/us-willysat"
+msgid "Willys AT"
+msgstr ""
+
+msgctxt "desc/entity/us-willysmb"
+msgid "Willys MB .30 cal"
+msgstr ""
+
+msgctxt "desc/entity/us-inf_crate"
+msgid "Infantry supply crate"
+msgstr ""
+
+msgctxt "desc/entity/us-lcvp"
+msgid "LCVP"
+msgstr ""
+
+msgctxt "desc/entity/us-mechanized_infantry"
+msgid "Mechanized Infantry"
+msgstr ""
+
+msgctxt "desc/entity/us-m36b1"
+msgid "M36B1"
+msgstr ""
+
+msgctxt "desc/entity/us-m4hst"
+msgid "M4 High Speed Tractor"
+msgstr ""
+
+msgctxt "desc/entity/us-lvt4"
+msgid "LVT-4"
+msgstr ""
+
+msgctxt "desc/entity/us-lvt4_wb2"
+msgid "LVT Water Buffalo"
+msgstr ""
+
+msgctxt "desc/entity/us-harley"
+msgid "Harley-Davidson"
+msgstr ""
+
+msgctxt "desc/entity/us-57_mm_m1"
+msgid "57mm M1"
+msgstr ""
+
+msgctxt "desc/entity/us-m4a2"
+msgid "M4A2 75mm"
+msgstr ""
+
+msgctxt "desc/entity/us-t26e4"
+msgid "T26Е4 Pershing"
+msgstr ""
+
+msgctxt "desc/entity/us-57_mm_m18"
+msgid "57mm M18 recoilless rifle"
+msgstr ""
+
+msgctxt "desc/entity/us-60_mm_m2"
+msgid "60mm M2"
+msgstr ""
+
+msgctxt "desc/entity/us-m4a1_76_w"
+msgid "M4A1(76)W"
+msgstr ""
+
+msgctxt "desc/entity/us-m4a3e8_fury"
+msgid "M4A3E8"
+msgstr ""
+
+msgctxt "desc/entity/us-m18_90"
+msgid "M18 90mm"
+msgstr ""
+
+msgctxt "desc/entity/us-t29"
+msgid "T29"
+msgstr ""
+
+msgctxt "desc/entity/us-105_mm_m3"
+msgid "105mm M3"
+msgstr ""
+
+msgctxt "desc/entity/us-skytrain"
+msgid "Douglas C-47 Skytrain"
+msgstr ""
+
+msgctxt "desc/entity/us-piper_j-3"
+msgid "Piper J-3 Cub"
+msgstr ""
+
+msgctxt "desc/entity/us-m2_medium"
+msgid "M2A1"
+msgstr ""
+
+msgctxt "desc/entity/us-harley_mg"
+msgid "Harley-Davidson"
+msgstr ""
+
+msgctxt "desc/entity/us-chevrolet_aa"
+msgid "Chevrolet 2 x Browning"
+msgstr ""
+
+msgctxt "desc/entity/us-harley-2wheels"
+msgid "Harley-Davidson"
+msgstr ""

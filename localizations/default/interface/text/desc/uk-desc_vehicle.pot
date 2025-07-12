@@ -1,0 +1,538 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Name (desc_vehicles)\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+
+msgctxt "desc/entity/np_achilles"
+msgid "SP 17pdr M10 Achilles"
+msgstr ""
+
+msgctxt "desc/entity/np_archer"
+msgid "SP 17pdr Mk.I Archer"
+msgstr ""
+
+msgctxt "desc/entity/np_challenger_a30"
+msgid "A30 Challenger"
+msgstr ""
+
+msgctxt "desc/entity/np_crusader_aa2"
+msgid "A15 Crusader AA Mk.II"
+msgstr ""
+
+msgctxt "desc/entity/np_crusader_mk6"
+msgid "A15 Crusader Mk.III"
+msgstr ""
+
+msgctxt "desc/entity/np_cromwell_75hv"
+msgid "A27M Cromwell 75mm HV"
+msgstr ""
+
+msgctxt "desc/entity/np_cromwell_mk_iv_rl"
+msgid "A27M Cromwell Mk.IV RP-3"
+msgstr ""
+
+msgctxt "desc/entity/np_m3halftrack"
+msgid "M3 Halftrack"
+msgstr ""
+
+msgctxt "desc/entity/np_m3a1_scout"
+msgid "M3 Scout Car"
+msgstr ""
+
+msgctxt "desc/entity/np_m4a1_76"
+msgid "Sherman IIA"
+msgstr ""
+
+msgctxt "desc/entity/np_m4a1"
+msgid "Sherman II"
+msgstr ""
+
+msgctxt "desc/entity/np_m4a2"
+msgid "Sherman III"
+msgstr ""
+
+msgctxt "desc/entity/np_m4a3_105"
+msgid "Sherman IVB"
+msgstr ""
+
+msgctxt "desc/entity/np_m4a4"
+msgid "Sherman V"
+msgstr ""
+
+msgctxt "desc/entity/np_m4a4_firefly"
+msgid "Sherman V 'Firefly'"
+msgstr ""
+
+msgctxt "desc/entity/np_303_bren"
+msgid "Bren Tripod"
+msgstr ""
+
+msgctxt "desc/entity/np_303_vickers_mkiv_aa"
+msgid "Vickers Mk.IV"
+msgstr ""
+
+msgctxt "desc/entity/np_heavy_mg_vickers_mkiv"
+msgid "Vickers Mk.IV"
+msgstr ""
+
+msgctxt "desc/entity/np_bl45"
+msgid "BL 4.5-inch"
+msgstr ""
+
+msgctxt "desc/entity/np_qf25pdr_early"
+msgid "QF 25-pdr (early)"
+msgstr ""
+
+msgctxt "desc/entity/np_qf25pdr"
+msgid "QF 25-pdr"
+msgstr ""
+
+msgctxt "desc/entity/np_qf18pdr"
+msgid "QF 18-pdr Mk. IIPA"
+msgstr ""
+
+msgctxt "desc/entity/np_qf17pdr"
+msgid "QF 17-pdr"
+msgstr ""
+
+msgctxt "desc/entity/np_qf17pdr_42"
+msgid "QF 17/25-pdr"
+msgstr ""
+
+msgctxt "desc/entity/np_qf2pdr"
+msgid "QF 2-pdr"
+msgstr ""
+
+msgctxt "desc/entity/np_qf6pdr"
+msgid "QF 6-pdr Mk.III"
+msgstr ""
+
+msgctxt "desc/entity/np_qf6pdr_late"
+msgid "QF 6-pdr Mk.V"
+msgstr ""
+
+msgctxt "desc/entity/np_qf75mm_mk1"
+msgid "QF 75mm Mk.I"
+msgstr ""
+
+msgctxt "desc/entity/np_qf40mm"
+msgid "QF 40mm Mk.I Bofors"
+msgstr ""
+
+msgctxt "desc/squad/np_qf40mm_ss"
+msgid "40mm AA Bofors"
+msgstr ""
+
+msgctxt "desc/entity/np_sexton"
+msgid "Sexton"
+msgstr ""
+
+msgctxt "desc/entity/np_dingo"
+msgid "Dingo Mk.II"
+msgstr ""
+
+msgctxt "desc/entity/np_staghound"
+msgid "Staghound Mk.I"
+msgstr ""
+
+msgctxt "desc/entity/np_beaufighter"
+msgid "Beaufighter"
+msgstr ""
+
+msgctxt "desc/entity/np_76mm_mk_ii"
+msgid "ML 3-inch mortar"
+msgstr ""
+
+msgctxt "desc/entity/np_107mm_mk_ii"
+msgid "M2 4.2-inch mortar"
+msgstr ""
+
+msgctxt "desc/entity/np_mk2daimler"
+msgid "Daimler Mk.II"
+msgstr ""
+
+msgctxt "desc/entity/np_humber"
+msgid "Humber Mk.III"
+msgstr ""
+
+msgctxt "desc/entity/np_humber_mkiii"
+msgid "Humber Mk.III"
+msgstr ""
+
+msgctxt "desc/entity/np_humber_mkiv"
+msgid "Humber Mk.IV"
+msgstr ""
+
+msgctxt "desc/entity/np_humber_com"
+msgid "Humber Mk.III Command"
+msgstr ""
+
+msgctxt "desc/entity/np_humber_mk4"
+msgid "Humber Mk.IV"
+msgstr ""
+
+msgctxt "desc/entity/np_m30kangaroo"
+msgid "Kangaroo M30"
+msgstr ""
+
+msgctxt "desc/entity/np_staghound_mk3"
+msgid "Staghound Mk.III"
+msgstr ""
+
+msgctxt "desc/entity/np_aec_mk3"
+msgid "AEC Mk.III"
+msgstr ""
+
+msgctxt "desc/entity/np_aec_mk2"
+msgid "AEC Mk.II"
+msgstr ""
+
+msgctxt "desc/entity/np_aec_aa"
+msgid "AEC AA"
+msgstr ""
+
+msgctxt "desc/entity/np_qf3,7inch"
+msgid "3.7-inch QF AA"
+msgstr ""
+
+msgctxt "desc/entity/np_qf3,7inch_armor"
+msgid "3.7-inch QF AA"
+msgstr ""
+
+msgctxt "desc/entity/np_bl72"
+msgid "BL 7.2-inch Mk. 6"
+msgstr ""
+
+msgctxt "desc/entity/np_303_vickers_mki"
+msgid ".303 Vickers Mk.I"
+msgstr ""
+
+msgctxt "desc/entity/np_matador_art"
+msgid "AEC Matador (Supply)"
+msgstr ""
+
+msgctxt "desc/entity/np_matador_fuel"
+msgid "AEC Matador (Fuel)"
+msgstr ""
+
+msgctxt "desc/entity/np_matador_tr"
+msgid "AEC Matador (Tractor)"
+msgstr ""
+
+msgctxt "desc/entity/np_matador"
+msgid "AEC Matador (Light supply)"
+msgstr ""
+
+msgctxt "desc/entity/np_matador_eng"
+msgid "AEC Matador (Engineer)"
+msgstr ""
+
+msgctxt "desc/entity/np_morris_cs8"
+msgid "Morris CS8"
+msgstr ""
+
+msgctxt "desc/entity/np_bedford_ql"
+msgid "Bedford QL"
+msgstr ""
+
+msgctxt "desc/entity/np_churchill_avre"
+msgid "A22 Churchill AVRE"
+msgstr ""
+
+msgctxt "desc/entity/np_churchill_crocodile"
+msgid "A22 Churchill Crocodile"
+msgstr ""
+
+msgctxt "desc/entity/np_churchill_mk_ii"
+msgid "A22 Churchill Mk.II"
+msgstr ""
+
+msgctxt "desc/entity/np_churchill_mk_iv"
+msgid "A22 Churchill Mk.IV"
+msgstr ""
+
+msgctxt "desc/entity/np_churchill_gun_carrier"
+msgid "A22 Churchill gun carrier"
+msgstr ""
+
+msgctxt "desc/entity/np_churchill_mk_vii"
+msgid "A22 Churchill Mk.VII"
+msgstr ""
+
+msgctxt "desc/entity/np_churchill_mk_viii"
+msgid "A22 Churchill Mk.VIII"
+msgstr ""
+
+msgctxt "desc/entity/np_comet_a34"
+msgid "A34 Comet"
+msgstr ""
+
+msgctxt "desc/entity/np_crusader_aa1"
+msgid "A15 Crusader AA Mk.I"
+msgstr ""
+
+msgctxt "desc/entity/np_crusader_mki"
+msgid "A15 Crusader Mk.I"
+msgstr ""
+
+msgctxt "desc/entity/np_crusader_mki_cs"
+msgid "A15 Crusader Mk.I CS"
+msgstr ""
+
+msgctxt "desc/entity/np_crusader_mkii"
+msgid "A15 Crusader Mk.II"
+msgstr ""
+
+msgctxt "desc/entity/np_land_mattress"
+msgid "3-inch Land Mattress"
+msgstr ""
+
+msgctxt "desc/entity/np_matilda_mkii"
+msgid "A12 Matilda Mk.IIA"
+msgstr ""
+
+msgctxt "desc/entity/np_matilda_mkii_cs"
+msgid "A12 Matilda CS"
+msgstr ""
+
+msgctxt "desc/entity/np_valentine_mkiii"
+msgid "Valentine Mk.III"
+msgstr ""
+
+msgctxt "desc/entity/np_cromwell_mk_i"
+msgid "A27M Cromwell Mk.I"
+msgstr ""
+
+msgctxt "desc/entity/np_cromwell_mk_iv"
+msgid "A27M Cromwell Mk.IV"
+msgstr ""
+
+msgctxt "desc/entity/np_cromwell_mk_vi"
+msgid "A27M Cromwell Mk.VI"
+msgstr ""
+
+msgctxt "desc/entity/np_cromwell_mk_vii"
+msgid "A27M Cromwell Mk.VII"
+msgstr ""
+
+msgctxt "desc/entity/np_cromwell_mk_viii"
+msgid "A27M Cromwell Mk.VIII"
+msgstr ""
+
+msgctxt "desc/entity/np_hawker"
+msgid "Hawker Typhoon"
+msgstr ""
+
+msgctxt "info/special/achilles"
+msgid "<c(c3baae)>heavy tank destroyer</c>"
+msgstr ""
+
+msgctxt "info/special/qf40mm"
+msgid "<c(c3baae)>AA gun</c>"
+msgstr ""
+
+msgctxt "info/special/crusader_aa2"
+msgid "<c(c3baae)>AA tank</c>"
+msgstr ""
+
+msgctxt "info/special/m4a3_105_eng"
+msgid "<c(c3baae)>medium self-propelled gun</c>"
+msgstr ""
+
+msgctxt "info/special/sexton"
+msgid "<c(c3baae)>medium self-propelled howitzer</c>"
+msgstr ""
+
+msgctxt "info/special/qf25pdr"
+msgid "<c(c3baae)>medium field howitzer</c>"
+msgstr ""
+
+msgctxt "info/special/qf2pdr"
+msgid "<c(c3baae)>light AT gun</c>"
+msgstr ""
+
+msgctxt "info/special/qf6pdr"
+msgid "<c(c3baae)>medium AT gun</c>"
+msgstr ""
+
+msgctxt "info/special/qf17pdr"
+msgid "<c(c3baae)>heavy AT gun</c>"
+msgstr ""
+
+msgctxt "info/special/bl45"
+msgid "<c(c3baae)>medium field gun</c>"
+msgstr ""
+
+msgctxt "info/special/303_bren"
+msgid "<c(c3baae)></c>"
+msgstr ""
+
+msgctxt "desc/squad/np_inf_crate"
+msgid "British Ammo Crate"
+msgstr ""
+
+msgctxt "desc/entity/inf_crate_eng"
+msgid "British Ammo Crate"
+msgstr ""
+
+msgctxt "info/special/inf_crate_eng"
+msgid "<c(c3baae)>Supply</c>"
+msgstr ""
+
+msgctxt "desc/entity/np_black_prince"
+msgid "A43 Black Prince"
+msgstr ""
+
+msgctxt "desc/entity/np_mechanized_infantry"
+msgid "Mechanized Infantry"
+msgstr ""
+
+msgctxt "desc/entity/np_kangaroo_pioneers"
+msgid "Mechanized Pioneers"
+msgstr ""
+
+msgctxt "desc/entity/np_tetrarch_mk7"
+msgid "A17 Tetrarch Mk.VII"
+msgstr ""
+
+msgctxt "desc/entity/np_bishop"
+msgid "25-pdr Mk 1 Bishop"
+msgstr ""
+
+msgctxt "desc/entity/np_m3lee"
+msgid "Lee I"
+msgstr ""
+
+msgctxt "desc/entity/np_m10wolverine"
+msgid "3-in SPM M10"
+msgstr ""
+
+msgctxt "desc/entity/np_a11_mk2"
+msgid "A11 Matilda I"
+msgstr ""
+
+msgctxt "desc/entity/np_a13_mk2a"
+msgid "A13 Cruiser Mk.IIA"
+msgstr ""
+
+msgctxt "desc/entity/np_a13_mk1"
+msgid "A13 Cruiser Mk.I"
+msgstr ""
+
+msgctxt "desc/entity/np_m3grant"
+msgid "Grant I"
+msgstr ""
+
+msgctxt "desc/entity/np_a10_mk2"
+msgid "A10 Cruiser Mk.II"
+msgstr ""
+
+msgctxt "desc/entity/np_a10_mk2_cs"
+msgid "A10 Cruiser Mk.II CS"
+msgstr ""
+
+msgctxt "desc/entity/np_bl7_2-inch"
+msgid "BL 7.2-inch"
+msgstr ""
+
+msgctxt "desc/entity/np_mkvic"
+msgid "Mk.IV C"
+msgstr ""
+
+msgctxt "desc/entity/np_universal_carrier"
+msgid "Universal Carrier"
+msgstr ""
+
+msgctxt "desc/entity/np_oerlikon_mk2"
+msgid "Oerlikon Mk.II"
+msgstr ""
+
+msgctxt "desc/entity/np_chevrolet30cwt"
+msgid "Chevrolet 30cwt"
+msgstr ""
+
+msgctxt "desc/entity/np_churchill_mk_ix"
+msgid "A22 Churchill Mk.IX"
+msgstr ""
+
+msgctxt "desc/entity/np_valentine_mkix"
+msgid "Valentine Mk.IX"
+msgstr ""
+
+msgctxt "desc/entity/np_valentine_mkxi"
+msgid "Valentine Mk.XI"
+msgstr ""
+
+msgctxt "desc/entity/np_tog2"
+msgid "TOG II"
+msgstr ""
+
+msgctxt "desc/entity/np_m4a4_tulip"
+msgid "Sherman V 'Tulip'"
+msgstr ""
+
+msgctxt "desc/entity/np_m4a4_firefly_tulip"
+msgid "Sherman V Firefly 'Tulip'"
+msgstr ""
+
+msgctxt "desc/entity/np_m7"
+msgid "M7 Priest"
+msgstr ""
+
+msgctxt "desc/entity/np_m3a1_scout_tr"
+msgid "M3 Scout Car"
+msgstr ""
+
+msgctxt "desc/entity/np_willys"
+msgid "Willys MB"
+msgstr ""
+
+msgctxt "desc/squad/willys_mb_eng"
+msgid "Willys MB"
+msgstr ""
+
+msgctxt "desc/squad/willys_mb_30cal_eng"
+msgid "Willys MB (.30 cal)"
+msgstr ""
+
+msgctxt "desc/entity/np_75_mm_m1a1"
+msgid "75mm M1A1 howitzer"
+msgstr ""
+
+msgctxt "desc/entity/np_flitfire"
+msgid "Piper Flitfire"
+msgstr ""
+
+msgctxt "desc/entity/np_universal_boyes_carrier"
+msgid "Boyes gun Carrier"
+msgstr ""
+
+msgctxt "desc/entity/np_universal_mortar_carrier"
+msgid "Mk.II Mortar Carrier"
+msgstr ""
+
+msgctxt "desc/entity/np_universal_mg_carrier"
+msgid "Medium MG Carrier"
+msgstr ""
+
+msgctxt "desc/entity/np_hurricane_mk2"
+msgid "Hurricane Mk.II"
+msgstr ""
+
+msgctxt "desc/entity/np_spitfire_mkvb"
+msgid "Spitfire Mk.VB"
+msgstr ""
+
+msgctxt "desc/entity/np_bl6-inch"
+msgid "BL 6-inch"
+msgstr ""
