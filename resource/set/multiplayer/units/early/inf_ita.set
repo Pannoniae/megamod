@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 ;SDL
 
 {"mp/ita/early/vehicle_supporter"		("inf_tankman" side(ita)  period(early) cost(5.0))}
@@ -59,3 +60,66 @@
 {"mp/ita/early/officer"					("inf_officer" side(ita) period(early) cost(125.0))}
 
 {"mp/ita/early/sniper"					("inf_sniper" side(ita) period(early) cost(151.0))}
+=======
+;SDL
+
+{"mp/ita/early/vehicle_supporter"		("inf_tankman" side(ita)  period(early) cost(5.0))}
+{"mp/ita/early/tankman"					("inf_tankman" side(ita)  period(early) cost(4.0))}
+{"mp/ita/early/tankman2"				("inf_tankman" side(ita)  period(early) cost(12.0))}
+{"mp/ita/early/pilot"					("inf_tankman" side(ita)  period(early) cost(0.0))}
+
+{"mp/ita/early/rifle_light"				("inf_tier1" side(ita) period(late) year(44 45) cost(7.0))} ; rifle
+{"mp/ita/early/rifle2_light"		    ("inf_tier1" side(ita) period(late) year(44 45) cost(7.0))} ; rifle
+{"mp/ita/early/smg_light"		    	("inf_tier1" side(ita) period(late) year(44 45) cost(12.0))} ; smg
+
+{"mp/ita/early/mgun2"					("inf_tier2_lite" side(ita) period(early) cost(44.0))} ; has mg
+{"mp/ita/early/mgun3"					("inf_tier2_lite" side(ita) period(early) cost(44.0))} ; has mg
+{"mp/ita/early/rifle2"					("inf_tier2_lite" side(ita) period(early) cost(8.0))}
+{"mp/ita/early/rifle3"					("inf_tier2_lite" side(ita) period(early) cost(13.0))} ; semi-auto
+{"mp/ita/early/rifle3b"					("inf_tier2_lite" side(ita) period(early) cost(8.0))}
+{"mp/ita/early/rifle5"					("inf_tier2_lite" side(ita) period(early) cost(8.0))}
+{"mp/ita/early/smg2"		    		("inf_tier2_lite" side(ita) period(early) cost(13.0))}
+{"mp/ita/early/smg3"		    		("inf_tier2_lite" side(ita) period(early) cost(13.0))}
+{"mp/ita/early/smg4"		    		("inf_tier2_lite" side(ita) period(early) cost(13.0))}
+{"mp/ita/early/mgun2_assist"			("inf_tier2_lite" side(ita) period(early) cost(8.0))}
+{"mp/ita/early/mgun3_assist"			("inf_tier2_lite" side(ita) period(early) cost(13.0))}					   
+
+{"mp/ita/early/saper"					("inf_tier2" side(ita) period(early) cost(35.0))}
+{"mp/ita/early/flamer"					("inf_tier2" side(ita) period(early) cost(53.0))}
+{"mp/ita/early/ap_miner"				("inf_tier2" side(ita) period(early) cost(35.0))}
+{"mp/ita/early/at_miner"				("inf_tier2" side(ita) period(early) cost(35.0))}
+;{"mp/ita/early/gr_launcher"			("inf_tier2" side(ita) period(early) cost(75.0))}
+{"mp/ita/early/squadleader"				("inf_tier2" side(ita) period(early) cost(18.0))}
+{"mp/ita/early/squadleader3"			("inf_tier2" side(ita) period(early) cost(18.0))}	
+{"mp/ita/early/at_rifle"				("inf_tier2" side(ita) period(early) cost(44.0))} ; has AT
+
+{"mp/ita/early/elite"					("inf_tier3" side(ita) period(early) cost(18.0))}
+{"mp/ita/early/elite2"					("inf_tier3" side(ita) period(early) cost(48.0))}
+{"mp/ita/early/elite3"					("inf_tier3" side(ita) period(early) cost(18.0))}
+{"mp/ita/early/elite4"					("inf_tier3" side(ita) period(early) cost(53.0))}
+{"mp/ita/early/elite2_assist"			("inf_tier3" side(ita) period(early) cost(13.0))}
+{"mp/ita/early/elite4_assist"			("inf_tier3" side(ita) period(early) cost(18.0))}
+{"mp/ita/early/elite_sl"				("inf_tier3" side(ita) period(early) cost(23.0))}
+{"mp/ita/early/rifle"					("inf_tier3" side(ita) period(late) year(44 45) cost(18.0))} ; rifle
+{"mp/ita/early/rifle4"		    		("inf_tier3" side(ita) period(late) year(44 45) cost(12.0))} ; rifle
+{"mp/ita/early/smg"		    			("inf_tier3" side(ita) period(late) year(44 45) cost(17.0))} ; smg
+{"mp/ita/early/mgun"					("inf_tier3" side(ita) period(late) year(44 45) cost(49.0))} ; has mg
+{"mp/ita/early/mgun_assist"				("inf_tier3" side(ita) period(late) year(44 45) cost(12.0))}
+{"mp/ita/early/squadleader2"			("inf_tier3" side(ita) period(late) year(44 45) cost(18.0))}
+{"mp/ita/early/mortar"					("inf_tier3" side(ita) period(late) year(44 45) cost(33.0))} ; mortar
+
+{"mp/ita/early/radioman"				("inf_signaller" side(ita) period(early) cost(200.0))}
+
+{"mp/ita/early/sturmovik"				("inf_tier4" side(ita) period(early) cost(23.0))}
+{"mp/ita/early/sturmovik2"				("inf_tier4" side(ita) period(early) cost(53.0))}
+{"mp/ita/early/sturmovik3"				("inf_tier4" side(ita) period(early) cost(23.0))} 
+{"mp/ita/early/sturmovik4"				("inf_tier4" side(ita) period(early) cost(63.0))}
+{"mp/ita/early/sturmovik2_assist"		("inf_tier4" side(ita) period(early) cost(23.0))}
+{"mp/ita/early/sturmovik_sl"			("inf_tier4" side(ita) period(early) cost(28.0))}		 
+
+{"mp/ita/early/medic"					("inf_medic" side(ita) period(early) cost(40.0))}
+
+{"mp/ita/early/officer"					("inf_officer" side(ita) period(early) cost(125.0))}
+
+{"mp/ita/early/sniper"					("inf_sniper" side(ita) period(early) cost(151.0))}
+>>>>>>> Stashed changes

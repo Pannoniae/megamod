@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 {environment
 	{light
 		{direction -0.74 0.055 -0.67}
@@ -55,6 +56,65 @@
 	{haze
 		{enable}
 		{color 0xff1c1d1e}
+=======
+{environment
+	{light
+		{direction -0.74 0.055 -0.67}
+		{ambient 0xff0c0c11}
+		{diffuse 0xff121212}
+		{specularIntensity 5}
+		{specularPower 5}
+		{lightsIntensity 0.05}
+		{night}
+		{draw_sun_moon}
+		{sun_moon_radius 0}
+		{night_vision 0.75}
+		{color_correction
+			{brightness 1.2}
+			{saturation 0.8}
+			{tone 0xff20232e}
+			{tone_strength 0.7}
+			{color_shading
+				{shade_tone 0xff3391cc}
+				{intensity 0.1}
+			}
+		}
+		{rim_light
+			{color 0xffffffff}
+			{strength 0.1}
+		}
+		{tone_mapping
+			{max_white_percentile 1}
+			{min_mapping_range 1}
+			{curve "/set/curves/tonemapping/smooth2.bzc"}
+		}
+		{camera_lens_effetcs
+			{vision_mode
+				{mode none}
+			}
+			{light_scattering
+				{intensity 0.05}
+				{ray_length 3}
+				{color_tone 0xff4b5569}
+			}
+			{lens_dirt
+				{texture "/texture/common/environment/lens_effects/dirty_lens_01b"}
+			}
+			{screen_brightening
+				{intensity 0.1}
+			}
+		}
+	}
+	{wind
+		{direction -0.614 0.236 0}
+		{main_strength 0.25}
+		{detail_strength 4.5}
+		{height_amplification 5}
+	}
+	{haze
+		{enable}
+		{color 0xff1c1d1e}
+>>>>>>> Stashed changes
 		{start 3500}
 		{end 4000}
 		{altitude_strength 0}

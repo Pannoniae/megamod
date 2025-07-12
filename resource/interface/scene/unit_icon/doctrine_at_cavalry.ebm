@@ -1,6 +1,14 @@
+<<<<<<< Updated upstream
 {bitmap
     {frame "bmw_r71_00.tga"}
     {frame "bmw_r71_01.tga"}
     {frame "bmw_r71_02.tga"}
     {frame "bmw_r71_03.tga"}
+=======
+{bitmap
+    {frame "bmw_r71_00.tga"}
+    {frame "bmw_r71_01.tga"}
+    {frame "bmw_r71_02.tga"}
+    {frame "bmw_r71_03.tga"}
+>>>>>>> Stashed changes
 }
