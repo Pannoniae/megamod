@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 #, fuzzy
 msgid ""
 msgstr ""
@@ -7928,6 +7927,3 @@ msgstr ""
 msgctxt "mp/presets/browser/tags/supply"
 msgid "Supply"
 msgstr ""
-
-
->>>>>>> Stashed changes

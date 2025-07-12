@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 #, fuzzy
 msgid ""
 msgstr ""
@@ -12894,4 +12893,3 @@ msgstr ""
 msgctxt "options/game/disable_mouse_actor_hints#desc"
 msgid "Disables tips on mouse cursor for units: Name, Main gun, Armor thickness"
 msgstr ""
->>>>>>> Stashed changes
