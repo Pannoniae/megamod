@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "D2_turret_01_AM"}
+	{specular "$/model/47mm_SA34_turret_01_AO"}
+	{color "229 229 229 25"}
+	{blend none}
+}

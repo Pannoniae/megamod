@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "ab43_gun"}
+	{bump "$/model/ab41/ab43_gun_bp"}
+	{specular "$/model/ab41/ab43_gun_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

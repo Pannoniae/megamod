@@ -1,0 +1,21 @@
+{game_entity
+	{Extension "105mmwz29_xx.mdl"}
+	{Volume "body"
+	}
+	{Volume "gun_rot"
+	}
+	{Volume "gun"
+	}
+	{Volume "part1"
+	}
+	{Volume "standl"
+	}
+	{Volume "part2"
+	}
+	{Volume "turret"
+	}
+	{Volume "wheelleft"
+	}
+	{Volume "wheelright"
+	}
+}

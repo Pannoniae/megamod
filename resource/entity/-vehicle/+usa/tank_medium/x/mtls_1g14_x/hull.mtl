@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "mtls-1g14_hull_01_am_x"}
+	{bump "mtls-1g14_hull_01_anm"}
+	{specular "mtls-1g14_hull_01_gmm"}
+	{color "230 230 230 25"}
+	{blend none}
+}

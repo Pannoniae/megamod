@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "pz8_chassis_xx"}
+	{bump "pz8_chassis_nm"}
+	{specular "pz8_chassis_gmm"}
+	{color "229 229 229 25"}
+	{blend none}
+}

@@ -1,0 +1,198 @@
+;Exported by: Normand	
+;Date:        Sat Apr 05 12:47:01 2014
+;File:        C:\Users\Normand\type95_2_xx.max
+{Skeleton
+	{bone "basis"
+		{parameters "SteerMax=30;WheelRadius=0.2;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Matrix34
+				0.999672	0.00113369	-0.0255799
+				0	0.999019	0.0442762
+				0.025605	-0.0442617	0.998692
+				0.0618315	-0.0121109	3.58894
+			}
+			{VolumeView "body.ply"}
+			{bone "engine"
+				{parameters "ID=engine;"}
+				{Matrix34
+					0.99377	-0.00844925	0.111127
+					-0.111392	-0.0438846	0.992807
+					-0.00351171	-0.999001	-0.0445524
+					11.1802	0.0281038	18.9005
+				}
+				{VolumeView "engine.ply"}
+			}
+			{bone "part4"
+				{parameters "ID=body;"}
+				{Matrix34
+					-0.113993	0.990835	-0.0724611
+					-0.993361	-0.112537	0.02388
+					0.0155066	0.0747021	0.997085
+					8.20654	-12.2707	8.00856
+				}
+				{VolumeView "part4.ply"}
+			}
+			{bone "doorl"
+				{parameters "ID=body;"}
+				{Matrix34
+					-0.120696	-0.992572	0.0153002
+					0.990031	-0.119232	0.0749783
+					-0.0725971	0.0241973	0.997068
+					8.23514	12.3523	8.00856
+				}
+				{VolumeView "doorl.ply"}
+			}
+			{bone "fxfire1"
+				{Position 18.719	-0.182351	12.5481}
+			}
+			{bone revolute "steerrudder"
+				{parameters "ID=body;WheelRadius=0.2;"}
+				{Matrix34
+					0.50297	0	0.864304
+					0	1	0
+					-0.864304	0	0.50297
+					3.48317	-6.71903	16.4357
+				}
+				{VolumeView "steerrudder.ply"}
+			}
+			{bone "part1"
+				{parameters "ID=body;"}
+				{Position 21.7769	9.92402	6.5948}
+				{VolumeView "part1.ply"}
+			}
+			{bone "part2"
+				{parameters "ID=body;"}
+				{Position -1.4855	7.28243	8.41042}
+				{VolumeView "part2.ply"}
+			}
+			{bone "part3"
+				{parameters "ID=body;"}
+				{Position -1.47287	-7.52261	8.40115}
+				{VolumeView "part3.ply"}
+			}
+		}
+		{bone "pivot_front"
+			{Position 23.5133	0.00949283	5.32137}
+			{bone revolute "steer_l"
+				{Matrix34
+					-1	0	0
+					0	1	0
+					0	0	1
+					-0.00111198	10.8324	-0.00109482
+				}
+				{bone revolute "wheell1"
+					{parameters "ID=wheelleft1;"}
+					{Matrix34
+						1	0	0
+						0	0	1
+						0	1	0
+						-0.00907326	1.42137	-0.00125837
+					}
+					{VolumeView "wheell1.ply"}
+				}
+			}
+			{bone revolute "steer_r"
+				{Matrix34
+					-1	0	0
+					0	1	0
+					0	0	1
+					-0.000860214	-10.8611	-0.00109482
+				}
+				{bone revolute "wheelr1"
+					{parameters "ID=wheelright1;"}
+					{Matrix34
+						1	0	0
+						0	0	1
+						0	1	0
+						-0.00882339	-1.43451	-0.00125837
+					}
+					{VolumeView "wheelr1.ply"}
+				}
+			}
+		}
+		{bone "pivot_back"
+			{Position -20.0145	-0.0289378	5.32137}
+			{bone revolute "wheell2"
+				{parameters "ID=wheelleft2;"}
+				{Matrix34
+					-1	0	0
+					0	0	1
+					0	1	0
+					0.0174141	12.2503	-0.00235319
+				}
+				{VolumeView "wheell2.ply"}
+			}
+			{bone revolute "wheelr2"
+				{parameters "ID=wheelright2;"}
+				{Matrix34
+					-1	0	0
+					0	0	1
+					0	1	0
+					0.0112305	-12.2572	-0.00235319
+				}
+				{VolumeView "wheelr2.ply"}
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "body"}
+	{Position -0.578106	0.0214052	1.2063}
+}
+{Volume "engine"
+	{Polyhedron "engine.vol"}
+	{Bone "engine"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		9.93914	-3.95005	0.0790538
+	}
+}
+{Volume "wheelleft1"
+	{Cylinder 6 5}
+	{Bone "wheell1"}
+	{Matrix34
+		-0.92	0	0
+		0	0.92	0
+		0	0	-0.92
+		0.0247727	-0.0484202	0.765952
+	}
+}
+{Volume "wheelleft2"
+	{Cylinder 6 5}
+	{Bone "wheell2"}
+	{Matrix34
+		-0.92	0	0
+		0	0.92	0
+		0	0	-0.92
+		0.0747174	-0.048421	0.807829
+	}
+}
+{Volume "wheelright1"
+	{Cylinder 6 5}
+	{Bone "wheelr1"}
+	{Matrix34
+		-0.92	0	0
+		0	0.92	0
+		0	0	0.92
+		0.0312287	-0.0496295	0.736264
+	}
+}
+{Volume "wheelright2"
+	{Cylinder 6 5}
+	{Bone "wheelr2"}
+	{Matrix34
+		-0.92	0	0
+		0	0.92	0
+		0	0	0.92
+		0.0749909	-0.0496343	0.736263
+	}
+}

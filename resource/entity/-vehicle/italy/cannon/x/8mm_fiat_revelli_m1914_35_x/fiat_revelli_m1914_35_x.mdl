@@ -1,0 +1,171 @@
+;Exported by: skr
+;Date:        Thu Feb 21 01:42:02 2013
+;File:        E:\Documents\3dsmax\scenes\Fiat-Revelli M1914-35\stank mgun fiat-revelli_1914-35_x.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Matrix34
+				0.999991	0	-0.00417729
+				0.00417729	0	0.999991
+				0	-1	0
+				4.27812	-0.494583	5.34833
+			}
+			{VolumeView "body.ply"}
+			{bone revolute "turret"
+				{parameters "ID=turret;"}
+				{limits -5 15}
+				{speed 0.01}
+				{Matrix34
+					0.957121	-0.289688	0
+					0.289688	0.957121	0
+					0	0	1
+					-0.134172	0.363043	-0.494581
+				}
+				{VolumeView "turret.ply"}
+				{bone revolute "gun_rot"
+					{parameters "ID=turret;"}
+					{limits -20 20}
+					{speed 0.01}
+					{Matrix34
+						1	0	0
+						0	0	-1
+						0	1	0
+						-0.656487	0.352771	0
+					}
+					{VolumeView "gun_rot.ply"}
+					{bone "gun"
+						{parameters "ID=gun;"}
+						{Matrix34
+							1	0	0
+							0	0	1
+							0	-1	0
+							-9.64923	0	1.39863
+						}
+						{VolumeView "gun.ply"}
+					}
+					{bone "ammo_box"
+						{parameters "ID=ammo_box;"}
+						{Position -0.57906	5.67846	-1.5245}
+						{VolumeView "ammo_box.ply"}
+						{bone "lenta"
+							{parameters "ID=ammo_box;"}
+							{Matrix34
+								0	1	0
+								0	0	1
+								1	0	0
+								-0.332518	3.54974	1.65001
+							}
+							{VolumeView "lenta.ply"}
+						}
+					}
+				}
+			}
+			{bone "noga01"
+				{parameters "ID=noga01;"}
+				{Matrix34
+					0.961949	0.273228	0
+					-0.273228	0.961949	0
+					0	0	1
+					-1.75648	-0.481708	-0.493676
+				}
+				{VolumeView "noga01.ply"}
+				{bone "noga_011"
+					{parameters "ID=noga01;"}
+					{Matrix34
+						-1	0	0
+						0	0.537197	0.843457
+						0	0.843457	-0.537197
+						0.000494003	-5.90474	4.33929
+					}
+					{VolumeView "noga_011.ply"}
+				}
+			}
+			{bone "noga02"
+				{parameters "ID=noga02;"}
+				{Matrix34
+					0.960423	0.278545	0
+					-0.278545	0.960423	0
+					0	0	-1
+					-1.75648	-0.481708	-0.493676
+				}
+				{VolumeView "noga02.ply"}
+				{bone "noga_021"
+					{parameters "ID=noga02;"}
+					{Matrix34
+						-1	0	0
+						0	0.537197	0.843457
+						0	0.843457	-0.537197
+						0.000493526	-6.09815	4.48008
+					}
+					{VolumeView "noga_021.ply"}
+				}
+			}
+			{bone "noga03"
+				{parameters "ID=body;"}
+				{Matrix34
+					0.978198	0.207675	0
+					0	0	-1
+					-0.207675	0.978198	0
+					-18.2551	-3.93678	-0.495106
+				}
+				{VolumeView "noga03.ply"}
+			}
+		}
+	}
+}
+{Volume "ammobox"
+	{Box 7.69879 3.08288 3.14961}
+	{Bone "ammo_box"}
+	{Matrix34
+		0	-1	0
+		0	0	1
+		-1	0	0
+		0.108183	0.441147	1.36306
+	}
+}
+{Volume "body1"
+	{Cylinder 0.659473 19.685}
+	{Bone "body"}
+	{Matrix34
+		0	0	-1
+		-0.212493	0.977163	0
+		0.977163	0.212493	0
+		-10.3916	-2.23371	-0.530628
+	}
+}
+{Volume "body2"
+	{Cylinder 0.529872 6.88976}
+	{Bone "noga01"}
+	{Matrix34
+		0.917421	-0.191734	-0.34868
+		-0.397313	-0.489711	-0.776096
+		-0.0219488	0.850542	-0.525449
+		0.0401607	-3.01647	2.4856
+	}
+}
+{Volume "body3"
+	{Cylinder 0.529872 6.88976}
+	{Bone "noga02"}
+	{Matrix34
+		-0.200933	0.529115	0.824417
+		-0.979601	-0.110935	-0.167557
+		-0.00279992	0.841267	-0.540613
+		-0.0262829	-2.98432	2.49503
+	}
+}
+{Volume "gun"
+	{Box 25.7779 2.66833 2.16535}
+	{Bone "gun"}
+	{Position 12.3138	1.17131	0.0264103}
+}
+{Volume "turret"
+	{Box 6.39808 1.54028 1.67323}
+	{Bone "turret"}
+	{Position -2.78139	0.445405	0.0186668}
+}

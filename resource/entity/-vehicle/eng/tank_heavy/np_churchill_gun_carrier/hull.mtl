@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "churchill_gun_carrier"}
+	{bump "$/model/churchill_gun_carrier_bp"}
+	{specular "$/model/churchill_gun_carrier_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

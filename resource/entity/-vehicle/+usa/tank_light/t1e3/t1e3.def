@@ -1,0 +1,92 @@
+{game_entity
+	(include "/properties/tank.ext")
+	
+	(include "/properties/selection/vehicle_elongated.inc" scale(0.9))
+	{props "light" "vision_lev03" "turret" "muzzle_37mm_47mm" "shield" "nwg" "detect_tank_light"}
+	{extension "t1e3.mdl"}
+	(include "t1e3.ext")
+	{targetclass "tank_light"}
+	{targetSelector "tank_light"}
+	{patherId "ft17"}
+	{collider "tank.light"}
+	
+	{extender "shield" {on}}
+
+	("crew_2_human_extended")
+	
+	{boarder
+		{anm "left"
+			{forward {begin "board_tank_left"}{base "open_turret"}}
+			{reverse {end "emit_tank_1_hold"}{base "open_turret"}}
+		}
+		{anm "right"
+			{forward {begin "board_tank_right"}{base "open_turret"}}
+			{reverse {end "emit_tank_1_hold"}{base "open_turret"}}
+		}
+		{anm "driver"
+			{forward {begin "board_sd222_driver"} {base "open_back"}}
+			{reverse {end "emit_sd222_driver"} {base "open_back"}} 
+		}
+	}
+
+	{extender "inventory"
+		{box
+			{item "37x124B ap" 60}
+			{item "37x124B he" 60}
+			{item "ammo mgun_usa belt" 3000}
+			{item "satchel_charge_usa" 1}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "37mm_M1924" filling "37x124B ap" 5}
+			{foresight "foresight1"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			("abm_dymamic"
+				zeroing(2.5)
+				dispersion(0.20)
+			)
+		}
+		{place "mgun2"
+			{type "coaxial"}
+			{weapon "browning_m19a4_tank" filled}
+			{foresight "foresight5"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			("abm_mgun")
+			{basic}
+		}
+	}
+
+	{mass 7700}
+	{Chassis
+		("tank_trace" fx("tracks_sm2") step(0.2) len(0.47))
+		("mobility_tank"
+			speed(35.2) ;---------Max speed when fully accelerated on road, km/h.
+			reverse(9) ;---------Max speed in reverse on road, km/h.
+			traverse(20) ;-------Track traverse, per second, in degrees.
+			weight(7.7) ;--------Weight in Tonnes.
+			power(132) ;----------Engine Power, in hp.
+			track(10) ;---------Track performance: [0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(190) ;-----------Fuel capacity in Litres.
+			type(fuel) ;---------Fuel type. (diesel OR fuel)
+			range(121) ;----------Range in km, off-road.
+		)
+	}
+
+	{bone "gun_rot"
+		{limits -10 10}
+		{speed2 8}
+	}
+	{bone "gun_rot_h"
+		{limits -10 10}
+		{speed2 8}
+	}
+	{bone "turret"
+		("turret_light" power_traverse(0)) ;// manual
+	}
+}

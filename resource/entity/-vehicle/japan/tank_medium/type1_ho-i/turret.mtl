@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "type1_turret"}
+	{bump "$/model/type1_turret_bp"}
+	{specular "$/model/type1_turret_sp"}
+	{blend none}
+}

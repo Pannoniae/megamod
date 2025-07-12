@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "13mm_type93_turret"}
+	{specular "13mm_type93_turret"}
+	{color "128 128 128 76"}
+	{blend none}
+}

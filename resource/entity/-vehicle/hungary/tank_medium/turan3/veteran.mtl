@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "veteran"}
+	{blend none}
+}

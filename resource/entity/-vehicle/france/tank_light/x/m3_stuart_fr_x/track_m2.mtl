@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/animation/m3stuart_tracks"}
+	{blend test}
+}

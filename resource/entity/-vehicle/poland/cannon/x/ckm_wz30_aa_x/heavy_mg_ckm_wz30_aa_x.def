@@ -1,0 +1,13 @@
+{game_entity
+	{Extension "7_92mm_ckm_wz30aa_x.mdl"}
+	{Volume "body_01"
+	}
+	{Volume "body_02"
+	}
+	{Volume "body_03"
+	}
+	{Volume "body_04"
+	}
+	{Volume "body"
+	}
+}

@@ -1,0 +1,129 @@
+{game_entity
+	(include "/properties/cannon_mgun.ext")
+	
+	{extension "300mm_krh42.mdl"}
+	(include "/properties/selection/cannon_elongated.inc" scale(0.9))
+	{props "-mg_stan" "wheeled" "invisible" "with_gun" "mortar" "vision_lev01_can" "trailer" "trailer_heavy" "detect_artillery_small" "cannon_sandbag_standard" "artillery_minimap_medium" "c_mtr_hvy"}
+	{PatherID "cannon.large"}
+	{targetclass "howitzer"}
+	{targetSelector "cannon_howitzer"}
+
+	("wheel" args "wheelright1")
+	("wheel" args "wheelleft1")
+	
+	("solid_wheel" args "wheelright2")
+	("solid_wheel" args "wheelleft2")
+
+	("gun" repair(30) thickness(50))
+
+	("armor_heavy_cannon")
+	("crew_wheeled_cannon_4")
+
+	{volume "body5" {tags "invisible"}} ;// volume disabled on carriage hidden
+	{volume "wheelleft2" {tags "invisible"}}
+	{volume "wheelright2" {tags "invisible"}} 
+	{volume "body1" {able {holed}}}
+
+	{volume "body11"
+		{thickness 50}
+	}
+	{volume "barrel2"
+		{thickness 10}
+	}
+	{volume "barrel3"
+		{thickness 10}
+	}
+
+	{boarder
+		{anm "gunner"
+			{forward {end "cannon_small_gunner" 10}}
+		}
+		{anm "charger"
+			{forward {end "pose_new_cannon_commander_fire" 10}}
+		}
+		{anm "charger2"
+			{forward {end "cannon_small_charger2" 10}}
+		}
+		{anm "commander"
+			{forward {end "cannon_small_commander" 10}}
+		}
+		{anm "driver1"	;// gunner
+			{forward {end "cannon_pak40_pusher_right" 10}}
+		}
+		{anm "driver2"	;// charger
+			{forward {end "cannon_pak40_pusher_left" 10}}
+		}
+		{anm "driver3"	;// charger2
+			{forward {end "cannon_pak40_pusher_left" 10}}
+		}
+		{anm "driver4"	;// commander
+			{forward {end "cannon_pak40_pusher_rightr" 10}}
+		}
+		{anm "seat1"	;// gunner
+			{forward {end "pose_seat_cannon_left" 10}}
+		}
+		{anm "seat2"	;// charger
+			{forward {end "pose_seat_cannon_right" 10}}
+		}
+		{anm "seat3"	;// charger2
+			{forward {end "pose_seat_cannon_right" 10}}
+		}
+		{anm "seat4"	;// commander
+			{forward {end "pose_seat_cannon_left" 10}}
+		}
+	}
+
+	{extender "cannon"
+		{animation
+			{switch "close"}
+			;// "gunner" "charger" "charger2" "commander"
+			{move "cannon_pak40_pusher_left" "cannon_pak40_pusher_right" "cannon_pak40_pusher_left" "cannon_pak40_pusher_right" }
+			{aim "cannon_small_gunner_aim" "cannon_small_charger_aim" "cannon_small_charger2_aim" "cannon_small_commander_aim"}
+			{fire "cannon_small_gunner_fire" "new_cannon_commander_fire" "cannon_small_charger2_fire" "cannon_small_commander_fire"}
+			{reload "cannon_small_gunner_reload" "new_cannon_commander_reload" "cannon_small_charger2_reload" "cannon_small_commander_reload"}
+		}
+		{move {workers "driver1" "driver2" "driver3" "driver4" minWorkers 2} {obstacle "close"}}			;// move state: cannon being pushed and which positions play animations
+		{attack {workers "gunner" "charger" "charger2" "commander"} {obstacle "open"}}		;// fire/attack state: cannon aim, fire, and reload events
+		{trailing {workers "seat1" "seat2" "seat3" "seat4"}}								;// trailing state: cannon is being towed {obstacle} not needed. Uses "close"
+	}
+
+	{extender "inventory"
+		{box
+			{item "mortarfin_300 he" 20}
+			{item "sandbag_vehicle" 1}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{weapon "weapon 300mm_krh42" filling "mortarfin_300 he" 1}
+			{RestoreIKAfterAim}
+			{gunner "gunner"}
+			{charger "charger charger2" minWorkers 1}
+			{basic}
+			("abm_dymamic_mortar"
+				zeroing(3.0)	; // time it takes to aim until the reticle shrinks. Bigger values, more control.
+				dispersion(1)   ; // time it takes to distort the reticle when you move the gun (how abrupt it loses zeroing). Bigger values, more control.
+			)
+		}
+	}
+
+	{mass 7400}
+	{Chassis "track"
+		("car_trace" fx("tracewheel06") step(0.08) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("mobility_cannon"
+			speed(4.6) ;-----------------------------------Max speed.
+			weight(7400) ;---------------------------------Weight in Kilograms.
+		)
+	}
+
+	{bone "basis"
+		{speed2 3.5}
+	}
+	{bone "foresight"
+		{limits -100 20}
+		{speed2 6}
+	}
+	
+}

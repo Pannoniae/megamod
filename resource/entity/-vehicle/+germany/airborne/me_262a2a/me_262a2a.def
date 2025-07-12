@@ -1,0 +1,78 @@
+{game_entity
+	(include "/properties/airborne.ext")
+	(include "/properties/selection/airborne.inc" scale(1.5))
+	{props "wheeled" "vision_lev02_air"}
+	{extension "me_262a2a.mdl"}
+	{PatherID "bf109"}
+
+	("fighter_tier1")
+	
+	{boarder
+		{anm "driver"
+			{forward {begin "board_plane_left"} {end "seat_driver_car"} {base "open1"}}
+			{reverse {end "board_plane_left" -1} {base "open1" -1}}
+		}
+	}
+
+	("crew_human" place(driver) bone(driver) door(emit1) animation(driver) group(crew))
+
+	{Placer
+		{place "driver" {turnOff {targetable}}}
+	}
+
+	("double_engine")
+	
+	("wheel" args "wheelr")
+	("wheel" args "wheell")
+	("wheel" args "wheelc")
+
+
+	{Chassis "wheel"
+		("car_trace" fx("tracewheel05") step(0.07) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+	}
+
+	{Chassis "airborne"
+		("flight_model"
+			speed(1250)  ;//---------Max speed (at sea level), km/h.
+			climb_speed(20) ;//-----Climb rate at sea level, in m/s
+			turn(230) ;//-----------Turn-and-burn radius in meters, tightest sustained turn
+			turnMP(38) ;//----------Turn-and-burn radius in meters, tightest sustained turn in Multiplayer
+			aerodynamics(2.4) ;//---Aerodynamic efficiency rating (0-3)
+			weight(6973) ;//--------Weight in kg.
+			power(1470) ;//---------Horse Power.
+			fuel(500) ;//-----------Fuel capacity in Liters.
+			range(350) ;//----------Distance can travel with full fuel tank, in km.
+			roll_rate(60) ;//-------Roll rate, in degrees per second.
+			roll_angle(65) ;//------Maximum roll angle, in degrees.
+		)
+	}
+
+	{mass 6973}
+
+	{extender "inventory"
+		{box
+			{item "bulletger_30_auto he" 400}			; 2 MK108 (200 rounds per gun)
+		}
+	}
+
+	{Weaponry
+		{place "gun"
+			{weapon "30mm_mk108_x2" filling "bulletger_30_auto he" 400}
+			{barrels 2}
+			{foresight "foresight1"}
+			{shooter "shooter"}
+			{charger "driver"}
+			{gunner "driver"}
+			{ai_in_manual}
+			{basic}
+		}
+		{place "bomb1"
+			{weapon "bomb_dropper_ger_250x2" filled}
+			{barrels 2}
+			{gunner "driver"}
+			{shooter "shooter_bb"}
+			{charger "driver"}
+			{basic}
+		}
+	}
+}

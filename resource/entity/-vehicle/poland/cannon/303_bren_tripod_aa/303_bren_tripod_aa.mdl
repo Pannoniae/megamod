@@ -1,0 +1,246 @@
+;Exported by: Sergey
+;Date:        Sat Oct 06 00:13:47 2012
+;File:        D:\Documents\3dsmax\scenes\Тренога пулемёта БРЕН\Tripod Bren AA anim_01.max
+{Skeleton
+	{animation
+		{sequence "close" {speed 0.6}}
+	}
+	{bone revolute "basis"
+		{parameters "basis;"}
+		{speed 0.001}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "emit1"
+			{parameters "Group=crew;"}
+			{Position -40.2019	-0.015311	0}
+			{visibility 0}
+		}
+		{bone "emit2"
+			{parameters "Group=crew;"}
+			{Position -50.3258	5.29555	0}
+			{visibility 0}
+		}
+		{bone revolute "driver1"
+			{Position 1.4909	8.74286	0}
+		}
+		{bone "driver2"
+			{Position -11.5158	33.6064	0}
+		}
+		{bone "commander"
+			{Position -20.0123	19.2016	0.143767}
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Matrix34
+				0.71033	0	0.703869
+				0	1	0
+				-0.703869	0	0.71033
+				-1.14346	-0.00698447	16.9075
+			}
+			{VolumeView "body.ply"}
+			{bone revolute "turret1"
+				{parameters "ID=body;"}
+				{Position 0	0	0.724292}
+				{VolumeView "turret1.ply"}
+				{bone "tyaga"
+					{Position 1.4247	0	-1.98218}
+					{VolumeView "tyaga.ply"}
+				}
+			}
+			{bone "support1"
+				{parameters "ID=support1;"}
+				{Matrix34
+					-0.71033	0	0.703869
+					-0.703869	0	-0.71033
+					0	-1	0
+					1.00672	0.00462139	-0.619459
+				}
+				{VolumeView "support1.ply"}
+				{bone revolute "turret"
+					{parameters "ID=support1;"}
+					{Matrix34
+						-1	0	0
+						0	0	-1
+						0	-1	0
+						0	-8.9642	0
+					}
+					{VolumeView "turret.ply"}
+					{bone revolute "gun_rot"
+						{parameters "ID=mgun;"}
+						{limits -5 50}
+						{Matrix34
+							0.999989	0	-0.00470489
+							0.00470489	0	0.999989
+							0	-1	0
+							-0.300739	1.72122	1.1367
+						}
+						{VolumeView "gun_rot.ply"}
+						{bone "mgun"
+							{Matrix34
+								0.999989	0.00470489	0
+								-0.00470489	0.999989	0
+								0	0	1
+								-9.3207	-0.484955	0.181223
+							}
+							{bone "visor"
+								{Position 10.0637	-0.695601	1.54}
+							}
+							{bone "handle1"
+								{Position 4.04776	-4.03608	0}
+							}
+						}
+					}
+					{bone "gunner"
+						{Position -14.447	2.9847	-26.0356}
+					}
+				}
+				{bone "stopor"
+					{parameters "ID=support1;"}
+					{Position 0.293762	-7.78726	0.000793457}
+					{VolumeView "stopor.ply"}
+				}
+			}
+			{bone "support2"
+				{parameters "ID=support2;"}
+				{Matrix34
+					-0.0097062	-0.00353281	-0.999947
+					0.939643	0.342002	-0.0103291
+					0.34202	-0.939693	0
+					-11.5625	-5.42802	-2.81207
+				}
+				{VolumeView "support2.ply"}
+			}
+			{bone "support3"
+				{parameters "ID=support3;"}
+				{Matrix34
+					-0.00586611	0.00213501	-0.99998
+					0.939674	-0.342014	-0.00624248
+					-0.34202	-0.939693	0
+					-11.462	5.61552	-2.81207
+				}
+				{VolumeView "support3.ply"}
+			}
+			{bone "support4"
+				{parameters "ID=support4;"}
+				{Matrix34
+					0.946087	0	-0.323913
+					0	1	0
+					0.323913	0	0.946087
+					0.660513	0.0111588	-0.283302
+				}
+				{VolumeView "support4.ply"}
+			}
+		}
+		{bone "cartridge_belt"
+			{parameters "CommonMesh;"}
+			{Matrix34
+				-0.89167	-0.452686	0
+				0	0	1
+				-0.452686	0.89167	0
+				-7.98075	26.5884	1.86814
+			}
+			{VolumeView "cartridge_belt.ply"}
+			{bone revolute "cover"
+				{parameters "CommonMesh;"}
+				{Matrix34
+					-0.989435	-0.144976	0
+					0.144976	-0.989435	0
+					0	0	1
+					-1.77168	0.306341	2.32909
+				}
+				{VolumeView "cover.ply"}
+				{bone "zamok"
+					{parameters "CommonMesh;"}
+					{Matrix34
+						-0.956457	0.291875	0
+						-0.291875	-0.956457	0
+						0	0	1
+						4.91263	0.110712	-1.74151
+					}
+					{VolumeView "zamok.ply"}
+				}
+			}
+			{bone "handle2"
+				{Matrix34
+					-0.89167	0	-0.452686
+					0	1	0
+					0.452686	0	-0.89167
+					1.04771	-1.43779	5.76772
+				}
+			}
+		}
+	}
+}
+{Volume "body1"
+	{Cylinder 0.460791 13.7795}
+	{Bone "body"}
+	{Matrix34
+		0.380053	-0.924931	0.00784822
+		-0.202898	-0.0750862	0.976317
+		-0.902437	-0.372644	-0.216204
+		-6.33807	-3.23254	-1.54412
+	}
+}
+{Volume "body2"
+	{Cylinder 0.460791 13.7795}
+	{Bone "body"}
+	{Matrix34
+		-0.387841	-0.921682	-0.00906046
+		-0.204901	0.0766295	0.975778
+		-0.898663	0.380303	-0.218573
+		-6.29549	3.2422	-1.56045
+	}
+}
+{Volume "body"
+	{Cylinder 0.433071 1.1811}
+	{Bone "body"}
+	{Position 0	0	0.590551}
+}
+{Volume "cartridge_belt"
+	{Box 5.04738 2.26378 9.64567}
+	{Bone "cartridge_belt"}
+	{Position 0.678227	-0.821857	0.911667}
+}
+{Volume "cover"
+	{Box 5.04738 0.15748 8.66142}
+	{Bone "cover"}
+	{Position 2.44991	0.0644817	-1.83613}
+}
+{Volume "support1"
+	{Cylinder 0.414733 12.7953}
+	{Bone "support1"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		0.0050078	-5.91804	-0.00341877
+	}
+}
+{Volume "support2"
+	{Cylinder 0.391397 11.4173}
+	{Bone "support2"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		-0.00264774	-5.01761	0.0834811
+	}
+}
+{Volume "support3"
+	{Cylinder 0.391397 11.4173}
+	{Bone "support3"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		-0.00264859	-5.01761	0.0834823
+	}
+}
+{Volume "support4"
+	{Cylinder 0.373973 19.685}
+	{Bone "support4"}
+	{Position 0.00616693	0.00366238	-9.8542}
+}

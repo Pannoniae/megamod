@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "exhaust"}
+	{blend none}
+}

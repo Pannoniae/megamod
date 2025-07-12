@@ -1,0 +1,216 @@
+;Exported by: Norman
+;Date:        Sat Apr 22 10:06:25 2023
+;File:        C:\Users\Norman\Documents\3dsmax\scenes\pdr25_new2_xx.max
+{Skeleton
+	{bone revolute "basis"
+		{speed 0.002}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "pivot_front"
+			{Position 1.90667	0.577697	-1.90737}
+			{VolumeView "pivot_front.ply"}
+			{bone revolute "wheelleft"
+				{Matrix34
+					-1	0	0
+					0	0	1
+					0	1	0
+					-1.1432	18.1779	11.4373
+				}
+				{VolumeView "wheelleft.ply"}
+			}
+			{bone revolute "wheelright"
+				{Matrix34
+					-1	0	0
+					0	0	1
+					0	1	0
+					-1.1432	-20.3186	11.4373
+				}
+				{VolumeView "wheelright.ply"}
+			}
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Matrix34
+				0.999255	0	-0.0385819
+				0	1	0
+				0.0385819	0	0.999255
+				1.78622	0.577697	-5.06032
+			}
+			{VolumeView "body.ply"}
+			{bone revolute "gun_rot"
+				{Matrix34
+					0.993971	0	-0.109643
+					0.108496	-0.144257	0.983574
+					-0.0158168	-0.98954	-0.143387
+					1.28315	-1.32591	26.9825
+				}
+				{VolumeView "gun_rot.ply"}
+				{bone "gun"
+					{parameters "ID=gun;"}
+					{Matrix34
+						1	0	0
+						0	0	-1
+						0	1	0
+						1.16312	0.994001	-0.619955
+					}
+					{bone "gun17"
+						{parameters "ID=gun;"}
+						{Matrix34
+							1	0	0
+							0	1	0
+							0	0	1
+							18.88	0.0	-0.03
+						}
+						{VolumeView "gun17.ply"}
+						{bone "beach"
+							{parameters "ID=gun;"}
+							{Position 6.53996	0.0454855	1.34085}
+							{VolumeView "beach.ply"}
+							{bone "shutter"
+								{parameters "ID=gun;"}
+								{Position -48.6559	-0.036757	-3.81912}
+								{VolumeView "shutter.ply"}
+							}
+						}
+					}
+				}
+			}
+			{bone "upper_lever"
+				{Matrix34
+					0.970769	0	0.240018
+					0	1	0
+					-0.240018	0	0.970769
+					-28.8219	-1.37605	9.485
+				}
+				{VolumeView "upper_lever.ply"}
+				{bone "lower_lever"
+					{Matrix34
+						0.930895	0	-0.365286
+						0	1	0
+						0.365286	0	0.930895
+						26.9417	-0.436671	-8.48216
+					}
+					{VolumeView "lower_lever.ply"}
+					{bone revolute "turret"
+						{Matrix34
+							0.986418	0	0.164257
+							0	1	0
+							-0.164257	0	0.986418
+							0.168437	0.562375	-0.019676
+						}
+						{VolumeView "turret.ply"}
+						{bone "firing_platform"
+							{Position 0.000626445	0	-8.67844e-005}
+							{VolumeView "firing_platform.ply"}
+						}
+					}
+				}
+			}
+			{bone "part1"
+				{VolumeView "part1.ply"}
+				{bone "part2"
+					{Position 0.156078	-0.704613	34.322}
+					{VolumeView "part2.ply"}
+				}
+			}
+		}
+	}
+}
+{Volume "barrel1"
+	{Cylinder 1.75 81.5}
+	{Bone "gun17"}
+	{Matrix34
+		0	-1	0
+		0	0	1
+		-1	0	0
+		3.09048	0.0138515	0.065626
+	}
+}
+{Volume "barrel2"
+	{Box 5.5 6 6.5}
+	{Bone "gun17"}
+	{Position -40.3577	-0.226578	-0.550354}
+}
+{Volume "barrel3"
+	{Box 36.5624 4.77995 3.27049}
+	{Bone "gun_rot"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		5.02761	-2.77663	-0.625094
+	}
+}
+{Volume "body2"
+	{Polyhedron "body2.vol"}
+	{Bone "body"}
+	{Position -15.6284	6.856	17.1184}
+}
+{Volume "body3"
+	{Polyhedron "body3.vol"}
+	{Bone "body"}
+	{Position -15.6284	-9.59296	17.1184}
+}
+{Volume "body4"
+	{Polyhedron "body4.vol"}
+	{Bone "body"}
+	{Position -49.2696	-0.563486	1.9186}
+}
+{Volume "body"
+	{Cylinder 2.14786 15}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-1.33479	-1.40797	11.5142
+	}
+}
+{Volume "part1"
+	{Box 39 21 0.5}
+	{Bone "part1"}
+	{Matrix34
+		0	-1	0
+		-0.448147	0	0.89396
+		-0.89396	0	-0.448147
+		4.8636	-0.677203	24.8959
+	}
+}
+{Volume "part2"
+	{Box 39 3.7 0.5}
+	{Bone "part2"}
+	{Matrix34
+		0	-1	0
+		-0.448149	0	0.893959
+		-0.893959	0	-0.448149
+		-0.834208	0.0251043	1.62542
+	}
+}
+{Volume "turret"
+	{Cylinder 16.5 1.5}
+	{Bone "turret"}
+	{Position -0.285935	0.0010283	-2.22914}
+}
+{Volume "wheelleft"
+	{Cylinder 9.49829 5.12901}
+	{Bone "wheelleft"}
+	{Matrix34
+		-1	0	0
+		0	1	0
+		0	0	-1
+		0.0401392	-0.096507	-0.44978
+	}
+}
+{Volume "wheelright"
+	{Cylinder 9.49829 5.12901}
+	{Bone "wheelright"}
+	{Matrix34
+		-1	0	0
+		0	1	0
+		0	0	-1
+		0.0401356	-0.0965127	0.413772
+	}
+}

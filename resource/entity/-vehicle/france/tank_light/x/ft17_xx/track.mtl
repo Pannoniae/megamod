@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/model/ft17-1/RenaultFT_track_xx"}
+	{specular "$/model/ft17-1/RenaultFT_track_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

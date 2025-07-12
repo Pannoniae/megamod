@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "bishop_hull"}
+	{specular "$/model/bishop_hull_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

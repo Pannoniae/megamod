@@ -1,0 +1,114 @@
+{game_entity
+	(include "/properties/armoredcar.ext")
+	(include "/properties/shadow/tank.inc" scale(1.0))
+	(include "/properties/selection/vehicle.inc" scale(1.0))
+	{props "tank" "wheeled" "turret" "with_gun" "vision_lev02" "muzzle_37mm_47mm" "tractor" "tractor_heavy"}
+	{targetclass "armoredcar"}
+	{targetSelector "tank_light"}
+	{patherId "sdkfz251"}
+
+	{Extension "amc_p16.mdl"}
+	{boarder
+		{anm "seat"
+			{forward	{begin	"board_LowTank_stand_1"}}
+			{reverse 	{end	"emit_tank_1"}}
+		}
+    	}
+
+    	(define "crew_human"
+		{placer
+			{place "%place" {group "%group"} {visor "%visor"}}
+		}
+		{boarder
+			{door "%door"}
+			{link "%door" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+		}
+     	)
+     	("crew_human"  place(driver)    door(emit1) group(driver)	   animation(seat) visor(driver))
+     	("crew_human"  place(commander) door(emit1) group(commander)  animation(seat) visor(driver))
+     	("crew_human"  place(gunner)    door(emit1) group(gunner)	   animation(seat) visor(driver))
+	
+	
+	{volume "body"
+		{tags "body"}
+		{component "body"}
+		{thickness 12}
+	}
+	{Volume "gun"
+		{tags "gun"}
+		{component "gun"}
+		{thickness 10}
+	}
+	{Volume "turret"
+		{tags "turret"}
+		{component "turret"}
+		{thickness 12}
+	}
+	{volume "engine"
+		{thickness 10}
+	}
+
+	("armoredcar_tier1")
+
+	("wheel" args "wheelright1")
+	("wheel" args "wheelleft1")
+	("tracks" repair(30) thickness(15))
+	("ammo" args "ammo1")	
+  	
+	{extender "inventory"
+		{weapon "mgun"
+			{mask "weapon mgun"}
+		}
+		{Box
+			{item "ammo 7,5x54" 1400}
+			{item "ammo bullet37_fra ap" 40}
+			{item "ammo bullet37_fra he" 60}
+			{item "reibel" filled {user "mgun"}}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "37mm_SA18" filling "bullet37_fra ap" 1}
+			{charger "gunner"}
+			("abm_dymamic"
+				zeroing(2.5)
+				dispersion(0.25)
+			)
+		}
+		{place "mgun"
+			{type "coaxial"}
+			{basic}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{foresight "foresight3"}
+			("abm_mgun")
+		}
+	} 
+
+	{mass 6800}
+	{Chassis "wheel"
+		("tank_trace_ex" fx("tracks_sm2") step(0.2) len(0.46) boneleft("FXtraceL3") boneright("FXtraceR3"))
+		("car_trace" fx("tracewheel03a") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+
+		("mobility_car"
+			speed(50) ;----------------------------------Max speed.
+			speedatmaxturn(14) ;-------------------------Max speed at max turn.
+			reverse(10) ;---------------------------------Max speed in Reverse.
+			weight(6.8) ;--------------------------------Weight in Tonnes.
+			power(60) ;---------------------------------Horse Power.
+			fuel(260) ;----------------------------------Fuel capacity in Litres.
+			type(fuel) ;---------------------------------Fuel type.
+			range(250) ;---------------------------------Range in Kilometers.
+		)
+	}
+
+	{bone "gun_rot"
+		{speed2 8}
+	}
+	{bone "turret"
+		{speed2 10}
+	}
+
+}

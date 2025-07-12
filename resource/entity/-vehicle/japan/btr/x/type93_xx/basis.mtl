@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "/entity/-vehicle/japan/btr/x/type87_xx/vickers87_xx"}
+	{blend test}
+}

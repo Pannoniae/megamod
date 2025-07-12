@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "a10_mk2"}
+	{specular "$/model/a10_mk2_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

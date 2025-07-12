@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "lefh_1840_xx"}
+	{blend none}
+}

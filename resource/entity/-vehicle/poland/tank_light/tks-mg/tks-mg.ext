@@ -1,0 +1,27 @@
+;SDL
+
+	; armor notes
+	; tracks and wheels 10mm
+
+	("tankette_tier1")
+
+	("tracks" repair(30) thickness(10))
+	("transmission" args "transmission")
+
+	{volume "body1"			
+		{thickness 10
+			{top 6}		
+			{bottom 4}
+		}
+	}
+	{volume "body2"			
+		{thickness 10
+			{top 6}
+			{bottom 4}
+		}
+	}
+
+	{volume "engine"
+		{thickness 4}
+		{able {NoWoundDecal}}
+	}

@@ -1,0 +1,33 @@
+{game_entity
+	{Extension "honi2_xx.mdl"}
+	{Volume "body2"
+		{able {holed}}
+	}
+	{Volume "body3"
+		{able {holed}}
+	}
+	{Volume "body4"
+	}
+	{Volume "body"
+	}
+	{Volume "engine1"
+	}
+	{Volume "engine2"
+	}
+	{Volume "gun"
+	}
+	{Volume "gunrot"
+	}
+	{Volume "hole"
+	}
+	{Volume "shield1"
+	}
+	{Volume "shield2"
+	}
+	{Volume "shield3"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "trackright"
+	}
+}

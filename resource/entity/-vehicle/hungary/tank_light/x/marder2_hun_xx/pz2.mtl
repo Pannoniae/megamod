@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "marder2_hull"}
+	{blend none}
+}

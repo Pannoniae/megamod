@@ -1,0 +1,173 @@
+{game_entity
+	(include "/properties/armoredcar.ext")
+	(include "/properties/selection/vehicle.inc" scale(1.0))
+	{props "tank" "halftrack" "wheeled" "multi_board" "explosion_throw_crew" "vision_lev02" "tractor" "tractor_heavy" "detect_tank_mg" "open_death_fx_low"}
+	{able "emit_passengers_on_enemy"}
+	{patherId "sdkfz251"}
+	{targetclass "armoredcar"}
+	{targetSelector "tank_bullet"}
+	
+	("armoredcar_tier1")
+
+	("wheel" args "wheelright1")
+	("wheel" args "wheelleft1")
+	("tracks" repair(30) thickness(15))
+
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+		{thickness 6
+			{front	8}
+		}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+		{thickness 6
+			{front	8}
+		}
+	}
+	{volume "body3"
+		{tags "body"}
+		{component "body"}
+		{thickness 6
+			{front	8}
+		}
+	}
+	{volume "body4"
+		{tags "body"}
+		{component "body"}
+		{thickness 6
+			{front	8}
+		}
+	}
+	{volume "body5"
+		{tags "body"}
+		{component "body"}
+		{thickness 6
+			{front	8}
+		}
+	}
+	{volume "body6"
+		{tags "body"}
+		{component "body"}
+		{thickness 6
+			{front	8}
+		}
+	}
+	{volume "body7"
+		{tags "body"}
+		{component "body"}
+		{thickness 6
+			{front	8}
+		}
+	}
+	{volume "sticky"
+		{tags "grenade_fg_target"}
+		{able clear {contact} {touch}}
+		{component "sticky_body"}
+	}
+	{component "sticky_body"}
+	{volume "engine"
+		{tags "engine"}
+		{component "engine"}
+		{thickness 6
+			{front	8}
+		}
+	}
+	
+
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_body"} {end "seat_passenger"} {base "open_left"} }
+			{reverse 	{end	"emit_body"} {base "open_left" -1}}
+		}
+		{anm "commander"
+			{forward	{begin	"board_body"} {end "seat_passenger"} {base "open_right"}}
+			{reverse 	{end	"emit_body"} {base "open_right" -1}}
+		}
+		{anm "passenger1"
+			{forward	{begin	"board_body"} {end "seat_passenger"} {base "open_left"}}
+			{reverse 	{end	"emit_body"} {base "open_left" -1}}
+		}
+		{anm "passenger2"
+			{forward	{begin	"board_body"} {end "seat_passenger"} {base "open_right"}}
+			{reverse 	{end	"emit_body"} {base "open_right" -1}}
+		}
+		{anm "gunner"
+			{forward	{begin	"board_body"} {end "seat_gunner_stand"} {base "open_right"}}
+			{reverse 	{end	"emit_body"} {base "open_right" -1}}
+		}
+	}
+
+	("crew_human"	place(driver)		bone(driver)	door(emit1) animation(driver)	 group(crew))
+	("crew_human"	place(commander)	bone(commander)	door(emit2) animation(commander)	group(crew))
+	("crew_human"	place(gunner)		bone(gunner)	door(emit2) animation(gunner)	 group(crew))
+	
+	("passenger_human" place(seat1)		bone(seat01)	door(emit1)	animation(passenger1) group(passenger))
+	("passenger_human" place(seat2)		bone(seat02)	door(emit2)	animation(passenger2) group(passenger))
+	("passenger_human" place(seat3)		bone(seat03)	door(emit1)	animation(passenger1) group(passenger))
+	("passenger_human" place(seat4)		bone(seat04)	door(emit2)	animation(passenger2) group(passenger))
+	("passenger_human" place(seat5)		bone(seat05)	door(emit1)	animation(passenger1) group(passenger))
+	("passenger_human" place(seat6)		bone(seat06)	door(emit2)	animation(passenger2) group(passenger))
+	("passenger_human" place(seat7)		bone(seat07)	door(emit1)	animation(passenger1) group(passenger))
+	("passenger_human" place(seat8)		bone(seat08)	door(emit2) animation(passenger2) group(passenger))
+	("passenger_human" place(seat9)		bone(seat09)	door(emit1) animation(passenger1) group(passenger))
+	("passenger_human" place(seat10)	bone(seat10)	door(emit2) animation(passenger2) group(passenger))
+	("passenger_human" place(seat11)	bone(seat11)	door(emit1) animation(passenger1) group(passenger))
+	("passenger_human" place(seat12)	bone(seat12)	door(emit2) animation(passenger2) group(passenger))
+
+	{sensor
+		{visor "main"
+			{vision "tank_main-l"}
+			{bone "visor"}
+		}
+		{Visor "driver"
+			{vision "vehicle_around"}
+			{bone "visor"}
+		}
+	}
+
+
+	{extender "inventory"
+		{weapon "mgun" {mask "mountable"}}	
+		{box
+			{item "type3at_a" "grenade" 10}
+			{item "type99" "grenade" 25}
+			{item "smoke" "grenade" 10}
+			{item "bandage_jap" 10}
+			{item "dynamite"}
+			{item "type1hmg" filled {user "mgun"}}
+			{item "ammo 7x58" 990}
+		}
+	}
+	{Weaponry
+		{place "mgun"
+			{type "mgun_main"}
+			{LinkBone "mgun"}
+			{LinkAnimation "off"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			("abm_mgun")
+			{basic}
+		}
+	}
+	
+	{mass 9000}
+	{Chassis "wheel"
+		("tank_trace_ex" fx("tracks_sm2") step(0.2) len(-0.6) boneleft("FXtraceL3") boneright("FXtraceR3"))
+		("car_trace" fx("tracewheel03a") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+
+		("mobility_car"
+			speed(50) ;----------------------------------Max speed.
+			speedatmaxturn(14) ;-------------------------Max speed at max turn.
+			reverse(8) ;---------------------------------Max speed in Reverse.
+			weight(9.0) ;--------------------------------Weight in Tonnes.
+			power(134) ;---------------------------------Horse Power.
+			fuel(225) ;----------------------------------Fuel capacity in Litres.
+			type(fuel) ;---------------------------------Fuel type.
+			range(300) ;---------------------------------Range in Kilometers.
+		)
+	}
+	{Extension "type1_ho-ha.mdl"}
+}

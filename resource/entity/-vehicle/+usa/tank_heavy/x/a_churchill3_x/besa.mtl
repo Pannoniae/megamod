@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_vehicle/mg_besa_mkii_c"}
+	{bump "$/_vehicle/mg_besa_mkii_n_n"}
+	{specular "$/_vehicle/mg_besa_mkii_n_s"}
+	{color "230 230 230 25"}
+	{blend test}
+}

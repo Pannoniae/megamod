@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "mtls-1g14_chassis_01_am_xx"}
+	{bump "MTLS-1G14_chassis_01_ANM"}
+	{specular "mtls-1g14_chassis_01_gmm"}
+	{color "230 230 230 25"}
+	{blend none}
+}

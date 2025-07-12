@@ -1,0 +1,19 @@
+{game_entity
+	{Extension "120mm_wz1878_xx.mdl"}
+	{Volume "body2"
+	}
+	{Volume "body"
+	}
+	{Volume "gun_rot"
+	}
+	{Volume "gun"
+	}
+	{Volume "part1_1"
+	}
+	{Volume "part1"
+	}
+	{Volume "wheelleft"
+	}
+	{Volume "wheelright"
+	}
+}

@@ -1,0 +1,46 @@
+{game_Entity
+	{Extension "tiger1p_xx.mdl"}
+		(include "/properties/vehicle_xx.ext")	
+	{volume "body"
+		{thickness 50
+		{front 100}
+	}
+}
+	{volume "body1"
+		{thickness 50
+	{front 100}
+	}
+}
+	{volume "body2"
+		{thickness 50
+	{front 100}
+	}
+}
+	{volume "turret"
+		{thickness 50
+	{front 100}
+	}
+}
+	{volume "turret1"
+		{thickness 50
+	{front 100}
+	}
+}
+	{volume "turret2"
+		{thickness 50
+		{front 100}
+	}
+}
+	{volume "gun"
+		{thickness 50}
+	}
+	{volume "mantlet"
+		{thickness 100}
+	}
+	{volume "trackleft"
+		{thickness 40}
+	}
+	{volume "trackright"
+		{thickness 40}
+	}
+}

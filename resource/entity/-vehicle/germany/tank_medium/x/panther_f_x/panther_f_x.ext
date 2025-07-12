@@ -1,0 +1,109 @@
+;SDL
+	
+	; armor notes
+	; tracks and wheels 20mm
+	; gun 25mm
+	; spare tracks 20mm
+	; schürzen 5mm
+
+	("tank_heavy_tier1")
+
+	{volume "trackleft" {able {holed}}}
+	{volume "trackright" {able {holed}}}
+
+	("tracks" repair(30) thickness(20))
+	("gun" repair(30) thickness(25))
+
+
+	("shield" args "wheell1" 15)
+	("shield" args "wheell2" 15)
+	("shield" args "wheell3" 15)
+	("shield" args "wheell4" 15)
+	("shield" args "wheell5" 15)
+	("shield" args "wheell6" 15)
+	("shield" args "wheell7" 15)
+	("shield" args "wheell8" 15)
+	("shield" args "wheell9" 15)
+	("shield" args "wheelr1" 15)
+	("shield" args "wheelr2" 15)
+	("shield" args "wheelr3" 15)
+	("shield" args "wheelr4" 15)
+	("shield" args "wheelr5" 15)
+	("shield" args "wheelr6" 15)
+	("shield" args "wheelr7" 15)
+	("shield" args "wheelr8" 15)
+	("shield" args "wheelr9" 15)
+
+
+	("ammo" args "ammo1")
+	("ammo" args "ammo2")
+	("ammo" args "ammo3")
+	("ammo" args "ammo4")
+	("fuel" args "fuel1")
+	("fuel" args "fuel2")
+	("transmission" args "transmission")
+
+        ("shield_tear" args "shieldr1" 5)
+        ("shield_tear" args "shieldl1" 5)
+        ("shield_tear" args "shieldr2" 5)
+        ("shield_tear" args "shieldl2" 5)
+        ("shield_tear" args "shieldr3" 5)
+        ("shield_tear" args "shieldl3" 5)
+        ("shield_tear" args "shieldr4" 5)
+        ("shield_tear" args "shieldl4" 5)
+        ("shield_tear" args "shieldr5" 5)
+        ("shield_tear" args "shieldl5" 5)
+        ("shield_tear" args "shieldr6" 5)
+        ("shield_tear" args "shieldl6" 5)
+        ("shield_tear" args "shieldr7" 5)
+        ("shield_tear" args "shieldl7" 5)
+        ("shield_tear" args "shieldr8" 5)
+        ("shield_tear" args "shieldl8" 5)
+        ("shield_tear" args "shieldr9" 5)
+        ("shield_tear" args "shieldl9" 5)
+
+
+	{volume "body1"	
+		{thickness 40
+			{left 80}
+			{top 25}
+		}
+	}
+	{volume "body2"			; Superstructure
+		{thickness 40
+			{left 80}
+                        {right 55}
+			{top 25}
+		}
+	}
+	{volume "body3"			; Superstructure
+		{thickness 75
+		}
+	}
+	{volume "engine1"
+		{thickness 40
+			{top 25}
+		}
+	}
+	{volume "engine2"
+		{thickness 40
+		}
+	}
+	{volume "turret"
+		{thickness 60
+			{left 120}
+			{top 40}
+		}
+	}
+	{volume "mantlet"
+		{thickness 150}
+		{CastSteel 0.8063}
+	}
+	{volume "cupola"
+		{thickness 110
+			{top 16}
+		}
+		{component "turret"}
+		{tags "turret"}
+		{CastSteel 0.8063}
+	}

@@ -1,0 +1,15 @@
+{game_entity
+	{Extension "ho_ki_xx.mdl"}
+	{Volume "body2"
+	}
+	{Volume "body"
+	}
+	{Volume "cabin"
+	}
+	{Volume "engine"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "trackright"
+	}
+}

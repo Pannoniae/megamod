@@ -1,0 +1,7 @@
+{game_entity
+	{Extension "breda_61t_x.mdl"}
+	{Volume "wheelleft1"
+	}
+	{Volume "wheelright1"
+	}
+}

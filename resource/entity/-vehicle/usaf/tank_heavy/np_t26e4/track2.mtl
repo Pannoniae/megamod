@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/animation/track_t26e4"}
+	{bump "$/animation/track_t26e4_bp"}
+	{specular "$/animation/track_t26e4_sp"}
+	{color "230 230 230 125"}
+	{blend test}
+}

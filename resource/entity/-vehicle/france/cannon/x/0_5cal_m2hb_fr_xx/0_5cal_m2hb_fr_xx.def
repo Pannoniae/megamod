@@ -1,0 +1,13 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{Extension "50_browning_m2hb_xx.mdl"}
+	{Volume "body"
+	}
+	{Volume "part1"
+	}
+	{Volume "support2"
+	}
+	{Volume "support3"
+	}
+	{Texmod "vert_olive"}
+}

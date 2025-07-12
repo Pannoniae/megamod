@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "ab41"}
+	{bump "$/model/ab41/ab41_bp"}
+	{specular "$/model/ab41/ab41_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

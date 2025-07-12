@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/type95rogo/type_91_track"}
+	{blend test}
+}

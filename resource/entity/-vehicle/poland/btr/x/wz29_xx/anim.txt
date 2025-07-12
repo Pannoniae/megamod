@@ -1,0 +1,188 @@
+-= Animation: break, Node body =-
+	Frame 90 {
+		Visibility 1
+		Position	-18.6783	0.228727	20.457
+		Orientation	-0.019246 -0.0151426 -0.000291522 0.9997
+	}
+	Frame 95 {
+		Visibility 1
+		Position	-18.6783	0.228727	20.457
+		Orientation	-0.019246 -0.0151426 -0.000291522 0.9997
+	}
+-= Animation: repair, Node body =-
+	Frame 95 {
+		Visibility 1
+		Position	-18.6783	0.228727	20.457
+		Orientation	-0.019246 -0.0151426 -0.000291522 0.9997
+	}
+	Frame 100 {
+		Visibility 1
+		Position	-18.6783	0.228727	20.457
+		Orientation	-0.019246 -0.0151426 -0.000291522 0.9997
+	}
+-= Animation: break, Node engine =-
+	Frame 90 {
+		Visibility 1
+		Position	50.5762	-0.0204325	-2.45463
+		Orientation	0.0119827 0.0287815 -8.55557e-005 0.999514
+	}
+	Frame 95 {
+		Visibility 1
+		Position	50.5762	-0.0204325	-2.45463
+		Orientation	0.0119827 0.0287815 -8.55557e-005 0.999514
+	}
+-= Animation: repair, Node engine =-
+	Frame 95 {
+		Visibility 1
+		Position	50.5762	-0.0204325	-2.45463
+		Orientation	0.0119827 0.0287815 -8.55557e-005 0.999514
+	}
+	Frame 100 {
+		Visibility 1
+		Position	50.5762	-0.0204325	-2.45463
+		Orientation	0.0119827 0.0287815 -8.55557e-005 0.999514
+	}
+-= Animation: break, Node cover_e2 =-
+	Frame 140 {
+		Visibility 1
+		Position	-1.81263	9.36432	6.95736
+		Orientation	-0.00150075 0.0331919 4.9892e-005 0.999448
+	}
+	Frame 145 {
+		Visibility 1
+		Position	-1.81263	9.36432	6.95736
+		Orientation	-0.00150075 0.0331919 4.9892e-005 0.999448
+	}
+-= Animation: repair, Node cover_e2 =-
+	Frame 145 {
+		Visibility 1
+		Position	-1.81263	9.36432	6.95736
+		Orientation	-0.00150075 0.0331919 4.9892e-005 0.999448
+	}
+	Frame 150 {
+		Visibility 1
+		Position	-1.81263	9.36432	6.95736
+		Orientation	-0.00150075 0.0331919 4.9892e-005 0.999448
+	}
+-= Animation: break, Node cover_e1 =-
+	Frame 140 {
+		Visibility 1
+		Position	-1.81754	-9.34875	6.96206
+		Orientation	0.043602 0.0331604 -0.00144804 0.998497
+	}
+	Frame 145 {
+		Visibility 1
+		Position	-1.81754	-9.34875	6.96206
+		Orientation	0.043602 0.0331604 -0.00144804 0.998497
+	}
+-= Animation: repair, Node cover_e1 =-
+	Frame 145 {
+		Visibility 1
+		Position	-1.81754	-9.34875	6.96206
+		Orientation	0.043602 0.0331604 -0.00144804 0.998497
+	}
+	Frame 150 {
+		Visibility 1
+		Position	-1.81754	-9.34875	6.96206
+		Orientation	0.043602 0.0331604 -0.00144804 0.998497
+	}
+-= Animation: break, Node turret =-
+	Frame 100 {
+		Visibility 1
+		Position	8.91148	0.0805057	21.7564
+		Orientation	0 0 0 1
+	}
+	Frame 101 {
+		Position	8.21856	0.0805057	21.7564
+		Orientation	0 -0.00481233 0 0.999988
+	}
+	Frame 102 {
+		Position	7.52563	0.0805058	21.7564
+		Orientation	0 -0.00962455 0 0.999954
+	}
+	Frame 103 {
+		Position	7.71899	0.0805058	21.7564
+		Orientation	-0.00597897 -0.00700701 4.18965e-005 0.999958
+	}
+	Frame 104 {
+		Position	7.99896	0.0805057	21.7564
+		Orientation	-0.0119579 -0.00378787 4.52986e-005 0.999921
+	}
+	Frame 105 {
+		Visibility 1
+		Position	8.18685	0.0805058	21.7564
+		Orientation	-0.0110722 -0.0026719 2.95858e-005 0.999935
+	}
+-= Animation: repair, Node turret =-
+	Frame 105 {
+		Visibility 1
+		Position	8.18685	0.0805058	21.7564
+		Orientation	-0.0110722 -0.0026719 2.95858e-005 0.999935
+	}
+	Frame 106 {
+		Position	8.38952	0.0805058	21.7564
+		Orientation	-0.00885786 -0.00173656 1.53828e-005 0.999959
+	}
+	Frame 107 {
+		Position	8.58514	0.0805058	21.7564
+		Orientation	-0.0059791 -0.000991743 0 0.999982
+	}
+	Frame 108 {
+		Position	8.75189	0.0805058	21.7564
+		Orientation	-0.00310029 -0.000447406 0 0.999995
+	}
+	Frame 109 {
+		Position	8.86794	0.0805056	21.7564
+		Orientation	-0.0008858 -0.000113507 0 1
+	}
+	Frame 110 {
+		Visibility 1
+		Position	8.91148	0.0805057	21.7564
+		Orientation	0 0 0 1
+	}
+-= Animation: break, Node gun =-
+	Frame 110 {
+		Visibility 1
+		Position	1.41991	1.2226	0.0538757
+		Orientation	0.707107 0 0 0.707107
+	}
+	Frame 111 {
+		Position	1.16785	1.2226	0.0538757
+	}
+	Frame 112 {
+		Position	0.566782	1.2226	0.0538757
+	}
+	Frame 113 {
+		Position	-0.15062	1.2226	0.0538756
+	}
+	Frame 114 {
+		Position	-0.751687	1.2226	0.0538757
+	}
+	Frame 115 {
+		Visibility 1
+		Position	-1.00375	1.2226	0.0538756
+		Orientation	0.707107 0 0 0.707107
+	}
+-= Animation: repair, Node gun =-
+	Frame 115 {
+		Visibility 1
+		Position	-1.00375	1.2226	0.0538756
+		Orientation	0.707107 0 0 0.707107
+	}
+	Frame 116 {
+		Position	-0.751686	1.2226	0.0538757
+	}
+	Frame 117 {
+		Position	-0.150618	1.2226	0.0538756
+	}
+	Frame 118 {
+		Position	0.566785	1.2226	0.0538757
+	}
+	Frame 119 {
+		Position	1.16785	1.2226	0.0538757
+	}
+	Frame 120 {
+		Visibility 1
+		Position	1.41991	1.2226	0.0538757
+		Orientation	0.707107 0 0 0.707107
+	}

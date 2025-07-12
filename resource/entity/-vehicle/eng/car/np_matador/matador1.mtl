@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "matador_shield"}
+	{blend test}
+}

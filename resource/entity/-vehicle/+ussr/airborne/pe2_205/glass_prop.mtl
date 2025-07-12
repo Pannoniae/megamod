@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/_vehicle/prop_pe2"}
+	{blend blend}
+}

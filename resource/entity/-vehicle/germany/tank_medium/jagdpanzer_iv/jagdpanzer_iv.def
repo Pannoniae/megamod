@@ -1,0 +1,182 @@
+{game_entity	
+	(include "/properties/tank_assaultgun.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.2))
+	(include "/properties/selection/vehicle.inc"  scale(1.1))
+	{props "td" "medium" "-turret" "mantlet" "vision_lev03" "muzzle_75mm_76mm_sides" "shield"}
+
+	{PatherId "panzer4"}
+	{targetclass "tank_medium"}
+	{targetSelector "tank_medium"}
+
+	{extender "enumerator"
+		{digit_folder "ger"}
+	}
+	
+	("tank_medium_tier2")
+
+	("tracks" repair(30) thickness(20))
+	("gun" repair(30) thickness(30))
+
+	{Volume "body1"
+		{tags "body"}
+		{component "body"}
+		{thickness 40
+			{front 80}	
+			{top 22}	
+			{rear 20}
+			{bottom 22}
+		}
+	}
+	{Volume "body2"
+		{tags "body"}
+		{component "body"}
+		{thickness 40
+			{front 80}	
+			{top 22}	
+			{rear 20}
+			{bottom 22}
+		}
+	}
+	{Volume "body3"
+		{tags "body"}
+		{component "body"}
+		{thickness 40
+			{front 80}	
+			{top 22}	
+			{rear 20}
+			{bottom 22}
+		}
+	}
+	{Volume "body4"
+		{tags "body"}
+		{component "body"}
+		{thickness 40
+			{front 80}	
+			{top 22}	
+			{rear 20}
+			{bottom 22}
+		}
+	}
+	{Volume "body5"
+		{tags "body"}
+		{component "body"}
+		{thickness 40
+			{front 80}	
+			{top 22}	
+			{rear 20}
+			{bottom 22}
+		}
+	}
+	{Volume "engine1"
+		{tags "engine"}
+		{component "engine"}
+		{thickness 40}
+	}
+	{Volume "engine2"
+		{tags "engine"}
+		{component "engine"}
+		{thickness 40}
+	}
+	{Volume "mantlet"
+		{tags "gun"}
+		{component "gun"}
+		{thickness 80}
+	}
+	
+	
+	("crew_4_human")
+	
+	
+	{extender "shield"
+		{on}
+	}
+	{component "shieldl1" {tags "shield"}}
+	{component "shieldl2" {tags "shield"}}
+	{component "shieldl3" {tags "shield"}}
+	{component "shieldl4" {tags "shield"}}
+	{component "shieldr1" {tags "shield"}}
+	{component "shieldr2" {tags "shield"}}
+	{component "shieldr3" {tags "shield"}}
+	{component "shieldr4" {tags "shield"}}
+	("shield" args "shieldl1" 5)
+	("shield" args "shieldl2" 5)
+	("shield" args "shieldl3" 5)
+	("shield" args "shieldl4" 5)
+	("shield" args "shieldr1" 5)
+	("shield" args "shieldr2" 5)
+	("shield" args "shieldr3" 5)
+	("shield" args "shieldr4" 5)
+	("ammo" args "ammo1")
+	("ammo" args "ammo2")
+	("ammo" args "ammo3")
+
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_Kv"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_right"} {end "pose_mgun_pz6"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+
+	}
+	
+	{extender "inventory"
+		{box
+			{item "bulletger_75_l70 apcbche" 30} 	; 55 rounds
+			{item "bulletger_75_l70 he" 20}
+			{item "bulletger_75_l70 apcr" 5}
+			{item "ammo mgun_ger belt" 1200}
+			{item "geballteladung_3kg" 1}
+		}
+	}
+	
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "75mm_stuk42" filling "bulletger_75_l70 apcbche" 1}
+			{gunner "gunner"}
+			{charger "charger"}
+			("abm_dymamic_td"
+				zeroing(2.5)
+				dispersion(0.20)
+			)
+		}
+		{place "mgun"
+			{type "hull"}
+			{weapon "mg42_tank" filled}
+			{foresight "foresight4"}
+			{gunner "driver"}
+			{charger "driver"}
+			("abm_mgun")
+			{basic}
+		}
+	}
+
+	{mass 25800}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.52) len(0.45))
+		("mobility_tank"
+			speed(35) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(8) ;---------Max speed in reverse on road, km/h.
+			traverse(30) ;-------Track traverse, per second, in degrees.
+			weight(25.8) ;-------Weight in Tonnes.
+			power(265) ;---------Engine Power, in hp. //engine under normal use was rated 265hp at 2600 rpm
+			track(4.5) ;---------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(470) ;----------Fuel capacity in Litres.
+			type(fuel) ;---------Fuel type. (diesel OR fuel)
+			range(130) ;---------Range in km, off-road.
+		)
+	}
+	
+	{Extension "jagdpanzer_iv.mdl"}	
+	
+	{bone "gun_rot"
+		{speed2 6}
+   	}
+    	{bone "gun_rot2"
+		{speed2 8}
+   	}
+}

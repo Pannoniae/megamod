@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "/entity/-vehicle/france/cannon/13mm_hotchkiss/13mm_hotchkiss_gun"}
+	{specular "/entity/-vehicle/france/cannon/13mm_hotchkiss/13mm_hotchkiss_gun"}
+	{color "229 229 229 25"}
+	{blend none}
+}

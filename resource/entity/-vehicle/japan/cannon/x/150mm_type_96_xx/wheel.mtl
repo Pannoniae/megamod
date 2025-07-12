@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "type_96_15cm_wheel_d"}
+	{blend none}
+}

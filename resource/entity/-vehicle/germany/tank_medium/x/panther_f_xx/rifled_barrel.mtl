@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/panther_f/rifled_barrel_Base_color_xx"}
+	{bump "$/model/panther_f/rifled_barrel_Normal_bump_xx"}
+	{specular "$/model/panther_f/rifled_barrel_Specular_xx"}
+	{color "230 230 230 25"}
+	{blend none}
+}

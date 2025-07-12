@@ -1,0 +1,93 @@
+{game_entity
+    (include "/properties/airborne_mp.ext")
+	(include "/properties/selection/airborne.inc" scale(3.0))
+	(include "/properties/car_crew.ext")
+    {PatherID "bf109"}
+	("fighter_tier1")
+	
+
+	{Volume "gouvl"
+		{Thickness 10}
+	}
+	{Volume "gouvr"
+		{Thickness 10}
+	}
+
+	(define "part"
+		{volume %0
+			{tags "body"}
+			{thickness hollow 10}
+			{able {visible 0}}
+			{density 0.01}
+		}
+		{component %0}
+	)
+
+	("part" args "gouvl")
+	("part" args "gouvr")
+
+	
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_plane_left"} {end "seat_driver_car"} {base "open"}}
+			{reverse 	{end	"board_plane_left" -1} {base "open" -1}}
+		}
+	}
+	("crew_human" place(driver) bone(driver) door(emit1) animation(driver))
+	{Placer
+		{place "driver" {turnOff {targetable}}}
+	}
+	
+	{mass 3600}
+	{Chassis "airborne"
+		("flight_model"
+			speed(510)  ;//---------Max speed (at sea level), km/h.
+			climb_speed(18) ;//-----Climb rate at sea level, in m/s
+			turn(250) ;//-----------Turn-and-burn radius in meters, tightest sustained turn
+			turnMP(200) ;//----------Turn-and-burn radius in meters, tightest sustained turn in Multiplayer
+			aerodynamics(2.5) ;//---Aerodynamic efficiency rating (0-3)
+			weight(3600) ;//--------Weight in kg.
+			power(1150) ;//---------Horse Power.
+			fuel(455) ;//-----------Fuel capacity in Liters.
+			range(495) ;//----------Distance can travel with full fuel tank, in km.
+			roll_rate(60) ;//-------Roll rate, in degrees per second.
+			roll_angle(65) ;//------Maximum roll angle, in degrees.
+		)
+	}
+
+	("single_engine")
+
+	("wheel" args "wheelr")
+	("wheel" args "wheell")
+	("wheel" args "wheelback")
+	
+	{extender "inventory"
+		{Box
+			{item "bullet_20_auto aphe" 240}
+			{item "ammo 7x63" 1400}
+      	}
+	}
+	{Weaponry
+		{place "gun"
+			{weapon "20mm_hispano" filled}
+			{barrels 2}
+			{foresight "foresight1"}
+			{gunner "driver"}
+			{charger "driver"}
+			{basic}
+		}
+	    {place "gun2"
+			{type "main"}
+			{weapon "browning_m19" filled}
+			{barrels 4}
+			{shooter "shooter_mg"}
+			{charger "driver"}
+			{gunner "driver"}
+            {foresight "foresight3"}
+			{basic}
+		}
+	}
+	
+	{Extension "spitfire.mdl"}
+}
+

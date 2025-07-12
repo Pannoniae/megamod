@@ -1,0 +1,11 @@
+{game_entity
+	{Extension "ca101_x.mdl"}
+	{Volume "cabin"
+	}
+	{Volume "wheel_back"
+	}
+	{Volume "wheell"
+	}
+	{Volume "wheelr"
+	}
+}

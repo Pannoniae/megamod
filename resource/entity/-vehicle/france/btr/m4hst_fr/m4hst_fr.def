@@ -1,0 +1,95 @@
+{game_entity
+	(include "/properties/tank_unarmed.ext")
+	(include "/properties/shadow/tank.inc" scale(0.9))
+	(include "/properties/selection/vehicle.inc" scale(0.8))
+	{props "armored_car" "tank" "-turret" "explosion_throw_crew" "windowed" "vision_lev02" "tractor" "tractor_heavy" "detect_tank_mg"}
+	{targetclass "armoredcar" "bullet"}
+	{targetSelector "tank_bullet"}
+	{patherId "universal"}
+	{collider "tank.light"}
+	
+	("armoredcar_tier1")
+
+	("tracks" repair(30) thickness(15))
+	{Volume "body1"
+		{tags "body"}
+		{component "body"}
+		{Thickness 10}
+	}
+	{Volume "body2"
+		{tags "body"}
+		{component "body"}
+		{Thickness 10}
+	}
+	{Volume "body3"
+		{tags "body"}
+		{component "body"}
+		{Thickness 10}
+	}
+	{Volume "body"
+		{tags "body"}
+		{component "body"}
+		{Thickness 10}
+	}
+	{Volume "engine"
+		{Thickness 10}
+	}
+	{Volume "window1"
+		{Thickness 0.2}
+		{able {visible 0}{window}{obstacle 0}}
+	}
+	{Volume "window2"
+		{Thickness 0.2}
+		{able {visible 0}{window}{obstacle 0}}
+	}
+
+	{extension "crew.ext"}	
+
+	{extender "enumerator"}
+	
+	
+	{extender "inventory"
+		{weapon "mgun" {mask "mountable"}}
+		{box
+			{item "ammo 12x99" 2200}
+			{item "browning" filled {user "mgun"}}
+			(mod "mp"
+				{item "tow_rope" 1}
+			)
+		}
+	}
+	{Weaponry
+		{place "mgun"
+			{type "mgun_aa"}
+			{gunner "gunner2"}
+			{charger "gunner2"}
+			{LinkBone "Mgun_rot"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+		}
+	}
+	{sensor
+		{visor "gunner2" {bone "mgun_rot"}}
+	}
+	{placer 
+		{place "gunner2" {useVision} {visor "gunner2"} {group "crew"}}
+	}
+  	
+
+	{mass 14200}
+	{Chassis "track"
+		("tank_trace" fx("tracks_sm") step(0.3) len(0.5))
+		("mobility_tank"
+			speed(56) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(12) ;--------Max speed in reverse on road, km/h.
+			traverse(35) ;-------Track traverse, per second, in degrees.
+			weight(14.2) ;-------Weight in Tonnes.
+			power(210) ;----------Engine Power, in hp.
+			track(5) ;-----------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(250) ;-----------Fuel capacity in Litres.
+			type(fuel) ;---------Fuel type. (diesel OR fuel)
+			range(160) ;---------Range in km, off-road.
+		)
+	}		
+	{Extension "m4hst.mdl"}
+}

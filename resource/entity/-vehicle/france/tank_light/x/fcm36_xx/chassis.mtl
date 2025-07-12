@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "fcm36_20t_chassis_01_am"}
+	{specular "$/model/fcm36/fcm36_20t_chassis_01_AO"}
+	{color "229 229 229 25"}
+	{blend none}
+}

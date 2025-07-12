@@ -1,0 +1,21 @@
+{game_entity
+	{Extension "type97_chi_ha_eng_xx.mdl"}
+	{Volume "body1"
+	}
+	{Volume "body2"
+	}
+	{Volume "body3"
+	}
+	{Volume "body4"
+	}
+	{Volume "body"
+	}
+	{Volume "engine1"
+	}
+	{Volume "engine2"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "trackright"
+	}
+}

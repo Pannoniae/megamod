@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/mk7/mk7"}
+	{bump "$/model/mk7/mk7_bp"}
+	{specular "$/model/mk7/mk7_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "/entity/-vehicle/italy/tank_medium/x/m7518_xx/a42bcf2f"}
+	{blend test}
+}

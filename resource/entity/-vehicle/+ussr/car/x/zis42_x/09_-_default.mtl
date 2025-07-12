@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "zis42_tracks"}
+	{specular "zis42_tracks_spec"}
+	{color "230 230 230 25"}
+	{blend test}
+}

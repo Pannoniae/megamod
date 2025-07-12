@@ -1,0 +1,74 @@
+{game_entity
+	(include "/properties/halftrack.ext")
+	(include "/properties/shadow/tank.inc" scale(1.0))
+	(include "/properties/selection/vehicle.inc" scale(1.0))
+	{props "truck" "vision_lev02" "tractor" "tractor_heavy"}
+	{Extension "crew.ext"}
+
+	{collider "truck"}
+	{patherId "sdkfz8"}
+
+	("armoredcar_tier1")
+
+	("fuel" args "fuel")
+	("transmission" args "transmission")
+
+	{volume "sticky"
+		{tags "grenade_fg_target"}
+		{able clear {contact} {touch}}
+		{component "sticky_body"}
+	}
+	{component "sticky_body"}
+
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+		{thickness 8}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+		{thickness 8}
+	}
+	{volume "engine"
+		{tags "engine"}
+		{component "engine"}
+		{thickness 10}
+	}
+
+	("wheel" args "wheelleft1_volume")
+	("wheel" args "wheelright1_volume")
+
+	("tracks" repair(30) thickness(15))
+
+	("glass" args "glass")
+
+	{extender "inventory"
+		{Box
+			{item "dynamite"}
+			(mod "mp"
+				{item "tow_rope" 1}
+			)
+		}
+	}
+
+
+	{mass 9750}
+
+	{Chassis "wheel"
+		("tank_trace_ex" fx("tracks_sm2") step(0.2) len(0.50) boneleft("FXtraceL3") boneright("FXtraceR3"))
+		("car_trace" fx("tracewheel02") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("mobility_car"
+			speed(57) ;----------------------------------Max speed.
+			speedatmaxturn(20) ;-------------------------Max speed at max turn.
+			reverse(13) ;--------------------------------Max speed in Reverse.
+			weight(9.75) ;--------------------------------Weight in Tonnes.
+			power(140) ;---------------------------------Horse Power.
+			fuel(215) ;----------------------------------Fuel capacity in Litres.
+			type(fuel) ;---------------------------------Fuel type.
+			range(120) ;---------------------------------Range in Kilometers.
+		)
+	}
+
+	{Extension "sdkfz7.mdl"}
+}

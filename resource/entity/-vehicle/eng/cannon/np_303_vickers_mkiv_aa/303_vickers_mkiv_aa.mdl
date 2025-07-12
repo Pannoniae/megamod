@@ -1,0 +1,246 @@
+;Exported by: Sergey
+;Date:        Tue Dec 20 00:10:22 2016
+;File:        D:\Sergey\documents\3dsMax\scenes\_resource_MoW_old\-vehicle_machine_gun\_OLD_2014-12-24\MK1 VICKERS\?????? Vickers Mk IV_AA_00.max
+{Skeleton
+	{animation
+		{sequence "close" {speed 0.5}}
+		{sequence "recoil" {speed 0.5}}
+	}
+	{bone revolute "basis"
+		{parameters "basis;"}
+		{speed 0.001}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "CommonMesh;ID=body;"}
+			{Position -0.0632399	-0.182947	8.70533}
+			{VolumeView "body.ply"}
+			{bone revolute "turret"
+				{parameters "ID=body;"}
+				{speed 0.04}
+				{Position 0.286168	0.236838	0.897145}
+				{VolumeView "turret.ply"}
+				{bone revolute "gun_rot"
+					{parameters "ID=mgun;"}
+					{limits -75 5}
+					{speed 0.05}
+					{Matrix34
+						-1	0	0
+						0	0	1
+						0	1	0
+						0.0258735	-0.0286793	16.0159
+					}
+					{VolumeView "gun_rot.ply"}
+					{bone "mgun"
+						{Matrix34
+							-1	0	0
+							0	1	0
+							0	0	-1
+							10.5598	0.894476	-0.0137062
+						}
+						{VolumeView "mgun.ply"}
+						{bone "ammo_belt1"
+							{Matrix34
+								0	-1.55727e-05	1
+								0	1	1.55727e-05
+								-1	0	0
+								7.36385	-0.138683	-0.992053
+							}
+							{VolumeView "ammo_belt1.ply"}
+						}
+						{bone "shooter"
+							{Position 21.2337	1.29341	0.0114995}
+						}
+						{bone "foresight4"
+							{Position 21.8136	0.653885	0.0114978}
+						}
+					}
+					{bone "fxshell"
+						{Matrix34
+							0.0135598	-0.999908	0
+							-0.999908	-0.0135598	0
+							0	0	-1
+							2.20853	0.442545	-0.0252136
+						}
+					}
+				}
+				{bone "commander"
+					{Matrix34
+						-0.0547841	0.998498	0
+						-0.998498	-0.0547841	0
+						0	0	1
+						-10.0745	-15.3085	-9.55851
+					}
+				}
+				{bone "gunner"
+					{Position -15.2341	-0.0269947	-9.55851}
+				}
+				{bone "visor"
+					{Matrix34
+						1	0	0
+						0	0	1
+						0	-1	0
+						9.69393	0.26538	19.45
+					}
+				}
+				{bone "korobka"
+					{parameters "ID=body;"}
+					{Matrix34
+						-1	0	0
+						0	-1	0
+						0	0	-1
+						-3.21153	-3.86327	8.35584
+					}
+					{VolumeView "korobka.ply"}
+					{bone "ammobox"
+						{Matrix34
+							0	1	0
+							0	0	-1
+							1	0	0
+							-0.886029	0.443703	-2.69207
+						}
+						{VolumeView "ammobox.ply"}
+						{bone "ammo_belt"
+							{parameters "ID=body;"}
+							{Matrix34
+								1	-1.57356e-05	0
+								1.57356e-05	1	0
+								0	0	1
+								-0.338236	3.07118	0.0578656
+							}
+							{VolumeView "ammo_belt.ply"}
+						}
+					}
+				}
+			}
+			{bone revolute "stan2"
+				{parameters "ID=body;"}
+				{Matrix34
+					-0.782395	0.610031	-0.125382
+					-0.102579	0.0723464	0.99209
+					-0.614277	-0.789068	-0.00597284
+					1.22284	-1.13942	-1.04002
+				}
+				{VolumeView "stan2.ply"}
+			}
+			{bone revolute "stan1"
+				{parameters "ID=body;"}
+				{Matrix34
+					0.869882	0	0.49326
+					-0.49326	0	0.869882
+					0	-1	0
+					-1.30653	-0.0596664	-1.10674
+				}
+				{VolumeView "stan1.ply"}
+			}
+			{bone revolute "stan3"
+				{parameters "ID=body;"}
+				{Matrix34
+					-0.779869	-0.607605	-0.150401
+					-0.123145	-0.0866513	0.988598
+					-0.61371	0.789498	-0.0072469
+					1.21503	1.57236	-1.14484
+				}
+				{VolumeView "stan3.ply"}
+			}
+		}
+		{bone "emit1"
+			{parameters "Group=crew;Visible=0;"}
+			{Position -27.6916	-9.37488	0}
+		}
+		{bone "emit2"
+			{parameters "Group=crew;Visible=0;"}
+			{Position -27.6916	-19.5164	0}
+		}
+		{bone "driver2"
+			{Position -6.28239	-3.11881	0}
+		}
+		{bone "driver1"
+			{Position 5.13937	2.71055	0}
+		}
+		{bone "support1"
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				-1.29776	0	7.35062
+			}
+		}
+		{bone "support2"
+			{Position 0.97556	-1.01246	7.35588}
+		}
+		{bone "support3"
+			{Position 0.971841	1.13093	7.35588}
+		}
+	}
+}
+{Obstacle "obstacle"
+	{Circle2
+		{Radius 11.8554}
+		{Center -0.218003 -0.400806}
+	}
+	{Rotate}
+}
+{Volume "ammo"
+	{Box 2.81501 5.8311 3.93701}
+	{Bone "ammobox"}
+	{Matrix34
+		0	0	-1
+		-0.999882	-0.0154045	0
+		-0.0154045	0.999882	0
+		0.187837	-1.9309	0.94273
+	}
+}
+{Volume "body1"
+	{Cylinder 0.580042 13.7795}
+	{Bone "stan1"}
+	{Matrix34
+		0	0	1
+		0.000848085	1	0
+		-1	0.000848085	0
+		-6.47168	-0.172126	-0.26078
+	}
+}
+{Volume "body2"
+	{Cylinder 0.662904 7.87402}
+	{Bone "stan2"}
+	{Matrix34
+		-0.725051	0.437589	-0.531805
+		0.442535	-0.295649	-0.846614
+		0.527697	0.84918	-0.020712
+		-2.51242	-3.96691	0.178879
+	}
+}
+{Volume "body3"
+	{Cylinder 0.556337 7.87402}
+	{Bone "stan3"}
+	{Matrix34
+		-0.621103	0.404289	-0.671403
+		-0.577122	0.343666	0.740827
+		0.530247	0.847611	0.019872
+		-2.39839	-3.97309	0.3395
+	}
+}
+{Volume "body"
+	{Cylinder 0.98438 4.92126}
+	{Bone "body"}
+	{Position 0.274249	0.246949	0.485134}
+}
+{Volume "mgun"
+	{Cylinder 1.34611 21.9051}
+	{Bone "mgun"}
+	{Matrix34
+		0	0	-1
+		0	1	0
+		1	0	0
+		10.4689	0.981325	0.0492995
+	}
+}
+{Volume "turret"
+	{Cylinder 0.533224 14.8511}
+	{Bone "turret"}
+	{Position -0.0119192	0.0101109	9.62172}
+}

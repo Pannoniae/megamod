@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/fra/armband_off"}
+	{blend test}
+}

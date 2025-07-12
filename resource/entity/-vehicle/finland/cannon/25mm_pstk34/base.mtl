@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "25mm_pstk34"}
+	{specular "$/model/mle34_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

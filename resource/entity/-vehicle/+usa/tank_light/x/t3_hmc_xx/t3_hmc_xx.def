@@ -1,0 +1,22 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{Extension "t3_hmc_xx.mdl"}
+	{Volume "body1"
+		{thickness 16}
+	}
+	{Volume "body2"
+		{thickness 16}
+	}
+	{Volume "engine"
+		{thickness 40}
+	}
+	{Volume "gun"
+		{thickness 30}
+	}
+	{Volume "mgturret"
+		{thickness 16}
+	}
+	{Volume "turret"
+		{thickness 16}
+	}
+}

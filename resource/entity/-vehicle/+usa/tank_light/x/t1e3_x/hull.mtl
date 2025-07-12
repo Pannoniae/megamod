@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "t1_cunningham_hull_01_am_x"}
+	{bump "t1_cunningham_hull_01_anm"}
+	{specular "t1_cunningham_hull_01_gmm"}
+	{color "230 230 230 25"}
+	{blend none}
+}

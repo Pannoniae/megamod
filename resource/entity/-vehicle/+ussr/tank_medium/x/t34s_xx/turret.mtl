@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_vehicle/t34s_turret_diffuse_xx"}
+	{bump "$/_vehicle/t34s_turret_bump"}
+	{specular "$/_vehicle/t34s_turret_specular"}
+	{color "230 230 230 25"}
+	{blend none}
+}

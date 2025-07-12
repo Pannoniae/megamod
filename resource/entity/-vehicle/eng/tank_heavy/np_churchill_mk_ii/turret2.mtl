@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "churchill_i_turret"}
+	{bump "$/model/churchill_i_turret_bp"}
+	{specular "$/model/churchill_i_turret_sp"}	
+	{color "229 229 229 25"}
+	{blend none}
+}

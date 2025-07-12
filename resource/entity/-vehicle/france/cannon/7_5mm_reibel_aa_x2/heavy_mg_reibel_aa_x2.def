@@ -1,0 +1,118 @@
+{game_entity
+	(include "/properties/cannon_mgun.ext")
+	{collider "cannon_small"}
+	{props"cannon_small" "round_sandbag2" "vision_cannon_minimum" "0_3cal_m1917a1_aa_fra"}
+
+	{Weaponry
+		{place "gun"
+			{type "main"}
+			{LinkBone ""}
+			{weapon "Reibel" filled}
+			{foresight "foresight1"}
+			{barrels 2}
+			{gunner "gunner"}
+			{charger "gunner"}
+		}
+	} 
+	{extender "inventory"
+		{box
+			{clear}
+			{item "ammo 7,5x54" 2250}
+
+		}
+	} 	
+	{Extension "7_5mm_reibel_aa_x2.mdl"}
+
+	{boarder
+		{anm "gunner"
+			{forward {end "pose_dshk_aa_gunner"}}
+		}
+		{anm "commander"
+			{forward {end "pose_dshk_aa_commander"}}
+		}
+		{anm "driver1"
+			{forward {end "mgun_browning_driver_r"}}
+		}
+		{anm "driver2"
+			{forward {end "mgun_browning_driver_l"}}
+		}
+	}
+
+	{extender "cannon"
+		{animation
+		;// "gunner" "commander"
+			{switch "close"}
+			{move "mgun_browning_driver_r" "mortar_driver_l"}
+			{aim "" "mg_dshk_aa_commander_aim"}
+		}
+	}
+
+	{sensor 
+		{visor "main" 
+			{vision "cannon_main"}
+			{bone "turret"}
+		}
+	}
+
+	{volume "body1"
+		{thickness 25}
+		{tags "body"}
+	}
+	{volume "body2"
+		{thickness 25}
+		{tags "body"}
+	}
+	{volume "body3"
+		{thickness 25}
+		{tags "body"}
+	}
+	{volume "body4"
+		{thickness 25}
+		{tags "body"}
+	}
+	{volume "body5"
+		{thickness 25}
+		{tags "body"}
+	}
+	{volume "body6"
+		{thickness 25}
+		{tags "body"}
+	}
+	{volume "body7"
+		{thickness 25}
+		{tags "body"}
+	}
+	{volume "magazin00"
+		{thickness 15}
+		{tags "gun"}
+	}
+	{volume "magazin01"
+		{thickness 15}
+		{tags "gun"}
+	}
+	{volume "mgun00"
+		{thickness 15}
+		{tags "gun"}
+	}
+	{volume "mgun01"
+		{thickness 15}
+		{tags "gun"}
+	}
+	{Volume "turret"
+		{thickness 10}
+	}
+	{component "turret"
+		{RepairTime 20}
+	}
+	{component "gun"
+		{RepairTime 15}
+	}
+    {component "body"
+		{RepairTime 5}
+	}
+
+	{bone "turret"
+		{limits}
+	}
+
+}

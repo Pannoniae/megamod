@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "75mm1897a4_shield_x"}
+	{bump "$/model/75mm1897a4_shield_bp"}
+	{specular "$/model/75mm1897a4_shield_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

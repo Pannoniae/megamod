@@ -1,0 +1,25 @@
+{game_entity
+	{Extension "75mm_type_90_xx.mdl"}
+	{Volume "body"
+	}
+	{Volume "gun2"
+	}
+	{Volume "gun"
+	}
+	{Volume "shield"
+	}
+	{Volume "shieldl1"
+	}
+	{Volume "shieldr1"
+	}
+	{Volume "standl"
+	}
+	{Volume "standr"
+	}
+	{Volume "turret"
+	}
+	{Volume "wheelleft"
+	}
+	{Volume "wheelright"
+	}
+}

@@ -1,0 +1,221 @@
+;Exported by: Normand
+;Date:        Sat Jul 06 17:14:48 2019
+;File:        C:\Users\Normand\mk2daimler_new.max
+{Skeleton
+	{bone "basis"
+		{parameters "SteerMax=30;WheelRadius=0.45;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{animation
+				{sequence "break" {file "body_b.anm"} {speed 0.4}}
+			}
+			{Position -1.08964	0.837593	18.656}
+			{VolumeView "body.ply"}
+			{bone "detail1"
+				{parameters "ID=body;"}
+				{Position 3.66024	20.1132	1.17443}
+				{VolumeView "detail1.ply"}
+			}
+			{bone revolute "turret"
+				{parameters "ID=turret;"}
+				{animation
+					{sequence "break" {file "turret_b.anm"} {speed 0.4}}
+				}
+				{Position 0.396282	-1.13903	12.6877}
+				{VolumeView "turret.ply"}
+				{bone "cover"
+					{parameters "ID=turret;"}
+					{Position -4.1258	0.00419325	11.1624}
+					{VolumeView "cover.ply"}
+				}
+				{bone revolute "gun_rot"
+					{parameters "ID=gun;"}
+					{limits -5 20}
+					{Matrix34
+						1	0	0
+						0	0	1
+						0	-1	0
+						9.52497	-0.0114015	5.40733
+					}
+					{VolumeView "gun_rot.ply"}
+					{bone "gun"
+						{parameters "ID=gun;"}
+						{animation
+							{sequence "break" {file "gun_b.anm"} {speed 0.4}}
+						}
+						{Matrix34
+							1	0	0
+							0	0	-1
+							0	1	0
+							6.37018	-0.881302	-0.0441358
+						}
+						{VolumeView "gun.ply"}
+					}
+				}
+				{bone "antenna"
+					{parameters "ID=turret;"}
+					{Position -13.4171	-8.96235	10.0123}
+					{VolumeView "antenna.ply"}
+				}
+			}
+			{bone "door"
+				{parameters "ID=body;"}
+				{Matrix34
+					0.989269	-0.0336476	0.142176
+					0	0.973119	0.230301
+					-0.146103	-0.22783	0.962677
+					-4.31097	-18.3306	0.115292
+				}
+				{VolumeView "door.ply"}
+			}
+			{bone "engine"
+				{parameters "ID=engine;"}
+				{animation
+					{sequence "break" {file "engine_b.anm"} {speed 0.4}}
+				}
+				{Matrix34
+					-1	0	0
+					0	1	0
+					0	0	1
+					-23.1115	-0.75224	-1.37813
+				}
+				{VolumeView "engine.ply"}
+				{bone "engine_cover"
+					{parameters "ID=body;"}
+					{Matrix34
+						-1	0	0
+						0	1	0
+						0	0	1
+						-0.384789	-1.5588	8.9094
+					}
+					{VolumeView "engine_cover.ply"}
+				}
+			}
+			{bone "enumerator"
+				{parameters "ID=enumerator;"}
+				{Matrix34
+					0	1	0
+					-1	0	0
+					0	0	1
+					-0.93873	-0.0345687	7.21352
+				}
+				{VolumeView "enumerator.ply"}
+			}
+		}
+		{bone "pivot_back"
+			{parameters "ID=body;"}
+			{Position -24.8575	0.00826181	10.2587}
+			{VolumeView "pivot_back.ply"}
+			{bone prizmatic "suspension_l2"
+				{limits -0.08 0.05}
+				{speed2 0.5}
+				{Matrix34
+					1   0   0
+					0   1   0
+					0   0   1
+					-0.0344582	19.5381	-0.00562382
+				}
+			{bone revolute "wheell2"
+				{parameters "ID=wheelleft2;"}
+				{Matrix34
+					-1	0	0
+					0	0	1
+					0	1	0
+					0   0   0
+				}
+				{VolumeView "wheell2.ply"}
+			}
+			}
+			{bone prizmatic "suspension_r2"
+				{limits -0.08 0.05}
+				{speed2 0.5}
+				{Matrix34
+					1   0   0
+					0   1   0
+					0   0   1
+					-0.0344601	-20.092	-0.00562382
+				}
+			{bone revolute "wheelr2"
+				{parameters "ID=wheelright2;"}
+				{Matrix34
+					-1	0	0
+					0	0	1
+					0	1	0
+					0   0   0
+				}
+				{VolumeView "wheelr2.ply"}
+			}
+			}
+		}
+		{bone "pivot_front"
+			{parameters "ID=body;"}
+			{Position 24.5932	0.00826277	10.2587}
+			{VolumeView "pivot_front.ply"}
+			{bone revolute "steerr"
+				{parameters "ID=body;"}
+				{Matrix34
+					-1	0	0
+					0	1	0
+					0	0	1
+					-0.00589371	-15.2713	-0.00562286
+				}
+				{VolumeView "steerr.ply"}
+			{bone prizmatic "suspension_r1"
+				{limits -0.08 0.05}
+				{speed2 0.5}
+				{Matrix34
+					1   0   0
+					0   1   0
+					0   0   1
+						-0.428152	-4.82077	0
+				}
+				{bone revolute "wheelr1"
+					{parameters "ID=wheelright1;"}
+					{Matrix34
+						1	0	0
+						0	0	1
+						0	1	0
+					0   0   0
+					}
+					{VolumeView "wheelr1.ply"}
+				}
+			}
+			}
+			{bone revolute "steerl"
+				{parameters "ID=body;"}
+				{Matrix34
+					-1	0	0
+					0	1	0
+					0	0	1
+					-0.00589371	15.2713	-0.00562286
+				}
+				{VolumeView "steerl.ply"}
+			{bone prizmatic "suspension_l1"
+				{limits -0.08 0.05}
+				{speed2 0.5}
+				{Matrix34
+					1   0   0
+					0   1   0
+					0   0   1
+						-0.428152	4.26685	0
+				}
+				{bone revolute "wheell1"
+					{parameters "ID=wheelleft1;"}
+					{Matrix34
+						1	0	0
+						0	0	1
+						0	1	0
+					0   0   0
+					}
+					{VolumeView "wheell1.ply"}
+				}
+			}
+			}
+		}
+	}
+}

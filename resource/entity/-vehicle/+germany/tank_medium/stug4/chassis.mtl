@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_vehicle/stug_iv_chassis"}
+	{bump "$/_vehicle/stug_iv_chassis_bp"}
+	{specular "$/_vehicle/stug_iv_chassis_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

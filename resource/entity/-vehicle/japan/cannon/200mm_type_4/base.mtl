@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "/entity/-vehicle/japan/cannon/47mm_type_1/jap_gun"}
+	{bump "$/model/jap_gun_bp"}
+	{specular "$/model/jap_gun_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

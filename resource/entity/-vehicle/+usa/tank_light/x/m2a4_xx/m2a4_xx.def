@@ -1,0 +1,58 @@
+{game_entity
+	{Extension "m2a4_xx.mdl"}
+	(include "/properties/vehicle_xx.ext")
+	{Volume "body1"
+		{thickness 12.7}
+	}
+	{Volume "body2"
+		{thickness 12.7}
+	}
+	{Volume "cupola"
+		{thickness 12.7}
+	}
+	{Volume "engine"
+		{thickness 12.7}
+	}
+	{Volume "gun"
+		{thickness 12.7}
+	}
+	{Volume "mantlet"
+		{thickness 12.7}
+	}
+	{Volume "ring"
+		{thickness 12.7}
+	}
+	{Volume "shieldl1"
+		{thickness 5}
+	}
+	{Volume "shieldl2"
+		{thickness 5}
+	}
+	{Volume "shieldl3"
+		{thickness 5}
+	}
+	{Volume "shieldl4"
+		{thickness 5}
+	}
+	{Volume "shieldr1"
+		{thickness 5}
+	}
+	{Volume "shieldr2"
+		{thickness 5}
+	}
+	{Volume "shieldr3"
+		{thickness 5}
+	}
+	{Volume "shieldr4"
+		{thickness 5}
+	}
+	{Volume "trackl"
+		{thickness 15}
+	}
+	{Volume "trackr"
+		{thickness 15}
+	}
+	{Volume "turret"
+		{thickness 12.7}
+	}
+}

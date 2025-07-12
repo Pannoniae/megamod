@@ -1,0 +1,214 @@
+;Exported by: Sergey
+;Date:        Thu Dec 27 22:58:19 2012
+;File:        D:\Documents\3dsmax\scenes\Breda M1937\breda m37_x.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Matrix34
+				0.957121	0	0.289688
+				-0.289688	0	0.957121
+				0	-1	0
+				4.27812	-0.494583	5.86895
+			}
+			{VolumeView "body.ply"}
+			{bone "noga03"
+				{parameters "ID=body;"}
+				{Matrix34
+					1	0	0
+					0	0	-1
+					0	1	0
+					-15.7778	-0.432956	-0.495109
+				}
+				{VolumeView "noga03.ply"}
+			}
+			{bone revolute "turret"
+				{parameters "ID=turret;"}
+				{limits -5 15}
+				{speed 0.01}
+				{Matrix34
+					0.705956	-0.708256	0
+					0.708256	0.705956	0
+					0	0	1
+					0	0	-0.494581
+				}
+				{VolumeView "turret.ply"}
+				{bone revolute "gun_rot"
+					{parameters "ID=turret;"}
+					{limits -20 20}
+					{speed 0.01}
+					{Matrix34
+						1	0	0
+						0	0	-1
+						0	1	0
+						-0.656487	0.352771	0
+					}
+					{VolumeView "gun_rot.ply"}
+					{bone "gun"
+						{parameters "ID=gun;"}
+						{Matrix34
+							0	1	0
+							0	0	1
+							1	0	0
+							3.12822	0	1.84202
+						}
+						{VolumeView "gun.ply"}
+					}
+				}
+			}
+			{bone "noga01"
+				{parameters "ID=noga01;"}
+				{Matrix34
+					0.961949	0.273228	0
+					-0.273228	0.961949	0
+					0	0	1
+					-1.75648	-0.481708	-0.493676
+				}
+				{VolumeView "noga01.ply"}
+				{bone "noga_011"
+					{parameters "ID=noga01;"}
+					{Matrix34
+						-1	0	0
+						0	0.537197	0.843457
+						0	0.843457	-0.537197
+						0.000494003	-6.26987	4.57185
+					}
+					{VolumeView "noga_011.ply"}
+				}
+			}
+			{bone "noga02"
+				{parameters "ID=noga02;"}
+				{Matrix34
+					0.960423	0.278545	0
+					-0.278545	0.960423	0
+					0	0	-1
+					-1.75648	-0.481708	-0.493676
+				}
+				{VolumeView "noga02.ply"}
+				{bone "noga_021"
+					{parameters "ID=noga02;"}
+					{Matrix34
+						-1	0	0
+						0	0.537196	0.843457
+						0	0.843457	-0.537197
+						0.000494003	-6.35974	4.64669
+					}
+					{VolumeView "noga_021.ply"}
+				}
+			}
+			{bone "rastyazhka01"
+				{Matrix34
+					0.201999	-0.0666151	-0.977118
+					0.31319	0.949691	0
+					0.92796	-0.306023	0.212699
+					-14.7277	-0.623085	-0.029972
+				}
+				{VolumeView "rastyazhka01.ply"}
+			}
+			{bone "rastyazhka02"
+				{Matrix34
+					0.201999	-0.066615	0.977118
+					0.31319	0.949691	0
+					0.927959	-0.306023	-0.212699
+					-14.7277	-0.623086	-0.931621
+				}
+				{VolumeView "rastyazhka02.ply"}
+			}
+		}
+		{bone "ammo_box"
+			{parameters "ID=ammo_box;"}
+			{Position 1.86487	9.49558	2.42486}
+			{VolumeView "ammo_box.ply"}
+			{bone "cover_box"
+				{parameters "ID=ammo_box;"}
+				{Matrix34
+					0.179466	0	0.983764
+					0.983764	0	-0.179466
+					0	1	0
+					-3.09855	2.47093	0.239635
+				}
+				{VolumeView "cover_box.ply"}
+			}
+			{bone "magazin02"
+				{parameters "ID=ammo_box;"}
+				{Matrix34
+					0.489887	0	0.871786
+					0.871786	0	-0.489887
+					0	1	0
+					-1.50031	-2.13531	0.7744
+				}
+				{VolumeView "magazin02.ply"}
+			}
+			{bone "magazin03"
+				{parameters "ID=ammo_box;"}
+				{Matrix34
+					0.489887	0	0.871786
+					0.871786	0	-0.489887
+					0	1	0
+					-0.10612	-1.70327	-0.00904417
+				}
+				{VolumeView "magazin03.ply"}
+			}
+		}
+	}
+}
+{Volume "ammo_box"
+	{Box 8.00945 6.49287 3.03317}
+	{Bone "ammo_box"}
+	{Matrix34
+		0	1	0
+		-0.871786	0	0.489887
+		0.489887	0	0.871786
+		-0.570104	0.0817997	-0.680225
+	}
+}
+{Volume "body1"
+	{Cylinder 0.659473 19.685}
+	{Bone "body"}
+	{Matrix34
+		0	0	-1
+		0.0090948	0.999959	0
+		0.999959	-0.0090948	0
+		-9.32468	-0.443566	-0.530628
+	}
+}
+{Volume "body2"
+	{Cylinder 0.529872 6.88976}
+	{Bone "noga01"}
+	{Matrix34
+		0.917421	-0.191734	-0.34868
+		-0.397313	-0.489711	-0.776096
+		-0.0219485	0.850542	-0.525449
+		0.0401591	-3.01647	2.4856
+	}
+}
+{Volume "body3"
+	{Cylinder 0.529872 6.88976}
+	{Bone "noga02"}
+	{Matrix34
+		-0.200933	0.529115	0.824417
+		-0.979601	-0.110935	-0.167557
+		-0.00280007	0.841267	-0.540613
+		-0.0262823	-2.98432	2.49503
+	}
+}
+{Volume "gun"
+	{Box 25.7779 2.66833 2.16535}
+	{Bone "gun"}
+	{Matrix34
+		0	0	1
+		0	1	0
+		-1	0	0
+		-0.0264127	0.0871551	-0.463616
+	}
+}
+{Volume "turret"
+	{Box 6.39808 1.54028 1.67323}
+	{Bone "turret"}
+	{Position -2.78139	0.445406	0.0186668}
+}

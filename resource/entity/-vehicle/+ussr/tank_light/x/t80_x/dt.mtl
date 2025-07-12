@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/_vehicle/dt_diffuse"}
+	{specular "$/_vehicle/dt_n_s"}
+	{color "230 230 230 25"}
+	{blend none}
+}

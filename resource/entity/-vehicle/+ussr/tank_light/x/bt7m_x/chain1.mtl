@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "chain1"}
+	{specular "chain1_sp"}
+	{color "230 230 230 25"}
+	{blend test}
+}

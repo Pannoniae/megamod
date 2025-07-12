@@ -1,0 +1,38 @@
+{game_entity
+	{Extension "m3lee_xx.mdl"}
+	(include "/properties/vehicle_xx.ext")
+	{Volume "body1"
+	}
+	{Volume "body2"
+	}
+	{Volume "body3"
+	}
+	{Volume "body4"
+	}
+	{Volume "body5"
+	}
+	{Volume "body6"
+	}
+	{Volume "body"
+	}
+	{Volume "engine2"
+	}
+	{Volume "engine3"
+	}
+	{Volume "engine"
+	}
+	{Volume "gun2"
+	}
+	{Volume "gun"
+	}
+	{Volume "gunrot2"
+	}
+	{Volume "gunrot"
+	}
+	{Volume "mgunrot"
+	}
+	{Volume "turret2"
+	}
+	{Volume "turret"
+	}
+}

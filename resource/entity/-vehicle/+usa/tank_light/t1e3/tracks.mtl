@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/_vehicle/tracks/t1_hmc_track_am"}
+	{blend test}
+}

@@ -1,0 +1,35 @@
+{game_entity
+	{Extension "qf3,7_xx.mdl"}
+	{Volume "body2"
+	}
+	{Volume "body_back"
+	}
+	{Volume "body_front"
+	}
+	{Volume "body"
+	}
+	{Volume "gun_rot2"
+	}
+	{Volume "gun_rot"
+	}
+	{Volume "gun"
+	}
+	{Volume "standl1"
+	}
+	{Volume "standl2"
+	}
+	{Volume "standr1"
+	}
+	{Volume "standr2"
+	}
+	{Volume "turret"
+	}
+	{Volume "wheelleft1"
+	}
+	{Volume "wheelleft2"
+	}
+	{Volume "wheelright1"
+	}
+	{Volume "wheelright2"
+	}
+}

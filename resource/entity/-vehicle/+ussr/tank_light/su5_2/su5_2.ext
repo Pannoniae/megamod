@@ -1,0 +1,56 @@
+;SDL
+	
+	; armor notes
+	; tracks and wheels 15mm
+	; gun 20mm
+
+	("tank_light_tier1")
+
+	("tracks" repair(30) thickness(15))
+	("gun" repair(30) thickness(25))
+
+	("fuel" args "fuel")
+	("ammo" args "ammo")
+	("transmission" args "transmission")
+
+	("gun_shield" args "shield01" 15)
+	("gun_shield" args "shield02" 15)
+	("gun_shield" args "shield03" 15)
+	("gun_shield" args "shield04" 15)
+	("gun_shield" args "shield05" 15)
+	("gun_shield" args "shield06" 15)
+	("gun_shield" args "shield07" 15)
+	("gun_shield" args "shield08" 15)
+	("gun_shield" args "shield09" 15)
+	("gun_shield" args "shield10" 15)
+	("gun_shield" args "shield11" 15)
+	("gun_shield" args "shield12" 15)
+	("gun_shield" args "shield13" 15)
+	
+	{volume "body1"			; Hull
+		{thickness 15
+		}
+	}
+	{volume "body2"			; Superstructure
+		{thickness 15
+		}
+	}
+	{volume "body3"			; Driver Door Top
+		{thickness 15
+		}
+	}
+	{volume "engine"
+		{thickness 15
+		}
+	}
+	{volume "turret1"		; Turret Ring
+		{thickness 15}
+	}
+	{volume "turret2"		; Turret
+		{thickness 15
+			{top 10}
+		}
+	}
+	{volume "mantlet"
+		{thickness 15}
+	}

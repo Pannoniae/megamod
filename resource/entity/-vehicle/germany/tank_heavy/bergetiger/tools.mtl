@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "bergetiger/bergetiger_tools"}
+	{bump "bergetiger/bergetiger_tools_nm"}
+	{blend none}
+}

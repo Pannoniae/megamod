@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "sh1_x"}
+	{specular "$/model/pf621WHEELS_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

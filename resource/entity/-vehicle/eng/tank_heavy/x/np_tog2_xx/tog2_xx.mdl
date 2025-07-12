@@ -1,0 +1,149 @@
+;Exported by: Administrator
+;Date:        Mon Feb 10 09:41:22 2014
+;File:        C:\Documents and Settings\Administrator\Desktop\tanky\T6 - TOG2\tog2_xx_mow.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Position 0.0915337	-0.00505686	17.9874}
+			{VolumeView "body.ply"}
+			{bone revolute "turret"
+				{parameters "ID=turret;"}
+				{speed 0.0052}
+				{Position 38.0766	0	21.1853}
+				{VolumeView "turret.ply"}
+				{bone revolute "gun_rot"
+					{parameters "ID=gun;"}
+					{limits -20 10}
+					{speed 0.006}
+					{Matrix34
+						1	0	0
+						0	0	-1
+						0	1	0
+						18.1856	0	9.42422
+					}
+					{VolumeView "gun_rot.ply"}
+					{bone "gun"
+						{parameters "ID=gun;"}
+						{Position 0.00449371	0	0}
+						{VolumeView "gun.ply"}
+					}
+				}
+			}
+			{bone revolute "mgun_rot"
+				{limits -20 20}
+				{speed 0.01}
+				{Position 66.3652	-5.95951	16.1464}
+				{bone revolute "mgun"
+					{parameters "ID=body;"}
+					{limits -15 15}
+					{speed 0.01}
+					{Matrix34
+						1	0	0
+						0	0	-1
+						0	1	0
+						0	0	0
+					}
+					{VolumeView "mgun.ply"}
+					{bone "foresight4"
+						{Matrix34
+							1	0	0
+							0	0	1
+							0	-1	0
+							9.36205	-0.562748	-0.00126039
+						}
+					}
+				}
+			}
+			{bone "engine"
+				{parameters "ID=engine;"}
+				{Orientation
+					0	-1	0
+					1	0	0
+					0	0	1
+				}
+				{VolumeView "engine.ply"}
+			}
+		}
+		{bone "trackr"
+			{parameters "ID=trackright;"}
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				0.0984252	0	-0.118103
+			}
+			{VolumeView "trackr.ply"}
+		}
+		{bone "trackl"
+			{parameters "ID=trackleft;"}
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				0.0984252	0	-0.118103
+			}
+			{VolumeView "trackl.ply"}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "body"}
+	{Position 0	0	0.467072}
+}
+{Volume "engine"
+	{Polyhedron "engine.vol"}
+	{Bone "engine"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		-1.7724	-36.5089	-1.46769
+	}
+}
+{Volume "gun"
+	{Polyhedron "gun.vol"}
+	{Bone "gun"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0.0185242	0.0277023	0
+	}
+}
+{Volume "turret"
+	{Polyhedron "turret.vol"}
+	{Bone "turret"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		0.0370979	0	0.00427246
+	}
+}
+{Volume "trackleft"
+	{Box 190 12.6917 26.1086}
+	{Bone "trackl"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		20	5.77695	15
+	}
+}
+{Volume "trackright"
+	{Box 190 12.6917 26.1086}
+	{Bone "trackr"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-20	5.77695	15
+	}
+}

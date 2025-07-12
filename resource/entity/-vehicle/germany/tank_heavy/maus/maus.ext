@@ -1,0 +1,53 @@
+;SDL
+
+	; armor notes
+	; tracks and wheels 30mm
+	; gun 30mm
+	; spare tracks 30mm
+	; mud guards 4mm
+
+	("tank_heavy_tier3")
+
+	("gun" repair(30) thickness(30))
+	("tracks" repair(30) thickness(30))
+
+	{volume "body"			
+		{thickness 205
+			{front 205}
+			{right 170}
+			{left 170}			
+			{top 103}		
+			{rear 150}
+			{bottom 153}
+		}
+	}
+	{volume "body2"			
+		{thickness 205
+			{front 205}
+			{right 170}
+			{left 170}
+			{top 103}
+			{rear 150}
+			{bottom 153}
+		}
+	}
+	{volume "engine"		; Hull
+		{thickness 120
+			{front 120}
+			{rear 80}
+			{top 80}
+			{bottom 120}
+		}
+	}
+	{volume "turret"
+		{thickness 215
+			{front 215}
+			{top 60}
+			{rear 205}
+		}
+	}
+	{volume "mantlet"
+		;{thickness 220}
+		{thickness 35} ; 215 + 35 = 250 
+		{CastSteel 0.8063}
+	}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/fence_wood_r7"}
+	{blend none}
+}

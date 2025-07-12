@@ -1,0 +1,31 @@
+{game_entity
+	{Extension "humber_mkiii_xx.mdl"}
+	{Volume "body1"
+	}
+	{Volume "body2"
+	}
+	{Volume "body3"
+	}
+	{Volume "engine"
+	}
+	{Volume "gun2"
+	}
+	{Volume "gun"
+	}
+	{Volume "hmg"
+	}
+	{Volume "mantlet"
+	}
+	{Volume "turret2"
+	}
+	{Volume "turret"
+	}
+	{Volume "wheelleft1"
+	}
+	{Volume "wheelleft2"
+	}
+	{Volume "wheelright1"
+	}
+	{Volume "wheelright2"
+	}
+}

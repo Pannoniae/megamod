@@ -1,0 +1,5 @@
+{material envmap
+	{diffuse "$/model/pz6p_Panzerbefehiswagen/pz6p_Panzerbefehiswagen_turret_am"}
+	{mask "$/model/pz6p_Panzerbefehiswagen/pz6p_Panzerbefehiswagen_turret_gmm"}
+	{blend none}
+}

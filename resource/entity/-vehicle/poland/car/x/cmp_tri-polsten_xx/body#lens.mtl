@@ -1,0 +1,6 @@
+{material envmap
+	{diffuse "$/model/cmp/cmp_x"}
+	{mask "$/model/cmp/cmp_sp"}
+	{envmap "$/environment/envmap_gold01"}
+	{blend blend}
+}

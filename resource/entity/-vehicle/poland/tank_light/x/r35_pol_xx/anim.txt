@@ -1,0 +1,11 @@
+-= Animation: break, Node turret =-
+	Frame 400 {
+		Visibility 1
+		Position	-2.26274	0.255906	8.36853
+		Orientation	-0.0070587 -0.0536162 -0.130335 0.989994
+	}
+	Frame 450 {
+		Visibility 1
+		Position	-2.26274	0.255906	8.36853
+		Orientation	-0.0070587 -0.0536162 -0.130335 0.989994
+	}

@@ -1,0 +1,72 @@
+;SDL
+
+{boarder
+	{anm "1_commander"
+		{forward {begin "board_sd222_driver"} {end "seat_kubel_passenger2"} {base "open_back"}}
+		{reverse {end "emit_sd222_driver"} {base "close_back"}} 
+	}
+	{anm "1_driver"
+		{forward {begin "board_sd222_driver"} {end "seat_kubel_passenger2"} {base "open_back"}}
+		{reverse {end "emit_sd222_driver"} {base "close_back"}} 
+	}
+	{anm "1_charger"
+		{forward {begin "board_sd222_driver"} {end "seat_kubel_passenger2"} {base "open_back"}}
+		{reverse {end "emit_sd222_driver"} {base "close_back"}} 
+	}
+	{anm "1_gunner"
+		{forward {begin "board_sd222_driver"} {end "seat_kubel_passenger2"} {base "open_back"}}
+		{reverse {end "emit_sd222_driver"} {base "close_back"}} 
+	}
+
+	{anm "2_driver0" 	;// driver
+		{forward {begin "board_sd222_driver"} {end "seat_driver_car"} {base "open_back"}}
+		{reverse {end "emit_sd222_driver"} {base "close_back"}}
+	}
+	{anm "2_driver1" 	;// commander
+		{forward {begin "board_sd222_driver"} {end "seat_armor"} {base "open_back"}}
+		{reverse {end "emit_sd222_driver"} {base "close_back"}} 
+	}
+	{anm "2_driver2" 	;// charger
+		{forward {begin "board_sd222_driver"} {end "seat_armor"} {base "open_back"}}
+		{reverse {end "emit_sd222_driver"} {base "close_back"}} 
+	}
+	{anm "2_driver3" 	;// gunner
+		{forward {begin "board_sd222_driver"} {end "seat_armor"} {base "open_back"}}
+		{reverse {end "emit_sd222_driver"} {base "close_back"}} 
+	}
+
+	{link "driver" "driver"}
+	{link "commander" "commander"}
+	{link "charger" "charger"}
+	{link "gunner" "gunner"}	
+
+	{link "driver0" "driver"}
+	{link "driver1" "commander"}
+	{link "driver2" "charger"}
+	{link "driver3" "gunner"}
+}
+(define "crew_human_visible_anm"
+	{placer
+		{place "%place"
+			{group "crew"}
+			{visor "%visor"}
+			{linkbone "%place"}
+			{turnoff {sensor}}
+			;{openForCrush}
+		}
+	}
+	{boarder
+		{door "%door"}
+		{door "%door2"}
+		{link "%door" "%place" {anm "1_%place"} {forward putoff} {reverse puton}}
+		{link "%door2" "%place" {anm "2_%place"} {forward putoff} {reverse puton}}
+	}
+)
+	("crew_human_visible_anm" place(driver)		door(emit1)	visor(main) extra({openForCrush}) off({sensor}))
+	("crew_human_visible_anm" place(commander)	door(emit1)	visor(main) extra({openForCrush}) off({sensor}))
+	("crew_human_visible_anm" place(charger)	door(emit1)	visor(main) extra({openForCrush}) off({sensor}))
+	("crew_human_visible_anm" place(gunner)		door(emit1)	visor(main) extra({openForCrush}) off({sensor}))
+	("crew_human_visible_anm" place(driver0)	door(emit1)	visor(none) extra() off())
+	("crew_human_visible_anm" place(driver1)	door(emit1)	visor(none) extra() off())
+	("crew_human_visible_anm" place(driver2)	door(emit1)	visor(none) extra() off())
+	("crew_human_visible_anm" place(driver3)	door(emit1)	visor(none) extra() off())

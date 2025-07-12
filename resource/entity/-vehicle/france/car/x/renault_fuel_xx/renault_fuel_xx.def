@@ -1,0 +1,19 @@
+{game_entity
+	{Extension "renault_fuel_xx.mdl"}
+	{Volume "body"
+	}
+	{Volume "bodyback"
+	}
+	{Volume "cabin"
+	}
+	{Volume "fuel"
+	}
+	{Volume "wheelleft1"
+	}
+	{Volume "wheelleft2"
+	}
+	{Volume "wheelright1"
+	}
+	{Volume "wheelright2"
+	}
+}

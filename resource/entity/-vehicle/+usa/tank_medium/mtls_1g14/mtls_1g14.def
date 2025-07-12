@@ -1,0 +1,182 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc" scale(0.9))
+	{props "medium" "vision_lev03" "reliability_mtls" "flak" "muzzle_37mm_47mm" "detect_tank_light"}
+	{extension "mtls_1g14.mdl"}
+	{targetclass "tank_medium"}
+	{targetSelector "tank_medium"}
+	{patherId "stuart"}
+	{collider "tank.medium"}
+
+	("ammo" args "ammo1")
+	("ammo" args "ammo2")
+	
+	("tracks" repair(30) thickness(30))
+	("gun" repair(30) thickness(30))
+	
+	{Volume "body1"
+		{tags "body"}
+		{component "body"}
+		{thickness 25.4
+			{front 38.1}
+			{rear 25.4}
+			{top 12.7}
+			{bottom 12.7}
+		}
+	}
+	{Volume "body2"
+		{tags "body"}
+		{component "body"}
+		{thickness 25.4
+			{front 38.1}
+			{rear 25.4}
+			{top 12.7}
+			{bottom 12.7}
+		}
+	}
+	{Volume "mantlet"
+		{tags "turret"}
+		{component "turret"}
+		{thickness 38.1}
+	}
+	{Volume "gunmount"
+		{tags "gun"}
+		{component "gun"}
+		{thickness 38.1}
+	}
+	{Volume "gun1"
+		{tags "gun"}
+		{component "gun"}
+		{thickness 30}
+	}
+	{Volume "gun2"
+		{tags "gun"}
+		{component "gun"}
+		{thickness 30}
+	}
+	{Volume "engine"
+		{tags "engine"}
+		{component "engine"}
+		{thickness 40}
+	}
+	{Volume "trackleft"
+		{thickness 30}
+	}
+	{Volume "trackright"
+		{thickness 30}
+	}
+	{Volume "turret"
+		{tags "turret"}
+		{component "turret"}
+		{thickness 38.1
+			{front 38.1}
+			{rear 38.1}
+			{top 12.7}
+			{bottom 12.7}
+		}
+	}	
+	("crew_4_human_2_extended")
+
+	{boarder
+		{anm "driver"
+			{forward {begin "board_tank_left"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "left"
+			{forward {begin "board_tank_left"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward {begin "board_tank_right"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "gunner2"
+			{forward {begin "board_tank_left"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "armor1"
+			{forward {begin "board_HighArmor"} {end "pose_seat_armor_1"}}
+			{reverse {end "emit_tank_1"}}
+		}
+	}
+
+
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor1))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor1))
+
+	{extender "inventory"
+		{box
+			{item "37x178mmR ap" 300}
+			{item "37x178mmR he" 300}
+			{item "ammo mgun_usa belt" 7270}
+			{item "satchel_charge_usa" 1}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{Barrels 2}
+			{RestoreIKAfterAim}
+			{weapon "37mm_AAC_L44" filling "37x178mmR ap" 10}
+			{gunner "gunner"}
+			{charger "commander"}
+			("abm_dymamic_aaa"
+				zeroing(2.5)
+				dispersion(0.2)
+			)
+		}
+		{place "mgun2"
+			{type "coaxial"}
+			{weapon "browning_m19a4_tank" filled}
+			{foresight "foresight5"}
+			{gunner "gunner"}
+			{charger "commander"}
+			("abm_mgun")
+			{basic}
+		}
+		{place "mgun1"
+			{type "hull"}
+			{weapon "browning_m19a4_tank" filled}
+			{foresight "foresight4"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			("abm_mgun")
+			{basic}
+			{ai_in_manual}
+		}
+		{place "mgun"
+			{type "aa"}
+			{weapon "browning_m19a4_tank" filled}
+			{foresight "foresight3"}
+			{gunner "gunner"}
+			{charger "commander"}
+			("abm_mgun")
+			{basic}
+		}
+	}
+
+	{mass 19000}
+	{Chassis
+		("tank_trace" fx("tracks_sm2") step(0.2) len(0.47))
+		("mobility_tank"
+			speed(40) ;-----------Max speed when fully accelerated on road, km/h.
+			reverse(10) ;---------Max speed in reverse on road, km/h.
+			traverse(37) ;--------Track traverse, per second, in degrees.
+			weight(20) ;--------Weight in Tonnes.
+			power(240) ;----------Engine Power, in hp.
+			track(7) ;---------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(204) ;-----------Fuel capacity in Litres.
+			type(fuel) ;----------Fuel type. (diesel OR fuel)
+			range(112) ;----------Range in km, off-road.
+		)
+	}
+
+	{bone "gun_rot"
+		{limits -10 25}
+		{speed2 8}
+	}
+	{bone "turret"
+		("turret_light" power_traverse(0)) ;// manual
+	}
+}

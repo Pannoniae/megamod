@@ -1,0 +1,52 @@
+{game_entity
+	(include "/properties/cannon_mgun.ext")
+	(include "/properties/shadow/tank.inc" scale(0.6))
+	{Extension "13mm_hotchkiss.mdl"}
+	{props "vision_lev01_can" "automatic" "cannon_sandbag_standard" "muzzle_hmg"}
+	{targetclass "cannon_bullet"}
+	{targetSelector "cannon_zenite"}
+	("gun" repair(30) thickness(20))
+	
+	{boarder
+		{anm "gunner"
+			{forward	{end "pose_oerlikon_charger" 10}}
+		}
+		{anm "commander"
+			{forward	{end "pose_vicers_commander" 10}}
+		}
+	}
+
+	{extender "cannon"
+		{animation
+			{switch "close"}
+			{move "mgun_browning_driver_r" "mgun_browning_driver_l"}
+			{aim "" ""}
+			{fire "" ""}
+			{reload "cannon_oerlikon_charger" ""}
+		}
+		{attack {workers "gunner" "commander"}}
+	}
+
+	{mass 400}
+	{Chassis
+		("mobility_cannon"
+			speed(10.2) ;--------------------------------Max speed.
+			weight(157) ;--------------------------------Weight in Kilograms.
+		)
+	}
+
+	{extender "inventory"
+		{box
+			{clear}
+			{item "ammo 13x96" 900}
+		}
+	}
+	{Weaponry
+		{place "gun"
+			{weapon "hotchkiss_m1929_x2" filled}
+			{foresight "foresight1"}
+			{charger "gunner"}
+			{Barrels 2}
+		}
+	}
+}

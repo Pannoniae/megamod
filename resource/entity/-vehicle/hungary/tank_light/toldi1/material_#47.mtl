@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/215mm_Buzoganyveto"}
+	{bump "$/model/215mm_Buzoganyveto_bp"}
+	{specular "$/model/215mm_Buzoganyveto_sp"}
+	{color "229 229 229 128"}
+	{blend test}
+}

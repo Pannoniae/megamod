@@ -1,0 +1,203 @@
+;Exported by: sk
+;Date:        Thu Oct 19 18:04:39 2006
+;File:        D:\-Projects1_5-\-3DWork-\-Model-\Germany\Luftvaffe\Fi 156 Storch\Storch_Fi156_xx.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=Body;"}
+			{Position -22.3101	0	0}
+			{VolumeView "body.ply"}
+			{bone revolute "flap1"
+				{parameters "ID=wingLeft;"}
+				{limits -30 30}
+				{Matrix34
+					1	0	0
+					0	0	1
+					0	-1	0
+					24.7868	44.5779	17.4527
+				}
+				{VolumeView "flap1.ply"}
+			}
+			{bone "cabin"
+				{parameters "ID=Body;"}
+				{Matrix34
+					0.939693	0	0.34202
+					0	-1	0
+					0.34202	0	-0.939693
+					56.7645	0.0498982	11.7876
+				}
+				{VolumeView "cabin.ply"}
+			}
+			{bone "body_back"
+				{Position -58.5489	0	6.63847}
+				{bone revolute "elevator1"
+					{parameters "ID=Body;"}
+					{limits -30 30}
+					{speed 0.1}
+					{Matrix34
+						1	0	0
+						0	0	1
+						0	-1	0
+						-13.5935	22.9057	-4.7611
+					}
+					{VolumeView "elevator1.ply"}
+				}
+				{bone revolute "elevator2"
+					{parameters "ID=Body;"}
+					{limits -30 30}
+					{speed 0.1}
+					{Matrix34
+						1	0	0
+						0	0	1
+						0	-1	0
+						-13.6302	-13.3143	-4.7611
+					}
+					{VolumeView "elevator2.ply"}
+				}
+				{bone revolute "rudder"
+					{parameters "ID=Body;"}
+					{limits -30 30}
+					{speed 0.1}
+					{Position -15.0939	2.57697e-005	10.7347}
+					{VolumeView "rudder.ply"}
+				}
+			}
+			{bone "engine"
+				{Matrix34
+					0	0	-1
+					0	1	0
+					1	0	0
+					63.4321	0	-4.658
+				}
+				{VolumeView "engine.ply"}
+				{bone "propeller"
+					{Matrix34
+						0	0	1
+						-0.173648	0.984808	0
+						-0.984808	-0.173648	0
+						-2.02347	0	30.3428
+					}
+					{VolumeView "propeller.ply"}
+				}
+			}
+		}
+		{bone "pivot_back"
+			{Position -98.5247	0	-22.4525}
+			{bone "wheel_back"
+				{parameters "Radius=0.2;"}
+				{Matrix34
+					0	0	1
+					1	0	0
+					0	1	0
+					0.488052	0	13.4527
+				}
+				{VolumeView "wheel_back.ply"}
+			}
+		}
+		{bone "pivot_front"
+			{Position 62.4479	0	-22.4525}
+			{bone "wingr1"
+				{parameters "ID=wingRight;"}
+				{Position -46.8386	-63.4296	39.9083}
+				{VolumeView "wingr1.ply"}
+				{bone "wingr2"
+					{parameters "ID=wingR2;"}
+					{Position 0.0130157	-55.0591	-0.0456772}
+					{VolumeView "wingr2.ply"}
+					{bone revolute "aileron2"
+						{parameters "ID=wingR2;"}
+						{limits -30 30}
+						{Matrix34
+							1	0	0
+							0	0	1
+							0	-1	0
+							-13.083	8.08652	0.00299072
+						}
+						{VolumeView "aileron2.ply"}
+					}
+				}
+				{bone revolute "flap2"
+					{parameters "ID=wingRight;"}
+					{limits -30 30}
+					{Matrix34
+						1	0	0
+						0	0	-1
+						0	1	0
+						-13.1328	18.8518	-0.0030365
+					}
+					{VolumeView "flap2.ply"}
+				}
+			}
+			{bone "wingl1"
+				{parameters "ID=wingLeft;"}
+				{Position -45.8278	90.3739	40.4584}
+				{VolumeView "wingl1.ply"}
+				{bone revolute "aileron1"
+					{parameters "ID=wingLeft;"}
+					{limits -30 30}
+					{Matrix34
+						1	0	0
+						0	0	1
+						0	-1	0
+						-14.0838	20.0283	-0.592781
+					}
+					{VolumeView "aileron1.ply"}
+				}
+				{bone "wingl2"
+					{parameters "ID=wingL2;"}
+					{Position 0.123886	36.7687	0.0964127}
+					{VolumeView "wingl2.ply"}
+				}
+			}
+			{bone "wheell"
+				{parameters "ID=Body;"}
+				{Matrix34
+					0	0	1
+					1	0	0
+					0	1	0
+					-28.7591	31.5877	-10.5655
+				}
+				{VolumeView "wheell.ply"}
+			}
+			{bone "wheelr"
+				{parameters "ID=Body;"}
+				{Matrix34
+					0	0	1
+					1	0	0
+					0	1	0
+					-28.7591	-31.5876	-10.5655
+				}
+				{VolumeView "wheelr.ply"}
+			}
+		}
+	}
+}
+{Obstacle "rectangle04"
+	{Obb2
+		{Center -17.868 -0.0647192}
+		{Extent 5.5083 90.3185}
+		{Axis 0 1}
+	}
+	{Rotate}
+}
+{Obstacle "rectangle1"
+	{Obb2
+		{Center 17.5462 -0.0647199}
+		{Extent 13.2274 58.5202}
+		{Axis -1 0}
+	}
+	{Rotate}
+}
+{Obstacle "rectangle3"
+	{Obb2
+		{Center -98.5296 0.557688}
+		{Extent 10.291 46.0249}
+		{Axis -1 0}
+	}
+	{Rotate}
+}

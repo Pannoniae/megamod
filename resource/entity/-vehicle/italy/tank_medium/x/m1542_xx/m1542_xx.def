@@ -1,0 +1,37 @@
+{game_entity
+	{Extension "m1542_xx.mdl"}
+	{Volume "body1"
+	}
+	{Volume "body2"
+	}
+	{Volume "body3"
+	}	
+	{Volume "body4"
+	}
+	{Volume "engine1"
+	}
+	{Volume "engine2"
+	}
+	{Volume "gun"
+	}
+	{Volume "mantlet"
+	}
+	{Volume "trackleft1"
+	}
+	{Volume "trackleft2"
+	}
+	{Volume "trackleft3"
+	}
+	{Volume "trackleft4"
+	}
+	{Volume "trackright1"
+	}
+	{Volume "trackright2"
+	}
+	{Volume "trackright3"
+	}
+	{Volume "trackright4"
+	}
+	{Volume "turret"
+	}
+}

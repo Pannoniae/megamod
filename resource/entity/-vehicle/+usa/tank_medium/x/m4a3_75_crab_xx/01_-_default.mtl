@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/_vehicle/sherman_crab_equipment_01_diffuse_xx"}
+	{bump "$/_vehicle/sherman_crab_equipment_01_normal"}
+	{blend none}
+}

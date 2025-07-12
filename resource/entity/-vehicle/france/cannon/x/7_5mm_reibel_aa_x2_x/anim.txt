@@ -1,0 +1,23 @@
+-= Animation: break, Node gun_rot =-
+	Frame 35 {
+		Visibility 1
+		Position	-1.11945	2.15035	4.72169
+		Orientation	-0.707107 0 0 0.707107
+	}
+	Frame 36 {
+		Orientation	-0.705821 0.0426199 -0.0426199 0.705821
+	}
+	Frame 37 {
+		Orientation	-0.692426 0.143339 -0.143339 0.692426
+	}
+	Frame 38 {
+		Orientation	-0.657767 0.259506 -0.259506 0.657766
+	}
+	Frame 39 {
+		Orientation	-0.613783 0.351099 -0.351099 0.613783
+	}
+	Frame 40 {
+		Visibility 1
+		Position	-1.11945	2.15035	4.72169
+		Orientation	-0.591505 0.387455 -0.387455 0.591505
+	}

@@ -1,0 +1,117 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/shadow/tank.inc" scale(1.0))
+	(include "/properties/selection/vehicle.inc" scale(1.1))
+	{props "light" "vision_lev03" "muzzle_37mm_47mm" "ft17"}
+	{Extension "renault_otsu.mdl"}
+	{targetclass "tank_light"}
+	{targetSelector "tank_light"}
+	{patherId "t26"}
+	{collider "tank.light"}
+
+	("tank_light_tier1")
+
+	("tracks" repair(30) thickness(15))
+
+	("fuel" args "fuel")
+	("ammo" args "ammo1")
+	("transmission" args "transmission")
+	
+	{Volume "Body"
+		{tags "body"}
+		{component "body"}
+		{thickness 20
+			{front 30}
+			{top 8}
+		}
+	}
+	{Volume "Body2"
+		{tags "body"}
+		{component "body"}
+		{thickness 16
+			{front 30}
+			{top 8}
+		}
+	}
+	{volume "turret"		
+		{thickness 20
+			{top 8}
+		}
+	}
+	{volume "mantlet"
+		{thickness 16}
+	}
+	{Volume "engine"
+		{tags "body"}
+		{component "body"}
+		{thickness 16
+			{top 8}
+		}
+	}
+
+	("crew_2_human_extended")
+	
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_t34_driver"} {base "driver"}}
+			{reverse 	{end	"emit_t34_hold"} {base "driver"}}
+		}
+		{anm "left"
+			{forward	{begin	"board_tank_left"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_right"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+	}
+
+
+	
+	{extender "inventory"
+		{box
+			{item "dynamite"}
+			{item "ammo bullet37_jap aphe" 78}
+			{item "ammo bullet37_jap he" 68}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "37mm_type11" filling "ammo bullet37_jap aphe" 1}
+			{gunner "gunner"}
+			{charger "gunner"}
+			("abm_dymamic"
+				zeroing(2.5)
+				dispersion(0.25)
+			)
+		}
+	}
+	
+	{mass 8500}
+	{Chassis
+		("tank_trace" fx("tracks_sm2") step(0.15) len(0.75))
+		("mobility_tank"
+			speed(20) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(5) ;--------Max speed in reverse on road, km/h.
+			traverse(25) ;-------Track traverse, per second, in degrees.
+			weight(8.5) ;--------Weight in Tonnes.
+			power(60) ;----------Engine Power, in hp.
+			track(7.0) ;---------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(100) ;----------Fuel capacity in Litres.
+			type(fuel) ;---------Fuel type. (diesel OR fuel)
+			range(100) ;----------Range in km, off-road.
+		)
+	}
+	{bone "gun_rot"
+		{limits -20 35}
+		{speed2 8}
+	}
+	{bone "turret"
+		{speed2 12}
+	}
+
+}
+
+

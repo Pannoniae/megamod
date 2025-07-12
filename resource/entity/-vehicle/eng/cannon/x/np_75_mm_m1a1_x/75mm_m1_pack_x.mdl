@@ -1,0 +1,81 @@
+;Exported by: Normand
+;Date:        Sun Feb 11 11:12:25 2024
+;File:        C:\Users\Normand\Documents\75mm_m1_x.max
+{Skeleton
+	{bone revolute "basis"
+		{speed 0.002}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{animation
+				{sequence "break" {file "body_b.anm"} {speed 0.4}}
+			}
+			{Position -0.000763178	-0.00677352	7.85779}
+			{VolumeView "body.ply"}
+			{bone revolute "gun_rot"
+				{parameters "ID=gun;"}
+				{animation
+					{sequence "break" {file "gun_rot_b.anm"} {speed 0.4}}
+				}
+				{limits -7 40}
+				{Matrix34
+					1	0	0
+					0	0	1
+					0	-1	0
+					-6.61371	0.584948	4.94201
+				}
+				{VolumeView "gun_rot.ply"}
+				{bone "gun"
+					{parameters "ID=gun;"}
+					{animation
+						{sequence "break" {file "gun_b.anm"} {speed 0.4}}
+					}
+					{Matrix34
+						1	0	0
+						0	0	-1
+						0	1	0
+						0.811893	2.73463	0.573167
+					}
+					{VolumeView "gun.ply"}
+				}
+				{bone "gun_sup"
+					{parameters "ID=body;"}
+					{Matrix34
+						1	0	0
+						0	0	-1
+						0	1	0
+						-19.1514	-6.0603	0.593266
+					}
+					{VolumeView "gun_sup.ply"}
+				}
+			}
+		}
+		{bone "pivot_front"
+			{Position -0.0178413	-0.0484918	8.00987}
+			{bone revolute "wheell1"
+				{parameters "ID=wheelleft;Support=1;Radius=0.45;"}
+				{Matrix34
+					-1	0	0
+					0	0	1
+					0	1	0
+					0.0182054	10.5126	-0.147807
+				}
+				{VolumeView "wheell1.ply"}
+			}
+			{bone revolute "wheelr1"
+				{parameters "ID=wheelright;Support=1;Radius=0.45;"}
+				{Matrix34
+					-1	0	0
+					0	0	1
+					0	1	0
+					0.0182168	-10.4484	-0.156354
+				}
+				{VolumeView "wheelr1.ply"}
+			}
+		}
+	}
+}

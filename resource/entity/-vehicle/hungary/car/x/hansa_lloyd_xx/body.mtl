@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "37m_hansa_lloyd_xx"}
+	{bump "$/model/37m_hansa_lloyd_bp"}
+	{specular "$/model/37m_hansa_lloyd_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

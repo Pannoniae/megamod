@@ -1,0 +1,59 @@
+{game_entity
+	(include "/properties/cannon_mgun.ext")
+	(include "/properties/shadow/tank.inc" scale(0.6))
+	{Extension "30_browning_m1917a1_aa.mdl"}
+	{props "vision_lev00_can" "cannon_sandbag_standard" "muzzle_hmg_dshk" "detect_cannon_aa" "cannon_sandbag_standard"}
+	{targetclass "cannon_zenite"}
+	{targetSelector "cannon_zenite"}
+
+	
+	{sensor 
+		{visor "main" 
+			{vision "cannon_main"}
+			{bone "turret"}
+		}
+	}
+	{extender "inventory"
+		{weapon "mgun" {mask "mountable"}}
+		{box
+			{item "ammo 7x63" 1000}
+			{item "browning_m1917a1" filled {user "mgun"}}
+			{item "sandbag_vehicle" 2}
+		}
+	}
+	{Weaponry
+		{place "mgun"
+			{type "main"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{LinkBone "mgun"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+			{Rotate}
+		}
+	}
+	
+	{mass 157}
+	{Chassis
+		("mobility_cannon"
+			speed(10.2) ;--------------------------------Max speed.
+			weight(157) ;--------------------------------Weight in Kilograms.
+		)
+	}
+	{Volume "body"
+		{tags "body"}
+		{able{obstacle 0}}
+		{thickness 1}
+		{component "body"}
+	}
+	{bone "basis"
+		{speed2 30}
+	}
+	{bone "gun_rot"
+		{speed2 70}
+	}
+	{bone "turret"
+		{speed2 70}
+	}
+	{Texmod "vert_olive"}
+}

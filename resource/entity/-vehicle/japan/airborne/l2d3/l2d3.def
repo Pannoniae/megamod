@@ -1,0 +1,83 @@
+{game_entity
+	(include "/properties/airborne_mp.ext")
+	(include "/properties/shadow/airborn.inc" scale(2.2))
+	(include "/properties/selection/airborne.inc" scale(2.25))
+	{props "multi_board" "wheeled" "vision_lev02_air" "no_minimap_view"}
+	{PatherID "bf110"}
+	
+	(include "/properties/car_crew.ext")
+
+	("fighter_tier2")
+
+	{boarder
+		{anm "driver"
+			{forward {begin "board_plane_left"} {end "seat_driver_car"} {base "door"}}
+			{reverse {end "emit_plane_parachute" -1} {base "door" -1}}
+		}
+		{anm "passengers"
+			{forward {begin "board_plane_left"} {end "seat_passenger"} {base "door"}}
+			{reverse {end "emit_plane_parachute" -1} {base "door" -1}}
+		}
+	}
+
+	("crew_human" place(driver) bone(driver) door(emit1) animation(driver) group(crew))
+	("crew_human" place(commander) bone(commander) door(emit1) animation(driver) group(crew))
+
+	("passenger_human" place(seat01)		bone(seat01)	door(emit1)	animation(passengers) group(passengers))
+	("passenger_human" place(seat02)		bone(seat02)	door(emit1)	animation(passengers) group(passengers))
+	("passenger_human" place(seat03)		bone(seat03)	door(emit1)	animation(passengers) group(passengers))
+	("passenger_human" place(seat04)		bone(seat04)	door(emit1)	animation(passengers) group(passengers))
+	("passenger_human" place(seat05)		bone(seat05)	door(emit1)	animation(passengers) group(passengers))
+	("passenger_human" place(seat06)		bone(seat06)	door(emit1)	animation(passengers) group(passengers))
+	("passenger_human" place(seat07)		bone(seat07)	door(emit1)	animation(passengers) group(passengers))
+	("passenger_human" place(seat08)		bone(seat08)	door(emit1) animation(passengers) group(passengers))
+	("passenger_human" place(seat09)		bone(seat09)	door(emit1) animation(passengers) group(passengers))
+	("passenger_human" place(seat10)	bone(seat10)	door(emit1) animation(passengers) group(passengers))
+	("passenger_human" place(seat11)	bone(seat11)	door(emit1) animation(passengers) group(passengers))
+	("passenger_human" place(seat12)	bone(seat12)	door(emit1) animation(passengers) group(passengers))
+	
+	{Placer
+		{place "driver" {visor "main"} {turnOff {targetable}}}
+	}
+	
+	("tearable" volume(elevator) number(_l))
+	("tearable" volume(elevator) number(_r))
+	("double_engine")
+	("wheel" args "wheelr")
+	("wheel" args "wheell")
+	("wheel" args "wheelback")
+
+	{Chassis "wheel"
+		("car_trace" fx("tracewheel05") step(0.07) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+	}
+
+	{Chassis "airborne"
+		("flight_model"
+			speed(480)  ;//---------Max speed (at sea level), km/h.
+			climb_speed(11) ;//-----Climb rate at sea level, in m/s
+			turn(250) ;//-----------Turn-and-burn radius in meters, tightest sustained turn
+			turnMP(250) ;//----------Turn-and-burn radius in meters, tightest sustained turn in Multiplayer
+			aerodynamics(1.55) ;//--Aerodynamic efficiency rating (0-3)
+			weight(7600) ;//--------Weight in kg.
+			power(2200) ;//---------Horse Power.
+			fuel(1300) ;//----------Fuel capacity in Liters.
+			range(1500) ;//---------Distance can travel with full fuel tank, in km.
+			roll_rate(40) ;//-------Roll rate, in degrees per second.
+			roll_angle(65) ;//------Maximum roll angle, in degrees.
+		)
+	}
+
+	{mass 11800}
+
+	{extender "inventory"
+		{box
+		}
+	}
+	{Sensor
+		{Visor "main"
+			{bone "pivot_back"}
+		}
+	}
+	{Extension "l2d3.mdl"}
+       
+}

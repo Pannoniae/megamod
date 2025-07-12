@@ -1,0 +1,103 @@
+;Exported by: Normand
+;Date:        Fri Aug 13 19:57:33 2021
+;File:        C:\Users\Normand\57_m1_new.max
+{Skeleton
+	{bone revolute "basis"
+		{parameters "WheelRadius=0.3;"}
+		{speed 0.002}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{animation
+				{sequence "break" {file "body_b.anm"} {speed 0.4}}
+			}
+			{Position 0.792673	0.410335	8.39928}
+			{VolumeView "body.ply"}
+			{bone "shield"
+				{Matrix34
+					0.0874895	0	-0.996165
+					0	1	0
+					0.996165	0	0.0874895
+					1.94902	0	-1.31289
+				}
+				{VolumeView "shield.ply"}
+			}
+			{bone revolute "turret"
+				{parameters "ID=turret;"}
+				{animation
+					{sequence "break" {file "turret_b.anm"} {speed 0.4}}
+				}
+				{limits -20 20}
+				{speed 0.01}
+				{Position -3.30287	-0.314917	0}
+				{VolumeView "turret.ply"}
+				{bone revolute "gun_rot"
+					{parameters "ID=gun;"}
+					{limits -5 15}
+					{Matrix34
+						1	0	0
+						0	0	1
+						0	-1	0
+						-0.780268	-0.149579	9.12122
+					}
+					{VolumeView "gun_rot.ply"}
+					{bone "gun"
+						{parameters "ID=gun;"}
+						{animation
+							{sequence "break" {file "gun_b.anm"} {speed 0.4}}
+						}
+						{Matrix34
+							1	0	0
+							0	0	-1
+							0	1	0
+							-7.85198	1.2197	-0.151176
+						}
+						{VolumeView "gun.ply"}
+						{bone "lock"
+							{parameters "ID=gun;"}
+							{Position -7.30296	-0.0440222	-1.51314}
+							{VolumeView "lock.ply"}
+						}
+					}
+				}
+			}
+			{bone "standl"
+				{parameters "ID=body;"}
+				{Position -1.16814	1.24525	1.61066}
+				{VolumeView "standl.ply"}
+			}
+			{bone "standr"
+				{parameters "ID=body;"}
+				{Position -1.17888	-2.05227	1.61066}
+				{VolumeView "standr.ply"}
+			}
+		}
+		{bone "pivot_front"
+			{Position 0.0169525	-0.0612508	8.43435}
+			{bone revolute "wheell"
+				{parameters "ID=wheelleft;"}
+				{Matrix34
+					-1	0	0
+					0	0	1
+					0	1	0
+					-0.0147988	15.185	0.00395298
+				}
+				{VolumeView "wheelleft.ply"}
+			}
+			{bone revolute "wheelr"
+				{parameters "ID=wheelright;"}
+				{Matrix34
+					-1	0	0
+					0	0	1
+					0	1	0
+					-0.026157	-15.5922	0.00395298
+				}
+				{VolumeView "wheelright.ply"}
+			}
+		}
+	}
+}

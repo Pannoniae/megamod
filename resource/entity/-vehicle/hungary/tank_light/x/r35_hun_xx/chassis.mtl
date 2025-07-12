@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/model/RenaultR35_chassis_01_xx"}
+	{specular "$/model/RenaultR35_chassis_01_AO"}
+	{color "229 229 229 25"}
+	{blend none}
+}

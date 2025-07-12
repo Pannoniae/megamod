@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/75mm1897_tex2_xx"}
+	{blend none}
+}

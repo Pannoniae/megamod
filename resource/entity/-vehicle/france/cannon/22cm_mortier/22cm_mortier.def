@@ -1,0 +1,113 @@
+{game_entity
+	(include "/properties/cannon.ext")
+	(include "/properties/shadow/tank.inc" scale(0.6))
+	{Extension "22cm_mortier.mdl"}
+	(include "/properties/selection/cannon.inc" scale(0.7))
+	{props "wheeled" "vision_lev05_can" "muzzle_150mm_155mm_sides" "trailer" "trailer_heavy" "animation"}
+	{PatherId "cannon.large"}
+	{targetclass "howitzer"}
+	{targetSelector "cannon_howitzer"}
+
+	("wheel" args "wheelright1")
+	("wheel" args "wheelleft1")
+
+	("gun" repair(30) thickness(30))
+	("shield" args "shield" 8)
+
+	("armor_heavy_cannon")
+	("crew_wheeled_cannon_4")
+	{volume "body2" {able {holed}}}
+	
+	{boarder
+		{anm "gunner"
+			{forward {end "pose_m5_gunlayer" 10}}
+		}
+		{anm "charger"
+			{forward {end "pose_m42_charger" 10}}
+		}
+		{anm "charger2"
+			{forward {end "pose_pdr25_charger" 10}}
+		}
+		{anm "commander"
+			{forward {end "pose_watch_binocular" 10}}
+		}
+		{anm "driver1"	;// gunner
+			{forward {end "cannon_pak40_pusher_left" 10}}
+		}
+		{anm "driver2"	;// gunner2
+			{forward {end "cannon_pak40_pusher_right" 10}}
+		}
+		{anm "driver3"	;// charger
+			{forward {end "mgun_browning_driver_l" 10}}
+		}
+		{anm "driver4"	;// charger2
+			{forward {end "mgun_browning_driver_l" 10}}
+		}
+		{anm "seat1"	;// gunner
+			{forward {end "pose_seat_cannon_left" 10}}
+		}
+		{anm "seat2"	;// gunner2
+			{forward {end "pose_seat_cannon_right" 10}}
+		}
+		{anm "seat3"	;// gunner
+			{forward {end "pose_seat_cannon_left" 10}}
+		}
+		{anm "seat4"	;// gunner2
+			{forward {end "pose_seat_cannon_right" 10}}
+		}
+	}
+
+	{extender "cannon"
+		{animation
+			{switch "close"}
+			{move	"cannon_pak40_pusher_left" "cannon_pak40_pusher_right" "mgun_browning_driver_l" "mgun_browning_driver_l"}
+			{aim	"Cannon_pdr25_gunlayer" "" "" ""}
+			{fire	"Cannon_pdr25_gunlayer_fire-alert" "cannon_pdr25_charger_fire" "cannon_zis3_charger_fire" ""}
+			{reload	"" "Cannon_pdr25_charger"}
+		}
+		{move {workers "driver1" "driver2" "driver3" "driver4"} {obstacle "close"} {minWork 2}}			
+		{attack {workers "gunner" "charger" "charger2" "commander"} {obstacle "open"}}		
+		{trailing {workers "seat1" "seat2" "seat3" "seat4"}}								
+	}
+
+	{extender "inventory"
+		{box
+            {item "ammo bullet220 he" 50}
+			{item "sandbag_vehicle" 2}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{weapon "220mm_mortar" filling "ammo bullet220 he" 1 }
+			{RestoreIKAfterAim}
+			("abm_dymamic_gun"
+				zeroing(3.5)
+				dispersion(0.2)
+			)
+		}
+	}
+	{mass 7500}
+	{Chassis "track"
+		("car_trace" fx("tracewheel05a") step(0.14) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("mobility_cannon"
+			speed(5.1) ;----------------------------------Max speed.
+			weight(7500) ;--------------------------------Weight in Kilograms.
+		)
+	}
+
+	{bone "basis"
+		{speed2 3}
+	}
+	{bone "gun_rot"
+		{limits -45 5}
+		{speed2 8}
+	}
+	(mod "mp"
+		{brain
+			{properties
+				{fire_mode hold}
+			}
+		}	
+	)
+}

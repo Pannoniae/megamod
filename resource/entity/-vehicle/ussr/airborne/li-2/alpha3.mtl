@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "numerator2"}
+	{blend test}
+}

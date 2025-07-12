@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "m3_gun"}
+        {specular "m3_gun_sp"}
+	{color "229 229 229 128"}
+	{blend test}
+}

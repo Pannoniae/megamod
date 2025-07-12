@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "praga_rv_shield_x"}
+	{blend test}
+}

@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "Somua_S35_chassis_01_AM"}
+	{specular "$/model/Somua_S35_chassis_01_AO"}
+	{color "229 229 229 25"}
+	{blend none}
+}

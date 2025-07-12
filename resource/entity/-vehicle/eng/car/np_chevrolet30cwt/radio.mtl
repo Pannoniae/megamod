@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/chev_radio"}
+	{blend none}
+}

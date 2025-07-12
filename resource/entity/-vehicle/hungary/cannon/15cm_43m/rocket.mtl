@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/inventory/shells/15cm_rocket"}
+	{specular "$/inventory/shells/15cm_rocket_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

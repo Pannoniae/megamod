@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_vehicle/5493280949605449_attch_pzkpfw_iv_track_c_attch_pzkpfw_iv_track_c"}
+	{bump "$/_vehicle/5493280949605449_attch_pzkpfw_iv_track_n_n"}
+	{specular "$/_vehicle/5493280949605449_attch_pzkpfw_iv_track_n_s"}
+	{color "230 230 230 25"}
+	{blend test}
+}

@@ -1,0 +1,152 @@
+{game_entity
+	(include "/properties/armoredcar.ext")
+	(include "/properties/shadow/tank.inc" scale(1.0))
+	(include "/properties/selection/vehicle.inc" scale(1.0))
+	{props "tank" "wheeled" "multi_board" "explosion_throw_crew" "vision_lev02" "tractor" "detect_tank_mg"}
+	{targetclass "armoredcar"}
+	{targetSelector "tank_light"}
+	{patherId "sdkfz251"}
+
+	{Extension "m2.mdl"}
+	{extension "crew.ext"}
+	
+	{extender "enumerator"
+		{digit_folder "us2"}
+	}
+	
+	{volume "sticky"
+		{tags "grenade_fg_target"}
+		{able clear {contact} {touch}}
+		{component "sticky_body"}
+	}
+	{component "sticky_body"}
+
+	{volume "sticky"
+		{tags "grenade_fg_target"}
+		{able clear {contact} {touch}}
+		{component "sticky_body"}
+	}
+	{component "sticky_body"}
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+		{thickness 10}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+		{thickness 10}
+	}
+	{volume "body3"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}
+	}
+	{volume "body4"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}
+	}
+	{volume "body5"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}
+	}
+	{volume "body6"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}
+	}
+	{volume "roll"
+		{thickness 15}
+	}
+	{volume "body7"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}
+	}
+	{Volume "gun_rot"
+		{tags "gun"}
+		{component "gun"}
+		{thickness 10}
+	}
+	{Volume "gun"
+		{tags "gun"}
+		{component "gun"}
+		{thickness 10}
+	}
+	{Volume "turret"
+		{tags "turret"}
+		{component "turret"}
+		{thickness 10}
+	}
+	{volume "engine"
+		{thickness 10}
+	}
+	{Volume "fuel"
+		{thickness 1}
+	}
+
+	("armoredcar_tier1")
+
+	("wheel" args "wheelright1")
+	("wheel" args "wheelleft1")
+
+	("tracks" repair(30) thickness(15))
+
+	{extender "inventory"
+		{weapon "mgun" {mask "mountable"}}
+		{weapon "mgun1" {mask "mountable"}}
+		{weapon "mgun2" {mask "mountable"}}
+		{box
+			{item "browning" filled {user "mgun"}}
+			{item "browning_m19" filling "ammo 7x63" 250 {user "mgun1"}}
+			{item "browning_m19" filling "ammo 7x63" 251 {user "mgun2"}}
+			{item "7x63" "ammo" 2500}		
+			{item "ammo 12x99" 1000}
+		}
+	}
+	{Weaponry
+		{place "mgun"
+			{type "main"}
+			{LinkBone "mgun"}
+			{LinkAnimation "off"}
+			{charger "gunner"}
+			("abm_mgun")
+			{basic}
+		}
+		{place "mgun1"
+			{LinkBone "mgun1"}
+			{LinkAnimation "off"}
+			{gunner "gunner1"}
+			{charger "gunner1"}
+			("abm_mgun")
+			{basic}
+		}
+		{place "mgun2"
+			{LinkBone "mgun2"}
+			{LinkAnimation "off"}
+			{gunner "gunner2"}
+			{charger "gunner2"}
+			("abm_mgun")
+			{basic}
+		}	
+		
+	} 
+	{mass 8160}
+	{Chassis "wheel"
+		("tank_trace_ex" fx("tracks_sm2") step(0.2) len(0.46) boneleft("FXtraceL3") boneright("FXtraceR3"))
+		("car_trace" fx("tracewheel03a") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+
+		("mobility_car"
+			speed(72) ;----------------------------------Max speed.
+			speedatmaxturn(14) ;-------------------------Max speed at max turn.
+			reverse(14) ;---------------------------------Max speed in Reverse.
+			weight(8.16) ;--------------------------------Weight in Tonnes.
+			power(147) ;---------------------------------Horse Power.
+			fuel(227) ;----------------------------------Fuel capacity in Litres.
+			type(fuel) ;---------------------------------Fuel type.
+			range(320) ;---------------------------------Range in Kilometers.
+		)
+	}
+}

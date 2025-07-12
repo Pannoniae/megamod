@@ -1,0 +1,31 @@
+{game_entity
+	{Extension "57mm_m1_xx.mdl"}
+	{Volume "body"
+	}
+	{Volume "gun2"
+	}
+	{Volume "gun3"
+	}
+	{Volume "gun"
+	}
+	{Volume "shield2"
+	}
+	{Volume "shield3"
+	}
+	{Volume "shield4"
+	}
+	{Volume "shield5"
+	}
+	{Volume "shield"
+	}
+	{Volume "standl"
+	}
+	{Volume "standr"
+	}
+	{Volume "turret_shield"
+	}
+	{Volume "wheelleft"
+	}
+	{Volume "wheelright"
+	}
+}

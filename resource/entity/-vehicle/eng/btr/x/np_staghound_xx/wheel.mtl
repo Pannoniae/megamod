@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/wheel_t17_xx"}
+	{blend none}
+}

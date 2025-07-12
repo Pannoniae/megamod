@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "grant_turret"}
+	{blend none}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "type96_150mm"}
+	{blend none}
+}

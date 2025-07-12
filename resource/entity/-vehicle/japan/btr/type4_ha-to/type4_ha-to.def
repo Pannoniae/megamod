@@ -1,0 +1,153 @@
+{game_entity
+	(include "/properties/tank_assaultgun.ext")
+	(include "/properties/shadow/tank.inc" scale(0.9))
+	(include "/properties/selection/vehicle.inc" scale(0.8))
+	{props "medium" "-turret" "opened" "nebelwerfer" "vision_lev05_can" "detect_spg"}
+
+	{extender "enumerator"}
+	{Extension "ha-to.mdl"}
+	{targetclass "armoredcar" "bullet"}
+	{targetSelector "tank_bullet"}
+	{patherId "t40"}
+
+	("tankette_tier1")
+
+	{volume "body1"
+		{component "body"}
+		{tags "body"}
+		{thickness 8
+			{front 15}
+		}
+	}
+	{volume "body2"
+		{component "body"}
+		{tags "body"}
+		{thickness 8
+			{front 15}
+		}
+	}
+	{volume "body3"
+		{component "body"}
+		{tags "body"}
+		{thickness 8
+			{front 15}
+		}
+	}
+	{volume "inventory"
+	        {thickness 2}
+	}
+	{volume "engine"
+		{component "engine"}
+		{tags "engine"}
+		{thickness 8
+			{front 15}
+		}
+	}
+	{Volume "gun"
+		{thickness 10}
+	}
+	{Volume "turret"
+		{thickness 10}
+	}
+	{Volume "trackleft"
+		{thickness 10}
+	}
+	{Volume "trackright"
+		{thickness 10}
+	}
+
+	("crew_2_human")
+	
+	{boarder
+		{anm "driver"
+			{forward	{begin "board_big-highcar"}{end "seat_passenger"}{base "doorrigh"}}
+			{reverse 	{end	"emit_tank_1"}{base "doorrigh" -1}}
+		}
+		{anm "commander"
+			{forward	{begin "board_big-highcar_driver"}{end "seat_driver_car"}{base "doorleft"}}
+			{reverse 	{end	"emit_tank_1"}{base "doorleft" -1}}
+		}
+		{anm "charger"
+			{forward	{begin	"board_LowTank_left"}}
+			{reverse 	{end	"emit_tank_1"}}
+		}
+		{anm "charger"
+			{forward	{begin	"board_LowTank_left"}}
+			{reverse 	{end	"emit_tank_1"}}
+		}
+		{anm "gunner"
+			{forward	{begin	"board_tank_left"} {end "pose_pak40_gunlayer"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "gunner2"
+			{forward	{begin	"board_tank_right"} {end "pose_pak40_charger"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+	}
+	("crew_human" place(gunner)	bone(gunner)	door(emit3) animation(gunner))
+	("crew_human" place(charger)	bone(charger)	door(emit6) animation(gunner))
+	("crew_human" place(gunner2)	bone(gunner2)	door(emit4) animation(gunner))
+
+	{placer
+		{place "driver" 	{visor "driver"}{group "crew"}}
+		{place "commander"	{visor "driver"}{group "crew"}}
+		{place "gunner"		{visor "main"}	{group "crew"} {openForCrush}}
+		{place "charger"	{visor "main"}	{group "crew"} {openForCrush}}
+		{place "gunner2" 	{visor "main"}	{group "crew"} {openForCrush}}
+	}
+
+	{sensor
+		{visor "main"
+			{vision "tank_main-h"}
+			{bone "visor2"}
+		}
+		{visor "driver"
+			{vision "tank_driver"}
+			{bone "visor1"}
+		}
+	}
+
+	{extender "inventory"
+		{box
+			{size 8 10}
+			{item "ammo 30cm_rocket" 9}
+		}
+	}
+	{Weaponry
+		{place "gun"
+			{weapon "weapon t3_30cm" filled}	
+			{barrels 1}
+			{gunner "gunner2"}
+			{charger "gunner2"}
+			{StationaryFiring}
+			("abm_dymamic_gun"
+				zeroing(6.0)	; // time it takes to aim until the reticle shrinks. Bigger values, more control.
+				dispersion(1)   ; // time it takes to distort the reticle when you move the gun (how abrupt it loses zeroing). Bigger values, more control.
+			)
+		}
+	}
+
+	{mass 13700}
+	{Chassis "track"
+		("tank_trace" fx("tracks_sm2") step(0.56) len(0.167))
+		("mobility_tank"
+			speed(40) ;-----------Max speed when fully accelerated on road, km/h.
+			reverse(9) ;---------Max speed in reverse on road, km/h.
+			traverse(12) ;-------Track traverse, per second, in degrees.
+			weight(13.7) ;--------Weight in Tonnes.
+			power(146) ;---------Engine Power, in hp.
+			track(6) ;-----------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(300) ;----------Fuel capacity in Litres.
+			type(diesel) ;---------Fuel type. (diesel OR fuel)
+			range(240) ;---------Range in km, off-road.
+		)
+	}	
+	{bone "gun_rot"
+		{limits 10 -18}
+	}
+	{brain
+		{properties
+			{fire_mode hold}
+		}
+	}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "m2_lt_turret_02_am"}
+	{bump "m2_lt_turret_02_anm"}
+	{specular "m2_lt_turret_02_gmm"}
+	{color "230 230 230 25"}
+	{blend none}
+}

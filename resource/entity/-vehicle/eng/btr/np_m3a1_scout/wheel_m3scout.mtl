@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/wheel_m3scout_eng"}
+	{bump "$/model/wheel_m3scout_bp"}
+	{specular "$/model/wheel_m3scout_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

@@ -1,0 +1,112 @@
+-= Animation: fire, Node basis =-
+	Frame 100 {
+		Visibility 1
+		Position	0	0	0
+		Orientation	1 0 0 0
+	}
+	Frame 120 {
+		Visibility 1
+		Position	0	0	0
+		Orientation	1 0 0 0
+	}
+-= Animation: fire, Node gun_rot =-
+	Frame 100 {
+		Visibility 1
+		Position	1.90272	1.56652	21.8979
+		Orientation	-0.707107 0 0 0.707107
+	}
+	Frame 120 {
+		Visibility 1
+		Position	1.90272	1.56652	21.8979
+		Orientation	-0.707107 0 0 0.707107
+	}
+-= Animation: fire, Node mask =-
+	Frame 100 {
+		Visibility 1
+		Position	10.217	1.04127	1.69545
+		Orientation	0.707107 0 0 0.707107
+	}
+	Frame 120 {
+		Visibility 1
+		Position	10.217	1.04127	1.69545
+		Orientation	0.707107 0 0 0.707107
+	}
+-= Animation: fire, Node gun =-
+	Frame 100 {
+		Visibility 1
+		Position	14.4511	1.22196	2.24424
+		Orientation	0.707107 0 0 0.707107
+	}
+	Frame 101 {
+		Position	5.73791	1.22196	2.24424
+	}
+	Frame 102 {
+		Position	5.80778	1.22196	2.24424
+	}
+	Frame 103 {
+		Position	6.00722	1.22196	2.24424
+	}
+	Frame 104 {
+		Position	6.32099	1.22196	2.24424
+	}
+	Frame 105 {
+		Position	6.73385	1.22196	2.24424
+	}
+	Frame 106 {
+		Position	7.23055	1.22196	2.24424
+	}
+	Frame 107 {
+		Position	7.79584	1.22196	2.24424
+	}
+	Frame 108 {
+		Position	8.41449	1.22196	2.24424
+	}
+	Frame 109 {
+		Position	9.07125	1.22196	2.24424
+	}
+	Frame 110 {
+		Position	9.75088	1.22196	2.24424
+	}
+	Frame 111 {
+		Position	10.4381	1.22196	2.24424
+	}
+	Frame 112 {
+		Position	11.1178	1.22196	2.24424
+	}
+	Frame 113 {
+		Position	11.7745	1.22196	2.24424
+	}
+	Frame 114 {
+		Position	12.3932	1.22196	2.24424
+	}
+	Frame 115 {
+		Position	12.9585	1.22196	2.24424
+	}
+	Frame 116 {
+		Position	13.4552	1.22196	2.24424
+	}
+	Frame 117 {
+		Position	13.868	1.22196	2.24424
+	}
+	Frame 118 {
+		Position	14.1818	1.22196	2.24424
+	}
+	Frame 119 {
+		Position	14.3812	1.22196	2.24424
+	}
+	Frame 120 {
+		Visibility 1
+		Position	14.4511	1.22196	2.24424
+		Orientation	0.707107 0 0 0.707107
+	}
+-= Animation: fire, Node foresight1 =-
+	Frame 100 {
+		Visibility 1
+		Position	14.929	0.0627518	-0.0862141
+		Orientation	0 0 0 1
+	}
+	Frame 120 {
+		Visibility 1
+		Position	14.929	0.0627518	-0.0862141
+		Orientation	0 0 0 1
+	}

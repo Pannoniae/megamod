@@ -1,0 +1,120 @@
+{game_entity
+        (include "/properties/vehicle_xx.ext")
+	{Extension "panther_f_xx.mdl"}
+	{Volume "ammo1"
+	}
+	{Volume "ammo2"
+	}
+	{Volume "ammo3"
+	}
+	{Volume "ammo4"
+	}
+	{Volume "body1"
+	}
+	{Volume "body2"
+	}
+	{Volume "body3"
+	}
+	{Volume "cupola"
+	}
+	{Volume "engine1"
+	}
+	{Volume "engine2"
+	}
+	{Volume "fuel1"
+	}
+	{Volume "fuel2"
+	}
+	{Volume "gun"
+	}
+	{Volume "hole1"
+	}
+	{Volume "hole2"
+	}
+	{Volume "mantlet"
+	}
+	{Volume "shieldl1"
+	}
+	{Volume "shieldl2"
+	}
+	{Volume "shieldl3"
+	}
+	{Volume "shieldl4"
+	}
+	{Volume "shieldl5"
+	}
+	{Volume "shieldl6"
+	}
+	{Volume "shieldl7"
+	}
+	{Volume "shieldl8"
+	}
+	{Volume "shieldl9"
+	}
+	{Volume "shieldr1"
+	}
+	{Volume "shieldr2"
+	}
+	{Volume "shieldr3"
+	}
+	{Volume "shieldr4"
+	}
+	{Volume "shieldr5"
+	}
+	{Volume "shieldr6"
+	}
+	{Volume "shieldr7"
+	}
+	{Volume "shieldr8"
+	}
+	{Volume "shieldr9"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "trackright"
+	}
+	{Volume "transmission"
+	}
+	{Volume "turret"
+	}
+	{Volume "wheell0"
+	}
+	{Volume "wheell1"
+	}
+	{Volume "wheell2"
+	}
+	{Volume "wheell3"
+	}
+	{Volume "wheell4"
+	}
+	{Volume "wheell5"
+	}
+	{Volume "wheell6"
+	}
+	{Volume "wheell7"
+	}
+	{Volume "wheell8"
+	}
+	{Volume "wheell9"
+	}
+	{Volume "wheelr0"
+	}
+	{Volume "wheelr1"
+	}
+	{Volume "wheelr2"
+	}
+	{Volume "wheelr3"
+	}
+	{Volume "wheelr4"
+	}
+	{Volume "wheelr5"
+	}
+	{Volume "wheelr6"
+	}
+	{Volume "wheelr7"
+	}
+	{Volume "wheelr8"
+	}
+	{Volume "wheelr9"
+	}
+}

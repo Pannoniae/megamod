@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "matilda_track"}
+	{blend test}
+}

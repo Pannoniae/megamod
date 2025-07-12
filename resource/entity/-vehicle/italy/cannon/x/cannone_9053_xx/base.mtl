@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "cannone9053_xx"}
+	{blend none}
+}

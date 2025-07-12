@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "75_18"}
+	{bump "$/model/75_18_bp"}
+	{specular "$/model/75_18_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

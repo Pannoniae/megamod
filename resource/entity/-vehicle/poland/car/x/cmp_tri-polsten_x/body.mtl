@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/cmp/cmp_x"}
+	{bump "$/model/cmp/cmp_bp"}
+	{specular "$/model/cmp/cmp_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

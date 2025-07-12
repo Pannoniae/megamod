@@ -1,0 +1,34 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{Extension "mtls_1g14_xx.mdl"}
+	{Volume "body1"
+		{thickness 38.1}
+	}
+	{Volume "body2"
+		{thickness 38.1}
+	}
+	{Volume "engine"
+		{thickness 38.1}
+	}
+	{Volume "gun1"
+		{thickness 38.1}
+	}
+	{Volume "gun2"
+		{thickness 38.1}
+	}
+	{Volume "gunmount"
+		{thickness 38.1}
+	}
+	{Volume "mask"
+		{thickness 38.1}
+	}
+	{Volume "trackleft"
+		{thickness 38.1}
+	}
+	{Volume "trackright"
+		{thickness 38.1}
+	}
+	{Volume "turret"
+		{thickness 38.1}
+	}
+}

@@ -1,0 +1,199 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/shadow/tank.inc" scale(1.0))
+	(include "/properties/selection/vehicle.inc" scale(1.0))
+	{props "light" "vision_lev03" "muzzle_37mm_40mm_auto" "shield" "detect_tank_light"}
+	{Extension "nimrod.mdl"}
+	{targetclass "tank_light"}
+	{targetSelector "tank_zenite"}
+	{patherId "panzer2"}
+	{collider "tank.light"}
+	
+	("tank_light_tier1")
+	("tracks" repair(30) thickness(15))
+	("gun" repair(30) thickness(20))
+	("ammo" args "ammo1")
+	("transmission" args "transmission")
+
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+		{thickness 15
+			{top 8}
+			{rear 15}
+			{bottom 8}
+		}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+		{thickness 15
+			{top 8}
+			{rear 15}
+			{bottom 8}
+		}
+	}
+	{Volume "body3"
+		{tags "body"}
+		{component "body"}
+		{thickness 15
+			{top 8}
+			{rear 15}
+			{bottom 8}
+		}
+	}
+	{Volume "body4"
+		{tags "body"}
+		{component "body"}
+		{thickness 15
+			{top 8}
+			{rear 15}
+			{bottom 8}
+		}
+	}
+	{Volume "turret1"
+		{tags "turret"}
+		{thickness 28}
+		{component "turret"}
+	}
+	{Volume "turret2"
+		{tags "turret"}
+		{thickness 28}
+		{component "turret"}
+	}
+	{Volume "turret3"
+		{tags "turret"}
+		{thickness 28}
+		{component "turret"}
+	}
+	{Volume "turret4"
+		{tags "turret"}
+		{thickness 28}
+		{component "turret"}
+	}
+	{Volume "turret5"
+		{tags "turret"}
+		{thickness 28}
+		{component "turret"}
+	}
+	{Volume "turret6"
+		{tags "turret"}
+		{thickness 28}
+		{component "turret"}
+	}
+	{Volume "turret7"
+		{tags "turret"}
+		{thickness 28}
+		{component "turret"}
+	}
+	{Volume "turret8"
+		{tags "turret"}
+		{thickness 28}
+		{component "turret"}
+	}
+	{volume "engine"
+		{tags "engine"}
+		{component "engine"}
+		{thickness 15
+			{top 8}
+			{bottom 8}
+		}
+	}
+	
+	{extender "enumerator"
+		{digit_folder "ger"}
+	}
+
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_pz4_driver"} {end "seat_sd222_gunner2"} {base "open_driver"}}
+			{reverse 	{end	"board_pz4_driver" -1} {base "open_driver" -1}}
+		}
+		{anm "gunner"
+			{forward	{begin	"board_tank_left"} {end "seat_driver_car"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "gunner1"
+			{forward	{begin	"board_tank_right"} {end "seat_driver_car"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "charger"
+			{forward	{begin	"board_tank_left"} {end "seat_armor"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "commander"
+			{forward	{begin	"board_tank_right"} {end "seat_armor"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+	}
+	
+	(define "crew_human"
+		{placer
+			{place "%place"
+				{group "crew"}
+				{linkbone "%place"}
+				{turnoff {sensor} {shadow}}
+				{visor "main"}
+			}
+		}
+		{boarder
+			{door "%door1"}
+			{door "%door2"}
+			{link "%door1" "%place" {anm "%place"} {forward putoff} {reverse puton}}
+			{link "%door2" "%place" {anm "%place"} {forward putoff} {reverse puton}}
+		}
+	)
+	("crew_human" place(gunner)	    door1(emit1) door2(emit2))
+	("crew_human" place(charger)	door1(emit1) door2(emit2))
+	("crew_human" place(gunner1)	door1(emit1) door2(emit2))
+	("crew_human" place(commander)	door1(emit1) door2(emit2))
+	{placer
+		{place "driver" {group "crew"} {visor "driver"}}
+	}
+	{boarder
+		{door "emit0"}
+		{link "emit0" "driver" {anm "driver"} {forward putoff} {reverse puton}}
+	}
+	{placer
+		{place "gunner" {openForCrush 0}}
+	}
+	
+	{extender "inventory"
+		{box
+			{item "dynamite"}
+			{item "bullet40_hun_zenite ap" 600}
+			{item "bullet40_hun_zenite he" 136}
+		}
+	}
+	{Weaponry
+		{place "gun"
+			{weapon "40mm_bofors_36m" filled}
+			("abm_dymamic_autocannon"
+				zeroing(4)
+				dispersion(0.15)
+			)
+		}
+	}
+	
+	{mass 10500}
+	{Chassis
+		("tank_trace" fx("tracks_sm2") step(0.15) len(0.4))
+		("mobility_tank"
+			speed(50) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(10) ;---------Max speed in reverse on road, km/h.
+			traverse(35) ;-------Track traverse, per second, in degrees.
+			weight(10.5) ;--------Weight in Tonnes.
+			power(155) ;---------Engine Power, in hp.
+			track(4.5) ;---------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(170) ;----------Fuel capacity in Litres.
+			type(fuel) ;---------Fuel type. (diesel OR fuel)
+			range(300) ;---------Range in km, off-road.
+		)
+	}
+	{bone "turret"
+		{speed 0.015}
+	}
+        {bone "gun_rot"
+		{speed 0.007}
+        }
+}

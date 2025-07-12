@@ -1,0 +1,63 @@
+{game_entity
+	{Extension "ca101_xx.mdl"}
+	{Volume "aileron1"
+	}
+	{Volume "aileron2"
+	}
+	{Volume "body_back"
+	}
+	{Volume "body"
+	}
+	{Volume "cabin"
+	}
+	{Volume "elevator1"
+	}
+	{Volume "elevator2"
+	}
+	{Volume "engine1_1"
+	}
+	{Volume "engine1_2"
+	}
+	{Volume "engine1_3"
+	}
+	{Volume "engine2_1"
+	}
+	{Volume "engine2_2"
+	}
+	{Volume "engine2_3"
+	}
+	{Volume "engine3_1"
+	}
+	{Volume "engine3_2"
+	}
+	{Volume "propeller1"
+	}
+	{Volume "propeller2"
+	}
+	{Volume "propeller3"
+	}
+	{Volume "retract_wheell"
+	}
+	{Volume "retract_wheelr"
+	}
+	{Volume "rudder"
+	}
+	{Volume "wheel_back"
+	}
+	{Volume "wheell"
+	}
+	{Volume "wheelr"
+	}
+	{Volume "wingl1"
+	}
+	{Volume "wingl2"
+	}
+	{Volume "wingl3"
+	}
+	{Volume "wingr1"
+	}
+	{Volume "wingr2"
+	}
+	{Volume "wingr3"
+	}
+}

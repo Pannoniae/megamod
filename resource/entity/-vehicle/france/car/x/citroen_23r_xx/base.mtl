@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "citroen_23r_xx"}
+	{blend none}
+}

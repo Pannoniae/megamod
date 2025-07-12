@@ -1,0 +1,27 @@
+{game_entity
+	{Extension "aec_aa_xx.mdl"}
+	{volume "body1"
+	}
+	{volume "body2"
+	}
+	{volume "body3"
+	}
+	{volume "engine"
+	}
+	{volume "gun"
+	}	
+	{volume "turret"
+	}
+	{volume "turret2"
+	}
+	{Volume "shield1"
+	}
+	{volume "wheelright1"
+	}
+	{volume "wheelleft1"
+	}
+	{volume "wheelright2"
+	}
+	{volume "wheelleft2"
+	}
+}

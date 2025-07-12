@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/animation/track_sherman_hvss"}
+	{blend test}
+}

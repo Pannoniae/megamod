@@ -1,0 +1,149 @@
+;Exported by: Thomas
+;Date:        Tue Jun 21 13:45:33 2016
+;File:        C:\Users\Thomas\Downloads\MOW\AMERICAN\AMERICAN\veh_usa_motocycle_herley\harley_2.max
+{Skeleton
+	{bone "basis"
+		{parameters "Wheelradius=0.35;SteerMax=24;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Position -7.80332	0	10.6789}
+			{VolumeView "body.ply"}
+			{bone "visor"
+				{Position 7.859 	 0.10 	 14.0168}
+			}
+			{bone "driver"
+				{Position 0.25582	0.10	3.0}
+				{bone revolute "ik_centr"
+					{limits -25 25}
+					{speed 0.01}
+					{bone revolute "ik_left"
+						{limits 25 -25}
+						{speed 0.01}
+						{Position 0.05	0	15.9}
+						{bone revolute "ik_right"
+							{limits 25 25}
+							{speed 0.01}
+							{Position 0	0	2.2}
+							{bone revolute "ik_hor"
+								{parameters "ID=gun;"}
+								{limits -17 10}
+								{speed 0.01}
+								{Matrix34
+									1	0	0
+									0	0	-1
+									0	1	0
+									0	0	7.8
+								}
+								{bone "foresight1"
+									{Matrix34
+										1	0	0
+										0	-1	0
+										0	0	-1
+										22	18	0
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			{bone "fxfire1"
+				{Position 7.80332	0.024147	-2.45674}
+			}
+			{bone "fxsmoke1"
+				{Matrix34
+					-0.642788	0	0.766044
+					0	1	0
+					-0.766044	0	-0.642788
+					-13.5699	-2.56263	-7.05605
+				}
+			}
+		}
+		{bone "pivot_front"
+			{parameters "ID=body;"}
+			{Position 13.835	0.0860697	6.61063}
+			{bone revolute "steer"
+				{parameters "ID=body;"}
+				{Matrix34
+					0.939693	0	0.34202
+					0	-1	0
+					0.34202	0	-0.939693
+					-6.35816	1.3696	10.7035
+				}
+				{VolumeView "steer.ply"}
+				{bone revolute "wheel1"
+					{parameters "ID=trackleft;"}
+					{Matrix34
+						0.342019	0	-0.939693
+						0.939693	0	0.342019
+						0	-1	0
+						2.08998	1.32392	12.0509
+					}
+					{VolumeView "wheel1.ply"}
+					{bone "fxtrace1"
+						{Matrix34
+							0	0	1
+							0	-1	0
+							1	0	0
+							-6.62372	-0.523087	-1.09537
+						}
+					}
+				}
+			}
+		}
+		{bone "emit1"
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				-5.34315	13.3036	0
+			}
+		}
+		{bone "pivot_back"
+			{parameters "ID=body;"}
+			{Position -16.5154	-0.146423	6.7547}
+			{bone revolute "spring_l2"
+				{parameters "ID=body;"}
+				{Position -0.250931	0.268004	-0.732164}
+				{bone revolute "wheel2"
+					{parameters "ID=trackleft;"}
+					{Matrix34
+						0	0	1
+						1	0	0
+						0	1	0
+						-0.529457	-0.198813	0.764013
+					}
+					{VolumeView "wheel2.ply"}
+					{bone "fxtrace2"
+						{Matrix34
+							0	1	0
+							0	0	1
+							1	0	0
+							-6.92546	-0.312502	0.753359
+						}
+					}
+				}
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "body"}
+	{Position -0.652061	-7.91757	-0.962588}
+}
+{Volume "wheel1"
+	{Cylinder 7.32283 2.64797}
+	{Bone "wheel1"}
+	{Position 0.0916452	0.309866	0.0626891}
+}
+{Volume "wheel2"
+	{Cylinder 7.28346 2.64797}
+	{Bone "wheel2"}
+	{Position 0.0667763	0.0280821	0.0119202}
+}

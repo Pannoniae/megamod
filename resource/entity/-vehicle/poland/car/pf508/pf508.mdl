@@ -1,0 +1,284 @@
+;Exported by: Karol
+;Date:        Mon Sep 03 17:23:12 2012
+;File:        C:\Users\Karol\Desktop\3D\!!!MODELOWANIE DO MEN OF WAR!!!\Fiat508\Fiat508.max
+{Skeleton
+	{bone "basis"
+		{parameters "SteerMax=35;WheelRadius=0.4;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Position 2.77396	0.371745	17.5567}
+			{VolumeView "body.ply"}
+			{bone "glass2"
+				{parameters "ID=Body;"}
+				{Position 7.95896	12.1121	8.13015}
+				{VolumeView "glass2.ply"}
+			}
+			{bone "shield"
+				{parameters "ID=shield;"}
+				{Position -25.7238	0.000514954	8.96167}
+				{VolumeView "shield.ply"}
+			}
+			{bone "glass_front"
+				{parameters "ID=Body;"}
+				{Position 7.70225	-0.000103295	9.4174}
+				{VolumeView "glass.ply"}
+			}
+			{bone "wheel_hand"
+				{parameters "ID=body;"}
+				{Position 9.35255	4.49284	0.123796}
+				{VolumeView "wheel_hand.ply"}
+			}
+			{bone "plateback"
+				{parameters "ID=body;"}
+				{Position -33.8276	11.1335	-4.85254}
+				{VolumeView "plateback.ply"}
+			}
+			{bone "platefront"
+				{parameters "ID=body;"}
+				{Position 35.6162	10.2197	-6.52485}
+				{VolumeView "platefront.ply"}
+			}
+			{bone "headlightl"
+				{parameters "ID=body;"}
+				{Position 28.3352	7.7095	0.468147}
+				{VolumeView "headlightl.ply"}
+			}
+			{bone "headlightr"
+				{parameters "ID=body;"}
+				{Position 28.3352	-7.70925	0.468145}
+				{VolumeView "headlightr.ply"}
+			}
+			{bone "wiper2"
+				{parameters "ID=Body;"}
+				{Position 7.71895	-5.02658	10.1493}
+				{VolumeView "wiper2.ply"}
+			}
+			{bone "wiper1"
+				{parameters "ID=Body;"}
+				{Position 7.71899	3.11946	10.1493}
+				{VolumeView "wiper1.ply"}
+			}
+			{bone "driver"
+				{Position -1.49629	5.1233	-13.237}
+			}
+			{bone "engine"
+				{parameters "ID=engine;"}
+				{Position 1.95503e-005	0	-7.82013e-005}
+				{VolumeView "engine.ply"}
+			}
+			{bone "commander"
+				{Position -1.49629	-5.24122	-13.237}
+			}
+			{bone "seat02"
+				{Position -15.7139	-5.24122	-13.237}
+			}
+			{bone "seat01"
+				{Position -15.7138	5.1233	-13.237}
+			}
+			{bone "fxsmoke1"
+				{Matrix34
+					-0.735677	0.0490611	0.675554
+					-0.0199651	-0.998511	0.0507734
+					0.677039	0.0238654	0.73556
+					-34.519	3.91696	-11.9485
+				}
+			}
+			{bone "fxsmoke2"
+				{Matrix34
+					-0.735677	0.0490611	0.675554
+					-0.0199651	-0.998511	0.0507734
+					0.677039	0.0238654	0.73556
+					-34.392	3.91696	-12.042
+				}
+			}
+			{bone "fxstop1"
+				{Matrix34
+					-0.735677	0.0490611	0.675554
+					-0.0199651	-0.998511	0.0507734
+					0.677039	0.0238654	0.73556
+					-34.6448	11.6388	-2.24615
+				}
+			}
+			{bone revolute "detail1"
+				{parameters "ID=wheelleft2;"}
+				{Matrix34
+					0	1	0
+					-0.495215	0	-0.86877
+					-0.86877	0	0.495215
+					-32.6554	-0.199483	-0.611593
+				}
+				{VolumeView "wheelleft2.ply"}
+			}
+			{bone "enumerator"
+				{Matrix34
+					0.256978	0.966328	-0.0131381
+					0.623242	-0.205698	0.754492
+					0.768372	-0.480067	-0.42325
+					35.7543	10.2476	-6.5476
+				}
+				{VolumeView "enumerator.ply"}
+			}
+			{bone "enumerator2"
+				{Matrix34
+					-0.256978	-0.966328	-0.0131381
+					-0.623242	0.205698	0.754492
+					-0.768372	0.480067	-0.42325
+					-33.9231	11.3485	-4.92856
+				}
+				{VolumeView "enumerator2.ply"}
+			}
+			{bone "link2"
+				{Matrix34
+					-1	0	0
+					0	-1	0
+					0	0	1
+					-35.2488	-0.0281022	-10.1105
+				}
+			}
+		}
+		{bone "emit2"
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				10.6038	-24.1823	0
+			}
+			{visibility 0}
+		}
+		{bone "emit3"
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				-9.60374	24.8859	0
+			}
+			{visibility 0}
+		}
+		{bone "emit4"
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				-9.65862	-24.2868	3.71487e-005
+			}
+			{visibility 0}
+		}
+		{bone "emit1"
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				10.5637	24.8859	0
+			}
+			{visibility 0}
+		}
+		{bone "pivot_front"
+			{Matrix34
+				0	-1	0
+				0	0	1
+				-1	0	0
+				29.1993	0.357432	6.52824
+			}
+			{bone revolute "steer_l1"
+				{Matrix34
+					0	0	-1
+					1	0	0
+					0	-1	0
+					-12.4316	0	-8.2016e-005
+				}
+				{bone revolute "wheelleft1"
+					{parameters "ID=wheelleft1;"}
+					{Matrix34
+						0.94	0	0
+						0	0	0.94
+						0	-0.94	0
+						0.26203	0.0802155	-0.204052
+					}
+					{VolumeView "wheelleft1.ply"}
+				}
+			}
+			{bone revolute "steer_r1"
+				{Matrix34
+					0	0	-1
+					1	0	0
+					0	-1	0
+					12.314	0	7.62939e-005
+				}
+				{bone revolute "wheelright1"
+					{parameters "ID=wheelright1;"}
+					{Matrix34
+						-0.94	0	0
+						0	0	-0.94
+						0	0.94	0
+						0.262028	0.020731	-0.204052
+					}
+					{VolumeView "wheelright1.ply"}
+				}
+			}
+		}
+		{bone "pivot_back"
+			{Matrix34
+				0	-1	0
+				0	0	1
+				-1	0	0
+				-17.3867	0.372513	6.53619
+			}
+			{bone "spring_l2"
+				{Position -12.4165	-0.00793839	-0.00108719}
+				{bone revolute "wheelleft2"
+					{parameters "ID=wheelleft2;"}
+					{Matrix34
+						0	0	-0.94
+						0	-0.94	0
+						-0.94	-0	0
+						0.0678434	0.204034	-0.119707
+					}
+					{VolumeView "wheelleft2.ply"}
+				}
+			}
+			{bone "spring_r2"
+				{Position 12.3291	-0.00794792	-0.000926971}
+				{bone revolute "wheelright2"
+					{parameters "ID=wheelright2;"}
+					{Matrix34
+						0	0	-0.94
+						0	-0.94	0
+						0.94	0	0
+						0.0207262	0.204032	-0.119713
+					}
+					{VolumeView "wheelright2.ply"}
+				}
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "body"}
+	{Position 0.45852	0.293066	-15.5966}
+}
+{Volume "engine"
+	{Polyhedron "engine.vol"}
+	{Bone "engine"}
+	{Matrix34
+		0	1	0
+		-1	0	0
+		0	0	1
+		18.528	0.00170764	-1.57002
+	}
+}
+{Volume "glass_front"
+	{Polyhedron "glass.vol"}
+	{Bone "body"}
+	{Position 1.35841	0.293027	7.37547}
+}
+{Volume "shield"
+	{Polyhedron "shield.vol"}
+	{Bone "body"}
+	{Position 0.458519	0.293027	7.37547}
+}

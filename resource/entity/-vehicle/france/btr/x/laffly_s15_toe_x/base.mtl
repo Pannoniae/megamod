@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "laffly_btr_x"}
+	{specular "$/model/laffly_btr_sp"}
+	{color "255 255 255 25"}
+	{blend none}
+}

@@ -1,0 +1,97 @@
+{game_entity
+	(include "/properties/cannon_mgun.ext")
+	(include "/properties/shadow/tank.inc" scale(0.3))
+	{Extension "50_browning_m2hb.mdl"}
+	{props "vision_lev00_can" "detect_cannon_aa"}
+	
+	{Volume "body"
+		{tags "body"}
+		{able{obstacle 0}}
+		{thickness 1}
+		{component "body"}
+	}
+
+	{Volume "support1"
+		{tags "body"}
+		{able{obstacle 0}}
+		{thickness 1}
+		{component "body"}
+	}
+	{Volume "support2"
+		{tags "body"}
+		{able{obstacle 0}}
+		{thickness 1}
+		{component "body"}
+	}
+	{Volume "support3"
+		{tags "body"}
+		{able{obstacle 0}}
+		{thickness 1}
+		{component "body"}
+	}
+	
+
+	{boarder
+		{anm "gunner"
+			{forward {end "pose_maxim_gunlaeyr" 10}}
+		}
+		{anm "commander"
+			{forward {end "lie_take_item_end" 10}}
+		}
+		{anm "driver1"
+			{forward {end "mgun_browning_driver_r"}}
+		}
+		{anm "driver2"
+			{forward {end "mgun_browning_driver_l"}}
+		}
+	}
+	{extender "cannon"
+		{animation
+		;// "gunner" "commander"
+			{switch "close"}
+			{move "mgun_browning_driver_r" "mortar_driver_l"}
+			{aim "" ""}
+			{fire  "" ""}
+			{reload  "" "lie_take_small end lie_take_item_end"}
+		}
+		{move {obstacle "close"}}
+		{attack {obstacle "open"}}
+		{rotate_ik_Limit 0}
+	}
+
+	{extender "inventory"
+		{box
+			{size 8 12} 
+			{weight 100}
+			{item "ammo 12x99" 300}
+		}
+	}
+	{Weaponry
+		{place "mgun1"
+			{type "main"}
+			{charger "gunner"}
+			{foresight "foresight4"}
+			{weapon "browning_m2hb" filled}
+			("abm_mgun")
+			{basic}
+		}
+	}
+	{mass 32}
+	{Chassis
+		("mobility_cannon"
+			speed(12) ;----------------------------------Max speed.
+			weight(32) ;---------------------------------Weight in Kilograms.
+		)
+	}
+
+	{bone "basis"
+		{speed2 20}
+	}
+	{bone "gun_rot"
+		{speed2 40}
+	}
+	{bone "turret"
+		{speed2 40}
+	}
+	{Texmod "vert_olive"}
+}

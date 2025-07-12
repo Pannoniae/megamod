@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/7tp/7tp_death"}
+	{bump "$/model/7tp/7tp_bp"}
+	{specular "$/model/7tp/7tp_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

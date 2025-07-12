@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "amr_35_hull"}
+	{bump "$/model/amr35/amr_35_hull_bp"}
+	{specular "$/model/amr35/amr_35_hull_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

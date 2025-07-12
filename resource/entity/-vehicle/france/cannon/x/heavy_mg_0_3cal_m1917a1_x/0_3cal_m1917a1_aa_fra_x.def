@@ -1,0 +1,13 @@
+{game_entity
+	{Extension "30_browning_m1917a1_aa_xx.mdl"}
+	{Volume "body"
+	}
+	{Volume "gun_root"
+	}
+	{Volume "support01"
+	}
+	{Volume "support02"
+	}
+	{Volume "support03"
+	}
+}

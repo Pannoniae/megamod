@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "25mm_pstk34_xx"}
+	{blend none}
+}

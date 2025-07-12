@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "fra_scout"}
+	{specular "$/model/fra_scout_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

@@ -1,0 +1,142 @@
+{game_entity
+	(include "/properties/armoredcar.ext")
+	(include "/properties/shadow/tank.inc" scale(1.0))
+	(include "/properties/selection/vehicle.inc" scale(1.0))
+	{props "tank" "wheeled" "multi_board" "explosion_throw_crew" "turret" "with_gun" "vision_lev02" "muzzle_75mm_76mm" "tractor" "tractor_heavy"}
+	{targetclass "armoredcar"}
+	{targetSelector "tank_light"}
+	{patherId "sdkfz251"}
+
+	{Extension "t12.mdl"}
+	{extension "crew_t12.ext"}
+	
+	{extender "enumerator"
+		{digit_folder "us2"}
+	}
+	
+	{volume "sticky"
+		{tags "grenade_fg_target"}
+		{able clear {contact} {touch}}
+		{component "sticky_body"}
+	}
+	{component "sticky_body"}
+
+	{volume "sticky"
+		{tags "grenade_fg_target"}
+		{able clear {contact} {touch}}
+		{component "sticky_body"}
+	}
+	{component "sticky_body"}
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+		{thickness 10}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+		{thickness 10}
+	}
+	{volume "body3"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}
+	}
+	{volume "body4"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}
+	}
+	{volume "body5"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}
+	}
+	{volume "body6"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}
+	}
+	{volume "roll"
+		{thickness 15}
+	}
+	{volume "body7"
+		{tags "body"}
+		{component "body"}
+		{thickness 15}
+	}
+	{Volume "gun_rot"
+		{tags "gun"}
+		{component "gun"}
+		{thickness 10}
+	}
+	{Volume "gun"
+		{tags "gun"}
+		{component "gun"}
+		{thickness 10}
+	}
+	{Volume "turret"
+		{tags "turret"}
+		{component "turret"}
+		{thickness 10}
+	}
+	{volume "engine"
+		{thickness 10}
+	}
+	{Volume "fuel"
+		{thickness 1}
+	}
+
+	("armoredcar_tier1")
+
+	("wheel" args "wheelright1")
+	("wheel" args "wheelleft1")
+
+	("tracks" repair(30) thickness(15))
+
+	{extender "inventory"
+		{box
+			{item "ammo bullet75_usa ap" 18}
+			{item "ammo bullet75_usa apcbc" 18}
+			{item "ammo bullet75_usa he" 20}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{weapon "75mm_m1897a4" filling "ammo bullet75_usa ap" 1}
+			{RestoreIKAfterAim}
+			{gunner "gunner"}
+			{charger "charger"}
+			("abm_dymamic"
+				zeroing(2.5)
+				dispersion(0.20)
+			)
+		}
+	}
+  	
+	{mass 9100}
+	{Chassis "wheel"
+		("tank_trace_ex" fx("tracks_sm2") step(0.2) len(0.46) boneleft("FXtraceL3") boneright("FXtraceR3"))
+		("car_trace" fx("tracewheel03a") step(0.09) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+
+		("mobility_car"
+			speed(75) ;----------------------------------Max speed.
+			speedatmaxturn(14) ;-------------------------Max speed at max turn.
+			reverse(15) ;---------------------------------Max speed in Reverse.
+			weight(9.1) ;--------------------------------Weight in Tonnes.
+			power(147) ;---------------------------------Horse Power.
+			fuel(227) ;----------------------------------Fuel capacity in Litres.
+			type(fuel) ;---------------------------------Fuel type.
+			range(240) ;---------------------------------Range in Kilometers.
+		)
+	}
+
+	{bone "gun_rot"
+		{speed2 8}
+	}
+	{bone "turret"
+		{speed2 13}
+	}
+
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "rocket_mount"}
+	{bump "$/model/rocket_mount_bp"}
+	{specular "$/model/rocket_mount_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

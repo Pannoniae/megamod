@@ -1,0 +1,138 @@
+;Exported by: Normand
+;Date:        Fri May 15 15:07:38 2020
+;File:        C:\Users\Normand\leHF1840_x.max
+{Skeleton
+	{bone "basis"
+		{parameters "WheelRadius=0.45;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "pivot_front"
+			{Position -0.000866175	0.00771697	11.8523}
+			{VolumeView "pivot_front.ply"}
+			{bone revolute "wheell"
+				{parameters "ID=wheellet;"}
+				{Matrix34
+					-1	0	0
+					0	0	1
+					0	1	0
+					0	15.0502	0
+				}
+				{VolumeView "wheell.ply"}
+			}
+			{bone revolute "wheelr"
+				{parameters "ID=wheelright;"}
+				{Matrix34
+					-1	0	0
+					0	0	1
+					0	1	0
+					0	-15.0736	0
+				}
+				{VolumeView "wheelr.ply"}
+			}
+			{bone "suspension"
+				{parameters "ID=body;"}
+				{Position 4.30105	0	0.563721}
+				{VolumeView "suspension.ply"}
+			}
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{animation
+				{sequence "break" {file "body_b.anm"} {speed 0.3}}
+			}
+			{Position 4.30126	0.00771962	12.4174}
+			{VolumeView "body.ply"}
+			{bone "shield1"
+				{parameters "ID=body;"}
+				{Position 2.26016	1.15111e-005	-1.04659}
+				{VolumeView "shield1.ply"}
+				{bone "shield"
+					{parameters "ID=body;"}
+					{Position 0.542814	0	-2.26116}
+					{VolumeView "shield.ply"}
+				}
+			}
+			{bone "standl"
+				{parameters "ID=body;"}
+				{Matrix34
+					0.987971	0	0.15464
+					0	1	0
+					-0.15464	0	0.987971
+					-5.99496	6.28469	1.60141
+				}
+				{VolumeView "standl.ply"}
+				{bone "standl2"
+					{parameters "ID=body;"}
+					{Matrix34
+						0.958278	-0.282005	0.0466615
+						0.283285	0.958749	-0.0234518
+						-0.0381233	0.0356918	0.998636
+						-51.0575	16.882	0.767582
+					}
+					{VolumeView "standl2.ply"}
+				}
+			}
+			{bone "standr"
+				{parameters "ID=body;"}
+				{Matrix34
+					0.987971	0	0.15464
+					0	1	0
+					-0.15464	0	0.987971
+					-5.99518	-6.30022	1.6014
+				}
+				{VolumeView "standr.ply"}
+				{bone "standr2"
+					{parameters "ID=body;"}
+					{Matrix34
+						0.956782	0.289439	-0.0281674
+						-0.289353	0.957196	0.00715016
+						0.0290312	0.00130922	0.999578
+						-51.064	-16.8696	0.803174
+					}
+					{VolumeView "standr2.ply"}
+				}
+			}
+			{bone revolute "turret"
+				{parameters "ID=turret;"}
+				{animation
+					{sequence "break" {file "turret_b.anm"} {speed 0.3}}
+				}
+				{limits -20 20}
+				{Matrix34
+					0.990092	0	0.140417
+					0	1	0
+					-0.140417	0	0.990092
+					-4.90913	0.0567611	1.49397
+				}
+				{VolumeView "turret.ply"}
+				{bone revolute "gun_rot"
+					{parameters "ID=gun;"}
+					{limits -5 42}
+					{Matrix34
+						0.990092	0	-0.140417
+						0.140417	0	0.990092
+						0	-1	0
+						-3.54166	-0.0567645	9.93762
+					}
+					{VolumeView "gun_rot.ply"}
+					{bone "gun"
+						{parameters "ID=gun;"}
+						{animation
+							{sequence "break" {file "gun_b.anm"} {speed 0.3}}
+						}
+						{Matrix34
+							1	0	0
+							0	0	-1
+							0	1	0
+							-2.32089	-0.106375	0.277998
+						}
+						{VolumeView "gun.ply"}
+					}
+				}
+			}
+		}
+	}
+}

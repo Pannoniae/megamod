@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/model/eng/tog_ii_crash"}
+	{bump "$/model/eng/tog_ii_nm"}
+	{color "255 255 255 127"}
+	{blend none}
+}

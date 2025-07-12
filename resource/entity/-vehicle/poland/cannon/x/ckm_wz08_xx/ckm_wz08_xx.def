@@ -1,0 +1,17 @@
+{game_entity
+	{Extension "7_92mm_maxim_mg08_xx.mdl"}
+	{Volume "body1"
+	}
+	{Volume "body2"
+	}
+	{Volume "body3"
+	}
+	{Volume "mgun1"
+	}
+	{Volume "mgun2"
+	}
+	{Volume "noga1"
+	}
+	{Volume "noga2"
+	}
+}

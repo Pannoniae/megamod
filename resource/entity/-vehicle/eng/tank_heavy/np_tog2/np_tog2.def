@@ -1,0 +1,180 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.3))
+	(include "/properties/selection/vehicle.inc"  scale(1.1))
+	{props "heavy" "vision_lev05" "muzzle_75mm_76mm_sides"}	
+
+	{targetclass "tank_heavy"}
+	{targetSelector "tank_medium"}
+	{PatherId "kv1"}
+	{collider "tank.heavy"}
+
+	("tank_heavy_tier2")
+
+	("tracks" repair(30) thickness(30))
+	("gun" repair(30) thickness(30))
+	
+	{extender "enumerator"
+		{digit_folder "small"}
+	}
+
+	{Volume "body"
+		{tags "body"}
+		{component "body"}
+		{thickness 76
+			{front 114}		
+			{top 20}		
+			{rear 53}
+			{bottom 20}
+		}
+	}
+	{volume "engine"
+		{tags "engine"}
+		{component "engine"}
+		{thickness 76
+			{front 40}		
+			{top 20}		
+			{rear 53}
+			{bottom 20}
+		}
+	}
+	{volume "turret"
+		{thickness 76
+			{front 114}
+			{rear 53}
+			{top 20}		
+			{bottom 20}
+		}
+	}
+	("ammo" args "ammo1")
+	
+	{sensor
+		{visor "hullmg"
+			{bone "foresight4"}
+			{vision "tank_driver"}
+		}
+	}
+	("crew_5_human")
+
+
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_tank_right"} {end "pose_mgun_pz6"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_left"} {end "pose_mgun_pz6"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_lowArmor"} 	{end "pose_seat_armor_2"}}
+			{reverse 	{end	"emit_tank_2"}}
+		}
+		{anm "armor1"
+			{forward	{begin	"board_lowArmor"} {end "pose_seat_armor_2"}}
+			{reverse 	{end	"emit_body"}}
+		}
+		{anm "armor2"
+			{forward	{begin	"board_lowArmor"} {end "pose_seat_armor_1"}}
+			{reverse 	{end	"emit_body"}}
+		}
+	}
+
+
+	("crew_human_visible" 	place(gunner2)	door1(emit1) door2(emit2) door2(emit2) visor(main))
+	(define "passenger_invisible"
+		{placer
+			{place "%place"}
+		}
+		{boarder
+			{door "%door1"}
+			{door "%door2"}
+			{link "%door1" "%place" {anm "%anm_left"} {forward putoff} {reverse puton}}
+			{link "%door2" "%place" {anm "%anm_right"} {forward putoff} {reverse puton}}
+		}
+	)
+	("passenger_invisible" place(seat1) door1(emit1) door2(emit2) animation(passenger))
+	("passenger_invisible" place(seat2) door1(emit1)	animation(passenger))
+	("passenger_invisible" place(seat3) door1(emit1) door2(emit2) animation(passenger))
+	("passenger_invisible" place(seat4) door1(emit1) door2(emit2) animation(passenger))
+	("passenger_invisible" place(seat5) door1(emit1) door2(emit2) animation(passenger))
+	("passenger_invisible" place(seat6) door1(emit1) door2(emit2) animation(passenger))
+	("passenger_invisible" place(seat7) door1(emit1) door2(emit2) animation(passenger))
+	("passenger_invisible" place(seat8) door1(emit1) door2(emit2) animation(passenger))
+	("passenger_invisible" place(seat9) door1(emit1) door2(emit2) animation(passenger))
+	("passenger_invisible" place(seat10) door1(emit1) door2(emit2) animation(passenger))
+	("passenger_invisible" place(seat11) door1(emit1) door2(emit2) animation(passenger))
+	("passenger_invisible" place(seat12) door1(emit1)	animation(passenger))
+	("passenger_invisible" place(seat13) door1(emit1) door2(emit2) animation(passenger))
+	("passenger_invisible" place(seat14) door1(emit1) door2(emit2) animation(passenger))
+	("passenger_invisible" place(seat15) door1(emit1) door2(emit2) animation(passenger))
+	("passenger_invisible" place(seat16) door1(emit1) door2(emit2) animation(passenger))
+	("passenger_invisible" place(seat17) door1(emit1) door2(emit2) animation(passenger))
+	("passenger_invisible" place(seat18) door1(emit1) door2(emit2) animation(passenger))
+	("passenger_invisible" place(seat19) door1(emit1) door2(emit2) animation(passenger))
+	("passenger_invisible" place(seat20) door1(emit1) door2(emit2) animation(passenger))
+
+
+	{extender "inventory"
+		{box
+			{item "dynamite"}
+			{item "ammo 7x57b" 2475}
+			{item "ammo bulleteng_76 apcbc" 45}
+            {item "ammo bulleteng_76 apds" 5}
+			{item "ammo bulleteng_76 he" 32}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "76mm_qf17_mk4_vet" filling "ammo bulleteng_76 apcbc" 1}
+			("abm_dymamic_stabilised"
+				zeroing(3.0)
+				dispersion(0.20)
+			)
+		}
+		{place "mgun1"
+			{type "hull"}
+			{weapon "besa_mg" filled}
+			{foresight "foresight4"}
+			{gunner "gunner3"}
+			{charger "gunner3"}
+			("abm_mgun")
+			{basic}
+		}
+		{place "mgun2"
+			{type "coaxial"}
+			{weapon "besa_mg" filled}
+			{foresight "foresight5"}
+			{gunner "gunner"}
+			{charger "charger"}
+			("abm_mgun")
+			{basic}
+		}
+	}
+	{mass 81300}
+	{Chassis
+		("tank_trace" fx("tracks_big") step(0.4) len(2))
+		("mobility_tank"
+			speed(14) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(4) ;---------Max speed in reverse on road, km/h.
+			traverse(30) ;-------Track traverse, per second, in degrees.
+			weight(81.3) ;-------Weight in Tonnes.
+			power(600) ;---------Engine Power, in hp. //engine under normal use was rated 265hp at 2600 rpm
+			track(4.5) ;---------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(640) ;----------Fuel capacity in Litres.
+			type(fuel) ;---------Fuel type. (diesel OR fuel)
+			range(80) ;---------Range in km, off-road.
+		)
+	}
+	{Extension "tog2.mdl"}
+	{bone "turret"
+		{speed2 8}
+	}
+
+	{bone "gun_rot"
+		{speed2 5}
+	}
+}
+

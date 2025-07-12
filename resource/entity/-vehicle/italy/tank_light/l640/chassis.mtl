@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "chassis_l6"}
+	{bump "$/model/l640/chassis_l6_bp"}
+	{specular "$/model/l640/chassis_l6_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

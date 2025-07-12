@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "fcm36_20t_hull_01_am"}
+	{bump "$/model/fcm36/fcm36_20t_hull_01_ANM"}
+	{specular "$/model/fcm36/fcm36_20t_hull_01_AO"}
+	{color "229 229 229 25"}
+	{blend none}
+}

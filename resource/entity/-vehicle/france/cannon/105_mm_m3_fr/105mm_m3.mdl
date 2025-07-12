@@ -1,0 +1,330 @@
+;Exported by: Normand
+;Date:        Sat Feb 18 10:53:02 2023
+;File:        C:\Users\Normand\Documents\3dsmax\scenes\m3_105.max
+{Skeleton
+	{animation
+		{sequence "close" {speed 0.2}}
+		{sequence "recoil" {speed 0.4}}
+	}
+	{bone revolute "basis"
+		{speed 0.002}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "visor2"
+			{Matrix34
+				1	0	-0.000130117
+				0.000130117	0	1
+				0	-1	0
+				-6.74968	-0.0555966	21.6535
+			}
+		}
+		{bone "emit3"
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				-43.4062	14.3477	0
+			}
+		}
+		{bone "emit4"
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				-43.4062	-14.8575	0
+			}
+		}
+		{bone "driver3"
+			{Position -47.1675	-7.72528	0}
+		}
+		{bone "driver4"
+			{Position -46.5319	7.62002	0}
+		}
+		{bone "commander"
+			{Position -2.87846	-27.1642	0}
+		}
+		{bone "charger2"
+			{Matrix34
+				0.697104	-0.71697	0
+				0.71697	0.697104	0
+				0	0	1
+				-44.0842	9.88755	0
+			}
+		}
+		{bone "emit2"
+			{Position -27.2561	-23.9422	0.231033}
+			{visibility 0}
+		}
+		{bone "emit1"
+			{Position -26.1516	21.6316	0.231033}
+			{visibility 0}
+		}
+		{bone "driver1"
+			{Position -19.7389	14.4852	0.231033}
+		}
+		{bone "driver2"
+			{Position -19.5022	-15.1035	0.231033}
+		}
+		{bone "link1"
+			{Matrix34
+				-1	0	0
+				0	0	1
+				0	1	0
+				-59.1643	-0.0362157	10.737
+			}
+		}
+		{bone "seat1"
+			{Matrix34
+				0.600489	0.79943	-0.0180304
+				-0.799621	0.60045	-0.00814121
+				0.004318	0.0193062	0.999804
+				-39.8063	3.85801	0.315759
+			}
+		}
+		{bone "seat2"
+			{Matrix34
+				0.204541	-0.975	-0.0868241
+				0.978531	0.205958	-0.00759608
+				0.0252883	-0.0834064	0.996195
+				-46.0941	-4.09372	0.399644
+			}
+		}
+		{bone "charger"
+			{Position -32.1087	-15.4728	0.242261}
+		}
+		{bone "gunner"
+			{Position -29.0778	10.1465	0.242261}
+		}
+		{bone "pivot_front"
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				-0.0178413	-0.0484918	8.00987
+			}
+			{bone revolute "wheelleft"
+				{parameters "ID=wheelleft;Support=1;Radius=0.45;"}
+				{Matrix34
+					-1	0	0
+					0	1	0
+					0	0	-1
+					0.0136633	-0.00137997	-15.1743
+				}
+				{VolumeView "wheelleft.ply"}
+			}
+			{bone revolute "wheelright"
+				{parameters "ID=wheelright;Support=1;Radius=0.45;"}
+				{Matrix34
+					-1	0	0
+					0	1	0
+					0	0	-1
+					0.00166035	-0.00138092	15.1296
+				}
+				{VolumeView "wheelright.ply"}
+			}
+			{bone "fxtracer1"
+				{Matrix34
+					1	0	0
+					0	0	-1
+					0	1	0
+					-0.0364089	-8.01915	14.909
+				}
+			}
+			{bone "fxtracel1"
+				{Matrix34
+					1	0	0
+					0	0	-1
+					0	1	0
+					0.0103564	-8.01915	-14.955
+				}
+			}
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{animation
+				{sequence "repair" {file "body_r.anm"} {speed 0.4}}
+			}
+			{Position -0.0152378	-0.0569229	7.99843}
+			{VolumeView "body.ply"}
+			{bone revolute "turret"
+				{parameters "ID=turret;"}
+				{animation
+					{sequence "repair" {file "turret_r.anm"} {speed 0.4}}
+				}
+				{Position -1.46029	3.3062e-005	0.985855}
+				{VolumeView "turret.ply"}
+				{bone revolute "gun_rot"
+					{parameters "ID=gun;"}
+					{limits -3 40}
+					{Matrix34
+						1	0	0
+						0	0	1
+						0	-1	0
+						-9.90054	0.00145439	4.54095
+					}
+					{VolumeView "gun_rot.ply"}
+					{bone "gun"
+						{parameters "ID=gun;"}
+						{animation
+							{sequence "repair" {file "gun_r.anm"} {speed 0.4}}
+						}
+						{Matrix34
+							0.979601	0.200951	0
+							0	0	-1
+							-0.200951	0.979601	0
+							11.2122	5.61743	-0.0118332
+						}
+						{VolumeView "gun.ply"}
+						{bone "foresight1"
+							{Matrix34
+								1	0	0
+								0	0	1
+								0	-1	0
+								20.4528	-0.01217	0.142302
+							}
+						}
+						{bone "visor"
+							{Matrix34
+								1	0	0
+								0	0	1
+								0	-1	0
+								4.16527	-0.00489051	2.83727
+							}
+						}
+						{bone "fx_invers"
+							{Matrix34
+								-1	0	0
+								0	-1	0
+								0	0	1
+								-16.8846	0.0105774	0.220821
+							}
+						}
+					}
+				}
+				{bone "aim_sup"
+					{parameters "ID=turret;"}
+					{VolumeView "aim_sup.ply"}
+				}
+			}
+			{bone "standl"
+				{parameters "ID=body;"}
+				{Matrix34
+					0.995205	0.00203519	0.0977858
+					0.00203522	0.999136	-0.0415074
+					-0.0977858	0.0415075	0.994342
+					-1.9842	7.90696	-0.363515
+				}
+				{VolumeView "standl.ply"}
+			}
+			{bone "standr"
+				{parameters "ID=body;"}
+				{Matrix34
+					0.995205	-0.00203504	0.0977858
+					-0.00203554	0.999136	0.0415076
+					-0.0977859	-0.0415077	0.994341
+					-1.98443	-7.86805	-0.363529
+				}
+				{VolumeView "standr.ply"}
+			}
+			{bone "gunrot_sup"
+				{parameters "ID=body;"}
+				{Matrix34
+					-0.866025	0	-0.5
+					0	1	0
+					0.5	0	-0.866025
+					4.22095	3.31439e-005	-0.89425
+				}
+				{VolumeView "gunrot_sup.ply"}
+			}
+		}
+		{bone "seat3"
+			{Matrix34
+				0.600489	0.79943	-0.0180304
+				-0.799621	0.60045	-0.00814121
+				0.004318	0.0193062	0.999804
+				-24.1204	5.78149	0.315759
+			}
+		}
+		{bone "seat4"
+			{Matrix34
+				0.204541	-0.975	-0.0868241
+				0.978531	0.205958	-0.00759608
+				0.0252883	-0.0834064	0.996195
+				-27.1907	-6.01284	0.399644
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 7.1972 21.295 4}
+	{Bone "body"}
+	{Position -0.713835	-0.0765895	0.0241516}
+}
+{Volume "gun2"
+	{Box 29.386 6.27862 3.5}
+	{Bone "gun_rot"}
+	{Matrix34
+		0.979575	0.201078	0
+		0	0	-1
+		-0.201078	0.979575	0
+		12.5386	2.1982	-0.0351508
+	}
+}
+{Volume "gun"
+	{Cylinder 2.5 40}
+	{Bone "gun"}
+	{Matrix34
+		0	-1	0
+		0	0	1
+		-1	0	0
+		0.280519	-0.00994321	0.254185
+	}
+}
+{Volume "standl"
+	{Box 55 2.5 3.5}
+	{Bone "standl"}
+	{Matrix34
+		0.956162	-0.292839	0
+		0.292839	0.956162	0
+		0	0	1
+		-27.0926	8.40643	0.610452
+	}
+}
+{Volume "standr"
+	{Box 55 2.5 3.5}
+	{Bone "standr"}
+	{Matrix34
+		0.95616	0.292847	0
+		-0.292847	0.956159	0
+		0	0	1
+		-27.1992	-8.15913	0.610446
+	}
+}
+{Volume "turret"
+	{Box 13.1521 10.9593 2.5}
+	{Bone "turret"}
+	{Position -4.41745	0.198362	-0.41935}
+}
+{Volume "wheelleft"
+	{Cylinder 8.49013 4.8}
+	{Bone "wheelleft"}
+	{Matrix34
+		-1	0	0
+		0	1	0
+		0	0	-1
+		-0.0085617	-0.00275366	-0.21458
+	}
+}
+{Volume "wheelright"
+	{Cylinder 8.49013 4.8}
+	{Bone "wheelright"}
+	{Matrix34
+		-1	0	0
+		0	1	0
+		0	0	-1
+		-0.0205629	-0.00425779	0.199864
+	}
+}

@@ -1,0 +1,31 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{extension "hansa_lloyd_xx.mdl"}
+
+	{volume "part1"		; wheel front left
+		{thickness 0.5}
+	}
+	{volume "part2"		; wheel front right
+		{thickness 0.5}
+	}
+
+	{volume "part4"		; track wheel left
+		{thickness 15}
+	}
+	{volume "part5"		; track wheel right 1
+		{thickness 15}
+	}
+	{volume "part6"		; track wheel right 2
+		{thickness 15}
+	}
+
+	{volume "body"		; Lower Hull
+		{thickness 3}
+	}
+
+	{volume "engine"		; Upper Hull
+		{thickness 3}
+	}
+		
+	("tracks" thickness(15))
+}

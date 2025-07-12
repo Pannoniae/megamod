@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/model/pz6p_Panzerbefehiswagen/pz6p_Panzerbefehiswagen_turret_xx"}
+	{bump "$/model/pz6p_Panzerbefehiswagen/pz6p_Panzerbefehiswagen_turret_nm"}
+	{blend none}
+}

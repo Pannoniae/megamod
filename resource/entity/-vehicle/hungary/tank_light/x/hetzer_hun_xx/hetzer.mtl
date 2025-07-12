@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "hetzer"}
+	{blend none}
+}

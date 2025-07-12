@@ -1,0 +1,194 @@
+{game_entity
+	(include "/properties/tank_assaultgun.ext")
+	(include "/properties/shadow/tank.inc" scale(1.3))
+	(include "/properties/selection/vehicle.inc" scale(1.2))
+	{props "medium" "-turret" "mantlet" "vision_lev04" "muzzle_75mm_76mm_sides" "diesel" "shell_eject" "shield" "open_top" "detect_td_medium"}
+	{targetclass "tank_medium"}
+	{targetSelector "tank_medium"}
+
+	{extender "enumerator"
+		{digit_folder "small"}
+	}
+
+	("tank_medium_tier2")
+
+	("tracks" repair(30) thickness(30))
+	("gun" repair(30) thickness(30))
+
+	{volume "body1"
+		{component "body"}
+		{tags "body"}
+		{thickness 30}
+	}
+	{volume "body2"
+		{component "body"}
+		{tags "body"}
+		{thickness 30}
+	}
+	{volume "body3"
+		{component "body"}
+		{tags "body"}
+		{thickness 30}
+	}
+	{volume "body4"
+		{component "body"}
+		{tags "body"}
+		{thickness 30}
+	}
+	{volume "body5"
+		{component "body"}
+		{tags "body"}
+		{thickness 30}
+	}
+	{volume "body6"
+		{component "body"}
+		{tags "body"}
+		{thickness 30}
+	}
+	{volume "body7"
+		{component "body"}
+		{tags "body"}
+		{thickness 30}
+	}
+
+	{volume "inventory"
+        {thickness 2}
+	}
+	{Volume "mantlet"
+		{tags "turret"}
+		{component "turret"}
+		{thickness 30}
+	}
+
+	{volume "engine"		
+		{thickness 25
+			{front 40}
+			{top 19}
+			{rear 25}
+			{bottom 19}		
+		}
+	}
+	("ammo" args "ammo1")
+
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_tank_left"} {end "seat_driver_car"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "charger"
+			{forward	{begin	"board_hummel"} {end "pose_pak40_gunlayer"} {base "open_back_door"}}
+			{reverse 	{end	"emit_body" 1} {base "open_back_door" -1}}
+		}
+		{anm "gunner"
+			{forward	{begin	"board_hummel"} {end "pose_pak40_charger"} {base "open_back_door"}}
+			{reverse 	{end	"emit_body" 1} {base "open_back_door" -1}}
+		}
+		{anm "commander"
+			{forward	{begin	"board_hummel"} {end "pose_seat_armor_2"} {base "open_back_door"}}
+			{reverse 	{end	"emit_body" 1} {base "open_back_door" -1}}
+		}
+	}
+	
+	{sensor
+		{visor "mgun2"
+			{vision "human"}
+			{bone "mgun2"}
+		}
+		{visor "around"
+			{vision "vehicle_around"}		;// better vision than a in-closed turret 
+		}
+	}
+
+	(define "crew_human"
+		{placer
+			{place "%place" {group "crew"} {linkbone "%place"} {turnoff {sensor} {shadow}}}
+		}
+		{boarder
+			{door "%door1"}
+			{door "%door2"}
+			{link "%door1" "%place" {anm "%place"} {forward putoff} {reverse puton}}
+			{link "%door2" "%place" {anm "%place"} {forward putoff} {reverse puton}}
+		}
+	)
+
+	{placer
+		{place "driver" {group "crew"} {visor "driver"}}
+	}
+	{placer
+		{place "gunner" {visor "main"}}
+	}
+	{boarder
+		{door "emit0"}
+		{door "emit1"}
+		{link "emit0" "driver" {anm "driver"} {forward putoff} {reverse puton}}
+	}
+
+	("crew_human" place(commander)	door2(emit2))
+	("crew_human" place(driver)	door1(emit1))
+	("crew_human" place(charger)	door2(emit2))
+	("crew_human" place(gunner)	door1(emit1))
+
+	{sensor
+		{visor "main"
+			{vision "tank_main-h"}
+			{bone "visor2"}
+		}
+		{visor "driver"
+			{vision "tank_driver"}
+			{bone "visor1"}
+		}
+        {visor "view-around"
+            {vision "none"}
+            {bone "basis"}
+        }
+	}
+
+	{extender "inventory"
+		{box
+			{item "dynamite"}
+			{item "ammo bulleteng_76 apcbc" 24}
+            {item "ammo bulleteng_76 he" 7}
+            {item "ammo bulleteng_76 apds" 7}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "76mm_qf17" filling "ammo bulleteng_76 apcbc" 1}	
+			{gunner "gunner"}
+			{charger "charger"}
+			("abm_dymamic_td"
+				zeroing(2.5)
+				dispersion(0.25)
+			)
+		}
+	}
+	
+	{mass 17300}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.52) len(0.7))
+		("mobility_tank"
+			speed(25) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(3);---------Max speed in reverse on road, km/h. ;//6.9 historical + 2 due to terrain modifier
+			traverse(30) ;-------Track traverse, per second, in degrees.
+			weight(17.3) ;-------Weight in Tonnes.
+			power(135) ;---------Engine Power, in hp.
+			track(3.5) ;---------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(164) ;----------Fuel capacity in Litres.
+			type(diesel) ;-------Fuel type. (diesel OR fuel)
+			range(177) ;---------Range in km, off-road.
+		)
+	}
+	{Extension "archer.mdl"}
+
+	{bone "gun_rot"
+		{limits -7 15}
+		{speed2 8}
+	}
+	{bone "mantlet"
+		{limits -22 22}
+		{speed2 8}
+	}
+}
+

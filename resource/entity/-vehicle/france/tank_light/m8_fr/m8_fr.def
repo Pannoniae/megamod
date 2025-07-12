@@ -1,0 +1,185 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/shadow/tank.inc" scale(1.0))
+	(include "/properties/selection/vehicle.inc" scale(0.9))
+	{props "light" "vision_lev04" "muzzle_75mm_76mm" "detect_tank_light"}
+
+	{collider "tank.light"}
+	{targetclass "tank_light"}
+	{targetSelector "tank_light"}
+	{extender "enumerator"
+		{digit_folder "small"}
+	}
+	("tank_light_tier1")
+	
+	("tracks" repair(30) thickness(15))
+	
+	{volume "body"
+		{tags "body"}
+		{component "body"}
+		{thickness 25
+			{front 38}
+			{top 13}
+			{bottom 13}
+		}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+		{thickness 25
+			{front 44}
+			{top 13}
+			{bottom 13}
+		}
+	}
+	{volume "body3"
+		{tags "body"}
+		{component "body"}
+		{thickness 25
+			{front 38}
+			{top 13}
+			{bottom 13}
+		}
+	}
+	{volume "body4"
+		{tags "body"}
+		{component "body"}
+		{thickness 25
+			{front 38}
+			{top 13}
+			{bottom 13}
+		}
+	}
+	{volume "turret"		
+		{thickness 25
+			{front 38}
+			{top 13}
+			{bottom 13}
+		}
+		{HighHardness}
+	}
+	{Volume "mantlet"
+		{thickness 38}
+		{component "gun"}
+		{tags  "gun"}
+	}
+	{volume "sticky"
+		{tags "grenade_fg_target"}
+		{able clear {contact} {touch}}
+		{component "sticky_body"}
+	}
+	{component "sticky_body"}
+	{volume "turret"
+		{thickness 38}
+		{component "turret"}
+		{tags "turret"}
+	}
+	{volume "turret2"
+		{thickness 38}
+		{component "turret"}
+		{tags "turret"}
+	}
+	{volume "turret3"
+		{thickness 38}	
+		{component "turret"}
+		{tags "turret"}
+	}
+	{volume "engine"
+		{thickness 25
+			{front 10}
+			{top 13}
+			{bottom 13}
+		}
+	}
+	("ammo" args "ammo1")
+	("ammo" args "ammo2")	
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_tank_left"} {end "seat_driver_car"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_right"} {end "seat_m7_mgunner"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_LowArmor"} 	{end "seat_armor"}}
+			{reverse 	{end	"emit_tank_1"}}
+		}
+	}
+	("crew_human"		place(driver) door1(emit1) door2(emit2) visor(driver))
+	("crew_human_visible"	place(gunner) door1(emit1) door2(emit2) visor(main))
+	("crew_human_visible"	place(charger) door1(emit1) door2(emit2) visor(main))
+	("crew_human_visible"	place(gunner2) door1(emit1) door2(emit2) visor(main))
+
+	{placer 
+		{place "charger" {openForCrush 0}}
+		{place "gunner" {openForCrush 0}}
+	}
+	
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor))
+	
+	{extender "inventory"
+		{weapon "mgun" {mask "mountable"}}
+		{box
+			{item "dynamite"}
+			{item "ammo bullet75_usa he" 40}
+			{item "ammo bullet75_usa heat" 5}
+			{item "browning" filled {user "mgun"}}
+			{item "ammo 12x99" 500}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "75mm_m2" filling "ammo bullet75_usa he" 1}
+			("abm_dymamic"
+				zeroing(2.0)
+				dispersion(0.15)
+			)
+		}
+		{place "mgun"
+			{type "aa"}
+			{gunner "gunner2"}
+			{charger "gunner2"}
+			{LinkBone "mgun"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+            		{basic}
+			{ai_in_manual}
+		}
+	}
+	{mass 15700}
+	{Chassis
+		("tank_trace" fx("tracks_sm2") step(0.15) len(-0.45))
+		("mobility_tank"
+			speed(56) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(11) ;--------Max speed in reverse on road, km/h.
+			traverse(32) ;-------Track traverse, per second, in degrees.
+			weight(15.7) ;--------Weight in Tonnes.
+			power(220) ;---------Engine Power, in hp.
+			track(3.5) ;---------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(480) ;----------Fuel capacity in Litres.
+			type(diesel) ;---------Fuel type. (diesel OR fuel)
+			range(160) ;---------Range in km, off-road.
+		)
+	}
+
+	
+	{Extension "m8_scoutt.mdl"}
+	{bone "turret"
+		{speed2 9}
+	}
+	{bone "mgun"
+		{speed2 10}
+                {limits -8 25}
+	}
+       	{bone "mgun_turret"
+		{limits -30 30}
+		{speed2 10}
+		{terminator}
+	}
+
+}

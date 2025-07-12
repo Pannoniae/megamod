@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "mc200_seria3"}
+	{bump "mc200_seria3_bp"}
+	{specular "mc200_seria3_sp"}
+	{color "229 229 229 76"}
+	{blend none}
+}

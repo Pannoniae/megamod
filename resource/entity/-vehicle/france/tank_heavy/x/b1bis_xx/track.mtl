@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/model/B1_track_xx"}
+	{specular "$/model/B1_track_Metalness"}
+	{color "229 229 229 25"}
+	{blend test}
+}

@@ -1,0 +1,4 @@
+{material envmap
+	{diffuse "fiat626_glass"}
+	{blend blend}
+}

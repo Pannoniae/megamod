@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "cabin2"}
+	{blend none}
+}

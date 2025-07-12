@@ -1,0 +1,111 @@
+;Exported by: Normand
+;Date:        Sun Aug 07 17:49:20 2022
+;File:        C:\Users\Normand\type92_x.max
+{Skeleton
+	{bone revolute "basis"
+		{parameters "wheelradius=0.40;"}
+		{speed 0.01}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{animation
+				{sequence "break" {file "body_b.anm"} {speed 0.5}}
+			}
+			{Position 0.0192861	-0.0565453	6.81422}
+			{VolumeView "body.ply"}
+			{bone "standl"
+				{parameters "ID=body;"}
+				{Position -0.471416	3.37484	2.93804}
+				{VolumeView "standl.ply"}
+			}
+			{bone "standr"
+				{parameters "ID=body;"}
+				{Position -0.471416	-3.37484	2.93804}
+				{VolumeView "standr.ply"}
+			}
+			{bone "gear"
+				{parameters "ID=body;"}
+				{Position -1.31699	-0.098696	11.8748}
+				{VolumeView "gear.ply"}
+				{bone "main_shield"
+					{parameters "ID=body;"}
+					{Position -8.54482	0.0986962	-17.5977}
+					{VolumeView "main_shield.ply"}
+				}
+				{bone "secondary_shield"
+					{parameters "ID=body;"}
+					{Position -0.269328	0.256118	0.446602}
+					{VolumeView "secondary_shield.ply"}
+				}
+				{bone revolute "gun_rot"
+					{parameters "ID=gun;"}
+					{limits -10 60}
+					{Matrix34
+						1	0	0
+						0	0	1
+						0	-1	0
+						-0.958218	0.0986962	-7.01768
+					}
+					{VolumeView "gun_rot.ply"}
+					{bone "gun"
+						{parameters "ID=gun;"}
+						{animation
+							{sequence "break" {file "gun_b.anm"} {speed 0.5}}
+						}
+						{Matrix34
+							1	0	0
+							0	0	-1
+							0	1	0
+							-1.59896	2.31757	0.198593
+						}
+						{VolumeView "gun.ply"}
+						{bone "gun_cover"
+							{Position -2.99946	0	-2.14158}
+							{VolumeView "gun_cover.ply"}
+						}
+					}
+					{bone "device_top"
+						{parameters "ID=body;"}
+						{Matrix34
+							0.992736	-0.120313	0
+							0	0	-1
+							0.120313	0.992736	0
+							-1.301	5.76939	1.62391
+						}
+						{VolumeView "device_top.ply"}
+					}
+				}
+			}
+			{bone "device_left"
+				{parameters "ID=body;"}
+				{Position -2.35287	3.83033	7.42372}
+				{VolumeView "device_left.ply"}
+			}
+		}
+		{bone "pivot_front"
+			{Position 0.035898	-0.0544357	6.78961}
+			{bone revolute "wheelleft"
+				{Matrix34
+					-1	0	0
+					0	0	1
+					0	1	0
+					-0.0175245	7.30052	0.0229406
+				}
+				{VolumeView "wheelleft.ply"}
+			}
+			{bone revolute "wheelright"
+				{Matrix34
+					-1	0	0
+					0	0	1
+					0	1	0
+					-0.0175245	-7.30474	0.0229406
+				}
+				{VolumeView "wheelright.ply"}
+			}
+		}
+	}
+}

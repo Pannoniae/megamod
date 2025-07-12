@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "pz8_gun_am"}
+	{bump "pz8_gun_nm"}
+	{specular "pz8_gun_gmm"}
+	{color "229 229 229 25"}
+	{blend none}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "5cm_38m"}
+	{bump "$/model/pak38_bp"}
+	{specular "$/model/pak38_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

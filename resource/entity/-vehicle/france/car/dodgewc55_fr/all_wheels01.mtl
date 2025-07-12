@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/gaz67_wheels01"}
+	{blend test}
+}

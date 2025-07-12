@@ -1,0 +1,91 @@
+{game_entity
+	(include "/properties/cannon_mgun.ext")
+	(include "/properties/shadow/tank.inc" scale(0.3))
+	{Extension "7_92mm_ckm_wz30aa.mdl"}
+	{props "vision_lev00_can" "detect_cannon_aa"}
+
+	{Volume "body_01"
+		{tags "body"}
+		{component "body"}
+	}
+	{Volume "body_02"
+		{tags "body"}
+		{component "body"}
+	}
+	{Volume "body_03"
+		{tags "body"}
+		{component "body"}
+	}
+	{Volume "body_04"
+		{tags "body"}
+		{component "body"}
+	}
+	{Volume "body"
+		{tags "body"}
+		{able{obstacle 0}}
+		{thickness 1}
+		{component "body"}
+	}
+	
+	{boarder
+		{anm "gunner"
+			{forward {end "pose_dshk_aa_gunner"}}
+		}
+		{anm "commander"
+			{forward {end "pose_dshk_aa_commander"}}
+		}
+		{anm "driver1"
+			{forward {end "mgun_browning_driver_r"}}
+		}
+		{anm "driver2"
+			{forward {end "mgun_browning_driver_l"}}
+		}
+	}
+
+	{extender "cannon"
+		{animation
+		;// "gunner" "commander"
+			{switch "close"}
+			{move "mgun_browning_driver_r" "mortar_driver_l"}
+			{aim "" "mg_dshk_aa_commander_aim"}
+		}
+	}
+
+	{extender "inventory"
+		{weapon "mgun" {mask "mountable"}}
+		{box
+			{clear}
+			{Size 8 12}
+			{weight 100}
+			{item "browning_wz30" filled {user "mgun"}} 
+			{item "ammo 7x57b" 500}
+		}
+	}
+	{Weaponry
+		{place "mgun"
+			{type "main"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{LinkBone "mgun"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+			{Rotate}
+		}
+	}	
+	{mass 32}
+	{Chassis
+		("mobility_cannon"
+			speed(12) ;----------------------------------Max speed.
+			weight(32) ;---------------------------------Weight in Kilograms.
+		)
+	}
+
+	{bone "gun_root"
+		{limits -10 15}
+		{speed2 40}
+	}
+	{bone "turret"
+		{limits -13 13}
+		{speed2 40}
+	}
+}

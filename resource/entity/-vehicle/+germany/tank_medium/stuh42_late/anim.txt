@@ -1,0 +1,98 @@
+-= Animation: fire, Node gun =-
+	Frame 200 {
+		Visibility 1
+		Position	54.2972	-1.49255	29.3098
+		Orientation	0 0 0 1
+	}
+	Frame 201 {
+		Position	46.8084	-1.49255	29.3098
+	}
+	Frame 202 {
+		Position	46.8345	-1.49255	29.3098
+	}
+	Frame 203 {
+		Position	46.9104	-1.49255	29.3098
+	}
+	Frame 204 {
+		Position	47.0323	-1.49255	29.3098
+	}
+	Frame 205 {
+		Position	47.1965	-1.49255	29.3098
+	}
+	Frame 206 {
+		Position	47.3995	-1.49255	29.3098
+	}
+	Frame 207 {
+		Position	47.6375	-1.49255	29.3098
+	}
+	Frame 208 {
+		Position	47.9068	-1.49255	29.3098
+	}
+	Frame 209 {
+		Position	48.2037	-1.49255	29.3098
+	}
+	Frame 210 {
+		Position	48.5246	-1.49255	29.3098
+	}
+	Frame 211 {
+		Position	48.8657	-1.49255	29.3098
+	}
+	Frame 212 {
+		Position	49.2234	-1.49255	29.3098
+	}
+	Frame 213 {
+		Position	49.594	-1.49255	29.3098
+	}
+	Frame 214 {
+		Position	49.9739	-1.49255	29.3098
+	}
+	Frame 215 {
+		Position	50.3592	-1.49255	29.3098
+	}
+	Frame 216 {
+		Position	50.7464	-1.49255	29.3098
+	}
+	Frame 217 {
+		Position	51.1318	-1.49255	29.3098
+	}
+	Frame 218 {
+		Position	51.5116	-1.49255	29.3098
+	}
+	Frame 219 {
+		Position	51.8822	-1.49255	29.3098
+	}
+	Frame 220 {
+		Position	52.2399	-1.49255	29.3098
+	}
+	Frame 221 {
+		Position	52.5811	-1.49255	29.3098
+	}
+	Frame 222 {
+		Position	52.902	-1.49255	29.3098
+	}
+	Frame 223 {
+		Position	53.1989	-1.49255	29.3098
+	}
+	Frame 224 {
+		Position	53.4682	-1.49255	29.3098
+	}
+	Frame 225 {
+		Position	53.7061	-1.49255	29.3098
+	}
+	Frame 226 {
+		Position	53.9091	-1.49255	29.3098
+	}
+	Frame 227 {
+		Position	54.0734	-1.49255	29.3098
+	}
+	Frame 228 {
+		Position	54.1953	-1.49255	29.3098
+	}
+	Frame 229 {
+		Position	54.2711	-1.49255	29.3098
+	}
+	Frame 230 {
+		Visibility 1
+		Position	54.2972	-1.49255	29.3098
+		Orientation	0 0 0 1
+	}

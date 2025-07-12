@@ -1,0 +1,111 @@
+{game_entity
+	(include "/properties/cannon.ext")
+	(include "/properties/shadow/tank.inc" scale(0.6))
+	{Extension "land_mattress.mdl"}
+	(include "/properties/selection/cannon.inc" scale(0.7))
+	{props "nebelwerfer" "wheeled" "vision_lev05_can" "cannon_sandbag_standard" "trailer" "trailer_light" "detect_artillery" "artillery_minimap_medium"}
+	{able "emit_on_attack"}
+	{targetclass "howitzer"}
+	{targetSelector "rocket"}
+
+	("wheel" args "wheelright")
+	("wheel" args "wheelleft")
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+	}
+	("gun" repair(30) thickness(10))
+
+	("armor_light_cannon")
+	("crew_wheeled_cannon")
+	{boarder
+		{anm "gunner"
+			{forward	{end "pose_nebel42_gunlayer" 10}}
+		}
+		{anm "commander"
+			{forward	{end "pose_pak40_charger" 10}}
+		}
+		{anm "driver1"
+			{forward {end "cannon_pak40_pusher_left" 10}}
+		}
+		{anm "driver2"
+			{forward {end "cannon_pak40_pusher_right" 10}}
+		}
+		{anm "seat1"
+			{forward {end "pose_seat_cannon1_left" 10}}
+		}
+		{anm "seat2"
+			{forward {end "pose_seat_cannon1_right" 10}}
+		}
+		{link "driver1" "gunner"}
+		{link "driver2" "commander"}
+		{link "seat1" "driver1"}
+		{link "seat2" "driver2"}
+
+	}
+
+	{extender "cannon"
+		{animation
+			{switch "close"}
+			{move "cannon_pak40_pusher_left" "cannon_pak40_pusher_right"}
+			{aim "Cannon_nebel42_gunlayer" ""}
+			{fire "Cannon_gunlayer_fire-alert" ""}
+			{gunners "" "Cannon_pdr25_charger Cannon_pdr25_charger Cannon_pdr25_charger"}
+		}
+		{move {obstacle "close"}}
+		{attack {obstacle "open"}}
+	}
+
+	{extender "inventory"
+		{box
+			{item "ammo lm_ammo" 64}
+			{item "sandbag_vehicle" 1}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{Barrels 32}
+			{weapon "lm" filled}
+			{RestoreIKAfterAim}
+			{StationaryFiring}
+			("abm_dymamic_gun"
+				zeroing(6.0)	; // time it takes to aim until the reticle shrinks. Bigger values, more control.
+				dispersion(1)   ; // time it takes to distort the reticle when you move the gun (how abrupt it loses zeroing). Bigger values, more control.
+			)
+		}
+	}
+
+	{mass 1200}
+	{Chassis "track"
+		("car_trace" fx("tracewheel05") step(0.07) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("mobility_cannon"
+			speed(7.5) ;----------------------------------Max speed.
+			weight(1200) ;---------------------------------Weight in Kilograms.
+		)
+	}
+
+	{bone "basis"
+		{speed2 3}
+	}
+	{bone "gun"
+		{speed2 5}
+	}
+	{bone "turret"
+		{limits -20 20}
+		{speed2 5}
+	}
+	(mod "mp"
+		{brain
+			{properties
+				{fire_mode hold}
+			}
+		}	
+	)
+}
+

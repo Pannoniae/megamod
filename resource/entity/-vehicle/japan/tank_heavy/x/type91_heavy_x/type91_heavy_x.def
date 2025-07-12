@@ -1,0 +1,27 @@
+{game_Entity
+	{Extension "type_91_x.mdl"}
+	{Volume "body2"
+	}
+	{Volume "body"
+	}
+	{Volume "crew"
+	}
+	{Volume "engine"
+	}
+	{Volume "gun"
+	}
+	{Volume "inventory"
+	}
+	{Volume "mantlet"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "trackright"
+	}
+	{Volume "turret2"
+	}
+	{Volume "turret3"
+	}
+	{Volume "turret"
+	}
+}

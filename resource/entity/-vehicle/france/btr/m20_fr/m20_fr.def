@@ -1,0 +1,76 @@
+{game_entity
+	(include "/properties/armoredcar.ext")
+	(include "/properties/shadow/tank.inc" scale(1.0))
+	(include "/properties/selection/vehicle.inc" scale(1.0))
+	(include "/properties/tank_crew.ext")
+	{props "tank" "turret" "wheeled" "vision_lev02" "tractor" "detect_tank_mg"}
+	(include "m20.ext")
+	{Extension "m20.mdl"}
+	{targetclass "armoredcar"}
+	{targetSelector "tank_light"}
+	{patherId "sdkfz232"}
+	{extender "enumerator"
+		{digit_folder "us2"}
+	}
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_tank_left"} {end "seat_gunner_stand"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_right"} {end "seat_gunner_stand"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+	}
+
+	("crew_2_human_2")
+	("crew_human_visible" place(gunner)	door1(emit1) door2(emit2) visor(main))
+
+	{extender "inventory"
+		{weapon "mgun" {mask "mountable"}}
+		{box
+			{item "browning" filled {user "mgun"}}
+			{item "ammo 12x99" 1500}
+			{item "weapon bazooka_m1a1" 1}			
+			{item "ammo bazooka" 8}
+		}
+	}
+	{Weaponry
+		{place "mgun"
+			{type "main"}
+			{LinkBone "mgun2"}
+			{LinkAnimation "off"}
+			{charger "gunner"}
+			("abm_mgun")
+			{ai_in_manual}
+		}
+	}
+	{sensor
+		{visor "main"
+			{bone "mgun2"}
+		}
+	}
+
+	{mass 7800}
+	{Chassis "wheel"
+		("car_trace" fx("tracewheel03") step(0.08) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("car_trace" fx("tracewheel03") step(0.08) wheell("wlr") wheelr("wrr") bonel("FXtraceL2") boner("FXtraceR2"))
+		("mobility_car"
+			speed(88) ;----------------------------------Max speed.
+			speedatmaxturn(22) ;-------------------------Max speed at max turn. 
+			reverse(18) ;--------------------------------Max speed in Reverse.
+			weight(7.8) ;-------------------------------Weight in Tonnes.
+			power(110) ;---------------------------------Horse Power.
+			fuel(360) ;----------------------------------Fuel capacity in Litres.
+			type(diesel) ;-------------------------------Fuel type.
+			range(500) ;---------------------------------Range in Kilometers.
+		)
+	}
+
+	{bone "mgun_rot"
+		{speed2 15}
+	}
+	{bone "turret_mgun"
+		{speed2 15}
+	}
+}

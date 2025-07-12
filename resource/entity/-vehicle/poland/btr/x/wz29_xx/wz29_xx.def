@@ -1,0 +1,19 @@
+{game_entity
+	{Extension "wz29_xx.mdl"}
+	{Volume "body"
+	}
+	{Volume "body2"
+	}
+	{Volume "gun"
+	}
+	{Volume "turret"
+	}
+	{Volume "wheelleft1"
+	}
+	{Volume "wheelleft2"
+	}
+	{Volume "wheelright1"
+	}
+	{Volume "wheelright2"
+	}
+}

@@ -1,0 +1,65 @@
+{game_entity
+    (include "/properties/airborne.ext")
+	(include "/properties/selection/airborne.inc" scale(3.0))
+	(include "/properties/car_crew.ext")
+    {PatherID "bf109"}
+	("fighter_tier1")
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_plane_left"} {end "seat_driver_car"} {base "open"}}
+			{reverse 	{end	"board_plane_left" -1} {base "open" -1}}
+		}
+	}
+	("crew_human" place(driver) bone(driver) door(emit1) animation(driver))
+	{Placer
+		{place "driver" {turnOff {targetable}}}
+	}
+	
+	{mass 3600}
+	{Chassis "airborne"
+		("flight_model"
+			speed(510)  ;//---------Max speed (at sea level), km/h.
+			climb_speed(18) ;//-----Climb rate at sea level, in m/s
+			turn(250) ;//-----------Turn-and-burn radius in meters, tightest sustained turn
+			turnMP(200) ;//----------Turn-and-burn radius in meters, tightest sustained turn in Multiplayer
+			aerodynamics(2.5) ;//---Aerodynamic efficiency rating (0-3)
+			weight(3600) ;//--------Weight in kg.
+			power(1150) ;//---------Horse Power.
+			fuel(455) ;//-----------Fuel capacity in Liters.
+			range(495) ;//----------Distance can travel with full fuel tank, in km.
+			roll_rate(60) ;//-------Roll rate, in degrees per second.
+			roll_angle(65) ;//------Maximum roll angle, in degrees.
+		)
+	}
+
+	("single_engine")
+
+	("wheel" args "wheelr")
+	("wheel" args "wheell")
+	("wheel" args "wheelback")
+	
+	{extender "inventory"
+		{Box
+			{item "bullet_20_auto aphe" 1000}
+			{item "ammo air_bomb 100lb" 2}
+      		}
+	}
+	{Weaponry
+		{place "gun"
+			{weapon "20mm_hispano" filled}
+			{barrels 4}
+			{foresight "foresight1"}
+			{gunner "driver"}
+			{charger "driver"}
+			{basic}
+		}
+		{place "bomb"
+			{weapon "bomb_dropper_m30" filled}
+			{gunner "driver"}
+			{charger "driver"}
+			{basic}
+		}
+	}
+	{Extension "hurricane_mk2.mdl"}
+}
+

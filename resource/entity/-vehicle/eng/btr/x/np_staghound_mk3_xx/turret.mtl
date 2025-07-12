@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "staghound_mk3_turret"}
+	{bump "$/model/staghound_mk3_turret_bp"}
+	{specular "$/model/staghound_mk3_turret_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

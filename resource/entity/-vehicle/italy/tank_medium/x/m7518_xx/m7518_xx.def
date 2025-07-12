@@ -1,0 +1,19 @@
+{game_entity
+	{Extension "semovente_75-18_xx.mdl"}
+	{Volume "body1"
+	}
+	{Volume "body2"
+	}
+	{Volume "engine"
+	}
+	{Volume "gun"
+	}
+	{Volume "part1"
+	}
+	{Volume "part2"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "trackright"
+	}
+}

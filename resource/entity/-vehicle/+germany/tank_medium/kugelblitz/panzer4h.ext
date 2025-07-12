@@ -1,0 +1,95 @@
+;SDL
+	
+	; armor notes
+	; tracks and wheels 20mm
+	; gun 25mm
+	; spare tracks 20mm
+	; schürzen 5mm
+
+	("tank_medium_tier2")
+	("make_component" args "aux_turret_2_1" "aux_turret2")
+	("make_component" args "aux_turret_2_2" "aux_turret2")
+	("make_component" args "aux_turret_2_3" "aux_turret2")
+	("aux_turret" repair(45))
+
+	{Volume "aux_turret_2_1"
+		{thickness 20}
+		{Quality "large_flaw"}		
+	}
+	{Volume "aux_turret_2_2"
+		{thickness 20}
+		{Quality "large_flaw"}		
+	}
+	{Volume "aux_turret_2_3"
+		{thickness 20}
+		{Quality "large_flaw"}		
+	}
+	{Volume "turret1"
+		{thickness 30}
+		{Quality "large_flaw"}
+	}
+	{Volume "turret2"
+		{thickness 30}
+		{Quality "large_flaw"}
+	}
+	{Volume "turret3"
+		{thickness 30}
+		{Quality "large_flaw"}
+	}
+	{Volume "turret4"
+		{thickness 30}
+		{Quality "large_flaw"}
+	}
+	{Volume "turret5"
+		{thickness 30}
+		{Quality "large_flaw"}
+	}
+	{Volume "turret6"
+		{thickness 30}
+		{Quality "large_flaw"}
+	}
+	
+
+	("tracks" repair(30) thickness(20))
+	("gun" repair(30) thickness(25))
+
+	("ammo" args "ammo1")
+	("ammo" args "ammo2")
+	("ammo" args "ammo3")
+	("ammo" args "ammo4")
+	("fuel" args "fuel")
+	("transmission" args "transmission")
+
+	{volume "body1"			; Hull
+		{thickness 30
+			{front 80}
+			{top 20}		; Glacis
+			{rear 10}
+			{bottom 10}
+		}
+		{Quality "large_flaw"}
+	}
+	{volume "body2"			; Superstructure
+		{thickness 30
+			{front 80}
+			{top 12}
+			{rear 10}
+		}
+		{Quality "large_flaw"}
+	}
+	{volume "engine1"		; Hull
+		{thickness 30
+			{front 10}
+			{rear 20}
+			{bottom 10}
+		}
+		{Quality "large_flaw"}
+	}
+	{volume "engine2"		; Superstructure
+		{thickness 20
+			{front 10}
+			{top 10}
+			{rear 20}
+		}
+		{Quality "large_flaw"}
+	}

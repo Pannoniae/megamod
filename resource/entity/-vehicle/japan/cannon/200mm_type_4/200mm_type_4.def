@@ -1,0 +1,96 @@
+{game_entity
+	(include "/properties/cannon.ext")
+	{Extension "type4_200mm.mdl"}
+	(include "/properties/shadow/tank.inc" scale(0.6))
+	(include "/properties/selection/cannon.inc" scale(0.6))
+	{props "nebelwerfer" "wheeled" "vision_lev05_can" "cannon_sandbag_standard" "trailer" "trailer_light" "detect_artillery" "artillery_minimap_medium" "c_rok_lite"}
+	{collider "cannon_small"}
+	{targetclass "howitzer"}
+	{targetSelector "rocket"}
+
+	("wheel" args "wheelright")
+	("wheel" args "wheelleft")
+
+	("crew_wheeled_cannon")
+
+	{volume "wheelleft"}
+	{volume "wheelright"}
+
+	{boarder
+		{anm "gunner"
+			{forward {end "pose_m42_gunlayer" 10}}
+		}
+		{anm "commander"
+			{forward {end "pose_m42_charger" 10}}
+		}
+		{anm "driver1"	;// gunner
+			{forward {end "mortar_driver_r" 10}}
+		}
+		{anm "driver2"	;// charger
+			{forward {end "mortar_driver_l" 10}}
+		}
+		{anm "seat1"	;// gunner
+			{forward {end "pose_seat_cannon_left" 10}}
+		}
+		{anm "seat2"	;// charger
+			{forward {end "pose_seat_cannon_right" 10}}
+		}
+	}
+
+	{extender "cannon"
+		{animation
+			{switch "close"}
+			;// "gunner" "commander"
+			{move "mortar_driver_r" "mortar_driver_l"}
+			{aim "mortar_120sgrw42_gunner_aim" "mortar_120sgrw42_commander_aim"}
+			{fire "mortar_120sgrw42_gunner_fire" "mortar_120sgrw42_commander_fire"}
+			{reload "" "mortar_120sgrw42_commander_reload"}
+		}
+		{move {obstacle "close"}}
+		{attack {obstacle "open"}}
+	}
+
+	{extender "inventory"
+		{box
+			{item "ammo 20cm_rocket" 20}
+			{item "sandbag_vehicle" 2}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{weapon "weapon t4_20cm" filled}
+			{RestoreIKAfterAim}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{basic}
+		}
+	}
+
+	{mass 150}
+	{Chassis "track"
+		("car_trace" fx("tracewheel05") step(0.07) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("mobility_cannon"
+			speed(9) ;-----------------------------------Max speed.
+			weight(150) ;--------------------------------Weight in Kilograms.
+		)
+	}
+
+	{bone "foresight"          
+		{limits -50 40}
+		{speed 0.004}
+	}               	
+	{sensor
+		{visor "main"
+			{vision "cannon_main"}
+		}
+	}
+	(mod "mp"
+		{brain
+			{properties
+				{fire_mode hold}
+			}
+		}	
+	)
+}

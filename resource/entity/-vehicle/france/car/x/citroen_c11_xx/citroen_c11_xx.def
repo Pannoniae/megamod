@@ -1,0 +1,9 @@
+{game_entity
+	{Extension "c11_xx.mdl"}
+	{Volume "body"
+	}
+	{Volume "cabin"
+	}
+	{Volume "engine"
+	}
+}

@@ -1,0 +1,200 @@
+;Exported by: Normand
+;Date:        Sat May 14 02:37:52 2022
+;File:        C:\Users\Normand\aec_armored.max
+{Skeleton
+	{bone "basis"
+		{parameters "SteerMax=30;WheelRadius=0.5;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "pivot_back"
+			{parameters "ID=body;"}
+			{Position -28.5393	0.103804	16.1746}
+			{VolumeView "pivot_back.ply"}
+			{bone prizmatic "suspension_r2"
+				{limits -0.08 0.06}
+				{speed2 0.5}
+				{Matrix34
+					1   0   0
+					0   1   0
+					0   0   1
+					-0.312317	-20.764	-3.55785
+				}
+			{bone revolute "wheelr2"
+				{parameters "ID=wheelright2;"}
+				{Matrix34
+					-0.95	0	0
+					0	0	0.95
+					0	0.95	0
+					0   0   0
+				}
+				{VolumeView "wheelr2.ply"}
+			}
+			}
+			{bone prizmatic "suspension_l2"
+				{limits -0.08 0.06}
+				{speed2 0.5}
+				{Matrix34
+					1   0   0
+					0   1   0
+					0   0   1
+					-0.309959	20.8802	-3.55785
+				}
+			{bone revolute "wheell2"
+				{parameters "ID=wheelleft2;"}
+				{Matrix34
+					-0.95	0	0
+					0	0	0.95
+					0	0.95	0
+					0   0   0
+				}
+				{VolumeView "wheell2.ply"}
+			}
+			}
+		}
+		{bone "pivot_front"
+			{parameters "ID=body;"}
+			{Position 31.3145	0.129945	16.1746}
+			{VolumeView "pivot_front.ply"}
+			{bone revolute "steerl"
+				{parameters "ID=body;"}
+				{Matrix34
+					-1	0	0
+					0	1	0
+					0	0	1
+					-0.0230331	16.8797	-3.27167
+				}
+			{bone prizmatic "suspension_l1"
+				{limits -0.08 0.06}
+				{speed2 0.5}
+				{Matrix34
+					1   0   0
+					0   1   0
+					0   0   1
+						0.0204163	3.97439	-0.28618
+				}
+				{bone revolute "wheell1"
+					{parameters "ID=wheelleft1;"}
+					{Matrix34
+						0.95	0	0
+						0	0	0.95
+						0	0.95	0
+					0   0   0
+					}
+					{VolumeView "wheell1.ply"}
+				}
+			}
+			}
+			{bone revolute "steerr"
+				{parameters "ID=body;"}
+				{Matrix34
+					-1	0	0
+					0	1	0
+					0	0	1
+					-0.0188522	-16.809	-3.27167
+				}
+			{bone prizmatic "suspension_r1"
+				{limits -0.08 0.06}
+				{speed2 0.5}
+				{Matrix34
+					1   0   0
+					0   1   0
+					0   0   1
+						0.0136452	-3.98115	-0.286177
+				}
+				{bone revolute "wheelr1"
+					{parameters "ID=wheelright1;"}
+					{Matrix34
+						0.95	0	0
+						0	0	0.95
+						0	0.95	0
+					0   0   0
+					}
+					{VolumeView "wheelr1.ply"}
+				}
+			}
+			}
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{animation
+				{sequence "break" {file "body_b.anm"} {speed 0.4}}
+			}
+			{Position -0.968002	0.10381	22.9469}
+			{VolumeView "body.ply"}
+			{bone "engine"
+				{parameters "ID=engine;"}
+				{animation
+					{sequence "break" {file "engine_b.anm"} {speed 0.4}}
+				}
+				{Position -23.6672	-0.583156	1.09063}
+				{bone "engine_cover1"
+					{parameters "ID=engine;"}
+					{Matrix34
+						0.993116	0	0.117135
+						0	1	0
+						-0.117135	0	0.993116
+						-0.116329	0.486413	9.62965
+					}
+					{VolumeView "engine_cover1.ply"}
+				}
+				{bone "engine_cover2"
+					{parameters "ID=engine;"}
+					{Matrix34
+						0.992866	0	0.119237
+						0	1	0
+						-0.119237	0	0.992866
+						-0.116322	0.768	9.64703
+					}
+					{VolumeView "engine_cover2.ply"}
+				}
+			}
+			{bone "cover"
+				{Position 17.5682	0	11.8507}
+				{VolumeView "cover.ply"}
+			}
+			{bone "pdetail1"
+				{parameters "ID=body;"}
+				{Position -29.4053	14.7166	4.91189}
+				{VolumeView "detail1.ply"}
+			}
+			{bone revolute "turret"
+				{parameters "ID=turret;"}
+				{animation
+					{sequence "break" {file "turret_b.anm"} {speed 0.4}}
+				}
+				{speed 0.02}
+				{Position 2.50634	-0.0859014	19.5723}
+				{bone "turret_aa"
+					{parameters "ID=turret;"}
+					{Position 0.0	0.0	-4.0}
+					{VolumeView "turret_aa.ply"}
+					{bone revolute "gun_rot"
+						{parameters "ID=gun;"}
+						{limits -15 65}
+						{speed 0.015}
+						{Matrix34
+							1	0	0
+							0	0	1
+							0	-1	0
+							13.6136	0.0750968	2.89089
+						}
+						{VolumeView "gun_rot_aa.ply"}
+						{bone "gun1"
+							{parameters "ID=gun;"}
+							{Position 14.5393	-0.0750675	-2.41164}
+							{VolumeView "gun1_aa.ply"}
+						}
+						{bone "gun2"
+							{parameters "ID=gun;"}
+							{Position 14.5393	-0.0750675	2.56326}
+							{VolumeView "gun2_aa.ply"}
+						}
+					}
+				}
+			}
+		}
+	}
+}

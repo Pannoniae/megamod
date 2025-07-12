@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "Somua_Sau_40_hull_01_AM"}
+	{specular "$/model/sau40/Somua_Sau_40_hull_01_AO"}
+	{color "229 229 229 25"}
+	{blend none}
+}

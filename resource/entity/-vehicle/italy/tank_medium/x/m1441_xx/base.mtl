@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/carro/m1441_xx"}
+	{bump "$/model/carro/m1441_bp"}
+	{specular "$/model/carro/m1441_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

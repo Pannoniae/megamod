@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/model/ger_engine"}
+	{specular "$/model/ger_engine_sp"}
+	{color "230 230 230 30"}
+	{blend test}
+}

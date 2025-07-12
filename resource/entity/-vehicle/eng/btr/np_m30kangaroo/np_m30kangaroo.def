@@ -1,0 +1,169 @@
+{entity
+	(include "/properties/tank_unarmed.ext")
+	(include "/properties/shadow/tank.inc" scale(0.9))
+	(include "/properties/selection/vehicle.inc" scale(0.8))
+	{props "armored_car" "-turret" "explosion_throw_crew" "vision_lev02" "tractor" "tractor_heavy" "detect_tank_mg" "open_top"}
+	{targetclass "armoredcar"}
+	{targetSelector "tank_bullet"}
+	{extender "enumerator"
+		{digit_folder "us2"}
+	}
+
+	("tank_medium_tier2")
+
+	("tracks" repair(30) thickness(30))
+	("gun" repair(30) thickness(30))
+
+	{extender "enumerator"}
+	
+	{volume "sticky"
+		{tags "grenade_fg_target"}
+		{able clear {contact} {touch}}
+		{component "sticky_body"}
+	}
+	{component "sticky_body"}
+
+	
+	{volume "body"
+		{thickness 40}
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "body2"
+		{thickness 40}
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "body3"
+		{thickness 40}
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "body4"
+		{thickness 38}
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "body5"
+		{thickness 38}
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "body6"
+		{thickness 20}
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "body7"
+		{thickness 64}
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "body8"
+		{thickness 30}
+		{component "body"}
+		{tags "body"}
+	}
+	{Volume "mgun_rot"
+		{thickness 10}
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "inventory"
+       		 {thickness 2}
+	}
+	
+	{Volume "engine"
+		{thickness 20}
+		{component "engine"}
+		{tags "engine"}
+	}
+
+	
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_tank_left"} {end "seat_driver_car"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "gunner"
+			{forward	{begin	"board_tank_right"} {end "seat_m7_mgunner"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+	  	{anm "passenger"
+      			{forward  {begin  "board_body"} {end "seat_passenger"}}
+      			{reverse  {end  "emit_body" 1}}
+   		 }
+	}
+	("crew_human_visible_anm" place(driver)		door1(emit1) door2(emit2) anm_left(driver) anm_right(driver) visor(driver))
+	("crew_human_visible_anm" place(gunner)	door1(emit1) door2(emit2) anm_left(crew) anm_right(gunner) visor(main))
+	{placer 
+		{place "driver" {openForCrush 0}}
+		{place "gunner" {openForCrush 0}}
+	}
+
+	(define "crew_human"
+		{placer
+			{place "%place" {group "%group"} {linkbone "%bone"} {turnoff {sensor} {shadow}}}
+		}
+		{boarder
+			{door "%door"}
+			{link "%door" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+		}
+	)
+
+	("crew_human" place(seat01)	door(emit3) bone(seat01) animation(passenger) 	group(passengers))
+	("crew_human" place(seat02)	door(emit4) bone(seat02) animation(passenger)	group(passengers))
+	("crew_human" place(seat03)	door(emit3) bone(seat03) animation(passenger)	group(passengers))
+	("crew_human" place(seat04)	door(emit4) bone(seat04) animation(passenger)	group(passengers))
+	("crew_human" place(seat05)	door(emit3) bone(seat05) animation(passenger)	group(passengers))
+	("crew_human" place(seat06)	door(emit4) bone(seat06) animation(passenger)	group(passengers))
+	("crew_human" place(seat07)	door(emit3) bone(seat07) animation(passenger)	group(passengers))
+	("crew_human" place(seat08)	door(emit4) bone(seat08) animation(passenger)	group(passengers))
+
+	{sensor
+		{visor "main"
+			{bone "mgun2"}
+		}
+	}
+	{extender "inventory"
+		{weapon "mgun" {mask "mountable"}}
+		{box
+			{item "browning" filled {user "mgun"}}
+			{item "ammo 12x99" 1000}
+			(mod "mp"
+				{item "tow_rope" 1}
+			)
+		}
+	}
+	{Weaponry
+		{place "mgun"
+			{type "aa"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{LinkBone "mgun2"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+			{basic}
+			{ai_in_manual}
+		}		
+	}	
+	
+	{Extension "m30.mdl"}
+
+	{mass 21900}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.3) len(0.65))
+		("mobility_tank"
+			speed(39) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(7) ;---------Max speed in reverse on road, km/h.
+			traverse(25) ;-------Track traverse, per second, in degrees.
+			weight(22.9) ;-------Weight in Tonnes.
+			power(350) ;---------Engine Power, in hp.
+			track(3.5) ;---------Track performance: [0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(670) ;----------Fuel capacity in Litres.
+			type(fuel) ;-------Fuel type. (diesel OR fuel)
+			range(190) ;---------Range in km, off-road.
+		)
+	}
+}
+

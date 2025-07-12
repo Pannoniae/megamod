@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/eng/tog_ii_track"}
+	{bump "$/model/eng/tog_ii_track_nm"}
+	{specular "$/model/eng/tog_ii_track_sm"}
+	{color "255 255 255 127"}
+	{blend test}
+}

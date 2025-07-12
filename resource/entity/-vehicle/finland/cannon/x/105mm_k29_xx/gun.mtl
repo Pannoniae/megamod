@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "105mm_k29_xx"}
+	{specular "$/model/105mmwz29_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

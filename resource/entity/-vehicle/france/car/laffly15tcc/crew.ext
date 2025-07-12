@@ -1,0 +1,50 @@
+;SDL
+
+{boarder
+	{anm "gunner"
+		{forward	{begin	"board_dodge_body"} {end "pose_m42_gunlayer"}}
+		{reverse 	{end	"emit_tank_1"}}
+	}
+	{anm "charger"
+		{forward	{begin	"board_dodge_body"} {end "pose_m42_charger"}}
+		{reverse 	{end	"emit_tank_1"}}
+	}
+	{anm "driver"
+		{forward	{begin	"board_dodge"} {end "seat_passenger"}}
+		{reverse 	{end	"emit_tank_1"}}
+	}
+	{anm "commander"
+		{forward	{begin	"board_dodge"} {end "seat_passenger"}}
+		{reverse 	{end	"emit_tank_1"}}
+	}
+	{anm "gunner1"
+		{forward	{end "seat_m7_mgunner"}}
+		{reverse 	{end	"emit_tank_1"}}
+	}
+}
+(define "crew_human"
+	{placer
+		{place "%place" {group "%group"} {linkbone "%bone"} {turnoff {sensor} {shadow}}}
+	}
+	{boarder
+		{door "%door"}
+		{link "%door" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+	}
+)
+	("crew_human" place(driver)		bone(driver)	door(emit1) animation(driver))
+	("crew_human" place(gunner)		bone(gunner)	door(emit3) animation(gunner))
+	("crew_human" place(charger)		bone(charger)	door(emit4) animation(charger))
+	("crew_human" place(commander)	bone(commander)	door(emit2) animation(commander))
+	("crew_human" place(gunner1)		bone(gunner1)	door(emit7) animation(gunner1))
+	{sensor
+		{visor "commander" {vision "tank_main-l"} {bone "mgun_turret"}}
+		{visor "main" {vision "cannon_main"} {bone "visor1"}}
+		{visor "driver" {vision "tank_main-l"} {bone "visor2"}}
+	}
+	{placer
+		{place "driver"  {group "crew"} {useVision} {visor "driver"}}
+		{place "commander"  {group "crew"} {useVision} {visor "driver"}}
+		{place "gunner" {group "crew"} {useVision} {visor "main"}}
+		{place "charger" {group "charger"} {useVision} {visor "commander"}}
+		{place "gunner1" {group "charger"} {useVision} {visor "commander"}}
+	}

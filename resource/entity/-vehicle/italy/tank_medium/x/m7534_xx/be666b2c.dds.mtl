@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "be666b2c"}
+	{blend test}
+}

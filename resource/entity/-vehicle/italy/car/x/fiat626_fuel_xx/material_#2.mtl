@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "fiat_fueltank"}
+	{blend test}
+}

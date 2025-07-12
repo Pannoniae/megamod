@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "m12 gmc_xx"}
+	{blend none}
+}

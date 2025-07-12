@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "qf37_x"}
+	{bump "$/model/qf37_shield_bp"}
+	{specular "$/model/qf37_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

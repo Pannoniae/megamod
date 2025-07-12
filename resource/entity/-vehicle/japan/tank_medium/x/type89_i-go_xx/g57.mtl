@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/type_91/type_91_gun2_x"}
+	{bump "$/model/type_91/type_91_gun_bp"}
+	{specular "$/model/type_91/type_91_gun_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

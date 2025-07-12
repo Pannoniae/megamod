@@ -1,0 +1,31 @@
+{game_entity
+	{Extension "bishop2_xx.mdl"}
+	{Volume "body2"
+	}
+	{Volume "body3"
+	}
+	{Volume "body4"
+	}
+	{Volume "body5"
+	}
+	{Volume "body6"
+	}
+	{Volume "body7"
+	}
+	{Volume "body"
+	}
+	{Volume "engine"
+	}
+	{Volume "gun"
+	}
+	{Volume "gun2"
+	}
+	{Volume "shieldl1"
+	}
+	{Volume "shieldr1"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "tracklright"
+	}
+}

@@ -1,0 +1,7 @@
+{material envmap
+	{diffuse "$/_vehicle/75_glass"}
+	{envmap "$/_vehicle/envmap_gold01"}
+	{mask "$/_vehicle/75_glass_sp"}
+;	{color "230 230 230 50"}
+	{blend blend}
+}

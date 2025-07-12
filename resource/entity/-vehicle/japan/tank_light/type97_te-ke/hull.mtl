@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "type97te-ke_hull"}
+	{bump "$/model/type97te-ke_hull_bp"}
+	{specular "$/model/type97te-ke_hull_sp"}
+	{color "229 229 229 152"}
+	{blend none}
+}

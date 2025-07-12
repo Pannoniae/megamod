@@ -1,0 +1,185 @@
+{entity
+	(include "/properties/tank_assaultgun.ext")
+	(include "/properties/shadow/tank.inc" scale(1.3))
+	(include "/properties/selection/vehicle.inc" scale(1.2))
+	{props "spg" "medium" "-turret" "mantlet" "vision_lev06" "muzzle_100mm_105mm" "shell_eject" "shield" "open_top" "detect_spg"}
+	
+	{targetclass "tank_medium"}
+	{targetSelector "cannon_howitzer"}
+
+	{extender "enumerator"
+		{digit_folder "small"}
+	}
+
+	("tank_medium_tier2")
+
+	("tracks" repair(30) thickness(30))
+	("gun" repair(30) thickness(30))
+
+	{extender "enumerator"}
+	
+	{volume "sticky"
+		{tags "grenade_fg_target"}
+		{able clear {contact} {touch}}
+		{component "sticky_body"}
+	}
+	{component "sticky_body"}
+
+	
+	{Volume "mgun_rot"
+		{thickness 10}
+	}
+	{volume "body"
+		{thickness 40}
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "body2"
+		{thickness 40}
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "body3"
+		{thickness 40}
+		{component "body"}
+		{tags "body"}
+	}
+	{extender "shield"
+		{on}
+	}
+	{component "shield"}
+	{volume "shield1"
+		{thickness 64}
+		{component "shield"}
+		{tags "shield"}
+	}
+	{volume "shield2"
+		{thickness 30}
+		{component "shield"}
+		{tags "shield"}
+	}
+	{volume "shield3"
+		{thickness 38}
+		{component "shield"}
+		{tags "shield"}
+	}
+	{volume "shield4"
+		{thickness 38}
+		{component "shield"}
+		{tags "shield"}
+	}
+	{volume "shield5"
+		{thickness 20}
+		{component "shield"}
+		{tags "shield"}
+	}
+	{volume "inventory"
+       		 {thickness 2}
+	}
+	("ammo" args "ammo1")
+	("ammo" args "ammo2")	
+	{Volume "gunbase"
+		{thickness 20}
+		{component "body"}
+		{tags "body"}
+	}
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_tank_left"} {end "seat_passenger"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "gunner"
+			{forward	{begin	"board_tank_left"} {end "seat_m7_gunner"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "commander"
+			{forward	{begin	"board_tank_left"} {end "seat_m7_com"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "crew"
+			{forward	{begin	"board_tank_right"} {end "seat_m7_mgunner"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+	}
+	("crew_human_visible_anm" place(driver)		door1(emit1) door2(emit2) anm_left(driver) anm_right(driver) visor(driver))
+	("crew_human_visible_anm" place(gunner)		door1(emit1) door2(emit2) anm_left(gunner) anm_right(gunner) visor(main))
+	("crew_human_visible_anm" place(commander)	door1(emit1) door2(emit2) anm_left(commander) anm_right(commander) visor(main))
+	("crew_human_visible_anm" place(gunner2)	door1(emit1) door2(emit2) anm_left(crew) anm_right(crew) visor(main))
+
+	{placer 
+		{place "driver" {openForCrush 0}}
+		{place "gunner" {openForCrush 0}}
+	}	
+	{sensor
+		{visor "main"
+			{bone "foresight1"}
+		}
+	}
+	{extender "inventory"
+		{weapon "mgun" {mask "mountable"}}
+		{box
+			{item "dynamite"}
+            {item "ammo bullet105_usa he" 50}
+			{item "ammo bullet105_usa heat" 10}
+			{item "browning" filled {user "mgun"}}
+			{item "ammo 12x99" 1000}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "105mm_m2a1" filling "ammo bullet105_usa he" 1}
+			{charger "gunner"}
+			{StationaryFiring}
+			("abm_dymamic"
+				zeroing(2.0)
+				dispersion(0.35)
+			)
+		}
+		{place "mgun"
+			{type "aa"}
+			{gunner "gunner2"}
+			{charger "gunner2"}
+			{LinkBone "mgun2"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+			{basic}
+			{ai_in_manual}
+		}		
+	}	
+	
+	{Extension "m7.mdl"}
+
+	{mass 22900}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.3) len(0.65))
+		("mobility_tank"
+			speed(39) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(7) ;---------Max speed in reverse on road, km/h.
+			traverse(25) ;-------Track traverse, per second, in degrees.
+			weight(22.9) ;-------Weight in Tonnes.
+			power(350) ;---------Engine Power, in hp.
+			track(3.5) ;---------Track performance: [0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(670) ;----------Fuel capacity in Litres.
+			type(fuel) ;-------Fuel type. (diesel OR fuel)
+			range(190) ;---------Range in km, off-road.
+		)
+	}
+	{bone "turret"
+		{limits -10 10}
+		{speed2 8}
+	}
+	{bone "gun_rot"
+		{limits -5 50}
+		{speed2 8}
+	}
+	(mod "mp"
+		{brain
+			{properties
+				{fire_mode hold}
+			}
+		}
+	)
+}
+

@@ -1,0 +1,27 @@
+{game_entity
+	{Extension "25mm_pstk34_xx.mdl"}
+	{Volume "body"
+	}
+	{Volume "gun_rot"
+	}
+	{Volume "gun"
+	}
+	{Volume "shield1"
+	}
+	{Volume "part1"
+	}
+	{Volume "shield3"
+	}
+	{Volume "shield"
+	}
+	{Volume "part2"
+	}
+	{Volume "standr"
+	}
+	{Volume "turret"
+	}
+	{Volume "wheelleft"
+	}
+	{Volume "wheelright"
+	}
+}

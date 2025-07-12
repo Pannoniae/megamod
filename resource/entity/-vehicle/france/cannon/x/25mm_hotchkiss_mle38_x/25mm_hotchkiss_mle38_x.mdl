@@ -1,0 +1,119 @@
+;Exported by: Sergey
+;Date:        Sat Aug 09 15:33:39 2014
+;File:        C:\Users\Sergey\Documents\3dsmax\scenes\2cm Flak 30\2 cm Flak30_x.max
+{Skeleton
+	{animation
+		{sequence "break" {file "body_b.anm"} {speed 0.3}}
+	}
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Position -11.0552	0.030805	1.39128}
+			{bone "gunback"
+				{parameters "ID=body;"}
+				{Matrix34
+					0	1	0
+					-1	0	0
+					0	0	1
+					8.0	-0.2	1.0
+				}
+				{bone "gun_stand"
+					{Matrix34
+						0.87	0	0
+						0	0.87	0
+						0	0	0.87
+						0	0	-1
+					}
+					{VolumeView "gunback.ply"}
+				}
+				{bone revolute "turret"
+					{parameters "ID=turret;"}
+					{speed 0.01}
+					{Position 0.0188704	0.458736	3.79609}
+					{VolumeView "turret.ply"}
+					{bone revolute "gun_rot1"
+						{parameters "ID=gun;"}
+						{limits -70 0}
+						{speed 0.02}
+						{Matrix34
+							0	1	0
+							0	0	1
+							1	0	0
+							0.355537	-4.66438	13.1905
+						}
+						{VolumeView "gun_rot.ply"}
+						{bone "gun"
+							{parameters "ID=gun;"}
+							{Matrix34
+								0	0	1
+								1	0	0
+								0	1	0
+								-21.59	1.76725	-0.615914
+							}
+							{VolumeView "gun.ply"}
+						}
+					}
+				}
+			}
+		}
+		{bone "lafet"
+			{Matrix34
+				1	0	0.000952007
+				0	1	0
+				-0.000952007	0	1
+				-53.3803	-0.952232	8.27141
+			}
+			{VolumeView "lafet.ply"}
+			{bone revolute "wheelright"
+				{parameters "ID=wheelright;Radius=0.4;support=1;"}
+				{Matrix34
+					-0.923235	0	0.384237
+					0.384237	0	0.923235
+					0	1	0
+					0	-16.2407	0
+				}
+				{bone "wheelr"
+					{Matrix34
+						1.25	0	0
+						0	1.25	0
+						0	0	1.25
+						0	0	0
+					}
+					{VolumeView "wheelr.ply"}
+				}
+			}
+			{bone revolute "wheelleft"
+				{parameters "ID=wheelleft;Radius=0.4;support=1;"}
+				{Matrix34
+					-0.923234	0	0.384237
+					0.384237	0	0.923234
+					0	1	0
+					-1.14441e-005	17.9979	0
+				}
+				{bone "wheell"
+					{Matrix34
+						1.25	0	0
+						0	1.25	0
+						0	0	-1.25
+						0	0	0
+					}
+					{VolumeView "wheell.ply"}
+				}
+			}
+			{bone revolute "stoika"
+				{Matrix34
+					-0.386273	0	0.922384
+					0	1	0
+					-0.922384	0	-0.386273
+					-26.1211	0.878467	2.4615
+				}
+				{VolumeView "stoika.ply"}
+			}
+		}
+	}
+}

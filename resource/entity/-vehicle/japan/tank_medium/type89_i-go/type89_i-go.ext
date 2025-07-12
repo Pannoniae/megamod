@@ -1,0 +1,55 @@
+;SDL
+
+	; armor notes
+	; tracks and wheels 20mm
+	; gun 20mm
+
+	("tank_medium_tier1")
+
+	("tracks" repair(30) thickness(20))
+	("gun" repair(30) thickness(20))
+	
+	;("transmission" args "transmission")
+
+	{Volume "body"
+		{thickness 17
+			{front 20}
+			{top 7}		
+			{rear 10}
+			{bottom 7}
+		}
+	}
+	{Volume "body2"
+		{thickness 17
+			{front 20}
+			{top 7}		
+			{rear 10}
+			{bottom 7}
+		}
+	}
+	{Volume "body3"
+		{thickness 17
+			{front 20}
+			{top 7}		
+			{rear 10}
+			{bottom 7}
+		}
+	}
+	{Volume "engine"
+		{thickness 17
+			{front 20}
+			{top 7}		
+			{rear 10}
+			{bottom 7}
+		}
+	}
+	{Volume "gunrot"
+		{thickness 25}
+	}
+	{Volume "turret"
+		{thickness 20
+			{top 8}		
+			{rear 12}
+			{bottom 8}
+		}
+	}

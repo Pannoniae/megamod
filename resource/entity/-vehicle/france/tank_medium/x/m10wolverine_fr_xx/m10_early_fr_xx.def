@@ -1,0 +1,24 @@
+{game_entity
+	{Extension "m10_early_xx.mdl"}
+	(include "/properties/vehicle_xx.ext")
+	{Volume "body1"
+	}
+	{Volume "body2"
+	}
+	{Volume "engine"
+	}
+	{Volume "gun"
+	}
+	{Volume "inventory"
+	}
+	{Volume "mantlet"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "trackright"
+	}
+	{Volume "turret8"
+	}
+	{Volume "turret"
+	}
+}

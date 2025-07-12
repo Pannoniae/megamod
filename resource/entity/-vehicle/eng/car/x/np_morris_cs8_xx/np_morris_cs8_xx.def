@@ -1,0 +1,17 @@
+{game_entity
+	{Extension "morris_cs8_xx.mdl"}
+	{Volume "body"
+	}
+	{Volume "engine"
+	}
+	{Volume "part1"
+	}
+	{Volume "part2"
+	}
+	{Volume "part3"
+	}
+	{Volume "part4"
+	}
+	{Volume "wheel"
+	}
+}

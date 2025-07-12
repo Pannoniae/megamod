@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "type96_150mm"}
+	{specular "$/model/type96_150mm_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

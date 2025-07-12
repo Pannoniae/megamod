@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "t3_guns_am"}
+	{bump "t3_guns_anm"}
+	{specular "t3_guns_gmm2"}
+	{color "230 230 230 25"}
+	{blend none}
+}

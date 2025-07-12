@@ -1,0 +1,19 @@
+{game_entity
+	{Extension "37mm_type_11_xx.mdl"}
+	{Volume "body2"
+	}
+	{Volume "body3"
+	}
+	{Volume "body4"
+	}
+	{Volume "body"
+	}
+	{Volume "gun2"
+	}
+	{Volume "gun"
+	}
+	{Volume "shield1"
+	}
+	{Volume "shield2"
+	}
+}

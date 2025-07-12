@@ -1,0 +1,5 @@
+{material envmap
+	{diffuse "cocpit_fi156"}
+	{mask "cocpit_sp"}
+	{blend blend}
+}

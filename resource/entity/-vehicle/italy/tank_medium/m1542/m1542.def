@@ -1,0 +1,157 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/shadow/tank.inc" scale(1.0))
+	(include "/properties/selection/vehicle.inc" scale(1.1))
+	{props "light" "vision_lev03" "muzzle_37mm_47mm" "detect_tank_light"}
+	{Extension "m1542.mdl"}
+	{targetclass "tank_light"}
+	{targetSelector "tank_light"}
+	{patherId "t26"}
+	{collider "tank.light"}
+	
+	("tank_light_tier2")
+
+	{volume "body1"
+		{component "body"}
+		{tags "body"}
+		{thickness 25
+			{top 15}
+			{bottom 15}
+		}
+	}
+	{volume "body2"
+		{component "body"}
+		{tags "body"}
+		{thickness 25
+			{front 42}
+			{top 25}
+			{bottom 15}
+		}
+	}
+	{volume "body3"
+		{component "body"}
+		{tags "body"}
+		{thickness 25
+			{front 30}
+			{top 14}
+			{bottom 15}
+		}
+	}
+	{volume "body4"
+		{component "body"}
+		{tags "body"}
+		{thickness 30
+			{top 14}
+			{bottom 15}
+		}
+	}
+	{volume "engine1"
+		{component "engine"}
+		{tags "engine"}
+		{thickness 25
+			{top 10}
+			{bottom 15}
+		}
+	}
+	{volume "engine2"
+		{component "engine"}
+		{tags "engine"}
+		{thickness 25
+			{top 10}
+			{bottom 15}
+		}
+	}
+	{volume "turret"
+		{component "turret"}
+		{tags "turret"}		
+		{thickness 25
+			{front 42}
+			{top 14}
+			{bottom 14}
+		}
+	}
+	{volume "mantlet"
+		{component "turret"}
+		{tags "turret"}		
+		{thickness 33}
+	}
+	("crew_4_human_2")
+	
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_tank_left"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_right"} {end "pose_mgun_stan"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_LowArmor"} 	{end "seat_armor"}}
+			{reverse 	{end	"emit_tank_1"}}
+		}
+	}
+	{extender "inventory"
+		{box
+			{item "dynamite"}
+			{item "ammo 8x59" 2664}
+			{item "bullet47_ita apbc" 50}
+			{item "bullet47_ita he" 24}
+			{item "bullet47_ita heat" 6}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "47mm_m47_40" filling "bullet47_ita apbc" 1}
+			{gunner "gunner"}
+			{charger "commander"}
+			("abm_dymamic"
+				zeroing(2.5)
+				dispersion(0.20)
+			)
+		}
+		{place "mgun1"
+			{type "coaxial"}
+			{weapon "breda_38" filled}
+			{foresight "foresight4"}
+			{gunner "gunner"}
+			{charger "commander"}
+			("abm_mgun")
+			{basic}
+		}
+		{place "mgun2"
+			{type "hull"}
+			{weapon "breda_38x2" filled}
+			{foresight "foresight5"}
+			{Barrels 2}
+			{gunner "gunner3"}
+			{charger "gunner3"}
+			("abm_mgun")
+			{basic}
+		}
+	}
+	{mass 15500}
+	{Chassis
+		("tank_trace" fx("tracks_sm2") step(0.2) len(-0.85))
+		("mobility_tank"
+			speed(40) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(8) ;--------Max speed in reverse on road, km/h.
+			traverse(25) ;-------Track traverse, per second, in degrees.
+			weight(15.5) ;--------Weight in Tonnes.
+			power(192) ;----------Engine Power, in hp.
+			track(7.0) ;---------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(182) ;----------Fuel capacity in Litres.
+			type(fuel) ;---------Fuel type. (diesel OR fuel)
+			range(200) ;----------Range in km, off-road.
+		)
+	}
+	{bone "gun_rot"
+		{limits -10 10}
+		{speed2 9}
+	}
+	{bone "turret"
+		{speed2 10}
+	}
+}

@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "churchill_mk2_x"}
+	{specular "$/model/churchill_mk2_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

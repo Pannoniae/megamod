@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/model/3ro_truck_xx"}
+	{specular "$/model/3ro_truck2_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "su-5_guns_am_x"}
+	{bump "$/_vehicle/su-5_guns_anm"}
+	{specular "$/_vehicle/su-5_guns_gmm"}
+	{color "230 230 230 25"}
+	{blend none}
+}

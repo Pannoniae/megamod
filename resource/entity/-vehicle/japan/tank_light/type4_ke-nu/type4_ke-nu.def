@@ -1,0 +1,117 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/shadow/tank.inc" scale(1.0))
+	(include "/properties/selection/vehicle.inc" scale(1.0))
+	{props "light" "vision_lev03" "muzzle_50mm_57mm" "detect_tank_light"}
+	{Extension "type4_ke_nu.mdl"}
+	(include "type4_ke_nu.ext")
+	{targetclass "tank_light"}
+	{targetSelector "tank_light"}
+	{patherId "panzer38"}
+	{collider "tank.light"}
+	
+	{extender "enumerator"
+		{digit_folder "jap"}
+	}
+
+	("crew_2_human")
+	("crew_human" place(commander)	door1(emit1) door2(emit2) visor(back))
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor1))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor))
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_kv"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_right"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_MiddleArmor"} 	{end "pose_seat_armor_1"}}
+			{reverse 	{end	"emit_tank_1"}}
+		}
+		{anm "armor1"
+			{forward	{begin	"board_MiddleArmor"} 	{end "pose_seat_armor_2"}}
+			{reverse 	{end	"emit_body"}}
+		}
+	}
+	{sensor
+		{visor "driver"
+			{vision "tank_driver"}
+			{bone "visor2"}
+		}
+		{visor "main"
+			{vision "tank_main-l"}
+			{bone "visor1"}
+		}
+		{visor "back"
+			{vision "tank_back"}
+			{bone "foresight5"}
+		}
+	}
+
+	{extender "inventory"
+		{box
+			{item "dynamite"}
+			{item "ammo bullet57_jap he" 45}
+			{item "ammo bullet57_jap aphe" 45}
+			{item "ammo bullet57_jap heat" 15}
+			{item "ammo 7x58" 2400}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "57mm_type97" filling "ammo bullet57_jap aphe" 1}
+			{charger "gunner"}
+			("abm_dymamic_poor"
+				zeroing(2.5)
+				dispersion(0.20)
+			)
+		}
+		{place "mgun1"
+			{type "hull"}
+			{weapon "type97tmg" filled}
+			{foresight "foresight4"}
+			{gunner "driver"}
+			{charger "driver"}
+			("abm_mgun")
+			{basic}
+		}
+		{place "mgun2"
+			{type "rear"}
+			{weapon "type97tmg" filled}
+			{foresight "foresight5"}
+			{charger "commander"}
+			{gunner "commander"}
+			("abm_mgun")
+			{basic}
+		}
+	}
+
+	{mass 8400}
+	{Chassis
+		("tank_trace" fx("tracks_sm")  step(0.3) len(0.25))
+		("mobility_tank"
+			speed(40) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(9);---------Max speed in reverse on road, km/h.
+			traverse(34) ;-------Track traverse, per second, in degrees.
+			weight(8.4) ;-------Weight in Tonnes.
+			power(120) ;---------Engine Power, in hp.
+			track(5) ;-----------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(153) ;----------Fuel capacity in Litres.
+			type(fuel) ;---------Fuel type. (diesel OR fuel)
+			range(209) ;---------Range in km, off-road.
+		)
+	}
+
+	{bone "gun_rot"		;// hand rotation
+		{limits -12 14}
+		{speed2 10}
+	}
+	{bone "turret"		;// hand rotation
+		{speed2 10}
+	}
+}

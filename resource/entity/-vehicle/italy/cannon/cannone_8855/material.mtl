@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/cannone_8855"}
+	{bump "$/model/cannone_8855_bp"}
+	{specular "$/model/cannone_8855_sp"}
+	{color "229 229 229 178"}
+	{blend test}
+}

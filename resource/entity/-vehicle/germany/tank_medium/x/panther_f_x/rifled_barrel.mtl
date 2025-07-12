@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "rifled_barrel_Base_color"}
+	{bump "rifled_barrel_Normal_bump"}
+	{specular "rifled_barrel_Specular"}
+	{color "230 230 230 25"}
+	{blend none}
+}

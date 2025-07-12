@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "type88"}
+	{specular "$/model/type88_sp"}
+	{color "229 229 229 73"}
+	{blend none}
+}

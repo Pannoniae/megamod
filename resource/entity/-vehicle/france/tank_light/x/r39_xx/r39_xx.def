@@ -1,0 +1,17 @@
+{game_Entity
+	{Extension "r39_xx.mdl"}
+	{Volume "body1"
+	}
+	{Volume "gun"
+	}
+	{Volume "mantlet"
+	}
+	{Volume "shieldl2"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "trackright"
+	}
+	{Volume "turret"
+	}
+}

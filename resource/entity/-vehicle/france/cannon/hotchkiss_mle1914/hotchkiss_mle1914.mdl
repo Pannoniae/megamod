@@ -1,0 +1,217 @@
+;Exported by: skr
+;Date:        Fri Jun 28 22:55:56 2013
+;File:        D:\Documents\3dsmax\scenes\Hotchkiss Mle.1914\Hotchkiss Mle.1914 tripod.max
+{Skeleton
+	{animation
+		{sequence "close" {speed 0.5}}
+		{sequence "recoil" {speed 0.5}}
+	}
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "CommonMesh;ID=body;"}
+			{Position -0.0632399	-0.182947	8.59805}
+			{VolumeView "body.ply"}
+			{bone revolute "turret"
+				{parameters "ID=body;"}
+				{speed 0.04}
+				{Position 0.286168	0.236838	0.853184}
+				{VolumeView "turret.ply"}
+				{bone "commander"
+					{Position -20.0555	20.0282	-9.45123}
+				}
+				{bone "gunner"
+					{Position -12.681	-0.0269947	-9.45123}
+				}
+				{bone "visor"
+					{Matrix34
+						1	0	0
+						0	0	1
+						0	-1	0
+						13.0099	-0.206622	6.17427
+					}
+				}
+				{bone "vint"
+					{parameters "ID=body;"}
+					{Matrix34
+						0.516962	0	-0.856008
+						0	1	0
+						0.856008	0	0.516962
+						-7.09928	-0.0454616	1.10483
+					}
+					{VolumeView "vint.ply"}
+				}
+				{bone revolute "gun_rot"
+					{parameters "ID=mgun;"}
+					{limits -5 10}
+					{speed 0.05}
+					{Matrix34
+						-1	0	0
+						0	0	1
+						0	1	0
+						0.0102634	-0.0286793	5.70618
+					}
+					{VolumeView "gun_rot.ply"}
+					{bone "mgun"
+						{parameters "ID=mgun;"}
+						{Matrix34
+							-1	0	0
+							0	0	1
+							0	1	0
+							9.09112	-2.04466	-0.025214
+						}
+						{VolumeView "mgun.ply"}
+						{bone "shooter"
+							{Matrix34
+								1	0	0
+								0	0	1
+								0	-1	0
+								26.1657	0	2.07596
+							}
+						}
+						{bone "fxshell"
+							{Matrix34
+								0.00827611	-0.0807002	-0.996704
+								0.101684	-0.991504	0.0811235
+								-0.994782	-0.10202	0
+								7.36022	-0.627569	2.22502
+							}
+						}
+						{bone "foresight14"
+							{Matrix34
+								1	0	0
+								0	0	1
+								0	-1	0
+								27.2935	0	2.06931
+							}
+						}
+						{bone "detail1"
+							{Matrix34
+								0	1	0
+								0	0	1
+								1	0	0
+								25.0779	-0.0548726	2.07138
+							}
+							{VolumeView "detail1.ply"}
+						}
+						{bone "ammobelt"
+							{parameters "ID=mgun;"}
+							{Position 7.50728	1.8303	2.16773}
+							{VolumeView "ammobelt.ply"}
+						}
+					}
+				}
+			}
+			{bone revolute "stan1"
+				{Matrix34
+					0.957671	0	0.287865
+					-0.287865	0	0.957671
+					0	-1	0
+					-4.94182	-0.0596664	-2.40266
+				}
+				{VolumeView "stan1.ply"}
+				{bone "noga11"
+					{Position -12.4958	-0.00499344	-0.26974}
+					{VolumeView "noga11.ply"}
+				}
+				{bone "seat"
+					{Position 3.85446	0.194589	0}
+					{VolumeView "seat.ply"}
+				}
+			}
+			{bone revolute "sharnirl"
+				{parameters "ID=body;"}
+				{Matrix34
+					0.931332	0	0.36417
+					-0.36417	0	0.931332
+					0	1	0
+					0.471087	0.929999	-2.95628
+				}
+				{VolumeView "sharnirl.ply"}
+				{bone revolute "nogal"
+					{Matrix34
+						0	-0.697544	-0.716542
+						0	0.716542	-0.697543
+						1	0	0
+						-0.319846	0.0126872	0.482906
+					}
+					{VolumeView "nogal.ply"}
+				}
+			}
+			{bone revolute "sharnirr"
+				{parameters "ID=body;"}
+				{Matrix34
+					0.931332	0	0.36417
+					-0.36417	0	0.931332
+					0	-1	0
+					0.471087	-0.411856	-2.95628
+				}
+				{VolumeView "sharnirr.ply"}
+				{bone revolute "nogar"
+					{Matrix34
+						0	-0.697544	-0.716542
+						0	0.716542	-0.697543
+						1	0	0
+						-0.319846	0.0126872	0.482906
+					}
+					{VolumeView "nogar.ply"}
+				}
+			}
+		}
+		{bone "emit1"
+			{parameters "Group=crew;Visible=0;"}
+			{Position -40.2924	-9.37488	0}
+		}
+		{bone "emit2"
+			{parameters "Group=crew;Visible=0;"}
+			{Position -40.2924	-19.5164	0}
+		}
+		{bone "driver2"
+			{Position -6.28239	-3.11881	0}
+		}
+		{bone "driver1"
+			{Position 5.13937	2.71055	0}
+		}
+	}
+}
+{Obstacle "obb2"
+	{Circle2
+		{Radius 11.8554}
+		{Center -0.218003 -0.400806}
+	}
+	{Rotate}
+}
+{Volume "body"
+	{Box 6.11372 4.97629 2.16535}
+	{Bone "body"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-1.8695	0.122356	-0.418898
+	}
+}
+{Volume "mgun"
+	{Box 27.0615 3.5071 1.9685}
+	{Bone "mgun"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		11.8873	0.0887702	1.64341
+	}
+}
+{Volume "turret"
+	{Box 6.13742 2.18009 2.16535}
+	{Bone "turret"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		-2.13936	-0.128612	2.29426
+	}
+}

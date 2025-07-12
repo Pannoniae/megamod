@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "ho-ki_xx"}
+	{blend test}
+}

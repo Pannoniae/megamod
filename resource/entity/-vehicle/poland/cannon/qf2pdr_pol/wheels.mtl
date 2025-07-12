@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/wheel_en_small_ii"}
+	{blend none}
+}

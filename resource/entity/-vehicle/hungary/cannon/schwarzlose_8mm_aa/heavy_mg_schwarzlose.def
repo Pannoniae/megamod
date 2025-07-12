@@ -1,0 +1,59 @@
+{game_entity
+	(include "/properties/cannon_mgun.ext")
+	(include "/properties/shadow/tank.inc" scale(0.3))
+	{props "vision_lev00_can" "cannon_sandbag_standard" "muzzle_mg" "detect_cannon_aa"}
+	{collider "cannon_small"}
+
+	{Weaponry
+		{place "mgun1"
+			{weapon "schwarzlose" filled}
+			{type "main"}
+			{LinkBone ""}
+			{gunner "gunner"}
+			{charger "commander"}
+			{foresight "foresight4"}
+		}
+	} 
+	{boarder
+		{anm "gunner"
+			{forward {end "pose_dshk_aa_gunner"}}
+		}
+		{anm "commander"
+			{forward {end "pose_dshk_aa_commander"}}
+		}
+		{anm "driver1"
+			{forward {end "mgun_browning_driver_r"}}
+		}
+		{anm "driver2"
+			{forward {end "mgun_browning_driver_l"}}
+		}
+	}
+	{extender "inventory"
+		{box
+			{item "ammo 8x50b" 1000}
+			{item "plant" 5}
+			{item "sandbag_vehicle" 2}
+		}
+	} 	
+	
+	{Extension "8mm_schwarzlose_m07_31aa.mdl"}
+	
+	{sensor 
+		{visor "main" 
+			{vision "cannon_main"}
+			{bone "turret"}
+		}
+	}
+
+
+	{Volume "body"
+		{tags "body"}
+		{able{obstacle 0}}
+		{thickness 1}
+		{component "body"}
+	}
+	{Texmod "olivgrun"}
+	{bone "basis"
+		{speed2 20}
+	}
+}

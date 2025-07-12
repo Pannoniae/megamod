@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "75mm1897a4"}
+	{bump "$/model/75mm1897a4_bp"}
+	{specular "$/model/75mm1897a4_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

@@ -1,0 +1,31 @@
+;SDL
+
+	; armor notes
+	; tracks 10mm
+	; gun 20mm
+
+	("armoredcar_tier1")
+
+	("tracks" repair(30) thickness(15))
+	("gun" repair(30) thickness(15))
+
+	{volume "body1"
+		{component "body"}
+		{tags "body"}
+		{thickness 10}
+	}
+	{volume "body2"
+		{component "body"}
+		{tags "body"}
+		{thickness 10}
+	}
+	{volume "body3"
+		{component "body"}
+		{tags "body"}
+		{thickness 10}
+	}
+	{Volume "engine"
+		{tags "engine"}
+		{component "engine"}
+		{thickness 10}
+	}

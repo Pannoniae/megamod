@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "Hotchkiss_H35_chassis_01_AM"}
+	{specular "$/model/Hotchkiss_H35_chassis_01_AO"}
+	{color "229 229 229 25"}
+	{blend none}
+}

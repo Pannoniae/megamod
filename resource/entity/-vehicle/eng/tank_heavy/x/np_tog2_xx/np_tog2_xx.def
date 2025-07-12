@@ -1,0 +1,15 @@
+{game_entity
+	{Extension "tog2_xx.mdl"}
+	{Volume "body"
+	}
+	{Volume "engine"
+	}
+	{Volume "gun"
+	}
+	{Volume "turret"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "trackright"
+	}	
+}

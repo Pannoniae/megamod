@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/model/universal_carrier/universal_carrier_chassis_x"}
+	{bump "$/model/universal_carrier/universal_carrier_chassis_nm"}
+	{blend none}
+}

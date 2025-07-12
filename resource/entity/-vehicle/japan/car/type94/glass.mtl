@@ -1,0 +1,4 @@
+{material envmap
+	{diffuse "type94_glass"}
+	{blend blend}
+}

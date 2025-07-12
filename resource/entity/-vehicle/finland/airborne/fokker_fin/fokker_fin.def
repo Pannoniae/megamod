@@ -1,0 +1,68 @@
+{game_entity
+	(include "/properties/airborne_mp.ext")
+	(include "/properties/selection/airborne.inc" scale(1.5))
+	(include "/properties/car_crew.ext")
+	{props "wheeled" "vision_lev02_air"}
+	{PatherID "yak1"}
+	("fighter_tier1")
+	{boarder
+		{anm "driver"
+			{forward {begin "board_plane_left"} {end "seat_driver_car"} {base "open"}}
+			{reverse {end "board_plane_left" -1} {base "open" -1}}
+		}
+	}
+	("crew_human" place(driver) bone(driver) door(emit1) animation(driver) group(crew))
+
+	{Placer
+		{place "driver" {turnOff {targetable}}}
+	}
+	("single_engine")
+	("wheel" args "wheelr")
+	("wheel" args "wheell")
+	("wheel" args "wheelback")
+
+	{Chassis "wheel"
+		("car_trace" fx("tracewheel05") step(0.07) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+	}
+	{Chassis "airborne"
+		("flight_model"
+			speed(460)  ;//---------Max speed (at sea level), km/h.
+			climb_speed(17) ;//-----Climb rate at sea level, in m/s
+			turn(180) ;//-----------Turn-and-burn radius in meters, tightest sustained turn
+			turnMP(150) ;//----------Turn-and-burn radius in meters, tightest sustained turn in Multiplayer
+			aerodynamics(2.0) ;//---Aerodynamic efficiency rating (0-3)
+			weight(1970) ;//--------Weight in kg.
+			power(760) ;//---------Horse Power.
+			fuel(350) ;//-----------Fuel capacity in Liters.
+			range(930) ;//----------Distance can travel with full fuel tank, in km.
+			roll_rate(60) ;//-------Roll rate, in degrees per second.
+			roll_angle(65) ;//------Maximum roll angle, in degrees.
+		)
+	}
+	{mass 1970}
+	{extender "inventory"
+		{box
+			{item "ammo 7x58" 750}
+
+		}
+	}
+	{Weaponry
+		{place "mgun1"
+			{weapon "vickers7_7"  filled}
+			{foresight "foresight4"}
+			{barrels 4}
+			{charger "driver"}
+			{gunner "driver"}
+			{ai_in_manual}
+			{basic}
+		}
+	}
+	{Extension "fokker.mdl"}
+	{sensor
+		{Visor "main"
+			{bone  "foresight4"}
+			{vision "airborne_main"}  
+		}
+	
+	}
+}

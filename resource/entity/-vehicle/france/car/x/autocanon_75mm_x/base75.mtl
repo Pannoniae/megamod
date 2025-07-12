@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "turret"}
+	{specular "$/model/75spg_turret_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

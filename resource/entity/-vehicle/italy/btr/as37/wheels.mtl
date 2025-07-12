@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "as37_wheels"}
+	{blend none}
+}

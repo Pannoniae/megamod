@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "$/_vehicle/kugel_xx"}
+	{bump "$/_vehicle/panzer4_late_bp"}
+	{specular "$/_vehicle/panzer4_late_x_sp"}
+	{color "230 230 230 25"}
+	{blend test}
+}
+

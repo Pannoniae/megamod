@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "75mm_wz36_x"}
+	{specular "$/model/75mm_wz36_sp"}
+	{blend none}
+}

@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/_vehicle/rifling"}
+	{specular "$/_vehicle/rifling_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

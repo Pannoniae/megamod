@@ -1,0 +1,56 @@
+{game_entity
+	(include "/properties/cannon_mgun.ext")
+	{collider "cannon_small"}
+	{props"cannon_small" "round_sandbag2" "vision_cannon_minimum" }
+
+	{Weaponry
+		{place "mgun"
+			{type "main"}
+			{LinkBone ""}
+			{weapon "hotchkiss1914" filled}
+			{gunner "gunner"}
+			{charger "gunner"}
+		}
+	} 
+	{extender "inventory"
+		{box
+			{clear}
+			{item "ammo 8x50" 3000}
+			{item "plant" 5}
+		}
+	} 	
+	{Extension "hotchkiss_mle1914.mdl"}
+
+	{boarder
+		{anm "gunner"
+			{forward	{end "pose_vicers_gunner" 10}}
+		}
+		{anm "commander"
+			{forward	{end "lie_take_item_end" 10}}
+		}
+	
+	}
+
+	{sensor 
+		{visor "main" 
+			{vision "cannon_main"}
+			{bone "turret"}
+		}
+	}
+	
+	{extender "cannon"
+		{animation
+			{reload  "" "lie_take_small end lie_take_item_end"}
+		}
+		{move {obstacle "close"}}
+		{attack {obstacle "open"}}
+		{rotate_ik_Limit 0}
+	}
+
+	{Volume "body"
+		{tags "body"}
+		{able{obstacle 0}}
+		{thickness 1}
+		{component "body"}
+	}
+}

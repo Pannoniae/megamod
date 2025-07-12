@@ -1,0 +1,29 @@
+{game_entity
+	{Extension "300mm_krh42_xx.mdl"}
+	{Volume "barrel1"
+	}
+	{Volume "barrel2"
+	}
+	{Volume "body1"
+	}
+	{Volume "body10"
+	}
+	{Volume "body11"
+	}
+	{Volume "body2"
+	}
+	{Volume "body3"
+	}
+	{Volume "body4"
+	}
+	{Volume "body6"
+	}
+	{Volume "body7"
+	}
+	{Volume "body8"
+	}
+	{Volume "hole"
+	}
+	{Volume "wheelright1"
+	}
+}

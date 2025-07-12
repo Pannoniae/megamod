@@ -1,0 +1,92 @@
+{game_entity
+	(include "/properties/airborne.ext")
+	(include "/properties/selection/airborne.inc" scale(3.0))
+	{props "wheeled" "vision_lev02_air"}
+	{PatherID "bf110"}
+	("fighter_tier2")
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_plane_left"} {end "seat_driver_car"}}
+			{reverse 	{end	"board_plane_left" -1}}
+		}
+		{anm "gunner"
+			{forward	{begin	"board_plane_right"} {end "seat_driver_car"}}
+			{reverse 	{end	"board_plane_right" -1}}
+		}
+	}
+	("crew_human" place(driver) bone(driver) door(emit1) animation(driver))
+	("crew_human" place(gunner) bone(gunner) door(emit1) animation(gunner))
+	{Placer
+		{place "driver" {turnOff {targetable}}}
+		{place "gunner" {turnOff {targetable}}}
+	}
+
+	("double_engine")
+	("wheel" args "wheelr")
+	("wheel" args "wheell")
+	("wheel" args "wheelback")
+	{Chassis "airborne"
+		("flight_model"
+			speed(370)  ;//---------Max speed (at sea level), km/h.
+			climb_speed(11) ;//-----Climb rate at sea level, in m/s
+			turn(250) ;//-----------Turn-and-burn radius in meters, tightest sustained turn
+			turnMP(33) ;//----------Turn-and-burn radius in meters, tightest sustained turn in Multiplayer
+			aerodynamics(1.55) ;//--Aerodynamic efficiency rating (0-3)
+			weight(15200) ;//--------Weight in kg.
+			power(3700) ;//---------Horse Power.
+			fuel(1300) ;//----------Fuel capacity in Liters.
+			range(2100) ;//---------Distance can travel with full fuel tank, in km.
+			roll_rate(40) ;//-------Roll rate, in degrees per second.
+			roll_angle(65) ;//------Maximum roll angle, in degrees.
+		)
+	}
+	{mass 6600}
+	
+	{extender "inventory"
+		{box
+			{item "ammo air_bomb 1000lb" 3}
+			{item "bullet_20_auto aphe" 800}
+			{item "ammo 7x63" 3000}
+		}
+	}	
+	{Weaponry
+		{place "gun"
+			{weapon "20mm_hispano" filled}
+			{barrels 4}
+			{foresight "foresight1"}
+			{shooter "shooter_g"}
+			{charger "driver"}
+			{gunner "driver"}
+			{rotate}
+			{basic}
+		}
+		{place "mgun"
+			{type "rear"}
+			{weapon "browning_m19" filled}
+			{LinkBone "mgun"}
+			{LinkAnimation "off"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{rotate}
+			{basic}
+		}
+		{place "mgun1"
+            {type "hull"}
+			{weapon "browning_m19" filled}
+			{barrels 6}
+			{shooter "shooter_m"}
+			{charger "driver"}
+			{gunner "driver"}
+			{foresight "foresight31"}
+			{basic}
+		}
+		{place "bomb"
+			{weapon "bomb_dropper_m65" filled}
+			{charger "driver"}
+			{gunner "driver"}
+			{basic}
+		}
+	}
+	{Extension "bristol.mdl"}
+}
+

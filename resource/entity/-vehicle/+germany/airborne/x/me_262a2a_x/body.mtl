@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "me262a_2a_x"}
+	{bump "me262a_2a_camo3_n_n"}
+	{specular "me262a_2a_camo3_n_s"}
+	{color "230 230 230 25"}
+	{blend test}
+}

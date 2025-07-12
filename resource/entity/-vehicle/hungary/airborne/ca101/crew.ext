@@ -1,0 +1,43 @@
+
+{boarder
+		{anm "driver"
+			{forward	{begin	"board_dodge_bodyback"} {end "seat_driver_car"} {base "open"}}
+			{reverse 	{end	"board_dodge_bodyback" -1} {base "open" -1}}
+		}
+		{anm "commander"
+			{forward	{begin	"board_dodge_bodyback"} {end "seat_driver_car"} {base "open"}}
+			{reverse 	{end	"board_dodge_bodyback" -1} {base "open" -1}}
+		}
+		{anm "gunner"
+		{forward	{begin	"board_dodge_bodyback"} {end "seat_gunner_stand"} {base "open"}}
+		{reverse 	{end	"board_dodge_bodyback" -1} {base "open" -1}}
+		}
+		{anm "passengers"
+			{forward	{begin	"board_dodge_bodyback"} {end "seat_driver_car"} {base "open"}}
+			{reverse 	{end	"board_dodge_bodyback" -1} {base "open" -1}}
+		}
+	}
+
+(define "crew_human"
+	{placer
+		{place "%place" {group "%group"} {linkbone "%bone"} {turnoff {sensor} {shadow}}}
+	}
+	{boarder
+		{door "%door"}
+		{link "%door" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+	}
+)
+
+("crew_human" place(driver) bone(driver) door(emit1) animation(driver) group(crew))
+("crew_human" place(commander) bone(commander) door(emit1) animation(commander) group(crew))
+("crew_human" place(gunner) bone(gunner) door(emit1) animation(gunner) group(crew))
+
+("crew_human" place(seat1) 	door(emit1) bone(seat01)	animation(passengers) 	group(passengers))
+("crew_human" place(seat2) 	door(emit1) bone(seat02)	animation(passengers)	group(passengers))
+("crew_human" place(seat3) 	door(emit1) bone(seat03)	animation(passengers)	group(passengers))
+("crew_human" place(seat4) 	door(emit1) bone(seat04)	animation(passengers)	group(passengers))
+("crew_human" place(seat5) 	door(emit1) bone(seat05)	animation(passengers)	group(passengers))
+("crew_human" place(seat6) 	door(emit1) bone(seat00)	animation(passengers)	group(passengers))
+
+  
+

@@ -1,0 +1,31 @@
+{game_entity
+	{Extension "pf621_75mm_xx.mdl"}
+	{Volume "body"
+	}
+	{Volume "cabin2"
+	}
+	{Volume "cabin3"
+	}
+	{Volume "cabin"
+	}
+	{Volume "engine"
+	}
+	{Volume "gun"
+	}
+	{Volume "turret1"
+	}
+	{Volume "turret2"
+	}
+	{Volume "turret4"
+	}
+	{Volume "turret"
+	}
+	{Volume "wheelleft1"
+	}
+	{Volume "wheelleft2"
+	}
+	{Volume "wheelright1"
+	}
+	{Volume "wheelright2"
+	}
+}

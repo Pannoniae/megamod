@@ -1,0 +1,103 @@
+;Exported by: Normand
+;Date:        Sun Sep 08 10:39:25 2024
+;File:        C:\Users\Normand\cannone7527_x.max
+{Skeleton
+	{bone revolute "basis"
+		{speed 0.002}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{animation
+				{sequence "break" {file "body_b.anm"} {speed 0.4}}
+			}
+			{Position -0.396426	-0.0482938	12.3498}
+			{VolumeView "body.ply"}
+			{bone "standl"
+				{parameters "ID=body;"}
+				{Matrix34
+					0.978148	0	0.207912
+					0	1	0
+					-0.207912	0	0.978148
+					-1.85037	6.63437	-0.095788
+				}
+				{VolumeView "standl.ply"}
+			}
+			{bone "standr"
+				{parameters "ID=body;"}
+				{Matrix34
+					0.978148	0	0.207912
+					0	1	0
+					-0.207912	0	0.978148
+					-1.90729	-6.57842	-0.147906
+				}
+				{VolumeView "standr.ply"}
+			}
+			{bone revolute "turret"
+				{limits -10 10}
+				{Matrix34
+					0	-1	0
+					1	0	0
+					0	0	1
+					0.041413	0.0155509	-0.0416851
+				}
+				{bone revolute "gun_rot"
+					{parameters "ID=gun;"}
+					{limits -17 35}
+					{Matrix34
+						0	1	0
+						0	0	1
+						1	0	0
+						-0.075712	-2.07489	5.04796
+					}
+					{VolumeView "gun_rot.ply"}
+					{bone "gun"
+						{parameters "ID=gun;"}
+						{animation
+							{sequence "break" {file "gun_b.anm"} {speed 0.4}}
+						}
+						{Position 5.18269	-1.28053	0.42572}
+						{VolumeView "gun.ply"}
+						{bone "hatch"
+							{parameters "ID=gun;"}
+							{Matrix34
+								0.981293	0.192522	0
+								0	0	-1
+								-0.192522	0.981293	0
+								-18.756	-3.34857	2.04844
+							}
+							{VolumeView "hatch.ply"}
+						}
+					}
+				}
+			}
+		}
+		{bone "pivot_front"
+			{Position -0.371681	-0.0269012	12.3205}
+			{VolumeView "pivot_front.ply"}
+			{bone revolute "wheell"
+				{parameters "ID=wheelleft;Support=1;Radius=0.6;"}
+				{Matrix34
+					-1	0	0
+					0	0	1
+					0	1	0
+					-0.018259	13.8077	0.0586853
+				}
+				{VolumeView "wheell.ply"}
+			}
+			{bone revolute "wheelr"
+				{parameters "ID=wheelright;Support=1;Radius=0.6;"}
+				{Matrix34
+					-1	0	0
+					0	0	1
+					0	1	0
+					0.0112257	-13.9076	0.0409088
+				}
+				{VolumeView "wheelr.ply"}
+			}
+		}
+	}
+}

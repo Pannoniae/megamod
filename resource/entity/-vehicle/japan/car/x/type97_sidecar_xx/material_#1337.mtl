@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "type97_engine"}
+	{bump "$/model/empty_bp"}
+	{specular "$/model/harley_engine_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

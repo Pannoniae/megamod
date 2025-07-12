@@ -1,0 +1,57 @@
+{game_entity
+	(include "/properties/cannon_mgun.ext")
+	(include "/properties/shadow/tank.inc" scale(0.6))
+	{Extension "type92_jap_lewis.mdl"}
+	{props "vision_lev00_can" "cannon_sandbag_standard" "muzzle_hmg_dshk" "detect_cannon_aa" "cannon_sandbag_standard"}
+
+	{props "wheeled"}
+	("wheel" args "wheelright")
+	("wheel" args "wheelleft")
+
+	{extender "inventory"
+		{weapon "mgun" {mask "mountable"}}
+		{Box		
+			{item "ammo 7x58" 1500}
+			{item "type92lewis" filled {user "mgun"}}
+			{item "sandbag_vehicle" 2}
+		}
+	}
+	{Weaponry
+		{place "mgun"
+			{LinkBone "mgun"}
+			{LinkAnimation "off"}
+			{charger "gunner"}
+		}
+	}
+	
+	{boarder
+		{anm "gunner"
+			{forward {end "pose_dshk_aa_gunner"}}
+		}
+		{anm "commander"
+			{forward {end "pose_dshk_aa_commander"}}
+		}
+		{anm "driver1"
+			{forward {end "mgun_browning_driver_r"}}
+		}
+		{anm "driver2"
+			{forward {end "mgun_browning_driver_l"}}
+		}
+	}
+
+	{extender "cannon"
+		{animation
+		;// "gunner" "commander"
+			{switch "close"}
+			{move "mgun_browning_driver_r" "mortar_driver_l"}
+			{aim "" "mg_dshk_aa_commander_aim"}
+		}
+	}
+ 	{Volume "body"
+		{tags "body"}
+		{able{obstacle 0}}
+		{thickness 1}
+		{component "body"}
+	}
+	;{Texmod "dunkelgelb"}
+}

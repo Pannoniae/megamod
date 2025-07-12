@@ -1,0 +1,5 @@
+{material simple
+	{diffuse "$/animation/bob_track"}
+	{blend test}
+	{tile}
+}

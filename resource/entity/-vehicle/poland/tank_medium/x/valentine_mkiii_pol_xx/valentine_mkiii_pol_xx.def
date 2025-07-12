@@ -1,0 +1,29 @@
+{game_entity
+	{Extension "mk3_2_xx.mdl"}
+	{Volume "body2"
+	}
+	{Volume "body3"
+	}
+	{Volume "body4"
+	}
+	{Volume "body"
+	}
+	{Volume "engine"
+	}
+	{Volume "gun"
+	}
+	{Volume "mantlet"
+	}
+	{Volume "shieldl1"
+	}
+	{Volume "shieldr1"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "tracklright"
+	}
+	{Volume "turret2"
+	}
+	{Volume "turret"
+	}
+}

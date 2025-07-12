@@ -1,0 +1,4 @@
+{material envmap
+	{diffuse "cabin"}
+	{blend blend}
+}

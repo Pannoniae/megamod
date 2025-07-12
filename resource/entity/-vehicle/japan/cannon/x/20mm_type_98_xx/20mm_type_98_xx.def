@@ -1,0 +1,25 @@
+{game_entity
+	{Extension "20mm_type_98_xx.mdl"}
+	{Volume "body2"
+	}
+	{Volume "body"
+	}
+	{Volume "gun2"
+	}
+	{Volume "gun"
+	}
+	{Volume "magazine"
+	}
+	{Volume "stand1"
+	}
+	{Volume "stand2"
+	}
+	{Volume "stand3"
+	}
+	{Volume "turret"
+	}
+	{Volume "wheelleft"
+	}
+	{Volume "wheelright"
+	}
+}

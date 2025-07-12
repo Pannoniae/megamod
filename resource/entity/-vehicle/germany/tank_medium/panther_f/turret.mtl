@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/panther_f/turret_Base_color"}
+	{bump "$/model/panther_f/turret_Normal_bump"}
+	{specular "$/model/panther_f/turret_Specular"}
+	{color "230 230 230 25"}
+	{blend none}
+}

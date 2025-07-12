@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "matilda_xx"}
+	{blend none}
+}

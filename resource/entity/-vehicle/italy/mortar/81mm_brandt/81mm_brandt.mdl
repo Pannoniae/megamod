@@ -1,0 +1,250 @@
+;Exported by: Sergey
+;Date:        Sun Jan 05 22:11:00 2014
+;File:        D:\Documents\3dsmax\scenes\81mm Brandt mle 27-31\81mm Brandt.max
+{Skeleton
+	{animation
+		{sequence "close" {speed 0.6}}
+		{sequence "recoil" {speed 0.6}}
+	}
+	{bone revolute "basis"
+		{speed 0.005}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "sandbag"
+			{Position 20.0 	 0 	 0}
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Matrix34
+				0.988085	0	-0.153911
+				0	1	0
+				0.153911	0	0.988085
+				0.238139	0	0.597169
+			}
+			{LODView
+				{VolumeView "body.ply"}
+				{VolumeView "body_lod1.ply"}
+			}
+			{bone "ruchka"
+				{parameters "ID=body;"}
+				{Matrix34
+					0.996663	0	0.081632
+					0	1	0
+					-0.081632	0	0.996663
+					-3.84217	0.0121879	0.824113
+				}
+				{VolumeView "ruchka.ply"}
+			}
+			{bone revolute "turret"
+				{parameters "ID=body;"}
+				{limits -6 6}
+				{speed 0.007}
+				{Matrix34
+					0.988085	0	0.153911
+					0	1	0
+					-0.153911	0	0.988085
+					-0.339603	0.00114248	0.634812
+				}
+				{VolumeView "turret.ply"}
+				{bone "gun"
+					{parameters "ID=gun;"}
+					{Matrix34
+						0.797711	0	-0.60304
+						0	1	0
+						0.60304	0	0.797711
+						1.29198	0.00274444	1.72077
+					}
+					{LODView
+						{VolumeView "gun.ply"}
+						{VolumeView "gun_lod1.ply"}
+					}
+					{bone "homut"
+						{parameters "ID=gun;"}
+						{Position 0	0	13.7197}
+						{LODView
+							{VolumeView "homut.ply"}
+						}
+						{bone "pricel"
+							{Matrix34
+								-0.768146	0	-0.640275
+								-0.640275	0	0.768146
+								0	1	0
+								1.9842	1.98376	2.95208
+							}
+							{VolumeView "pricel.ply"}
+							{bone "visor"
+								{Matrix34
+									-0.99887	-0.0475322	0
+									-0.0475322	0.99887	0
+									0	0	-1
+									-0.397868	0.835401	0.101042
+								}
+							}
+						}
+						{bone revolute "povorot"
+							{parameters "ID=body;"}
+							{Matrix34
+								0.643152	0	-0.765738
+								0.765738	0	0.643152
+								0	-1	0
+								1.73634	0.604348	2.9271
+							}
+							{LODView
+								{VolumeView "povorot.ply"}
+								{VolumeView "povorot_lod1.ply"}
+							}
+							{bone "stan"
+								{parameters "ID=body;"}
+								{Matrix34
+									1	0	0
+									0	0	-1
+									0	1	0
+									6.78377	-0.178192	0.58202
+								}
+								{LODView
+									{VolumeView "stan.ply"}
+									{VolumeView "stan_lod1.ply"}
+								}
+								{bone revolute "noga_l"
+									{parameters "ID=body;"}
+									{Matrix34
+										0.82971	0.558194	0
+										-0.558194	0.82971	0
+										0	0	1
+										0.145478	0.00358635	0.381427
+									}
+									{VolumeView "noga_l.ply"}
+								}
+								{bone revolute "noga_r"
+									{parameters "ID=body;"}
+									{Matrix34
+										0.818485	-0.574529	0
+										0.574528	0.818485	0
+										0	0	1
+										0.155423	0	0
+									}
+									{VolumeView "noga_r.ply"}
+								}
+								{bone revolute "styazhka"
+									{parameters "ID=body;"}
+									{Matrix34
+										0.982137	-0.188167	0
+										0.188167	0.982137	0
+										0	0	1
+										4.4276	0.550985	0.391014
+									}
+									{VolumeView "styazhka.ply"}
+								}
+							}
+						}
+					}
+					{bone revolute "foresight"
+						{limits -20 25}
+						{speed 0.01}
+						{Matrix34
+							-0.015655	0	0.999877
+							-0.999877	0	-0.015655
+							0	-1	0
+							-0.00344038	-0.0038827	25.1273
+						}
+					}
+					{bone "handle1"
+						{Matrix34
+							0.797711	0	0.60304
+							-0.60304	0	0.797711
+							0	-1	0
+							1.2142	-0.0038834	19.5341
+						}
+					}
+				}
+				{bone "visor2"
+					{Matrix34
+						1	0	0
+						0	0	1
+						0	-1	0
+						14.1772	-4.96446	13.8725
+					}
+				}
+			}
+			{bone "handle2"
+				{Matrix34
+					0.988085	0	0.153911
+					-0.153911	0	0.988085
+					0	-1	0
+					-3.8623	0	-0.0745201
+				}
+			}
+		}
+		{bone "driver1"
+			{Position 14.6159	-3.38352	0}
+		}
+		{bone "driver2"
+			{Position -7.32447	-0.160785	0}
+		}
+		{bone "emit2"
+			{Position -15.2467	-10.0186	0}
+		}
+		{bone "emit1"
+			{Position -15.3415	10.1709	0}
+		}
+		{bone "gunner"
+			{Position 5.13241	10.2625	0}
+		}
+		{bone "commander"
+			{Position 4.84805	-13.0366	0}
+		}
+	}
+}
+{Volume "body"
+	{Box 7.91467 10.1895 2.84359}
+	{Bone "body"}
+	{Matrix34
+		0.999681	0	-0.0252829
+		0	1	0
+		0.0252829	0	0.999681
+		-0.381039	-0.0174017	-0.123319
+	}
+}
+{Volume "gun"
+	{Cylinder 1.33039 27.4799}
+	{Bone "gun"}
+	{Matrix34
+		0.999995	0	0.00315428
+		0	1	0
+		-0.00315428	0	0.999995
+		0.0565146	-0.110859	11.8308
+	}
+}
+{Volume "noga_l"
+	{Cylinder 0.602951 10.9277}
+	{Bone "noga_l"}
+	{Matrix34
+		0.00704333	-0.00473848	0.999964
+		-0.0186385	0.999814	0.00486907
+		-0.999801	-0.0186725	0.00695378
+		5.37414	0.888537	0.0100118
+	}
+}
+{Volume "noga_r"
+	{Cylinder 0.602951 10.9277}
+	{Bone "noga_r"}
+	{Matrix34
+		9.05171e-005	6.35442e-005	1
+		-0.00736642	0.999973	-6.28512e-005
+		-0.999973	-0.00736573	9.09641e-005
+		5.11097	-0.800394	0.364729
+	}
+}
+{Volume "povorot"
+	{Cylinder 0.602951 12.3284}
+	{Bone "povorot"}
+	{Matrix34
+		0.00960366	0.999954	0
+		0	0	-1
+		-0.999954	0.00960366	0
+		6.20815	0.153829	0.603917
+	}
+}

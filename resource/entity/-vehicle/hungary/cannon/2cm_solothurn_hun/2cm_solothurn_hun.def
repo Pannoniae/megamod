@@ -1,0 +1,63 @@
+{game_entity
+	(include "/properties/cannon_mgun.ext")
+	(include "/properties/shadow/tank.inc" scale(0.6))
+	{Extension "20_mm_solothurn_s18_100.mdl"}
+	{props "cannon_small" "vision_lev00_can" "magazine" "muzzle_20mm_25mm_auto" "no_sandbags" "detect_atgun_small"}
+	{targetclass "cannon_zenite"}
+	{targetSelector "cannon_zenite"}
+	
+	{boarder
+		{anm "gunner"
+			{forward	{end "lie_fire_mgun" 10}}
+		}
+		{anm "commander"
+			{forward	{end "lie_take_item_end" 10}}
+		}
+		{anm "driver1"
+			{forward {end "mgun_browning_driver_r" 10}}
+		}
+		{anm "driver2"
+			{forward {end "mortar_driver_l" 10}}
+		}
+	}
+	{extender "cannon"
+		{animation
+			{move "mgun_browning_driver_r" "mortar_driver_l"}
+			{fire  "lie_fire_mgun" ""}
+			{reload  "" "lie_take_small end lie_take_item_end"}
+		}
+		{move {obstacle "close"}}
+		{attack {obstacle "open"}}
+	}
+
+	{extender "inventory"
+		{box
+			{item "bullet20x105b ap" 60}
+			{item "bullet20x105b he" 20}
+			;{item "sandbag_vehicle" 2}
+		}
+	}
+	
+	{Weaponry
+		{place "gun"
+			{weapon "solothurn" filling "ammo bullet20x105b ap" 5}
+			{Rotate}
+			{foresight "foresight1"}
+			{charger "commander"}
+			("abm_dymamic_gun"
+				zeroing(2.7)
+				dispersion(0.12)
+			)
+		}
+	}
+	
+	{mass 60}
+
+	{Chassis
+		("mobility_cannon"
+			speed(10.2) ;--------------------------------Max speed.
+			weight(60) ;--------------------------------Weight in Kilograms.
+		)
+	}
+	
+}

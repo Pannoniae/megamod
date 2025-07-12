@@ -1,0 +1,53 @@
+;SDL
+
+	; armor notes
+	; tracks and wheels 10mm
+
+	("tankette_tier1")
+	("fuel" args "fuel")
+
+	("tracks" repair(50) thickness(6))
+	("transmission" args "transmission")
+
+	{volume "body1"			; Hull
+		{thickness 6
+			{top 2}		; Glacis
+			{bottom 2}
+		}
+	}
+	{volume "body2"			; Superstructure
+		{thickness 6
+			{top 2}
+			{bottom 2}
+		}
+	}
+	{volume "body2"			; Superstructure
+		{thickness 6
+			{top 2}
+			{bottom 2}
+		}
+	}
+	{volume "body3"			; Driver Door Top
+		{thickness 6
+			{top 3}
+			{rear 3}
+		}
+	}
+	{volume "body4"			; Driver Door Bottom
+		{thickness 6
+			{front 3}
+			{rear 2}
+			{bottom 2}
+		}
+	}
+
+
+	{volume "turret1"		; Turret 1 Base
+		{thickness 4
+			{top 3}
+		}
+	}
+	{volume "engine"
+		{thickness 4}
+		{able {NoWoundDecal}}
+	}

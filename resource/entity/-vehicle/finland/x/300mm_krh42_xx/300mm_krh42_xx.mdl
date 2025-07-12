@@ -1,0 +1,298 @@
+;Exported by: andre
+;Date:        Sun Sep 24 23:40:21 2023
+;File:        C:\Users\andre\Desktop\300mm_krh42_xx.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone revolute "sinker"
+			{Position -32.8451	0	6.61279}
+			{VolumeView "sinker.ply"}
+			{bone "base_xx"
+				{Matrix34
+					0.99395	0.0423888	-0.101323
+					-0.0472518	0.997819	-0.0460855
+					0.099149	0.0505944	0.993786
+					30.9456	1.41984	1.29669
+				}
+				{VolumeView "base_xx.ply"}
+				{bone "brake_handle_xx"
+					{Matrix34
+						0.802716	0.594206	-0.0506608
+						-0.509409	0.727367	0.459825
+						0.31008	-0.343302	0.886563
+						-2.04545	-8.32134	-0.330734
+					}
+					{VolumeView "brake_handle_xx.ply"}
+				}
+				{bone "leg_right_xx"
+					{Matrix34
+						0.993745	0.0916292	0.0638299
+						-0.0652199	0.940207	-0.334301
+						-0.090645	0.328047	0.940302
+						11.4894	-6.59138	2.77081
+					}
+					{VolumeView "leg_right_xx.ply"}
+				}
+				{bone "legs_base_left_xx"
+					{Matrix34
+						0.984808	-0.0151343	-0.172988
+						0.0151343	0.999885	-0.00131923
+						0.172987	-0.00131883	0.984923
+						29.7559	9.71268	0.318756
+					}
+					{VolumeView "legs_base_left_xx.ply"}
+				}
+				{bone "part6"
+					{Matrix34
+						0.971001	0.101046	-0.216672
+						-0.116669	0.991324	-0.0605323
+						0.208676	0.0840558	0.974366
+						29.7559	-9.7129	0.318756
+					}
+					{VolumeView "part6.ply"}
+					{bone "legs_grip_right_xx"
+						{Matrix34
+							0.984808	0	0.173648
+							0	1	0
+							-0.173648	0	0.984808
+							-3.04199	9.71283	0.8582
+						}
+						{VolumeView "legs_grip_right_xx.ply"}
+						{bone prizmatic "suspension_r1_xx"
+							{limits -0.1 0.1}
+							{Matrix34
+								0.621171	-0.680217	0.389168
+								0.704199	0.702391	0.103684
+								-0.343876	0.209646	0.915313
+								-6.20755	-33.5139	-0.103352
+							}
+							{bone revolute "wheelr1_xx"
+								{parameters "ID=wheelright1;Radius=0.41;"}
+								{Matrix34
+									-0.0615009	-0.988016	0.14157
+									0.0459278	0.138887	0.989243
+									-0.99705	0.0673412	0.0368357
+									0.38401	-0.0965834	-1.16133
+								}
+								{VolumeView "wheelr1_xx.ply"}
+							}
+							{bone "part4"
+								{Matrix34
+									0.0172538	0.999848	-0.00263381
+									-0.988078	0.0174533	0.152963
+									0.152986	-3.68506e-05	0.988228
+									-3.63506	0.372789	-0.705673
+								}
+								{VolumeView "part4.ply"}
+							}
+						}
+					}
+				}
+				{bone "suspensor_axis_base_xx"
+					{Matrix34
+						0.999071	0.042986	0.00292682
+						-0.0373751	0.898452	-0.437478
+						-0.021435	0.436962	0.899225
+						23.8796	0	-2.3608
+					}
+					{VolumeView "suspensor_axis_base_xx.ply"}
+					{bone "damper_handle_rotation_xx"
+						{Matrix34
+							0.965926	0	0.258819
+							0	1	0
+							-0.258819	0	0.965926
+							-6.2027	0	14.6382
+						}
+						{VolumeView "damper_handle_rotation_xx.ply"}
+					}
+				}
+				{bone "tensioner1"
+					{Position -29.3015	-5.42244	6.01383}
+					{VolumeView "tensioner1.ply"}
+				}
+				{bone "tensioner2"
+					{Position -26.6784	-5.90645	1.19022}
+					{VolumeView "tensioner2.ply"}
+				}
+				{bone "tensioner3"
+					{Position -26.6784	5.90653	1.19022}
+					{VolumeView "tensioner3.ply"}
+				}
+				{bone "tensioner4"
+					{Position -29.3015	5.42236	6.01383}
+					{VolumeView "tensioner4.ply"}
+				}
+				{bone "valve_xx"
+					{Matrix34
+						0.997576	-0.0661584	0.0215619
+						0.0591755	0.643585	-0.763083
+						0.0366075	0.76251	0.64594
+						31.0255	3.0999	0.266838
+					}
+					{VolumeView "valve_xx.ply"}
+				}
+				{bone "wheel_gunner_xx"
+					{Matrix34
+						0.955373	0.289505	0.0587326
+						-0.269094	0.934935	-0.231266
+						-0.121864	0.205141	0.971116
+						27.586	7.76154	4.63783
+					}
+					{VolumeView "wheel_gunner_xx.ply"}
+				}
+				{bone "gun_xx"
+					{Matrix34
+						0.915516	0.139845	-0.377191
+						0.386471	-0.0454801	0.92118
+						0.111668	-0.989128	-0.0956841
+						-29.3099	-0.0450122	5.95104
+					}
+					{VolumeView "gun_xx.ply"}
+					{bone "pretensioner_axis_xx"
+						{Matrix34
+							1	0	0
+							0	0	-1
+							0	1	0
+							8.84466	5.7712	-0.0449338
+						}
+						{VolumeView "pretensioner_axis_xx.ply"}
+					}
+				}
+			}
+		}
+	}
+}
+{Volume "barrel1"
+	{Polyhedron "barrel1.vol"}
+	{Bone "gun_xx"}
+	{Matrix34
+		0.999129	0.0417294	0
+		0	0	-1
+		-0.0417295	0.999129	0
+		31.9254	20.6487	0.0503535
+	}
+}
+{Volume "barrel2"
+	{Cylinder 2.27723 38.2367}
+	{Bone "suspensor_axis_base_xx"}
+	{Matrix34
+		0	-0.552283	0
+		0.530353	0	0.154082
+		-0.223805	0	0.770342
+		-4.67004	0.0151059	15.5927
+	}
+}
+{Volume "body1"
+	{Polyhedron "body1.vol"}
+	{Bone "base_xx"}
+	{Matrix34
+		0.999781	0	0.0209426
+		0	1	0
+		-0.0209426	0	0.999781
+		-27.0259	-0.216751	-4.1367
+	}
+}
+{Volume "body10"
+	{Cylinder 1.60268 39.589}
+	{Bone "legs_grip_right_xx"}
+	{Matrix34
+		-0.704291	0.39805	0.124185
+		0.0989582	-0.0772364	0.808785
+		0.329935	0.579112	0.0149343
+		-3.68008	-20.957	-1.65699
+	}
+}
+{Volume "body11"
+	{Polyhedron "body11.vol"}
+	{Bone "sinker"}
+	{Matrix34
+		0.999781	0	0.0209426
+		0	1	0
+		-0.0209426	0	0.999781
+		-5.2001	-0.30121	-5.15501
+	}
+}
+{Volume "body2"
+	{Cylinder 1.60268 39.589}
+	{Bone "base_xx"}
+	{Matrix34
+		0	-1.1044	0
+		-0.0231291	0	1.10416
+		-1.27778	0	-0.0267658
+		2.04636	-5.97931	0.0459378
+	}
+}
+{Volume "body3"
+	{Cylinder 1.60268 39.589}
+	{Bone "base_xx"}
+	{Matrix34
+		0	-1.1044	0
+		-0.0231291	0	1.10416
+		-1.27778	0	-0.0267658
+		2.04634	6.06262	0.0459378
+	}
+}
+{Volume "body4"
+	{Cylinder 1.60268 39.589}
+	{Bone "base_xx"}
+	{Matrix34
+		-0.818289	0	-0.0171409
+		-0.0171409	0	0.818289
+		0	0.533009	0
+		29.9136	0.275194	0.147286
+	}
+}
+{Volume "body6"
+	{Cylinder 1.60268 39.589}
+	{Bone "base_xx"}
+	{Matrix34
+		-0.818289	0	-0.0171409
+		-0.0171409	0	0.818289
+		0	0.254919	0
+		26.0396	0.275192	0.520973
+	}
+}
+{Volume "body7"
+	{Cylinder 1.60268 39.589}
+	{Bone "base_xx"}
+	{Matrix34
+		0	-0.818469	0
+		-0.0883943	0	0.813681
+		-0.210281	0	-0.0228439
+		27.5878	0.0240317	-2.06982
+	}
+}
+{Volume "body8"
+	{Cylinder 1.60268 39.589}
+	{Bone "base_xx"}
+	{Matrix34
+		-0.818289	0	-0.0171409
+		-0.0171409	0	0.818289
+		0	0.330261	0
+		23.8615	-0.0428009	-2.37396
+	}
+}
+{Volume "hole"
+	{Box 15.3384 24.0648 7.95888}
+	{Bone "base_xx"}
+	{Matrix34
+		0	-0.761473	0
+		0.73094	0	0.0153111
+		-0.0322223	0	1.53826
+		-22.4034	0.0502776	6.49194
+	}
+}
+{Volume "wheelright1"
+	{Cylinder 9.90856 1.60694}
+	{Bone "wheelr1_xx"}
+	{Matrix34
+		-0.0659375	0.997819	0.00301214
+		-0.997782	-0.0659626	0.00893059
+		0.00992938	-0.00263423	1.08991
+		0.0378089	0.0988023	-0.0226134
+	}
+}

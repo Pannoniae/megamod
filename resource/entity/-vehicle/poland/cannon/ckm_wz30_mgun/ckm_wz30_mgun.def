@@ -1,0 +1,70 @@
+{game_entity
+	(include "/properties/cannon_mgun.ext")
+	(include "/properties/shadow/tank.inc" scale(0.3))
+	{extension "7_92_mm_ckm_wz_30.mdl"}
+	{props "vision_lev00_can" "detect_cannon_aa"}
+
+	{boarder
+		{anm "gunner"
+			{forward {end "pose_vicers_gunner" 10}}
+		}
+		{anm "commander"
+			{forward	{end "lie_take_item_end" 10}}
+		}
+		{anm "driver1"
+			{forward {end "mgun_browning_driver_r"}}
+		}
+		{anm "driver2"
+			{forward {end "mortar_driver_l"}}
+		}
+	}
+
+	{extender "cannon"
+		{animation
+		;// "gunner" "commander"
+			{move "mgun_browning_driver_r" "mortar_driver_l"}
+			;{fire "mg_lafette_gunner_fire" "mg_lafette_commander_fire"}
+			{aim "" ""}
+			{reload  "" "vicers_mgun_charger end lie_take_item_end"}
+		}
+	}
+
+	{extender "inventory"
+		{weapon "mgun" {mask "mountable"}}
+		{box
+			{clear}
+			{Size 8 12}
+			{weight 100}
+			{item "browning_wz30" filled {user "mgun"}} 
+			{item "ammo 7x57b" 500}
+			;{item "sandbag_vehicle" 2}
+		}
+	}
+	{Weaponry
+		{place "mgun"
+			{type "main"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{LinkBone "mgun"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+			{Rotate}
+		}
+	}	
+	{mass 32}
+	{Chassis
+		("mobility_cannon"
+			speed(12) ;----------------------------------Max speed.
+			weight(32) ;---------------------------------Weight in Kilograms.
+		)
+	}
+
+	{bone "gun_rot"
+		{limits -10 15}
+		{speed2 40}
+	}
+	{bone "turret"
+		{limits -13 13}
+		{speed2 40}
+	}
+}

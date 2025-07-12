@@ -1,0 +1,111 @@
+{game_entity
+	(include "/properties/airborne.ext")
+	(include "/properties/selection/airborne.inc" scale(3.0))
+	{props "wheeled" "vision_lev02_air"}
+	{Extension "sm79.mdl"}
+	{PatherID "bf110"}
+	("fighter_tier2")
+
+	{sensor
+		{Visor "main"
+			{bone  "basis"}
+			{vision "airborne_main"}  
+		}
+	}
+
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_tank_left"} {end "seat_driver_car"} {base "open"}}
+			{reverse 	{end	"emit_cg-4a" -1} {base "open" -1}}
+		}
+		{anm "commander"
+			{forward	{begin	"board_tank_left"} {end "seat_driver_car"} {base "open"}}
+			{reverse 	{end	"emit_cg-4a" -1} {base "open" -1}}
+		}
+		{anm "gunner"
+			{forward	{begin	"board_tank_left"} {end "pose_dodge_sg"} {base "open"}}
+			{reverse 	{end	"emit_cg-4a" -1} {base "open" -1}}
+		}
+		{anm "gunner2"
+			{forward	{begin	"board_gaz-m"} {end "seat_driver_car"} {base "open"}}
+			{reverse 	{end	"emit_cg-4a" -1} {base "open" -1}}
+		}
+	}
+    ("crew_human" place(driver) bone(driver) door(emit1) animation(driver))
+	("crew_human" place(gunner) bone(gunner) door(emit1) animation(gunner))
+	("crew_human" place(commander) bone(commander) door(emit1) animation(commander))
+	("crew_human" place(gunner2) bone(gunner2) door(emit1) animation(gunner))
+	{Placer
+		{place "driver" {turnOff {targetable}}}
+		{place "commander" {turnOff {targetable}}}
+		{place "gunner" {turnOff {targetable}}}
+		{place "gunner2" {turnOff {targetable}}}
+	}
+	
+	("double_engine")
+	("wheel" args "wheelr")
+	("wheel" args "wheell")
+	
+	{Chassis "wheel"
+		("car_trace" fx("tracewheel05") step(0.07) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+	}	
+	{Chassis "airborne"
+		("flight_model"
+			speed(370)  ;//---------Max speed (at sea level), km/h.
+			climb_speed(11) ;//-----Climb rate at sea level, in m/s
+			turn(250) ;//-----------Turn-and-burn radius in meters, tightest sustained turn
+			turnMP(33) ;//----------Turn-and-burn radius in meters, tightest sustained turn in Multiplayer
+			aerodynamics(1.55) ;//--Aerodynamic efficiency rating (0-3)
+			weight(15200) ;//--------Weight in kg.
+			power(3700) ;//---------Horse Power.
+			fuel(1300) ;//----------Fuel capacity in Liters.
+			range(2100) ;//---------Distance can travel with full fuel tank, in km.
+			roll_rate(40) ;//-------Roll rate, in degrees per second.
+			roll_angle(65) ;//------Maximum roll angle, in degrees.
+		)
+	}
+	{mass 18877}
+	
+	{extender "inventory"
+		{box		
+			{item "ammo air_bomb_ger_250kg" 2}
+			{item "ammo 12x81" 1500}
+		}
+	}	
+	{Weaponry
+  	      	{place "zenite"
+			{weapon "breda_safat" filled}
+			{type "hull"}
+			{foresight "foresight1"}
+			{gunner "commander"}
+			{charger "commander"}
+			{basic}
+		}
+		{place "bomb"
+			{weapon "bomb_dropper_ger_250x2" filled}
+			{barrels 2}
+			{shooter "shooter_b"}
+			{gunner "driver"}
+			{charger "driver"}
+			{basic}
+		}
+		{place "mgun"
+			{type "aa"}
+			{weapon "breda_safat" filled}
+			{foresight "foresight3"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{ai_in_manual}
+			{basic}
+		}
+		{place "mgun1"
+			{type "rear"}
+			{weapon "breda_safat" filled}
+			{foresight "foresight4"}
+			{gunner "gunner2"}
+			{charger "gunner2"}
+			{ai_in_manual}
+			{basic}
+		}
+	}
+}

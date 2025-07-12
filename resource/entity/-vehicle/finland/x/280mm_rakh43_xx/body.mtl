@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/280mm_rakh43/280mm_rakh43_base_color_xx"}
+	{bump "$/model/280mm_rakh43/280mm_rakh43_Normal_bump"}
+	{specular "$/model/280mm_rakh43/280mm_rakh43_Specular"}
+	{color "230 230 230 25"}
+	{blend none}
+}

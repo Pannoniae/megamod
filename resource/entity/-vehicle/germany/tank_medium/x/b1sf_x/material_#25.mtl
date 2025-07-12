@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "105_leFH18B2_crash"}
+	{bump "$/model/105_leFH18B2_bp"}
+	{specular "$/model/105_leFH18B2_sp"}
+	{color "255 255 255 127"}
+	{blend none}
+}

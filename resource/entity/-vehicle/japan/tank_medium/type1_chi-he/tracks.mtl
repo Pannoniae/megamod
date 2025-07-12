@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/animation/track_chiha"}
+	{specular "$/animation/track_chiha_sp"}
+	{color "255 255 255 25"}
+	{blend test}
+}

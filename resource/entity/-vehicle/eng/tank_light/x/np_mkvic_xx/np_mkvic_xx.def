@@ -1,0 +1,21 @@
+{game_entity
+	{Extension "mkvic_xx.mdl"}
+	{Volume "body2"
+	}
+	{Volume "body"
+	}
+	{Volume "engine"
+	}
+	{Volume "gun"
+	}
+	{Volume "gunrot"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "trackright"
+	}
+	{Volume "turret2"
+	}
+	{Volume "turret"
+	}
+}

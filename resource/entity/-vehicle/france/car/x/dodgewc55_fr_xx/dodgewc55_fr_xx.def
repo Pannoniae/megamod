@@ -1,0 +1,21 @@
+{game_entity
+	{Extension "dodge_wc55_xx.mdl"}
+	{Volume "body"
+	}
+	{Volume "bodyback"
+	}
+	{Volume "engine"
+	}
+	{Volume "part2"
+	}
+	{Volume "part4"
+	}
+	{Volume "wheelleft1"
+	}
+	{Volume "wheelleft2"
+	}
+	{Volume "wheelright1"
+	}
+	{Volume "wheelright2"
+	}
+}

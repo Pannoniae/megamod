@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/Hotchkiss_H35_turret_01_AM_x"}
+	{bump "$/model/Hotchkiss_H35_turret_01_ANM"}
+	{specular "$/model/Hotchkiss_H35_turret_01_AO"}
+	{color "229 229 229 25"}
+	{blend none}
+}

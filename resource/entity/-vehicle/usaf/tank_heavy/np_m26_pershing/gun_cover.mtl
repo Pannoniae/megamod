@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "M26 gun_cover"}
+	{blend none}
+}

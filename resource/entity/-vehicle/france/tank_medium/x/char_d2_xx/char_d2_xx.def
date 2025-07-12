@@ -1,0 +1,23 @@
+{game_Entity
+	{Extension "d2_xx.mdl"}
+	{Volume "body"
+	}
+	{Volume "engine"
+	}
+	{Volume "gun"
+	}
+	{Volume "mantlet"
+	}
+	{Volume "shieldl1"
+	}
+	{Volume "shieldr1"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "trackright"
+	}
+	{Volume "turret2"
+	}
+	{Volume "turret"
+	}
+}

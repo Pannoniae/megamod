@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "nevada92body256"}
+	{bump "nevada92body256_bp"}
+	{blend none}
+}

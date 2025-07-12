@@ -1,0 +1,199 @@
+;Exported by: Norman
+;Date:        Sat Jul 06 10:03:38 2024
+;File:        C:\Users\Norman\Documents\3dsmax\scenes\13mm_type93_xx.max
+{Skeleton
+	{bone revolute "basis"
+		{speed 0.002}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Matrix34
+				1	0	0
+				0	0.994559	0.104172
+				0	-0.104172	0.994559
+				-1.74299	-0.329597	3.78907
+			}
+			{VolumeView "body.ply"}
+			{bone "standb"
+				{Matrix34
+					-0.992418	0	0.122907
+					0	-1	0
+					0.122907	0	0.992418
+					-6.51152	0.0457885	-1.09147
+				}
+				{VolumeView "standb.ply"}
+			}
+			{bone "stanr"
+				{Matrix34
+					0.489022	-0.833368	0.257597
+					0.862474	0.506101	0
+					-0.13037	0.222171	0.966252
+					5.87782	-7.14087	-1.1638
+				}
+				{VolumeView "stanr.ply"}
+			}
+			{bone "standl"
+				{Matrix34
+					0.502234	0.86447	-0.0212951
+					-0.864666	0.502348	0
+					0.0106975	0.0184131	0.999773
+					5.87341	7.14131	-1.15217
+				}
+				{VolumeView "standl.ply"}
+			}
+			{bone revolute "turret"
+				{parameters "ID=turret;"}
+				{Matrix34
+					0.994887	-0.0560786	-0.0839921
+					0.0620728	0.995576	0.0705414
+					0.0796646	-0.0753944	0.993966
+					1.74106	0.273584	10.9183
+				}
+				{VolumeView "turret.ply"}
+				{bone revolute "gun_rot"
+					{Matrix34
+						1	0	0
+						0	0	1
+						0	-1	0
+						-0.213774	-0.139507	-0.581698
+					}
+					{VolumeView "gun_rot.ply"}
+					{bone "gun"
+						{parameters "ID=gun;"}
+						{Matrix34
+							1	0	0
+							0	0	-1
+							0	1	0
+							5.86087	3.88739	-0.105394
+						}
+						{VolumeView "gun.ply"}
+						{bone "barrel1"
+							{Matrix34
+								0.984048	0.172323	-0.0442099
+								-0.17215	0.98504	0.00773421
+								0.0448813	0	0.998992
+								8.82906	1.80589	-2.739
+							}
+							{VolumeView "barrel1.ply"}
+						}
+						{bone "barrel2"
+							{Matrix34
+								0.985921	0	-0.167213
+								0	1	0
+								0.167213	0	0.985921
+								8.82906	-1.80541	-2.739
+							}
+							{VolumeView "barrel2.ply"}
+						}
+						{bone "magazine2"
+							{Position -0.518835	-1.86173	1.25455}
+							{VolumeView "magazine2.ply"}
+						}
+						{bone "magazine1"
+							{Position -0.518835	1.86287	1.25455}
+							{VolumeView "magazine1.ply"}
+						}
+					}
+					{bone "arm"
+						{Matrix34
+							1	0	0
+							0	0	-1
+							0	1	0
+							0.637568	7.29948	3.46013
+						}
+						{VolumeView "arm.ply"}
+					}
+				}
+			}
+		}
+	}
+}
+{Volume "barrel1"
+	{Cylinder 0.538798 16}
+	{Bone "barrel1"}
+	{Matrix34
+		0	-1	0
+		0	0	1
+		-1	0	0
+		8.03733	6.95735e-005	-0.257681
+	}
+}
+{Volume "barrel2"
+	{Cylinder 0.538798 16}
+	{Bone "barrel2"}
+	{Matrix34
+		0	-1	0
+		0	0	1
+		-1	0	0
+		8.03733	-0.0010815	-0.257682
+	}
+}
+{Volume "body"
+	{Box 9 9 5.5}
+	{Bone "body"}
+	{Position 1.76579	0.019999	0.155415}
+}
+{Volume "gun"
+	{Box 17 5 3}
+	{Bone "gun"}
+	{Position 0.241147	0.0168572	-3.68184}
+}
+{Volume "magazine1"
+	{Box 3 7.5 1}
+	{Bone "magazine1"}
+	{Matrix34
+		0.948569	0	-0.316569
+		0.316569	0	0.948569
+		0	-1	0
+		-0.145778	0.0303462	-0.194199
+	}
+}
+{Volume "magazine2"
+	{Box 3 7.5 1}
+	{Bone "magazine2"}
+	{Matrix34
+		0.948569	0	-0.316569
+		0.316569	0	0.948569
+		0	-1	0
+		-0.145777	-0.0110571	-0.194199
+	}
+}
+{Volume "standc"
+	{Box 21 1.5 2}
+	{Bone "standb"}
+	{Matrix34
+		-0.95245	0	0.304694
+		0	-1	0
+		0.304694	0	0.95245
+		3.96623	0.0420067	-1.19898
+	}
+}
+{Volume "standl"
+	{Box 21 1.5 2}
+	{Bone "standl"}
+	{Matrix34
+		-0.952447	-0.00258405	0.304694
+		0.00271322	-0.999996	0
+		0.304693	0.000826672	0.95245
+		3.9524	0.00847693	-1.13827
+	}
+}
+{Volume "standr"
+	{Box 21 1.5 2}
+	{Bone "stanr"}
+	{Matrix34
+		-0.952427	0.00672397	0.304694
+		-0.00705957	-0.999975	0
+		0.304687	-0.00215104	0.95245
+		3.97617	-0.0227865	-1.12665
+	}
+}
+{Volume "turret"
+	{Polyhedron "turret.vol"}
+	{Bone "turret"}
+	{Position -0.196006	0.111508	-6.99209}
+}

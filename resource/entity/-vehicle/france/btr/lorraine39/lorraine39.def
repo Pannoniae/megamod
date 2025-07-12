@@ -1,0 +1,102 @@
+{game_entity
+	(include "/properties/tank_unarmed.ext")
+	(include "/properties/shadow/tank.inc" scale(0.9))
+	(include "/properties/selection/vehicle.inc" scale(0.8))
+	{props "armored_car" "tank" "-turret" "explosion_throw_crew" "windowed" "vision_lev02" "tractor" "tractor_heavy" "detect_tank_mg"}
+	{targetclass "armoredcar" "bullet"}
+	{targetSelector "tank_bullet"}
+	{patherId "universal"}
+	{collider "tank.light"}
+	
+	("armoredcar_tier1")
+
+	("tracks" repair(30) thickness(15))
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+		{thickness 9}
+	}
+	{volume "body3"
+		{tags "body"}
+		{component "body"}
+		{thickness 9}
+	}
+	{volume "body4"
+		{tags "body"}
+		{component "body"}
+		{thickness 9}
+	}
+	{volume "body5"
+		{tags "body"}
+		{component "body"}
+		{thickness 9}
+	}
+	{volume "body6"
+		{tags "body"}
+		{component "body"}
+		{thickness 9}
+	}
+	{volume "body7"
+		{tags "body"}
+		{component "body"}
+		{thickness 9}
+	}
+	{volume "engine"
+		{thickness 9}
+	}
+
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_body"} {base "doorleft"}}
+			{reverse 	{end	"emit_tank_1_hold"} {base "doorleft" -1}}
+		}
+		{anm "commander"
+			{forward	{begin	"board_body"} {base "doorleft"}}
+			{reverse 	{end	"emit_tank_1_hold"} {base "doorleft" -1}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_body"} 	{end "pose_seat_armor_1"} {base "doorright" -1}}
+			{reverse 	{end	"emit_tank_2"} {base "doorright" -1}}
+		}
+		{anm "armor1"
+			{forward	{begin	"board_body"} {end "pose_seat_armor_1"} {base "doorright" -1}}
+			{reverse 	{end	"emit_body"} {base "doorright" -1}}
+		}
+	}
+	
+
+	("crew_inside")
+	("crew_human" place(driver)	door1(emit1) door2(emit1) visor(driver) animation(driver))
+	("crew_human" place(commander) door1(emit1) door2(emit1) visor(main) animation(commander))
+
+	("seat_human" place(seat1) bone(seat01) door(emit2)  animation(armor))
+	("seat_human" place(seat2) bone(seat02) door(emit2)  animation(armor1))
+	("seat_human" place(seat3) bone(seat03) door(emit2)  animation(armor))
+	("seat_human" place(seat4) bone(seat04) door(emit2)  animation(armor1))
+	("seat_human" place(seat5) bone(seat05) door(emit2)  animation(armor1))
+	("seat_human" place(seat6) bone(seat06) door(emit2)  animation(armor))
+	("seat_human" place(seat7) bone(seat07) door(emit2)  animation(armor))
+	("seat_human" place(seat8) bone(seat08) door(emit2)  animation(armor1))
+	
+	
+	{extender "inventory"
+		{box
+		}
+	}
+	{mass 6300}
+	{Chassis "track"
+		("tank_trace" fx("tracks_sm") step(0.4) len(0.2))
+		("mobility_tank"
+			speed(35) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(7) ;--------Max speed in reverse on road, km/h.
+			traverse(35) ;-------Track traverse, per second, in degrees.
+			weight(6.3) ;-------Weight in Tonnes.
+			power(62) ;----------Engine Power, in hp.
+			track(5) ;-----------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(100) ;-----------Fuel capacity in Litres.
+			type(fuel) ;---------Fuel type. (diesel OR fuel)
+			range(135) ;---------Range in km, off-road.
+		)
+	}		
+	{Extension "lorraine39.mdl"}
+}

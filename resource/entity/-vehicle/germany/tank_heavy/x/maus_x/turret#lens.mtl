@@ -1,0 +1,5 @@
+{material envmap
+	{diffuse "pz8_turret_am"}
+	{mask "pz8_turret_gmm"}
+	{blend none}
+}

@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "m5a1_stuart_x"}
+	{specular "$/model/m5a1_stuart_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "daimlermk2"}
+	{bump "$/model/daimlermk2_bp"}
+	{specular "$/model/daimlermk2_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

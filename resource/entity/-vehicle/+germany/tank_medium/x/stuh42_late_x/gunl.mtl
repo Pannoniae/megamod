@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_vehicle/6297541350309435_stuh_iii_ausf_g_gun_c_ger_camo_dunkelgelb"}
+	{bump "$/_vehicle/6297541350309435_stuh_iii_ausf_g_gun_n_n"}
+	{specular "$/_vehicle/6297541350309435_stuh_iii_ausf_g_gun_n_s"}
+	{color "230 230 230 25"}
+	{blend none}
+}

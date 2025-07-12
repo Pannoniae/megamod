@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/model/chev_wheel"}
+	{bump "$/model/chev_wheel_bp"}
+	{blend none}
+}

@@ -1,0 +1,90 @@
+{game_entity
+	(include "/properties/cannon_mgun.ext")
+	{props "wheeled" "-carried" "cannon" "vision_cannon_minimum" "cannon_small" "no_sandbags"}
+	
+	{collider "cannon_small"}
+
+	{Volume "body"
+		{tags "body"}
+		{able{obstacle 0}{blast 0}}
+		{thickness 1}
+		{component "body"}
+	}
+	{Volume "gun2"
+		{tags "gun"}
+		{component "gun"}
+	}
+	{volume "turret"
+		{thickness 3}
+	}
+	{component "turret"
+		{RepairTime 15}
+	}
+
+	
+	{boarder
+		{anm "gunner"
+			{forward {end "pose_vicers_gunner" 10}}
+		}
+		{anm "commander"
+			{forward {end "pose_maxim_commander" 10}}
+		}
+		{anm "driver1"
+			{forward {end "cannon_maxim_move" 10}}
+		}
+		{anm "driver2"
+			{forward {end "walk_1hand" 10}}
+		}
+	}
+
+	("wheel" args "wheelright")
+	("wheel" args "wheelleft")
+	
+	{extender "inventory"
+		{box
+			{item "ammo buzoganyveto215" 4}
+		}
+	}
+	
+	{Weaponry
+		{place "gun"
+			{weapon "weapon buzoganyveto" filling "ammo buzoganyveto215" 2}
+			{charger "gunner"}
+			{gunner "gunner"}
+			{foresight "foresight1"}
+			{Barrels 2}
+		}
+	}
+
+	{extender "shield"
+		{on}
+	}
+
+	{Extension "44m_buzoganyveto.mdl"}
+	
+	{bone "turret"
+		{limits -20 20}
+	}
+	{bone "basis"
+		{speed 0.005}
+	}
+
+	
+
+	{extender "cannon"
+		{animation
+		;// "gunner" "commander"
+			{move "cannon_maxim_move" "walk_1hand"}
+			{fire "mg_maxim_gunner_fire" "mg_maxim_commander_fire"}
+			{aim "mg_maxim_gunner_aim" "mg_maxim_commander_aim"}
+			{reload "" ""}
+		}
+	}
+
+	{Chassis "track"
+		("mobility_cannon"
+			speed(12) ;----------------------------------Max speed.
+			weight(64) ;---------------------------------Weight in Kilograms.
+		)
+	}
+}

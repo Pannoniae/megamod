@@ -1,0 +1,115 @@
+;Exported by: Normand
+;Date:        Sat Feb 18 10:53:02 2023
+;File:        C:\Users\Normand\Documents\3dsmax\scenes\m3_105_x.max
+{Skeleton
+	{bone revolute "basis"
+		{speed 0.002}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "pivot_front"
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				-0.0178413	-0.0484918	8.00987
+			}
+			{bone revolute "wheelleft"
+				{parameters "ID=wheelleft;"}
+				{Matrix34
+					-1	0	0
+					0	1	0
+					0	0	-1
+					0.0136633	-0.00137997	-15.1743
+				}
+				{VolumeView "wheelleft.ply"}
+			}
+			{bone revolute "wheelright"
+				{parameters "ID=wheelright;"}
+				{Matrix34
+					-1	0	0
+					0	1	0
+					0	0	-1
+					0.00166035	-0.00138092	15.1296
+				}
+				{VolumeView "wheelright.ply"}
+			}
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{animation
+				{sequence "break" {file "body_b.anm"} {speed 0.4}}
+			}
+			{Position -0.0152378	-0.0569229	7.99843}
+			{VolumeView "body.ply"}
+			{bone revolute "turret"
+				{parameters "ID=turret;"}
+				{animation
+					{sequence "break" {file "turret_b.anm"} {speed 0.4}}
+				}
+				{Position -1.46029	3.3062e-005	0.985855}
+				{VolumeView "turret.ply"}
+				{bone revolute "gun_rot"
+					{parameters "ID=gun;"}
+					{limits -3 40}
+					{Matrix34
+						1	0	0
+						0	0	1
+						0	-1	0
+						-9.90054	0.00145439	4.54095
+					}
+					{VolumeView "gun_rot.ply"}
+					{bone "gun"
+						{parameters "ID=gun;"}
+						{animation
+							{sequence "break" {file "gun_b.anm"} {speed 0.4}}
+						}
+						{Matrix34
+							0.979601	0.200951	0
+							0	0	-1
+							-0.200951	0.979601	0
+							11.2122	5.61743	-0.0118332
+						}
+						{VolumeView "gun.ply"}
+					}
+				}
+				{bone "aim_sup"
+					{parameters "ID=turret;"}
+					{VolumeView "aim_sup.ply"}
+				}
+			}
+			{bone "standl"
+				{parameters "ID=body;"}
+				{Matrix34
+					0.995205	0.00203519	0.0977858
+					0.00203522	0.999136	-0.0415074
+					-0.0977858	0.0415075	0.994342
+					-1.9842	7.90696	-0.363515
+				}
+				{VolumeView "standl.ply"}
+			}
+			{bone "standr"
+				{parameters "ID=body;"}
+				{Matrix34
+					0.995205	-0.00203504	0.0977858
+					-0.00203554	0.999136	0.0415076
+					-0.0977859	-0.0415077	0.994341
+					-1.98443	-7.86805	-0.363529
+				}
+				{VolumeView "standr.ply"}
+			}
+			{bone "gunrot_sup"
+				{parameters "ID=body;"}
+				{Matrix34
+					-0.866025	0	-0.5
+					0	1	0
+					0.5	0	-0.866025
+					4.22095	3.31439e-005	-0.89425
+				}
+				{VolumeView "gunrot_sup.ply"}
+			}
+		}
+	}
+}

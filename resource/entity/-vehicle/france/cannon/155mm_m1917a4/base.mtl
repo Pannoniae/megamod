@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "155mm_m1917a4"}
+	{bump "$/model/empty_bp"}
+	{specular "$/model/155mm_m1917a4_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

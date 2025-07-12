@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/valentine/valentine"}
+	{bump "$/model/eng/valentine_NM"}
+	{specular "$/model/eng/valentine_CM"}
+	{color "230 230 230 128"}
+	{blend none}
+}

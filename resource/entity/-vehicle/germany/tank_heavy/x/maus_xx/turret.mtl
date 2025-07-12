@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "pz8_turret_xx"}
+	{bump "pz8_turret_nm"}
+	{specular "pz8_turret_gmm"}
+	{color "229 229 229 25"}
+	{blend none}
+}

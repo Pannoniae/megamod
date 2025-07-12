@@ -1,0 +1,92 @@
+{game_entity
+	(include "/properties/cannon.ext")
+	(include "/properties/shadow/tank.inc" scale(0.6))
+	{Extension "qf2.mdl"}
+	(include "/properties/selection/cannon.inc" scale(0.7))
+	{props "cannon_small" "wheeled" "vision_lev02_can" "muzzle_37mm_47mm" "cannon_sandbag_small" "trailer" "trailer_light"}
+	{collider "cannon_small"}
+	{targetclass "cannon_small"}
+	{targetSelector "cannon_small"}
+
+	("wheel" args "wheelright")
+	("wheel" args "wheelleft")
+
+	("gun" repair(30) thickness(20))
+	
+
+	("armor_light_cannon")
+	("crew_wheeled_cannon")
+
+	{boarder
+		{anm "gunner"
+			{forward {end "pose_m42_gunlayer" 10}}
+		}
+		{anm "commander"
+			{forward {end "pose_m42_charger" 10}}
+		}
+		{anm "driver1"	;// gunner
+			{forward {end "cannon_pak40_pusher_left" 10}}
+		}
+		{anm "driver2"	;// charger
+			{forward {end "cannon_pak40_pusher_right" 10}}
+		}
+		{anm "seat1"	;// gunner
+			{forward {end "pose_seat_cannon_left" 10}}
+		}
+		{anm "seat2"	;// charger
+			{forward {end "pose_seat_cannon_right" 10}}
+		}
+	}
+
+	{extender "cannon"
+		{animation
+			{switch "close"}
+			;// "gunner" "charger"
+			{move "mgun_browning_driver_l" "mgun_browning_driver_r"}
+			{aim "cannon_m42_gunlayer" ""}
+			{fire  "cannon_gunlayer_fire-alert and pose_m42_gunlayer" "cannon_m42_charger_fire"}
+			{reload  "" "cannon_m42_charger"}
+		}
+		{move {workers "driver1" "driver2"} {obstacle "close"} {minWork 2}}			;// move state: cannon being pushed and which positions play animations
+		{attack {workers "gunner" "commander"} {obstacle "open"}}		;// fire/attack state: cannon aim, fire, and reload events
+		{trailing {workers "seat1" "seat2"}}								;// trailing state: cannon is being towed {obstacle} not needed. Uses "close"
+	}
+	{extender "inventory"
+		{box
+			{item "ammo bullet40_eng aphe" 55}
+			{item "sandbag_vehicle" 1}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{weapon "40mm_oqf_at" filling "ammo bullet40_eng aphe" 1}
+			{RestoreIKAfterAim}
+			{charger "gunner"} 
+			("abm_dymamic_gun"
+				zeroing(2.7)
+				dispersion(0.12)
+			)
+		}
+	}
+	
+	{mass 814}
+	{Chassis "track"
+		("car_trace" fx("tracewheel05a") step(0.14) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("mobility_cannon"
+			speed(9.0) ;----------------------------------Max speed.
+			weight(814) ;---------------------------------Weight in Kilograms.
+		)
+	}
+
+	{bone "basis"
+		{speed2 9}
+	}
+	{bone "gun_rot"
+		{limits -10 15}	
+		{speed2 10}
+	}
+	{bone "turret"
+		{speed2 18}
+	}	
+}

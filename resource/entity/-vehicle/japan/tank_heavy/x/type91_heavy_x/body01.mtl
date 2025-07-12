@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/type_91/type_91_body"}
+	{bump "$/model/type_91/type_91_body_bp"}
+	{specular "$/model/type_91/type_91_body_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

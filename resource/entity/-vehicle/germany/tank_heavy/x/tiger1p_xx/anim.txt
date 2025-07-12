@@ -1,0 +1,66 @@
+-= Animation: break, Node TrackR =-
+	Frame 500 {
+		Visibility 1
+		Position	-1.22293	-4.34226	3.40603
+		Orientation	0 0 0 1
+	}
+	Frame 600 {
+		Visibility 1
+		Position	-1.22293	-4.34226	3.40603
+		Orientation	0 0 0 1
+	}
+-= Animation: break, Node TrackL =-
+	Frame 500 {
+		Visibility 1
+		Position	0.790199	4.33634	3.38318
+		Orientation	0 0 0 1
+	}
+	Frame 600 {
+		Visibility 1
+		Position	0.790199	4.33634	3.38318
+		Orientation	0 0 0 1
+	}
+-= Animation: break, Node Body =-
+	Frame 600 {
+		Visibility 1
+		Position	1.18288	-0.130568	9.50619
+		Orientation	0.00442956 -0.020923 0.0017517 0.99977
+	}
+	Frame 650 {
+		Visibility 1
+		Position	1.18288	-0.130568	9.50619
+		Orientation	0.00442956 -0.020923 0.0017517 0.99977
+	}
+-= Animation: break, Node Turret =-
+	Frame 550 {
+		Visibility 1
+		Position	7.09057	-1.29058	25.3947
+		Orientation	0.0357031 -0.034797 0.0508218 0.997463
+	}
+	Frame 650 {
+		Visibility 1
+		Position	7.09057	-1.29058	25.3947
+		Orientation	0.0357031 -0.034797 0.0508218 0.997463
+	}
+-= Animation: break, Node Gun_rot =-
+	Frame 550 {
+		Visibility 1
+		Position	23.1482	-0.653207	8.52502
+		Orientation	0.684031 -0.0494895 -0.0637235 0.724977
+	}
+	Frame 650 {
+		Visibility 1
+		Position	23.1482	-0.653207	8.52502
+		Orientation	0.684031 -0.0494895 -0.0637235 0.724977
+	}
+-= Animation: repair, Node Gun_rot =-
+	Frame 550 {
+		Visibility 1
+		Position	23.1482	-0.653207	8.52502
+		Orientation	0.684031 -0.0494895 -0.0637235 0.724977
+	}
+	Frame 650 {
+		Visibility 1
+		Position	23.1482	-0.653207	8.52502
+		Orientation	0.684031 -0.0494895 -0.0637235 0.724977
+	}

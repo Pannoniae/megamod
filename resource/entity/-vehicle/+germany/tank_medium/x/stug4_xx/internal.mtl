@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/_vehicle/crash_inside_am"}
+	{blend none}
+}

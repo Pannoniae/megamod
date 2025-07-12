@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/pz6p_Panzerbefehiswagen/pz6p_Panzerbefehiswagen_tx_am"}
+	{bump "$/model/pz6p_Panzerbefehiswagen/pz6p_Panzerbefehiswagen_tx_nm"}
+	{specular "$/model/pz6p_Panzerbefehiswagen/pz6p_Panzerbefehiswagen_tx_gmm"}
+	{color "229 229 229 25"}
+	{blend none}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "650px-usaaf_roundel_1943-1947.svg"}
+	{blend test}
+}

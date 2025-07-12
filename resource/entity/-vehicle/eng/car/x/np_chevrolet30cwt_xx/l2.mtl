@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "chevrolet30cwt_xx"}
+	{blend test}
+}

@@ -1,0 +1,63 @@
+{game_entity
+	{Extension "su5_2_xx.mdl"}
+	{Volume "barrel1"
+		{thickness 15}
+	}
+	{Volume "barrel2"
+		{thickness 15}
+	}
+	{Volume "body1"
+		{thickness 15}
+	}
+	{Volume "body2"
+		{thickness 15}
+	}
+	{Volume "body3"
+		{thickness 15}
+	}
+	{Volume "body4"
+		{thickness 15}
+	}
+	{Volume "shield01"
+		{thickness 15}
+	}
+	{Volume "shield02"
+		{thickness 15}
+	}
+	{Volume "shield03"
+		{thickness 15}
+	}
+	{Volume "shield04"
+		{thickness 15}
+	}
+	{Volume "shield05"
+		{thickness 15}
+	}
+	{Volume "shield06"
+		{thickness 15}
+	}
+	{Volume "shield07"
+		{thickness 15}
+	}
+	{Volume "shield08"
+		{thickness 15}
+	}
+	{Volume "shield09"
+		{thickness 15}
+	}
+	{Volume "shield10"
+		{thickness 15}
+	}
+	{Volume "shield11"
+		{thickness 15}
+	}
+	{Volume "shield12"
+		{thickness 15}
+	}
+	{Volume "shield13"
+		{thickness 15}
+	}
+	{Volume "turret"
+		{thickness 15}
+	}
+}

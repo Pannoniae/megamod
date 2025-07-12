@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "fiat626"}
+	{specular "$/model/fiat626_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

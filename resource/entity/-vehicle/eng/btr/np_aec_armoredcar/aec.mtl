@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "aec_armouredcar"}
+	{bump "$/model/aec_armouredcar_bp"}
+	{specular "$/model/aec_armouredcar_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

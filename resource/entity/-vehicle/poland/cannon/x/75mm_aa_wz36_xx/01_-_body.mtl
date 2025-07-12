@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/model/skr/main_xx"}
+	{color "230 230 230 25"}
+	{blend none}
+}

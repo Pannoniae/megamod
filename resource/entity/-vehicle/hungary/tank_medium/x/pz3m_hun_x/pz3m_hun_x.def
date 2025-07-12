@@ -1,0 +1,6 @@
+{game_entity
+	{Extension "pz3m_x.mdl"}
+	{extender "enumerator"
+		{digit_folder "ger"}
+	}
+}

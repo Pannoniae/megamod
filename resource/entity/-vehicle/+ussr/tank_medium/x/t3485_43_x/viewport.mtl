@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "viewport_x"}
+	{blend none}
+}

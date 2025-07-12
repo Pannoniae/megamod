@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "bedford_cab"}
+	{blend none}
+}

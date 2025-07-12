@@ -1,0 +1,120 @@
+;Exported by: Normand
+;Date:        Fri Aug 16 01:02:59 2024
+;File:        C:\Users\Normand\Documents\t97_x.max
+{Skeleton
+	{bone "basis"
+		{parameters "SteerMax=30;WheelRadius=0.4;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "pivot_back"
+			{Position -16.0406	10.3315	6.94532}
+			{bone revolute "wheel2"
+				{Matrix34
+					-1	0	0
+					0	0	1
+					0	1	0
+					-0.0750351	-10.1311	-0.00869131
+				}
+				{VolumeView "wheel2.ply"}
+			}
+			{bone revolute "wheel3"
+				{Matrix34
+					-1	0	0
+					0	0	1
+					0	1	0
+					0.0933914	13.5273	0.15308
+				}
+				{VolumeView "wheel3.ply"}
+			}
+		}
+		{bone "body"
+			{Position -5.99969	-10.2113	11.2473}
+			{VolumeView "body.ply"}
+			{bone "engine"
+				{Position -0.269869	0.00283813	-0.59741}
+				{VolumeView "engine.ply"}
+				{bone "tube"
+					{parameters "ID=engine;"}
+					{Position -3.75234	7.27366	-3.2516}
+					{VolumeView "tube.ply"}
+					{bone "fxsmoke1"
+						{Matrix34
+							-1	0	0
+							0	-1	0
+							0	0	1
+							-14.8581	-0.968386	3.0855
+						}
+					}
+				}
+			}
+			{bone "sidecar"
+				{Position -0.942595	23.9514	3.20769}
+				{VolumeView "sidecar.ply"}
+				{bone revolute "mgun_rot"
+					{limits -30 30}
+					{Position 9.35868	0.0140972	6.50689}
+					{bone revolute "mgun_rot1"
+						{limits -5 20}
+						{Orientation
+							1	0	0
+							0	0	1
+							0	-1	0
+						}
+						{bone "mgun"
+							{Position -3.0	0.0	0.0}
+						}
+					}
+				}
+				{bone "detail1"
+					{Position -16.4961	0.105267	-0.260445}
+					{VolumeView "detail1.ply"}
+				}
+				{bone "lamp_sidecar"
+					{Position 8.29205	5.35002	1.62574}
+					{VolumeView "lamp_sidecar.ply"}
+				}
+			}
+			{bone revolute "steer"
+				{Matrix34
+					0.939745	0	0.341876
+					0	-1	0
+					-0.341876	0	0.939745
+					15.4327	10.2139	4.39325
+				}
+				{bone "chassis"
+					{Matrix34
+						1	0	0.000113547
+						0	-1	0
+						-0.000113547	0	1
+						-0.0250168	-0.214942	-0.61928
+					}
+					{VolumeView "chassis.ply"}
+					{bone "spring"
+						{Matrix34
+							0.939706	0	-0.341983
+							0	1	0
+							0.341983	0	0.939706
+							1.80847	-0.273987	-6.33934
+						}
+						{VolumeView "spring.ply"}
+						{bone revolute "wheel1"
+							{Matrix34
+								-1	0	0
+								0	0	1
+								0	1	0
+								1.24728	0.0818639	-2.73494
+							}
+							{VolumeView "wheel1.ply"}
+						}
+					}
+				}
+			}
+		}
+		{bone "pivot_front"
+			{Position 14.5914	0.372111	6.91147}
+		}
+	}
+}

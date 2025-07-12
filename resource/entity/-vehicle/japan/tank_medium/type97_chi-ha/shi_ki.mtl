@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "type_97_shi_ki"}
+	{bump "$/model/type_97_shi_ki_bp"}
+	{specular "$/model/type_97_shi_ki_sp"}
+	{color "255 255 255 25"}
+	{blend test}
+}

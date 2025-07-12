@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "re2000"}
+	{blend test}
+}

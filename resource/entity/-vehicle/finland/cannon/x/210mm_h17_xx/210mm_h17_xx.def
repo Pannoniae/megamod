@@ -1,0 +1,13 @@
+{game_entity
+	{Extension "210mm_h17_xx.mdl"}
+	{Volume "body"
+	}
+	{Volume "gun"
+	}
+	{Volume "shield"
+	}
+	{Volume "wheell"
+	}
+	{Volume "wheelr"
+	}
+}

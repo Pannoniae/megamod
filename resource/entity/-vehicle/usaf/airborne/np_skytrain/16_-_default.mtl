@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "planes"}
+	{blend blend}
+}

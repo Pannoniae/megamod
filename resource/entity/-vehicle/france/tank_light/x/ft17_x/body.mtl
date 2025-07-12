@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/ft17-1/RenaultFT_hull_x"}
+	{bump "$/model/ft17-1/RenaultFT_hull_bp"}
+	{specular "$/model/ft17-1/RenaultFT_hull_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

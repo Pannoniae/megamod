@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/dingo_wheel_xx"}
+	{bump "$/model/dingo_wheel_bp"}
+	{specular "$/model/dingo_wheel_sp"}
+	{color "230 230 230 76"}
+	{blend none}
+}

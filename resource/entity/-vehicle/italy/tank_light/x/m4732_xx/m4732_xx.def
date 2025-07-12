@@ -1,0 +1,18 @@
+{game_entity
+	(include "/properties/vehicle_xx.ext")
+	{Extension "m4732_xx.mdl"}
+	{volume "body1"
+	}
+	{volume "body2"
+	}
+	{volume "shield"
+	}
+	{volume "engine"
+	}
+	{Volume "gun"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "trackright"
+	}
+}

@@ -1,0 +1,40 @@
+;SDL
+	
+	; armor notes
+	; tracks and wheels 15mm
+	; gun 20mm
+
+	("tank_light_tier1")
+	("ammo" args "ammo")
+	("tracks" repair(30) thickness(15))
+
+
+	("transmission" args "transmission")
+
+	{volume "body"
+		{tags "body"}
+		{component "body"}
+		{thickness 40
+			{top 22}
+			{bottom 6}
+		}
+	}
+	{volume "engine"
+		{thickness 20}
+	}
+	{volume "turret"		
+		{thickness 40
+			{front 45}
+			{top 14}
+		}
+	}
+	{volume "mantlet"
+		{thickness 45}
+	}
+	
+	("shield" args "shieldl1" 10)
+	("shield" args "shieldl2" 10)
+	("shield" args "shieldl3" 10)
+	("shield" args "shieldr1" 10)
+	("shield" args "shieldr2" 10)
+	("shield" args "shieldr3" 10)	

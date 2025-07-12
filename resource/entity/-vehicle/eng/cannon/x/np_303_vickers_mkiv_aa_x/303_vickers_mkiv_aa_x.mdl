@@ -1,0 +1,133 @@
+;Exported by: Sergey
+;Date:        Tue Dec 20 00:20:00 2016
+;File:        D:\Sergey\documents\3dsMax\scenes\_resource_MoW_old\-vehicle_machine_gun\_OLD_2014-12-24\MK1 VICKERS\?????? Vickers Mk IV_AA_x.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "body"
+			{parameters "CommonMesh;ID=body;"}
+			{Position -0.0632399	-0.182947	8.70533}
+			{VolumeView "body.ply"}
+			{bone revolute "turret"
+				{parameters "ID=body;"}
+				{speed 0.04}
+				{Position 0.286168	0.236838	0.897145}
+				{VolumeView "turret.ply"}
+				{bone revolute "gun_rot"
+					{parameters "ID=mgun;"}
+					{limits -5 85}
+					{speed 0.05}
+					{Matrix34
+						-1	0	0
+						0	0	1
+						0	1	0
+						0.0258735	-0.0286793	16.0159
+					}
+					{VolumeView "gun_rot.ply"}
+					{bone "mgun"
+						{Matrix34
+							-1	0	0
+							0	1	0
+							0	0	-1
+							10.5598	0.894476	-0.0137062
+						}
+						{VolumeView "mgun.ply"}
+						{bone "ammo_belt1"
+							{Matrix34
+								0	-1.55727e-05	1
+								0	1	1.55727e-05
+								-1	0	0
+								7.36385	-0.138683	-0.992053
+							}
+							{VolumeView "ammo_belt1.ply"}
+						}
+					}
+				}
+				{bone "korobka"
+					{parameters "ID=body;"}
+					{Matrix34
+						-1	0	0
+						0	-1	0
+						0	0	-1
+						-3.21153	-3.86327	8.35584
+					}
+					{VolumeView "korobka.ply"}
+					{bone "ammobox"
+						{Matrix34
+							0	1	0
+							0	0	-1
+							1	0	0
+							-0.886029	0.443703	-2.69207
+						}
+						{VolumeView "ammobox.ply"}
+						{bone "ammo_belt"
+							{parameters "ID=body;"}
+							{Matrix34
+								1	-1.57356e-05	0
+								1.57356e-05	1	0
+								0	0	1
+								-0.338236	3.07118	0.0578656
+							}
+							{VolumeView "ammo_belt.ply"}
+						}
+					}
+				}
+			}
+			{bone revolute "stan2"
+				{parameters "ID=body;"}
+				{Matrix34
+					-0.782395	0.610031	-0.125382
+					-0.102579	0.0723464	0.99209
+					-0.614277	-0.789068	-0.00597284
+					1.22284	-1.13942	-1.04002
+				}
+				{VolumeView "stan2.ply"}
+			}
+			{bone revolute "stan1"
+				{parameters "ID=body;"}
+				{Matrix34
+					0.869882	0	0.49326
+					-0.49326	0	0.869882
+					0	-1	0
+					-1.30653	-0.0596664	-1.10674
+				}
+				{VolumeView "stan1.ply"}
+			}
+			{bone revolute "stan3"
+				{parameters "ID=body;"}
+				{Matrix34
+					-0.779869	-0.607605	-0.150401
+					-0.123145	-0.0866513	0.988598
+					-0.61371	0.789498	-0.0072469
+					1.21503	1.57236	-1.14484
+				}
+				{VolumeView "stan3.ply"}
+			}
+		}
+		{bone "support1"
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				-1.29776	0	7.35062
+			}
+		}
+		{bone "support2"
+			{Position 0.97556	-1.01246	7.35588}
+		}
+		{bone "support3"
+			{Position 0.971841	1.13093	7.35588}
+		}
+	}
+}
+{Obstacle "obstacle"
+	{Circle2
+		{Radius 11.8554}
+		{Center -0.218003 -0.400806}
+	}
+	{Rotate}
+}

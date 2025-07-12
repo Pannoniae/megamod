@@ -1,0 +1,85 @@
+{game_entity
+	(include "/properties/cannon.ext")
+	(include "/properties/shadow/tank.inc" scale(0.6))
+	{Extension "37mm_type94.mdl"}
+	(include "/properties/selection/cannon.inc" scale(0.7))
+	{props "cannon_small" "wheeled" "vision_lev02_can" "muzzle_37mm_47mm" "cannon_sandbag_small" "trailer" "trailer_light"}
+	{collider "cannon_small"}
+	{targetclass "cannon_small"}
+	{targetSelector "cannon_small"}
+
+	("wheel" args "wheelright")
+	("wheel" args "wheelleft")
+
+	("gun" repair(30) thickness(20))
+
+	("armor_light_cannon")
+	("crew_wheeled_cannon")
+
+	{boarder
+		{anm "gunner"
+			{forward	{end "pose_m42_gunlayer" 10}}
+		}
+		{anm "commander"
+			{forward	{end "pose_m42_charger" 10}}
+		}
+		{anm "driver1"
+			{forward {end "cannon_pak40_pusher_left" 10}}
+		}
+		{anm "driver2"
+			{forward {end "cannon_pak40_pusher_right" 10}}
+		}
+		{anm "seat1"
+			{forward {end "pose_seat_cannon_left" 10}}
+		}
+		{anm "seat2"
+			{forward {end "pose_seat_cannon_right" 10}}
+		}
+	}
+	{extender "cannon"
+		{animation
+			{switch "close"}
+			{move "cannon_pak40_pusher_left" "cannon_pak40_pusher_right"}
+			{aim "cannon_m42_gunlayer" ""}
+			{fire  "Cannon_gunlayer_fire-alert" "cannon_m42_charger_fire"}
+			{reload  "" "cannon_m42_charger"}
+		}
+		{move {obstacle "close"}}
+		{attack {obstacle "open"}}
+	}
+	{extender "inventory"
+		{box
+			{item "ammo bullet37_jap aphe" 25}
+			{item "ammo bullet37_jap he" 60}
+			{item "sandbag_vehicle" 2}
+		}
+	}
+	{Weaponry
+		{place "gun"
+			{weapon "37mm_type94_at" filling "ammo bullet37_jap aphe" 1}
+			{Rotate}
+			("abm_dymamic_gun"
+				zeroing(2.7)
+				dispersion(0.12)
+			)
+		}
+	}
+	{mass 370}
+	{Chassis "track"
+		("car_trace" fx("tracewheel05a") step(0.14) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("mobility_cannon"
+			speed(10.2) ;----------------------------------Max speed.
+			weight(370) ;---------------------------------Weight in Kilograms.
+		)
+	}
+	{bone "basis"
+		 {limits}
+		{speed2 9}
+	}
+	{bone "gun_rot"
+		{speed2 10}
+	}
+	{bone "turret"
+		{speed2 18}
+	}
+}

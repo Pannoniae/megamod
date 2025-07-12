@@ -1,0 +1,11 @@
+{game_entity
+	{Extension "wz34puteaux_xx.mdl"}
+	{Volume "engine"
+	}
+	{Volume "turret"
+	}
+	{Volume "wheelleft1"
+	}
+	{Volume "wheelleft2"
+	}
+}

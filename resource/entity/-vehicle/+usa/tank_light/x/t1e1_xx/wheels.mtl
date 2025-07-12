@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "t1_cunningham_chassis_01_am_xx"}
+	{blend none}
+}

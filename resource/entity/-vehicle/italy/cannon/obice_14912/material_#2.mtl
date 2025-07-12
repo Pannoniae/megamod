@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "obice_14912"}
+	{specular "$/model/obice_14912_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

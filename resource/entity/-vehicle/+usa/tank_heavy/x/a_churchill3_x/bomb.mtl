@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_vehicle/demolition_bomb_c_demolition_bomb_c"}
+	{bump "$/_vehicle/demolition_bomb_n_n"}
+	{specular "$/_vehicle/demolition_bomb_n_s"}
+	{color "230 230 230 25"}
+	{blend none}
+}

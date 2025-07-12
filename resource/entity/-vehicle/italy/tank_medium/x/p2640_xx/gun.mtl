@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/p2640/p40_gun_x"}
+	{bump "$/model/p2640/p40_gun_nm"}
+	{specular "$/model/p2640/p40_gun_gmm"}
+	{color "229 229 229 25"}
+	{blend none}
+}

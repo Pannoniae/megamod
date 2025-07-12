@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/20mm_type_98/type_98_20_mm_upper_xx"}
+	{bump "$/model/20mm_type_98/type_98_20_mm_upper_bp"}
+	{specular "$/model/20mm_type_98/type_98_20_mm_upper_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

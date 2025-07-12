@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "t1_hmc_turret_01_am"}
+	{bump "t1_hmc_turret_01_anm"}
+	{blend none}
+}

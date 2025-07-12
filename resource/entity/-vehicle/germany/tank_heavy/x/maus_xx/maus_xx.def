@@ -1,0 +1,40 @@
+{game_entity
+	{Extension "maus_xx.mdl"}
+	(include "/properties/vehicle_xx.ext")
+	
+	{volume "body"			
+		{thickness 205
+			{front 205}		
+			{top 103}		
+			{rear 150}
+			{bottom 153}
+		}
+	}
+	{volume "body2"			
+		{thickness 205
+			{front 205}
+			{top 103}
+			{rear 150}
+			{bottom 153}
+		}
+	}
+	{volume "engine"		; Hull
+		{thickness 120
+			{front 120}
+			{rear 80}
+			{top 80}
+			{bottom 120}
+		}
+	}
+	{volume "turret"
+		{thickness 215
+			{front 215}
+			{top 60}
+			{rear 205}
+		}
+	}
+	{volume "mantlet"
+		{thickness 220}
+		{CastSteel 0.8063}
+	}
+}

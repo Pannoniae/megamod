@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "churchill_i_gun_x"}
+	{bump "$/model/churchill_i_gun_bp"}
+	{specular "$/model/churchill_i_gun_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

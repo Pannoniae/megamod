@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "humber"}
+	{bump "$/model/humber_bp"}
+	{specular "$/model/humber_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

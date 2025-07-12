@@ -1,0 +1,184 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/shadow/tank.inc"  scale(1.2))
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{props "heavy" "vision_lev05" "muzzle_50mm_57mm"}	
+
+	{targetclass "tank_heavy"}
+	{targetSelector "tank_medium"}
+	{PatherId "kv1"}
+	{collider "tank.heavy"}
+
+	("tank_heavy_tier1")
+
+	("tracks" repair(30) thickness(30))
+	("gun" repair(30) thickness(30))
+
+	{volume "body1"
+		{thickness 76
+			{front 101}
+			{top 22}
+			{right 76}
+			{left 76}
+			{rear 64}
+			{bottom 22}
+		}
+	}
+	{volume "body2"
+		{thickness 76
+			{front 57}
+			{top 22}
+			{right 76}
+			{left 76}
+			{rear 64}
+			{bottom 22}
+		}
+	}
+	{volume "body3"
+		{thickness 40
+			{front 76}
+			{top 25}
+			{right 76}
+			{left 76}
+			{rear 64}
+			{bottom 25}
+		}
+	}
+
+	{volume "engine"
+		{thickness 30
+			{front 10}
+			{right 75}
+			{left 75}
+			{rear 70}
+			{bottom 30}
+		}
+	}
+
+	{volume "turret"
+		{thickness 89
+			{top 35}
+			{bottom 35}
+		}
+	}
+	{volume "mantlet"
+		{thickness 110}
+		{component "turret"}
+	}
+
+
+	{extender "shield"
+		{on}
+	}
+
+	{component "shieldl1" {tags "shield"}}
+	{component "shieldl2" {tags "shield"}}
+	{component "shieldr1" {tags "shield"}}
+	{component "shieldr2" {tags "shield"}}
+
+	("shield" args "shieldl1" 8)
+	("shield" args "shieldl2" 8)
+	("shield" args "shieldr1" 8)
+	("shield" args "shieldr2" 8)
+	("ammo" args "ammo1")
+	("ammo" args "ammo2")	
+	("ammo" args "ammo3")	
+	("crew_5_human")
+
+		{boarder
+		{anm "left"
+			{forward	{begin	"board_tank_left"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_right"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_lowArmor"} 	{end "pose_seat_armor_2"}}
+			{reverse 	{end	"emit_tank_2"}}
+		}
+		{anm "armor1"
+			{forward	{begin	"board_lowArmor"} {end "pose_seat_armor_2"}}
+			{reverse 	{end	"emit_body"}}
+		}
+		{anm "armor2"
+			{forward	{begin	"board_lowArmor"} {end "pose_seat_armor_1"}}
+			{reverse 	{end	"emit_body"}}
+		}
+	}
+	
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor1))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor))
+	("seat_human" place(seat3) bone(seat03) door(emit5)  animation(armor))
+	("seat_human" place(seat4) bone(seat04) door(emit6)  animation(armor1))
+
+	{extender "inventory"
+		{box
+			{item "dynamite"}
+			{item "ammo bullet_57x441 eng apcbc" 48}
+			{item "ammo bullet_57x441 eng he" 36}
+			{item "ammo bullet_57x441 eng apds" 5}
+            		{item "ammo 7x57b" 3475}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "57mm_qf6_mk5" filling "bullet_57x441 eng apcbc" 1}	
+			{gunner "gunner"}
+			{charger "charger"}
+			("abm_dymamic"
+				zeroing(3.0)
+				dispersion(0.20)
+			)
+		}
+		{place "mgun1"
+			{type "hull"}
+			{weapon "besa_mg" filled}
+			{foresight "foresight4"}
+			{gunner "gunner3"}
+			{charger "gunner3"}
+			("abm_mgun")
+			{basic}
+			{ai_in_manual}
+		}
+		{place "mgun2"
+			{type "coaxial"}
+			{weapon "besa_mg" filled}
+			{foresight "foresight5"}
+			{gunner "gunner"}
+			{charger "charger"}
+			("abm_mgun")
+			{basic}
+		}
+	}
+
+	{Extension "mkiv.mdl"}
+
+	{mass 39600}
+	{Chassis
+		("tank_trace" fx("tracks_big") step(0.47) len(0.82))
+		("mobility_tank"
+			speed(20) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(3) ;---------Max speed in reverse on road, km/h.
+			traverse(20) ;-------Track traverse, per second, in degrees.
+			weight(39.0) ;-------Weight in Tonnes.
+			power(350) ;---------Engine Power, in hp.
+			track(4.0) ;---------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(568) ;----------Fuel capacity in Litres.
+			type(fuel) ;---------Fuel type. (diesel OR fuel)
+			range(170) ;----------Range in km, off-road.
+		)
+	}
+
+	{bone "turret"
+		{speed2 14.3}
+	}
+	{bone "gun_rot"
+		{speed 0.001}
+	}
+
+}
+

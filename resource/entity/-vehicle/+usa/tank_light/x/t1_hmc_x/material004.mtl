@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "t1_hmc_guns_am"}
+	{bump "t1_hmc_guns_anm"}
+	{blend none}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "citroen"}
+	{bump "$/model/citroen_bp"}
+	{specular "$/model/citroen_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

@@ -1,0 +1,112 @@
+{Entity
+	(include "/properties/tank_assaultgun.ext")
+	(include "/properties/shadow/tank.inc" scale(1.0))
+	(include "/properties/selection/vehicle.inc" scale(1.2))
+	{props "td" "medium" "-turret" "mantlet" "vision_lev03" "muzzle_85mm_93mm"}
+	{Extension "m10525.mdl"}
+	{PatherId "panzer3"}
+	{collider "tank.medium"}
+	{targetclass "tank_medium"}
+	{targetSelector "tank_medium"}
+
+	("tank_medium_tier1")
+
+	("tracks" repair(30) thickness(20))
+	("gun" repair(30) thickness(20))
+
+
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+		{thickness 45
+			{front 75}
+			{top 15}
+			{bottom 15}
+		}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+		{thickness 40
+			{front 50}
+			{rear 25}
+			{top 25}
+			{bottom 15}
+		}
+	}
+	{volume "engine1"
+		{component "engine"}
+		{tags "engine"}
+		{thickness 40
+			{front 25}
+			{top 25}
+			{bottom 15}
+		}
+	}
+	{volume "engine2"
+		{component "engine"}
+		{tags "engine"}
+		{thickness 40
+			{front 25}
+			{top 25}
+			{bottom 15}
+		}
+	}
+	{volume "mantlet"
+		{tags "gun"}
+		{component "gun"}
+		{thickness 90}
+	}
+	("ammo" args "ammo1")
+	("crew_4_human")
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_pz4_driver"} {end "seat_gunner_stand"} {base "open"}}
+			{reverse 	{end	"board_pz4_driver" -1} {base "open" -1}}
+		}
+		{anm "left"
+			{forward	{begin	"board_tank_right"} {end "seat_gunner_stand"} {base "open1"}}
+			{reverse 	{end	"emit_tank_2_hold"} {base "open1" -1}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_left"} {end "seat_gunner_stand"} {base "open2"}}
+			{reverse 	{end	"emit_tank_2_hold"} {base "open2" -1}}
+		}
+	}
+	{extender "inventory"
+		{box
+			{item "dynamite"}
+			{item "bullet105_ita apc" 16}
+			{item "bullet105_ita he" 20}
+			{item "bullet105_ita heat" 8}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "105mm_m105_25" filling "bullet105_ita apc" 1}
+			("abm_dymamic_td"
+				zeroing(3.5)
+				dispersion(0.25)
+			)
+		}
+	}
+	
+	{mass 15700}
+	{Chassis
+		("tank_trace" fx("tracks_sm2") step(0.2) len(-0.85))
+		("mobility_tank"
+			speed(35) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(7) ;--------Max speed in reverse on road, km/h.
+			traverse(25) ;-------Track traverse, per second, in degrees.
+			weight(15.7) ;--------Weight in Tonnes.
+			power(263) ;----------Engine Power, in hp.
+			track(7.0) ;---------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(182) ;----------Fuel capacity in Litres.
+			type(fuel) ;---------Fuel type. (diesel OR fuel)
+			range(180) ;----------Range in km, off-road.
+		)
+	}
+}
+

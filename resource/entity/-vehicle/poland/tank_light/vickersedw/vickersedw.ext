@@ -1,0 +1,46 @@
+;SDL
+
+	; armor notes
+	; tracks and wheels 15mm
+
+	("tankette_tier1")
+
+	("aux_turret" repair(45))
+	("tracks" repair(30) thickness(15))
+
+	("fuel" args "fuel")
+	("transmission" args "transmission")
+	
+
+	{volume "body"			; Hull
+		{thickness 13
+			{front 17}
+			{top 10}	
+			{bottom 6}
+		}
+	}
+	{volume "body1"			; Superstructure
+		{thickness 13
+			{front 17}
+			{top 10}	
+			{bottom 6}
+		}
+	}
+	{volume "engine"
+		{thickness 13
+			{front 5}
+			{top 6}
+			{bottom 6}
+		}
+	}
+	{volume "turret"		; Turret 1
+		{thickness 15
+			{top 10}
+		}
+	}
+
+	{volume "aux_turret2"		; Turre t2
+		{thickness 15
+			{top 10}
+		}
+	}	

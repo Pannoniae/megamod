@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "sdkfz301_xx"}
+	{specular ""}
+	{bump ""}
+	{color "229 229 229 25"}
+	{blend test}
+}

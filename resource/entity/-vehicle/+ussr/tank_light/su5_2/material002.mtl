@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "su-5_hull_01_am"}
+	{bump "$/_vehicle/su-5_hull_01_anm"}
+	{blend none}
+}

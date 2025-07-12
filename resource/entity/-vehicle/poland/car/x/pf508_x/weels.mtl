@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "pf_weels"}
+	{blend none}
+}

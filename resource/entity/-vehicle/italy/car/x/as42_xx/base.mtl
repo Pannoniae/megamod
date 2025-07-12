@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "as42_xx"}
+	{specular "$/model/as42_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

@@ -1,0 +1,73 @@
+{actor
+	(include "/properties/airborne_mp.ext")
+	{PatherID "bf110"}
+	(include "/properties/selection/airborne.inc" scale(3.0))
+	(include "/properties/shadow/airborn.inc" scale(2.2))
+	(include "/properties/car_crew.ext")
+	("fighter_tier1")
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_plane_left"} {end "seat_driver_car"} {base "open1"}}
+			{reverse 	{end	"board_plane_left" -1} {base "open1" -1}}
+		}
+		{anm "gunner"
+			{forward	{begin	"board_plane_right"} {end "seat_driver_car"} {base "open2"}}
+			{reverse 	{end	"board_plane_right" -1} {base "open2" -1}}
+		}
+	}
+	("crew_human" place(driver) bone(driver) door(emit1) animation(driver))
+	("crew_human" place(gunner) bone(gunner) door(emit2) animation(gunner))
+	{Placer
+		{place "driver" {turnOff {targetable}}}
+		{place "gunner" {turnOff {targetable}}}
+	}
+	("double_engine")
+	
+
+	{Chassis "airborne"
+		("flight_model"
+			speed(380)  ;//---------Max speed (at sea level), km/h.
+			climb_speed(11) ;//-----Climb rate at sea level, in m/s
+			turn(250) ;//-----------Turn-and-burn radius in meters, tightest sustained turn
+			turnMP(180) ;//----------Turn-and-burn radius in meters, tightest sustained turn in Multiplayer
+			aerodynamics(1.05) ;//--Aerodynamic efficiency rating (0-3)
+			weight(7600) ;//--------Weight in kg.
+			power(2200) ;//---------Horse Power.
+			fuel(1300) ;//----------Fuel capacity in Liters.
+			range(1500) ;//---------Distance can travel with full fuel tank, in km.
+			roll_rate(40) ;//-------Roll rate, in degrees per second.
+			roll_angle(65) ;//------Maximum roll angle, in degrees.
+		)
+	}
+	{mass 7600}
+	
+	
+	{extender "inventory"
+		{box
+			{item "bullet_20_auto aphe" 200}
+			{item "ammo 7,5x54" 1500}
+		}
+	}	
+	{Weaponry
+		{place "gun"
+			{weapon "20mm_hispano" filled}
+			{foresight "foresight1"}
+			{gunner "driver"}
+			{charger "driver"}
+			{basic}
+		}
+		{place "mgun1"
+			{weapon "mac34" filled}
+			{foresight "foresight4"}
+			{LinkBone "mgun1"}
+			{LinkAnimation "off"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			{rotate}
+			{basic}
+			{ai_in_manual}
+		}
+	}
+		
+	{Extension "potez631.mdl"}
+}

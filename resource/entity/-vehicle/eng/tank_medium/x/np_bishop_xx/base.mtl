@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "valentine_mk_iii_xx"}
+	{bump "$/model/valentine_mk_iii_n"}
+	{specular "$/model/valentine_mk_iii_s"}
+	{color "229 229 229 25"}
+	{blend none}
+}

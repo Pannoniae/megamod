@@ -1,0 +1,51 @@
+{game_entity
+	{Extension "toldi2_44_xx.mdl"}
+	{Volume "body1"
+	}
+	{Volume "body2"
+	}
+	{Volume "part1"
+	}
+	{Volume "part2"
+	}
+	{Volume "part3"
+	}
+	{Volume "part4"
+	}
+	{Volume "part5"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "trackright"
+	}
+	{Volume "turret"
+	}
+	{Volume "shieldl1"
+	}
+	{Volume "shieldl2"
+	}
+	{Volume "shieldl3"
+	}
+	{Volume "shieldl4"
+	}
+	{Volume "shieldl5"
+	}
+	{Volume "shieldl6"
+	}
+	{Volume "shieldl7"
+	}
+	{Volume "shieldr1"
+	}
+	{Volume "shieldr2"
+	}
+	{Volume "shieldr3"
+	}
+	{Volume "shieldr4"
+	}
+	{Volume "shieldr5"
+	}
+	{Volume "shieldr6"
+	}
+	{Volume "shieldr7"
+	}
+}

@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "chito_x"}
+	{specular "$/model/chito_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

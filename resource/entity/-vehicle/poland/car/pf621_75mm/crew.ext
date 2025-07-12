@@ -1,0 +1,47 @@
+;SDL	
+
+{boarder
+	{anm "driver"
+		{forward	{begin	"board_body"}{end "seat_opel_driver" 10}}
+		{reverse 	{end	"emit_body"}}
+	}
+	{anm "gunner"
+		{forward	{begin	"board_body"}{end "seat_passenger" 10} {base "doorback"}}
+		{reverse 	{end	"emit_body"}}
+	}
+	{anm "charger"
+		{forward	{begin	"board_body"}{end "seat_passenger" 10}}
+		{reverse 	{end	"emit_body"}}
+	}
+	
+}
+
+(define "crew_human"
+	{placer
+		{place "%place" {group "%group"} {linkbone "%bone"} {turnoff %off {shadow}}}
+	}
+	{boarder
+		{door "%door"}
+		{link "%door" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+	}
+)
+
+{placer
+	{place "driver"	{visor "driver"}}
+	{place "charger"	{visor "main"}}
+	{place "gunner"	{visor "main"} {turnoff {targetable 0}}}
+}
+
+("crew_human" place(driver)		door(emit1) bone(driver)  animation(driver)	 group(crew) off({sensor}))
+("crew_human" place(gunner)		door(emit3) bone(gunner)  animation(gunner)	 group(crew) off())
+("crew_human" place(charger)	door(emit4) bone(charger) animation(charger) group(crew) off())
+{sensor
+	{visor "main"
+		{vision "tank_main-l"}
+		{bone "foresight1"}
+	}
+	{Visor "driver"
+		{vision "vehicle_around"}
+		{bone "visor2"}
+	}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/cannone_wheel"}
+	{blend none}
+}

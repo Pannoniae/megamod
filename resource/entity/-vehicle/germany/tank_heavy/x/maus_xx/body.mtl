@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "pz8_body_xx"}
+	{bump "pz8_body_nm"}
+	{specular "pz8_body_gmm"}
+	{color "229 229 229 25"}
+	{blend test}
+}

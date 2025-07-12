@@ -1,0 +1,125 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/shadow/tank.inc" scale(1.0))
+	(include "/properties/selection/vehicle.inc" scale(1.0))
+	{props "light" "vision_lev03" "muzzle_20mm_25mm_auto" "detect_tank_light"}
+	{Extension "toldi2.mdl"}
+	{targetclass "tank_light"}
+	{targetSelector "tank_zenite"}
+	{patherId "panzer2"}
+	{collider "tank.light"}
+	
+	("tank_light_tier1")
+	("tracks" repair(30) thickness(15))
+	("gun" repair(30) thickness(20))
+	("ammo" args "ammo1")
+	("transmission" args "transmission")
+
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+		{thickness 15
+			{front 25}
+			{top 8}
+			{rear 15}
+			{bottom 8}
+		}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+		{thickness 15
+			{front 25}
+			{top 8}
+			{rear 15}
+			{bottom 8}
+		}
+	}
+	{volume "turret"
+		{tags "turret"}
+		{component "turret"}
+		{thickness 15
+			{front 33}
+			{top 8}
+			{rear 15}
+			{bottom 8}
+		}
+	}
+	{volume "mantlet"
+		{tags "mantlet"}
+		{component "mantlet"}
+		{thickness 35}
+	}
+	{volume "engine"
+		{tags "engine"}
+		{component "engine"}
+		{thickness 15
+			{top 8}
+			{bottom 8}
+		}
+	}
+	
+	{extender "enumerator"
+		{digit_folder "ger"}
+	}
+
+	("crew_3_human_2_extended")
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_pz4_driver"} {end "seat_gunner_stand"} {base "open_driver"}}
+			{reverse 	{end	"board_pz4_driver" -1} {base "open_driver" -1}}
+		}
+		{anm "left"
+			{forward	{begin	"board_tank_left"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_right"}}
+			{reverse 	{end	"emit_tank_1_hold"}}
+		}
+	}
+	{extender "inventory"
+		{box
+			{item "dynamite"}
+			{item "bullet40_hun ap" 30}
+			{item "bullet40_hun he" 27}
+			{item "ammo 8x56" 2300}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "40mm_42M" filling "bullet40_hun ap" 1}
+			{charger "gunner"}        
+			("abm_dymamic_autocannon"
+				zeroing(4)
+				dispersion(0.15)
+			)
+		}
+		{place "mgun1"
+			{type "coaxial"}
+			{weapon "gebauer" filled}
+			{foresight "foresight4"}
+			{charger "commander"} 
+			("abm_mgun")
+			{basic}
+		}
+	}
+	
+	{mass 9300}
+	{Chassis
+		("tank_trace" fx("tracks_sm2") step(0.15) len(0.4))
+		("mobility_tank"
+			speed(52) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(10) ;---------Max speed in reverse on road, km/h.
+			traverse(35) ;-------Track traverse, per second, in degrees.
+			weight(9.3) ;--------Weight in Tonnes.
+			power(155) ;---------Engine Power, in hp.
+			track(4.5) ;---------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(253) ;----------Fuel capacity in Litres.
+			type(fuel) ;---------Fuel type. (diesel OR fuel)
+			range(220) ;---------Range in km, off-road.
+		)
+	}
+}

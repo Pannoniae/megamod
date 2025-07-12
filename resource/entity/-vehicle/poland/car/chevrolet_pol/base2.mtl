@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "chevrolet_fuel"}
+	{specular "$/model/chevrolet_fuel_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

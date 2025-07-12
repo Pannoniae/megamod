@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "/entity/-vehicle/britain/tank_heavy/np_churchill_mk_iv/mkvi"}
+	{bump "$/model/mkvi_bp"}
+	{specular "$/model/mkvi_sp"}
+	{color "230 230 230 25"}
+	{blend test}
+}

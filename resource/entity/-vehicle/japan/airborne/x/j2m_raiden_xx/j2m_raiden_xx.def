@@ -1,0 +1,33 @@
+{game_entity
+	{Extension "j2m_rs_xx.mdl"}
+	{Volume "body"
+	}
+	{Volume "elevator1"
+	}
+	{Volume "elevator2"
+	}
+	{Volume "elevator_l"
+	}
+	{Volume "elevator_r"
+	}
+	{Volume "engine"
+	}
+	{Volume "propeller"
+	}
+	{Volume "retract_wheell"
+	}
+	{Volume "retract_wheelr"
+	}
+	{Volume "rudder"
+	}
+	{Volume "wheelback"
+	}
+	{Volume "wheell"
+	}
+	{Volume "wheelr"
+	}
+	{Volume "wingleft"
+	}
+	{Volume "wingright"
+	}
+}

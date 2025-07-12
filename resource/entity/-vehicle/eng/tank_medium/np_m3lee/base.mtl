@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "m3_lee"}
+	{specular "$/model/m3_lee_sp"}
+	{color "255 255 255 25"}
+	{blend test}
+}

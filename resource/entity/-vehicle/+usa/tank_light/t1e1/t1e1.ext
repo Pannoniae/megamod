@@ -1,0 +1,75 @@
+;SDL
+
+	; armor notes
+	; tracks and wheels 15mm
+	; gun 20mm
+
+	("tank_light_tier1")
+
+	("tracks" repair(30) thickness(15))
+	("gun" repair(30) thickness(20))
+
+	("ammo" args "ammo")
+	("transmission" args "transmission")
+
+	("shield" args "shieldr1" 6.4)
+	("shield" args "shieldr2" 3)
+	("shield" args "shieldl1" 6.4)
+	("shield" args "shieldl2" 3)
+	("gun_shield" args "mantlet" 12.7)
+	("gun_shield" args "sideshield_r" 6.4)
+	("gun_shield" args "sideshield_l" 6.4)
+	("gun_shield" args "fueltank1" 6.4)	
+	("gun_shield" args "fueltank2" 6.4)	
+
+	{component "shieldl1" {tags "cut_part"}}
+	{component "shieldl2" {tags "cut_part"}}
+	{component "shieldr1" {tags "cut_part"}}
+	{component "shieldr2" {tags "cut_part"}}
+	
+	{volume "body1"			; Hull
+		{tags "body"}
+		{component "body"}
+		{thickness 9.5
+			{top 6.4}
+		}
+	}
+	{volume "body2"			; Superstructure
+		{tags "body"}
+		{component "body"}
+		{thickness 9.5
+			{top 6.4}
+		}
+	}
+	{volume "engine"
+		{tags "engine"}
+		{component "engine"}
+		{thickness 25.4
+			{front 10}
+			{top 12.7}
+			{bottom 10}
+		}
+	}
+	{volume "turret"		; Turret
+		{tags "turret"}
+		{component "turret"}
+		{thickness 9.5
+			{top 6.4}
+		}
+	}
+	{Volume "gun"
+		{tags "gun"}
+		{component "gun"}
+		{thickness 20}
+	}
+	{volume "mantlet"	
+		{tags "gun"}
+		{component "gun"}
+		{thickness 12.7}
+	}
+	{Volume "trackleft"
+		{thickness 15}
+	}
+	{Volume "trackright"
+		{thickness 15}
+	}

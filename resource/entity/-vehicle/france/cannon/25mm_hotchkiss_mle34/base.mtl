@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "mle34"}
+	{bump "$/model/empty_bp"}
+	{specular "$/model/mle34_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

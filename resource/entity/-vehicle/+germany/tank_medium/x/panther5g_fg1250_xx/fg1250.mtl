@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "fg1250"}
+	{bump "fg1250_b"}
+	{specular "fg1250_s"}
+	{color "230 230 230 25"}
+	{blend test}
+}

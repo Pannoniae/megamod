@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_vehicle/churchill_avre_gun_c_uk_camo_very_dark_drab_xx"}
+	{bump "$/_vehicle/churchill_avre_gun_n_n"}
+	{specular "$/_vehicle/churchill_avre_gun_n_s"}
+	{color "230 230 230 25"}
+	{blend none}
+}

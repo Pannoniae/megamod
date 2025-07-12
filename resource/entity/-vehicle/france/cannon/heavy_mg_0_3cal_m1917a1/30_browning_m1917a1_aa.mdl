@@ -1,0 +1,149 @@
+;Exported by: Sergey
+;Date:        Thu Oct 04 13:18:57 2012
+;File:        D:\Documents\3dsmax\scenes\ѕулемЄты Browning\Tripod Browning M1917A1_aa.max
+{Skeleton
+	{animation
+		{sequence "close" {speed 0.6}}
+	}
+	{bone revolute "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "emit1"
+			{Position -40.2019	-0.015311	0}
+		}
+		{bone "emit2"
+			{Position -50.3258	5.29555	0}
+		}
+		{bone "driver1"
+			{Position 15.1524	3.46994	0}
+		}
+		{bone "driver2"
+			{Position -3.46292	-3.45047	0}
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{Position -0.0290887	-0.00139381	6.38698}
+			{VolumeView "body.ply"}
+			{bone "support01"
+				{parameters "ID=support01;"}
+				{Matrix34
+					0.720142	0	-0.693826
+					0.693826	0	0.720142
+					0	-1	0
+					-1.7358	0.280748	0.267987
+				}
+				{VolumeView "support01.ply"}
+			}
+			{bone "support02"
+				{parameters "ID=support02;"}
+				{Matrix34
+					-0.591394	0.342374	-0.730091
+					-0.631845	0.365793	0.68335
+					0.501024	0.865434	0
+					1.27592	-1.264	0.262454
+				}
+				{VolumeView "support02.ply"}
+			}
+			{bone "support03"
+				{parameters "ID=support03;"}
+				{Matrix34
+					-0.57095	-0.37103	-0.732361
+					-0.614087	-0.399062	0.680917
+					-0.544897	0.838503	0
+					1.37374	1.07475	0.262454
+				}
+				{VolumeView "support03.ply"}
+			}
+			{bone "support04"
+				{parameters "ID=body;"}
+				{Position 0	0	2.87361}
+				{VolumeView "support04.ply"}
+				{bone revolute "turret"
+					{parameters "ID=gun_rot;"}
+					{Position 0	0	10.4088}
+					{VolumeView "turret.ply"}
+					{bone revolute "gun_rot"
+						{parameters "ID=gun_rot;"}
+						{limits -5 10}
+						{Matrix34
+							1	0	0
+							0	0	1
+							0	-1	0
+							-1.32354	0.00652967	6.82487
+						}
+						{VolumeView "gun_rot.ply"}
+						{bone "mgun"
+							{Position -5.35021	-0.966997	0.00513339}
+							{bone "visor"
+								{Position 25.1312	4.883	0}
+							}
+						}
+						{bone "handle1"
+							{Position -1.30245	-5.00308	0.00513554}
+						}
+						{bone "handle2"
+							{Position -0.34736	-5.03659	0.00513554}
+						}
+					}
+					{bone "gunner"
+						{Position -15.1659	0.994589	-19.6633}
+					}
+					{bone "commander"
+						{Position -19.9832	24.8158	-19.6242}
+					}
+					{bone "visor2"
+						{Matrix34
+							1	0	0
+							0	0	1
+							0	-1	0
+							9.96964	14.9764	7.62091
+						}
+					}
+				}
+			}
+		}
+	}
+}
+{Volume "body"
+	{Cylinder 1.62672 15.748}
+	{Bone "body"}
+	{Position 0.0147469	0.00195085	7.17111}
+}
+{Volume "gun_rot"
+	{Box 10.0237 5.35543 3.14961}
+	{Bone "gun_rot"}
+	{Position -1.87291	-2.22825	0.00392032}
+}
+{Volume "support01"
+	{Cylinder 0.374016 9.84252}
+	{Bone "support01"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		-0.00364542	-4.56739	0.278765
+	}
+}
+{Volume "support02"
+	{Cylinder 0.374016 9.84252}
+	{Bone "support02"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		-0.00192518	-4.94998	0.150881
+	}
+}
+{Volume "support03"
+	{Cylinder 0.374016 9.84252}
+	{Bone "support03"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		-0.00192518	-4.94998	0.15088
+	}
+}

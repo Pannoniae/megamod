@@ -1,0 +1,43 @@
+;SDL
+	
+	; armor notes
+	; tracks and wheels 15mm
+	; gun 20mm
+
+	("tank_light_tier1")
+
+	("tracks" repair(30) thickness(15))
+
+	("fuel" args "fuel")
+	("transmission" args "transmission")
+	
+
+	{volume "body"			; Hull
+		{thickness 13
+			{front 17}
+			{top 10}	
+			{bottom 6}
+		}
+	}
+	{volume "body1"			; Superstructure
+		{thickness 13
+			{front 17}
+			{top 10}	
+			{bottom 6}
+		}
+	}
+	{volume "engine"
+		{thickness 13
+			{front 5}
+			{top 6}
+			{bottom 6}
+		}
+	}
+	{volume "turret"		; Turret
+		{thickness 15
+			{top 10}
+		}
+	}
+	{volume "mantlet"
+		{thickness 15}
+	}
