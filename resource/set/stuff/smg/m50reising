@@ -1,0 +1,15 @@
+{from "pattern smg"
+	{filling "ammo 11x23" 20}
+	{entity "m50reising"}
+	{fireSound	"smg/m50reising_burst/"}
+	{fireSoundclose "smg/m50reising_burst/3p/"}
+	{reloadSound "stg"}
+	{calibre 11.43}
+	{mass 3.5}
+
+	("fire rate" rpm(450))
+	("velocity" mps(280))
+	("recoil_smg_medium")
+	("burst_short")
+}
+;Cost=10;

@@ -1,0 +1,16 @@
+;// 6.5x52mm
+
+{bullet
+	{tag "bullet small_arms normal stackable pierce mgun"}
+	{tag "bullet_fx size2"}
+	{inventory
+		{weight 5}
+		{block 50}
+		{size 1 1}
+		{fsm "belt"}
+	}	
+	{mass 0.010}
+	{entity "rifle_cartridge_ita"}
+	{view "rifle_bullet"}
+	("mgun_trace")
+}

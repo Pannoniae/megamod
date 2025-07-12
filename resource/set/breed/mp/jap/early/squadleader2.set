@@ -1,0 +1,34 @@
+{breed
+	{behaviour soldier}
+	{skin "jap_squadleader"}
+	{portrait "jap_soldier3"}
+	{tags "soldier"}
+	{nationality jap}
+	{icon "squadleader2"}
+	{icon_priority 2}
+	{armors
+		{head cap_jap_off}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_3")
+		("tier3_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "sigm1920" filled}
+		{item  "ammo 7x21" 270}
+		{item "bandage_jap" 3}
+		{item "grenade type97" 4}
+		{item "grenade molotov_cocktail" 1}
+		{item "smoke grenade" 1}
+		{item "small_inf_shovel"}
+		{item "ammo_box_inf_jap"}
+		{in_hands 0}
+	}
+}
+;Cost=18;
+

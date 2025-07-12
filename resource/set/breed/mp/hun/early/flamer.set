@@ -1,0 +1,28 @@
+{breed
+	{behaviour soldier}
+	{skin "hun-inf-early-lmg"}
+	{portrait "hun_soldier2"}
+	{tags "soldier"}
+	{nationality hun}
+	{icon "flamers"}
+	{icon_priority 4}
+	{armors
+		{head "helmet1_hun"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "flame_thrower_g" filled}
+		{item "bandage_hun" 1}
+		{in_hands 0}
+	}
+}
+;Cost=53;
+

@@ -1,0 +1,343 @@
+;SDL
+
+;////////////////// INSTRUCTIONS //////////////////
+;Buttons go as follows, displayed in-game in this order:
+
+; inf1       - infantry squads
+; inf2       - infantry single units
+; empl       - Emplacements, AA, AT, Mortars, Howitzers
+; vehicles   - vehicles, armoured cars, supplies
+; tanks      - main battle tanks, TDs, SPGs
+; doctrine   - specific doctrine setups
+
+; TEMP: Note all levels have been brought down to 1 to remove unit locks.
+; Squads currently have an MP cost of 0 - their cost is currently calculated as the sum of their soldiers cost, see inf_ger.set
+; Check ../settings.set for syntax instructions!!
+; unit limits per game are not defined here but in gamemode presets
+
+;user defined set tags that should be featured on units:
+;all artillery heavyart cannon mediumcan heavycan light medium heavy infantry supply
+;these tags allow player to disable certain sets for custom setups like "no heavy artillery"
+;//////////////////////////////////////////////////
+
+
+;_________________________________________________
+;|             inf1                               |
+;|________________________________________________|
+
+("squad_with3types_conquest" side(hun) coalition(ost) period(mid) min_stage(1) max_stage(4)  name(squad_light)				c1(rifle:8) c2(smg:1) c3(squadleader:1))
+("squad_with2types_conquest" side(hun) coalition(ost) period(mid) min_stage(1) max_stage(99) name(single_at)				c1(at_rifle:1) c2(smg2:1))
+("squad_with1types_conquest" side(hun) coalition(ost) period(mid) min_stage(1) max_stage(99) name(single_medic)			c1(medic:2))
+
+("squad_with5types_conquest" side(hun) coalition(ost) period(mid) min_stage(2) max_stage(99) name(squad_regular)			c1(rifle2:6) c2(smg2:1) c3(mgun:1) c4(mgun_assist:1) c5(squadleader:1))
+("squad_with6types_conquest" side(hun) coalition(ost) period(mid) min_stage(3) max_stage(99) name(squad_pionier)			c1(elite:4) c2(elite3:2) c3(elite2:1) c4(elite2_assist:1) c5(elite4:1) c6(elite_sl:1))
+("squad_with5types_conquest" side(hun) coalition(ost) period(mid) min_stage(3) max_stage(99) name(squad_stormtrooper)	c1(sturmovik:3) c2(sturmovik3:4) c3(sturmovik2:1) c4(sturmovik2_assist:1) c5(sturmovik_sl:1))
+("squad_with5types_conquest" side(hun) coalition(ost) period(mid) min_stage(4) max_stage(99) name(squad_laszlo) 		c1(laszlo:3) c2(laszlo2:1) c3(laszlo2_assist:1) c4(laszlo3:4) c5(laszlo_sl:1))
+
+{"mechanized_infantry_hun"
+	("squad_vehicle5"		 side(hun) coalition(ost) period(mid) min_stage(4) max_stage(99) cw(3) cp(5) vehicle(krupp_mg) crew1(elite:4) crew2(elite3:2) crew3(elite2:1) crew4(elite2_assist:1) crew5(elite_sl:1)) 
+}
+
+;_________________________________________________
+;|             inf2                               |
+;|________________________________________________|
+
+("squad_with2types_conquest" side(hun) coalition(ost) period(mid) min_stage(1) max_stage(99) name(single_auxiliary)  	c1(rifle:2) c2(smg:1))
+("squad_with2types_conquest" side(hun) coalition(ost) period(mid) min_stage(2) max_stage(99) name(single_mg) 			c1(mgun:1) c2(mgun_assist:1))
+("squad_with2types_conquest" side(hun) coalition(ost) period(mid) min_stage(2) max_stage(99) name(single_mortar)		c1(gr_launcher:1) c2(smg2:1))
+("squad_with2types_conquest" side(hun) coalition(ost) period(mid) min_stage(2) max_stage(99) name(single_riflegrenade)	c1(rifle_grenade:1) c2(smg2:1))
+("squad_with2types_conquest" side(hun) coalition(ost) period(late) min_stage(8) max_stage(99) name(single_bazooker)	c1(bazooker:1) c2(smg2:1))
+("squad_with1types_conquest" side(hun) coalition(ost) period(mid) min_stage(2) max_stage(99) name(single_ap_miner)		c1(ap_miner:2))
+("squad_with1types_conquest" side(hun) coalition(ost) period(mid) min_stage(3) max_stage(99) name(single_at_miner)		c1(at_miner:2))
+("squad_with1types_conquest" side(hun) coalition(ost) period(mid) min_stage(3) max_stage(99) name(single_engineer)		c1(saper:2))
+("squad_with1types_conquest" side(hun) coalition(ost) period(mid) min_stage(3) max_stage(99) name(single_flamer)		c1(flamer:1))
+("squad_with2types_conquest" side(hun) coalition(ost) period(mid) min_stage(0) max_stage(0)  name(single_tankman)		c1(tank_commander:1) c2(tankman:3))
+("squad_with1types_conquest" side(hun) coalition(ost) period(mid) min_stage(3) max_stage(99) name(single_sniper)		c1(sniper:1))
+("squad_with1types_conquest" side(hun) coalition(ost) period(mid) min_stage(3) max_stage(99) name(single_officer)		c1(officer:1))
+
+;_________________________________________________
+;|                  Emplacements                  |
+;|________________________________________________|
+
+
+{"inf_crate_hun"
+	("vehicle" side(hun) coalition(ost) period(mid) min_stage(1) max_stage(99) cw(0) cp(0) crew(rifle:2))
+	{cost 50}
+}
+
+;AUTOMATIC WEAPONRY
+{"heavy_mg_schwarzlose"
+	("emplacement" side(hun) coalition(ost) period(mid) min_stage(1) max_stage(99) cw(0) cp(0) crew(vehicle_supporter:0) condition(barricade) action(heavy_mg_schwarzlose))
+	{cost 85}{not_for_player_sale 1}
+}
+{"heavy_mg_4cm_bofors_36m"
+	("emplacement" side(hun) coalition(ost) period(mid) min_stage(2) max_stage(99) cw(0) cp(9) cd(5) crew(vehicle_supporter:0) condition(barricade) action(4cm_bofors_36m))
+	{cost 270}{not_for_player_sale 1}
+}
+{"heavy_mg_8cm_bofors_29m"
+	("emplacement" side(hun) coalition(ost) period(mid) min_stage(5) max_stage(99) cw(0) cp(25) cd(5) crew(vehicle_supporter:0) condition(barricade) action(8cm_bofors_29m))
+	{cost 600}{not_for_player_sale 1}
+}
+{"schwarzlose_8mm"
+	("vehicle" side(hun) coalition(ost) period(mid) min_stage(1) max_stage(99) cw(2) cp(0) crew(vehicle_supporter:2))
+	{cost 75}
+}
+{"schwarzlose_8mm_aa"
+	("vehicle" side(hun) coalition(ost) period(mid) min_stage(1) max_stage(99) cw(2) cp(0) crew(vehicle_supporter:2))
+	{cost 80}
+}
+{"2cm_solothurn_hun"
+	("vehicle" side(hun) coalition(ost) period(mid) min_stage(1) max_stage(99) cw(2) cp(4) crew(vehicle_supporter:2))
+	{cost 90}
+}
+
+
+; AT WEAPONRY
+{"4cm_40m"
+	("vehicle" side(hun) coalition(ost) period(mid) min_stage(1) max_stage(99) cw(0) cp(6) crew(vehicle_supporter:2))
+	{cost 180}
+}
+{"21cm_44m_buzoganyveto"
+	("vehicle" side(hun) coalition(ost) period(mid) min_stage(8) max_stage(99) cw(0) cp(8) crew(vehicle_supporter:2))
+	{cost 230}
+}
+{"4cm_bofors_36m"
+	("vehicle" side(hun) coalition(ost) period(mid) min_stage(3) max_stage(99) cw(0) cp(9) crew(vehicle_supporter:2))
+	{cost 270}
+}
+{"5cm_38m"
+	("vehicle" side(hun) coalition(ost) period(mid) min_stage(5) max_stage(99) cw(0) cp(10) crew(vehicle_supporter:4))
+	{cost 280}
+}
+{"7_5cm_pak97_38_hun"
+	("vehicle" side(hun) coalition(ost) period(mid) min_stage(4) max_stage(99) cw(0) cp(16) crew(vehicle_supporter:4))
+	{cost 320}
+}
+{"7_5cm_40m"
+	("vehicle" side(hun) coalition(ost) period(mid) min_stage(7) max_stage(99) cw(0) cp(21) crew(vehicle_supporter:4))
+	{cost 480}
+}
+{"8cm_bofors_29m"
+	("vehicle" side(hun) coalition(ost) period(mid) min_stage(5) max_stage(99) cw(0) cp(25) crew(vehicle_supporter:2))
+	{cost 600}
+}
+
+;HOWITZERS
+{"8cm_feldkanone"
+	("vehicle" side(hun) coalition(ost) period(mid) min_stage(1) max_stage(99) cw(0) cp(16) crew(vehicle_supporter:4))
+	{cost 310}
+}
+{"81mm_brandt_hun"
+	("vehicle" side(hun) coalition(ost) period(mid) min_stage(1) max_stage(99) cw(0) cp(8) crew(vehicle_supporter:2))
+	{cost 250}
+}
+{"10cm_37m"
+	("vehicle" side(hun) coalition(ost) period(mid) min_stage(3) max_stage(99) cw(0) cp(21) crew(vehicle_supporter:4))
+	{cost 750}
+}
+{"15cm_feldhaubitze"
+	("vehicle" side(hun) coalition(ost) period(mid) min_stage(3) max_stage(99) cw(0) cp(30) crew(vehicle_supporter:4))
+	{cost 800}
+}
+{"15cm_43m"
+	("vehicle" side(hun) coalition(ost) period(mid) min_stage(7) max_stage(99) cw(0) cp(31) crew(vehicle_supporter:2))
+	{cost 800}
+}
+{"21cm_39m"
+	("vehicle" side(hun) coalition(ost) period(mid) min_stage(5) max_stage(99) cw(0) cp(34) crew(vehicle_supporter:6))
+	{cost 1000}
+}
+;_________________________________________________
+;|               Wheeled vehicles                 |
+;|________________________________________________|
+
+{"botond"
+	("vehicle"  side(hun) coalition(ost) period(mid) min_stage(1) max_stage(99) cw(1) cp(2) crew(vehicle_supporter:1))
+	{cost 20}
+}
+{"hansa_lloyd"
+	("vehicle"  side(hun) coalition(ost) period(mid) min_stage(4) max_stage(99) cw(1) cp(2) crew(vehicle_supporter:2))
+	{cost 50}
+}
+{"mercedesl3000"
+	("vehicle"  side(hun) coalition(ost) period(mid) min_stage(1) max_stage(99) cw(1) cp(5) crew(vehicle_supporter:2))
+	{cost 50}
+}
+{"mercedesl3000_fuel"
+	("vehicle"  side(hun) coalition(ost) period(mid) min_stage(2) max_stage(99) cw(1) cp(5) crew(vehicle_supporter:1))
+	{cost 90}
+}
+{"krupp_mg"
+	("vehicle"  side(hun) coalition(ost) period(mid) min_stage(1) max_stage(99) cw(3) cp(3) crew(vehicle_supporter:3))
+	{cost 70}
+}
+{"mercedesl3000_art"
+	("vehicle"  side(hun) coalition(ost) period(mid) min_stage(2) max_stage(99) cw(1) cp(5) crew(vehicle_supporter:2))
+	{cost 190}
+}
+{"mercedesl3000_eng"
+	("vehicle2" side(hun) coalition(ost) period(mid) min_stage(2) max_stage(99) cw(1) cp(5) crew1(vehicle_supporter:1) crew2(saper:1))
+	{cost 80}
+}
+{"csaba40m"
+	("vehicle2" side(hun) coalition(ost) period(mid) min_stage(2) max_stage(5) cw(2) cp(4) crew1(tankman:3) crew2(tankman2:1))
+	{cost 180}
+}
+{"csaba39m"
+	("vehicle2" side(hun) coalition(ost) period(mid) min_stage(3) max_stage(99) cw(2) cp(8) crew1(tankman:3) crew2(tankman2:1))
+	{cost 230}
+}
+{"csaba39m_com"
+	("vehicle2" side(hun) coalition(ost) period(mid) min_stage(3) max_stage(99) cw(2) cp(-12) crew1(tankman:3) crew2(officer:1))
+	{cost 220}
+}
+
+;RECOVERY VEHICLE
+
+{"sdkfz7_hun"
+	("vehicle" side(hun) coalition(ost) period(mid) min_stage(3) max_stage(99) cw(2) cp(5) crew(vehicle_supporter:2))
+	{cost 120}
+}
+
+
+;_________________________________________________
+;|        Main Battle Tanks and SPGs              |
+;|________________________________________________|
+
+
+;LIGHT
+{"toldi1"
+	("vehicle2" side(hun) coalition(ost) period(mid) min_stage(2) max_stage(99) cw(4) cp(15) crew1(tankman:2) crew2(tankman2:1))
+	{cost 240}
+}
+{"toldi2"
+	("vehicle2" side(hun) coalition(ost) period(mid) min_stage(3) max_stage(9) cw(4) cp(16) crew1(tankman:2) crew2(tankman2:1))
+	{cost 280}
+}
+{"pzkpfw38t_hun"
+	("vehicle2" side(hun) coalition(ost) period(mid) min_stage(5) max_stage(99) cw(4) cp(16) crew1(tankman:3) crew2(tankman2:1))
+	{cost 280}
+}
+{"toldi2_late"
+	("vehicle2" side(hun) coalition(ost) period(mid) min_stage(7) max_stage(99) cw(4) cp(18) crew1(tankman:2) crew2(tankman2:1))
+	{cost 290}
+}
+{"nimrod"
+	("vehicle2" side(hun) coalition(ost) period(mid) min_stage(4) max_stage(99) cw(4) cp(20) crew1(tankman:3) crew2(tankman2:1))
+	{cost 300}
+}
+
+
+;MEDIUM
+
+{"turan1"
+	("vehicle2" side(hun) coalition(ost) period(mid) min_stage(3) max_stage(6) cw(6) cp(16) crew1(tankman:3) crew2(tankman2:1))
+	{cost 340}
+}
+{"turan2"
+	("vehicle2" side(hun) coalition(ost) period(mid) min_stage(5) max_stage(12) cw(6) cp(25) crew1(tankman:3) crew2(tankman2:1))
+	{cost 400}
+}
+{"pz3m_hun"
+	("vehicle2" side(hun) coalition(ost) period(mid) min_stage(6) max_stage(99) cw(6) cp(25) crew1(tankman:3) crew2(tankman2:1))
+	{cost 430}
+}
+{"turan2_late"
+	("vehicle2" side(hun) coalition(ost) period(mid) min_stage(9) max_stage(99) cw(6) cp(30) crew1(tankman:3) crew2(tankman2:1))
+	{cost 420}
+}
+{"pz4f_hun"
+	("vehicle2" side(hun) coalition(ost) period(mid) min_stage(6) max_stage(99) cw(6) cp(30) crew1(tankman:4) crew2(tankman2:1))
+	{cost 580}
+}
+{"pz4h_hun"
+	("vehicle2" side(hun) coalition(ost) period(mid) min_stage(7) max_stage(99) cw(6) cp(35) crew1(tankman:4) crew2(tankman2:1))
+	{cost 630}
+}
+{"turan3"
+	("vehicle2" side(hun) coalition(ost) period(mid) min_stage(9) max_stage(99) cw(6) cp(35) crew1(tankman:4) crew2(tankman2:1))
+	{cost 600}
+}
+
+;HEAVY
+{"pz6e_hun"
+	("vehicle2" side(hun) coalition(ost) period(mid) min_stage(8) max_stage(99) cw(8) cp(45) crew1(tankman:4) crew2(tankman2:1))
+	{cost 1250}
+}
+;SPG
+{"marder2_hun"
+	("vehicle2" side(hun) coalition(ost) period(mid) min_stage(6) max_stage(99) cw(4) cp(26) crew1(tankman:2) crew2(tankman2:1))
+	{cost 530}
+}
+{"hetzer_hun"
+	("vehicle2" side(hun) coalition(ost) period(mid) min_stage(8) max_stage(99) cw(4) cp(31) crew1(tankman:3) crew2(tankman2:1))
+	{cost 550}
+}
+{"zrinyi1"
+	("vehicle2" side(hun) coalition(ost) period(mid) min_stage(7) max_stage(99) cw(6) cp(31) crew1(tankman:3) crew2(tankman2:1))
+	{cost 550}
+}
+{"stug3g_hun"
+	("vehicle2" side(hun) coalition(ost) period(mid) min_stage(7) max_stage(99) cw(6) cp(31) crew1(tankman:3) crew2(tankman2:1))
+	{cost 600}
+}
+{"zrinyi2"
+	("vehicle2" side(hun) coalition(ost) period(mid) min_stage(7) max_stage(99) cw(6) cp(31) crew1(tankman:3) crew2(tankman2:1))
+	{cost 700}
+}
+{"conquest_blank"
+	("vehicle" 	side(hun) period(mid) min_stage(1) max_stage(99) crew(tankman:0) cw(0) cp(0))
+	{cost 0} {not_for_player_sale 1}
+}
+
+;_______________________________________________
+;|					Aircraft					|
+;|______________________________________________|
+
+{"conquest_fi156_hun"
+	("squad_vehicle" side(hun) coalition(ost) period(mid) min_stage(1) max_stage(99) cw(0) cp(0) crew(pilot:2) vehicle(fi156_hun))
+	{cost 1}
+	{round_multiple 1.0}
+	{action "airstrike:reconnaissance_50"}
+}
+{"conquest_ca101_b_50"
+	("squad_vehicle" side(hun) coalition(ost) period(mid) min_stage(1) max_stage(99) cw(0) cp(0) crew(pilot:2) vehicle(ca101_b))
+	{cost 2}
+	{round_multiple 1.0}
+	{action "airstrike:sc_50"}
+}
+{"conquest_ca101_b"
+	("squad_vehicle" side(hun) coalition(ost) period(mid) min_stage(1) max_stage(99) cw(0) cp(0) crew(pilot:2) vehicle(ca101_b))
+	{cost 3}
+	{round_multiple 1.0}
+	{action "airstrike:sc_250"}
+}
+{"ca101_b" {tags "conquest conquestonly"} {score 0} {cw 0} {cp 10} {cost 0} {not_for_sale 1}}
+{"fi156_hun" {tags "conquest conquestonly"} {score 0} {cw 0} {cp 8} {cost 0} {not_for_sale 1}}
+
+{"81mm_brandt_hun_mortar_barrage"
+	("squad_vehicle" side(hun) coalition(ost) period(mid)  min_stage(1) max_stage(99) cw(0) cp(0) crew(vehicle_supporter:0) vehicle(81mm_brandt_hun))
+	{cost -248} ;81mm_brandt_ita cost 250 - 248 = 2
+	{round_multiple 1.0}
+	{action "airstrike:conquest_mortar_barrage_80"}
+}
+
+{"10cm_37m_smoke_barrage"
+	("squad_vehicle" side(hun) coalition(ost) period(mid)  min_stage(3) max_stage(99) cw(0) cp(0) crew(vehicle_supporter:0) vehicle(10cm_37m))
+	{cost -748} ;10cm_37m cost 750 - 748 = 2
+	{round_multiple 1.0}
+	{action "airstrike:conquest_smoke_barrage_122_rus"}
+}
+{"10cm_37m_artillery_barrage"
+	("squad_vehicle" side(hun) coalition(ost) period(mid)  min_stage(3) max_stage(99) cw(0) cp(0) crew(vehicle_supporter:0) vehicle(10cm_37m))
+	{cost -747} ;10cm_37m cost 750 - 747 = 3
+	{round_multiple 1.0}
+	{action "airstrike:conquest_artillery_barrage_122_rus"}
+}
+
+{"15cm_feldhaubitze_artillery_barrage"
+	("squad_vehicle" side(hun) coalition(ost) period(mid)  min_stage(3) max_stage(99) cw(0) cp(0) crew(vehicle_supporter:0) vehicle(15cm_feldhaubitze))
+	{cost -796} ;15cm_feldhaubitze cost 800 - 796 = 4
+	{round_multiple 1.0}
+	{action "airstrike:conquest_artillery_barrage_152_rus"}
+}

@@ -1,0 +1,31 @@
+{breed
+	{behaviour soldier}
+	{skin "hun_tankman2"}
+	{portrait "hun_pilot"}
+	{tags "soldier"}
+	{nationality hun}
+	{icon "pilot"}
+	{icon_priority 0}
+	{tags "crew"}
+	{armors
+		{head "helmet_hun_pilot"}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_2")
+		("skilled_repair")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "frommer_37m" filled}
+		{item "ammo 9x17" 105}
+		{item "bandage_hun" 1}
+		{in_hands 0}
+	}
+}
+;Cost=4;
+

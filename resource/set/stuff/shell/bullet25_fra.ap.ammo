@@ -1,0 +1,14 @@
+{from "pattern ap"
+	{tag "20to25 zenite"}
+	{tag "auto size1"}
+	{inventory
+		{weight 25}
+		{size 2 1}
+		{block 10}
+	}
+	{entity "fra_shell_25x193r_ap"}
+	{mass 1.6}
+	{view "howitzer_shell_dummy"
+		{tail "shell_tracer_20_ap" "tail"}
+	}
+}

@@ -1,0 +1,35 @@
+{breed
+	{behaviour soldier}
+	{skin "pol-ulan-mgun"}
+	{portrait "pol_elite1"}
+	{tags "soldier"}
+	{nationality pol}
+	{icon "elite_mgs"}
+	{icon_priority 2}
+	{armors
+		{head "helmet_pol_wz15"}
+	}
+	{perks
+		(include "ability.inc")
+		("mg_skill_rank_3")
+		("tier3_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "browning_wz28" filled}
+		{item "vis_wz35" filled}     
+		{item  "ammo 7x57b" 115}
+		{item  "ammo 9x19b" 105}
+		{item "bandage_pol" 5}
+		{item "grenade poland_o33" 1}
+		{item "grenade poland_z33" 2}
+		{item "sandbag_kit" 1}
+		{item "ammo_box_inf_pol"}
+		{in_hands 0}
+	}
+}
+;Cost=49;
+

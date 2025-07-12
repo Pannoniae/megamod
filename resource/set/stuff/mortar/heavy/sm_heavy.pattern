@@ -1,0 +1,14 @@
+{bullet
+	{tag "dropboxed distributable"}
+	{tag "shell smoke smoke_size2"}
+	{inventory
+		{size 4 1}
+		{weight 70}
+		{fsm "belt"}
+	}
+	{entity "120mm_rus_mortar_sm"}
+	{view "120mm_rus_mortar_sm"
+		{tail "shell_tail" "tail"}
+	}
+	{mass 16}
+}

@@ -1,0 +1,11 @@
+{from "pattern he"
+	{tag "shell size4 150to152"}
+	{inventory {size 7 1}}
+	{entity "pol_shell_155mm_c17s_fg"}
+	{mass 40}	
+
+	{view "howitzer_shell_105-150_lv"
+		{tail "shell_tracer_100-152_he" "tail"}
+	}
+	("he_level_4" weight(41.78) filler(6.6))
+}

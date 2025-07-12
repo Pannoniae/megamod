@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "jap_army_officer"}
+	{portrait "jap_officer"}
+	{tags "soldier"}
+	{nationality jap}
+	{icon "officer"}
+	{icon_priority 6}
+	{armors
+		{head cap1_jap}
+	}
+	{tags "officer"}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_3")
+		("binocular_vision")
+		("tier3_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "nambu" filled}
+		{item  "ammo 8x22" 120}
+		{item "knife_japan"}
+		{item "binocular"}
+		{item "bandage_jap" 1}
+		{in_hands 0}
+	}
+}
+;Cost=9;
+

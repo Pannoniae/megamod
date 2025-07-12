@@ -1,0 +1,4 @@
+{from "pattern he_heavy"
+	{entity "eng_ammo_mortar107_fg"}
+	{view "eng_ammo_mortar107_fg"}	
+}

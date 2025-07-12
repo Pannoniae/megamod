@@ -1,0 +1,16 @@
+{from "pattern rifle_grenade"
+	{tag "ap_rifle"}
+	{entity "mas_mle36_gr"}
+	{filling "ammo rifle_grenade" 1}
+	{fillingVisible "em_mk3_ammo"}
+	{fireSound "rifle/mas/"}
+	{fireSoundclose "rifle/mas/3p/"}
+	{reloadSound "mosin"}
+	{calibre 40}
+	{mass 8.2}
+	{cursorReloading "gun_he"}
+	{spreading 8}
+	{range 85 85}
+}
+
+;Cost=25;

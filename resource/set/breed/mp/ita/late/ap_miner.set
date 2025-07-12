@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "ita-rsi-inf-rfl"}
+	{portrait "ita_soldier6"}
+	{tags "soldier"}
+	{nationality ita}
+	{icon "ap_miner"}
+	{icon_priority 1}
+	{armors
+		{head "helmet_ita_m33_rsi"}
+    }
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")
+		("tier2_defense")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "m9138_carcano" filled}
+		{item "ammo 6x52" 96}
+        {item "it_backpack"}
+		{item "mine antipersonnel" 15}
+		{item "knife_ita"}
+		{item "small_inf_shovel"}
+		{item "bandage_ita" 1}
+		{in_hands 0}
+	}
+}
+;Cost=35;
+

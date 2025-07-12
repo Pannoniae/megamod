@@ -1,0 +1,14 @@
+{from "pattern rifle"
+	{filling "ammo 8x50" 5}
+	{entity "manliher_m1895"}
+	{fireSound "smallarms/s3/d1/GER/K98k/"}
+	{fireSoundclose "smallarms/s3/3p/GER/K98k/"}
+	{reloadSound "kar98"}
+	{calibre 8}
+	{mass 3.78}
+	("velocity" mps(620))
+	("bolt_action")
+	("k98_rate")
+}
+
+;Cost=5;

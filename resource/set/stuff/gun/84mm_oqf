@@ -1,0 +1,24 @@
+;_________________________________________
+; ARTY Finnish(british) light field gun
+;=========================================
+
+
+{from "pattern gun"			; "QF18pdr"
+	{filling "bullet84_eng"}
+	{fireSound "gun/gun_75_105"}
+	{fireSoundclose "gun/gun_75_105"}
+	{reloadSound "tank/reload_big"}
+	("range_220_howitzer")
+	{calibre 84}
+
+	("reload time" seconds(5.5))
+
+	("velocity m/s" ap(583) apcr(1) he(240) heat(1)) ; HE real speed 492
+	("armor health" damage(230))
+	("90_slope_multipliers")
+	
+	("penetration_medium" shell(ap) range(220) a(103) b(85) c(67) d(52) e(41)) ;// 1942
+
+	("accuracy_spg" r1(3.00) range_ap(220) range_he(220) range_heat(200))
+}
+

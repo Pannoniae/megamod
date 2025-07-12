@@ -1,0 +1,33 @@
+{from "pattern reactive_ammo"
+	{tag "big mortar fg itemin2hands"}
+	{inventory
+		{size 4 1}
+		{weight 50}
+	}
+	{entity "calliope_ammo"}
+	{mass 20.3}
+
+	{view "calliope_ammo"
+		{tail "rocket_smoke_bm13" "tail"}
+	}
+	("he_level_3" weight(20.3) filler(2.5))
+	{##damage blastwave
+		{energy 6}
+		{area 1 2}
+		{ground_interaction_radius 0.4}
+	}
+	
+	{##damage add blastwave
+		{energy 4}
+		{area 6 12}
+		{ground_interaction_radius 0}
+	}
+
+	{##damage add blastwave
+		{energy 0.75}
+		{area 10 16}
+		{ground_interaction_radius 0} ;// value is multiplied by 2nd value of area to deterimine is blast is close enough to ground to trigger terrain fx
+	}
+
+	{possibleDamageRadius 25}
+}

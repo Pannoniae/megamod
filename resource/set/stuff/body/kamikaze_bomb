@@ -1,0 +1,12 @@
+{item
+	{tag "itemin1hand"}
+	{entity "kamikaze_bomb"}
+	{mass 20}
+	{inventory
+		{size 4 3}
+		{weight 30}
+		{link_bone "IK_UpDown"}
+		{fsm "stuff"}
+	}
+	{mass 3}
+}

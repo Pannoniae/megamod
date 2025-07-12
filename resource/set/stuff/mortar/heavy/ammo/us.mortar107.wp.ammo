@@ -1,0 +1,3 @@
+{from "pattern wp_heavy"
+	{entity "ammo_mortar107_wp"}
+}

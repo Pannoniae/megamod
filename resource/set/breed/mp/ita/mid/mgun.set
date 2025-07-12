@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "ita-re-alpini-mgun"}
+	{portrait "ita_soldier1"}
+	{icon "mg"}
+	{icon_priority 3}
+	{tags "soldier"}
+	{nationality ita}
+	{armors
+		{head helmet_ita_m33_alpini}
+	}
+	{perks
+		(include "ability.inc")
+		("mg_skill_rank_3")
+		("tier3_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "breda_30" filled}
+		{item "beretta_m1934" filled}
+		{item "ammo 6x52" 195}
+		{item "ammo 9x17" 105}
+		{item "it_backpack_alpini"}
+		{item "bandage_ita" 2}
+		{item "sandbag_kit" 1}
+		{in_hands 0}
+	}
+}
+;Cost=44;
+

@@ -1,0 +1,20 @@
+{from "pattern gun"			; 57 mm 6pdr OQF
+	{filling "bullet57_usa"}
+	{fireSound "gun/gun_37_57"}
+	{fireSoundclose "gun/gun_37_57"}
+	{reloadSound "tank/reload_medium"}
+	("range_190")
+	{calibre 57}
+
+	("reload time" seconds(5.5))
+
+	("velocity m/s" ap(847) apcr(1) he(655) heat(1))
+	("armor health" damage(150))
+	("57_slope_multipliers")
+
+	; Mk.9 Shot
+	("penetration_medium" shell(apcbche) range(190) a(132) b(127) c(110) d(91) e(75) f(63))
+
+	("accuracy_direct" r1(0.80) range_ap(190) range_he(170) range_heat(170))
+}
+

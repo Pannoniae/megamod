@@ -1,0 +1,6 @@
+{from "maxim_1910_30"
+	{filling "ammo 7x57b" 250}
+	{entity "wz08-15"}
+	("velocity" mps(885))
+}
+;Cost=40;

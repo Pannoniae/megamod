@@ -1,0 +1,22 @@
+{from "pattern gun"		; Chi-Nu,Ho-Ni 1
+	{filling "bullet75_jap"}
+	{fireSound "gun/75mm_type3"}
+	{fireSoundclose "gun/gun_interior/size3"}
+	{reloadSound "interior/large/medium_reload_interior"}
+	("range_230")
+	{calibre 75}
+	("reload time" seconds(8))
+
+	("velocity m/s" ap(668) apcr(1) he(522) heat(1))
+	("armor health" damage(200))
+	("armor health custom" shell(aphe) damage(200) filler(133))
+	("75_slope_multipliers")
+	
+	("penetration_medium" shell(aphe) range(230) a(101) b(92) c(82) d(73) e(65))
+		
+
+	{parameters "he"
+		{range 190 190}
+	}
+	("accuracy_direct" r1(0.75) range_ap(230) range_he(210) range_heat(210))
+}

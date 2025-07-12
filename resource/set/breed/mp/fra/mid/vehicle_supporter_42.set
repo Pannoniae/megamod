@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "fra-en-senegal"}
+	{portrait "fra_soldier2"}
+	{tags "soldier"}
+	{nationality fra}
+	{icon "smg"}
+	{icon_priority 1}
+	{armors
+		{head "helmet_fra_mkii"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")
+		("skilled_repair")
+		("expert_gun")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "mas36" filled}
+		{item "ammo 7,5x54" 80}
+		{item "bandage_fra" 3}
+		{item "grenade fr_of37" 1}
+		{item "smoke grenade" 1}
+		{in_hands 0}
+	}
+}
+;Cost=8;
+

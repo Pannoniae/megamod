@@ -1,0 +1,120 @@
+;SDL
+
+;{"mp/bripol/mid/tankman"		("inf_tankman" side(bripol) coalition() cost(4.0))}
+;{"mp/bripol/mid/artilleryman"	("inf_tankman" side(bripol) coalition() cost(5.0))}
+;{"mp/bripol/mid/tank_commander"	("inf_tankman" side(bripol) coalition() cost(10.0))}
+
+{"mp/pol/mid/vehicle_supporter"		("inf_tankman" side(pol) coalition() cost(5.0))}
+{"mp/pol/mid/tankman"				("inf_tankman" side(pol) coalition() cost(4.0))}
+{"mp/pol/mid/tankman2"				("inf_tankman" side(pol) coalition() cost(12.0))}
+{"mp/pol/mid/pilot"					("inf_tankman" side(pol) coalition() cost(0.0))}
+{"mp/pol/mid/artilleryman"			("inf_tankman" side(pol) coalition() cost(5.0))}
+{"mp/pol/mid/tank_commander"		("inf_tankman" side(pol) coalition() cost(12.0))}
+{"mp/pol/early/vehicle_supporter"	("inf_tankman" side(pol) coalition() cost(5.0))}
+{"mp/pol/early/tankman"				("inf_tankman" side(pol) coalition() cost(4.0))}
+{"mp/pol/early/tankman2"			("inf_tankman" side(pol) coalition() cost(12.0))}
+{"mp/pol/early/pilot"				("inf_tankman" side(pol) coalition() cost(0.0))}
+{"mp/pol/early/artilleryman"		("inf_tankman" side(pol) coalition() cost(5.0))}
+{"mp/pol/early/tank_commander"		("inf_tankman" side(pol) coalition() cost(12.0))}
+
+
+{"mp/pol/mid/rifle"					("inf_tier1" side(pol) coalition() r(1) rm(99) lvl(lvl1) cost(7.0))} ; rifle
+{"mp/pol/mid/smg"		    		("inf_tier1" side(pol) coalition() r(1) rm(99) lvl(lvl1) cost(12.0))} ; smg
+
+{"mp/pol/mid/mgun"					("inf_tier2" side(pol) coalition() lvl(lvl1 lvl2 lvl3) r(8) rm(99) cost(44.0))} ; has mg
+{"mp/pol/mid/mgun2"					("inf_tier2" side(pol) coalition() lvl(lvl1 lvl2 lvl3) r(8) rm(99) cost(44.0))} ; has mg
+{"mp/pol/mid/rifle2"				("inf_tier2_lite" side(pol) coalition() lvl(lvl1 lvl2) r(8) rm(99) cost(8.0))}
+{"mp/pol/mid/rifle3"				("inf_tier2_lite" side(pol) coalition() lvl(lvl1 lvl2) r(8) rm(99) cost(8.0))}
+{"mp/pol/mid/rifle4"				("inf_tier2_lite" side(pol) coalition() lvl(lvl1 lvl2) r(8) rm(99) cost(8.0))}
+{"mp/pol/mid/smg2"		    		("inf_tier2_lite" side(pol) coalition() lvl(lvl1 lvl2) r(8) rm(99) cost(13.0))}
+{"mp/pol/mid/smg3"		    		("inf_tier2_lite" side(pol) coalition() lvl(lvl1 lvl2) r(8) rm(99) cost(10.0))}
+{"mp/pol/mid/flamer2"				("inf_tier2_lite" side(pol) coalition() lvl(lvl1 lvl2) r(8) rm(99) cost(13.0))}
+{"mp/pol/mid/at_rifle2"				("inf_tier2_lite" side(pol) coalition() lvl(lvl1 lvl2 lvl3) r(8) rm(99) cost(10.0))}
+{"mp/pol/mid/mgun_assist"			("inf_tier2_lite" side(pol) coalition() lvl(lvl1 lvl2 lvl3) r(8) rm(99) cost(8.0))} 
+{"mp/pol/mid/mgun2_assist"			("inf_tier2_lite" side(pol) coalition() lvl(lvl1 lvl2 lvl3) r(8) rm(99) cost(8.0))} 
+{"mp/pol/early/mgun"				("inf_tier2_lite" side(pol) coalition() lvl(lvl1 lvl2 lvl3) r(1) rm(7) cost(44.0))} ; has mg
+{"mp/pol/early/mgun2"				("inf_tier2_lite" side(pol) coalition() lvl(lvl1 lvl2 lvl3) r(1) rm(7) cost(44.0))}
+{"mp/pol/early/rifle"				("inf_tier2_lite" side(pol) coalition() lvl(lvl1 lvl2) r(1) rm(7) cost(7.0))}
+{"mp/pol/early/rifle2"				("inf_tier2_lite" side(pol) coalition() lvl(lvl1 lvl2) r(1) rm(7) cost(8.0))}
+{"mp/pol/early/rifle3"				("inf_tier2_lite" side(pol) coalition() lvl(lvl1 lvl2) r(1) rm(7) cost(8.0))}
+{"mp/pol/early/smg"		    		("inf_tier2_lite" side(pol) coalition() lvl(lvl1 lvl2) r(1) rm(7) cost(13.0))}
+{"mp/pol/early/at_rifle2"			("inf_tier2_lite" side(pol) coalition() lvl(lvl1 lvl2 lvl3) r(1) rm(7) cost(8.0))}
+{"mp/pol/early/mgun_assist"			("inf_tier2_lite" side(pol) coalition() lvl(lvl1 lvl2) r(1) rm(7) cost(8.0))}
+
+{"mp/pol/mid/rifle_grenade"			("inf_tier2" side(pol) coalition() lvl(lvl1 lvl2 lvl3) r(8) rm(99) cost(29.0))} ; rifle grenade
+{"mp/pol/mid/saper"					("inf_tier2" side(pol) coalition() lvl() r(8) rm(99) cost(40.0))}
+{"mp/pol/mid/flamer"				("inf_tier2" side(pol) coalition() lvl(lvl2 lvl3) r(8) rm(99) cost(53.0))}
+{"mp/pol/mid/ap_miner"				("inf_tier2" side(pol) coalition() lvl() r(8) rm(99) cost(40.0))}
+{"mp/pol/mid/at_miner"				("inf_tier2" side(pol) coalition() lvl() r(8) rm(99) cost(40.0))}
+{"mp/pol/mid/gr_launcher"			("inf_tier2" side(pol) coalition() lvl(lvl1 lvl2 lvl3) r(8) rm(99) cost(33.0))}
+{"mp/pol/mid/squadleader"			("inf_tier2" side(pol) coalition() lvl(lvl1 lvl2 lvl3) r(8) rm(99) cost(18.0))}
+{"mp/pol/mid/squadleader2"			("inf_tier2" side(pol) coalition() lvl(lvl1 lvl2 lvl3) r(8) rm(99) cost(33.0))}
+{"mp/pol/mid/bazooker"				("inf_tier2" side(pol) coalition() lvl(lvl3 lvl4) r(8) rm(99) cost(63.0))} ; Bazooker
+{"mp/pol/mid/bazooker2"				("inf_tier2" side(pol) coalition() lvl(lvl3 lvl4) r(8) rm(99) cost(13.0))} ; 
+{"mp/pol/mid/at_rifle"				("inf_tier2" side(pol) coalition() lvl(lvl1 lvl2 lvl3) r(8) rm(99) cost(55.0))} ; has AT
+{"mp/pol/early/at_rifle"			("inf_tier2" side(pol) coalition() lvl(lvl1 lvl2 lvl3) r(1) rm(7) cost(44.0))} ; has AT
+{"mp/pol/early/saper"				("inf_tier2" side(pol) coalition() lvl() r(1) rm(7) cost(35.0))}
+{"mp/pol/early/ap_miner"			("inf_tier2" side(pol) coalition() lvl() r(1) rm(7) cost(35.0))}
+{"mp/pol/early/at_miner"			("inf_tier2" side(pol) coalition() lvl() r(1) rm(7) cost(35.0))}
+{"mp/pol/early/gr_launcher"			("inf_tier2" side(pol) coalition() lvl(lvl1 lvl2 lvl3) r(1) rm(7) cost(34.0))}
+{"mp/pol/early/squadleader"			("inf_tier2" side(pol) coalition() lvl(lvl1 lvl2 lvl3) r(1) rm(7) cost(13.0))}
+
+{"mp/pol/mid/elite"					("inf_tier3" side(pol) coalition() lvl(lvl2 lvl3 lvl4) r(8) rm(99) cost(23.0))}
+{"mp/pol/mid/elite2"				("inf_tier3" side(pol) coalition() lvl(lvl2 lvl3 lvl4) r(8) rm(99) cost(18.0))}
+{"mp/pol/mid/elite3"				("inf_tier3" side(pol) coalition() lvl(lvl2 lvl3 lvl4) r(8) rm(99) cost(53.0))}
+{"mp/pol/mid/elite4"				("inf_tier3" side(pol) coalition() lvl(lvl2 lvl3 lvl4) r(8) rm(99) cost(23.0))}
+{"mp/pol/mid/elite5"				("inf_tier3" side(pol) coalition() lvl(lvl2 lvl3 lvl4) r(8) rm(99) cost(18.0))}
+{"mp/pol/mid/elite6"				("inf_tier3" side(pol) coalition() lvl(lvl2 lvl3 lvl4) r(8) rm(99) cost(53.0))}
+{"mp/pol/mid/elite_at"				("inf_tier3" side(pol) coalition() lvl(lvl2 lvl3 lvl4) r(8) rm(99) cost(68.0))}
+{"mp/pol/mid/elite3_assist"			("inf_tier3" side(pol) coalition() lvl(lvl2 lvl3 lvl4) r(8) rm(99) cost(23.0))}
+{"mp/pol/mid/elite6_assist"			("inf_tier3" side(pol) coalition() lvl(lvl2 lvl3 lvl4) r(8) rm(99) cost(18.0))}
+{"mp/pol/mid/elite_sl"				("inf_tier3" side(pol) coalition() lvl(lvl2 lvl3 lvl4) r(8) rm(99) cost(28.0))}
+{"mp/pol/mid/elite4_sl"				("inf_tier3" side(pol) coalition() lvl(lvl2 lvl3 lvl4) r(8) rm(99) cost(28.0))}
+{"mp/pol/mid/elite4b"				("inf_tier3" side(pol) coalition() lvl(lvl2 lvl3 lvl4) r(8) rm(99) cost(23.0))}
+{"mp/pol/mid/elite5b"				("inf_tier3" side(pol) coalition() lvl(lvl2 lvl3 lvl4) r(8) rm(99) cost(18.0))}
+{"mp/pol/mid/elite6b"				("inf_tier3" side(pol) coalition() lvl(lvl2 lvl3 lvl4) r(8) rm(99) cost(53.0))}
+{"mp/pol/mid/elite4b_sl"			("inf_tier3" side(pol) coalition() lvl(lvl2 lvl3 lvl4) r(8) rm(99) cost(28.0))}
+{"mp/pol/mid/elite6b_assist"		("inf_tier3" side(pol) coalition() lvl(lvl2 lvl3 lvl4) r(8) rm(99) cost(18.0))}
+{"mp/pol/early/elite"				("inf_tier3" side(pol) coalition() lvl(lvl2 lvl3 lvl4) r(1) rm(7) cost(13.0))}
+{"mp/pol/early/elite2"				("inf_tier3" side(pol) coalition() lvl(lvl2 lvl3 lvl4) r(1) rm(7) cost(49.0))}
+{"mp/pol/early/elite3"				("inf_tier3" side(pol) coalition() lvl(lvl2 lvl3 lvl4) r(1) rm(7) cost(49.0))}
+{"mp/pol/early/elite4"				("inf_tier3" side(pol) coalition() lvl(lvl2 lvl3 lvl4) r(1) rm(7) cost(49.0))}
+{"mp/pol/early/elite5"				("inf_tier3" side(pol) coalition() lvl(lvl2 lvl3 lvl4) r(1) rm(7) cost(18.0))}
+{"mp/pol/early/elite6"				("inf_tier3" side(pol) coalition() lvl(lvl2 lvl3 lvl4) r(1) rm(7) cost(13.0))}
+{"mp/pol/early/elite2_assist"		("inf_tier3" side(pol) coalition() lvl(lvl2 lvl3 lvl4) r(1) rm(7) cost(13.0))}
+{"mp/pol/early/elite3_assist"		("inf_tier3" side(pol) coalition() lvl(lvl2 lvl3 lvl4) r(1) rm(7) cost(13.0))}
+{"mp/pol/early/elite_sl"			("inf_tier3" side(pol) coalition() lvl(lvl2 lvl3 lvl4) r(1) rm(7) cost(18.0))}
+
+
+{"mp/pol/mid/radioman"				("inf_tier3" side(pol) coalition() lvl() r(8) rm(99) cost(200.0))}
+{"mp/pol/early/radioman"			("inf_tier3" side(pol) coalition() lvl() r(1) rm(7) cost(200.0))}
+
+{"mp/pol/mid/sturmovik"				("inf_tier4" side(pol) coalition() lvl(lvl3 lvl4) r(8) rm(99) cost(23.0))}
+{"mp/pol/mid/sturmovik2"			("inf_tier4" side(pol) coalition() lvl(lvl3 lvl4) r(8) rm(99) cost(53.0))}
+{"mp/pol/mid/sturmovik3"			("inf_tier4" side(pol) coalition() lvl(lvl3 lvl4) r(8) rm(99) cost(63.0))} 
+{"mp/pol/mid/sturmovik4"			("inf_tier4" side(pol) coalition() lvl(lvl3 lvl4) r(8) rm(99) cost(68.0))}
+{"mp/pol/mid/sturmovik4b"			("inf_tier4" side(pol) coalition() lvl(lvl3 lvl4) r(8) rm(99) cost(18.0))}
+{"mp/pol/mid/sturmovik5"			("inf_tier4" side(pol) coalition() lvl(lvl3 lvl4) r(8) rm(99) cost(68.0))}
+{"mp/pol/mid/sturmovik5b"			("inf_tier4" side(pol) coalition() lvl(lvl3 lvl4) r(8) rm(99) cost(23.0))}
+{"mp/pol/mid/sturmovik6"			("inf_tier4" side(pol) coalition() lvl(lvl3 lvl4) r(8) rm(99) cost(53.0))}
+{"mp/pol/mid/sturmovik6b"			("inf_tier4" side(pol) coalition() lvl(lvl3 lvl4) r(8) rm(99) cost(18.0))}
+{"mp/pol/mid/sturmovik2_assist"		("inf_tier4" side(pol) coalition() lvl(lvl3 lvl4) r(8) rm(99) cost(18.0))}
+{"mp/pol/mid/sturmovik_sl"			("inf_tier4" side(pol) coalition() lvl(lvl3 lvl4) r(8) rm(99) cost(28.0))}
+{"mp/pol/early/sturmovik"			("inf_tier4" side(pol) coalition() lvl(lvl3 lvl4) r(1) rm(7) cost(18.0))}
+{"mp/pol/early/sturmovik2"			("inf_tier4" side(pol) coalition() lvl(lvl3 lvl4) r(1) rm(7) cost(54.0))}
+{"mp/pol/early/sturmovik3"			("inf_tier4" side(pol) coalition() lvl(lvl3 lvl4) r(1) rm(7) cost(54.0))} 
+{"mp/pol/early/sturmovik4"			("inf_tier4" side(pol) coalition() lvl(lvl3 lvl4) r(1) rm(7) cost(30.0))}
+{"mp/pol/early/sturmovik5"			("inf_tier4" side(pol) coalition() lvl(lvl3 lvl4) r(1) rm(7) cost(18.0))}
+{"mp/pol/early/sturmovik6"			("inf_tier4" side(pol) coalition() lvl(lvl3 lvl4) r(1) rm(7) cost(18.0))} 
+{"mp/pol/early/sturmovik_sl"		("inf_tier4" side(pol) coalition() lvl(lvl3 lvl4) r(1) rm(7) cost(25.0))}
+{"mp/pol/early/sturmovik2_assist"	("inf_tier4" side(pol) coalition() lvl(lvl3 lvl4) r(1) rm(7) cost(18.0))} 
+{"mp/pol/early/sturmovik3_assist"	("inf_tier4" side(pol) coalition() lvl(lvl3 lvl4) r(1) rm(7) cost(18.0))} 
+
+{"mp/pol/mid/medic"					("inf_medic" side(pol) coalition() cost(40.0))}
+{"mp/pol/early/medic"				("inf_medic" side(pol) coalition() cost(40.0))}
+
+{"mp/pol/mid/officer"				("inf_officer" side(pol) coalition() r(8) rm(99) cost(60.0))}
+{"mp/pol/early/officer"				("inf_officer" side(pol) coalition() r(1) rm(7) cost(100.0))}
+
+{"mp/pol/mid/sniper"				("inf_sniper" side(pol) coalition() lvl(lvl3 lvl4) r(8) rm(99) cost(150.0))}
+{"mp/pol/early/sniper"				("inf_sniper" side(pol) coalition() lvl(lvl3 lvl4) r(1) rm(8) cost(150.0))}

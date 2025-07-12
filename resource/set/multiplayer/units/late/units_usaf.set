@@ -1,0 +1,841 @@
+;SDL
+
+;////////////////// INSTRUCTIONS //////////////////
+;Buttons go as follows, displayed in-game in this order:
+
+; inf1       - infantry squads
+; inf2       - infantry single units
+; empl       - Emplacements, AA, AT, Mortars, Howitzers
+; vehicles   - vehicles, armoured cars, supplies
+; tanks      - main battle tanks, TDs, SPGs
+; doctrine   - specific doctrine setups
+
+; TEMP: Note all levels have been brought down to 1 to remove unit locks.
+; Squads currently have an MP cost of 0 - their cost is currently calculated as the sum of their soldiers cost, see inf_ger.set
+; Check ../settings.set for syntax instructions!!
+; unit limits per game are not defined here but in gamemode presets
+
+;user defined set tags that should be featured on units:
+;all artillery heavyart cannon mediumcan heavycan light medium heavy infantry supply
+;these tags allow player to disable certain sets for custom setups like "no heavy artillery" 
+;//////////////////////////////////////////////////
+
+
+
+
+;_________________________________________________
+;|            Doctrine                            |
+;|________________________________________________|
+
+; delays on doctrine levels
+; Lvl cd   ci
+;1-   120  120
+;2-   240  240
+;3-   360  280
+;4-   480  320
+;5-   600  360
+;6-   720  420
+;7-   840  480
+;8-   960  540
+;9-   1080  600
+;10-  1200  660
+;11-  1320  720
+;12-  1440  840
+
+;===================================
+;        ALL-ROUND DOCTRINE
+;===================================
+
+; ======Tier1======
+
+; // 5DP Scout
+{"doctrine_squad_scout(usaf)"
+	("squad_with2types_doctrine" side(usaf) t( infsquad ) period(late) c1(scout2:1) c2(scout:3))
+	("doctrine_t1" cool(90) d(late_usaf_allround) cost(10))
+}
+
+; // 10DP m2halftrack
+{"doctrine_np_m2halftrack_late"
+	("squad_vehicle3_doctrine" side(usaf) t( vehicle ) period(late) vehicle(np_m2halftrack) crew1(armor_rifle:2) crew2(armor_smg:2) crew3(armor_bazooker:1) cw(2) cp(10))
+	("doctrine_t1" cool(180) d(late_usaf_allround) cost(20))
+}
+
+; // 15DP 107mm M2 mortar
+{"doctrine_np_107_mm_m2"
+	("squad_vehicle_doctrine" side(usaf) t( artillery ) period(late) vehicle(np_107_mm_m2) crew(vehicle_supporter:2) cw(0) cp(20))
+	("doctrine_t1" cool(240) d(late_usaf_allround) cost(25))
+}
+
+; ======Tier2======
+
+; // 15DP Ranger
+{"doctrine_squad_ranger(usaf)"
+	("squad_with4types_doctrine" side(usaf) t( infsquad ) period(late) c1(sturmovik5:2) c2(sturmovik5b:3) c3(sturmovik6:2) c4(sturmovik6b:3))
+	("doctrine_t2" cool(360) d(late_usaf_allround) cost(30))
+}
+
+; // 30DP m36
+{"doctrine_np_m36"
+	("squad_vehicle2_doctrine" side(usaf) t( medium ) period(late) vehicle(np_m36gmc) crew1(tankman:3) crew2(tankman2:1) cw(6) cp(30))
+	("doctrine_t2" cool(360) d(late_usaf_allround) cost(60))
+}
+
+; // 30DP Artillery Signaller
+{"doctrine_squad_radioman_late(usaf)"
+	("squad_with1types_doctrine" side(usaf) t( radioman ) period(late) c1(radioman:1) b(doctrine))
+	("doctrine_t2" cool(360) d(late_usaf_allround) cost(60))
+}
+
+; ======Tier3======
+
+; // 50DP m4a3c
+{"doctrine_np_m4a3c"
+	("squad_vehicle2_doctrine" side(usaf) t( medium ) period(late) vehicle(np_m4a3c) crew1(tankman:3) crew2(tankman2:1) cw(6) cp(35))
+	("doctrine_t3" cool(480) d(late_usaf_allround) cost(100))
+}
+
+; // 55DP m12gmc
+{"doctrine_np_m12gmc"
+	("squad_vehicle2_doctrine" side(usaf) t( heavyart artillery ) period(late) vehicle(np_m12gmc) crew1(tankman:3) crew2(tankman2:1) cw(6) cp(40))
+	("doctrine_t3" cool(480) d(late_usaf_allround) cost(110))
+}
+
+; // 60DP Pershing
+{"doctrine_np_m26_pershing"
+	("squad_vehicle2_doctrine" side(usaf) t( heavy ) period(late) vehicle(np_m26_pershing) crew1(tankman:4) crew2(tankman2:1) cw(8) cp(30))
+	("doctrine_t3" cool(480) d(late_usaf_allround) cost(120))
+}
+
+
+;===================================
+;       DEFENSIVE DOCTRINE
+;===================================
+
+
+; ======Tier1======
+
+; // Engineer Truck
+{"doctrine_np_cckw353_dfns_late"
+	("squad_vehicle_doctrine" side(usaf) period(late) vehicle(np_cckw353_eng) crew(saper:2) t(vehicle supply))
+	("doctrine_t1" cool(180) d(late_usaf_defensive) cost(20))
+	{tags "limit3"}
+}
+
+; // 57mm M1
+{"doctrine_np_57_mm_m1_dfns_late"
+	("towed_gun_doctrine" side(usaf) period(late) vehicle(np_cckw352) crew_v(vehicle_supporter:1) cannon(np_57_mm_m1) crew_c(vehicle_supporter:2) t(cannon))
+	("doctrine_t1" cool(240) d(late_usaf_defensive) cost(25))
+}
+
+; // T12 GMC
+{"doctrine_np_t12gmc_dfns_late"
+	("squad_vehicle_doctrine" side(usaf) period(late) vehicle(np_t12gmc) crew(vehicle_supporter:4) t(vehicle))
+	("doctrine_t1" cool(300) d(late_usaf_defensive) cost(35))
+}
+
+; ======Tier2======
+
+; // 107mm M2 Mortar
+{"doctrine_np_107_mm_m2_dfns_late"
+	("squad_vehicle_doctrine" side(usaf) t( artillery ) period(late) vehicle(np_107_mm_m2) crew(vehicle_supporter:2))
+	("doctrine_t1" cool(240) d(late_usaf_defensive) cost(30))
+}
+
+; // 90mm M1
+{"doctrine_np_90_mm_m1_dfns_late"
+	("towed_gun_doctrine" side(usaf) period(late) t(cannon heavycan) vehicle(np_cckw352) crew_v(vehicle_supporter:2) cannon(np_90_mm_m1) crew_c(vehicle_supporter:2))
+	("doctrine_t2" cool(360) d(late_usaf_defensive) cost(50))
+}
+
+; // T19 HMC
+{"doctrine_np_t19hmc_dfns_late"
+	("squad_vehicle_doctrine" side(usaf) t( vehicle artillery ) period(late) vehicle(np_t19hmc) crew(vehicle_supporter:4))
+	("doctrine_t2" cool(300) d(late_usaf_defensive) cost(60))
+}
+
+; ======Tier3======
+
+; // M36B2 GMC
+{"doctrine_np_m36b2_dfns"
+	("squad_vehicle2_doctrine" side(usaf) period(late) vehicle(np_m36b2) crew1(tankman:4) crew2(tankman2:1)  t(medium))
+	("doctrine_t3" cool(480) d(late_usaf_defensive) cost(80))
+}
+
+; // 155mm M1
+{"doctrine_np_155_mm_m1_dfns_late"
+	("towed_gun_doctrine" side(usaf) period(late) vehicle(np_m4hst) crew_v(vehicle_supporter:2) cannon(np_155_mm_m1) crew_c(vehicle_supporter:4) t(heavyart artillery))
+	("doctrine_t3" cool(480) d(late_usaf_defensive) cost(90))
+}
+
+; // 203mm M1
+{"doctrine_np_203_mm_m115_dfns_late"
+	("towed_gun_doctrine" side(usaf) period(late) vehicle(np_m4hst) crew_v(vehicle_supporter:2) cannon(np_203_mm_m115) crew_c(vehicle_supporter:6) t(heavyart artillery))
+	("doctrine_t3" cool(480) d(late_usaf_defensive) cost(110))
+}
+
+
+;===================================
+;       OFFENSIVE DOCTRINE
+;          
+;===================================
+
+; ======Tier1======
+; // 10 DP M8 grayhound command vehicle
+{"doctrine_np_m8_grayhound_late"
+	("squad_vehicle3_doctrine" side(usaf) t(vehicle) period(late) vehicle(np_m8_grayhound_com) crew1(tankman:1) crew2(scout:1) crew3(scout2:1))
+	("doctrine_t1" cool(90) d(late_usaf_offensive) cost(15))
+}
+
+; // 10DP dodgewc55
+{"doctrine_np_dodgewc55_late"
+	("squad_vehicle_doctrine" side(usaf) t( vehicle ) period(late) vehicle(np_dodgewc55) crew(vehicle_supporter:4) cw(2) cp(10))
+	("doctrine_t1" cool(240) d(late_usaf_offensive) cost(20))
+}
+
+; // 15DP m15a1
+{"doctrine_np_m15a1_late"
+	("squad_vehicle_doctrine" side(usaf) t( vehicle ) period(late) vehicle(np_m15a1) crew(vehicle_supporter:4) cw(2) cp(10))
+	("doctrine_t1" cool(240) d(late_usaf_offensive) cost(30))
+}
+
+; // 20DP m4halftrack
+{"doctrine_np_m4halftrack_late"
+	("squad_vehicle_doctrine" side(usaf) t( vehicle mortar ) period(late) vehicle(np_m4halftrack) crew(vehicle_supporter:4) cw(2) cp(15))
+	("doctrine_t1" cool(240) d(late_usaf_offensive) cost(40))
+}
+
+; ======Tier2======
+; // 10DP mech_infantry
+{"doctrine_np_mech_infantry_late"       
+	("squad_vehicle5_doctrine" side(usaf) t( infsquad ) period(late) vehicle(np_m3) crew1(armor_rifle:5) crew2(armor_smg:2) crew3(armor_grenadier:1) crew4(armor_mgun:1) crew5(armor_bazooker:1) cw(2) cp(8))
+	("doctrine_t2" cool(180) d(late_usaf_offensive) cost(20))
+}
+
+; // 40DP m4a3_zippo
+{"doctrine_np_m4a3_zippo"
+	("squad_vehicle2_doctrine" side(usaf) t( medium ) period(late) vehicle(np_m4a3_zippo) crew1(tankman:4) crew2(tankman2:1) cw(6) cp(25))
+	("doctrine_t2" cool(360) d(late_usaf_offensive) cost(75))
+}
+
+; ======Tier3======
+
+; // 40DP 2x m4a1e8 + Inf
+{"doctrine_np_2m4a1e8"
+	("squad_2vehicle3_doctrine" side(usaf) t( medium ) period(late) vehicle(np_m4a1e8) crew1(tankman:4) crew2(tankman2:1) crew3(armor_smg:4))
+	("doctrine_t3" cool(480) d(late_usaf_offensive) cost(80))
+	{icon 501}
+}
+
+{"doctrine_np_2m4a3e8_armor"
+	("squad_2vehicle3_doctrine" side(usaf) t(medium) period(late) vehicle(np_m4a3e8_armor) crew1(tankman:4) crew2(tankman2:1) crew3(armor_smg:4))
+	("doctrine_t3" cool(480) d(late_usaf_offensive) cost(85))
+	{icon 501}
+}
+
+; // 45DP m7
+{"doctrine_np_m7_late"
+	("squad_vehicle2_doctrine" side(usaf) t( heavyart) period(late) vehicle(np_m7) crew1(tankman:3) crew2(tankman2:1) cw(6) cp(20))
+	("doctrine_t3" cool(480) d(late_usaf_offensive) cost(90))
+}
+
+; // 65DP Pershing
+{"doctrine_np_m26e4_pershing"
+	("squad_vehicle2_doctrine" side(usaf) t( heavy ) period(late) vehicle(np_m26e4_pershing) crew1(tankman:4) crew2(tankman2:1) cw(8) cp(35))
+	("doctrine_t3" cool(480) d(late_usaf_offensive) cost(130))
+}
+
+;===================================
+;       IRREGULAR DOCTRINE
+;          
+;===================================
+
+; ======Tier1======
+
+; // 10DP Commandos
+{"doctrine_squad_commandos_late(usaf)"
+	("squad_with6types_doctrine" side(usaf) t( infsquad ) period(late) c1(elite_d:4) c2(elite2_d:2) c3(elite3_d:1) c4(elite3_d_assist:1) c5(elite_d_grenadier:1) c6(elite_d_sl:1))
+	("doctrine_t1" cool(180) d(late_usaf_irregular) cost(20))
+}
+
+; // 15DP m3_satan
+{"doctrine_np_m3_satan_late"
+	("squad_vehicle2_doctrine" side(usaf) t( light ) period(late) vehicle(np_m3_satan) crew1(tankman:3) crew2(tankman2:1) cw(4) cp(15))
+	("doctrine_t1" cool(360) d(late_usaf_irregular) cost(25))
+}
+
+; // 15DP t30hmc
+{"doctrine_np_t30hmc_late"
+	("squad_vehicle2_doctrine" side(usaf) t( vehicle ) period(late) vehicle(np_t30hmc) crew1(tankman:1) crew2(vehicle_supporter:3) cw(2) cp(15))
+	("doctrine_t1" cool(360) d(late_usaf_irregular) cost(30))
+}
+
+; ======Tier2======
+
+; // 25DP 90_mm_m1
+{"doctrine_np_90_mm_m1"
+	("towed_gun_doctrine" side(usaf) period(late) t(cannon heavycan) vehicle(np_cckw352) crew_v(vehicle_supporter:2) cannon(np_90_mm_m1) crew_c(vehicle_supporter:2))
+	("doctrine_t2" cool(360) d(late_usaf_irregular) cost(50))
+}
+
+
+; // 30DP M4A3 105mm
+{"doctrine_np_m4_105"
+	("squad_vehicle2_doctrine" side(usaf) t( medium ) period(late) vehicle(np_m4_105) crew1(tankman:4) crew2(tankman2:1) cw(6) cp(25))
+	("doctrine_t2" cool(360) d(late_usaf_irregular) cost(60))
+}
+
+; // 35DP m36b1
+{"doctrine_np_m36b1"
+	("squad_vehicle2_doctrine" side(usaf) t( medium ) period(late) vehicle(np_m36b1) crew1(tankman:4) crew2(tankman2:1) cw(8) cp(20))
+	("doctrine_t2" cool(360) d(late_usaf_irregular) cost(70))
+}
+
+; ======Tier3======
+
+;// 15DP Airstrike
+{"doctrine_np_b25_late"
+	("squad_vehicle_doctrine" side(usaf) t( heavyart artillery ) period(late) vehicle(np_b25) crew(pilot:4) cw(0) cp(25))
+	("doctrine_t3" cool(360) d(late_usaf_irregular) cost(30))
+	{action "airstrike:sc_250_mp"} 
+}
+
+; // 65DP Super Pershing
+{"doctrine_np_t26e4"
+	("squad_vehicle2_doctrine" side(usaf) t( heavy ) period(late) vehicle(np_t26e4) crew1(tankman:4) crew2(tankman2:1) cw(8) cp(35))
+	("doctrine_t3" cool(480) d(late_usaf_irregular) cost(130))
+}
+
+; // 70DP 203_mm_m115
+{"doctrine_np_203_mm_m115_late"
+	("towed_gun_doctrine" side(usaf) period(late) t( heavyart artillery ) vehicle(np_m4hst) crew_v(vehicle_supporter:6) cannon(np_203_mm_m115) crew_c(vehicle_supporter:2))
+	("doctrine_t3" cool(900) d(late_usaf_irregular) cost(140))
+}
+
+
+;===================================
+;       SUPPORT DOCTRINE
+;   	   
+;===================================
+
+; ======Tier1======
+; // 5DP 57_mm_m18
+{"doctrine_np_57_mm_m18"
+	("squad_vehicle_doctrine" side(usaf) t(cannon) period(late) vehicle(np_57_mm_m18) crew(vehicle_supporter:2))
+	("doctrine_t1" cool(90) d(late_usaf_support) cost(10))
+}
+
+; // 10DP Harley Snipers
+{"doctrine_np_harley_snipers"
+	("squad_vehicle_doctrine" side(usaf) t(sniper) period(late) vehicle(np_harley) crew(sniper:2))
+	("doctrine_t1" cool(180) d(late_usaf_support) cost(20))
+}
+
+; // 10DP 60_mm_m2
+{"doctrine_np_60_mm_m2"
+	("squad_vehicle_doctrine" side(usaf) t(mortar) period(late) vehicle(np_60_mm_m2) crew(vehicle_supporter:1))
+	("doctrine_t1" cool(240) d(late_usaf_support) cost(25))
+}
+
+; ======Tier2======
+
+;// 5DP Recon 
+{"doctrine_np_p-39"
+	("squad_vehicle_doctrine" side(usaf) t(vehicle) period(late) vehicle(np_p-39) crew(pilot:1))
+	("doctrine_t2" cool(360) d(late_usaf_support) cost(10))
+	{action "airstrike:reconnaissance_50"} 
+}
+
+; // 35DP m4a1_76_w
+{"doctrine_np_m4a1_76_w"
+	("squad_vehicle2_doctrine" side(usaf) t(medium) period(late) vehicle(np_m4a1_76_w) crew1(tankman:4) crew2(tankman2:1))
+	("doctrine_t2" cool(360) d(late_usaf_support) cost(65))
+}
+
+; // 35DP m18_90
+{"doctrine_np_m18_90"
+	("squad_vehicle2_doctrine" side(usaf) t(medium) period(late) vehicle(np_m18_90) crew1(tankman:3) crew2(tankman2:1))
+	("doctrine_t2" cool(360) d(late_usaf_support) cost(70))
+}
+
+; ======Tier3======
+
+; // 45DP 2x m4a3e8_fury + Inf
+{"doctrine_np_2m4a3e8_fury"
+	("squad_2vehicle4_doctrine" side(usaf) t(medium) period(late) vehicle(np_m4a3e8_fury) crew1(tankman:4) crew2(tankman2:1) crew3(smg_afr:3) crew4(mgun_afr:1))
+	("doctrine_t3" cool(480) d(late_usaf_support) cost(90))
+}
+
+; // 50DP T26E2
+{"doctrine_np_t26e2"
+	("squad_vehicle2_doctrine" side(usaf) t(heavy) period(late) vehicle(np_t26e2) crew1(tankman:4) crew2(tankman2:1))
+	("doctrine_t3" cool(480) d(late_usaf_support) cost(100))
+}
+
+; // 60DP 155_mm_m2
+{"doctrine_np_155_mm_m2_late"
+	("towed_gun_doctrine" side(usaf) period(late) t( heavyart artillery ) vehicle(np_m4hst) crew_v(vehicle_supporter:6) cannon(np_155_mm_m2) crew_c(vehicle_supporter:2))
+	("doctrine_t3" cool(900) d(late_usaf_support) cost(120))
+}
+
+
+
+;===================================
+;       EXTRA DOCTRINE
+;          
+;===================================
+
+; // 5DP pathfinders_usa 
+{"doctrine_np_pathfinders"   
+	("squad_vehicle3_doctrine" side(usaf) t( infsquad ) period(late) vehicle(np_dodge) crew1(pathfinder:2) crew2(pathfinder2:3) crew3(pathfinder_sl:1) cw(1) cp(0)) 
+	("doctrine_t1" cool(180) d(late_usaf_extra) cost(10))
+}
+
+; // 5DP dodge AT
+{"doctrine_np_dodge_armor"
+	("squad_vehicle_doctrine" side(usaf) t( vehicle ) period(late) vehicle(np_dodge_armor) crew(vehicle_supporter:2) cw(2) cp(10))
+	("doctrine_t1" cool(90) d(late_usaf_extra) cost(15))
+}
+
+; // 10DP M22
+{"doctrine_np_m22"
+	("squad_vehicle2_doctrine" side(usaf) t( light ) period(late) vehicle(np_m22) crew1(tankman:2) crew2(tankman2:1) cw(4) cp(15))
+	("doctrine_t1" cool(180) d(late_usaf_extra) cost(20))
+}
+
+; ======Tier2======
+
+; // 15DP 57mm M1
+{"doctrine_np_57_mm_m1_late"
+	("towed_gun_doctrine" side(usaf) t(cannon) period(late) vehicle(np_cckw352) crew_v(vehicle_supporter:4) cannon(np_57_mm_m1) crew_c(vehicle_supporter:2)) 
+	("doctrine_t2" cool(240) d(late_usaf_extra) cost(30))
+}
+
+; // 20DP m4a2
+{"doctrine_np_m4a2_late"
+	("squad_vehicle2_doctrine" side(usaf) t( medium ) period(late) vehicle(np_m4a2) crew1(tankman:4) crew2(tankman2:1) cw(6) cp(20))
+	("doctrine_t2" cool(360) d(late_usaf_extra) cost(40))
+}
+
+; // 30DP M4A3 (76)W
+{"doctrine_np_m4a3_76"
+	("squad_vehicle2_doctrine" side(usaf) t( medium ) period(late) vehicle(np_m4a3_76) crew1(tankman:4) crew2(tankman2:1) cw(6) cp(20))
+	("doctrine_t2" cool(360) d(late_usaf_extra) cost(60))
+}
+
+; ======Tier3======
+
+; // 30DP T19 HMC
+{"doctrine_np_t19hmc_late"
+	("squad_vehicle_doctrine" side(usaf) t( vehicle artillery ) period(late) vehicle(np_t19hmc) crew(vehicle_supporter:4) cw(2) cp(15))
+	("doctrine_t3" cool(480) d(late_usaf_extra) cost(60))
+}
+
+; // 40DP m36b2
+{"doctrine_np_m36b2"
+	("squad_vehicle2_doctrine" side(usaf) t( medium ) period(late) vehicle(np_m36b2) crew1(tankman:4) crew2(tankman2:1) cw(8) cp(20))
+	("doctrine_t3" cool(480) d(late_usaf_extra) cost(80))
+}
+
+; // 60DP M26 veteran
+{"doctrine_np_m26_veteran"
+	("squad_vehicle2_doctrine" side(usaf) t( heavy ) period(late) vehicle(np_m26_veteran) crew1(tankman_ace:4) crew2(tankman2_ace:1) cw(6) cp(40))
+	("doctrine_t3" cool(480) d(late_usaf_extra) cost(120))
+}
+
+
+;_________________________________________________
+;|             inf1                               |
+;|________________________________________________|
+
+("squad_with4types" side(usaf) name(squad_light)			period(late) cd(0) ci(30)  g(squad_1) c1(rifle4:5) c2(rifle:3) c3(smg:1) c4(squadleader:1) b(squad) t(  infsquad ) level(1) research_stage(1))
+("squad_with6types" side(usaf) name(squad_regular)			period(late) cd(0) ci(0)  g(squad_2) c1(rifle2:5) c2(rifle_grenade:1) c3(mgun:1) c4(mgun_assist:1) c5(smg2:1) c6(squadleader:1)       b(squad) t(  infsquad ) level(1) research_stage(1))
+("squad_with4types" side(usaf) name(squad_regular_afr)		period(late) cd(0) ci(30)  g(squad_1b)	c1(rifle_afr:6) c2(mgun_afr:1) c3(mgun_assist_afr:1) c4(smg_afr:2) b(squad) t(  infsquad ) level(1) research_stage(1))
+("squad_with5types" side(usaf) name(squad_regular_heavy)	period(late) cd(0) ci(0)  g(squad_2) c1(rifle2:6) c2(bazooker:1) c3(rifle_grenade:1) c4(smg2:1) c5(squadleader:1)       b(squad) t(  infsquad ) level(1) research_stage(1))
+
+("squad_with6types" side(usaf) name(squad_marine)			period(late) cd(120) ci(120) g(squad_3) c1(elite4:5) c2(elite7:1) c3(elite5:1) c4(elite6:1) c5(elite6_assist:1) c6(elite4_sl:1)  b(squad) t(  infsquad ) level(1) research_stage(2))
+("squad_with6types" side(usaf) name(squad_paramarine)		period(late) cd(180) ci(120) g(squad_3) c1(paramarine_rfl:5) c2(paramarine_grenadier:1) c3(paramarine_smg:1) c4(paramarine_mg:1) c5(paramarine_assist:1) c6(paramarine_sl:1)  b(squad) t(  infsquad ) level(1) research_stage(2))
+
+("squad_with7types" side(usaf) name(squad_pionier)			period(late) cd(180) ci(180) g(squad_3) c1(elite:4) c2(elite8:1) c3(elite2:1) c4(elite3:1) c5(elite3_assist:1) c6(elite_at:1) c7(elite_sl:1)  b(squad) t(  infsquad ) level(1) research_stage(2))
+("squad_with5types" side(usaf) name(squad_stormtrooper)  	period(late) cd(300) ci(240) g(squad_4) c1(sturmovik:4) c2(sturmovik3:3) c3(sturmovik2:1) c4(sturmovik2_assist:1) c5(sturmovik_sl:1)   b(squad) t(  infsquad ) level(1) research_stage(4))
+
+{"np_mechanized_infantry"
+	("squad_vehicle5" period(late) cd(90) ci(180) t(vehicle) side(usaf) vehicle(np_m3) crew1(armor_rifle:5) crew2(armor_smg:2) crew3(armor_grenadier:1) crew4(armor_mgun:1) crew5(armor_bazooker:1) g(lightc) b(squad) )
+}
+{"np_para_infantry"
+	("squad_vehicle5" period(late) cd(90) ci(180) t(vehicle) side(usaf) vehicle(np_skytrain) crew1(pilot:2) crew2(elite:4) crew3(elite2:4) crew4(elite3:1) crew5(elite3_assist:1) g(lightc) b(squad) )
+	{tags "limit2"}
+}
+
+;_________________________________________________
+;|             inf2                               |
+;|________________________________________________|
+
+("squad_with2types" side(usaf) name(single_auxiliary)    period(late) cd(0)   ci(5)   g(single_rifle)   c1(rifle2:1) c2(smg2:1)    b(single) t(  infsquad )           level(1) research_stage(1))
+("squad_with2types" side(usaf) name(single_riflegrenade) period(late) cd(0)   ci(20)  g(single_at)   c1(rifle_grenade:1) c2(smg2:1)  b(single) t(  infsquad )           level(1) research_stage(1))
+("squad_with2types" side(usaf) name(single_mg)           period(late) cd(0)   ci(60)  g(single_mg)  c1(mgun2:1) c2(mgun_assist:1)           b(single) t(  infsquad )           level(1) research_stage(1))
+("squad_with2types" side(usaf) name(single_at)           period(late) cd(0)   ci(0)  g(single_at)   c1(bazooker:1) c2(bazooker2:1)  b(single) t(  at_squad )           level(1) research_stage(1))
+("squad_with2types" side(usaf) name(single_mortar)	period(late) cd(0)   ci(20)  g(single_mortar)   c1(gr_launcher:1) c2(smg2:1)  b(single) t(  infmortar )           level(1) research_stage(1))
+("squad_with2types" side(usaf) name(single_tankman)      period(late) cd(0)   ci(20)  g(single_crew) c1(tankman2:1) c2(tankman:3) b(single) t(  tankcrew )           level(1) research_stage(1))
+("squad_with1types" side(usaf) name(single_ap_miner)     period(late) cd(60)  ci(60)  g(single_apmine)   c1(ap_miner:3)                 b(single) t(  engineer miner)  level(1) research_stage(2))
+("squad_with1types" side(usaf) name(single_at_miner)     period(late) cd(60)  ci(60)  g(single_atmine)   c1(at_miner:3)                 b(single) t(  engineer miner)  level(1) research_stage(2))
+("squad_with1types" side(usaf) name(single_engineer)     period(late) cd(60)  ci(60)  g(single_eng)   c1(saper:2) b(single) t(  engineer builder)  level(1) research_stage(2))
+("squad_with1types" side(usaf) name(single_medic)        period(late) cd(0)   ci(20) g(single_medic)   c1(medic:1)                      b(single) t(  medic )     level(1) research_stage(1))
+("squad_with1types" side(usaf) name(single_flamer)       period(late) cd(60) ci(120) g(single_flamer)  c1(flamer:1)                    b(single) t(  flamer )    level(1) research_stage(3))
+("squad_with1types" side(usaf) name(single_sniper)       period(late) cd(120) ci(180) g(single_sniper) c1(sniper:1)                     b(single) t(  sniper )    level(1) research_stage(3))
+("squad_with1types" side(usaf) name(single_officer)      period(late) cd(120) ci(180) g(single_officer)  c1(officer:1)                  b(single) t(  officer )   level(1) research_stage(2))
+{"np_inf_crate"
+	("vehicle" period(late) cd(0) ci(10)   t( supply) side(usaf) crew(rifle:2)             g(supplybox) b(supply) cw(0)  cp(0) 
+	cost(50))
+}  
+;_________________________________________________
+;|                  Emplacements                  |
+;|________________________________________________|
+
+;AUTOMATIC WEAPONRY
+{"np_0_3cal_m1917a1_aa"
+	("vehicle" period(late) cd(0) ci(10) t( cannon) side(usaf) crew(vehicle_supporter:2) g(empl1) b(support) cw(2)  cp(5) 
+	cost(105))
+}
+{"np_0_5cal_m2hb"
+	("vehicle" period(late) cd(0) ci(10) t( cannon) side(usaf) crew(vehicle_supporter:2) g(empl1) b(support) cw(2) cp(5) 
+	cost(140))
+}
+
+;AA WEAPONRY
+
+{"np_0_5cal_maxson"
+	("vehicle" period(late) cd(0) ci(10) t( cannon) side(usaf) crew(vehicle_supporter:2) g(empl1) b(support) cw(1) cp(8) 
+	cost(170))
+}
+{"np_40_mm_m1"
+	("vehicle" period(late) cd(0) ci(10) t( cannon) side(usaf) crew(vehicle_supporter:2) g(empl1) b(support) cw(1) cp(12) 
+	cost(270))
+}
+
+
+; AT WEAPONRY
+{"np_57_mm_m18"
+	("vehicle" period(late) cd(0) ci(10) t(cannon) side(usaf) crew(vehicle_supporter:2)   g(empl2) b(support) cw(1) cp(10) 
+	cost(170))
+}
+{"np_37_mm_m3"
+	("vehicle" period(late) cd(0) ci(10)  t( cannon) side(usaf) crew(vehicle_supporter:2)   g(empl2) b(support) cw(1) cp(10) 
+	cost(180))
+}
+{"np_75_mm_m1897a4"
+	("vehicle" period(late) cd(0) ci(10) t( cannon mediumcan) side(usaf) crew(vehicle_supporter:4)   g(empl3) b(support) cw(1) cp(15) 
+	cost(340))
+}
+{"np_57_mm_m1"
+	("vehicle" period(late) cd(0) ci(10) t(cannon) side(usaf) crew(vehicle_supporter:4)   g(empl2) b(support) cw(1) cp(15) 
+	cost(350))
+}
+{"np_76_mm_m5late"
+	("vehicle" period(late) cd(0) ci(10) t( cannon mediumcan) side(usaf) crew(vehicle_supporter:4)   g(empl3) b(support) cw(1) cp(20) 
+	cost(460))
+}
+{"np_90_mm_m1"
+	("vehicle" period(late) cd(360) ci(10) t( heavycan) side(usaf) crew(vehicle_supporter:4)   g(empl4) b(support) cw(1) cp(25) 
+	cost(800))
+}
+
+;HOWITZERS
+{"np_60_mm_m2"
+	("vehicle"  period(late) cd(60) ci(10) t(mortar) side(usaf) crew(vehicle_supporter:2)     g(empl6) b(art) cw(1) cp(10) 
+	cost(170))
+}
+{"np_81_mm_m1"
+	("vehicle"  period(late) cd(0)  ci(10) t(mortar) side(usaf) crew(vehicle_supporter:2)             g(empl6) b(art) cw(1) cp(12) 
+	cost(250))
+}
+{"np_75_mm_m1"
+	("vehicle" period(late) cd(0) ci(10)  t( cannon mediumcan) side(usaf) crew(vehicle_supporter:4)   g(empl5) b(art) cw(1) cp(15)
+	cost(340))
+}
+{"np_107_mm_m2"
+	("vehicle"  period(late) cd(900) ci(10) t(artillery) side(usaf) crew(vehicle_supporter:2)             g(empl7) b(art) cw(1) cp(20) 
+	cost(400))
+}
+{"np_105_mm_m3"
+	("vehicle"  period(late) cd(900) ci(10) t(heavyart artillery) side(usaf) crew(vehicle_supporter:4) g(empl8) b(art) cw(1) cp(25) 
+	cost(700))
+}
+{"np_105_mm_m2a1l"
+	("vehicle"  period(late) cd(900) ci(10) t(heavyart artillery) side(usaf) crew(vehicle_supporter:4) g(empl8) b(art) cw(1) cp(25) 
+	cost(750))
+}
+{"np_155_mm_m1917a4"
+	("vehicle"  period(late) cd(1200) ci(10) t(heavyart artillery) side(usaf) crew(vehicle_supporter:4) g(empl9) b(art) cw(1) cp(28) 
+	cost(950))
+}
+{"np_155_mm_m1"
+	("vehicle"  period(late) cd(1200) ci(10) t( heavyart artillery) side(usaf) crew(vehicle_supporter:4) g(empl9) b(art) cw(1) cp(30) 
+	cost(1000))
+}
+{"np_155_mm_m2"
+	("vehicle"  period(late) cd(1200) ci(10) t( heavyart artillery) side(usaf) crew(vehicle_supporter:6) g(empl9) b(art) cw(1) cp(30) 
+	cost(1100))
+}
+{"np_203_mm_m115"
+	("vehicle"  period(late) cd(1200) ci(10) t( heavyart artillery) side(usaf) crew(vehicle_supporter:6) g(empl10) b(art) cw(1) cp(35) 
+	cost(1450))
+}
+;_________________________________________________
+;|               Wheeled vehicles                 |
+;|________________________________________________|
+
+{"np_cckw352"
+	("vehicle"  period(late) cd(0)  ci(10)  g(wheel0) side(usaf) t(vehicle)  crew(vehicle_supporter:1)      b(supply) cw(1) cp(2) 
+	cost(20))
+}
+{"np_willys50"
+	("vehicle"  period(late) cd(0)   ci(10)  g(wheel1) side(usaf) t( vehicle)    crew(vehicle_supporter:2)     b(supply) cw(1) cp(5)  
+	cost(100))
+}
+{"np_cckw353_fuel"
+	("vehicle"  period(late) cd(0)  ci(10)  g(supply0) side(usaf) t(vehicle supply)  crew(vehicle_supporter:1)      b(supply) cw(1) cp(5) 
+	cost(90))
+}
+{"np_cckw353_eng"
+	("vehicle2"  period(late) cd(0)  ci(10)  g(supply3) side(usaf) t( vehicle supply engtruck) crew1(vehicle_supporter:1) crew2(saper:1)   b(supply) cw(1) cp(5) 
+	cost(100))
+}
+{"np_cckw352_art"
+	("vehicle"  period(late) cd(0)  ci(10)  g(supply2) side(usaf) t( vehicle supply)  crew(vehicle_supporter:2)      b(supply) cw(1) cp(5) 
+	cost(185))
+}
+{"np_m3a1_scout"
+	("vehicle"  period(late) cd(0) ci(10) g(wheel2) side(usaf) t( vehicle)   crew(vehicle_supporter:5)       b(supply) cw(2) cp(8) 
+	cost(125))
+}
+{"np_m3"
+	("vehicle"  period(late) cd(0)   ci(10)  g(wheel2) side(usaf) t( vehicle)   crew(vehicle_supporter:2)       b(supply) cw(2) cp(8) 
+	cost(105))
+}
+{"np_m20"
+	("vehicle"  period(late) cd(0)   ci(10)  g(wheel2) side(usaf) t( vehicle)   crew(tankman:3)       b(lt) cw(2) cp(8) 
+	cost(160))
+}
+{"np_dodge_armor"
+	("vehicle" period(late) cd(90) ci(10) t( vehicle) side(usaf) crew(vehicle_supporter:2) g(wheel1) b(lt) cw(2) cp(10)
+	cost(200))
+}
+{"np_m16"
+	("vehicle2"  period(late) cd(0)   ci(10)  g(wheel2) side(usaf) t( vehicle)   crew1(tankman:2) crew2(tankman2:1)  b(lt) cw(2) cp(10) 
+	cost(220))
+}
+{"np_dodgewc55"
+	("vehicle"  period(late) cd(0) ci(10) g(wheel2) side(usaf) t( vehicle)   crew(vehicle_supporter:4)       b(supply) cw(2) cp(10) 
+	cost(240))
+}
+{"np_m8_grayhound_2"
+	("vehicle"  period(late) cd(0)   ci(10)  g(wheel3) side(usaf) t( vehicle)   crew(tankman:3)       b(lt) cw(2) cp(10) 
+	cost(250))
+}
+{"np_m8_grayhound_com"
+	("vehicle3"  period(late) cd(90) ci(10) g(wheel3) side(usaf) t(vehicle) crew1(tankman:1) crew2(scout:1) crew3(scout2:1) b(lt) cw(2) cp(-12) 
+	cost(250))
+}
+{"np_m8_grayhound"
+	("vehicle"  period(late) cd(0)   ci(10)  g(wheel3) side(usaf) t( vehicle)   crew(tankman:3)       b(lt) cw(2) cp(10) 
+	cost(270))
+}
+{"np_m15a1"
+	("vehicle"  period(late) cd(90) ci(10) g(wheel3) side(usaf) t( vehicle)   crew(vehicle_supporter:4)       b(lt) cw(2) cp(10) 
+	cost(300))
+}
+{"np_t12gmc"
+	("vehicle"  period(late) cd(0)  ci(10)  g(wheel3) side(usaf) t( vehicle)   crew(vehicle_supporter:4)       b(td) cw(2) cp(10) 
+	cost(350))
+}
+{"np_m4halftrack"
+	("vehicle"  period(late) cd(90) ci(10) g(wheel3) side(usaf) t( vehicle mortar)   crew(vehicle_supporter:4)       b(lt) cw(2) cp(15) 
+	cost(360))
+}
+{"np_t30hmc"
+	("vehicle2" period(late) cd(120) ci(10) t(vehicle) side(usaf) crew1(tankman:1) crew2(vehicle_supporter:3) g(wheel1) b(art) cw(2) cp(15)
+	cost(370))
+}
+{"np_t19hmc"
+	("vehicle"  period(late) cd(0)   ci(10)  g(wheel3) side(usaf) t( vehicle)   crew(vehicle_supporter:4)       b(art) cw(2) cp(25) 
+	cost(750))
+}
+{"np_cckw353_2xt27"
+	("vehicle" period(late) cd(120) ci(10) t(  vehicle ) side(usaf) crew(vehicle_supporter:2) g(wheel1) b(art) cw(2) cp(25)
+	cost(1000))
+}
+
+;_________________________________________________
+;|        Main Battle Tanks and SPGs              |
+;|________________________________________________|
+
+
+;ARMOURED RECOVERY VEHICLE
+
+{"np_m4hst"
+	("vehicle" period(late) cd(480) ci(10) t( vehicle ) side(usaf) crew(vehicle_supporter:3) g(supply) b(supply) cw(2) cp(10)
+	cost(130))
+}
+
+
+;LIGHT
+{"np_m22"
+	("vehicle2" period(late) cd(90) ci(10) t(light)  side(usaf) crew1(tankman:2) crew2(tankman2:1) g(light2) b(lt) cw(4) cp(15) 
+	cost(270))
+}
+{"np_m3_satan"
+	("vehicle2" period(late) cd(90) ci(10) t(light) side(usaf) crew1(tankman:3) crew2(tankman2:1) g(light1) b(lt) cw(4) cp(15)
+	cost(290 ))
+}
+{"np_m5a1"
+	("vehicle2" period(late) cd(0)  ci(10) t(  light)  side(usaf) crew1(tankman:3) crew2(tankman2:1) g(light2) b(lt) cw(4) cp(15) 
+	cost(310))
+}
+{"np_m24_chaffee"
+	("vehicle2" period(late) cd(0)  ci(10) t(  light)  side(usaf) crew1(tankman:3) crew2(tankman2:1) g(light2) b(lt) cw(4) cp(15) 
+	cost(390))
+}
+{"np_m8"
+	("vehicle2" period(late) cd(0)  ci(10) t( light)  side(usaf) crew1(tankman:3) crew2(tankman2:1) g(light5) b(lt) cw(4) cp(15) 
+	cost(370))
+}
+{"np_lvt4"
+	("vehicle2" period(late) cd(0)  ci(10) t( light)  side(usaf) crew1(tankman:3) crew2(tankman2:1) g(light5) b(lt) cw(4) cp(15) 
+	cost(450))
+}
+
+;MEDIUM
+
+{"np_m4a2"
+	("vehicle2" period(late) cd(480) ci(10) t(medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(medium_d1) b(mt) cw(6) cp(20) 
+	cost(530))
+}
+{"np_m4a3_75"
+	("vehicle2" period(late) cd(360)  ci(10) t(medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(medium1) b(mt) cw(6) cp(20) 
+	cost(470))
+}
+{"np_m4a3_zippo"
+	("vehicle2" period(late) cd(480) ci(10) t( medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(medium_d2) b(mt) cw(6) cp(20) 
+	cost(530))
+}
+{"np_m4a1_76_w"
+	("vehicle2" period(late) cd(480) ci(10) t( medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(medium_d3) b(mt) cw(6) cp(25) 
+	cost(590))
+}
+{"np_m4a1e8"
+	("vehicle2" period(late) cd(480) ci(10) t( medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(medium_d4) b(mt) cw(6) cp(25) 
+	cost(660))
+}
+{"np_m4a3_76"
+	("vehicle2" period(late) cd(480) ci(10) t( medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(medium_d5) b(mt) cw(6) cp(25) 
+	cost(670))
+}
+{"np_m4a3e8"
+	("vehicle2" period(late) cd(360)  ci(10) t(medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(medium2) b(mt) cw(6) cp(25) 
+	cost(700))
+}
+{"np_m4a3e8_armor"
+	("vehicle2" period(late) cd(480) ci(10) t(medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(medium_d7) b(mt) cw(6) cp(25) 
+	cost(710))
+}
+{"np_m4a3e8_fury"
+	("vehicle2" period(late) cd(480) ci(10) t(medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(medium_d6) b(mt) cw(6) cp(25) 
+	cost(700))
+}
+{"np_m4_105"
+	("vehicle2" period(late) cd(480) ci(10) t(medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(medium4) b(mt) cw(6) cp(30) 
+	cost(610))
+}
+{"np_m4a3_105"
+	("vehicle2" period(late) cd(360)  ci(10) t(medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(medium4) b(mt) cw(6) cp(30) 
+	cost(610))
+}
+{"np_m4a3e2_jumbo"
+	("vehicle2" period(late) cd(720)  ci(10) t(medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(medium_d7) b(mt) cw(6) cp(25) 
+	cost(870))
+}
+{"np_m4a3e2_jumbo_76w"
+	("vehicle2" period(late) cd(720)  ci(10) t(medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(medium5) b(mt) cw(6) cp(30) 
+	cost(1100))
+}
+
+
+;HEAVY
+{"np_m26_pershing"
+	("vehicle2" period(late) cd(720) ci(10) t(heavy) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(heavy4) b(ht) cw(8) cp(35)
+	cost(1200))
+}
+{"np_m26_veteran"
+	("vehicle2" period(late) cd(720) ci(10) t(heavy) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(heavy4) b(ht) cw(8) cp(35)
+	cost(1200))
+}
+{"np_t26e2"
+	("vehicle2" period(late) cd(720) ci(10) t(heavy) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(heavy4) b(ht) cw(8) cp(40)
+	cost(1350))
+}
+{"np_m26e4_pershing"
+	("vehicle2" period(late) cd(720) ci(10) t(heavy) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(heavy4) b(ht) cw(8) cp(35)
+	cost(1600))
+}
+{"np_t26e4"
+	("vehicle2" period(late) cd(720) ci(10) t(heavy) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(heavy4) b(ht) cw(8) cp(40)
+	cost(1700))
+}
+{"np_t29"
+	("vehicle2" period(late) cd(720) ci(10) t(heavy) side(usaf) crew1(tankman:5) crew2(tankman2:1) g(heavy4) b(ht) cw(8) cp(40)
+	cost(2000))
+}
+
+;SPG
+{"np_m18"
+	("vehicle2" period(late) cd(360) ci(10) t(medium) side(usaf) crew1(tankman:3) crew2(tankman2:1) g(spg1)     b(td) cw(6)  cp(15) 
+	cost(630))
+}
+{"np_m10wolverine"
+	("vehicle2" period(late) cd(360) ci(10) t(medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(spg2)     b(td) cw(6)  cp(20) 
+	cost(640))
+}
+{"np_m18_90"
+	("vehicle2" period(late) cd(600) ci(10) t(medium) side(usaf) crew1(tankman:3) crew2(tankman2:1) g(spg1)     b(td) cw(6)  cp(15) 
+	cost(800))
+}
+{"np_m36b1"
+	("vehicle2" period(late) cd(600) ci(10) t( medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(spg4) b(td) cw(6) cp(20)
+	cost(940))
+}
+{"np_m36gmc"
+	("vehicle2" period(late) cd(600) ci(10) t(medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(spg4)     b(td) cw(6)  cp(30) 
+	cost(950))
+}
+{"np_m36b2"
+	("vehicle2" period(late) cd(600) ci(10) t(medium) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(spg4)     b(td) cw(6)  cp(30) 
+	cost(1000))
+}
+{"np_m7"
+	("vehicle2" period(late) cd(720) ci(10) t( medium) side(usaf) crew1(tankman:3) crew2(tankman2:1)  g(spg3)     b(art) cw(6)  cp(30) 
+	cost(1200))
+}
+{"np_m4a3c"
+	("vehicle2" period(late) cd(900) ci(10) t(medium heavyart) side(usaf) crew1(tankman:4) crew2(tankman2:1) g(spg6) b(art) cw(6) cp(30) 
+	cost(1200))
+}
+{"np_m12gmc"
+	("vehicle2" period(late) cd(900) ci(10) t(medium heavyart) side(usaf) crew1(tankman:3) crew2(tankman2:1) g(spg5) b(art) cw(6) cp(35) 
+	cost(1400))
+}
+
+
+
+;Plane
+{"np_b25"
+	("vehicle"  period(late) cd(0) ci(10) t(doctrineonly doc_only) side(usaf) crew(pilot:4) g(spg7) b(doctrine) cw(0) cp(25)
+	cost(2000))
+}
+{"np_p-39"
+	("vehicle"  period(late) cd(0) ci(10) t(doctrineonly doc_only) side(usaf) crew(pilot:1) g(spg8) b(doctrine) cw(0) cp(11)
+	cost(100))
+}
+{"np_skytrain"
+	("vehicle"  period(late) cd(0) ci(10) t(doctrineonly doc_only uk fra pol) side(usaf) crew(pilot:1) g(spg8) b(doctrine) cw(0) cp(11)
+	cost(100))
+}

@@ -1,0 +1,35 @@
+{breed
+	{behaviour soldier}
+	{skin "uk-para-nco"}
+	{portrait "uk-elite4"}
+	{tags "soldier"}
+	{nationality eng}	
+	{icon "mg2_eng"}
+	{icon_priority 2}
+	{armors
+		{head "helmet_mkii"}
+	}
+	{perks
+		(include "ability.inc")
+		("mg_skill_rank_2")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "bren" filled}
+		{item "webley" filled}
+		{item  "ammo 7x56" 142}
+		{item  "ammo 11x21" 90}
+		{item "bandage" 3}
+		{item "sandbag_kit" 1}
+		{in_hands 0}
+	}
+}
+;Cost=44;
+
+
+
+

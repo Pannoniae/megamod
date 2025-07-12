@@ -1,0 +1,10 @@
+{from "type1hmg"
+	{entity "30cal"}
+	{filling "ammo 7x56" 500}
+	("fire rate" rpm(500))
+	("velocity" mps(750))
+	{bullet_view "air_shell"
+		{tail "cannone_small_air" "root"}
+        	}
+}
+;Cost=40;

@@ -1,0 +1,32 @@
+{breed
+	{behaviour soldier}
+	{skin "jap_rifle_snlf"}
+	{portrait "jap_soldier5"}
+	{tags "soldier"}
+	{nationality jap}
+	{icon "stormtrooper4"}
+	{icon_priority 4}
+	{armors
+		{head snlf_helmet}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_4")
+		("tier4_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "type38rifle" filled}
+		{item  "ammo 6x50" 80}
+		{item "bandage_jap" 5}
+		{item "grenade type97" 5}
+		{item "smoke grenade" 2}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}
+;Cost=18;
+

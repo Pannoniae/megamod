@@ -1,0 +1,28 @@
+{from "pattern rifle_grenade"
+	{tag "at_rifle" "ap"}
+	{entity "garand_grenade"}
+	{filling "ammo m7_grenade" 1}
+	{fillingVisible "grenade"}
+	{fireSound "rifle/m1_shot/"}
+	{fireSoundclose "rifle/m1_shot/3p/"}
+	{reloadSound "kar98"}
+	{calibre 30}
+	{mass 8.2}
+
+	{parameters "he"
+		{cursorReloading "gun_he"}
+		{spreading 5
+			{SpreadXYRatio 0.75}
+		}
+		{range 85 85}
+	}
+
+	{parameters "heat" 
+		{cursorReloading "gun_heat"}
+		{range 80 80}
+		("penetration" args 50)
+		("armor health" damage(200))
+	}
+
+}
+;Cost=25;

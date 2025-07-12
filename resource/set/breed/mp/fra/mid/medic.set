@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "fra-us-inf-medic"}
+	{portrait "fra_late_medic"}
+	{tags "soldier"}
+      	{nationality fra}
+	{icon "tech"}
+	{icon_priority 0}
+	{armors
+		{head "helmet_fra_m1"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")
+		("medic")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "garand" filled}
+		{item  "ammo 7x63" 128}
+		{item "smoke grenade" 2}
+		{item "bandage_fra" 25}
+		{item "medkit_fra"}
+		{item "tent_kit" 2}
+		{in_hands 0}
+	}
+}
+;Cost=13;
+

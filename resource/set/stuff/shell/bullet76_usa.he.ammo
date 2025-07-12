@@ -1,0 +1,11 @@
+{from "pattern he" ; M42A1 Shell
+	{tag "shell size2 75to76 no_throw"}
+	{inventory {size 6 1}}
+	{entity "shell_76ur_fg"}
+	{mass 13}
+
+	{view "howitzer_shell_50-75"
+		{tail "shell_tracer_75-88_he" "tail"}
+	}
+	("he_level_2" weight(6.22) filler(0.621))
+}

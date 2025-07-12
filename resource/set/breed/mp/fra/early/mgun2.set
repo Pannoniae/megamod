@@ -1,0 +1,35 @@
+{breed
+	{behaviour soldier}
+	{skin "fra-inf2-mgun"}
+	{portrait "fra_soldier2"}
+	{tags "soldier"}
+    	{nationality fra}
+	{icon "mg"}
+	{icon_priority 2}
+	{armors
+		{body "fr_backpack"}
+		{head "helmet_fra_m26"}
+	}
+	{perks
+		(include "ability.inc")
+		("loader_skill_rank_2")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "chauchat_mle_15" filled}
+		{item "revolver_mle_1892" filled}
+		{item  "ammo 8x50" 230}
+		{item "bandage_fra" 3}
+		{item "sandbag_kit" 1}
+		{item "small_inf_shovel"}
+		{item "ammo_box_inf_fra"}
+		{in_hands 0}
+	}
+}
+;Cost=44;
+
+

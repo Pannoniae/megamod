@@ -1,0 +1,31 @@
+{breed
+	{behaviour soldier}
+	{skin "pol-2cor-tankcom"}
+	{portrait "pol_late_pilot"}
+	{tags "soldier"}
+	{nationality pol}
+	{icon "tech"}
+	{icon_priority 0}
+	{tags "crew"}
+	{armors
+		{head "cap_pol_eng_sidecap_radiohead"}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_2")
+		("skilled_repair")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "webley" filled}
+		{item  "ammo 11x21" 90}
+		{item "bandage_pol" 1}
+		{in_hands 0}
+	}
+}
+;Cost=4;
+

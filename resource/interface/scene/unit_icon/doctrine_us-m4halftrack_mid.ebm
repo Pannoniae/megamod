@@ -1,0 +1,6 @@
+{bitmap
+    {frame "us-m4halftrack_00.tga"}
+    {frame "us-m4halftrack_01.tga"}
+    {frame "us-m4halftrack_02.tga"}
+    {frame "us-m4halftrack_03.tga"}
+}

@@ -1,0 +1,30 @@
+{breed
+	{skin "hun_soldier"}
+	{portrait "hun_soldier2"}
+	{icon "bazooker"}
+	{icon_priority 4}
+	{tags "soldier_pzscheck"}
+	{nationality hun}
+	{armors
+		{head "helmet1_hun"}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_2")
+		("at_rank_3")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "danuvia_39m" filled}
+		{item "ammo 9x25" 360}
+		{item "panzerfaust_60 weapon" 1 filled}
+		{item "molotov_cocktail grenade" 2}
+		{in_hands 0}
+	}
+}
+;Cost=53;
+

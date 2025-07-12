@@ -1,0 +1,15 @@
+{from "pattern rifle"
+	{filling "ammo 7x58" 10}
+	{entity "type4rifle"}
+	{fireSound "rifle/type99rifle_shot/"}
+	{fireSoundclose "rifle/type99rifle_shot/3p/"}
+	{reloadSound "kar98"}
+	{calibre 7.7}
+	{mass 3.85}
+	("velocity" mps(755))
+	("semi_rifle")
+	{parameters "clip"
+		("reload time" seconds(10))
+	}
+}
+;Cost=10;

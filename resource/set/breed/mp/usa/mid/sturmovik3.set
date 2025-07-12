@@ -1,0 +1,36 @@
+{breed
+	{behaviour soldier}
+	{skin "us-ranger-carbine"}
+	{portrait "us-soldier5"}
+	{tags "soldier_pzscheck"}
+	{nationality usa}
+	{icon "stormtrooper3"}
+	{icon_priority 4}
+	{armors
+		{head "helmet_ranger"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_4")
+		;("at_rank_3")
+		("tier4_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "m1_carbine_2" filled}
+		{item  "ammo 7x33" 150}
+		{item "bandage" 5}
+		{item "grenade mk2" 2}
+		{item "smoke grenade" 2}
+		{item "dynamite" 1}		
+		{item "weapon bazooka_m1a1" filled}
+		{item "ammo bazooka" 5}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}
+;Cost=63;
+

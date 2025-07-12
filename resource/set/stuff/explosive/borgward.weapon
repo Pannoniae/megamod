@@ -1,0 +1,15 @@
+{weapon_bombing
+	{tag "gun"}
+	{fireSound ""}
+	{clickSound ""}
+
+	{filling "ammo borgward" 1}
+	{fillingVisible "bomb"}
+	{foresight "foresight1"}
+
+	{range 4 4.5}
+	{cursor "ironsights/tank"}
+	{speed 500}
+	{AimingTolerance 10}
+	{preloaded}
+}

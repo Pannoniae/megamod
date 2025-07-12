@@ -1,0 +1,25 @@
+{from "pattern reactive"		; "30cm Type"
+	{filling "ammo 30cm_rocket" 1}
+	{fillingVisible "rocket"}
+	{fireSound "reactive/nebel_burst/"}
+	{calibre 300}
+
+	("rocket_artillery")
+	{foresight "foresight1"}
+	{spreading
+		{radiusTable
+			{0 0}
+			{100 10}
+			{200 20}
+			{279.9 35} ; max range
+			{280 100}
+			{300 200}
+		}
+	}
+
+	{gravity 1.5}
+
+	{range 280 280}
+	("velocity" mps(330))
+	("reload time" seconds(150))
+}

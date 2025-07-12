@@ -1,0 +1,27 @@
+{from "pattern gun"		; at gun
+	{filling "bullet40_eng"}
+	{fireSound "gun/gun_37_57"}
+    	{fireSoundclose "gun/gun_37_57"}
+	{reloadSound "tank/reload_small"}
+	("range_170")
+	{calibre 40}
+
+	("reload time" seconds(3.5))
+
+	("velocity m/s" ap(792) apcr(1) he(687) heat(1))
+	("armor health" damage(125))
+	("armor health custom" shell(aphe) damage(125) filler(21))
+	("40_slope_multipliers")
+
+	; Shell Mk.1 AP/T
+	("penetration_medium" shell(aphe) range(170) a(62) b(49) c(36) d(26) e(20))
+
+	; Shot Mk.IXB APCBC/T
+	("penetration_medium" shell(apcbc) range(170) a(86) b(77) c(66) d(57) e(50))
+
+	{parameters "he"
+		{range 160 160}
+	}
+
+	("accuracy_direct" r1(0.62) range_ap(170) range_he(160) range_heat(160))
+}

@@ -1,0 +1,30 @@
+{breed
+	{behaviour soldier}
+	{skin "hun_rifle"}
+	{portrait "hun_homeguard"}
+	{icon "home_guard"}
+	{tags "soldier"}
+	{nationality hun}
+	{armors
+		{head "fieldcap_hun"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_1")
+		("tier1_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "mannlicher_m1895" filled}
+		{item "ammo 8x50" 80}
+		{item "bandage_hun" 2}
+		{item "grenade hungarian_36m" 1}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}
+;Cost=7;
+

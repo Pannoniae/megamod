@@ -1,0 +1,28 @@
+{from "pattern gun"      ; Sherman Firefly, "17 pdr", "Achilles"
+	{filling "bullet76_eng"}
+	{fireSound "gun/gun_75_105"}
+	{fireSoundclose "gun/gun_interior/size3"}
+	{reloadSound "interior/large/medium_reload_interior"}
+	("range_230")
+	{calibre 76}
+
+	("reload time" seconds(6))
+	("velocity m/s" ap(883) apcr(1203) he(880) heat(1))
+	("armor health" damage(200))
+	("76_slope_multipliers")
+
+	; Shot Mk.6
+	("penetration_long" shell(ap) range(230) a(168) b(155) c(139) d(126) e(113))
+
+	; Shot Mk.8
+	("penetration_long" shell(apc) range(230) a(168) b(155) c(139) d(126) e(113))
+
+	; Shot Mk.9
+	("penetration_long" shell(apcbc) range(230) a(187) b(172) c(155) d(140) e(126)) 
+
+	; Shot SV Mk.1
+	("penetration_long" shell(apds) range(230) a(226) b(207) c(189) d(159) e(134))     
+
+	("accuracy_direct" r1(0.55) range_ap(230) range_he(220) range_heat(210))
+
+}

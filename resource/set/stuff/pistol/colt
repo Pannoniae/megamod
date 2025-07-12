@@ -1,0 +1,12 @@
+{from "pattern pistol"
+	{filling "ammo 11x23" 7}
+	{entity "colt"}
+	{fireSound	"pistol/colt/"}
+	{fireSoundclose	"pistol/colt/3p/"}
+	{reloadSound "colt45_reload"}
+	{calibre 11.43}
+	{mass 0.7}
+
+	("velocity" mps(253))
+}
+;Cost=1;

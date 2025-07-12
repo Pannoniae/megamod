@@ -1,0 +1,15 @@
+{from "pattern gun"	;25mm Pak Fr
+	{filling "bullet25_fra"}
+	{fireSound "gun/25mm_hotchkiss_sa_34"}
+	{reloadSound "tank/reload_small"}
+	("range_160")
+	{calibre 25}
+	("reload time" seconds(2))
+	("velocity m/s" ap(900) apcr(1) he(900) heat(1))	
+	("armor health" damage(75))	
+	("20_slope_multipliers")
+
+	("penetration_medium" shell(ap) range(160) a(43) b(38) c(33) d(30) e(26))
+	
+	("accuracy_direct" r1(0.88) range_ap(160) range_he(160) range_heat(160))
+}

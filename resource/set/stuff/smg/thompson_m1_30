@@ -1,0 +1,5 @@
+{from "thompson"
+	{filling "ammo 11x23" 30}
+	{entity "thompson_m1_30"}
+}
+;Cost=10;

@@ -1,0 +1,540 @@
+;SDL
+
+;////////////////// INSTRUCTIONS //////////////////
+;Buttons go as follows, displayed in-game in this order:
+
+; inf1       - infantry squads
+; inf2       - infantry single units
+; empl       - Emplacements, AA, AT, Mortars, Howitzers
+; vehicles   - vehicles, armoured cars, supplies
+; tanks      - main battle tanks, TDs, SPGs
+; doctrine   - specific doctrine setups
+
+; TEMP: Note all levels have been brought down to 1 to remove unit locks.
+; Squads currently have an MP cost of 0 - their cost is currently calculated as the sum of their soldiers cost, see inf_ger.set
+; Check ../settings.set for syntax instructions!!
+; unit limits per game are not defined here but in gamemode presets
+
+;user defined set tags that should be featured on units:
+;all artillery heavyart cannon mediumcan heavycan light medium heavy infantry supply
+;these tags allow player to disable certain sets for custom setups like "no heavy artillery" 
+;//////////////////////////////////////////////////
+
+
+
+
+;_________________________________________________
+;|            Doctrine                            |
+;|________________________________________________|
+
+; delays on doctrine levels
+; Lvl cd   ci
+;1-   120  120
+;2-   240  240
+;3-   360  280
+;4-   480  320
+;5-   600  360
+;6-   720  420
+;7-   840  480
+;8-   960  540
+;9-   1080  600
+;10-  1200  660
+;11-  1320  720
+;12-  1440  840
+
+
+;===================================
+;       ALL-ROUND
+;          
+;===================================
+;
+;
+;; ======Tier1======
+;
+;; // 5DP kamikaze
+;{"doctrine_squad_kamikaze_mid(jap)"
+;	("squad_with1types_doctrine" side(jap) t( infsquad ) period(mid) year(mid) c1(kamikaze:4))
+;	("doctrine_t1" cool(90) d(mid_jap_allround) cost(10))
+;}
+;
+;; // 5DP type1_ho-ki_mg
+;{"doctrine_type1_ho-ki_mg"
+;	("squad_vehicle_doctrine" side(jap) t( vehicle ) period(mid) year(mid) vehicle(type1_ho-ki_mg) crew(vehicle_supporter:3) cw(2) cp(5))
+;	("doctrine_t1" cool(90) d(mid_jap_allround) cost(15))
+;}
+;
+;; // 10DP 
+;
+;; // 15DP 150mm_type_97
+;{"doctrine_150mm_type_97"
+;	("squad_vehicle_doctrine" side(jap) t( heavyart artillery ) period(mid) year(mid) vehicle(150mm_type_97) crew(vehicle_supporter:2) cw(0) cp(20))
+;	("doctrine_t1" cool(240) d(mid_jap_allround) cost(30))
+;}
+;
+;; ======Tier2======
+;
+;; // 15DP snlf
+;{"doctrine_squad_snlf_mid(jap)"
+;	("squad_with7types_doctrine" side(jap) t( infsquad ) period(mid) year(mid) c1(sturmovik5:1) c2(sturmovik5b:1) c3(sturmovik6:1) c4(sturmovik6b:1) c5(sturmovik:2) c6(sturmovik3:3) c7(sturmovik_sl:1))
+;	("doctrine_t2" cool(360) d(mid_jap_allround) cost(30))
+;}
+;
+;; // 20DP Type 97 Shi-Ki
+;{"doctrine_type97_shi-ki"
+;	("squad_vehicle2_doctrine" side(jap) t( medium ) period(mid) year(mid) vehicle(type97_shi-ki) crew1(tankman:3) crew2(tankman2:1) cw(6) cp(15))
+;	("doctrine_t2" cool(360) d(mid_jap_allround) cost(40))
+;}
+;
+;; // 30DP Artillery Signaller
+;{"doctrine_squad_radioman_mid(jap)"
+;	("squad_with1types_doctrine" side(jap) t( radioman ) period(mid) year(mid) c1(radioman:1) b(doctrine))
+;	("doctrine_t2" cool(360) d(mid_jap_allround) cost(60))
+;}
+;
+;; ======Tier3======
+;{"doctrine_type1_ho-ni2_all_mid"
+;	("squad_vehicle2_doctrine" side(jap) t(medium heavyart) period(mid) year(mid) vehicle(type1_ho-ni2) crew1(tankman:1) crew2(vehicle_supporter:2) cw(4) cp(25))
+;	("doctrine_t2" cool(360) d(mid_jap_allround) cost(60))
+;}
+;
+;; // 35DP type97_shinhoto_120mm
+;{"doctrine_type97_shinhoto_120mm"
+;	("squad_vehicle2_doctrine" side(jap) t( heavyart artillery ) period(mid) year(mid) vehicle(type97_shinhoto_120mm) crew1(tankman:4) crew2(tankman2:1) cw(0) cp(25))
+;	("doctrine_t3" cool(480) d(mid_jap_allround) cost(70))
+;}
+;
+;
+;
+;
+;;===================================
+;;       DEFENSIVE DOCTRINE
+;;===================================
+;
+;
+;; ======Tier1======
+;; // Engineer Truck
+;{"doctrine_type94_dfns_mid"
+;	("squad_vehicle_doctrine" side(jap) period(mid) year(mid) vehicle(type94eng) crew(saper:2) t(vehicle supply))
+;	("doctrine_t1" cool(180) d(mid_jap_defensive) cost(20))
+;	{tags "limit3"}
+;}
+;
+;; // 37mm Type 11
+;{"doctrine_37mm_type_11_dfns_mid"
+;	("squad_vehicle_doctrine" side(jap) t( cannon ) period(mid) year(mid) vehicle(37mm_type_11) crew(vehicle_supporter:2) cw(0) cp(10))
+;	("doctrine_t1" cool(240) d(mid_jap_defensive) cost(20))
+;}
+;
+;; // Type89 I-Go
+;{"doctrine_type89_i-go_dfns_mid"
+;	("squad_vehicle2_doctrine" side(jap) t( medium ) period(mid) year(mid) vehicle(type89_i-go) crew1(tankman:3) crew2(tankman2:1) cw(6) cp(20))
+;	("doctrine_t1" cool(240) d(mid_jap_defensive) cost(40))
+;}
+;
+;; ======Tier2======
+;
+;; // 150mm_Type 97
+;{"doctrine_150mm_type_97_dfns_mid"
+;	("squad_vehicle_doctrine" side(jap) t( heavyart artillery ) period(mid) year(mid) vehicle(150mm_type_97) crew(vehicle_supporter:2) cw(0) cp(20))
+;	("doctrine_t1" cool(300) d(mid_jap_defensive) cost(30))
+;}
+;
+;; // 88mm Type99
+;{"doctrine_88mm_type_99_dfns_mid"
+;	("towed_gun_doctrine" side(jap) t(cannon heavycan) period(mid) year(mid) vehicle(type1_ho-ki_mg) crew_v(vehicle_supporter:2) cannon(88mm_type_99) crew_c(vehicle_supporter:4)) 
+;	("doctrine_t2" cool(360) d(mid_jap_defensive) cost(60))
+;}
+;
+;; // Type 1 Ho-Ni II
+;{"doctrine_type1_ho-ni2_dfns_mid"
+;	("squad_vehicle2_doctrine" side(jap) t(medium heavyart) period(mid) year(mid) vehicle(type1_ho-ni2) crew1(tankman:1) crew2(vehicle_supporter:2) cw(4) cp(25))
+;	("doctrine_t2" cool(360) d(mid_jap_defensive) cost(60))
+;}
+;
+;; ======Tier3======
+;; // 120mm Type 38
+;{"doctrine_120mm_type_38_dfns_mid"
+;	("towed_gun_doctrine" side(jap) period(mid) year(mid) t( heavyart artillery ) vehicle(type94) crew_v(vehicle_supporter:4) cannon(120mm_type_38) crew_c(vehicle_supporter:2))
+;	("doctrine_t3" cool(480) d(mid_jap_defensive) cost(80))
+;}
+;
+;; // 150mm Type 96
+;{"doctrine_150mm_type_96_dfns_mid"
+;	("towed_gun_doctrine" side(jap) period(mid) year(mid) t( heavyart artillery ) vehicle(type1_ho-ki_mg) crew_v(vehicle_supporter:4) cannon(150mm_type_96) crew_c(vehicle_supporter:2))
+;	("doctrine_t3" cool(480) d(mid_jap_defensive) cost(85))
+;}
+;
+;
+;;===================================
+;;       OFFENSIVE DOCTRINE
+;;          
+;;===================================
+;
+;; ======Tier1======
+;; // 5 DP Type 87 command vehicle
+;{"doctrine_type87_mid"
+;	("squad_vehicle3_doctrine" side(jap) t(vehicle) period(mid) year(mid) vehicle(type87_com) crew1(tankman:1) crew2(scout:2) crew3(scout2:1))
+;	("doctrine_t1" cool(90) d(mid_jap_offensive) cost(10))
+;}
+;
+;; // 5DP 13mm_type_93
+;{"doctrine_13mm_type_93"
+;	("squad_vehicle_doctrine" side(jap) t( vehicle ) period(mid) year(mid) vehicle(13mm_type_93) crew(vehicle_supporter:2) cw(0) cp(5))
+;	("doctrine_t1" cool(180) d(mid_jap_offensive) cost(15))
+;}
+;
+;; // 12DP
+;{"doctrine_type3_ke-ri"
+;	("squad_vehicle2_doctrine" side(jap) t( medium ) period(mid) year(mid) vehicle(type3_ke-ri) crew1(tankman:2) crew2(tankman2:1) cw(6) cp(15))
+;	("doctrine_t1" cool(180) d(mid_jap_offensive) cost(25))
+;}
+;
+;; ======Tier2======
+;
+;; // 15DP
+;{"doctrine_squad_imperialguard(jap)"
+;	("squad_vehicle3_doctrine" side(jap) t( infsquad ) period(mid) year(mid) vehicle(type94) crew1(imperialguard1:5) crew2(imperialguard2:4) crew3(imperialguard3:1))
+;	("doctrine_t2" cool(240) d(mid_jap_offensive) cost(30))
+;}
+;
+;; // 20DP type89_i-go
+;{"doctrine_type89_i-go"
+;	("squad_vehicle2_doctrine" side(jap) t( medium ) period(mid) year(mid) vehicle(type89_i-go) crew1(tankman:3) crew2(tankman2:1) cw(6) cp(20))
+;	("doctrine_t2" cool(360) d(mid_jap_offensive) cost(40))
+;}
+;
+;; // 25DP type1_ho-i
+;{"doctrine_type1_ho-i"
+;	("squad_vehicle2_doctrine" side(jap) t( medium ) period(mid) year(mid) vehicle(type1_ho-i) crew1(tankman:3) crew2(tankman2:1) cw(6) cp(20))
+;	("doctrine_t2" cool(360) d(mid_jap_offensive) cost(50))
+;}
+;
+;; ======Tier3======
+;
+;; // 30DP 105mm Type 92
+;{"doctrine_105mm_type_92_mid"
+;	("towed_gun_doctrine" side(jap) period(mid) year(mid) t( heavyart artillery ) vehicle(type94) crew_v(vehicle_supporter:4) cannon(105mm_type_92) crew_c(vehicle_supporter:2))
+;	("doctrine_t3" cool(480) d(mid_jap_offensive) cost(60))
+;}
+;
+;; // 40DP 2x type1_chi-he + Inf
+;{"doctrine_2type1_chi-he"
+;	("squad_2vehicle3_doctrine" side(jap) t( medium ) period(mid) year(mid) vehicle(type1_chi-he) crew1(tankman:4) crew2(tankman2:1) crew3(smg2:4) cw(6) cp(20))
+;	("doctrine_t3" cool(480) d(mid_jap_offensive) cost(80))
+;}
+;
+;
+;
+;;===================================
+;;       IRREGULAR DOCTRINE
+;;          
+;;===================================
+;
+;
+;; ======Tier1======
+;; // 5DP Scout
+;{"doctrine_squad_scout_mid(jap)"
+;	("squad_vehicle2_doctrine" side(jap) t( infsquad ) period(mid) year(mid) vehicle(type95) crew1(scout:1) crew2(scout2:2) cw(2) cp(8))
+;	("doctrine_t1" cool(90) d(mid_jap_irregular) cost(10))
+;}
+;
+;; // 10DP 37mm Type 11
+;{"doctrine_37mm_type_11_mid"
+;	("squad_vehicle_doctrine" side(jap) t( cannon ) period(mid) year(mid) vehicle(37mm_type_11) crew(vehicle_supporter:2) cw(0) cp(10))
+;	("doctrine_t1" cool(240) d(mid_jap_irregular) cost(20))
+;}
+;
+;{"doctrine_57mm_type_2"
+;	("towed_gun_doctrine" side(jap) t(cannon) period(mid) year(mid) vehicle(type94) crew_v(vehicle_supporter:5) cannon(57mm_type_2) crew_c(vehicle_supporter:2)) 
+;	("doctrine_t1" cool(240) d(mid_jap_irregular) cost(30))
+;}
+;
+;; ======Tier2======
+;
+;; // 15DP marine
+;{"doctrine_squad_marine_mid(jap)"
+;	("squad_with3types_doctrine" side(jap) t( infsquad ) period(mid) year(mid) c1(marine_rifle:8) c2(marine_lmg:1) c3(marine_lmg_assist:1))
+;	("doctrine_t2" cool(360) d(mid_jap_irregular) cost(30))
+;}
+;
+;; // 25DP 88mm Type99
+;{"doctrine_88mm_type_99"
+;	("towed_gun_doctrine" side(jap) t(cannon heavycan) period(mid) year(mid) vehicle(type1_ho-ki_mg) crew_v(vehicle_supporter:2) cannon(88mm_type_99) crew_c(vehicle_supporter:4)) 
+;	("doctrine_t2" cool(360) d(mid_jap_irregular) cost(50))
+;}
+;
+;
+;; ======Tier3======
+;
+;; // 30DP type1_ho-ni2
+;{"doctrine_type1_ho-ni2_mid"
+;	("squad_vehicle2_doctrine" side(jap) t(medium heavyart) period(mid) year(mid) vehicle(type1_ho-ni2) crew1(tankman:1) crew2(vehicle_supporter:2) cw(4) cp(25))
+;	("doctrine_t3" cool(480) d(mid_jap_irregular) cost(60))
+;}
+;
+;;// 15DP Airstrike
+;{"doctrine_d3a_aichi_mid"
+;	("squad_vehicle_doctrine" side(jap) t( heavyart artillery ) period(mid) year(mid) vehicle(d3a_aichi) crew(pilot:2) cw(0) cp(25))
+;	("doctrine_t3" cool(360) d(mid_jap_irregular) cost(30))
+;	{action "airstrike:sc_250_mp"} 
+;}
+;
+;
+;; // 60DP 240mm Type45
+;{"doctrine_240mm_type45_mid(jap)"
+;	("squad_with2types_doctrine" side(jap) t( infsquad ) period(mid) year(mid) c1(engineer_arty:1) c2(vehicle_supporter:1) )
+;	("doctrine_t3" cool(600) d(mid_jap_irregular) cost(120))
+;}
+
+
+;_________________________________________________
+;|             inf1                               |
+;|________________________________________________|
+
+("squad_with2types" side(jap) name(squad_light)				period(mid) year(mid) cd(0) ci(30)  g(squad_1) c1(rifle:9) c2(squadleader:1) b(squad) cd2(0) ci2(30) t(  infsquad ) level(1) research_stage(1))
+("squad_with5types" side(jap) name(squad_regular)			period(mid) year(mid) cd(0) ci(0)  g(squad_2) c1(rifle2:6) c2(smg2:1) c3(mgun:1) c4(mgun_assist:1) c5(squadleader:1) b(squad) cd2(0) ci2(0) t(  infsquad ) level(1) research_stage(1))
+("squad_with4types" side(jap) name(squad_regular_heavy)		period(mid) year(mid) cd(0) ci(0)  g(squad_2) c1(rifle2:6) c2(gr_launcher:2) c3(mgun:1) c4(mgun_assist:1) b(squad) cd2(0) ci2(0) t(  infsquad ) level(1) research_stage(1))
+("squad_with6types" side(jap) name(squad_pionier)			period(mid) year(mid) cd(120) ci(120) g(squad_3) c1(elite:4) c2(elite2:1) c3(elite4:2) c4(elite3:1) c5(elite3_assist:1) c6(elite_sl:1)  b(squad) cd2(120) ci2(120) t(  infsquad ) level(1) research_stage(2))
+("squad_with5types" side(jap) name(squad_stormtrooper)  	period(mid) year(mid) cd(240) ci(240) g(squad_4) c1(sturmovik:5) c2(sturmovik3:2) c3(sturmovik2:1) c4(sturmovik2_assist:1) c5(sturmovik_sl:1)  b(squad) cd2(240) ci2(240) t(  infsquad ) level(1) research_stage(4))
+
+
+
+
+;_________________________________________________
+;|             inf2                               |
+;|________________________________________________|
+
+("squad_with2types" side(jap) name(single_auxiliary)    period(mid) year(mid) cd(0)   ci(5)   g(single_rifle)   c1(rifle2:1) c2(smg2:1)    b(single) cd2(0) ci2(5) t(  infsquad )           level(1) research_stage(1))
+("squad_with2types" side(jap) name(single_mg)           period(mid) year(mid) cd(0)   ci(60)  g(single_mg)  c1(mgun:1) c2(mgun_assist:1)           b(single) cd2(0) ci2(60) t(  infsquad )           level(1) research_stage(1))
+("squad_with2types" side(jap) name(single_at)           period(mid) year(mid) cd(0)   ci(0)  g(single_at)   c1(at_rifle:1) c2(at_rifle2:1)  b(single) cd2(0) ci2(0) t(  at_squad )           level(1) research_stage(1))
+("squad_with2types" side(jap) name(single_riflegrenade) period(mid) year(mid) cd(0)   ci(20)  g(single_at)   c1(rifle_grenade:1) c2(at_rifle2:1)  b(single) cd2(0) ci2(20) t(  infsquad )           level(1) research_stage(1))
+("squad_with2types" side(jap) name(single_mortar)		period(mid) year(mid) cd(0)   ci(20)  g(single_mortar)   c1(gr_launcher:1) c2(at_rifle2:1)  b(single) cd2(0) ci2(20) t(  infmortar )           level(1) research_stage(1))
+("squad_with2types" side(jap) name(single_tankman)      period(mid) year(mid) cd(0)   ci(20)  g(single_crew) c1(tankman2:1) c2(tankman:3) b(single) cd2(0) ci2(20) t(  tankcrew )           level(1) research_stage(1))
+("squad_with1types" side(jap) name(single_ap_miner)     period(mid) year(mid) cd(60)  ci(60)  g(single_apmine)   c1(ap_miner:3)                 b(single) cd2(60) ci2(60) t(  engineer miner)  level(1) research_stage(2))
+("squad_with1types" side(jap) name(single_at_miner)     period(mid) year(mid) cd(60)  ci(60)  g(single_atmine)   c1(at_miner:3)                 b(single) cd2(60) ci2(60) t(  engineer miner)  level(1) research_stage(2))
+("squad_with1types" side(jap) name(single_engineer)     period(mid) year(mid) cd(60)  ci(60)  g(single_eng)   c1(saper:2) b(single) cd2(60) ci2(60) t(  engineer builder)  level(1) research_stage(2))
+("squad_with1types" side(jap) name(single_medic)        period(mid) year(mid) cd(0)   ci(20) g(single_medic)   c1(medic:1)                      b(single) cd2(0) ci2(20) t(  medic )     level(1) research_stage(1))
+("squad_with1types" side(jap) name(single_flamer)       period(mid) year(mid) cd(60) ci(120) g(single_flamer)  c1(flamer:1)                    b(single) cd2(60) ci2(120) t(  flamer )    level(1) research_stage(3))
+("squad_with1types" side(jap) name(single_sniper)       period(mid) year(mid) cd(120) ci(180) g(single_sniper) c1(sniper:1)                     b(single) cd2(120) ci2(180) t(  sniper )    level(1) research_stage(3))
+("squad_with1types" side(jap) name(single_officer)      period(mid) year(mid) cd(120) ci(180) g(single_officer)  c1(officer:1)                  b(single) cd2(120) ci2(180) t(  officer )   level(1) research_stage(2))
+{"inf_crate_jap"
+	("vehicle" period(mid) year(mid) cd(0) ci(30)   t( supply) side(jap) crew(rifle:2)             g(supplybox) b(supply) cd2(0) ci2(30)  cw(0)  cp(0) 
+	cost(50))
+	{doctrine "mid_jap_allround"}
+}  
+;_________________________________________________
+;|                  Emplacements                  |
+;|________________________________________________|
+
+;AUTOMATIC WEAPONRY
+{"type92_stan"
+	("vehicle" period(mid) year(mid) cd(0) ci(30) t( cannon) side(jap) crew(vehicle_supporter:2) g(empl1) b(support) cd2(0) ci2(30)  cw(2)  cp(5) 
+	cost(90))
+}
+{"7_7mm_type92_lewis"
+	("vehicle" period(mid) year(mid) cd(0) ci(30) t( cannon) side(jap) crew(vehicle_supporter:2) g(empl2) b(support) cd2(0) ci2(30)  cw(2)  cp(5) 
+	cost(95))
+}
+{"13mm_type_93"
+	("vehicle" period(mid) year(mid) cd(0) ci(0) t(cannon) side(jap) crew(vehicle_supporter:2) g(empl2) b(support) cd2(0) ci2(60)  cw(2)  cp(5) 
+	cost(140))
+}
+{"20mm_type_98"
+	("vehicle" period(mid) year(mid) cd(0) ci(60) t(cannon) side(jap) crew(vehicle_supporter:2) g(empl4) b(support) cd2(0) ci2(60)  cw(2) cp(8) 
+	cost(210))
+}
+
+
+; AT WEAPONRY
+{"20mm_type_97"
+	("vehicle" period(mid) year(mid) cd(0) ci(60)  t( cannon) side(jap) crew(vehicle_supporter:2)  g(empl1) b(support) cd2(0) ci2(60)  cw(2) cp(5) 
+	cost(150))
+}
+{"37mm_type_11"
+	("vehicle" period(mid) year(mid) cd(0) ci(0)  t(cannon) side(jap) crew(vehicle_supporter:2)   g(empl2) b(support) cd2(0) ci2(60)  cw(1) cp(10) 
+	cost(170))
+}
+{"37mm_type_94"
+	("vehicle" period(mid) year(mid) cd(0) ci(60)  t( cannon) side(jap) crew(vehicle_supporter:2)   g(empl4) b(support) cd2(0) ci2(60)  cw(1) cp(10) 
+	cost(180))
+}
+{"47mm_type_1"
+	("vehicle" period(mid) year(mid) cd(0) ci(60)  t( cannon) side(jap) crew(vehicle_supporter:4)   g(empl5) b(support) cd2(0) ci2(60)  cw(1) cp(10) 
+	cost(200))
+}
+{"57mm_type_2"
+	("vehicle" period(mid) year(mid) cd(0) ci(60)  t(doctrineonly cannon) side(jap) crew(vehicle_supporter:4)   g(empl5) b(support) cd2(0) ci2(60)  cw(1) cp(10) 
+	cost(230))
+}
+{"75mm_type_88"
+	("vehicle" period(mid) year(mid) cd(0) ci(60) t( cannon mediumcan) side(jap) crew(vehicle_supporter:4)   g(empl6) b(support) cd2(0) ci2(60)  cw(1) cp(15) 
+	cost(330))
+}
+{"75mm_type_90"
+	("vehicle" period(mid) year(mid) cd(0) ci(60) t( cannon mediumcan) side(jap) crew(vehicle_supporter:4)   g(empl7) b(support) cd2(0) ci2(60)  cw(1) cp(15) 
+	cost(340))
+}
+{"88mm_type_99"
+	("vehicle" period(mid) year(mid) cd(0) ci(0) t(cannon heavycan) side(jap) crew(vehicle_supporter:4)   g(empl7) b(support) cd2(360) ci2(60)  cw(1) cp(20) 
+	cost(550))
+}
+
+;HOWITZERS
+{"81mm_brandt_jap"
+	("vehicle"  period(mid) year(mid) cd(0)  ci(60) t(mortar) side(jap) crew(vehicle_supporter:2)             g(empl10) b(art) cd2(0) ci2(60)  cw(1) cp(12) 
+	cost(250))
+}
+{"70mm_type_92"
+	("vehicle" period(mid) year(mid) cd(0) ci(60)  t( artillery) side(jap) crew(vehicle_supporter:4)   g(empl5) b(art) cd2(0) ci2(60)  cw(1) cp(15)
+	cost(300))
+}
+{"75mm_type_41"
+	("vehicle" period(mid) year(mid) cd(0) ci(60)  t( cannon mediumcan) side(jap) crew(vehicle_supporter:4)   g(empl9) b(art) cd2(0) ci2(60)  cw(1) cp(15)
+	cost(320))
+}
+{"150mm_type_97"
+	("vehicle"  period(mid) year(mid) cd(0) ci(0) t(artillery) side(jap) crew(vehicle_supporter:2)    g(empl11) b(art) cd2(900) ci2(30)  cw(1) cp(20) 
+	cost(420))
+}
+{"105mm_type_91"
+	("vehicle"  period(mid) year(mid) cd(900) ci(180) t(heavyart artillery) side(jap) crew(vehicle_supporter:4) g(empl12) b(art) cd2(900) ci2(180)  cw(1) cp(25) 
+	cost(750))
+}
+{"105mm_type_92"
+	("vehicle"  period(mid) year(mid) cd(0) ci(0) t(heavyart artillery) side(jap) crew(vehicle_supporter:4) g(empl12) b(art) cd2(1200) ci2(30)  cw(1) cp(25) 
+	cost(850))
+}
+{"120mm_type_38"
+	("vehicle"  period(mid) year(mid) cd(0) ci(0) t( heavyart artillery) side(jap) crew(vehicle_supporter:4) g(empl12) b(art) cd2(1200) ci2(30)  cw(1) cp(25) 
+	cost(900))
+}
+{"150mm_type_96"
+	("vehicle"  period(mid) year(mid) cd(0) ci(0) t( heavyart artillery) side(jap) crew(vehicle_supporter:4) g(empl13) b(art) cd2(1200) ci2(30)  cw(1) cp(30) 
+	cost(920))
+}
+;_________________________________________________
+;|               Wheeled vehicles                 |
+;|________________________________________________|
+
+{"type94"
+	("vehicle"  period(mid) year(mid) cd(0)   ci(30)  g(supply1) side(jap) t( vehicle)   crew(vehicle_supporter:1)       b(supply) cd2(0) ci2(30) cw(1) cp(5) 
+	cost(20))
+}
+{"type97_sidecar"
+	("vehicle" period(mid) year(mid) cd(0)   ci(30)  g(wheel1) side(jap) t( vehicle)    crew(vehicle_supporter:2)     b(supply) cd2(0) ci2(30) cw(1) cp(2)  
+	cost(40))
+}
+{"type94_fuel"
+	("vehicle"  period(mid) year(mid) cd(0)   ci(30)  g(supply1) side(jap) t( vehicle supply)   crew(vehicle_supporter:2)       b(supply) cd2(0) ci2(30) cw(1) cp(5) 
+	cost(90))
+}
+{"type94eng"
+	("vehicle2"  period(mid) year(mid) cd(0)  ci(30)  g(supply3) side(jap) t( vehicle supply engtruck) crew1(vehicle_supporter:1) crew2(saper:1)  b(supply) cd2(0) ci2(30) cw(1) cp(5) 
+	cost(100))
+}
+{"type94art"
+	("vehicle"  period(mid) year(mid) cd(0)  ci(30)  g(supply2) side(jap) t( vehicle supply)  crew(vehicle_supporter:2)      b(supply) cd2(0) ci2(30) cw(1) cp(5) 
+	cost(185))
+}
+{"type95"
+	("vehicle"  period(mid) year(mid) cd(0)   ci(30)  g(wheel1) side(jap) t( vehicle)    crew(vehicle_supporter:3)     b(supply) cd2(0) ci2(30) cw(1) cp(2)  
+	cost(160))
+}
+{"type87_com"
+	("vehicle"  period(mid) year(mid) cd(0) ci(0)  g(wheel2) side(jap) t(vehicle)  crew1(tankman:1) crew2(scout:2) crew3(scout2:1)  b(lt) cd2(90) ci2(30) cw(2) cp(-12) 
+	cost(160))
+}
+{"type93"
+	("vehicle"  period(mid) year(mid) cd(0)   ci(30)  g(wheel2) side(jap) t( vehicle)   crew(vehicle_supporter:5)       b(lt) cd2(0) ci2(30) cw(2) cp(8) 
+	cost(170))
+}
+{"type94aa"
+	("vehicle"  period(mid) year(mid) cd(0)   ci(30)  g(wheel2) side(jap) t( vehicle)   crew(vehicle_supporter:4)       b(lt) cd2(0) ci2(30) cw(2) cp(8) 
+	cost(230))
+}
+{"type1_ho-ki_mg"
+	("vehicle"  period(mid) year(mid) cd(0) ci(0) side(jap) t( vehicle)  crew(vehicle_supporter:3) g(wheel1) b(supply) cd2(0) ci2(30) cw(2) cp(5)
+	cost(120 ))
+}
+
+;ARMOURED RECOVERY VEHICLE
+
+{"type97_eng"
+	("vehicle"  period(mid) year(mid) cd(480) ci(60) t( vehicle supply) side(jap) crew(vehicle_supporter:2) g(supply3) b(supply) cd2(480) ci2(60) cw(2) cp(5) 
+	cost(150))
+}
+
+;_________________________________________________
+;|        Main Battle Tanks and SPGs              |
+;|________________________________________________|
+
+;LIGHT
+{"type94_te-ke"
+	("vehicle2" period(mid) year(mid) cd(0)  ci(60) t(  light)  side(jap) crew1(tankman:1) crew2(tankman2:1) g(light1) b(lt) cd2(0) ci2(60)  cw(4) cp(10) 
+	cost(130))
+}
+{"type97_te-ke"
+	("vehicle2" period(mid) year(mid) cd(0)  ci(60) t(  light)  side(jap) crew1(tankman:1) crew2(tankman2:1) g(light2) b(lt) cd2(0) ci2(60)  cw(4) cp(12) 
+	cost(240))
+}
+{"type95_ha-go"
+	("vehicle2" period(mid) year(mid) cd(0)  ci(60) t( light)  side(jap) crew1(tankman:2) crew2(tankman2:1) g(light3) b(lt) cd2(0) ci2(60)  cw(4) cp(12) 
+	cost(250))
+}
+{"type3_ke-ri"
+	("vehicle2" period(mid) year(mid) cd(0)  ci(60) t(doctrineonly light)  side(jap) crew1(tankman:2) crew2(tankman2:1) g(light4) b(lt) cd2(0) ci2(60)  cw(4) cp(12) 
+	cost(265))
+}
+
+;MEDIUM
+{"type97_shi-ki"
+	("vehicle2" period(mid) year(mid) cd(0) ci(0) t(medium) side(jap) crew1(tankman:3) crew2(tankman2:1) g(medium1) b(mt) cd2(480) ci2(60) cw(6) cp(14) 
+	cost(310))
+}
+{"type89_i-go"
+	("vehicle2" period(mid) year(mid) cd(0) ci(0) t(medium) side(jap) crew1(tankman:3) crew2(tankman2:1) g(medium2) b(mt) cd2(480) ci2(60) cw(6) cp(15) 
+	cost(320))
+}
+{"type97_chi-ha"
+	("vehicle2" period(mid) year(mid) cd(240)  ci(60) t( medium) side(jap) crew1(tankman:3) crew2(tankman2:1) g(medium5) b(mt) cd2(240) ci2(60) cw(6) cp(15) 
+	cost(340))
+}
+{"type97_ka-ho"
+	("vehicle2" period(mid) year(mid) cd(0) ci(0) t(medium) side(jap) crew1(tankman:3) crew2(tankman2:1) g(medium1) b(mt) cd2(480) ci2(60) cw(6) cp(15)
+	cost(345))
+}
+{"type97_shinhoto_47mm"
+	("vehicle2" period(mid) year(mid) cd(120) ci(60) t( medium) side(jap) crew1(tankman:4) crew2(tankman2:1) g(medium2) b(mt) cd2(120) ci2(60) cw(6) cp(15) 
+	cost(350))
+}
+{"type1_chi-he"
+	("vehicle2" period(mid) year(mid) cd(240)  ci(60) t( medium) side(jap) crew1(tankman:4) crew2(tankman2:1) g(medium2) b(mt) cd2(240) ci2(60) cw(6) cp(20) 
+	cost(355))
+}
+{"type1_ho-i"
+	("vehicle2" period(mid) year(mid) cd(0) ci(0) t(medium) side(jap) crew1(tankman:3) crew2(tankman2:1) g(medium4) b(mt) cd2(480) ci2(60) cw(6) cp(20) 
+	cost(380))
+}
+{"type97_shinhoto_120mm"
+	("vehicle2" period(mid) year(mid) cd(0) ci(0) t( medium) side(jap) crew1(tankman:4) crew2(tankman2:1) g(medium2) b(mt) cd2(480) ci2(60) cw(6) cp(25) 
+	cost(570))
+}
+;HEAVY
+
+
+;SPG
+{"type1_ho-ni1"
+	("vehicle2" period(mid) year(mid) cd(240)  ci(60)  t( medium) side(jap) crew1(tankman:1) crew2(vehicle_supporter:2) g(spg1)     b(td) cd2(240) ci2(60) cw(6)  cp(18) 
+	cost(430))
+}
+{"type1_ho-ni2"
+	("vehicle2" period(mid) year(mid) cd(0) ci(0)  t(medium heavyart) side(jap) crew1(tankman:1) crew2(vehicle_supporter:2)  g(spg1)  b(art) cd2(900) ci2(60) cw(4)  cp(25) 
+	cost(590))
+}
+
+
+;Plane
+{"d3a_aichi"
+	("vehicle"  period(mid) year(mid) cd(0) ci(0) t(doctrineonly doc_only) side(jap) crew(pilot:2) g(spg7) b(doctrine) cd2(0) ci2(0) cw(0) cp(25)
+	cost(2000))
+}

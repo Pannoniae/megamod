@@ -1,0 +1,20 @@
+{from "pattern gun"			; 
+	{filling "bullet20_jap zenite" 200}
+	{fireSound "gun/gun_auto"}
+	{fireSoundclose "gun/gun_interior/size1"}
+	{reloadSound "interior/large/auto_reload_interior"}
+	("range_aircraft_gun")
+	{cursor "ironsights/aa"}
+	{calibre 20}
+
+	("fire rate" rpm(540))
+	("reload time" seconds(12))
+
+	("velocity" mps(600))
+	("armor health" damage(30))
+	("20_slope_multipliers")
+	("penetration" a(17) b(12) c(7) d(5) e(3))
+	{burst {min 2}}
+
+}
+

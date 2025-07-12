@@ -1,0 +1,29 @@
+{from "pattern reactive"		; Type 4 20 cm rocket launcher
+	{filling "ammo 20cm_rocket" 1}
+	{fillingVisible "rocket"}
+	{fireSound "reactive/t4_200mm"}
+	{calibre 200}
+
+	("rocket_artillery")
+
+	{spreading
+		{radiusTable
+			{0 0}
+			{100 10}
+			{200 20}
+			{274.99 35} ; max range
+			{275 100}
+			{300 200}
+		}
+	}
+
+	{burst 
+		{min 1}
+		{noaiming}
+	}
+	{gravity 1.5}
+
+	{range 275 275}
+	("velocity" mps(230))
+	("reload time" seconds(15))
+}

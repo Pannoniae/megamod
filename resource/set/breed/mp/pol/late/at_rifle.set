@@ -1,0 +1,24 @@
+{breed
+	{behaviour soldier}
+	{skin "pol-2cor-inf"}
+	{portrait "pol_late_soldier2"}
+	{tags "soldier_atr"}
+	{nationality pol}
+	{icon "at_rifle"}
+	{icon_priority 3}
+	{armors
+		{head "helmet_pol_mkii"}
+	}
+	{inventory
+		{item "boyes" filled}
+		{item  "ammo 13x99" 100}
+		{item "sten_mkii" filled}
+		{item  "ammo 9x19b" 288}
+		{item "bandage_pol" 3}
+		{item "grenade n73at" 1}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}
+;Cost=55;
+

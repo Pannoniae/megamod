@@ -1,0 +1,20 @@
+{from "pattern gun"			; Type 92
+	{filling "bullet70_jap"}
+	{fireSound "cannon/s2/d1/Shared/Cannon_50to57mm_HV/"}	
+	{fireSoundClose "cannon/s2/3p/Shared/Cannon_50to57mm_HV/"}
+	{reloadSound "utility/"}
+	("range_180_howitzer")
+	{calibre 70}
+
+	("reload time" seconds(6))
+
+	("velocity m/s" ap(1) apcr(1) he(220) heat(260))
+	("armor health" damage(200))
+	("57_slope_multipliers")
+
+	("penetration_medium" shell(heat) range(160) a(90) b(90) c(90) d(90) e(90))
+	("accuracy_spg" r1(2.40) range_ap(180) range_he(180) range_heat(160))
+
+    	{unlimitedRangeTPC 0}   ;// restrict range in TPC/FPC
+
+}

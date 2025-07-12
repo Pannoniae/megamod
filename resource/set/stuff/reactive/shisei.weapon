@@ -1,0 +1,30 @@
+{from "pattern reactive"		; Toyota
+	{filling "ammo 15cm_rocket" 20}
+	;{fillingVisible "rocket"}
+	{fireSound "reactive/nebel_burst/"}
+	{calibre 150}
+
+	("rocket_artillery")
+
+	{spreading
+		{radiusTable
+			{0 0}
+			{100 9}
+			{200 18}
+			{309.9 35} ; max range
+			{310 100}
+			{330 200}
+		}
+	}
+
+	{automatic}
+	{burst
+		{min 5}
+		{noaiming}
+	}
+	
+	{range 310 310}
+	("velocity" mps(340))
+
+	("reload time" seconds(120))
+}

@@ -1,0 +1,32 @@
+{breed
+	{behaviour soldier}
+	{skin "pol-2cor-inf"}
+	{portrait "pol_late_soldier2"}
+	{tags "soldier"}
+	{nationality pol}	
+	{icon "mg"}
+	{icon_priority 2}
+	{armors
+		{head "helmet_pol_mkii"}
+	}
+	{perks
+		(include "ability.inc")
+		("mg_skill_rank_2")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "bren" filled}
+		{item "webley" filled}
+		{item  "ammo 7x56" 142}
+		{item  "ammo 11x21" 90}
+		{item "bandage_pol" 3}
+		{item "sandbag_kit" 1}
+		{in_hands 0}
+	}
+}
+;Cost=44;
+

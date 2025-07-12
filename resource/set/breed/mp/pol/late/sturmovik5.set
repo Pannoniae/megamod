@@ -1,0 +1,34 @@
+{breed
+	{behaviour soldier}
+	{skin "pol-commando"}
+	{portrait "pol_late_soldier5"}
+	{tags "soldier_pzscheck"}
+	{nationality pol}
+	{icon "stormtrooper5"}
+	{icon_priority 4}
+	{armors
+		{head "hat_no4"}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_4")
+		("at_rank_3")
+		("tier4_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "weapon piat" filled}
+		{item "sten_mkii" filled}
+		{item  "ammo 9x19b" 288}
+		{item "bandage_pol" 5}
+		{item "grenade n73at" 1}
+		{item "ammo piatrocket" 5}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}
+;Cost=63;
+

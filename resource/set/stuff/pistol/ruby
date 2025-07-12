@@ -1,0 +1,12 @@
+{from "pattern pistol"
+	{filling "ammo 7x17" 9}
+	{entity "ruby"}
+	{fireSound "smallarms/s1/d1/GER/P38/"}
+	{fireSoundclose "smallarms/s1/3p/GER/P38/"}
+	{reloadSound "luger"}
+	{calibre 7}
+	{mass 0.98}
+	("velocity" mps(300))
+}
+
+;Cost=1;

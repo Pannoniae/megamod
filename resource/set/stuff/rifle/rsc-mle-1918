@@ -1,0 +1,13 @@
+{from "pattern rifle"
+	{filling "ammo 8x50" 5}
+	{entity "rsc_m1917"}
+	{fireSound "rifle/rsc_shot/"}
+	{fireSoundclose	"rifle/rsc_shot/3p/"}
+	{reloadSound "svt"}
+	{calibre 8}
+	{mass 4}
+	("fire rate" rpm(460))
+	("velocity" mps(853))
+	("semi_rifle")
+}
+;Cost=10;

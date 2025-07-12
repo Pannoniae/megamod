@@ -1,0 +1,31 @@
+{breed
+	{skin "jap_imperialguard_mgun"}
+	{portrait "jap_soldier2"}
+	{tags "soldier"}
+	{nationality jap}
+	{icon "stormtrooper"}
+	{icon_priority 0}
+	{armors
+		{head helmet3_jap}
+	}
+	{perks
+		(include "ability.inc")
+		("mg_skill_rank_3")
+		("tier3_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "type96lmg" filled}
+		{item  "ammo 6x50" 300}
+		{item "bandage_jap" 5}
+		{item "grenade type97" 2}
+		{item "grenade type3at_a" 1}
+		{item "sandbag_kit" 1}
+		{in_hands 0}
+	}
+}
+;Cost=48;
+

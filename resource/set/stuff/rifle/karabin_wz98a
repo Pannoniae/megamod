@@ -1,0 +1,14 @@
+{from "pattern rifle"
+	{filling "ammo 7x57b" 5}
+	{entity "karabin_wz_98a"}
+	{fireSound "smallarms/s3/d1/GER/K98k/"}
+	{fireSoundclose "smallarms/s3/3p/GER/K98k/"}
+	{reloadSound "kar98"}
+	{calibre 7.92}
+	{mass 4.36}
+	("velocity" mps(878))
+	("bolt_action")
+	("k98_rate")
+}
+
+;Cost=5;

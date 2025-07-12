@@ -1,0 +1,35 @@
+{breed
+	{behaviour soldier}
+	{skin "pol-jerkin-commando"}
+	{portrait "pol_late_elite1"}
+	{tags "soldier"}
+	{nationality pol}
+	{icon "elite2"}
+	{icon_priority 3}
+	{armors
+		{head cap_pol_beret_commando}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_4")		
+		("tier4_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "garand" filled}
+		{item  "ammo 7x63" 112}
+		{item "bandage_pol" 5}
+		{item "grenade mk1" 2}
+		{item "grenade n73at" 1}
+		{item "smoke grenade" 2}
+		{item "mine antitank" 1}
+		{item "wirecutters"}
+		{item "ammo_box_inf_eng"}
+		{in_hands 0}
+	}
+}
+;Cost=23;
+

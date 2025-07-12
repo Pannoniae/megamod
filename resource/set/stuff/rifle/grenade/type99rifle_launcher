@@ -1,0 +1,15 @@
+{from "pattern rifle_grenade"
+	{tag "ap_rifle"}
+	{entity "type99rifle_launcher"}
+	{filling "ammo type99_grenade" 1}
+	{fillingVisible "grenade_type99"}
+	{fireSound "rifle/type99rifle_shot/"}
+	{fireSoundclose "rifle/type99rifle_shot/3p/"}
+	{reloadSound "mosin"}
+	{calibre 40}
+	{mass 8.2}
+	{cursorReloading "gun_he"}
+	{spreading 8}
+	{range 85 85}
+}
+;Cost=25;

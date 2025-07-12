@@ -1,0 +1,34 @@
+{breed
+	{behaviour soldier}
+	{skin "ita-re-alpini-rfl"}
+	{portrait "ita_soldier1"}
+	{icon "rifleman"}
+	{icon_priority 0}
+	{tags "soldier"}
+	{nationality ita}
+	{armors
+		{head helmet_ita_m33_alpini}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_3")
+		("tier3_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "m91_carcano" filled}
+		{item "ammo 6x52" 96}
+		{item "bandage_ita" 4}
+        {item "oto_mod35"}
+		{item "sandbag_kit" 1}
+		{item "it_backpack_alpini"}
+		{item "ammo_box_inf_ita"}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}
+;Cost=8;
+

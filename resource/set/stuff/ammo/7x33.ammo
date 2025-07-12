@@ -1,0 +1,16 @@
+;// 7.62x33mm
+
+{bullet
+	{tag "bullet small_arms normal stackable pierce rifle"}
+	{tag "bullet_fx size2"}
+	{inventory
+		{weight 3.3}
+		{block 30}
+		{size 1 1}
+		{fsm "belt"}
+	}	
+	{mass 0.008}
+	{entity "rifle_cartridge2"}
+	{view "inter_bullet"}
+	("rifle_trace")
+}

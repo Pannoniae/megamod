@@ -1,0 +1,14 @@
+{from "pattern at_rifle"
+	{tag "auto_eject"}
+	{entity "solothurn"}
+	{filling "ammo bullet20x105b" 5}
+	{fireSound "gun/20mm_solothurn"}
+	{reloadSound "ptrd"}
+	{calibre 20}
+	{mass 45}  
+	{projectileDamageTable {0 37} {25 33} {50 28} {100 13} {125 3}}
+	("fire rate" rpm(18))
+	("velocity" mps(850))
+	{FiringTimeout 2.0 0.25}
+}
+;Cost=45;

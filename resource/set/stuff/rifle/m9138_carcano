@@ -1,0 +1,13 @@
+{from "pattern rifle"
+	{filling "ammo 6x52" 6}
+	{entity "m9138_carcano"}
+	{fireSound "rifle/carcano_m91-38"}
+	{fireSoundclose "rifle/carcano_m91-38"}
+	{reloadSound "rifle_bolt_five"}
+	{calibre 6.5}
+	{mass 3.98}
+	("velocity" mps(700))
+	("bolt_action")
+	("k98_rate")
+}
+;Cost=5;

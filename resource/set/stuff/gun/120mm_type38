@@ -1,0 +1,22 @@
+{from "pattern gun"			; Type38 120mm
+	{filling "bullet120_jap"}
+	{fireSound "gun/120mm_type97"}
+	{fireSoundclose "gun/gun_122_152_short"}
+	{reloadSound "tank/reload_howitzer"}
+	("medium_artillery")
+	{calibre 120}
+	{range 300 300} 
+	("reload time" seconds(12))
+	("velocity m/s" ap(1) apcr(1) he(200) heat(335)) 
+	("armor health" damage(350))
+	("penetration_medium" shell(heat) range(190) a(140) b(140) c(140) d(140) e(140))
+	("accuracy_indirect"   ; // Applies logic for accuracy of indirect weapons over 200m
+		r1(1.20) 				; // Accuracy radius for direct-fire munitions
+		r2(9) 					; // Accuracy radius for indirect fire
+		rmax(20) 				; // Accuracy radius for indirect fire at maximum range
+		range_ap(200) 			; // Range after which accuracy drops to prevent farshooting.
+		range_heat(190) 		; // Range after which accuracy drops to prevent farshooting.
+		range_he(300)			; // Range after which accuracy drops to prevent farshooting.
+	)
+
+}

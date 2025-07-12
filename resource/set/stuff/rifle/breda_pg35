@@ -1,0 +1,16 @@
+{from "pattern rifle"
+	{filling "ammo 6x52" 20}
+	{entity "breda_pg35"}
+	{fireSound "rifle/scottix"}
+	{fireSoundclose "rifle/scottix"}
+	{reloadSound "m1carbine_reload"}
+	{calibre 6.5}
+	{mass 5.2}
+	("velocity" mps(660))
+	("semi_rifle")
+	{parameters "clip"
+		("reload time" seconds(5))
+	}
+}
+
+;Cost=10;

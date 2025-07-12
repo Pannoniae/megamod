@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "hun_soldier2"}
+	{portrait "hun_medic"}
+	{icon "medics"}
+	{icon_priority 1}
+	{tags "soldier"}
+	{nationality hun}
+	{armors
+		{head "helmet1_hun"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")
+		("medic")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "mannlicher_m1895c" filled}
+		{item  "ammo 8x50" 80}
+		{item "smoke grenade" 2}
+		{item "bandage_hun" 25}
+		{item "medkit_hun"}
+		{item "tent_kit" 2}
+		{in_hands 0}
+	}
+}
+;Cost=8;
+

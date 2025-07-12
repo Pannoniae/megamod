@@ -1,0 +1,19 @@
+{from "pattern gun"			; M4A3 105
+	{filling "bullet105_usa"}
+	{fireSound "gun/gun_75_105"}
+	{fireSoundclose "gun/gun_interior/size3"}
+	{reloadSound "interior/large/big_reload_interior"}
+	("range_190_howitzer")
+	{calibre 105}
+
+	("reload time" seconds(12))
+
+	("velocity m/s" ap(1) apcr(1) he(236) heat(381))
+	("armor health" damage(27))
+	("105_slope_multipliers")
+
+	; M67
+	("penetration_medium" shell(heat) range(190) a(130) b(130) c(130) d(130) e(130))
+
+	("accuracy_spg" r1(1.00) range_ap(190) range_he(190) range_heat(190))
+}

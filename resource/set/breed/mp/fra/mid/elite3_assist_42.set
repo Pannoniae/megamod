@@ -1,0 +1,34 @@
+{breed
+	{behaviour soldier}
+	{skin "fra-en-senegal"}
+	{portrait "fra_elite5"}
+	{tags "soldier"}
+    {nationality fra}
+	{icon "elite-rifle"}
+	{icon_priority 0}
+	{armors
+		{head "helmet_fra_mkii"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_4")
+		("tier4_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "mas36" filled}
+		{item "ammo 7,5x54" 80}
+		{item "bandage_fra" 5}
+		{item "grenade mk1" 2}
+		{item "smoke grenade" 2}
+		{item "mine antitank" 1}
+		{item "small_inf_shovel"}
+		{item "ammo_box_inf_fra"}
+		{in_hands 0}
+	}
+}
+;Cost=18;
+

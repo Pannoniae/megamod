@@ -1,0 +1,15 @@
+{from "pattern smg"
+	{filling "ammo 9x19b" 40}
+	{entity "mab38"}
+	{fireSound "smg/beretta_burst/"}
+	{fireSoundclose "smg/beretta_burst/3p/"}
+	{reloadSound "stg"}
+	{calibre 9}
+	{mass 4.2}
+
+	("fire rate" rpm(600))
+	("velocity" mps(420))
+	("recoil_smg_medium")
+	("burst_short")
+}
+;Cost=10;

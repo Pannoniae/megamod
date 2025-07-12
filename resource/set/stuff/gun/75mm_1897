@@ -1,0 +1,18 @@
+{from "pattern gun"      ; 75mm m.1897 field Gun
+	{filling "bullet75_fra"}
+	{fireSound "gun/75mm_1897"}
+	{reloadSound "tank/reload_big"}
+	("range_200")
+	{calibre 75}
+
+	("reload time" seconds(5.5))
+	("velocity m/s" ap(600) apcr(1) he(240) heat(1))
+
+	("armor health" damage(200))
+	("75_slope_multipliers")
+	{parameters "ap"
+		("penetration" a(70) b(58) c(50) d(42) e(28))
+
+	}
+	("accuracy_direct" r1(0.81) range_ap(200) range_he(180) range_heat(180))
+}

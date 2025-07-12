@@ -1,0 +1,13 @@
+{from "pattern rifle"
+	{filling "ammo 6x50" 5}
+	{entity "type38carbine"}
+	{fireSound "rifle/type38_shot/"}
+	{fireSoundclose "rifle/type38_shot/3p/"}
+	{reloadSound "kar98"}
+	{calibre 6.5}
+	{mass 3.9}
+	("velocity" mps(762))
+	("bolt_action")
+	("k98_rate")
+}
+;Cost=5;

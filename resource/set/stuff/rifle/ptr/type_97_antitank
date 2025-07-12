@@ -1,0 +1,17 @@
+{from "pattern at_rifle"
+	{tag "itemin2hands"}
+	{tag "auto_eject"}
+	{filling "ammo bullet20x124" 7}
+	{entity "type_97_antitank"}
+	{fireSound	"rifle/ptr/type97at"}
+	{fireSoundclose "rifle/ptr/type97at"}
+	{reloadSound "ptrd"}
+	{calibre 20}
+	{mass 52}
+	("penetration" args 34 30 25)
+	("fire rate" rpm(16))
+	("velocity" mps(750))
+	{FiringTimeout 2.0 0.25}
+	{rechargeTime 6.5}
+}
+;Cost=45;

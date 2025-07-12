@@ -1,0 +1,34 @@
+{breed
+	{behaviour soldier}
+	{skin "pol-10bk-rfl"}
+	{portrait "pol_elite2"}
+	{tags "soldier"}
+	{nationality pol}
+	{icon "stormtrooper_rifles"}
+	{icon_priority 4}
+	{armors
+		{head "helmet_pol_wz16"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_4")
+		("tier4_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "karabinek_wz29" filled}      
+		{item  "ammo 7x57b" 50}
+		{item "bandage_pol" 5}
+		{item "grenade poland_o33" 1}
+		{item "grenade poland_z33" 2}
+		{item "sandbag_kit" 1}
+		{item "small_inf_shovel"}
+		{item "ammo_box_inf_pol"}
+		{in_hands 0}
+	}
+}
+;Cost=18;
+

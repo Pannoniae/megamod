@@ -1,0 +1,62 @@
+;SDL
+
+;{"mp/usaf/early/home_guard"		("inf_tankman" side(usaf) period(early) cost(5.0))}
+{"mp/usaf/early/vehicle_supporter"	("inf_tankman" side(usaf) period(early) cost(5.0))}
+{"mp/usaf/early/tankman"			("inf_tankman" side(usaf) period(early) cost(4.0))}
+{"mp/usaf/early/tankman2"			("inf_tankman" side(usaf) period(early) cost(12.0))}
+{"mp/usaf/early/pilot"				("inf_tankman" side(usaf) period(early) cost(0.0))}
+
+{"mp/usaf/early/rifle"				("inf_tier1" side(usaf) period(early) cost(7.0))} ; rifle 
+{"mp/usaf/early/rifle4"				("inf_tier1" side(usaf) period(early) cost(7.0))} ; rifle
+{"mp/usaf/early/smg"		    	("inf_tier1" side(usaf) period(early) cost(14.0))} ; smg
+
+{"mp/usaf/early/mgun"				("inf_tier2_lite" side(usaf) period(early) cost(44.0))} ; has mg
+{"mp/usaf/early/rifle2"				("inf_tier2_lite" side(usaf) period(early) cost(8.0))}
+{"mp/usaf/early/smg2"		    	("inf_tier2_lite" side(usaf) period(early) cost(13.0))}
+{"mp/usaf/early/flamer2"			("inf_tier2_lite" side(usaf) period(early) cost(8.0))}
+{"mp/usaf/early/mgun_assist"		("inf_tier2_lite" side(usaf) period(early) cost(8.0))}
+
+{"mp/usaf/early/rifle_grenade"		("inf_tier2" side(usaf) period(early) cost(29.0))} ; rifle grenade
+{"mp/usaf/early/saper"				("inf_tier2" side(usaf) period(early) cost(40.0))}
+{"mp/usaf/early/flamer"				("inf_tier2" side(usaf) period(early) cost(53.0))}
+{"mp/usaf/early/ap_miner"			("inf_tier2" side(usaf) period(early) cost(35.0))}
+{"mp/usaf/early/at_miner"			("inf_tier2" side(usaf) period(early) cost(35.0))}
+{"mp/usaf/early/gr_launcher"		("inf_tier2" side(usaf) period(early) cost(33.0))}
+{"mp/usaf/early/squadleader"		("inf_tier2" side(usaf) period(early) cost(20.0))}
+{"mp/usaf/early/squadleader2"		("inf_tier2" side(usaf) period(early) cost(18.0))}
+
+{"mp/usaf/early/elite"				("inf_tier3" side(usaf) period(early) cost(18.0))}  ; semi-auto rifle 
+{"mp/usaf/early/elite2"				("inf_tier3" side(usaf) period(early) cost(18.0))}	 ; smg
+{"mp/usaf/early/elite3"				("inf_tier3" side(usaf) period(early) cost(48.0))}	 ; mg
+{"mp/usaf/early/elite4"				("inf_tier3" side(usaf) period(early) cost(20.0))}	 ; smg
+{"mp/usaf/early/elite5"				("inf_tier3" side(usaf) period(early) cost(18.0))}	 ; semi-auto rifle 
+{"mp/usaf/early/elite6"				("inf_tier3" side(usaf) period(early) cost(48.0))}	 ; mg
+{"mp/usaf/early/elite7"				("inf_tier3" side(usaf) period(early) cost(13.0))}  ; rifle
+{"mp/usaf/early/elite8"				("inf_tier3" side(usaf) period(early) cost(23.0))}  ; semi-auto rifle
+{"mp/usaf/early/elite3_assist"		("inf_tier3" side(usaf) period(early) cost(18.0))}
+{"mp/usaf/early/elite6_assist"		("inf_tier3" side(usaf) period(early) cost(18.0))}
+{"mp/usaf/early/elite_sl"			("inf_tier3" side(usaf) period(early) cost(18.0))}
+{"mp/usaf/early/elite4_sl"			("inf_tier3" side(usaf) period(early) cost(25.0))}															 
+{"mp/usaf/early/scout"				("inf_tier3" side(usaf) period(early) cost(25.0))}  ; smg
+{"mp/usaf/early/scout2"				("inf_tier3" side(usaf) period(early) cost(23.0))}	 ; smg
+
+{"mp/usaf/early/radioman"			("inf_signaller" side(usaf) period(early) cost(200.0))}
+
+{"mp/usaf/early/sturmovik"			("inf_tier4" side(usaf) period(early) cost(18.0))}
+{"mp/usaf/early/sturmovik2"			("inf_tier4" side(usaf) period(early) cost(53.0))}
+{"mp/usaf/early/sturmovik3"			("inf_tier4" side(usaf) period(early) cost(18.0))} 
+{"mp/usaf/early/sturmovik4"			("inf_tier4" side(usaf) period(early) cost(23.0))}
+{"mp/usaf/early/sturmovik4b"		("inf_tier4" side(usaf) period(early) cost(18.0))}
+{"mp/usaf/early/sturmovik5"			("inf_tier4" side(usaf) period(early) cost(28.0))}
+{"mp/usaf/early/sturmovik5b"		("inf_tier4" side(usaf) period(early) cost(23.0))}
+{"mp/usaf/early/sturmovik6"			("inf_tier4" side(usaf) period(early) cost(53.0))}
+{"mp/usaf/early/sturmovik6b"		("inf_tier4" side(usaf) period(early) cost(18.0))}
+{"mp/usaf/early/sturmovik2_assist"	("inf_tier4" side(usaf) period(early) cost(18.0))}
+{"mp/usaf/early/sturmovik_sl"		("inf_tier4" side(usaf) period(early) cost(28.0))}
+{"mp/usaf/early/sturmovik_grenadier"	("inf_tier4" side(usaf) period(early) cost(39.0))}	; rifle grenade						
+
+{"mp/usaf/early/medic"				("inf_medic" side(usaf) period(early) cost(40.0))}
+
+{"mp/usaf/early/officer"			("inf_officer" side(usaf) period(early) cost(125.0))}
+
+{"mp/usaf/early/sniper"				("inf_sniper" side(usaf) period(early) cost(150.0))}

@@ -1,0 +1,32 @@
+{breed
+	{behaviour soldier}
+	{skin "pol-2cor-inf"}
+	{portrait "pol_late_soldier2"}
+	{tags "soldier"}
+	{nationality pol}
+	{icon "smg"}
+	{icon_priority 1}
+	{armors
+		{head "helmet_pol_mkii"}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_2")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "sten_mkii" filled}
+		{item  "ammo 9x19b" 288}
+		{item "bandage_pol" 3}
+		{item "grenade mk1" 2}
+		{item "grenade n73at" 1}
+		{item "smoke grenade" 1}
+		{in_hands 0}
+	}
+}
+;Cost=13;
+

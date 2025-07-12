@@ -1,0 +1,15 @@
+{from "pattern smg"
+	{filling "ammo 11x23" 30}
+	{entity "m3a"}
+	{fireSound	"smg/m3a_burst/"}
+	{fireSoundclose "smg/m3a_burst/3p/"}
+	{reloadSound "stg"}
+	{calibre 11.43}
+	{mass 3.6}
+
+	("fire rate" rpm(475))
+	("velocity" mps(280))
+	("recoil_smg_medium")
+	("burst_short")
+}
+;Cost=10;

@@ -1,0 +1,26 @@
+{from "pattern gun"     ; "pdr25"
+	{filling "bullet88_eng"}
+	{fireSound "gun/gun_75_105_short"}
+	{fireSoundclose "gun/gun_interior/size3"}
+	{reloadSound "interior/large/medium_reload_interior"}
+	("medium_artillery")
+	{calibre 88}
+	{range 360 360}
+	("reload time" seconds(10))
+
+	("velocity m/s" ap(532) apcr(1) he(240) heat(1))
+	("armor health" damage(200))
+	("90_slope_multipliers")
+
+	("penetration_medium" shell(ap) range(190) a(103) b(86) c(69) d(55) e(44))
+
+	("accuracy_indirect"		; // Applies logic for accuracy of indirect weapons over 200m
+		r1(1.05) 				; // Accuracy radius for direct-fire munitions
+		r2(8) 					; // Accuracy radius for indirect fire
+		rmax(17) 				; // Accuracy radius for indirect fire at maximum range
+		range_ap(190) 			; // Range after which accuracy drops to prevent farshooting
+		range_heat(190) 		; // Range after which accuracy drops to prevent farshooting
+		range_he(360)			; // Range after which accuracy drops to prevent farshooting
+	)
+
+}

@@ -1,0 +1,22 @@
+{from "pattern mgun"
+	{tag "aa"}
+	{filling "ammo 7x56" 1000}
+	{entity "30cal"}
+	{fireSound	"mgun/type11lmg_burst/"}
+	{fireSoundclose	"mgun/type11lmg_burst/3p"}
+	{reloadSound "type11lmg_reload"}
+	{calibre 7.62}
+	{mass 21}
+
+	{range 160 300}
+
+	("fire rate" rpm(3600))
+	("velocity" mps(800))
+	("reload time" seconds(30))
+
+	{Spreading {BurstAccuracy 100}}
+
+	("burst_aa")
+	("airborne_mg")
+}
+;Cost=40;

@@ -1,0 +1,6 @@
+{from "hotchkiss1914"
+	{filling "ammo 8x50" 150}
+	{fireSoundclose "mgun/mg_interior"}
+	{reloadSound "interior/small/dt_reload_interior"}
+}
+;Cost=40;

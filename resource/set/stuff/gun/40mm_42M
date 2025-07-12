@@ -1,0 +1,17 @@
+{from "pattern gun"			; "Toldi2"
+	{filling "bullet40_hun"}
+	{fireSound "gun/gun_37_57"}
+    	{fireSoundclose "gun/gun_37_57"}
+	{reloadSound "tank/reload_small"}
+	("range_170")
+	{calibre 40}
+
+	("reload time" seconds(3))
+
+	("velocity m/s" ap(812) apcr(1) he(812) heat(1))
+	("armor health" damage(50))
+	("40_slope_multipliers")
+
+	("penetration_medium" shell(ap) range(160) a(70) b(63) c(55) d(48) e(41))
+	("accuracy_direct" r1(0.55) range_ap(170) range_he(160) range_heat(160))
+}

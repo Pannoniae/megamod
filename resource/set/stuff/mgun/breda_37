@@ -1,0 +1,16 @@
+{from "pattern mgun"
+	{filling "ammo 8x59" 20}
+	{entity "breda37"}
+	{fireSound	"mgun/breda_37_burst/"}
+	{fireSoundclose "mgun/breda_37_burst/3p"}
+ 	{reloadSound "mg34"}
+	{inventory {size 6 2}}
+	{calibre 8}
+	{mass 13.3}
+	("fire rate" rpm(450))
+	("velocity" mps(800))
+	("burst_medium")
+	("spreading_low")
+	{thirdpersonparams inherit "human default_mg"}
+}
+;Cost=40;

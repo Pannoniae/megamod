@@ -1,0 +1,13 @@
+{from "pattern rifle"
+	{filling "ammo 8x56" 5}
+	{entity "feg_35_m"}
+	{fireSound "smallarms/s3/d1/RUS/M9130/"}
+	{fireSoundclose "smallarms/s3/3p/RUS/M9130/"}
+	{reloadSound "mosin"}
+	{calibre 8}
+	{mass 3.98}
+	("velocity" mps(730))
+	("bolt_action")
+	("k98_rate")
+}
+;Cost=5;

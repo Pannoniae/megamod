@@ -1,0 +1,26 @@
+{from "pattern gun"			 ;150mm Type96
+	{filling "bullet150_jap"}
+	{fireSound "gun/gun_122_152"}
+	{fireSoundclose "gun/gun_122_152"}
+	{reloadSound "tank/reload_howitzer"}
+	("heavy_artillery")
+	{calibre 150}
+	{range 440 440} 
+	("reload time" seconds(25))
+	("velocity m/s" ap(540) apcr(1) he(200) heat(460))
+	("armor health" damage(450))
+	("armor health custom" shell(aphe) damage(450) filler(600))
+	("85-155_slope_multipliers")	
+
+	("penetration_medium" shell(aphe) range(210) a(125) b(117) c(109) d(101) e(89)))
+	("penetration_medium" shell(heat) range(210) a(185) b(185) c(185) d(185) e(185))
+	
+	("accuracy_indirect"   ; // Applies logic for accuracy of indirect weapons over 200m
+		r1(0.95) 				; // Accuracy radius for direct-fire munitions
+		r2(8) 					; // Accuracy radius for indirect fire
+		rmax(28) 				; // Accuracy radius for indirect fire at maximum range
+		range_ap(210) 			; // Range after which accuracy drops to prevent farshooting.
+		range_heat(210) 		; // Range after which accuracy drops to prevent farshooting.
+		range_he(440)			; // Range after which accuracy drops to prevent farshooting.
+	)
+}

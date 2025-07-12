@@ -1,0 +1,31 @@
+{breed
+	{behaviour soldier}
+	{skin "us-ranger-bar"}
+	{portrait "us-soldier5"}
+	{tags "soldier"}
+	{nationality usa}
+	{icon "stormtrooper2"}
+	{icon_priority 4}
+	{armors
+		{head "helmet_ranger"}
+	}
+	{perks
+		(include "ability.inc")
+		("mg_skill_rank_4")
+		("tier4_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "browning_m19a6_belt" filled}
+		{item  "ammo 7x63" 250}
+		{item "bandage" 5}
+		{item "grenade mk2" 3}
+		{item "dynamite" 1}
+		{in_hands 0}
+	}
+}
+;Cost=53;
+

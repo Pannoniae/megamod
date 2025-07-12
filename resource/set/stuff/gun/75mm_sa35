@@ -1,0 +1,18 @@
+{from "pattern gun"
+	{tag "gun"}
+	{tag "agf"}
+	{filling "bullet75_fra"}
+	{fireSound "gun/75mm_sa35_l17"}
+	{reloadSound "tank/reload_medium"}
+	("range_190")
+	{calibre 75}
+	("curved_firing_arc")
+	("reload time" seconds(7))
+	("velocity m/s" ap(400) apcr(1) he(450) heat(450))
+	("armor health" damage(200))
+	("75_slope_multipliers")
+	("penetration_medium" shell(ap) range(190) a(62) b(55) c(47) d(41) e(35))
+	("penetration_medium" shell(heat) range(180) a(70) b(70) c(70) d(70) e(70))
+	("accuracy_spg" r1(1.20) range_ap(190) range_he(190) range_heat(180))
+	{unlimitedRangeTPC 0}   ;// restrict range in TPC/FPC
+}

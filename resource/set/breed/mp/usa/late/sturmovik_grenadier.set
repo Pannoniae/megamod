@@ -1,0 +1,37 @@
+{breed
+	{behaviour soldier}
+	{skin "us-ranger-carbine"}
+	{portrait "us-soldier5"}
+	{tags "soldier_atr_grenade"}
+	{nationality usa}
+	{icon "stormtrooper3"}
+	{icon_priority 4}
+	{armors
+		{head "helmet_ranger"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_4")
+		;("at_rank_3")
+		("tier4_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "garand_grenade" filling "ammo m7_grenade he" 1}
+		{item "ammo m7_grenade he" 10}
+		{item "ammo m7_grenade heat" 5}
+		{item "colt" filled}
+		{item  "ammo 11x23" 105}
+		{item "bandage" 5}
+		{item "grenade mk2" 2}
+		{item "grenade m15_wp" 2}
+		{item "dynamite" 1}		
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}
+;Cost=39;
+

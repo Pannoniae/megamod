@@ -1,0 +1,16 @@
+{from "pattern gun"			; "75mm wz 1897"
+	{filling "bullet75_pol"}
+	{fireSound "gun/gun_75_105"}
+	{fireSoundclose "gun/gun_interior/size3"}
+	{reloadSound "interior/large/medium_reload_interior"}
+	("range_190")
+	{calibre 75}
+
+	("reload time" seconds(6))
+	("velocity m/s" ap(609) apcr(1) he(594) heat(1))
+	("armor health" damage(200))
+	("75_slope_multipliers")
+
+	("penetration_medium" shell(ap) range(190) a(86) b(76) c(65) d(56) e(48))
+	("accuracy_direct" r1(0.81) range_ap(190) range_he(170) range_heat(170))
+}

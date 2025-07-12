@@ -1,0 +1,31 @@
+{breed
+	{skin "hun_soldier"}
+	{portrait "hun_soldier2"}
+	{icon "bazooker"}
+	{icon_priority 4}
+	{tags "soldier_pzscheck"}
+	{nationality hun}
+	{armors
+		{head "helmet1_hun"}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_2")
+		("at_rank_3")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "panzershreck_54 weapon" filled}
+		{item "panzershreck ammo" 5.5 0.5}
+		{item "molotov_cocktail grenade" 2}
+		{item "frommer_37m" filled}
+		{item "ammo 9x17" 70}
+		{in_hands 0}
+	}
+}
+;Cost=53;
+

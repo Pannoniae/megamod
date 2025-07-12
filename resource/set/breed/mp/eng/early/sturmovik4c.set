@@ -1,0 +1,27 @@
+{breed
+	{behaviour soldier}
+	{skin "uk-commando"}
+	{portrait "uk-soldier5"}
+	{tags "soldier"}
+	{nationality eng}
+	{icon "stormtrooper4c"}
+	{icon_priority 4}
+	{armors
+		{head "cap_beret_commando"}
+	}
+	{inventory
+		{item "em4" filled}
+		{item  "ammo 7x56" 160}
+		{item "bandage" 5}
+		{item "grenade mk1" 2}
+		{item "grenade n73at" 1}
+		{item "smoke grenade" 1}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}
+;Cost=5;
+
+
+
+

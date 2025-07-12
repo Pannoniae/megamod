@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "us-inf-smg"}
+	{portrait "us-soldier3"}
+	{tags "soldier"}
+	{nationality usa}
+	{icon "squadleader2"}
+	{icon_priority 2}
+	{armors
+		{head "helmet_m1917"}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_3")
+		("tier3_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "thompson_m1928a1_30" filled}
+		{item  "ammo 11x23" 180}
+		{item "bandage" 3}
+		{item "grenade mk2" 4}
+		{item "smoke grenade" 1}
+		{item "small_inf_shovel"}
+		{item "ammo_box_inf_usa"}
+		{in_hands 0}
+	}
+}
+;Cost=18;
+

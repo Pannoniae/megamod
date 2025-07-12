@@ -1,0 +1,36 @@
+{breed
+	{behaviour soldier}
+	{skin "pol-inf-lmg"}
+	{portrait "pol_soldier2"}
+	{tags "soldier_atr"}
+	{nationality pol}
+	{icon "at_rifle"}
+	{icon_priority 3}
+	{armors
+		{head "helmet_pol_wz31"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")
+		("at_rank_3")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "polish_ptr_ur" filled}
+		{item  "ammo 7x107" 80}
+		{item "vis_wz35" filled}      
+		{item  "ammo 9x19b" 105}
+		{item "bandage_pol" 3}
+		{item "grenade poland_o33" 1}
+		{item "grenade poland_z33" 2}
+		{item "sandbag_kit" 1}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}
+;Cost=44;
+

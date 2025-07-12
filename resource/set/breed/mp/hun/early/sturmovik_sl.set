@@ -1,0 +1,34 @@
+{breed
+	{behaviour soldier}
+	{skin "hun_elite2"}
+	{portrait "hun_elite3"}
+	{icon "stormtrooper"}
+	{icon_priority 2}
+	{tags "soldier"}
+	{nationality hun}
+	{armors
+		{head "helmet1_hun"}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_4")
+		("tier4_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "danuvia_39m" filled}
+		{item "ammo 9x25" 360}
+		{item "bandage_hun" 5}
+		{item "grenade hungarian_36m" 4}            
+		{item "dynamite"}
+		{item "smoke grenade" 2}
+		{item "kasapanos grenade" 2}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}
+;Cost=28;
+

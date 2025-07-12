@@ -1,0 +1,26 @@
+;_________________________________________
+; short barreled USSR infantry support gun
+;=========================================
+
+
+{from "76mm_kt26"			; L/16.5 "M1927"
+	{fireSoundclose "cannon/s3/3p/Shared/Cannon_75to76mm_LV/"}
+	{reloadSound "utility/"}
+	("reload time" seconds(6))
+	("range_180_howitzer")
+	("velocity m/s" ap(387) apcr(1) he(262) heat(311))
+	("armor health" damage(200))
+	("armor health custom" shell(aphebc) damage(200) filler(155))
+	("armor health custom" shell(sr) damage(200) filler(600))
+	; BR-350A
+	("penetration_medium" shell(aphebc) range(180) a(40) b(37) c(33) d(30) e(26))
+
+	; BP-350M
+	("penetration_medium" shell(heat) range(180) a(75) b(75) c(75) d(75) e(75))	; issued sometime in '43
+	; Shrapnel
+	("penetration_medium" shell(sr) range(160) a(27) b(21) c(19) d(16) e(12)) ; Pen data for shrapnel shell 
+
+
+	("accuracy_spg" r1(2.40) range_ap(180) range_he(180) range_heat(180))
+	{unlimitedRangeTPC 0}   ;// restrict range in TPC/FPC
+}

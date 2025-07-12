@@ -1,0 +1,20 @@
+{from "pattern gun"      ; "Cromwell"
+	{filling "bullet75_usa"}
+	{fireSound "gun/gun_75_105"}
+	{fireSoundclose "gun/gun_interior/size3"}
+	{reloadSound "interior/large/medium_reload_interior"}
+	("range_200")
+	{calibre 75}
+	("reload time" seconds(8))
+	("velocity m/s" ap(619) apcr(1) he(463) heat(1))
+	("armor health" damage(200))
+	("armor health custom" shell(apcbc) damage(200) filler(65))
+	("75_slope_multipliers")
+
+	; M72 Shot
+	("penetration_medium" shell(ap) range(200) a(88) b(78) c(67) d(57) e(49))
+
+	; M61 Shot
+	("penetration_medium" shell(apcbc) range(200) a(100) b(89) c(77) d(66) e(57))
+	("accuracy_direct" r1(0.64) range_ap(200) range_he(180) range_heat(180))
+}

@@ -1,0 +1,10 @@
+{from "pattern apcbche"	;M62 Shell
+	{tag "shell size2 75to76_he_filler"}
+	{inventory {size 6 1}}
+	{entity "shell_76ur_apcbc"}
+	{mass 12.2}
+	{view "howitzer_shell_50-75"
+		{tail "shell_tracer_rus_76_ap" "tail"}
+	}
+	("ap_blast" args 0.8)
+}

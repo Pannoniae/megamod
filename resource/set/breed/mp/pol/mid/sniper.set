@@ -1,0 +1,34 @@
+{breed
+	{behaviour soldier}
+	{skin "pol-1ad-inf"}
+	{portrait "pol_late_soldier4"}
+	{tags "soldier"}
+	{nationality pol}
+	{icon "sniper"}
+	{icon_priority 5}
+	{armors
+		{head helmet_pol_mkii_camo}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_3")
+		("sniper_vision")
+		("stealth")
+		("sniper_vision")
+		("tier3_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "em4_s" filled}
+		{item  "ammo 7x56" 128}
+		{item "bandage_pol" 5}
+		{item "plant" 3}
+		{item "knife_union"}
+		{in_hands 0}
+	}
+}
+;Cost=150;
+

@@ -1,0 +1,26 @@
+{weapon_bullet
+	{tag "gun rocketlauncher ap nokeep cumulative build_in weapon"}
+	{inventory
+		{size 6 2}
+		{weight 1000}
+	}
+	{mass 6.1}
+	{DisableRicochet}
+	{foresight "Foresight"}
+	{reactive}
+	{gravity 0}
+	{rechargeTime 5}
+	{curve "gun_std"}
+	{projectileDamageThreshold 50}
+    	{projectileDamage 200}  
+	{speed 65}
+	{range 100 110}
+	{AimingTolerance 3}
+	{cursor "ironsights/tank"}
+	{cursorReloading "gun_heat"}
+	{spreading 1.5
+		{SpreadPower	1}
+	}
+	{ZeroingAccuracy 0.9 0.8}
+
+}

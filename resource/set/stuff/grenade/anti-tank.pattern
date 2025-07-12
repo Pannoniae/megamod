@@ -1,0 +1,14 @@
+{from "pattern throwable"
+	{tag "at"}
+	{inventory {size 3 2}}
+
+	{throw
+		{range 17.4}
+		{startAngle 45}
+		{Spreading 0.05
+			{SpreadPower 2}
+		}
+		{constantSpeed 14}
+	}
+	;{possibleDamageRadius 3}
+}

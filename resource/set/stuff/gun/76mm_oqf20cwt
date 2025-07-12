@@ -1,0 +1,20 @@
+{from "pattern gun"			; "Churchill gun carrier"
+	{filling "bullet76_engs"}
+	{fireSound "gun/gun_75_105"}
+	{fireSoundclose "gun/gun_interior/size3"}
+	{reloadSound "interior/large/medium_reload_interior"}
+	("range_190")
+	{calibre 76}	
+
+	("reload time" seconds(7))
+
+	("velocity m/s" ap(853) apcr(1) he(609) heat(1))
+	("armor health" damage(200))
+	("76_slope_multipliers")
+
+	; Shot Mk.2
+	("penetration_long" shell(ap) range(190) a(125) b(104) c(82) d(65) e(51))
+
+	("accuracy_direct" r1(0.55) range_ap(190) range_he(190) range_heat(190))
+
+}

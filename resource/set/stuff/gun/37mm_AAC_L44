@@ -1,0 +1,41 @@
+;_________________________________________
+; USA double 37mm autocannon
+;=========================================
+
+
+{from "pattern gun"			; L/50 "AAC"
+	{filling "37x178mmR" 10}
+	{fireSound "cannon/s1/d1/Shared/Autocannon_37to40mm/"}
+	{fireSoundclose "cannon/s1/3p/Shared/Autocannon_37to40mm/"}
+	{reloadSound "interior/large/auto_reload_interior"}
+	("range_170")
+	{calibre 37}
+	("medium_aa")
+	("range_autocannon_37-40")
+	{burst
+		{short 6 3}				;// short burst shots on long distance, rand (+-)shots
+		{long 10 3}				;// long burst shots on short distance, rand (+-)shots
+		{rangeKoef 0.85}		;// rangeKoef * aimRange = max long burst distance
+	}
+	
+	{spreading
+		{BurstAccuracy 100 98 96 94 92 90 88 86 84}
+	}
+
+	("fire rate" rpm(120))
+	("reload time" seconds(10))
+
+	("velocity" mps(610))
+	("armor health" damage(80))
+	("ap_37_slope_multiplier_800ms")
+
+	; Unknown AP round
+	("penetration_medium" shell(ap) range(170) a(50) b(49) c(41) d(33) e(26))
+
+	("accuracy_direct_auto" r1(0.8) range_ap(170) range_he(170) range_heat(170))
+	
+	{parameters "he"										; Unknown HE shell
+		(mod "mp" {unlimitedRangeTPC 1})	;// unrestricts range in TPC/FPC for shooting at aircraft
+		{FalloffStrength 0}
+	}
+}

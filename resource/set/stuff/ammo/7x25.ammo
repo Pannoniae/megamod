@@ -1,0 +1,16 @@
+;// 7.62x25mm
+
+{bullet
+	{tag "bullet small_arms small stackable pierce pistol"}
+	{tag "bullet_fx size1"}
+	{inventory
+		{weight 6.6}
+		{block 71}
+		{size 1 1}
+		{fsm "belt"}
+	}
+	{mass 0.0055}
+	{entity "pistol_ammo"}
+	{view "smg_bullet"}
+	;("pistol_trace")
+}

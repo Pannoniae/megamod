@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+    {skin "fra-us-moroc-smg"}
+	{portrait "fra_late_elite3"}
+	{tags "soldier"}
+	{nationality fra}
+    {icon "stormtrooper"}
+	{icon_priority 0}
+	{armors
+            		{head "helmet_fra_m1_2"}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_4")
+		("tier4_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "sten_v_silencer" filled}
+		{item  "ammo 9x19b" 288}
+		{item "bandage_fra" 5}
+		{item "grenade mk2" 4}
+		{item "smoke grenade" 2}
+		{item "mine antitank" 1}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}
+;Cost=23;
+

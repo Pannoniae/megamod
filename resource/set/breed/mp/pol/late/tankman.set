@@ -1,0 +1,28 @@
+{breed
+	{behaviour soldier}
+	{skin "pol-1ad-tankman"}
+	{portrait "pol_late_tankman"}
+	{tags "crew"}
+	{nationality pol}
+	{icon "tankman"}
+	{icon_priority 0}
+	{armors
+		{head "cap_pol_beret_eng_tank"}
+	}
+	{perks
+		(include "ability.inc")
+		("tankman")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "webley" filled}
+		{item  "ammo 11x21" 90}
+		{item "bandage_pol" 1}
+		{in_hands 0}
+	}
+}
+;Cost=1;
+

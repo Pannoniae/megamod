@@ -1,0 +1,31 @@
+{breed
+	{behaviour soldier}
+	{skin "hun-inf-early-rfl"}
+	{portrait "hun_soldier2"}
+	{tags "soldier"}
+	{nationality hun}
+	{icon "ap_miner"}
+	{icon_priority 1}
+	{armors
+		{head "helmet1_hun"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")
+		("tier2_defense")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "mannlicher_m1895c" filled}
+		{item "ammo 8x50" 80}
+		{item "mine antipersonnel" 15}
+		{item "small_inf_shovel"}
+		{item "bandage_hun" 1}
+		{in_hands 0}
+	}
+}
+;Cost=35;
+

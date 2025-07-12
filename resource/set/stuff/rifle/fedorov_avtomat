@@ -1,0 +1,17 @@
+{from "pattern rifle"
+	{tag "-rifle rifle_shell smg battlerifle"}
+	{filling "ammo 6mm_arisaka" 25}
+	{entity "fedorov_avtomat"}
+	{fireSound "smallarms/s3/d1/RUS/SVT40/"}
+	{fireSoundClose "smallarms/s3/3p/RUS/SVT40/"}
+	{reloadSound "svt"}
+	{calibre 6.5}
+	{mass 5.2}
+
+	("fire rate" rpm(600))
+	("velocity" mps(660))
+	("auto_rifle")
+	("reload time" seconds(4.67))
+	("penetration" args 6 4 2 1 0)
+	("armor health" damage(5.1))
+}

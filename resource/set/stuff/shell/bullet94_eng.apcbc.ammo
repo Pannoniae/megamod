@@ -1,0 +1,11 @@
+{from "pattern apcbc"	;Shot Mk.I
+	{tag "shell size2 88to105"}
+	{inventory {size 6 1}}
+	{entity "eng_shell_94x670r_apcbc"}
+	{mass 14.5}
+	{view "howitzer_shell_88-100"
+		{tail "shell_tracer_88_ap" "tail"}
+	}
+
+	("ap_blast" args 0.91)
+}

@@ -1,0 +1,17 @@
+{from "pattern at_rifle"
+	{tag "bolt_action"}
+	{filling "ammo 7x107" 4}
+	{entity "wz35"}
+	{fireSound	"rifle/ptr/wz35"}
+	{fireSoundclose "rifle/ptr/wz35/3p/"}
+	{reloadSound "ptrd"}
+	{calibre 7.92}
+	{mass 10}
+
+	("penetration" args 23 19 14)
+	("fire rate" rpm(10))
+	("velocity" mps(1275))
+
+	{cursorReloading "gun_apcr"}
+}
+;Cost=40;

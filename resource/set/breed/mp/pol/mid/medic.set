@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "pol-2cor-inf"}
+	{portrait "pol_late_medic"}
+	{tags "soldier"}
+	{nationality pol}
+	{icon "tech"}
+	{icon_priority 0}
+	{armors
+		{head "cap_pol_eng_sidecap"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")
+		("medic")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "em3" filled}
+		{item  "ammo 7x56" 160}
+		{item "smoke grenade" 2}
+		{item "bandage_pol" 25}
+		{item "medkit_pol"}
+		{item "tent_kit" 2}
+		{in_hands 0}
+	}
+}
+;Cost=8;
+

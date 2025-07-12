@@ -1,0 +1,34 @@
+{breed
+	{behaviour soldier}
+	{skin "hun-elite-smg"}
+	{portrait "hun_squadleader"}
+	{tags "soldier"}
+	{nationality hun}
+	{icon "squadleader"}
+	{icon_priority 2}
+	{armors
+		{head "helmet1_hun"}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_3")
+		("tier3_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "danuvia_39m" filled}
+		{item "ammo 9x25" 360}
+		{item "bandage_hun" 4}
+		{item "grenade hungarian_36m" 4}
+		{item "smoke grenade" 2}
+		{item "knife_union" 1}
+		{item "small_inf_shovel"}
+		{item "ammo_box_inf_hun"}
+		{in_hands 0}
+	}
+}
+;Cost=18;
+

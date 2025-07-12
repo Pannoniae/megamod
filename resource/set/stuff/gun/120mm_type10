@@ -1,0 +1,21 @@
+{from "pattern gun"			; Chi-Ha 120mm long
+	{filling "bullet120_jap"}
+	{fireSound "gun/120mm_type97"}
+	{fireSoundclose "gun/gun_122_152_short"}
+	{reloadSound "tank/reload_howitzer"}
+	("range_220")
+	{calibre 120}
+	("reload time" seconds(12.0))
+
+	("velocity m/s" ap(825) apcr(825) he(825) heat(1))
+	("armor health" damage(210))
+	("armor health custom" shell(apcbche) damage(210) filler(1870))
+	("105_slope_multipliers")
+
+	("penetration_medium" shell(apcbche) range(220) a(102) b(95) c(87) d(80) e(74))
+	{parameters "he"
+		{range 210 210}
+	}
+	("accuracy_direct" r1(0.75) range_ap(220) range_he(210) range_heat(210))
+}
+

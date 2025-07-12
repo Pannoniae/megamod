@@ -1,0 +1,29 @@
+{from "pattern gun"      ; Comet I (A34)
+	{filling "bullet77_eng"}
+	{fireSound "gun/gun_75_105"}
+	{fireSoundclose "gun/gun_interior/size3"}
+	{reloadSound "interior/large/medium_reload_interior"}
+	("range_230")
+	{calibre 76}
+
+	("reload time" seconds(8.0))
+
+	("velocity m/s" ap(754) apcr(1120) he(754) heat(1))
+	("armor health" damage(200))
+	("76_slope_multipliers")
+
+	; Shot Mk.6
+	("penetration_long" shell(ap) range(230) a(134) b(123) c(111) d(100) e(91))
+
+	; Shot Mk.4
+	("penetration_long" shell(apc) range(230) a(134) b(123) c(111) d(100) e(91))
+
+	; Shot Mk.8
+	("penetration_long" shell(apcbc) range(230) a(149) b(137) c(124) d(112) e(101)) 
+
+	; Shot SV Mk.1
+	("penetration_long" shell(apds) range(230) a(216) b(199) c(179) d(159) e(139))     
+
+	("accuracy_direct" r1(0.55) range_ap(230) range_he(220) range_heat(210))
+
+}

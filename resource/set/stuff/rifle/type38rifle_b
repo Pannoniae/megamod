@@ -1,0 +1,4 @@
+{from "type38rifle"
+	{entity "type38rifle_b"}
+}
+;Cost=5;

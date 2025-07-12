@@ -1,0 +1,13 @@
+{from "pattern smoke"
+	{tag "smoke"}
+	{inventory {size 3 1}}
+	{entity "m15_wp"}
+	{mass 1.5}
+	{throw
+		{range 23.7} ;in-game 25m
+		{startAngle 45}
+		{spreading 0.3
+			{SpreadPower 2}
+		}
+	}
+}

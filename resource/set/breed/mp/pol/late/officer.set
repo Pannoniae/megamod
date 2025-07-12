@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "pol-2cor-officer"}
+	{portrait "pol_late_officer"}
+	{tags "soldier"}
+	{nationality pol}
+	{icon "officer"}
+	{icon_priority 6}
+	{armors
+		{head cap_pol_2div_officer}
+	}
+	{tags "officer"}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_3")
+		("binocular_vision")
+		("tier3_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "webley" filled}
+		{item  "ammo 11x21" 90}
+		{item "knife_union"}
+		{item "binocular"}
+		{item "bandage_pol" 1}
+		{in_hands 0}
+	}
+}
+;Cost=9;
+

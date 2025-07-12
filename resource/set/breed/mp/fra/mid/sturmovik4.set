@@ -1,0 +1,37 @@
+{breed
+	{behaviour soldier}
+	{skin "fra-us-moroc-carbine"}
+	{portrait "fra_late_elite3"}
+	{tags "soldier_atr"}
+    {nationality fra}
+	{icon "stormtrooper"}
+	{icon_priority 4}
+	{armors
+		{body "fr_backpack"}
+		{head "helmet_fra_m1_2"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_4")
+		("at_rank_3")
+		("tier4_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "m1_carbine" filled}
+		{item  "ammo 7x33" 150}
+		{item "bandage_fra" 3}
+		{item "grenade mk2" 2}
+		{item "smoke grenade" 2}
+		{item "dynamite" 1}
+		{item "boyes" filled}
+		{item  "ammo 13x99" 100}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}
+;Cost=68;
+

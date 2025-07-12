@@ -1,0 +1,31 @@
+{breed
+	{behaviour soldier}
+	{skin "fra-motorcyclist"}
+	{portrait "fra_late_pilot"}
+	{tags "soldier"}
+	{nationality fra}
+	{icon "tech"}
+	{icon_priority 0}
+	{tags "crew"}
+	{armors
+		{head "cap_fra_pilot"}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_2")
+		("skilled_repair")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "ruby" filled}
+		{item  "ammo 7x17" 90}
+		{item "bandage_fra" 1}
+		{in_hands 0}
+	}
+}
+;Cost=4;
+

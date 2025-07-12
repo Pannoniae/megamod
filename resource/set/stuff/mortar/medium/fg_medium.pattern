@@ -1,0 +1,29 @@
+{bullet
+	(include "\set\blast.inc")
+	{tag "dropboxed distributable"}
+	{tag "mortar pierce he fg 75to76 all_he"}
+	{inventory
+		{weight 100}
+		{fsm "belt"}
+		{noView}
+	}
+	{mass 2}
+	{entity "mortar_ammo"}
+	{view "mortar_ammo"}	
+
+	{detonationThickness 0.5}
+	{possibleDamageRadius 25}
+
+	("he_level_1" weight(3.5) filler(0.503))
+
+	{##damage blastwave
+		{energy 2.31}
+		{area 0.2  0.5}
+		{ground_interaction_radius 0.6}
+	}
+	{##damage add blastwave
+		{energy 1.456}
+		{area 4.85 8.91}
+		{ground_interaction_radius 0} ;// value is multiplied by 2nd value of area to deterimine is blast is close enough to ground to trigger terrain fx
+	}
+}

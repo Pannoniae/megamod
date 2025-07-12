@@ -1,0 +1,11 @@
+{item
+	{tag "itemin1hand"}
+	{entity "fr_patrontash_right"}
+	{inventory
+		{size 1 1}
+		{weight 100}
+		{fsm "belt"}
+		{link_bone "ik_leftright"}
+	}
+	{mass 3}
+}

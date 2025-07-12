@@ -1,0 +1,15 @@
+{from "pattern rifle"
+	{filling "ammo 7x33" 15}
+	{entity "m1_carbine_2"}
+	{fireSound "rifle/m1carbine_shot/"}
+	{fireSoundclose "rifle/m1carbine_shot/3p/"}
+	{reloadSound "m1carbine_reload"}
+	{calibre 7.62}
+	{mass 2.4}
+	("velocity" mps(600))
+	("semi_rifle")
+	{parameters "clip"
+		("reload time" seconds(8))
+	}
+}
+;Cost=10;

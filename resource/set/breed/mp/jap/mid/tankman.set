@@ -1,0 +1,28 @@
+{breed
+	{behaviour soldier}
+	{skin "jap_tankman"}
+	{portrait "jap_tankman"}
+	{tags "crew"}
+	{nationality jap}
+	{icon "tech"}
+	{icon_priority 0}
+	{armors
+		{head tankhelmet_jap}
+	}
+	{perks
+		(include "ability.inc")
+		("tankman")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "nambu" filled}
+		{item  "ammo 8x22" 120}
+		{item "bandage_jap" 1}
+		{in_hands 0}
+	}
+}
+;Cost=1;
+

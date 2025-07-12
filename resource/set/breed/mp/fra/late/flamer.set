@@ -1,0 +1,30 @@
+{breed
+	{behaviour soldier}
+	{skin "fra-us-inf-carbine"}
+	{portrait "fra_late_soldier2"}
+	{tags "soldier"}
+     	{nationality fra}
+	{icon "flamer"}
+	{icon_priority 3}
+	{armors
+		{head "helmet_fra_m1"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "flame_thrower"}
+		{item "ammo flame_thrower" 70}
+		{item "bandage_fra" 1}
+		{in_hands 0}
+	}
+}
+;Cost=3;
+
+

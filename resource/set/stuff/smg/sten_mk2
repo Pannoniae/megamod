@@ -1,0 +1,6 @@
+{from "sten"
+	{entity "sten_mkiis"}
+	{fireSound	"pistol/nagant_silent"}
+	{fireSoundclose	"pistol/nagant_silent/3p/"}
+}
+;Cost=10;

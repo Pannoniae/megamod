@@ -1,0 +1,35 @@
+{breed
+	{behaviour soldier}
+	{skin "hun-inf-early-lmg"}
+	{portrait "hun_soldier2"}
+	{icon "at_rifles"}
+	{icon_priority 4}
+	{tags "soldier_atr"}
+	{nationality hun}
+	{armors
+		{head "helmet1_hun"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")
+		("at_rank_3")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "solothurn" filled}
+		{item "ammo bullet20x105b ap" 20}
+		{item "grenade hungarian_42m" 1}
+		{item "molotov_cocktail grenade" 2}
+		{item "frommer_37m" filled}
+		{item  "ammo 9x17" 105}
+		{item "small_inf_shovel"}
+		{item "bandage_hun" 1}
+		{in_hands 0}
+	}
+}
+;Cost=49;
+

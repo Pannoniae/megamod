@@ -1,0 +1,6 @@
+{bitmap
+    {frame "uk-bishop_00.tga"}
+    {frame "uk-bishop_01.tga"}
+    {frame "uk-bishop_02.tga"}
+    {frame "uk-bishop_03.tga"}
+}

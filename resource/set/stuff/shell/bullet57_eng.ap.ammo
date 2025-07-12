@@ -1,0 +1,10 @@
+{from "pattern ap"	;Shot Mk.5 HV
+	{tag "shell size1 50to57"}
+	{inventory {size 4 1}}
+	{entity "eng_shell_57x441r_ap"}
+	{mass 2.8}
+	{view "howitzer_shell_50-75"
+		{tail "shell_tracer_rus_57_ap" "tail"}
+	}
+	("ap_blast" args 0.5)
+}

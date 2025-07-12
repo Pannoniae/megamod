@@ -1,0 +1,27 @@
+{from "pattern gun"
+	{filling "bullet20_eng_auto" 60}
+	{fireSound "gun/gun_auto"}
+	{fireSoundclose "gun/gun_auto"}
+	{reloadSound "tank/reload_small"}
+	("range_autocannon_12-20")
+	{cursor "ironsights/aa"}
+	{calibre 20}
+	("light_aa")
+
+	("fire rate" rpm(420))
+	("reload time" seconds(8))
+
+	("velocity m/s" ap(820) apcr(1) he(820) heat(1))
+	("armor health" damage(30))
+	("20_slope_multipliers")
+
+	{burst
+		{short 5 0.75}			;// short burst shots on long distance, rand (+-)shots
+		{long 10 1}				;// long burst shots on short distance, rand (+-)shots
+		{rangeKoef 0.85}		;// rangeKoef * aimRange = max long burst distance
+	}
+
+	; AP
+	("penetration_short" shell(ap) range(160) a(30) b(25) c(18) d(12) e(8))
+	("accuracy_direct" r1(0.45) range_ap(160) range_he(160) range_heat(160))
+}

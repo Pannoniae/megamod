@@ -1,0 +1,14 @@
+{from "pattern smg"
+	{filling "ammo 9x19b" 30}
+	{entity "lanchestersmg"}
+	{fireSound	"smg/mp28_burst/"}
+	{fireSoundclose "smg/mp40_burst/3p/"}
+	{reloadSound "mp40"}
+	{calibre 9}
+	{mass 3.97}
+	("fire rate" rpm(500))
+	("velocity" mps(380))
+	("recoil_smg_medium")
+	("burst_short")
+}
+;Cost=10;

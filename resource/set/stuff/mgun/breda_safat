@@ -1,0 +1,22 @@
+{from "pattern hmgun"
+	{inventory {size 6 2 }}
+	{filling "ammo 12x81" 350}
+	{entity "breda37"}
+	{fireSound	"mgun/breda_30_burst/"}
+	{fireSoundclose "mgun/breda_30_burst/3p/"}
+	{reloadSound "dt"}
+	{calibre 12.7}
+	{mass 29}
+
+	("fire rate" rpm(575))
+	("velocity" mps(765))
+
+	("reload time" seconds(8))
+
+	{projectileDamageTable {20 29} {100 17} {165 10} {215 6} {250 4}}
+
+	("burst_medium")
+	("spreading_medium")
+	{traceFreq 4}
+}
+;Cost=50;

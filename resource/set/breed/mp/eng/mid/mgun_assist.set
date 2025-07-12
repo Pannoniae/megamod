@@ -1,0 +1,35 @@
+{breed
+	{behaviour soldier}
+	{skin "uk-inf"}
+	{portrait "uk-soldier2"}
+	{tags "soldier"}
+	{nationality eng}
+	{icon "rifleman"}
+	{icon_priority 1}
+	{armors
+		{head "helmet_mkii"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "em4" filled}
+		{item  "ammo 7x56" 160}
+		{item "bandage" 3}
+		{item "backpack"}
+		{item "grenade mk1" 1}
+		{item "sandbag_kit" 1}
+		{item "small_inf_shovel"}
+		{item "ammo_box_inf_eng"}
+		{in_hands 0}
+	}
+}
+;Cost=8;
+
+

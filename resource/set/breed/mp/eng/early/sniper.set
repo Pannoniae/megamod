@@ -1,0 +1,37 @@
+{breed
+	{behaviour soldier}
+	{skin "uk-jerkin-inf"}
+	{portrait "uk-soldier4"}
+	{tags "soldier"}
+	{nationality eng}
+	{icon "sniper"}
+	{icon_priority 5}
+	{armors
+		{head "helmet_mkii_camo"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_3")
+		("sniper_vision")
+		("stealth")
+		("sniper_vision")
+		("tier3_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "em4_s" filled}
+		{item  "ammo 7x56" 128}
+		{item "bandage" 5}
+		{item "plant" 3}
+		{item "knife_union"}
+		{in_hands 0}
+	}
+}
+;Cost=150;
+
+
+
+

@@ -1,0 +1,17 @@
+{from "pattern gun"			;
+	{filling "bullet80_hun"}
+	{fireSound "gun/gun_75_105"}
+	{fireSoundclose "gun/gun_interior/size3"}
+	{reloadSound "interior/large/medium_reload_interior"}
+	("range_230")
+	{calibre 80}
+	("velocity m/s" ap(750) apcr(1) he(750) heat(1))
+	("armor health" damage(200))
+	("90_slope_multipliers")
+	("penetration_medium" shell(aphe) range(230) a(110) b(99) c(92) d(83) e(74)) 
+	("accuracy_direct" r1(0.72) range_ap(230) range_he(220) range_heat(210))
+	("heavy_aa")
+	("reload time" seconds(7))
+	{aimingTolerance 3}
+}
+

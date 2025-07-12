@@ -1,0 +1,32 @@
+{breed
+	{behaviour soldier}
+	{skin "ita-rsi-mas-mgun"}
+	{portrait "ita_elite4"}
+	{icon "stormtrooper"}
+	{icon_priority 3}
+	{tags "soldier"}
+	{nationality ita}
+	{armors
+		{head helmet_ita_m33_mas}
+	}
+	{perks
+		(include "ability.inc")
+		("mg_skill_rank_4")
+		("tier4_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "breda_30" filled}
+		{item "ammo 6x52" 360}
+		{item "bandage_ita" 5}
+		{item "grenade oto_mod35" 2}
+		{item "grenade breda42at" 1}
+		{item "sandbag_kit"}
+		{in_hands 0}
+	}
+}
+;Cost=53;
+

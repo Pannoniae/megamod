@@ -1,0 +1,31 @@
+{breed
+	{behaviour soldier}
+	{skin "us-inf-smg"}
+	{portrait "us-soldier8"}
+	{tags "soldier_atr_grenade"}
+	{nationality usa}
+	{icon "bazooker"}
+	{icon_priority 3}
+	{armors
+		{head "helmet_m1917"}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_2")
+		("at_rank_3")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "garand_grenade_mkii" filling "ammo mkii_rifle_grenade he" 1}
+		{item "ammo mkii_rifle_grenade he" 10}
+		{item "bandage" 3}
+		{item "grenade mk2" 1}
+		{in_hands 0}
+	}
+}
+;Cost=28;
+

@@ -1,0 +1,31 @@
+{from "pattern pistol"
+	{tag "grenadelauncher"}
+	{entity "kampfpistole_z"}
+	{filling "ammo 42lp" 1}
+	{fillingVisible "42lp_ammo"}
+	{fireSound "rifle/m1_shot/"}
+	{fireSoundclose "rifle/m1_shot/3p/"}
+	{reloadSound "mosin"}
+	{calibre 23}
+	{mass 2.6}
+	{rechargeTime 13}
+	{speed 50}
+	{gravity 2}
+	{reloadAnimBonus 2}
+	{range 55 55}
+	{DisableRicochet}
+	{projectileDamageTable 	{0 80} {200 80}}
+	{minimumDamageModifier 200}
+	{spreading 3.5}
+	{aimingTolerance 0.1}
+	{spreading 3
+		{SpreadXYRatio 0.75}
+	}
+	{ZeroingAccuracy 0.9 0.8 0.7}
+
+	{overmatchSlope
+		{0 1}
+		{90 1}
+	}
+}
+;Cost=1;

@@ -1,0 +1,32 @@
+{breed
+	{behaviour soldier}
+	{skin "jap_rifle"}
+	{portrait "jap_soldier1"}
+	{tags "soldier"}
+	{nationality jap}
+	{icon "rifleman"}
+	{icon_priority 1}
+	{armors
+		{head "fieldcap2_ija1"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_1")
+		("tier1_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "type38rifle" filled}
+		{item  "ammo 6x50" 80}
+		{item "bandage_jap" 3}
+		{item "grenade type97" 2}
+		{item "sandbag_kit" 1}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}
+;Cost=7;
+

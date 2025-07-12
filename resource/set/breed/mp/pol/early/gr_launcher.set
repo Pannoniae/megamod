@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "pol-inf-mgun"}
+	{portrait "pol_soldier3"}
+	{tags "soldier_atr_grenade"}
+	{nationality pol}
+	{icon "gr_launcher"}
+	{icon_priority 2}
+	{armors
+		{head "helmet_pol_wz31"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_3")
+		("tier3_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "granatnik_wz36" filled}
+		{item "ammo mortar46_pol" 16}
+		{item "vis_wz35" filled}      
+		{item  "ammo 9x19b" 105}
+		{item "bandage_pol" 5}
+		{item "sandbag_kit" 1}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}
+;Cost=34;
+

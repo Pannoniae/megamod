@@ -1,0 +1,64 @@
+;// CP + Scores + CW
+
+;SDL
+{"mp/fra/early/home_guard"			("inf_tankman" side(fra) period(early) cost(5.0))}
+{"mp/fra/early/vehicle_supporter"	("inf_tankman" side(fra) period(early) cost(5.0))}
+{"mp/fra/early/tankman"				("inf_tankman" side(fra) period(early) cost(4.0))}
+{"mp/fra/early/tankman2"			("inf_tankman" side(fra) period(early) cost(12.0))}
+{"mp/fra/early/pilot"				("inf_tankman" side(fra) period(early) cost(0.0))}
+
+{"mp/fra/early/rifle2"				("inf_tier1" side(fra) period(early) cost(7.0))} ; rifle
+{"mp/fra/early/smg2"		    	("inf_tier1" side(fra) period(early) cost(12.0))}
+
+{"mp/fra/early/mgun"				("inf_tier2_lite" side(fra) period(early) cost(44.0))} ; has mg
+{"mp/fra/early/mgun2"				("inf_tier2_lite" side(fra) period(early) cost(44.0))}
+{"mp/fra/early/rifle"				("inf_tier2_lite" side(fra) period(early) cost(8.0))}
+{"mp/fra/early/rifle3"				("inf_tier2_lite" side(fra) period(early) cost(13.0))}
+{"mp/fra/early/smg"		    		("inf_tier2_lite" side(fra) period(early) cost(13.0))}
+{"mp/fra/early/smg3"	        	("inf_tier2_lite" side(fra) period(early) cost(13.0))}
+{"mp/fra/early/flamer2"				("inf_tier2_lite" side(fra) period(early) cost(13.0))}
+{"mp/fra/early/at_rifle2"			("inf_tier2_lite" side(fra) period(early) cost(13.0))}
+{"mp/fra/early/mgun_assist"			("inf_tier2_lite" side(fra) period(early) cost(8.0))} 
+{"mp/fra/early/mgun2_assist"		("inf_tier2_lite" side(fra) period(early) cost(8.0))} 
+
+{"mp/fra/early/at_rifle"			("inf_tier2" side(fra) period(early) cost(58.0))} ; has AT
+{"mp/fra/early/rifle_grenade"		("inf_tier2" side(fra) period(early) cost(29.0))} ; rifle grenade
+{"mp/fra/early/saper"				("inf_tier2" side(fra) period(early) cost(35.0))}
+{"mp/fra/early/saper2"				("inf_tier2" side(fra) period(early) cost(35.0))}
+{"mp/fra/early/flamer"				("inf_tier2" side(fra) period(early) cost(53.0))}
+{"mp/fra/early/ap_miner"			("inf_tier2" side(fra) period(early) cost(35.0))}
+{"mp/fra/early/at_miner"			("inf_tier2" side(fra) period(early) cost(35.0))}
+{"mp/fra/early/gr_launcher"			("inf_tier2" side(fra) period(early) cost(33.0))}
+{"mp/fra/early/squadleader"			("inf_tier2" side(fra) period(early) cost(18.0))}
+{"mp/fra/early/squadleader2"		("inf_tier2" side(fra) period(early) cost(18.0))}
+
+{"mp/fra/early/elite"				("inf_tier3" side(fra) period(early) cost(23.0))}
+{"mp/fra/early/elite2"				("inf_tier3" side(fra) period(early) cost(18.0))}
+{"mp/fra/early/elite3"				("inf_tier3" side(fra) period(early) cost(53.0))}
+{"mp/fra/early/elite4"				("inf_tier3" side(fra) period(early) cost(38.0))}
+{"mp/fra/early/elite3_assist"		("inf_tier3" side(fra) period(early) cost(18.0))}
+{"mp/fra/early/elite_sl"			("inf_tier3" side(fra) period(early) cost(28.0))}
+{"mp/fra/early/rifle4"				("inf_tier3" side(fra) period(early) cost(13.0))}
+{"mp/fra/early/mgun3_assist"		("inf_tier3" side(fra) period(early) cost(13.0))} 
+{"mp/fra/early/mgun3"				("inf_tier3" side(fra) period(early) cost(49.0))}
+{"mp/fra/early/squadleader3"		("inf_tier3" side(fra) period(early) cost(18.0))}
+
+{"mp/fra/early/radioman"			("inf_signaller" side(fra) period(early) cost(200.0))}
+
+{"mp/fra/early/sturmovik"			("inf_tier4" side(fra) period(early) cost(23.0))}
+{"mp/fra/early/sturmovik2"			("inf_tier4" side(fra) period(early) cost(18.0))}
+{"mp/fra/early/sturmovik2b"			("inf_tier4" side(fra) period(early) cost(23.0))}
+{"mp/fra/early/sturmovik3"			("inf_tier4" side(fra) period(early) cost(53.0))} 
+{"mp/fra/early/sturmovik4"			("inf_tier4" side(fra) period(early) cost(63.0))}
+{"mp/fra/early/sturmovik4b"			("inf_tier4" side(fra) period(early) cost(23.0))}
+{"mp/fra/early/sturmovik5"			("inf_tier4" side(fra) period(early) cost(53.0))}
+{"mp/fra/early/sturmovik5b"			("inf_tier4" side(fra) period(early) cost(53.0))}
+{"mp/fra/early/sturmovik6"			("inf_tier4" side(fra) period(early) cost(23.0))} 
+{"mp/fra/early/sturmovik3_assist"	("inf_tier4" side(fra) period(early) cost(18.0))}
+{"mp/fra/early/sturmovik_sl"		("inf_tier4" side(fra) period(early) cost(28.0))} 
+
+{"mp/fra/early/medic"				("inf_medic" side(fra) period(early) cost(40.0))}
+
+{"mp/fra/early/officer"				("inf_officer" side(fra) period(early) cost(125.0))}
+
+{"mp/fra/early/sniper"				("inf_sniper" side(fra) period(early) cost(150.0))}

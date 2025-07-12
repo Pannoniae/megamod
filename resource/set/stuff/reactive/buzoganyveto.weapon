@@ -1,0 +1,31 @@
+{from "pattern reactive"
+	{filling "ammo buzoganyveto215" 2}
+	{fillingVisible "rocket"}
+	{fireSound "reactive/nebel_burst/"}
+	{calibre 215}
+	{foresight "foresight1"}
+
+	("rocket_artillery")
+	
+	{spreading
+		{radiusTable
+			{0 0}
+			{75 4}
+			{139.9 8}
+			{140 30} ;// max range
+			{200 100}
+			{250 300}
+		}
+	}
+	{gravity 1}
+	{rechargeTime 20}
+	
+	{projectileDamage 300}
+	{burst
+		{min 2} 
+		{noaiming}
+	}
+	{range 140 140}
+	{ZeroingAccuracy 0.85 0.75 0.65}
+	("velocity" mps(156))
+}

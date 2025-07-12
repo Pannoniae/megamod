@@ -1,0 +1,32 @@
+{breed
+	{behaviour soldier}
+	{skin "pol-engineer"}
+	{portrait "pol_soldier2"}
+	{tags "soldier"}
+	{nationality pol}
+	{icon "ap_miner"}
+	{icon_priority 3}
+	{armors
+		{body "pol_knapsack"}
+		{head "helmet_pol_wz31"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")
+		("tier2_defense")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "karabinek_wz29" filled}
+		{item  "ammo 7x57b" 50}
+		{item "mine antipersonnel" 15}
+		{item "small_inf_shovel"}
+		{item "bandage_pol" 1}
+		{in_hands 0}
+	}
+}
+;Cost=35;
+

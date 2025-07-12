@@ -1,0 +1,36 @@
+{breed
+	{behaviour soldier}
+	{skin "hun_soldier"}
+	{portrait "hun_soldier2"}
+	{tags "soldier"}
+	{nationality hun}
+	{icon "sappers"}
+	{icon_priority 1}
+	{armors
+		{head "helmet1_hun"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")
+		("engineer")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "mannlicher_m1895c" filled}
+		{item "ammo 8x50" 80}
+		{item "mine_detector"}
+		{item "smoke grenade" 2}
+		{item "knife_ger" 1}
+		{item "bandage_hun" 1}
+		{item "small_inf_shovel"}
+		{item "pickaxe"}
+		{item "wirecutters"}
+		{in_hands 0}
+	}
+}
+;Cost=35;
+

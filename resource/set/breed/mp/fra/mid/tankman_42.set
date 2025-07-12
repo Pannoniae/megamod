@@ -1,0 +1,28 @@
+{breed
+	{behaviour soldier}
+	{skin "fra-en-tankman"}
+	{portrait "fra_tankman"}
+	{tags "crew"}
+	{nationality fra}
+	{icon "tankman"}
+	{icon_priority 0}
+	{armors
+		{head "cap_fra_beret_tank"}
+	}
+	{perks
+		(include "ability.inc")
+		("tankman")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "ruby" filled}
+		{item  "ammo 7x17" 90}
+		{item "bandage_fra" 1}
+		{in_hands 0}
+	}
+}
+;Cost=1;
+

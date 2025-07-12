@@ -1,0 +1,23 @@
+{from "pattern gun"			; "105mm type92"
+	{filling "bullet105_jap"}
+	{fireSound "gun/105mm_type6"}
+	{fireSoundclose "gun/gun_75_105"}
+	{reloadSound "tank/reload_big"}
+	("medium_artillery")
+	{calibre 105}
+	{range 360 360} ;10.7km
+	("reload time" seconds(12))
+	("velocity m/s" ap(760) apcr(1) he(220) heat(1))
+	("armor health" damage(325))
+	("armor health custom" shell(aphe) damage(325) filler(230))
+	("105_slope_multipliers")
+	("penetration_medium" shell(aphe) range(190) a(159) b(147) c(134) d(113) e(100)))
+	("accuracy_indirect"		; // Applies logic for accuracy of indirect weapons over 200m
+		r1(1.05) 				; // Accuracy radius for direct-fire munitions
+		r2(8) 					; // Accuracy radius for indirect fire
+		rmax(17) 				; // Accuracy radius for indirect fire at maximum range
+		range_ap(210) 			; // Range after which accuracy drops to prevent farshooting
+		range_heat(210) 		; // Range after which accuracy drops to prevent farshooting
+		range_he(360)			; // Range after which accuracy drops to prevent farshooting
+	)	
+}

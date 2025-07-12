@@ -1,0 +1,26 @@
+{from "pattern reactive"		; "LM"
+	{filling "ammo lm_ammo" 32}
+	{fireSound "reactive/calliope_burst"}
+	{calibre 76.2}
+	{foresight "foresight"}
+	("rocket_artillery")
+	{spreading
+		{radiusTable
+			{0 0}
+			{100 9}
+			{200 20}
+			{329.9 25}
+			{330 100}
+		}
+	}
+	
+	;{automatic}
+	{burst 
+		{min 16}
+		{noaiming}
+	}
+	{range 330 330}
+	{gravity 3.25}
+	("velocity" mps(350))
+	("reload time" seconds(300))
+}

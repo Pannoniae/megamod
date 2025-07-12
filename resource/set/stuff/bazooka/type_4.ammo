@@ -1,0 +1,8 @@
+{from "pattern rpg_ammo"
+	{entity "type4rocket_ammo"}
+	{view "type4rocket_ammo"
+		{tail "bazooka_tail" "tail"}
+	}
+	{mass 4.08}
+}
+

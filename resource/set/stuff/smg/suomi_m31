@@ -1,0 +1,8 @@
+{from "mas38"
+	{filling "ammo 9x19" 70}
+	{entity "suomi_m31"}
+	{fireSound	"smg/kp31_burst/"}
+	{fireSoundclose	"smg/kp31_burst/3p/"}
+	("burst_long")
+}
+;Cost=12;

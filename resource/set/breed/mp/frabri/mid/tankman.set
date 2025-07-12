@@ -1,0 +1,29 @@
+{breed
+	{behaviour soldier}
+	{skin "uk-tankman"}
+	{portrait "uk-tankman"}
+	{tags "crew"}
+	{nationality eng}
+	{icon "tech"}
+	{icon_priority 0}
+	{armors
+		{head "beret_tank"}
+	}
+	{perks
+		(include "ability.inc")
+		("tankman")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "webley" filled}
+		{item  "ammo 11x21" 90}
+		{item "bandage" 1}
+		{in_hands 0}
+	}
+}
+;Cost=1;
+
+

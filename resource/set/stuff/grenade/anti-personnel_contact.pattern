@@ -1,0 +1,20 @@
+{from "pattern throwable"
+	{tag "fg"}
+	{inventory {size 3 1}}
+	{mass 0.6}
+
+	{damage blastwave
+		{energy 1.1}
+		{area 2 3}
+		{ground_interaction_radius 0.1} ;// value is multiplied by 2nd value of area to deterimine is blast is close enough to ground to trigger terrain fx
+	}
+
+	{throw
+		{range 22.5} ;in-game 21m
+		{startAngle 45}
+		{spreading 0.3
+			{SpreadPower 2}
+		}
+	}
+	{possibleDamageRadius 1}
+}

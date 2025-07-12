@@ -1,0 +1,85 @@
+;SDL
+
+{"mp/ita/late/vehicle_supporter"	("inf_tankman" side(ita)  period(late) cost(5.0))}
+{"mp/ita/late/tankman"				("inf_tankman" side(ita)  period(late) cost(4.0))}
+{"mp/ita/late/tankman2"				("inf_tankman" side(ita)  period(late) cost(12.0))}
+{"mp/ita/late/tankman_ger"			("inf_tankman" side(ita)  period(late) cost(4.0))}
+{"mp/ita/late/tank_commander_ger"	("inf_tankman" side(ita)  period(late) cost(12.0))}
+{"mp/ita/late/pilot"				("inf_tankman" side(ita)  period(late) cost(0.0))}
+
+{"mp/ita/late/rifle_light"			("inf_tier1" side(ita) period(late) cost(7.0))} ; rifle
+{"mp/ita/late/rifle2_light"		    ("inf_tier1" side(ita) period(late) cost(7.0))} ; rifle
+{"mp/ita/late/smg_light"		    ("inf_tier1" side(ita) period(late) cost(12.0))} ; smg
+
+{"mp/ita/late/mgun2"				("inf_tier2_lite" side(ita) period(late) cost(44.0))} ; has mg
+{"mp/ita/late/mgun3"				("inf_tier2_lite" side(ita) period(late) cost(44.0))} ; has mg
+{"mp/ita/late/rifle2"				("inf_tier2_lite" side(ita) period(late) cost(8.0))}
+{"mp/ita/late/rifle3b"				("inf_tier2_lite" side(ita) period(late) cost(8.0))}
+{"mp/ita/late/rifle3"				("inf_tier2_lite" side(ita) period(late) cost(13.0))} ; semi-auto
+{"mp/ita/late/rifle5"				("inf_tier2_lite" side(ita) period(late) cost(8.0))}
+{"mp/ita/late/smg2"		    		("inf_tier2_lite" side(ita) period(late) cost(13.0))}
+{"mp/ita/late/smg3"		    		("inf_tier2_lite" side(ita) period(late) cost(13.0))}
+{"mp/ita/late/smg4"		    		("inf_tier2_lite" side(ita) period(late) cost(13.0))}
+{"mp/ita/late/mgun2_assist"			("inf_tier2_lite" side(ita) period(late) cost(8.0))}
+{"mp/ita/late/mgun3_assist"			("inf_tier2_lite" side(ita) period(late) cost(13.0))}															  
+
+{"mp/ita/late/saper"				("inf_tier2" side(ita) period(late) cost(35.0))}
+{"mp/ita/late/flamer"				("inf_tier2" side(ita) period(late) cost(53.0))}
+{"mp/ita/late/ap_miner"				("inf_tier2" side(ita) period(late) cost(35.0))}
+{"mp/ita/late/at_miner"				("inf_tier2" side(ita) period(late) cost(35.0))}
+;{"mp/ita/late/gr_launcher"			("inf_tier2" side(ita) period(late) cost(75.0))}
+{"mp/ita/late/squadleader"			("inf_tier2" side(ita) period(late) cost(18.0))}
+{"mp/ita/late/squadleader3"			("inf_tier2" side(ita) period(late) cost(18.0))}																	   
+{"mp/ita/late/at_rifle"				("inf_tier2" side(ita) period(late) cost(44.0))} ; has AT
+{"mp/ita/late/bazooker"				("inf_tier2" side(ita) period(late) cost(63.0))} ; Bazooker
+{"mp/ita/late/bazooker2"			("inf_tier2" side(ita) period(late) cost(13.0))} ;
+{"mp/ita/late/reco_rifle"			("inf_tier2" side(ita) period(late) cost(13.0))}
+{"mp/ita/late/reco_sl"				("inf_tier2" side(ita) period(late) cost(18.0))}
+
+{"mp/ita/late/elite"				("inf_tier3" side(ita) period(late) cost(18.0))}
+{"mp/ita/late/elite2"				("inf_tier3" side(ita) period(late) cost(48.0))}
+{"mp/ita/late/elite3"				("inf_tier3" side(ita) period(late) cost(13.0))}
+{"mp/ita/late/elite4"				("inf_tier3" side(ita) period(late) cost(53.0))}
+{"mp/ita/late/elite2_assist"		("inf_tier3" side(ita) period(late) cost(13.0))}
+{"mp/ita/late/elite4_assist"		("inf_tier3" side(ita) period(late) cost(18.0))}
+{"mp/ita/late/elite_sl"				("inf_tier3" side(ita) period(late) cost(23.0))}															
+{"mp/ita/late/nembo_para1"			("inf_tier3" side(ita) period(late) cost(23.0))}
+{"mp/ita/late/nembo_para2"			("inf_tier3" side(ita) period(late) cost(53.0))}
+{"mp/ita/late/nembo_para3"			("inf_tier3" side(ita) period(late) cost(23.0))}
+{"mp/ita/late/nembo_para3b"			("inf_tier3" side(ita) period(late) cost(18.0))}
+{"mp/ita/late/nembo_para4"			("inf_tier3" side(ita) period(late) cost(18.0))}
+{"mp/ita/late/nembo_para_sl"		("inf_tier3" side(ita) period(late) cost(28.0))}
+{"mp/ita/late/gnr_smg"				("inf_tier3" side(ita) period(late) cost(18.0))}
+{"mp/ita/late/gnr_mgun"				("inf_tier3" side(ita) period(late) cost(48.0))}
+{"mp/ita/late/gnr_rifle"			("inf_tier3" side(ita) period(late) cost(13.0))}
+{"mp/ita/late/gnr_rifle2"			("inf_tier3" side(ita) period(late) cost(53.0))}
+{"mp/ita/late/gnr_mgun_assist"		("inf_tier3" side(ita) period(late) cost(13.0))}
+{"mp/ita/late/gnr_sl"				("inf_tier3" side(ita) period(late) cost(23.0))}
+{"mp/ita/late/rifle"				("inf_tier3" side(ita) period(late) cost(18.0))} ; rifle
+{"mp/ita/late/rifle4"		    	("inf_tier3" side(ita) period(late) cost(12.0))} ; rifle
+{"mp/ita/late/smg"		    		("inf_tier3" side(ita) period(late) cost(17.0))} ; smg
+{"mp/ita/late/mgun"					("inf_tier3" side(ita) period(late) cost(49.0))} ; has mg
+{"mp/ita/late/mgun_assist"			("inf_tier3" side(ita) period(late) cost(12.0))}
+{"mp/ita/late/squadleader2"			("inf_tier3" side(ita) period(late) cost(18.0))}
+{"mp/ita/late/mortar"				("inf_tier3" side(ita) period(late) cost(33.0))} ; mortar
+
+{"mp/ita/late/radioman"				("inf_signaller" side(ita) period(late) cost(200.0))}
+
+{"mp/ita/late/sturmovik"			("inf_tier4" side(ita) period(late) cost(23.0))}
+{"mp/ita/late/sturmovik2"			("inf_tier4" side(ita) period(late) cost(53.0))}
+{"mp/ita/late/sturmovik3"			("inf_tier4" side(ita) period(late) cost(23.0))} 
+{"mp/ita/late/sturmovik4"			("inf_tier4" side(ita) period(late) cost(75.0))}
+{"mp/ita/late/sturmovik2_assist"	("inf_tier4" side(ita) period(late) cost(23.0))}
+{"mp/ita/late/sturmovik_sl"			("inf_tier4" side(ita) period(late) cost(28.0))}	
+{"mp/ita/late/brigade_nere_assist"	("inf_tier4" side(ita) period(late) cost(23.0))}
+{"mp/ita/late/brigade_nere_at"		("inf_tier4" side(ita) period(late) cost(75.0))}
+{"mp/ita/late/brigade_nere_mgun"	("inf_tier4" side(ita) period(late) cost(53.0))}
+{"mp/ita/late/brigade_nere_rifle"	("inf_tier4" side(ita) period(late) cost(23.0))} 
+{"mp/ita/late/brigade_nere_sl"		("inf_tier4" side(ita) period(late) cost(28.0))}
+{"mp/ita/late/brigade_nere_smg"		("inf_tier4" side(ita) period(late) cost(23.0))}										
+
+{"mp/ita/late/medic"				("inf_medic" side(ita) period(late) cost(40.0))}
+
+{"mp/ita/late/officer"				("inf_officer" side(ita) period(late) cost(125.0))}
+
+{"mp/ita/late/sniper"				("inf_sniper" side(ita) period(late) cost(151.0))}

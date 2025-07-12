@@ -1,0 +1,31 @@
+{breed
+	{behaviour soldier}
+	{skin "jap_assault"}
+	{portrait "jap_soldier2"}
+	{tags "soldier"}
+	{nationality jap}
+	{icon "mg"}
+	{icon_priority 2}
+	{armors
+		{head helmet2_jap}
+	}
+	{perks
+		(include "ability.inc")
+		("mg_skill_rank_3")
+		("tier3_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "type99lmg" filled}
+		{item "nambu" filled}
+		{item  "ammo 7x58" 160}
+		{item  "ammo 8x22" 120}
+		{item "bandage_jap" 3}
+		{in_hands 0}
+	}
+}
+;Cost=44;
+

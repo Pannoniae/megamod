@@ -1,0 +1,6 @@
+{bitmap
+    {frame "panhard_00.tga"}
+    {frame "panhard_01.tga"}
+    {frame "panhard_02.tga"}
+    {frame "panhard_03.tga"}
+}

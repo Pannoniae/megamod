@@ -1,0 +1,36 @@
+{breed
+	{behaviour soldier}
+	{skin "uk-jerkin-commando"}
+	{portrait "uk-elite1"}
+	{tags "soldier"}
+	{nationality eng}
+	{icon "elite3"}
+	{icon_priority 3}
+	{armors
+		{head "cap_beret_commando"}
+	}
+	{perks
+		(include "ability.inc")
+		("mg_skill_rank_4")
+		("tier4_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "bren" filled}
+		{item  "ammo 7x56" 392}
+		{item "bandage" 5}
+		{item "grenade mk1" 2}
+		{item "grenade n73at" 1}
+		{item "sandbag_kit" 1}
+		{item "wirecutters"}
+		{in_hands 0}
+	}
+}
+;Cost=53;
+
+
+
+

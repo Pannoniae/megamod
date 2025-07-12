@@ -1,0 +1,35 @@
+{breed
+	{behaviour soldier}
+	{skin "fra-inf2-rfl"}
+	{portrait "fra_soldier2"}
+	{tags "soldier"}
+    {nationality fra}
+	{icon "saper"}
+	{icon_priority 3}
+	{armors
+		{head "helmet_fra_m26"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")
+		("engineer")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "mas36" filled}
+		{item  "ammo 7,5x54" 80}
+		{item "mine_detector"}
+		{item "dynamite" 2}
+		{item "small_inf_shovel"}
+		{item "pickaxe"}
+		{item "bandage_fra" 1}
+		{in_hands 0}
+	}
+}
+;Cost=35;
+
+

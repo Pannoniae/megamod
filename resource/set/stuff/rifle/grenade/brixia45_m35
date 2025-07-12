@@ -1,0 +1,10 @@
+{from "pattern infantry_mortar"
+	{tag "at_rifle" "ap"}
+	{filling "ammo brixia45" 1}
+	{fireSound "mortar\mortar_shot"}
+	{entity "brixia45_inf"}
+	{calibre 45}
+	("penetration" args 10)
+	("armor health" damage(350))
+}
+;Cost=25;

@@ -1,0 +1,14 @@
+{from "pattern smg"
+	{filling "ammo 9x25" 40}
+	{entity "danuvia_39m"}
+	{fireSound	"smg/danuvia_39m_burst/"}
+	{fireSoundclose "smg/mp40_burst/3p/"}
+	{reloadSound "mp40"}
+	{calibre 9}
+	{mass 4.46}
+	("fire rate" rpm(750))
+	("velocity" mps(450))
+	("recoil_smg_medium")
+	("burst_short")
+}
+;Cost=10;

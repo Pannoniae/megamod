@@ -1,0 +1,18 @@
+{from "pattern ic"
+	{tag "shell size2" "no_throw"}
+	{tag "shell big mortar ic" }
+	{inventory {size 5 1}}
+	{entity "shell_ic_75_jap"}
+	{mass 10}
+
+	{view "howitzer_shell_50-75"
+		{tail "shell_tracer_75-88_he" "tail"}
+	}
+
+	{damage fire
+		{radius 2}
+		{heating 15}
+		{time 1}
+	}
+	;{detonationThickness 1}
+}

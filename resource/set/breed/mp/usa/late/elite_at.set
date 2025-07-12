@@ -1,0 +1,34 @@
+{breed
+	{behaviour soldier}
+	{skin "us-101st-smg"}
+	{portrait "us-elite1"}
+	{tags "soldier_pzscheck"}
+	{nationality usa}
+	{icon "elite"}
+	{icon_priority 3}
+	{armors
+		{head "helmet_506th_camo"}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_3")
+		("at_rank_3")
+		("tier3_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "weapon bazooka_m1a1" filled}
+		{item "thompson" filled}
+		{item  "ammo 11x23" 180}
+		{item "bandage" 3}
+		{item "grenade mk2" 1}
+		{item "ammo bazooka" 5}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}
+;Cost=58;
+

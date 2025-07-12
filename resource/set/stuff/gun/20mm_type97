@@ -1,0 +1,22 @@
+{from "pattern gun"	;
+	{filling "bullet20_jap" 8}
+	{fireSound "rifle/20mm_m39_shot"}
+	{fireSoundclose "rifle/20mm_m39_shot/3p/"}
+	{reloadSound "ptrd"}
+	("range_autocannon_12-20")
+	{cursor "ironsights/aa"}
+	{calibre 20}
+	("light_aa")
+
+	("fire rate" rpm(60))
+	("reload time" seconds(6))
+
+	("velocity" mps(855))
+	("armor health" damage(40))
+	{range 150 150}
+	("20_slope_multipliers")
+	{parameters "ap"	
+		("penetration" a(38) b(22) c(16) d(8) e(3))
+	}
+	("accuracy_direct" r1(0.65) range_ap(150) range_he(150) range_heat(150))
+}

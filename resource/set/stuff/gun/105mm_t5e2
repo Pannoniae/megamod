@@ -1,0 +1,29 @@
+{from "pattern gun"     ; "T29" Heavy tank
+	{filling "bullet105_t15_usa"}
+	{fireSound "gun/gun_75_105"}
+	{fireSoundclose "gun/gun_interior/size3"}
+	{reloadSound "interior/large/big_reload_interior"}
+	("range_250")
+	{calibre 105}
+
+	("reload time" seconds(12))
+
+	("velocity m/s" ap(914) apcr(1128) he(945) heat(1))
+	("armor health" damage(211))
+	("armor health custom" shell(apcbc) damage(224) filler(102))
+	("90_slope_multipliers")
+
+	; T32
+	("penetration_long" shell(apcbc) range(250) a(253) b(238) c(221) d(205) e(190))
+
+	; T29E3
+	("penetration_long" shell(apcr) range(250) a(287) b(266) c(242) d(220) e(200))
+	{parameters "apcr"
+		("large_apcr_slope_multiplier")
+	}
+
+	{parameters "he"
+		{range 240 240}
+	}
+	("accuracy_direct" r1(0.50) range_ap(250) range_he(250) range_heat(240))
+}

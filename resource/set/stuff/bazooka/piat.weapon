@@ -1,0 +1,17 @@
+{from "pattern rpg_weapon"
+	{filling "ammo piatrocket" 1}
+	{fillingVisible "piatrocket"}
+	{entity "piat"}
+	{fireSound "reactive/piat_fire/"}
+	{reloadsound "bazooka"}
+	{calibre 83}
+	{mass 14.4}
+
+	("velocity" mps(76))
+	{gravity 2.5}
+	("penetration" args 100)
+	
+	("armor health" damage(250))
+	("human health" damage(250))
+}
+;Cost=40;

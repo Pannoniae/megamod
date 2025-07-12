@@ -1,0 +1,16 @@
+;// 8x59mmRb Breda
+
+{bullet
+	{tag "bullet small_arms normal stackable pierce mgun"}
+	{tag "bullet_fx size2"}
+	{inventory
+		{weight 10}
+		{block 10}
+		{size 1 1}
+		{fsm "belt"}
+	}	
+	{mass 0.011}
+	{entity "rifle_cartridge2"}
+	{view "rifle_bullet"}
+	("mgun_trace")
+}

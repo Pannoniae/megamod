@@ -1,0 +1,17 @@
+{from "pattern mgun"
+	{tag "mgun_light"}
+	{filling "ammo 6x50" 30}
+	{entity "type96lmg"}
+	{fireSound	"mgun/type99lmg_burst/"}
+	{fireSoundclose	"mgun/type99lmg_burst/3p"}
+	{reloadSound "type99lmg"}
+	{calibre 6.5}
+	{mass 9}
+	("fire rate" rpm(550))
+	("velocity" mps(735))
+	("burst_short")
+	("spreading_low")
+	{rechargeTime 5}
+	{thirdpersonparams inherit "human default_mg"}
+}
+;Cost=40;

@@ -1,0 +1,4 @@
+{from "garand"
+	{entity "garand_bayonet"}
+}
+;Cost=5;

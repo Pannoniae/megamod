@@ -1,0 +1,17 @@
+{from "pattern mortar_ammo"
+	{tag "size1 shell pierce he fg 50to57 all_he"}
+	{inventory
+		{size 2 1}
+	}
+	{entity "ammo_mortar60_he"}
+	{view "ammo_mortar60_he"
+		{tail "shell_tail" "tail"}
+	}
+	{mass 1}
+
+	("he_light")
+
+	("he_level_1" weight(1.25) filler(0.19))
+
+
+}

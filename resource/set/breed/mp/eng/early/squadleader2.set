@@ -1,0 +1,38 @@
+{breed
+	{behaviour soldier}
+	{skin "uk-inf"}
+	{portrait "uk-soldier3"}
+	{tags "soldier"}
+	{nationality eng}
+	{icon "squadleader2"}
+	{icon_priority 2}
+	{armors
+		{head "helmet_mkii"}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_3")
+		("tier3_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "em4_mark1" filling "ammo em3_grenade he" 1}
+		{item "ammo em3_grenade he" 21}
+		{item "ammo em3_grenade ap" 4}
+		{item "bandage" 3}
+		{item "grenade mk1" 3}
+		{item "grenade n73at" 1}
+		{item "smoke grenade" 1}
+		{item "small_inf_shovel"}
+		{item "ammo_box_inf_eng"}
+		{in_hands 0}
+	}
+}
+;Cost=33;
+
+
+
+

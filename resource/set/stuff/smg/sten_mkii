@@ -1,0 +1,14 @@
+{from "pattern smg"
+	{filling "ammo 9x19b" 32}
+	{entity "sten_mkii"}
+	{fireSound	"smg/sten_burst/"}
+	{fireSoundclose	"smg/sten_burst/3p/"}
+	{reloadSound "sten_reload"}
+	{calibre 9}
+	{mass 3.18}
+	("fire rate" rpm(550))
+	("velocity" mps(365))
+	("recoil_smg_medium")
+	("burst_short")
+}
+;Cost=10;

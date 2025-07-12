@@ -1,0 +1,32 @@
+{from "pattern gun"     ; 94mm Q.F. 3.7 Inch Mk.II L / 50
+	{filling "bullet94_eng"}
+	{fireSound "gun/gun_75_105"}
+	{fireSoundclose "gun/gun_interior/size3"}
+	{reloadSound "interior/large/big_reload_interior"}
+	("range_230")
+	{calibre 94}
+	
+	("medium_artillery")
+	("reload time" seconds(8))
+
+	("velocity m/s lowarc" ap(792) apcr(1) he(792) heat(1))
+	("armor health" damage(210))
+	("90_slope_multipliers")
+	
+	; Shot Mk.1
+	("penetration_long" shell(apcbc) range(230) a(202) b(192) c(180) d(169) e(159))
+
+	;Shell Mk.1
+	{parameters "he"
+		{range 220 220}
+	}
+	;("accuracy_direct" r1(0.50) range_ap(230) range_he(230) range_heat(230))
+	("accuracy_indirect"		; // Applies logic for accuracy of indirect weapons over 200m
+		r1(1.05) 				; // Accuracy radius for direct-fire munitions
+		r2(8) 					; // Accuracy radius for indirect fire
+		rmax(25) 				; // Accuracy radius for indirect fire at maximum range
+		range_ap(220) 			; // Range after which accuracy drops to prevent farshooting
+		range_heat(220) 		; // Range after which accuracy drops to prevent farshooting
+		range_he(340)			; // Range after which accuracy drops to prevent farshooting
+	)
+}

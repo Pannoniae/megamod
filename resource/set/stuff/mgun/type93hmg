@@ -1,0 +1,20 @@
+{from "pattern hmgun"
+	{tag "weapon build_in gun"}
+	{foresight "foresight1"}
+	{entity "type93hmg"}
+	{inventory {size 7 3}}
+	{filling "ammo 13x99h" 30}	
+	{fireSound	"mgun/browning_burst/"}
+	{fireSoundclose "mgun/browning_burst/3p/"}
+	{reloadSound "dt"}
+	{calibre 13.2}
+	{mass 34}
+	("fire rate" rpm(450))
+	("velocity" mps(800))
+	("reload_belt")
+	{projectileDamageTable {0 24} {50 20} {100 16} {150 13} {200 4.5} {225 0}} 
+	("burst_medium")
+	("spreading_medium")
+	{traceFreq 4}
+}
+;Cost=50;

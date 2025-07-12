@@ -1,0 +1,4 @@
+{from "25mm_1934"
+	{fireSound "gun/25mm_sa35"}
+	("penetration_medium" shell(ap) range(160) a(68) b(56) c(44) d(34) e(27))
+}    

@@ -1,0 +1,19 @@
+{from "pattern gun"			; "pak97/38"
+	{filling "bullet75_hun_l25"}
+	{fireSound "gun/gun_75_105"}
+	{fireSoundclose "gun/gun_interior/size3"}
+	{reloadSound "interior/large/big_reload_interior"}
+	("range_190")
+	{calibre 75}
+	("reload time" seconds(5.25))
+	("velocity m/s" ap(640) apcr(1) he(550) heat(450))
+	("armor health" damage(200))
+	("armor health custom" shell(apche) damage(200) filler(29))
+	("75_slope_multipliers")
+	("penetration_medium" shell(apche) range(200) a(97) b(82) c(66) d(53) e(43))
+	("penetration_medium" shell(heatb) range(200) a(87) b(87) c(87) d(87) e(87))
+	{parameters "he"
+		{range 180 180}
+	}
+	("accuracy_direct" r1(0.61) range_ap(190) range_he(180) range_heat(180))
+}

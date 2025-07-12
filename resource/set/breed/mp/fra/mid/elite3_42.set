@@ -1,0 +1,31 @@
+{breed
+	{behaviour soldier}
+	{skin "fra-en-moroc"}
+	{portrait "fra_elite5"}
+	{tags "soldier"}
+	{nationality fra}
+	{icon "elite-mg"}
+	{icon_priority 0}
+	{armors
+		{head "helmet_fra_mkii"}
+	}
+	{perks
+		(include "ability.inc")
+		("mg_skill_rank_4")
+		("tier4_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "fm2429" filled}
+		{item  "ammo 7,5x54" 100}
+		{item "bandage_fra" 5}
+		{item "grenade mk1" 2}
+		{item "sandbag_kit" 1}
+		{in_hands 0}
+	}
+}
+;Cost=53;
+

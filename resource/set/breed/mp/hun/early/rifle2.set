@@ -1,0 +1,31 @@
+{breed
+	{behaviour soldier}
+	{skin "hun-inf-early-rfl"}
+	{portrait "hun_soldier1"}
+	{tags "soldier"}
+	{nationality hun}
+	{icon "rifleman"}
+	{icon_priority 0}
+	{armors
+		{head "fieldcap1_hun"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "mannlicher_m1895" filled}
+		{item "ammo 8x50" 80}
+		{item "bandage_hun" 3}
+		{item "grenade hungarian_36m" 1}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}
+;Cost=8;
+

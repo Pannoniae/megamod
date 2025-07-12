@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "hun_soldier2"}
+	{portrait "hun_soldier2"}
+	{icon "rifle_grenades"}
+	{icon_priority 4}
+	{tags "soldier_atr_grenade"}
+	{nationality hun}
+	{armors
+		{head "helmet1_hun"}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_2")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "kampfpistole_z" filled}
+		{item "ammo 42lp" 25}
+		{item "frommer_37m" filled}
+		{item "ammo 9x17" 105}
+		{item "grenade hungarian_42m" 2}
+		{item "bandage_hun" 3}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}
+;Cost=5;
+

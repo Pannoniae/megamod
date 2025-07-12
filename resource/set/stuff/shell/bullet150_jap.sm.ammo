@@ -1,0 +1,10 @@
+{from "pattern sm"
+	{tag "shell 150to152 smoke_size4"}
+	{entity "shell_sm_150"}
+	{inventory {size 6 1}}
+	{mass 30}
+
+	{view "howitzer_shell_105-150_lv"
+		{tail "shell_tracer_100-152_he" "tail"}
+	}
+}

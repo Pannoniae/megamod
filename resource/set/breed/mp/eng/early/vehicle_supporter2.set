@@ -1,0 +1,38 @@
+{breed
+	{behaviour soldier}
+	{skin "uk-bef-inf"}
+	{portrait "uk-soldier2"}
+	{tags "soldier"}
+	{nationality eng}
+	{icon "tech"}
+	{icon_priority 0}
+	{armors
+		{head "helmet_mkii_net"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")
+		("skilled_repair")
+		("expert_gun")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "em3" filled}
+		{item  "ammo 7x56" 160}
+		{item "bandage" 3}
+		{item "backpack"}
+		{item "gasmask_bag"}
+		{item "grenade mk1" 1}
+		{item "smoke grenade" 1}
+		{in_hands 0}
+	}
+}
+;Cost=8;
+
+
+
+

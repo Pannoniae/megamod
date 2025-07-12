@@ -1,0 +1,14 @@
+{from "pattern anti-personnel"
+	{tag "size1"}		; Explosive filling - 0.060kg of TNT
+	{inventory {size 1 1}}
+	{entity "grenade_poland_z33"}
+	{damage add blastwave
+		{energy 0.6}
+		{area 3 9}
+		{ground_interaction_radius 0}
+	}
+	{special
+		{PrepareTime 4}
+	}
+}
+

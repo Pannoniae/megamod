@@ -1,0 +1,34 @@
+{breed
+	{behaviour soldier}
+	{skin "us-inf-carbine"}
+	{portrait "us-elite3"}
+	{tags "soldier"}
+	{nationality usa}
+	{icon "sapper2"}
+	{icon_priority 3}
+	{armors
+		{head "helmet_m1917"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")
+		("engineer")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "thompson_m1928a1_30" filled}
+		{item "ammo 11x23" 180}
+		{item "grenade satchel" 4}
+		{item "hedgehog_kit" 2}
+		{item "barbwire_kit" 1}
+		{item "repair_kit" 1}
+		{item "bandage" 1}
+		{in_hands 0}
+	}
+}
+;Cost=13;
+

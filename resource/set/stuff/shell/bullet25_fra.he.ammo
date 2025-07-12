@@ -1,0 +1,15 @@
+{from "pattern he"
+	{tag "20to25 no_throw"}
+	{tag "auto size1"}
+	{inventory
+		{weight 25}
+		{size 2 2}
+		{block 10}
+	}
+	{entity "fra_shell_25x218_fg"}
+	{mass 1.7}
+	{view "howitzer_shell_dummy"
+		{tail "shell_tracer_20_he" "tail"}
+	}
+	("he_auto_blast" args 0.9)
+}

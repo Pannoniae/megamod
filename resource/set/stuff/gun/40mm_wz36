@@ -1,0 +1,19 @@
+{from "pattern gun"			; bofors
+	{filling "bullet40_pol zenite" 4}
+	{fireSound "gun/40mm_wz36"}
+	{fireSoundclose "gun/gun_auto"}
+	{reloadSound "tank/reload_small"}
+	("range_autocannon_37-40")
+	{cursor "ironsights/aa"}
+	{AimingTolerance 3}
+	{calibre 40}
+	("medium_aa")
+	("fire rate" rpm(165))
+	("reload time" seconds(2))
+	("velocity" mps(1101))
+	("armor health" damage(45))
+	("40_slope_multipliers")
+	("penetration_medium" shell(ap) range(170) a(60) b(51) c(45) d(38) e(32))
+	("accuracy_direct" r1(0.58) range_ap(170) range_he(170) range_heat(170))
+}
+

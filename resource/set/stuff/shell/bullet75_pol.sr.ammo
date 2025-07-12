@@ -1,0 +1,16 @@
+{from "pattern sr"
+	{tag "shell shrapnel"}
+	{inventory
+		{size 5 1}
+	}
+	{mass 13}
+	("shrapnel" args 1)
+	{damage blastwave
+		{energy 1}
+		{area 11 11}
+	}
+	{entity "pol_shell_75x350r_sr"}
+	{view "howitzer_shell_50-75"
+		{tail "shell_tracer_75-88_he" "tail"}
+	}
+}

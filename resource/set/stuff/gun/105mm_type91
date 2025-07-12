@@ -1,0 +1,25 @@
+{from "pattern gun"			; Ho-ni II, Type 91
+	{filling "bullet105_jap"}
+	{fireSound "gun/105mm_type91"}
+	{fireSoundclose "gun/gun_122_152_short"}
+	{reloadSound "tank/reload_howitzer"}
+	("medium_artillery")
+	{calibre 105}
+	{range 300 300} 
+	("reload time" seconds(12))
+	("velocity m/s" ap(1) apcr(1) he(200) heat(335)) 
+	("armor health" damage(320))
+
+	; HEAT
+	("penetration_medium" shell(heat) range(180) a(120) b(120) c(120) d(120) e(120))
+
+	("accuracy_indirect"   ; // Applies logic for accuracy of indirect weapons over 200m
+		r1(1.20) 				; // Accuracy radius for direct-fire munitions
+		r2(9) 					; // Accuracy radius for indirect fire
+		rmax(20) 				; // Accuracy radius for indirect fire at maximum range
+		range_ap(200) 			; // Range after which accuracy drops to prevent farshooting.
+		range_heat(180) 		; // Range after which accuracy drops to prevent farshooting.
+		range_he(300)			; // Range after which accuracy drops to prevent farshooting.
+	)
+
+}

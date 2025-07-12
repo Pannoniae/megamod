@@ -1,0 +1,20 @@
+{from "pattern gun"			; Ha-go
+	{filling "bullet37_jap"}
+	{fireSound "gun/37mm_type38"}
+  	{fireSoundclose "gun/gun_interior/size2"}
+	{reloadSound "interior/large/small_reload_interior"}
+
+	("range_170")
+	{calibre 37}
+
+	("reload time" seconds(3))
+
+	("velocity m/s" ap(575) apcr(1) he(575) heat(1))
+	("armor health" damage(100))
+	("armor health custom" shell(aphe) damage(100) filler(11))
+	("37_slope_multipliers")	
+
+	("penetration_medium" shell(aphe) range(170) a(33) b(27) c(22) d(17) e(14))
+	("accuracy_direct" r1(0.55) range_ap(170) range_he(160) range_heat(160))
+}
+

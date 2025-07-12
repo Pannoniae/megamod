@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "us-inf-medic"}
+	{portrait "us-medic"}
+	{tags "soldier"}
+	{nationality usa}
+	{icon "tech"}
+	{icon_priority 0}
+	{armors
+		{head "helmet_m1917_medic"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")
+		("medic")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "m1903" filled}
+		{item  "ammo 7x63" 80}
+		{item "smoke grenade" 2}
+		{item "bandage" 25}
+		{item "medkit"}	
+		{item "tent_kit" 2}
+		{in_hands 0}
+	}
+}
+;Cost=8;
+

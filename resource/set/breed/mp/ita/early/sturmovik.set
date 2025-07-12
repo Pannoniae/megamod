@@ -1,0 +1,35 @@
+{breed
+	{behaviour soldier}
+	{skin "ita-re-mvsn-smg"}
+	{portrait "ita_elite2"}
+	{icon "stormtrooper"}
+	{icon_priority 2}
+	{tags "soldier"}
+	{nationality ita}
+	{armors
+		{head helmet_ita_m33_mvsn}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_4")
+		("tier4_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "berettam1918" filled}
+		{item "ammo 9x19c" 225}
+		{item "bandage_ita" 4}
+		{item "grenade oto_mod35" 4}
+		{item "grenade tipo_l" 2}
+		{item "grenade ccm34smoke" 2}
+		{item "knife_ita"}
+		{item "small_inf_shovel"}
+		{item "it_backpack"}
+		{in_hands 0}
+	}
+}
+;Cost=23;
+

@@ -1,0 +1,104 @@
+;SDL
+
+{"mp/gerita/mid/artilleryman"	("inf_tankman" side(gerita) coalition() cost(5.0))}
+{"mp/gerita/mid/tank_commander"	("inf_tankman" side(gerita) coalition() cost(12.0))}
+{"mp/gerita/mid/tankman"		("inf_tankman" side(gerita) coalition() cost(4.0))}
+
+{"mp/ita/mid/vehicle_supporter"	("inf_tankman" side(ita) coalition(axis gerita) cost(5.0))}
+{"mp/ita/mid/tankman"			("inf_tankman" side(ita) coalition(axis gerita) cost(4.0))}
+{"mp/ita/mid/tankman2"			("inf_tankman" side(ita) coalition(axis gerita) cost(12.0))}
+{"mp/ita/mid/tankman_ger"		("inf_tankman" side(ita) coalition(axis gerita) cost(4.0))}
+{"mp/ita/mid/tank_commander_ger" ("inf_tankman" side(ita) coalition(axis gerita) cost(12.0))}
+{"mp/ita/mid/pilot"				("inf_tankman" side(ita) coalition(axis gerita) cost(0.0))}
+{"mp/ita/mid/artilleryman"		("inf_tankman" side(ita) coalition(axis gerita) cost(5.0))}
+{"mp/ita/mid/tank_commander"	("inf_tankman" side(ita) coalition(axis gerita) cost(12.0))}
+
+{"mp/ita/mid/rifle_light"		("inf_tier1" side(ita) coalition(axis gerita) lvl(lvl1) r(1) rm(99) cost(7.0))} ; rifle
+{"mp/ita/mid/rifle2_light"		("inf_tier1" side(ita) coalition(axis gerita) lvl(lvl1) r(1) rm(99) cost(7.0))} ; rifle
+{"mp/ita/mid/smg_light"		    ("inf_tier1" side(ita) coalition(axis gerita) lvl(lvl1) r(1) rm(99) cost(12.0))} ; smg
+
+{"mp/ita/mid/mgun2"				("inf_tier2" side(ita) coalition(axis gerita) lvl(lvl1 lvl2) r(1) rm(99) cost(44.0))} ; has mg
+{"mp/ita/mid/mgun3"				("inf_tier2" side(ita) coalition(axis gerita) lvl(lvl1 lvl2) r(1) rm(7) cost(44.0))} ; has mg
+{"mp/ita/mid/rifle2"			("inf_tier2_lite" side(ita) coalition(axis gerita) lvl(lvl1 lvl2) r(1) rm(99) cost(8.0))}
+{"mp/ita/mid/rifle3"			("inf_tier2_lite" side(ita) coalition(axis gerita) lvl(lvl1 lvl2) r(1) rm(7) cost(13.0))}
+{"mp/ita/mid/rifle3b"			("inf_tier2_lite" side(ita) coalition(axis gerita) lvl(lvl1 lvl2) r(1) rm(7) cost(8.0))}
+{"mp/ita/mid/rifle5"			("inf_tier2_lite" side(ita) coalition(axis gerita) lvl(lvl1 lvl2) r(1) rm(99) cost(8.0))}
+{"mp/ita/mid/smg2"		    	("inf_tier2_lite" side(ita) coalition(axis gerita) lvl(lvl1 lvl2) r(1) rm(99) cost(13.0))}
+{"mp/ita/mid/smg3"		    	("inf_tier2_lite" side(ita) coalition(axis gerita) lvl(lvl1 lvl2) r(1) rm(7) cost(13.0))}
+{"mp/ita/mid/smg4"		    	("inf_tier2_lite" side(ita) coalition(axis gerita) lvl(lvl1 lvl2) r(1) rm(99) cost(13.0))}
+{"mp/ita/mid/mgun2_assist"		("inf_tier2_lite" side(ita) coalition(axis gerita) lvl(lvl1 lvl2) r(1) rm(99) cost(8.0))}
+{"mp/ita/mid/mgun3_assist"		("inf_tier2_lite" side(ita) coalition(axis gerita) lvl(lvl1 lvl2) r(1) rm(7) cost(13.0))}
+{"mp/ita/late/smg3"		    	("inf_tier2_lite" side(ita) coalition(axis gerita) lvl() r(8) rm(99) cost(13.0))}
+{"mp/ita/late/rifle3"			("inf_tier2_lite" side(ita) coalition(axis gerita) lvl() r(8) rm(99) cost(13.0))}
+{"mp/ita/late/rifle3b"			("inf_tier2_lite" side(ita) coalition(axis gerita) lvl() r(8) rm(99) cost(8.0))}
+{"mp/ita/late/mgun3"			("inf_tier2" side(ita) coalition(axis gerita) lvl() r(8) rm(99) cost(44.0))} ; has mg
+{"mp/ita/late/mgun3_assist"		("inf_tier2_lite" side(ita) coalition(axis gerita) lvl() r(8) rm(99) cost(13.0))}
+{"mp/ita/late/squadleader"		("inf_tier2" side(ita) coalition(axis gerita) lvl() r(8) rm(99) cost(18.0))}
+
+
+{"mp/ita/mid/saper"				("inf_tier2" side(ita) coalition(axis gerita) lvl() r(1) rm(99) cost(35.0))}
+{"mp/ita/mid/flamer"			("inf_tier2" side(ita) coalition(axis gerita) lvl(lvl2 lvl3) r(1) rm(99) cost(53.0))}
+{"mp/ita/mid/ap_miner"			("inf_tier2" side(ita) coalition(axis gerita) lvl() r(1) rm(99) cost(35.0))}
+{"mp/ita/mid/at_miner"			("inf_tier2" side(ita) coalition(axis gerita) lvl() r(1) rm(99) cost(35.0))}
+{"mp/ita/mid/squadleader2"		("inf_tier2" side(ita) coalition(axis gerita) lvl(lvl2 lvl3) r(1) rm(99) cost(18.0))}
+{"mp/ita/mid/squadleader3"		("inf_tier2" side(ita) coalition(axis gerita) lvl(lvl2 lvl3) r(1) rm(99) cost(18.0))}
+{"mp/ita/mid/at_rifle"			("inf_tier2" side(ita) coalition(axis gerita) lvl(lvl2 lvl3) r(1) rm(99) cost(44.0))} ; has AT
+{"mp/ita/mid/bazooker"			("inf_tier2" side(ita) coalition(axis gerita) lvl() r(11) rm(99) cost(75.0))} ; Bazooker
+{"mp/ita/mid/bazooker2"			("inf_tier2" side(ita) coalition(axis gerita) lvl() r(11) rm(99) cost(13.0))} ;
+
+
+{"mp/ita/mid/elite"				("inf_tier3" side(ita) coalition(axis gerita) lvl(lvl2 lvl3 lvl4) r(1) rm(99) cost(18.0))}
+{"mp/ita/mid/elite2"			("inf_tier3" side(ita) coalition(axis gerita) lvl(lvl2 lvl3 lvl4) r(1) rm(99) cost(48.0))}
+{"mp/ita/mid/elite3"			("inf_tier3" side(ita) coalition(axis gerita) lvl(lvl2 lvl3 lvl4) r(1) rm(99) cost(13.0))}
+{"mp/ita/mid/elite4"			("inf_tier3" side(ita) coalition(axis gerita) lvl(lvl2 lvl3 lvl4) r(1) rm(99) cost(53.0))}
+{"mp/ita/mid/elite2_assist"		("inf_tier3" side(ita) coalition(axis gerita) lvl(lvl2 lvl3 lvl4) r(1) rm(99) cost(13.0))}
+{"mp/ita/mid/elite4_assist"		("inf_tier3" side(ita) coalition(axis gerita) lvl(lvl2 lvl3 lvl4) r(1) rm(99) cost(18.0))}
+{"mp/ita/mid/elite_sl"			("inf_tier3" side(ita) coalition(axis gerita) lvl(lvl2 lvl3 lvl4) r(1) rm(99) cost(23.0))}
+{"mp/ita/mid/nembo_para1"		("inf_tier3" side(ita) coalition(axis gerita) lvl(lvl2 lvl3 lvl4) r(8) rm(99) cost(23.0))}
+{"mp/ita/mid/nembo_para2"		("inf_tier3" side(ita) coalition(axis gerita) lvl(lvl2 lvl3 lvl4) r(8) rm(99) cost(53.0))}
+{"mp/ita/mid/nembo_para3"		("inf_tier3" side(ita) coalition(axis gerita) lvl(lvl2 lvl3 lvl4) r(8) rm(99) cost(23.0))}
+{"mp/ita/mid/nembo_para4"		("inf_tier3" side(ita) coalition(axis gerita) lvl() r(8) rm(99) cost(18.0))}
+{"mp/ita/mid/nembo_para_sl"		("inf_tier3" side(ita) coalition(axis gerita) lvl(lvl2 lvl3 lvl4) r(8) rm(99) cost(28.0))}
+{"mp/ita/late/gnr_smg"			("inf_tier3" side(ita) coalition(axis gerita) lvl() r(1) rm(99) cost(18.0))}
+{"mp/ita/late/gnr_mgun"			("inf_tier3" side(ita) coalition(axis gerita) lvl() r(1) rm(99) cost(48.0))}
+{"mp/ita/late/gnr_rifle"		("inf_tier3" side(ita) coalition(axis gerita) lvl() r(1) rm(99) cost(13.0))}
+{"mp/ita/late/gnr_rifle2"		("inf_tier3" side(ita) coalition(axis gerita) lvl() r(1) rm(99) cost(18.0))}
+{"mp/ita/late/gnr_mgun_assist"	("inf_tier3" side(ita) coalition(axis gerita) lvl() r(1) rm(99) cost(13.0))}
+{"mp/ita/late/gnr_sl"			("inf_tier3" side(ita) coalition(axis gerita) lvl() r(1) rm(99) cost(23.0))}
+{"mp/ita/mid/rifle"				("inf_tier3" side(ita) coalition(axis gerita) lvl(lvl1) r(1) rm(99) cost(7.0))} ; rifle
+{"mp/ita/mid/rifle4"		    ("inf_tier3" side(ita) coalition(axis gerita) lvl(lvl1) r(1) rm(99) cost(7.0))} ; rifle
+{"mp/ita/mid/smg"		    	("inf_tier3" side(ita) coalition(axis gerita) lvl(lvl1) r(1) rm(99) cost(12.0))} ; smg
+{"mp/ita/mid/mgun"				("inf_tier3" side(ita) coalition(axis gerita) lvl(lvl1 lvl2) r(1) rm(99) cost(44.0))} ; has mg
+{"mp/ita/mid/mgun_assist"		("inf_tier3" side(ita) coalition(axis gerita) lvl(lvl1 lvl2) r(1) rm(99) cost(8.0))}
+{"mp/ita/mid/squadleader"		("inf_tier3" side(ita) coalition(axis gerita) lvl(lvl2 lvl3) r(1) rm(7) cost(18.0))}
+{"mp/ita/mid/mortar"			("inf_tier3" side(ita) coalition(axis gerita) lvl(lvl1 lvl2) r(1) rm(99) cost(33.0))}
+
+{"mp/ita/mid/radioman"			("inf_tier3" side(ita) coalition(axis gerita) lvl() r(8) rm(99) cost(200.0))}
+
+{"mp/ita/mid/sturmovik"			("inf_tier4" side(ita) coalition(axis gerita) lvl(lvl3) r(5) rm(99) cost(23.0))}
+{"mp/ita/mid/sturmovik2"		("inf_tier4" side(ita) coalition(axis gerita) lvl(lvl3) r(5) rm(99) cost(53.0))}
+{"mp/ita/mid/sturmovik3"		("inf_tier4" side(ita) coalition(axis gerita) lvl(lvl3) r(5) rm(99) cost(23.0))} 
+{"mp/ita/mid/sturmovik4"		("inf_tier4" side(ita) coalition(axis gerita) lvl(lvl3) r(5) rm(99) cost(63.0))}
+{"mp/ita/mid/sturmovik2_assist"	("inf_tier4" side(ita) coalition(axis gerita) lvl(lvl3) r(5) rm(99) cost(23.0))}
+{"mp/ita/mid/sturmovik_sl"		("inf_tier4" side(ita) coalition(axis gerita) lvl(lvl3) r(5) rm(99) cost(28.0))}
+{"mp/ita/late/sturmovik"		("inf_tier4" side(ita) coalition(axis gerita) lvl() r(5) rm(99) cost(23.0))}
+{"mp/ita/late/sturmovik2"		("inf_tier4" side(ita) coalition(axis gerita) lvl() r(5) rm(99) cost(53.0))}
+{"mp/ita/late/sturmovik3"		("inf_tier4" side(ita) coalition(axis gerita) lvl() r(5) rm(99) cost(23.0))} 
+{"mp/ita/late/sturmovik4"		("inf_tier4" side(ita) coalition(axis gerita) lvl() r(5) rm(99) cost(75.0))}
+{"mp/ita/late/sturmovik2_assist"	("inf_tier4" side(ita) coalition(axis gerita) lvl() r(5) rm(99) cost(23.0))}
+{"mp/ita/late/sturmovik_sl"		("inf_tier4" side(ita) coalition(axis gerita) lvl() r(5) rm(99) cost(28.0))}
+{"mp/ita/late/brigade_nere_assist"	("inf_tier4" side(ita) coalition(axis gerita) lvl() r(5) rm(99) cost(23.0))}
+{"mp/ita/late/brigade_nere_at"		("inf_tier4" side(ita) coalition(axis gerita) lvl() r(5) rm(99) cost(75.0))}
+{"mp/ita/late/brigade_nere_mgun"	("inf_tier4" side(ita) coalition(axis gerita) lvl() r(5) rm(99) cost(53.0))}
+{"mp/ita/late/brigade_nere_rifle"	("inf_tier4" side(ita) coalition(axis gerita) lvl() r(5) rm(99) cost(23.0))}
+{"mp/ita/late/brigade_nere_sl"		("inf_tier4" side(ita) coalition(axis gerita) lvl() r(5) rm(99) cost(28.0))}
+{"mp/ita/late/brigade_nere_smg"		("inf_tier4" side(ita) coalition(axis gerita) lvl() r(5) rm(99) cost(23.0))}
+
+
+{"mp/ita/mid/medic"				("inf_medic" side(ita) coalition(axis gerita) cost(40.0))}
+
+{"mp/ita/mid/officer"			("inf_officer" side(ita) coalition(axis gerita) cost(60.0))}
+
+{"mp/ita/mid/sniper"			("inf_sniper" side(ita) coalition(axis gerita) r(2) rm(99) cost(150.0))}
+
+

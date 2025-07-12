@@ -1,0 +1,6 @@
+{bitmap
+    {frame "amc_p16_00.tga"}
+    {frame "amc_p16_01.tga"}
+    {frame "amc_p16_02.tga"}
+    {frame "amc_p16_03.tga"}
+}

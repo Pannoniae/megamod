@@ -1,0 +1,17 @@
+{from "pattern gun"			; "75mm wz 02/26"
+	{filling "bullet75_pol"}
+	{fireSound "gun/gun_75_105_short"}
+	{fireSoundclose "gun/gun_75_105_short"}
+	{reloadSound "tank/reload_medium"}
+	("range_190")
+	{calibre 75}
+
+	("reload time" seconds(6.5))
+
+	("velocity m/s" ap(662) apcr(1) he(662) heat(400))
+	("armor health" damage(200))
+	("75_slope_multipliers")	
+
+	("penetration_medium" shell(ap) range(190) a(80) b(73) c(64) d(55) e(48)) 
+	("accuracy_direct" r1(1.01) range_ap(190) range_he(190) range_heat(180))
+}

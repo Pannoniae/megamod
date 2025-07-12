@@ -1,0 +1,23 @@
+{from "pattern gun"			; canone da 105/25
+	{filling "bullet105_ita"}
+	{fireSound "gun/gun_75_105"}
+	{fireSoundclose "gun/gun_interior/size3"}
+	{reloadSound "interior/large/big_reload_interior"}
+	("range_200_howitzer")
+	{calibre 105}
+
+	("reload time" seconds(12))
+
+	("velocity m/s" ap(500) apcr(1) he(200) heat(510))
+	("armor health" damage(325))
+	("armor health custom" shell(apc) damage(325) filler(275))
+	("105_slope_multipliers")
+
+	; Granata Perforante da 105
+	("penetration_medium" shell(apc) range(200) a(89) b(81) c(72) d(64) e(57))
+	; Effetto Pronto mod.43
+	("penetration_medium" shell(heat) range(200) a(120) b(120) c(120) d(120) e(120))
+	;
+	
+	("accuracy_spg" r1(1.00) range_ap(200) range_he(200) range_heat(200))
+}

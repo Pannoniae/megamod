@@ -1,0 +1,12 @@
+{from "pattern sniper_rifle"
+	{filling "ammo 8x50" 5}
+	{entity "lebel_m1886_scoped"}
+	{fireSound	"rifle/lebel/"}
+	{fireSoundclose	"rifle/lebel/3p/"}	
+	{reloadSound "kar98"}
+	{calibre 8}
+	{mass 4}
+	("velocity" mps(865))
+	("scopeview" scope(zoom_vignette_scope_ger_k98))
+}
+;Cost=142;

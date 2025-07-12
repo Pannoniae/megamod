@@ -1,0 +1,39 @@
+{breed
+	{behaviour soldier}
+	{skin "uk-para-inf"}
+	{portrait "uk-elite3"}
+	{tags "soldier"}
+	{nationality eng}
+	{icon "elite5"}
+	{icon_priority 3}
+	{armors
+		{head "cap_beret_para"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_3")
+		("tier3_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "em4" filled}
+		{item  "ammo 7x56" 160}
+		{item "bandage" 5}
+		{item "knife_union" 1}
+		{item "commando_backpack"}
+		{item "grenade mk1" 2}
+		{item "grenade n73at" 1}
+		{item "smoke grenade" 2}
+		{item "sandbag_kit" 1}
+		{item "small_inf_shovel"}
+		{item "ammo_box_inf_eng"}
+		{in_hands 0}
+	}
+}
+;Cost=13;
+
+
+

@@ -1,0 +1,34 @@
+{breed
+	{behaviour soldier}
+	{skin "fra-hussar-mgun"}
+	{portrait "fra_soldier2"}
+	{tags "soldier"}
+    {nationality fra}
+	{icon "mg"}
+	{icon_priority 2}
+	{armors
+		{body "fr_backpack"}
+		{head "helmet_fra_m26"}
+	}
+	{perks
+		(include "ability.inc")
+		("mg_skill_rank_3")
+		("tier3_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "fm2429" filled}
+		{item "revolver_mle_1892" filled}
+		{item "ammo 7,5x54" 130}
+		{item "ammo 8x27" 90}
+		{item "bandage_fra" 3}
+		{item "sandbag_kit" 1}
+		{in_hands 0}
+	}
+}
+;Cost=49;
+
+

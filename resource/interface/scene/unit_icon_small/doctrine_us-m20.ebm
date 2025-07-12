@@ -1,0 +1,6 @@
+{bitmap
+    {frame "us-m20_00.tga"}
+    {frame "us-m20_01.tga"}
+    {frame "us-m20_02.tga"}
+    {frame "us-m20_03.tga"}
+}

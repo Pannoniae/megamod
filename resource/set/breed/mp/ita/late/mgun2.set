@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "ita-rsi-bersaglieri-mgun"}
+	{portrait "ita_soldier2"}
+	{tags "soldier"}
+	{nationality ita}	
+	{icon "mg"}
+	{icon_priority 3}
+	{armors
+		{head helmet_ita_m33_bersaglieri}
+	}
+	{perks
+		(include "ability.inc")
+		("mg_skill_rank_2")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "breda_30" filled}
+		{item "beretta_m1934" filled}
+		{item  "ammo 6x52" 195}
+		{item  "ammo 9x17" 105}
+		{item "it_backpack"}
+		{item "bandage_ita" 2}
+		{item "sandbag_kit" 1}
+		{in_hands 0}
+	}
+}
+;Cost=44;
+

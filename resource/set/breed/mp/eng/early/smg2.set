@@ -1,0 +1,36 @@
+{breed
+	{behaviour soldier}
+	{skin "uk-inf"}
+	{portrait "uk-soldier2"}
+	{tags "soldier"}
+	{nationality eng}
+	{icon "smg"}
+	{icon_priority 1}
+	{armors
+		{head "helmet_mkii"}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_2")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "sten_mkii" filled}
+		{item  "ammo 9x19b" 288}
+		{item "bandage" 3}
+		{item "grenade mk1" 2}
+		{item "grenade n73at" 1}
+		{item "smoke grenade" 1}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}
+;Cost=13;
+
+
+
+

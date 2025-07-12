@@ -1,0 +1,36 @@
+;_________________________________________
+; USA 37mm clip-fed gun Colt Model E2
+;=========================================
+
+
+{from "pattern gun"			; L/33 "T1E2"
+	{filling "37x124B" 5}
+	{fireSound "cannon/s1/d1/Shared/Autocannon_37to40mm/"}
+	{fireSoundclose "cannon/s1/3p/Shared/Autocannon_37to40mm/"}
+	{reloadSound "interior/large/auto_reload_interior"}
+	("range_170")
+	{calibre 37}
+	("medium_aa")
+	("range_autocannon_37-40")
+	{burst
+		{short 6 3}				;// short burst shots on long distance, rand (+-)shots
+		{long 10 3}				;// long burst shots on short distance, rand (+-)shots
+		{rangeKoef 0.85}		;// rangeKoef * aimRange = max long burst distance
+	}
+	
+	{spreading
+		{BurstAccuracy 100 96 94 92 90 88 86 84 82}
+	}
+
+	("fire rate" rpm(120))
+	("reload time" seconds(6))
+
+	("velocity" mps(556))
+	("armor health" damage(80))
+	("37_slope_multipliers")
+
+	; API-T M80
+	("penetration_medium" shell(ap) range(170) a(41) b(39) c(34) d(29) e(23))
+
+	("accuracy_direct_auto" r1(0.8) range_ap(170) range_he(170) range_heat(170))
+}

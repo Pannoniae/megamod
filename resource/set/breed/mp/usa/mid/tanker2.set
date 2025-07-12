@@ -1,0 +1,29 @@
+{breed
+	{behaviour soldier}
+	{skin "us-tdb-ssgt"}
+	{portrait "us-tdb"}
+	{tags "crew"}
+	{nationality usa}
+	{icon "tanker"}
+	{icon_priority 1}
+	{armors
+		{head "helmet_net"}
+	}
+	{perks
+		(include "ability.inc")
+		("tank_commander")
+		("expert_gun")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory             
+		{item "m3a" filled}
+		{item  "ammo 11x23" 270}
+		{item "bandage" 1}
+		{in_hands 0}
+	}
+}
+;Cost=10;
+

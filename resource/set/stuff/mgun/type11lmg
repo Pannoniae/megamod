@@ -1,0 +1,19 @@
+{from "pattern mgun"
+	{tag "mgun_light"}
+	{filling "ammo 6x50" 30}
+	{entity "type11lmg"}
+	{fireSound	"mgun/type11lmg_burst/"}
+	{fireSoundclose	"mgun/type11lmg_burst/3p"}
+	{reloadSound "type11lmg_reload"}
+	{calibre 6.5}
+	{mass 10.2}
+	("fire rate" rpm(500))
+	("velocity" mps(736))
+	("burst_short")
+	("spreading_low")
+	{rechargeTime 3}
+	{inventory
+		{size 4 2 }
+	}
+}
+;Cost=40;

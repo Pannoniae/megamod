@@ -1,0 +1,6 @@
+{bitmap
+    {frame "sdkfz251_stuka_00.tga"}
+    {frame "sdkfz251_stuka_01.tga"}
+    {frame "sdkfz251_stuka_02.tga"}
+    {frame "sdkfz251_stuka_03.tga"}
+}

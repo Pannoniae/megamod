@@ -1,0 +1,37 @@
+{breed
+	{behaviour soldier}
+	{skin "ita-rsi-bn-rfl"}
+	{portrait "ita_elite5"}
+	{icon "stormtrooper"}
+	{icon_priority 2}
+	{tags "soldier"}
+	{nationality ita}
+	{armors
+		{head helmet_ita_m33_bn}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_4")
+		("at_rank_3")
+		("tier4_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "m38_carcano" filled}
+		{item "ammo 7x51" 96}
+		{item "bandage_ita" 3}
+		{item "grenade oto_mod35" 3}
+		{item "grenade breda42at" 1}
+		{item "grenade ccm34smoke" 2}
+		{item "dynamite"}
+		{item "small_inf_shovel"}
+		{item "it_backpack"}
+		{item "ammo_box_inf_ita"}
+		{in_hands 0}
+	}
+}
+;Cost=23;
+

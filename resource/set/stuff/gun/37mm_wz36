@@ -1,0 +1,15 @@
+{from "pattern gun"			; 37mm bofors
+	{filling "bullet37_pol"}
+	{fireSound "gun/37mm_bofors"}
+	{fireSoundclose "gun/37mm_bofors"}
+	{reloadSound "tank/reload_small"}
+	("range_170")
+	{calibre 37}
+	("reload time" seconds(3))
+	("velocity m/s" ap(810) apcr(1) he(815) heat(1))
+	("armor health" damage(100))
+	("37_slope_multipliers_800ms")
+	("accuracy_direct" r1(0.73) range_ap(170) range_he(160) range_heat(110))
+	("penetration_medium" shell(ap) range(170) a(60) b(47) c(34) d(24) e(17))
+}
+

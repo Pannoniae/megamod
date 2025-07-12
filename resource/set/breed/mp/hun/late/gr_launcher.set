@@ -1,0 +1,31 @@
+{breed
+	{behaviour soldier}
+	{skin "hun_soldier2"}
+	{portrait "hun_soldier2"}
+	{tags "soldier_atr_grenade"}
+	{nationality hun}	
+	{icon "gr_launcher"}
+	{icon_priority 3}
+	{armors
+		{head "helmet1_hun"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_3")
+		("tier3_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "mortar_legrw_36" filled}
+		{item "ammo mortar50_ger" 16}
+		{item "bandage_hun" 3}
+		{item "sandbag_kit" 1}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}
+;Cost=33;
+

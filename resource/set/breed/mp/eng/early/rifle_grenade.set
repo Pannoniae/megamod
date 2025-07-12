@@ -1,0 +1,38 @@
+{breed
+	{behaviour soldier}
+	{skin "uk-inf"}
+	{portrait "uk-soldier2"}
+	{tags "soldier_atr_grenade"}
+	{nationality eng}
+	{icon "rifle_grenades"}
+	{icon_priority 3}
+	{armors
+		{head "helmet_mkii"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")
+		("at_rank_3")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "em4_mark1" filling "ammo em3_grenade he" 1}
+		{item "ammo em3_grenade he" 20}
+		{item "ammo em3_grenade ap" 4}
+		{item "webley" filled}
+		{item  "ammo 11x21" 90}
+		{item "bandage" 3}
+		{item "grenade mk1" 2}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}
+;Cost=29;
+
+
+
+

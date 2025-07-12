@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "uk-scot-pvt"}
+	{portrait "uk-soldier1"}
+	{tags "soldier"}
+	{nationality eng}	
+	{icon "mg"}
+	{icon_priority 2}
+	{armors
+		{head "cap_tamoshanter"}
+	}
+	{perks
+		(include "ability.inc")
+		("mg_skill_rank_2")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "bren" filled}
+		{item "webley" filled}
+		{item  "ammo 7x56" 142}
+		{item  "ammo 11x21" 90}
+		{item "bandage" 3}
+		{item "sandbag_kit" 1}
+		{in_hands 0}
+	}
+}
+;Cost=44;
+
+

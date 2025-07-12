@@ -1,0 +1,7 @@
+{from "type1hmg"
+	{entity "type97tmg"}
+	{filling "ammo 7x58" 20}
+	("fire rate" rpm(500))
+	("velocity" mps(730))
+}
+;Cost=40;

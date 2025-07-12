@@ -1,0 +1,20 @@
+{from "pattern gun"			; "bishop"
+	{filling "bullet88_eng"}
+	{fireSound "gun/gun_75_105_short"}
+	{fireSoundclose "gun/gun_interior/size3"}
+	{reloadSound "interior/large/medium_reload_interior"}
+	("range_190_howitzer")
+
+	{calibre 88}
+
+	("reload time" seconds(10))
+
+	("velocity m/s" ap(532) apcr(1) he(240) heat(1))
+	("armor health" damage(200))
+	("90_slope_multipliers")
+
+	("penetration_medium" shell(ap) range(190) a(103) b(86) c(69) d(55) e(44))	
+
+	("accuracy_spg" r1(1.20) range_ap(190) range_he(190) range_heat(190))
+	{unlimitedRangeTPC 0}   ;// restrict range in TPC/FPC
+}

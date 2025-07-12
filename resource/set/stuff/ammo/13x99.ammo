@@ -1,0 +1,16 @@
+;// 13.99x99mm
+
+{bullet
+	{tag "small small_arms zenite stackable ptr pierce"}
+	{tag "bullet_fx size3"}
+	{inventory
+		{weight 1}
+		{block 100}
+		{size 2 1}
+		{fsm "belt"}
+	}
+	{mass 0.14}
+	{entity "ptr_ammo"}
+	{view "hmg_bullet"}
+	("ptr_trace")
+}

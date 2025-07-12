@@ -1,0 +1,31 @@
+{breed
+	{behaviour soldier}
+	{skin "jap_pilot"}
+	{portrait "jap_pilot"}
+	{tags "soldier"}
+	{nationality jap}
+	{icon "tankman"}
+	{icon_priority 1}
+	{tags "crew"}
+	{armors
+		{head jappilot_cap}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_2")
+		("skilled_repair")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "nambu" filled}
+		{item  "ammo 8x22" 120}
+		{item "bandage_jap" 1}
+		{in_hands 0}
+	}
+}
+;Cost=4;
+

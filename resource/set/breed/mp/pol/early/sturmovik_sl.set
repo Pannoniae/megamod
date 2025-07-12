@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "pol-10bk-mgun"}
+	{portrait "pol_elite2"}
+	{icon "stormtrooper_mgs"}
+	{icon_priority 4}
+	{tags "soldier"}
+	{nationality pol}
+	{armors
+		{head "helmet_pol_wz16"}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_4")
+		("tier4_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "suomi_m31" filled}
+		{item  "ammo 9x19" 490}
+		{item "bandage_pol" 5}
+		{item "grenade poland_o33"}
+		{item "grenade poland_z33" 2}
+		{item "sandbag_kit"}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}
+;Cost=25;
+

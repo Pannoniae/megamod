@@ -1,0 +1,29 @@
+{breed
+	{behaviour soldier}
+	{skin "hun_tankman"}
+	{portrait "hun_tankman"}
+	{tags "crew"}
+	{nationality hun}
+	{icon "tankman"}
+	{icon_priority 0}
+	{armors
+		{head "fieldcap3_hun"}
+	}
+	{tags "tankman"}
+	{perks
+		(include "ability.inc")
+		("tankman")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "frommer_37m" filled}
+		{item  "ammo 9x17" 105}
+		{item "bandage_hun" 1}
+		{in_hands 0}
+	}
+}
+;Cost=1;
+

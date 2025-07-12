@@ -1,0 +1,18 @@
+{from "pattern gun"			; "zrinyi2
+	{filling "bullet105_hun"}
+	{fireSound "gun/gun_122_152"}
+	{fireSoundclose "gun/gun_interior/size4"}
+	{reloadSound "interior/large/howitzer_reload_interior"}
+	("range_190_howitzer")
+	{calibre 105}
+
+	("reload time" seconds(15))
+
+	("velocity m/s" ap(1) apcr(1) he(515) heat(335))
+	("armor health" damage(320))
+	("105_slope_multipliers")
+	; 
+	("penetration_medium" shell(heat) range(180) a(104) b(104) c(104) d(104) e(104))
+
+	("accuracy_spg" r1(1.00) range_ap(190) range_he(190) range_heat(180))
+}

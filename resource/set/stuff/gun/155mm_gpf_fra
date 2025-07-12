@@ -1,0 +1,22 @@
+{from "pattern gun"    ; "m12 gmc"
+	{filling "bullet155_fra"}
+	{fireSound "gun/155mm_gpf"}
+	{fireSoundclose "gun/gun_122_152"}
+	{reloadSound "tank/reload_howitzer"}
+	("heavy_artillery")
+	{calibre 155}
+	{range 450 450} ;13.3km
+
+	("reload time" seconds(25))
+	("velocity m/s" ap(1) apcr(1) he(280) heat(1))
+	("armor health" damage(30))
+
+	("accuracy_indirect"   ; // Applies logic for accuracy of indirect weapons over 200m
+		r1(0.95) 				; // Accuracy radius for direct-fire munitions
+		r2(8) 					; // Accuracy radius for indirect fire
+		rmax(45) 				; // Accuracy radius for indirect fire at maximum range
+		range_ap(210) 			; // Range after which accuracy drops to prevent farshooting.
+		range_heat(210) 		; // Range after which accuracy drops to prevent farshooting.
+		range_he(450)			; // Range after which accuracy drops to prevent farshooting.
+	)
+}

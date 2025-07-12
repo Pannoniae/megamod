@@ -1,0 +1,32 @@
+{breed
+	{behaviour soldier}
+	{skin "jap_rifle"}
+	{portrait "jap_soldier2"}
+	{tags "soldier"}
+	{nationality jap}
+	{icon "ap_miner"}
+	{icon_priority 3}
+	{armors
+		{head helmet1_jap}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")
+		("tier2_defense")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "type99rifle" filled}
+		{item  "ammo 7x58" 80}
+		{item "mine antipersonnel" 15}
+		{item "barbwire_kit" 1}
+		{item "small_inf_shovel"}
+		{item "bandage_jap" 1}
+		{in_hands 0}
+	}
+}
+;Cost=35;
+

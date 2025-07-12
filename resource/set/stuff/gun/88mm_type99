@@ -1,0 +1,26 @@
+{from "pattern gun"			; "Type99_88mm AA Gun"
+	{filling "bullet88_jap"}
+	{fireSound "gun/gun_88"}
+	{fireSoundclose "gun/gun_88"}
+	{reloadSound "tank/reload_big"}
+	("range_230")
+	{calibre 88}
+	("heavy_aa")
+
+	("reload time" seconds(4))
+
+	("velocity m/s" ap(810) apcr(1) he(810) heat(1))
+	("armor health" damage(240))
+	("armor health custom" shell(aphe) damage(240) filler(102))
+	("90_slope_multipliers")
+
+	("penetration_long" shell(aphe) range(230) a(123) b(116) c(108) d(100) e(93)) 
+
+	("accuracy_direct" r1(0.65) range_ap(230) range_he(220) range_heat(220))
+
+	{parameters "he"										
+		(mod "mp" {unlimitedRangeTPC 1})	;// unrestricts range in TPC/FPC for shooting at aircraft
+		{FalloffStrength 0}
+	}
+
+}

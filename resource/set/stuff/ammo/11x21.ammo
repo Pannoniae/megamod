@@ -1,0 +1,15 @@
+;// 11.55x21.7mm
+
+{bullet
+	{tag "bullet small_arms small stackable pierce pistol"}
+	{inventory
+		{weight 10}
+		{block 10}
+		{size 1 1}
+		{fsm "belt"}
+	}
+	{mass 0.015}
+	{entity "pistol_ammo"}
+	{view "smg_bullet"}
+	;("pistol_trace")
+}

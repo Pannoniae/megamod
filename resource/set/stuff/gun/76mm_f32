@@ -1,0 +1,39 @@
+;_________________________________________
+; USSR early Medium AT gun
+;=========================================
+
+
+{from "pattern gun"			; L/31.5 "kv1_40"
+	{filling "bulletrus_76"}
+	{fireSound "cannon/s3/d1/Shared/Cannon_75to76mm/"}
+	{fireSoundclose "cannon/s2/1p/Shared/"}
+	{reloadSound "tank/1p/large/"}
+	("range_190")
+	{calibre 76.2}
+
+	("reload time" seconds(10))
+
+	("velocity m/s" ap(612) apcr(892) he(612) heat(1))
+	("armor health" damage(200))
+	("armor health custom" shell(aphebc) damage(200) filler(150))
+	("armor health custom" shell(aphebc2) damage(200) filler(88))
+	("76_rus_slope_multipliers")
+
+	; BR-350A
+	("penetration_medium" shell(aphebc) range(190) a(78) b(73) c(66) d(60) e(54))  ;RHA
+ ;//("penetration_medium" shell(aphebc) range(190) a(71) b(65) c(57) d(51) e(45))  ;FHA
+
+	; Shrapnel
+	("penetration_medium" shell(sr) range(190) a(27) b(21) c(19) d(16) e(12)) ; Pen data for shrapnel shell 
+
+	; BR-350B
+	("penetration_medium" shell(aphebc2) range(190) a(83) b(77) c(69) d(60) e(54))  ;RHA
+
+	; BR-350P  ; only issued to ZiS-5 & F-34 guns
+	("penetration_medium" shell(apcr) range(190) a(125) b(107) c(83) d(64) e(49))
+
+	; BP-350A  ; only issued to ZiS-3,5 & F-34 guns
+	("penetration_medium" shell(heat) range(170) a(75) b(75) c(75) d(75) e(75))	; issued sometime in '43
+
+	("accuracy_direct_arrowhead" r1(0.93) range_ap(190) range_he(190) range_heat(170))
+}

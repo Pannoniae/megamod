@@ -1,0 +1,30 @@
+{breed
+	{behaviour soldier}
+	{skin "ita-re-tankcom"}
+	{portrait "ita_tankman"}
+	{icon "tech"}
+	{icon_priority 0}
+	{tags "tankman2"}
+	{tags "crew"}
+	{nationality ita}
+	{armors
+		{head helmet_ita_tank}
+	}
+	{tags "tankman2"}
+	{perks
+		(include "ability.inc")
+		("tank_commander")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "beretta_m1934" filled}
+		{item "ammo 9x17" 105}
+		{item "bandage_ita" 1}
+		{in_hands 0}
+	}
+}
+;Cost=1;
+

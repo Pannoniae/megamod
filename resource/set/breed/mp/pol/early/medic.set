@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "pol-inf-medic"}
+	{portrait "pol_medic"}
+	{tags "soldier"}
+	{nationality pol}
+	{icon "medics"}
+	{icon_priority 1}
+	{armors
+		{head "helmet_pol_wz31"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")
+		("medic")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "karabinek_wz91_98_25" filled}      
+		{item  "ammo 7x57b" 50}
+		{item "smoke grenade" 2}
+		{item "bandage_pol" 25}
+		{item "medkit_pol"}
+		{item "tent_kit" 2}
+		{in_hands 0}
+	}
+}
+;Cost=8;
+

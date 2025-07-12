@@ -1,0 +1,14 @@
+{from "pattern mgun"
+	{filling "ammo 6x50" 30}
+	{entity "type92"}
+	{fireSound	"mgun/type92_shot/"}
+	{fireSoundclose	"mgun/type92_shot/3p"}
+	{reloadSound "type11lmg_reload"}
+	{calibre 6.5}
+	{mass 10.2}
+	("fire rate" rpm(450))
+	("velocity" mps(740))
+	("burst_short")
+	("spreading_low")
+}
+;Cost=40;

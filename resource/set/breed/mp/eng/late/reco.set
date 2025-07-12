@@ -1,0 +1,35 @@
+{breed
+	{skin "uk-commando"}
+	{portrait "uk-officer"}
+	{icon officer}
+	{icon_priority 1}
+	{tags "soldier"}
+	{nationality eng}
+	{tags "officer"}
+	{armors
+		{head "hat_no4"}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_4")
+		("binocular_vision")
+		("tier4_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "em4" filled}
+		{item "ammo 7x56" 160}
+		{item "bandage" 3}
+		{item "grenade mk1" 1}
+		{item "binocular"}		
+		{item "smoke grenade" 2}
+		{in_hands 0}
+	}
+}
+;Cost=18;
+
+
+

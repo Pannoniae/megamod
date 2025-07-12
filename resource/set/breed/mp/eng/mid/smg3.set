@@ -1,0 +1,25 @@
+{breed
+	{behaviour soldier}
+	{skin "uk-para-nco"}
+	{portrait "uk-elite4"}
+	{tags "soldier"}
+	{nationality eng}
+	{icon "smg3_eng"}
+	{icon_priority 1}
+	{armors
+		{head "helmet_mkii"}
+	}
+	{inventory
+		{item "sten_mk2" filled}
+		{item  "ammo 11x23" 80}
+		{item "bandage" 3}
+		{item "grenade mk1" 2}
+		{item "grenade n73at" 1}
+		{item "smoke grenade" 1}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}
+;Cost=10;
+
+

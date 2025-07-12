@@ -1,0 +1,15 @@
+{from "pattern gun"			; 37mm puteaux_l21
+	{filling "bullet37_pol"}
+	{fireSound "gun/37mm_sa18"}
+	{fireSoundclose "gun/gun_37_57"}
+	{reloadSound "tank/reload_small"}
+	("range_170")
+	{calibre 37}
+	("reload time" seconds(3))
+	("velocity m/s" ap(545) apcr(1) he(545) heat(1))
+	("armor health" damage(100))
+	("37_slope_multipliers")
+	("penetration_medium" shell(ap) range(170) a(33) b(24) c(16) d(8) e(5))
+	("accuracy_direct" r1(0.73) range_ap(170) range_he(160) range_heat(160))
+}
+

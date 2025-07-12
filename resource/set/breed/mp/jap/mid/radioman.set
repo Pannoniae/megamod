@@ -1,0 +1,32 @@
+{breed
+	{behaviour soldier}
+	{skin "jap_smg"}
+	{portrait "jap_soldier3"}
+	{tags "soldier"}
+	{nationality jap}
+	{icon "radioman"}
+	{icon_priority 5}
+	{armors
+		{head "fieldcap1_jap_radio"}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_3")
+		("tier3_standard")
+		("skilled_repair")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "type38carbine" filled}
+		{item  "ammo 6x50" 80}
+		{item "flaergun" filled}
+		{item "ammo flare" 20}
+		{item "bandage_jap" 3}
+		{in_hands 0}
+	}
+}
+;Cost=9;
+

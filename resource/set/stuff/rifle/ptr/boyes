@@ -1,0 +1,15 @@
+{from "pattern at_rifle"
+	{tag "auto_eject"}
+	{filling "ammo 13x99" 5}
+	{entity "boyes"}
+	{fireSound	"rifle/boyes/"}
+	{fireSoundclose	"rifle/boyes/3p/"}	
+	{reloadSound "ptrd"}
+	{calibre 13}
+	{mass 17.3}
+	{projectileDamageTable {0 30} {35 25} {50 20} {80 10} {125 2}}
+	("fire rate" rpm(30))
+	("velocity" mps(884))
+}
+	
+;Cost=45;

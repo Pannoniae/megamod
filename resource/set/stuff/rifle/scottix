@@ -1,0 +1,16 @@
+{from "pattern rifle"
+	{filling "ammo 6x52" 6}
+	{entity "scottix"}
+	{fireSound "rifle/scottix"}
+	{fireSoundclose "rifle/scottix"}
+	{reloadSound "m1carbine_reload"}
+	{calibre 6.5}
+	{mass 2.4}
+	("velocity" mps(840))
+	("semi_rifle")
+	{parameters "clip"
+		("reload time" seconds(8))
+	}
+}
+
+;Cost=10;

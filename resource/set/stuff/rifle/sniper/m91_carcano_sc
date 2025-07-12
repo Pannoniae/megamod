@@ -1,0 +1,12 @@
+{from "pattern sniper_rifle"
+	{filling "ammo 6x52" 6}
+	{entity "m91_carcano_sc"}
+	{fireSound "rifle/carcano_m91"}
+	{fireSoundclose "rifle/carcano_m91"}
+	{reloadSound "kar98"}
+	{calibre 6.5}
+	{mass 4.08}
+	("velocity" mps(700))
+	("scopeview" scope(zoom_vignette_scope_ger_k98))
+}
+;Cost=142;

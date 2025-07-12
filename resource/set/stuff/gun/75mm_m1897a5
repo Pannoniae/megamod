@@ -1,0 +1,19 @@
+{from "pattern gun"      ; 75mm M1897A5 T12
+	{filling "bullet75_jap"}
+	{fireSound "gun/gun_75_105"}
+	{fireSoundclose "gun/gun_interior/size3"}
+	{reloadSound "interior/large/medium_reload_interior"}
+	("range_190")
+	{calibre 75}
+
+	("reload time" seconds(6))
+	("velocity m/s" ap(609) apcr(1) he(594) heat(1))
+	("armor health" damage(200))
+	("armor health custom" shell(aphe) damage(200) filler(84))
+	("75_slope_multipliers")
+
+	; Type 1 APHE
+	("penetration_medium" shell(aphe) range(190) a(99) b(88) c(77) d(67) e(58))
+
+	("accuracy_direct" r1(0.81) range_ap(190) range_he(180) range_heat(180))
+}

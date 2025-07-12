@@ -1,0 +1,9 @@
+{from "knife_stab"
+	{tag "foxhole"}
+	{entity "small_shovel"}
+	{inventory
+		{size 2 2}
+		{weight 100}
+		{fsm "belt"}
+	}
+}

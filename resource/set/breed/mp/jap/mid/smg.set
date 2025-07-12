@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "jap_smg"}
+	{portrait "jap_soldier1"}
+	{tags "soldier"}
+	{nationality jap}
+	{icon "smg"}
+	{icon_priority 1}
+	{armors
+		{head fieldcap2_ija1}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_1")
+		("tier1_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "type100smg" filled}
+		{item "ammo 8x22" 270}
+		{item "bandage_jap" 3}
+		{item "grenade type97" 2}
+		{item "grenade type3at_a" 1}
+		{item "smoke grenade" 1}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}
+;Cost=12;
+

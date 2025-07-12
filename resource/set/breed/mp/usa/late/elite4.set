@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "us-marine2-smg"}
+	{portrait "us-elite2"}
+	{tags "soldier"}
+	{nationality usa}
+	{icon "elite4"}
+	{icon_priority 3}
+	{armors
+		{body "marine_haversack"}
+		{head "helmet_marine"}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_3")
+		("tier3_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "thompson" filled}
+		{item  "ammo 11x23" 180}
+		{item "bandage" 5}
+		{item "grenade mk2" 3}
+		{item "grenade m15_wp" 2}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}
+;Cost=18;
+

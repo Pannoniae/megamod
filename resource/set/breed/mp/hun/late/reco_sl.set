@@ -1,0 +1,37 @@
+{breed
+	{behaviour soldier}
+	{skin "hun_rifle"}
+	{portrait "hun_soldier1"}
+	{nationality hun}
+	{tags "soldier"}
+	{icon "rifleman"}
+	{icon_priority 0}
+	{armors
+		{head "fieldcap_hun"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_3")
+		("tier3_recon")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "zh-29" filled}
+		{item "ammo 7x57" 160}
+		{item "bandage_hun" 4}
+		{item "grenade hungarian_36m" 2}
+		{item "dynamite" 1}
+		{item "smoke grenade" 2}
+		{item "brandflasche" 1}
+		{item "grenade m24_geballteladung" 1}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}
+;Cost=18;
+
+
+

@@ -1,0 +1,4 @@
+{from "37mm_sa18"	
+	("velocity m/s" ap(705) apcr(1) he(500) heat(1))
+	("penetration_medium" shell(ap) range(170)  a(50) b(36) c(24) d(16) e(11))
+}

@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "fra-chasseur-rfl"}
+	{portrait "fra_elite2"}
+	{tags "soldier"}
+    {nationality fra}
+	{icon "stormtrooper"}
+	{icon_priority 0}
+	{armors
+		{head "helmet_fra_m26_chasseur"}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_4")
+		("tier4_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "mas38" filled}
+		{item "ammo 7x20" 128}
+		{item "bandage_fra" 5}
+		{item "grenade fr_of37" 2}
+		{item "sandbag_kit" 1}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}
+;Cost=23;
+
+

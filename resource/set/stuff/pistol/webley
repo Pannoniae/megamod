@@ -1,0 +1,11 @@
+{from "pattern pistol"
+	{filling "ammo 11x21" 6}
+	{entity "mki_revolver"}
+	{mass 1.1}
+	{fireSound "smallarms/s1/d1/RUS/TT33/"}
+	{fireSoundclose "smallarms/s1/3p/RUS/TT33/"}
+	{reloadSound "p38"}
+	{calibre 11}
+	("velocity" mps(190))
+}
+;Cost=1;

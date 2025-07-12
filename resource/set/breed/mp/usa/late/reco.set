@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "us-sniper"}
+	{portrait "us-soldier4"}
+	{tags "soldier"}
+	{nationality usa}
+	{icon "sniper"}
+	{icon_priority 5}
+	{armors
+		{head "helmet_506th_camo_nco"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_3")
+		("binocular_vision")
+		("tier3_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "garand" filled}
+		{item  "ammo 7x63" 128}
+		{item "bandage" 3}
+		{item "grenade mk2" 1}
+		{item "binocular"}		
+		{item "smoke grenade" 2}
+		{in_hands 0}
+	}
+}
+;Cost=18;
+

@@ -1,0 +1,10 @@
+{from "fm2429"
+	{filling "ammo 7,5x54" 150}
+	{entity "fm2429_no_bipod"}
+	{fireSound "mgun/fm_24_29_burst/"}
+	{fireSoundclose "mgun/fm_24_29_burst/3p"}
+	("fire rate" rpm(550))
+	("velocity" mps(790))
+	("burst_long")
+}
+;Cost=40;

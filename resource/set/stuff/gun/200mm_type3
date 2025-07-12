@@ -1,0 +1,21 @@
+{from "pattern gun"    ; "200mm Type3"
+	{tag "agf howitzer"}
+	{filling "bullet200 he"}
+	{fireSound "gun/gun_203_210"}
+	{fireSoundclose "gun/gun_203_210"}
+	{reloadSound "tank/reload_howitzer"}
+	("heavy_artillery")
+	{calibre 200}
+	{range 400 400} 
+	("reload time" seconds(60))
+	("velocity" mps(220));
+	("armor health" damage(30))
+	("accuracy_indirect"   ; // Applies logic for accuracy of indirect weapons over 200m
+		r1(1.25) 				; // Accuracy radius for direct-fire munitions
+		r2(10) 					; // Accuracy radius for indirect fire
+		rmax(49) 				; // Accuracy radius for indirect fire at maximum range
+		range_ap(210) 			; // Range after which accuracy drops to prevent farshooting.
+		range_heat(210) 		; // Range after which accuracy drops to prevent farshooting.
+		range_he(400)			; // Range after which accuracy drops to prevent farshooting.
+	)
+}

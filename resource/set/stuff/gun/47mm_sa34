@@ -1,0 +1,18 @@
+{from "pattern gun"		; Char D2
+	{filling "bullet47_fra"}
+	{fireSound "gun/47mm_sa34_l30"}
+	{reloadSound "tank/reload_small"}
+	("range_180")
+	{calibre 47}
+	("reload time" seconds(7))
+	("velocity m/s" ap(650) apcr(1) he(650) heat(1))
+	("armor health" damage(125))
+	("57_slope_multipliers")
+	("penetration_medium" shell(ap) range(180) a(59) b(47) c(36) d(27) e(20))
+	{parameters "he"
+		{range 170 170}
+	}
+	("accuracy_direct" r1(0.82) range_ap(180) range_he(170) range_heat(170))
+}
+
+

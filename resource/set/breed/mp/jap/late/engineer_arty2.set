@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "jap_smg"}
+	{portrait "jap_soldier2"}
+	{tags "soldier"}
+	{nationality jap}
+	{icon "sapper"}
+	{icon_priority 3}
+	{armors
+		{head helmet1_jap}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")
+		("engineer_jap")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "type38carbine" filled}
+		{item  "ammo 6x50" 80}
+		{item "dynamite" 2}
+		{item "small_inf_shovel"}
+		{item "t3build" 1}
+		{item "bandage_jap" 1}
+		{in_hands 0}
+	}
+}
+;Cost=8;
+

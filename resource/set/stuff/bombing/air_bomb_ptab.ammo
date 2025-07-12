@@ -1,0 +1,7 @@
+{from "pattern air_bomb_heat"
+	{entity "ptab"}
+	{tag "ptab size1 heat_high size1_heat_shell"}
+	{mass 100}
+
+	("he_level_1" weight(1.5) filler(0.620))
+}

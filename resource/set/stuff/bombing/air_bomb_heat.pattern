@@ -1,0 +1,9 @@
+{bullet
+	{tag "fg heat heat_shell pierce itemin2hands build_in"}
+	{cumulative 3}
+	{inventory
+		{size 5 1}
+		{weight 1000}
+		{fsm "stuff"}
+	}
+}

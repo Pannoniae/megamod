@@ -1,0 +1,17 @@
+{from "pattern infantry_mortar"
+	{tag "at_rifle" "ap"}
+	{filling "ammo mortar50_eng" 1}
+	{fireSound "mortar\mortar_shot"}
+	{entity "mortar_mk_vii"}
+	{inventory
+		{size 3 4}
+		{link_bone "gun_back"}
+		{weight 10}
+		{fsm "smg"}
+	}
+	{calibre 50}
+	("penetration" args 10)
+	("armor health" damage(350))
+}
+;Cost=25;
+

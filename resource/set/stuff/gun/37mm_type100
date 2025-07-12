@@ -1,0 +1,18 @@
+{from "pattern gun"			; type100 Chi-Ri
+	{filling "bullet37_jap"}
+	{fireSound "gun/37mm_type38"}
+  	{fireSoundclose "gun/gun_interior/size2"}
+	{reloadSound "interior/large/small_reload_interior"}
+	("range_170")
+	{calibre 37}
+
+	("reload time" seconds(3))
+
+	("velocity m/s" ap(700) apcr(1) he(700) heat(1))
+	("armor health" damage(50))
+	("armor health custom" shell(aphe) damage(100) filler(12))
+	("37_slope_multipliers")
+
+	("penetration_medium" shell(aphe) range(170) a(47) b(40) c(30) d(23) e(19))
+	("accuracy_direct" r1(0.55) range_ap(170) range_he(160) range_heat(160))
+}

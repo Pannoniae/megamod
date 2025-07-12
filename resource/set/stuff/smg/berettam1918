@@ -1,0 +1,16 @@
+{from "pattern smg"
+	{filling "ammo 9x19c" 25}
+	{entity "beretta18"}
+	{fireSound "smg/berettam1918_burst/"}
+	{fireSoundclose "smg/berettam1918_burst/3p/"}
+	{reloadSound "stg"}
+	{calibre 9}
+	{mass 4.9}
+
+	("fire rate" rpm(600))
+	("velocity" mps(389))
+	("recoil_smg_medium")
+	("burst_short")
+	{thirdpersonparams inherit "human default_mg"}
+}
+;Cost=10;

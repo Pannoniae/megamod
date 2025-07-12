@@ -1,0 +1,11 @@
+{from "pattern heat"
+	{tag "shell size2 size2_heat_shell heat_low"}
+	{inventory {size 4 1}}
+	{entity "shell_cu_57_jap"}
+	{mass 8}
+
+	{view "howitzer_shell_50-75"
+		{tail "shell_tracer_75-88_he_long" "tail"}
+	}
+	("he_level_2" weight(1.8) filler(0.303))
+}

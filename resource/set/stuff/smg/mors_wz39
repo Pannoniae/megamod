@@ -1,0 +1,10 @@
+{from "mas38"
+	{filling "ammo 9x19b" 24}
+	{entity "mors_wz_39"}
+	{fireSound	"smg/mors_burst/"}
+	{fireSoundclose	"smg/mors_burst/3p/"}
+	("fire rate" rpm(700))
+	("burst_short")
+	("velocity" mps(400))
+}
+;Cost=10;

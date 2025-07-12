@@ -1,0 +1,455 @@
+{library
+	{vehicles
+		{filter
+			{exclude "*/x/*"}
+			{exclude "*/generic/special/*"}
+			{exclude "*/generic/marine/*"}
+			{exclude "*/generic/train/drg_class75/drg_class75_rus.def*"}
+			{exclude "*/placeholder/*"}
+
+			{exclude "*/ussr/cannon/maxim/heavy_mg_maxim.def"}
+			{exclude "*/ussr/cannon/maxim_stand*"}
+			{exclude "*/ussr/cannon/57mm_zis2_late.def"}
+			{exclude "*/ussr/cannon/76mm_m1927_late.def"}
+			{exclude "*/ussr/tank_heavy/su152_late.def"}
+
+			{exclude "*/germany/cannon/mg42_lafette/heavy_mg_mg34.def"}
+			{exclude "*/germany/cannon/37mm_pak36/37mm_pak36_late*"}
+			{exclude "*/germany/cannon/50mm_pak38/50mm_pak38_late*"}
+			{exclude "*/germany/cannon/75mm_pak9738/75mm_pak9738_late*"}
+			{exclude "*/germany/cannon/80mm_sgrw34/80mm_sgrw34_rapid.def"}
+			{exclude "*/germany/cannon/150mm_sig33/150mm_sig33_late.def"}
+			{exclude "*/germany/cannon/panzernest_krab/panzernest_krab_ger.def"}
+			{exclude "*/germany/special/150mm_sw34/150mm_sw34_ger.def"}
+			
+			{exclude "*/finland/airborne/blenheim_mk1/blenheim_mk1_recon.def"}
+			{exclude "*/germany/btr/88mmflak37sfl/88mmflak37sfl.def"}
+			{exclude "*/finland/cannon/maxim_m1910_30/heavy_mg_maxim_m1910_30.def"}
+			{exclude "*/finland/cannon/50mm_pstk38/50mm_pstk38_late*"}
+			{exclude "*/finland/cannon/84mm_k18/84mm_k18_late*"}
+			
+			{exclude "*/usa/cannon/m1917_30cal/heavy_mg_m1917_30cal.def"}
+			{exclude "*/usa/cannon/81mm_m1/81mm_m1_sm*"}
+			{exclude "*/usa/cannon/57mm_m1/57mm_m1_early*"}
+			{exclude "*/usa/cannon/57mm_m1/57mm_m1_late*"}
+			{exclude "*/usa/cannon/155mm_m1a1_longtom/155mm_m1a1_longtom_sm*"}
+			{exclude "*/usa/car/cckw/cckw_inf*"}
+			{exclude "*/usa/btr/m2_halftrack/m2_halftrack_at*"}
+			{exclude "*/usa/btr/m3_halftrack/m3_halftrack_inf*"}
+			{exclude "*/usa/btr/m3_halftrack/m3_halftrack_inf_late*"}
+			{exclude "*/usa/btr/m3a1_halftrack/m3a1_halftrack_inf*"}
+			{exclude "*/usa/btr/m3a1_halftrack/m3a1_halftrack_inf_late*"}
+			{exclude "*/usa/tank_medium/m7_hmc/m7_hmc_sm*"}
+			{exclude "*/usa/tank_medium/m10_gmc/m10_gmc_early*"}
+													  
+												  
+			{exclude "*/usa/tank_medium/m12_gmc/m12_gmc_sm*"}
+			{exclude "*/usa/tank_medium/m36_gmc/m36_gmc_late*"}
+			{exclude "*/usa/tank_medium/m36_gmc/m36_gmc_t33*"}
+			{exclude "*/usa/tank_medium/m36b1_gmc/m36b1_gmc_late*"}
+			{exclude "*/usa/tank_medium/m36b1_gmc/m36b1_gmc_t33*"}
+			
+			{exclude "*/+finland/tank_light/t26c/t26c_m.def"}
+			{exclude "*/+finland/tank_light/t26c_39/t26c_39_m.def"}
+
+			{exclude "*/ussr/tank_light/t50/t-50.def"}
+			{exclude "*/poland/cannon/303_bren_tripod_aa/heavy_mg_bren.def"}
+			{exclude "*/poland/cannon/ckm_wz30_aa/heavy_mg_ckm_wz30_aa.def"}
+			{exclude "*/usaf/cannon/us-0_3cal_m1917a1_aa/heavy_mg_us-0_3cal.def"}
+			{exclude "*/japan/cannon/type92_stan/heavy_mg_type1.def"}
+			{exclude "*/italy/cannon/8mm_fiat_revelli_m1914_35/heavy_mg_8mm_fiat.def"}
+			{exclude "*/hungary/cannon/schwarzlose_8mm_aa/heavy_mg_schwarzlose.def"}
+			{exclude "*/france/cannon/heavy_mg_0_3cal_m1917a1/heavy_mg_0_3cal_m1917a1.def"}
+			{exclude "*/france/cannon/7_5mm_reibel_aa_x2/heavy_mg_reibel_aa_x2.def"}
+			{exclude "*/britain/cannon/np_303_vickers_mkiv_aa/heavy_mg_vickers_mkiv.def"}
+			{exclude "*/japan/cannon/7_7mm_type92_lewis/heavy_mg_type92_lewis.def"}
+			{exclude "*/france/cannon/25mm_hotchkiss_mle38/heavy_mg_25mm_hotchkiss_mle38.def"}
+			{exclude "*/france/cannon/40_mm_m1_fr/heavy_mg_40_mm_m1_fr.def"}
+			{exclude "*/italy/cannon/cannone_9053/heavy_mg_cannone_9053.def"}
+			{exclude "*/italy/cannon/cannone_2065/heavy_mg_cannone_2065.def"}
+			
+			{exclude "*/poland/btr/staghound_pol/staghound.def"}
+			{exclude "*/usaf/tank_heavy/us-t29/us-t29.def"}
+			{exclude "*/poland/airborne/pzlp11/pzlp11.def"}
+			{exclude "*/poland/airborne/pzlp23/pzlp23.def"}
+			{exclude "*/italy/btr/ab41/ab40_com.def"}
+			{exclude "*/hungary/btr/csaba39m/csaba39m_com.def"}
+			{exclude "*/britain/btr/np_humber/np_humber_com.def"}
+			{exclude "*/usaf/btr/us-m8_grayhound/m8_grayhound_com.def"}
+			{exclude "*/france/btr/m8_grayhound_fr/m8_grayhound_com_fr.def"}
+			{exclude "*/poland/btr/staghound_pol/staghound_com_pol.def"}
+			{exclude "*/japan/btr/type87/type87_com.def"}
+			{exclude "*/usaf/airborne/us-skytrain/us-skytrain.def"}
+			{exclude "*/ussr/airborne/li-2/li-2.def"}
+			{exclude "*/japan/airborne/l2d3/l2d3.def"}
+			{exclude "*/germany/airborne/ju-52/ju-52.def"}
+			
+		}
+		{optLoc "mp/army/"}
+		{rotation "-40.0 20.0"}
+		{%faction
+			{dir "/entity/-vehicle/%faction/*.def"}
+			{entLoc "desc/entity/"}
+		}
+	}
+	{weapons
+		{rotation "185.0 15.0"}
+		{entLoc "desc/weapon/"}
+		{optLoc "main_menu2/library/weapons/"}
+		{a_pistol
+			{dir "/set/stuff/pistol/"}
+			{filter
+				{exclude "*.ammo"}
+				{exclude "*.presets"}
+				{exclude "*.pattern"}
+				{exclude "*osp30_signal"}
+			}
+		}
+		{b_smg
+			{dir "/set/stuff/smg/"}
+			{filter
+				{exclude "*.ammo"}
+				{exclude "*.presets"}
+				{exclude "*.pattern"}
+				{exclude "*thompson_m1928a1_30"}
+				{exclude "*thompson_m1928a1_50"}
+			}
+		}
+		{c_rifle
+			{dir "/set/stuff/rifle/"}
+			{filter
+				{exclude "*.ammo"}
+				{exclude "*.presets"}
+				{exclude "*.pattern"}
+				{exclude "*ptr*"}
+				{exclude "*mosin_m27_ironsights"}
+				{exclude "*k98_antitank"}
+				{exclude "*mosin_antitank"}
+				{exclude "*garand_grenade_launcher"}
+				{exclude "*m1_carbine_grenade_launcher"}
+				{exclude "*m1a1_carbine_grenade_launcher"}
+				{exclude "*m1903_grenade_launcher"}
+				{exclude "*m1903"}
+				{exclude "*m1903_b"}
+				{exclude "*garand_b"}
+				{exclude "*garand_grenade_mkii"}
+			}
+		}
+		{d_mg
+			{dir "/set/stuff/mgun/"}
+			{filter
+				{exclude "*.ammo"}
+				{exclude "*.presets"}
+				{exclude "*.pattern"}
+				{exclude "*browning_303_mk2"}
+				{exclude "*dshk_t40"}
+				{exclude "*dt_x2"}
+				{exclude "*maxim_1910_30_x4"}
+				{exclude "*maxim_m09_31"}
+				{exclude "*mg13_no_bipod_x2"}
+				{exclude "*mg17_bf109"}
+				{exclude "*mg17_bf110"}
+				{exclude "*mg34_tank_early"}
+				{exclude "*mg34_tank_x2"}
+				{exclude "*mg34_tank_x2_2"}
+				{exclude "*browning_m19a4_x2"}
+				{exclude "*browning_m19a4_left"}
+				{exclude "*browning_m19a4_right"}
+				{exclude "*browning_m19a4_rear"}
+				{exclude "*browning_m19a4_tank"}
+				{exclude "*browning_m2_nomag"}
+				{exclude "*browning_m2_x2"}
+				{exclude "*browning_m2_x4"}
+				{exclude "*hotchkiss_m1929_x2"}
+				{exclude "*hotchkiss_m1929t"}
+				{exclude "*hotchkiss1914t"}
+				{exclude "*type93hmg_x2"}
+			}
+		}
+		{e_at
+			{dir "/set/stuff/rifle/ptr/"}
+			{dir "/set/stuff/rifle/grenade/"}
+			{dir "/set/stuff/bazooka/"}
+			{filter
+				{exclude "*.ammo"}
+				{exclude "*.presets"}
+				{exclude "*.pattern"}
+				{exclude "*mosin_grenade_launcher"}
+				{exclude "*k98_grenade_launcher"}
+			}
+		}
+		{f_flamethrower
+			{dir "/set/stuff/flame/"}
+			{filter
+				{exclude "*e4_5_flame_thrower"}
+				{exclude "*ks_24_flame_thrower"}
+				{exclude "*ks_25_flame_thrower"}
+				{exclude "*ks_25_flame_thrower_fin"}
+				{exclude "*ato_41_flame_thrower"}
+				{exclude "*ato_42_flame_thrower"}
+				{exclude "*14mm_flammenwerfer_pz3"}
+				{exclude "*14mm_flammenwerfer_251_16_l"}
+				{exclude "*14mm_flammenwerfer_251_16_r"}
+				{exclude "*flame_thrower.ammo"}
+				{exclude "*.ammo"}
+				{exclude "*.presets"}
+				{exclude "*.pattern"}
+			}
+		}
+	}
+	{soldiers
+		{rotation "-40.0 20.0"}
+		{optLoc "mp/army/"}
+		{rus_early
+			{dir "/set/breed/mp/rus/early/*.set"}
+			{entLoc "desc/human/mp/rus/early/"}
+		}
+		{rus_mid
+			{dir "/set/breed/mp/rus/mid/*.set"}
+			{entLoc "desc/human/mp/rus/mid/"}
+		}
+		{rus_late
+			{dir "/set/breed/mp/rus/late/*.set"}
+			{entLoc "desc/human/mp/rus/late/"}
+		}
+		{ger_early
+			{dir "/set/breed/mp/ger/early/*.set"}
+			{entLoc "desc/human/mp/ger/early/"}
+		}
+		{ger_mid
+			{dir "/set/breed/mp/ger/mid/*.set"}
+			{entLoc "desc/human/mp/ger/mid/"}
+		}
+		{ger_late
+			{dir "/set/breed/mp/ger/late/*.set"}
+			{entLoc "desc/human/mp/ger/late/"}
+		}
+		{fin_early
+			{dir "/set/breed/mp/fin/early/*.set"}
+			{entLoc "desc/human/mp/fin/early/"}
+		}
+		{fin_mid
+			{dir "/set/breed/mp/fin/mid/*.set"}
+			{entLoc "desc/human/mp/fin/mid/"}
+		}
+		{fin_late
+			{dir "/set/breed/mp/fin/late/*.set"}
+			{entLoc "desc/human/mp/fin/late/"}
+		}
+		{usa_mid
+			{dir "/set/breed/mp/usa/mid/*.set"}
+			{entLoc "desc/human/mp/usa/mid/"}
+		}
+		{usa_late
+			{dir "/set/breed/mp/usa/late/*.set"}
+			{entLoc "desc/human/mp/usa/late/"}
+		}
+		{fra_early
+			{dir "/set/breed/mp/fra/early/*.set"}
+			{entLoc "desc/human/mp/fra/early/"}
+		}
+		{fra_mid
+			{dir "/set/breed/mp/fra/mid/*.set"}
+			{entLoc "desc/human/mp/fra/mid/"}
+		}
+		{fra_late
+			{dir "/set/breed/mp/fra/late/*.set"}
+			{entLoc "desc/human/mp/fra/late/"}
+		}
+		{pol_early
+			{dir "/set/breed/mp/pol/early/*.set"}
+			{entLoc "desc/human/mp/pol/early/"}
+		}
+		{pol_mid
+			{dir "/set/breed/mp/pol/mid/*.set"}
+			{entLoc "desc/human/mp/pol/mid/"}
+		}
+		{pol_late
+			{dir "/set/breed/mp/pol/late/*.set"}
+			{entLoc "desc/human/mp/pol/late/"}
+		}
+		{jap_early
+			{dir "/set/breed/mp/jap/early/*.set"}
+			{entLoc "desc/human/mp/jap/early/"}
+		}
+		{jap_mid
+			{dir "/set/breed/mp/jap/mid/*.set"}
+			{entLoc "desc/human/mp/jap/mid/"}
+		}
+		{jap_late
+			{dir "/set/breed/mp/jap/late/*.set"}
+			{entLoc "desc/human/mp/jap/late/"}
+		}
+		{eng_early
+			{dir "/set/breed/mp/eng/early/*.set"}
+			{entLoc "desc/human/mp/eng/early/"}
+		}
+		{eng_mid
+			{dir "/set/breed/mp/eng/mid/*.set"}
+			{entLoc "desc/human/mp/eng/mid/"}
+		}
+		{eng_late
+			{dir "/set/breed/mp/eng/late/*.set"}
+			{entLoc "desc/human/mp/eng/late/"}
+		}
+		{ita_early
+			{dir "/set/breed/mp/ita/early/*.set"}
+			{entLoc "desc/human/mp/ita/early/"}
+		}
+		{ita_mid
+			{dir "/set/breed/mp/ita/mid/*.set"}
+			{entLoc "desc/human/mp/ita/mid/"}
+		}
+		{ita_late
+			{dir "/set/breed/mp/ita/late/*.set"}
+			{entLoc "desc/human/mp/ita/late/"}
+		}
+		{hun_early
+			{dir "/set/breed/mp/hun/early/*.set"}
+			{entLoc "desc/human/mp/hun/early/"}
+		}
+		{hun_mid
+			{dir "/set/breed/mp/hun/mid/*.set"}
+			{entLoc "desc/human/mp/hun/mid/"}
+		}
+		{hun_late
+			{dir "/set/breed/mp/hun/late/*.set"}
+			{entLoc "desc/human/mp/hun/late/"}
+		}
+
+	;	{%faction
+	;		{dir "/set/breed/mp/%faction/*.set"}
+
+	;		{dir "/set/breed/mp/%faction/early/*.set"}
+	;		{dir "/set/breed/mp/%faction/mid/*.set"}
+	;		{dir "/set/breed/mp/%faction/late/*.set"}
+	;		{exclude "*.inc"}
+
+	;		{entLoc "desc/human/mp/%faction/"}
+	;	}
+	}
+	{items
+		{rotation "185.0 15.0"}
+		{entLoc "desc/stuff/"}
+		{optLoc "main_menu2/library/items/"}
+		{ammo
+			{entLoc "desc/ammo/"}
+			{dir "/set/stuff/bazooka/*.ammo"}
+			{dir "/set/stuff/mgun/*.ammo"}
+			{dir "/set/stuff/pistol/*.ammo"}
+			{dir "/set/stuff/smg/*.ammo"}
+			{dir "/set/stuff/rifle/*.ammo"}
+			{filter
+				{exclude "*canist_drob_d.ammo"}
+				{exclude "*pistol.ammo"}
+				{exclude "*flare.ammo"}
+				{exclude "*flare_usa.artillery_105.ammo"}
+				{exclude "*flare_usa.artillery_105_vt.ammo"}
+				{exclude "*flare_usa.artillery_155.ammo"}
+				{exclude "*flare_usa.artillery_155_vt.ammo"}
+				{exclude "*flare_usa.artillery_203.ammo"}
+				{exclude "*flare_usa.artillery_203_vt.ammo"}
+				{exclude "*flare_usa.artillery_240.ammo"}
+				{exclude "*flare_usa.mortar_60.ammo"}
+				{exclude "*flare_usa.mortar_81.ammo"}
+				{exclude "*flare.marker.ammo"}
+				{exclude "*flare.signal.ammo"}
+				{exclude "*tt33.ammo"} ; gun model
+				{exclude "*fg42.ammo"} ; gun model
+				{exclude "*shotgun.ammo"} ; gun model
+				{exclude "*shotgun.ammo"} ; gun model
+				{exclude "*stg44.ammo"} ; gun model
+				{exclude "*k98_antitank.ammo"} ; gun model
+				{exclude "*chauchat.ammo"} ; gun model
+				{exclude "*m26.ammo"} ; gun model
+				{exclude "*m26.ammo"} ; gun model
+				{exclude "*madsen.ammo"} ; gun model
+				{exclude "*.presets"}
+				{exclude "*.pattern"}
+			}
+		}
+		{rockets
+			{entLoc "desc/ammo/"}
+								  
+			{dir "/set/stuff/reactive/*.ammo"}
+								 
+			{filter
+				{exclude "*.presets"}
+				{exclude "*.pattern"}
+			}
+		}
+		{shells
+			{entLoc "desc/ammo/"}
+			{dir "/set/stuff/shell/*.ammo"}
+			{dir "/set/stuff/mortar/*.ammo"}
+			{filter
+				{exclude "*dummy.ap.ammo"}
+				{exclude "*.presets"}
+				{exclude "*.pattern"}
+				{exclude "*mortar_single_60.ammo"}
+				{exclude "*mortar_single_80.ammo"}
+				{exclude "*mortar_single_81.ammo"}
+				{exclude "*mortar_single_120.ammo"}
+			}
+		}
+		{grenades
+			{dir "/set/stuff/grenade"}
+			{filter
+				{exclude "*.presets"}
+				{exclude "*.pattern"}
+			}
+		}
+		{explosives
+			{dir "/set/stuff/explosive"}
+			{filter
+				{exclude "*borgward.450kg*"}
+				{exclude "*borgward*"}
+				{exclude "*goliath*"}
+				{exclude "*.presets"}
+				{exclude "*.pattern"}
+			}
+		}
+		{stuff
+			{dir "/set/stuff/melee"}
+			{dir "/set/stuff/med"}
+			{dir "/set/stuff/special"}
+							   
+			{filter
+				{exclude "*canned_meat"}
+				{exclude "*medkit"}
+				{exclude "*morphine"}
+				
+				{exclude "*light"}
+				{exclude "*searchlight"}
+				{exclude "*shell_cannon"}
+				{exclude "*shell_cannon_auto"}
+				
+				{exclude "*commander_vision"}
+				{exclude "*cumulative_charge"}
+				{exclude "*cumulative_launcher"}
+						 
+				{exclude "*lamp"}
+				{exclude "*human"}
+				{exclude "*matchbox"}
+				
+				{exclude "*.presets"}
+				{exclude "*.pattern"}
+			}
+		}
+	}
+	{fauna
+		{entLoc "desc/fauna/"}
+		{dir "/entity/-fauna/*.def"}
+		{filter
+			{exclude "*crow*"}
+			{exclude "*butterfly*"}
+			{exclude "*dragonfly*"}
+			{exclude "*fly_small*"}
+			{exclude "*dead_horse*"}
+			{exclude "*horse_dead_pose1*"}
+			{exclude "*horse_dead_pose2*"}
+			{exclude "*euro_dead_cow01*"}
+			{exclude "*euro_dead_cow02*"}
+		}
+	}
+}

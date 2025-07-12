@@ -1,0 +1,26 @@
+{from "pattern gun"			; cannone 42/32
+	{filling "bullet47_ita"}
+	{fireSound "gun/gun_37_57"}
+    	{fireSoundclose "gun/gun_37_57"}
+	{reloadSound "tank/reload_small"}
+	("range_180")
+	{calibre 47}
+	("reload time" seconds(3.5))
+
+	("velocity m/s" ap(630) apcr(1) he(364) heat(1))
+	("armor health" damage(125))
+	("armor health custom" shell(aphe) damage(125) filler(30))
+	("armor health custom" shell(apbc) damage(125) filler(30))
+	("57_slope_multipliers")
+	
+	; Granata Perforante mod.35
+	("penetration_medium" shell(aphe) range(180) a(52) b(41) c(30) d(22) e(17))
+	
+	; Granata Perforante mod.39  
+	("penetration_medium" shell(apbc) range(180) a(52) b(46) c(39) d(33) e(29))
+	
+	; Granata mod.35 	
+
+	("accuracy_direct" r1(0.62) range_ap(180) range_he(170) range_heat(170))
+}
+

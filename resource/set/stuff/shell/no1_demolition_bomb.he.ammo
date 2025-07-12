@@ -1,0 +1,11 @@
+{from "pattern he"
+	{tag "shell size4"}
+	{entity "demobomb_avre"}
+	{inventory {size 5 3}{weight 150}}
+	{mass 18.14}
+
+	{view "demobomb_avre"
+	}
+
+	("he_level_5" weight(18.14) filler(17.73))
+}

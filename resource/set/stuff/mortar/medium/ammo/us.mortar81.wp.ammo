@@ -1,0 +1,7 @@
+{from "pattern wp_medium"
+	{inventory
+		{size 4 1}
+	}
+	{entity "ammo_mortar81_ic"}
+	{view "ammo_mortar81_ic"}	
+}

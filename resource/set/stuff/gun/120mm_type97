@@ -1,0 +1,16 @@
+{from "pattern gun"			; Chi-Ha 120mm
+	{filling "bullet120_jap"}
+	{fireSound "gun/120mm_type97"}
+	{fireSoundclose "gun/gun_interior/size4"}
+	{reloadSound "interior/large/howitzer_reload_interior"}
+	("medium_artillery")
+	{calibre 120}
+	{range 200 200} 
+	("reload time" seconds(12))
+	("velocity m/s" ap(1) apcr(1) he(220) heat(335)) 
+	("armor health" damage(350))
+	("penetration_medium" shell(heat) range(190) a(140) b(140) c(140) d(140) e(140))
+	("accuracy_spg" r1(2.0) range_ap(200) range_he(200) range_heat(190))
+    	{unlimitedRangeTPC 0}   ;// restrict range in TPC/FPC
+}
+

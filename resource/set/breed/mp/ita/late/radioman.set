@@ -1,0 +1,32 @@
+{breed
+	{behaviour soldier}
+	{skin "ita-rsi-inf-smg"}
+	{portrait "ita_radioman"}
+	{tags "soldier"}
+	{nationality ita}
+	{icon "radioman"}
+	{icon_priority 5}
+	{armors
+		{head "cap_ita_radiohead"}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_3")
+		("tier3_standard")
+		("skilled_repair")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "mab_38a" filled}
+		{item "ammo 9x19b" 360}
+		{item "flaergun" filled}
+		{item "ammo flare" 20}
+		{item "bandage_ita" 3}
+		{in_hands 0}
+    }
+}
+;Cost=14;
+

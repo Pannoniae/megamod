@@ -1,0 +1,17 @@
+{from "pattern rifle"
+	{filling "ammo 7x57" 10}
+	{entity "zh-29"}
+	{fireSound "smallarms/s3/d1/GER/G41/"}
+	{fireSoundclose "smallarms/s3/3p/GER/G41/"}
+	{reloadSound "g43"}
+	{calibre 7.62}
+	{mass 4.5}
+
+	("velocity" mps(810))
+	("semi_rifle")
+	{parameters "clip"
+		("reload time" seconds(10))
+	}
+
+}
+;Cost=10;

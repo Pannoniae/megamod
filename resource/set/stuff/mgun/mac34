@@ -1,0 +1,14 @@
+{from "pattern mgun"
+	{filling "ammo 7,5x54" 300}
+	{entity "mac34"}
+	{fireSound "mgun/fm_24_29_burst/"}
+	{fireSoundclose "mgun/fm_24_29_burst/3p"}
+	{reloadSound "dt"}
+	{calibre 7.5}
+	{mass 9}
+	("fire rate" rpm(450))
+	("velocity" mps(830))
+	("burst_medium")
+	("spreading_low")
+}
+;Cost=40;

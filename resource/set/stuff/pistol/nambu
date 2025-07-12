@@ -1,0 +1,12 @@
+{from "pattern pistol"
+	{filling "ammo 8x22" 8}
+	{entity "nambu"}
+	{mass 1.075}
+	{fireSound "pistol/Type14Nambu/"}  
+	{fireSoundclose "pistol/Type14Nambu/3p/"} 
+	{reloadSound "p38"}
+	{calibre 8}
+	("velocity" mps(290))
+}
+
+;Cost=1;

@@ -1,0 +1,4 @@
+{from "pattern he_medium"
+	{entity "ammo_mortar81_he"}
+	{view "ammo_mortar81_he"}	
+}

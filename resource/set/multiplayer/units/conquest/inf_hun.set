@@ -1,0 +1,59 @@
+;SDL
+
+{"mp/hun/mid/home_guard"			("inf_tankman" side(hun) coalition(ost) cost(5.0))}
+{"mp/hun/mid/vehicle_supporter"		("inf_tankman" side(hun) coalition(ost) cost(5.0))}
+{"mp/hun/mid/tankman"				("inf_tankman" side(hun) coalition(ost) cost(4.0))}
+{"mp/hun/mid/tankman2"				("inf_tankman" side(hun) coalition(ost) cost(12.0))}
+{"mp/hun/mid/pilot"					("inf_tankman" side(hun) coalition(ost) cost(0.0))}
+{"mp/hun/mid/artilleryman"			("inf_tankman" side(hun) coalition(ost) cost(5.0))}
+{"mp/hun/mid/tank_commander"		("inf_tankman" side(hun) coalition(ost) cost(12.0))}
+
+{"mp/hun/mid/rifle"					("inf_tier1" side(hun) coalition(ost) r(1) rm(99) cost(7.0))} ; rifle
+{"mp/hun/mid/smg"		    		("inf_tier1" side(hun) coalition(ost) r(1) rm(99) cost(12.0))} ; smg
+
+{"mp/hun/mid/mgun"					("inf_tier2" side(hun) coalition(ost) lvl(lvl1 lvl2 lvl3) r(1) rm(99) cost(44.0))} ; has mg
+{"mp/hun/mid/mgun2"					("inf_tier2_lite" side(hun) coalition(ost) lvl(lvl1 lvl2 lvl3) r(1) rm(99) cost(44.0))} 
+{"mp/hun/mid/rifle2"				("inf_tier2_lite" side(hun) coalition(ost) lvl(lvl1 lvl2) r(1) rm(99) cost(8.0))}
+{"mp/hun/mid/smg2"		    		("inf_tier2_lite" side(hun) coalition(ost) lvl(lvl1 lvl2) r(1) rm(99) cost(13.0))}
+{"mp/hun/late/smg2"		    		("inf_tier2_lite" side(hun) coalition(ost) lvl(lvl1 lvl2) r(1) rm(99) cost(13.0))}
+{"mp/hun/mid/mgun_assist"			("inf_tier2_lite" side(hun) coalition(ost) lvl(lvl1 lvl2 lvl3) r(1) rm(99) cost(8.0))}
+{"mp/hun/mid/mgun2_assist"			("inf_tier2_lite" side(hun) coalition(ost) lvl(lvl1 lvl2 lvl3) r(1) rm(99) cost(44.0))} 
+
+{"mp/hun/mid/rifle_grenade"			("inf_tier2" side(hun) coalition(ost) lvl(lvl1 lvl2 lvl3) r(1) rm(99) cost(5.0))} ; rifle grenade
+{"mp/hun/mid/saper"					("inf_tier2" side(hun) coalition(ost) lvl() r(1) rm(99) cost(35.0))}
+{"mp/hun/mid/flamer"				("inf_tier2" side(hun) coalition(ost) lvl(lvl1 lvl2) r(1) rm(99) cost(53.0))}
+{"mp/hun/mid/ap_miner"				("inf_tier2" side(hun) coalition(ost) lvl() r(1) rm(99) cost(35.0))}
+{"mp/hun/mid/at_miner"				("inf_tier2" side(hun) coalition(ost) lvl() r(1) rm(99) cost(35.0))}
+{"mp/hun/mid/gr_launcher"			("inf_tier2" side(hun) coalition(ost) lvl(lvl1 lvl2 lvl3) r(1) rm(99) cost(33.0))}
+{"mp/hun/mid/squadleader"			("inf_tier2" side(hun) coalition(ost) lvl(lvl1 lvl2) r(1) rm(99) cost(18.0))}
+{"mp/hun/mid/at_rifle"				("inf_tier2" side(hun) coalition(ost) lvl(lvl2 lvl3) r(1) rm(99) cost(49.0))} ; has AT
+{"mp/hun/late/bazooker"				("inf_tier2" side(hun) coalition(ost) lvl() r(1) rm(99) cost(63.0))} ; Bazooker
+
+{"mp/hun/mid/elite"					("inf_tier3" side(hun) coalition(ost) lvl(lvl2 lvl3 lvl4) r(1) rm(99) cost(13.0))}
+{"mp/hun/mid/elite2"				("inf_tier3" side(hun) coalition(ost) lvl(lvl2 lvl3 lvl4) r(1) rm(99) cost(48.0))}
+{"mp/hun/mid/elite3"				("inf_tier3" side(hun) coalition(ost) lvl(lvl2 lvl3 lvl4) r(1) rm(99) cost(18.0))}
+{"mp/hun/mid/elite4"				("inf_tier3" side(hun) coalition(ost) lvl(lvl2 lvl3 lvl4) r(1) rm(99) cost(13.0))}
+{"mp/hun/mid/elite2_assist"			("inf_tier3" side(hun) coalition(ost) lvl(lvl2 lvl3 lvl4) r(1) rm(99) cost(13.0))}
+{"mp/hun/mid/elite_sl"				("inf_tier3" side(hun) coalition(ost) lvl(lvl2 lvl3 lvl4) r(1) rm(99) cost(23.0))}
+{"mp/hun/mid/laszlo"				("inf_tier3" side(hun) coalition(ost) lvl(lvl2 lvl3 lvl4) r(1) rm(99) cost(23.0))}
+{"mp/hun/mid/laszlo2"				("inf_tier3" side(hun) coalition(ost) lvl(lvl2 lvl3 lvl4) r(1) rm(99) cost(53.0))}
+{"mp/hun/mid/laszlo3"				("inf_tier3" side(hun) coalition(ost) lvl(lvl2 lvl3 lvl4) r(1) rm(99) cost(18.0))} 
+{"mp/hun/mid/laszlo2_assist"		("inf_tier3" side(hun) coalition(ost) lvl(lvl2 lvl3 lvl4) r(1) rm(99) cost(18.0))}
+{"mp/hun/mid/laszlo_sl"				("inf_tier3" side(hun) coalition(ost) lvl(lvl2 lvl3 lvl4) r(1) rm(99) cost(28.0))}
+
+{"mp/hun/mid/radioman"				("inf_tier3" side(hun) coalition(ost) lvl() r(8) rm(99) cost(200.0))}
+
+{"mp/hun/mid/sturmovik"				("inf_tier4" side(hun) coalition(ost) lvl(lvl3 lvl4) r(1) rm(99) cost(23.0))}
+{"mp/hun/mid/sturmovik2"			("inf_tier4" side(hun) coalition(ost) lvl(lvl3 lvl4) r(1) rm(99) cost(53.0))}
+{"mp/hun/mid/sturmovik3"			("inf_tier4" side(hun) coalition(ost) lvl(lvl3 lvl4) r(1) rm(99) cost(18.0))} 
+{"mp/hun/mid/sturmovik4"			("inf_tier4" side(hun) coalition(ost) lvl(lvl3 lvl4) r(1) rm(99) cost(58.0))}
+{"mp/hun/mid/sturmovik2_assist"		("inf_tier4" side(hun) coalition(ost) lvl(lvl3 lvl4) r(1) rm(99) cost(18.0))}
+{"mp/hun/mid/sturmovik4_assist"		("inf_tier4" side(hun) coalition(ost) lvl(lvl3 lvl4) r(1) rm(99) cost(23.0))}
+{"mp/hun/mid/sturmovik_sl"			("inf_tier4" side(hun) coalition(ost) lvl(lvl3 lvl4) r(1) rm(99) cost(28.0))}
+
+{"mp/hun/mid/medic"					("inf_medic" side(hun) coalition(ost) cost(40.0))}
+
+{"mp/hun/mid/officer"				("inf_officer" side(hun) coalition(ost) cost(60.0))}
+
+{"mp/hun/mid/sniper"				("inf_sniper" side(hun) coalition(ost) r(2) rm(99) cost(150.0))}
+

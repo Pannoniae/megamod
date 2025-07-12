@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "fra-us-inf-carbine"}
+	{portrait "fra_late_radioman"}
+	{tags "soldier"}
+      	{nationality fra}
+	{icon "radioman"}
+	{icon_priority 5}
+	{armors
+		{head "cap_fra_radiohead"}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_3")
+		("tier3_standard")
+		("skilled_repair")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "m1_carbine" filled}
+		{item  "ammo 7x33" 150}
+		{item "flaergun" filled}
+		{item "ammo flare" 20}
+		{item "bandage_fra" 3}
+		{in_hands 0}
+	}
+}
+;Cost=14;
+
+

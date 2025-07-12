@@ -1,0 +1,12 @@
+{from "pattern rifle"
+	{filling "ammo 8x50" 5}
+	{entity "berthier_carbine"}
+	{fireSound	"rifle/berthier/"}
+	{fireSoundclose	"rifle/berthier/3p/"}	
+	{reloadSound "kar98"}
+	{calibre 8}
+	{mass 4}
+	("velocity" mps(640))
+	("bolt_action")
+}
+;Cost=5;

@@ -1,0 +1,32 @@
+{breed
+	{behaviour soldier}
+	{skin "pol-2cor-inf"}
+	{portrait "pol_late_soldier3"}
+	{tags "soldier"}
+	{nationality pol}
+	{icon "radioman"}
+	{icon_priority 5}
+	{armors
+		{head "cap_pol_eng_sidecap_radiohead"}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_3")
+		("tier3_standard")
+		("skilled_repair")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "sten_mk2" filled}
+		{item  "ammo 9x19b" 128}
+		{item "flaergun" filled}
+		{item "ammo flare" 20}
+		{item "bandage_pol" 3}
+		{in_hands 0}
+	}
+}
+;Cost=14;
+

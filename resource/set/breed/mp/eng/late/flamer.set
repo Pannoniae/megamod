@@ -1,0 +1,32 @@
+{breed
+	{behaviour soldier}
+	{skin "uk-inf"}
+	{portrait "uk-soldier2"}
+	{tags "soldier"}
+	{nationality eng}
+	{icon "flamer"}
+	{icon_priority 3}
+	{armors
+		{head "helmet_mkii"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "m2_flame_thrower" filled}
+		{item "ammo flame_thrower" 70}
+		{item "bandage" 1}
+		{in_hands 0}
+	}
+}
+;Cost=53;
+
+
+
+

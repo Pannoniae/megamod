@@ -1,0 +1,15 @@
+{from "pattern gun"		;47mm Pak Fr
+	{filling "bullet47_fra"}
+	{fireSound "gun/47mm_sa1937"}
+	{reloadSound "tank/reload_small"}
+	("range_180")
+	{calibre 47}
+	("reload time" seconds(3.5))
+	("velocity m/s" ap(700) apcr(1) he(650) heat(1))
+	("armor health" damage(125))
+	("57_slope_multipliers")
+	{parameters "ap"
+		("penetration" a(72) b(63) c(53) d(46) e(20))
+	}
+	("accuracy_direct" r1(0.82) range_ap(180) range_he(170) range_heat(170))
+}

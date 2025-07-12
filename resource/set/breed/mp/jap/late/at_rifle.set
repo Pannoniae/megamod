@@ -1,0 +1,34 @@
+{breed
+	{behaviour soldier}
+	{skin "jap_smg"}
+	{portrait "jap_soldier2"}
+	{tags "soldier_atr"}
+	{nationality jap}
+	{icon "at_rifle"}
+	{icon_priority 3}
+	{armors
+		{head helmet1_jap}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")
+		("at_rank_3")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "type99rifle_at" filled}
+		{item "ammo rifle_grenade_at" 25}
+		{item "nambu" filled}
+		{item "ammo 8x22" 120}
+		{item "bandage_jap" 3}
+		{item "grenade type3at_a" 1}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}
+;Cost=29;
+

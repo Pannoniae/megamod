@@ -1,0 +1,49 @@
+;SDL
+
+{"mp/hun/early/home_guard"			("inf_tankman" side(hun)  period(early) cost(5.0))}
+{"mp/hun/early/vehicle_supporter"	("inf_tankman" side(hun)  period(early) cost(5.0))}
+{"mp/hun/early/tankman"				("inf_tankman" side(hun)  period(early) cost(4.0))}
+{"mp/hun/early/tankman2"			("inf_tankman" side(hun)  period(early) cost(12.0))}
+{"mp/hun/early/pilot"				("inf_tankman" side(hun)  period(early) cost(0.0))}
+
+{"mp/hun/early/rifle"				("inf_tier1" side(hun) period(early) cost(7.0))} ; rifle
+{"mp/hun/early/smg"		    		("inf_tier1" side(hun) period(early) cost(12.0))} ; smg
+
+{"mp/hun/early/mgun"				("inf_tier2_lite" side(hun) period(early) cost(44.0))} ; has mg
+{"mp/hun/early/mgun2"				("inf_tier2_lite" side(hun) period(early) cost(44.0))} ; has mg
+{"mp/hun/early/rifle2"				("inf_tier2_lite" side(hun) period(early) cost(8.0))}
+{"mp/hun/early/smg2"		    	("inf_tier2_lite" side(hun) period(early) cost(13.0))}
+{"mp/hun/early/mgun_assist"			("inf_tier2_lite" side(hun) period(early) cost(8.0))}
+{"mp/hun/early/mgun2_assist"		("inf_tier2_lite" side(hun) period(early) cost(44.0))} 			   
+
+{"mp/hun/early/at_rifle"			("inf_tier2" side(hun) period(early) cost(49.0))} ; has AT
+{"mp/hun/early/rifle_grenade"		("inf_tier2" side(hun) period(early) cost(5.0))} ; rifle grenade
+{"mp/hun/early/saper"				("inf_tier2" side(hun) period(early) cost(35.0))}
+{"mp/hun/early/flamer"				("inf_tier2" side(hun) period(early) cost(53.0))}
+{"mp/hun/early/ap_miner"			("inf_tier2" side(hun) period(early) cost(35.0))}
+{"mp/hun/early/at_miner"			("inf_tier2" side(hun) period(early) cost(35.0))}
+{"mp/hun/early/gr_launcher"			("inf_tier2" side(hun) period(early) cost(33.0))}
+{"mp/hun/early/squadleader"			("inf_tier2" side(hun) period(early) cost(18.0))}
+
+{"mp/hun/early/elite"				("inf_tier3" side(hun) period(early) cost(13.0))}
+{"mp/hun/early/elite2"				("inf_tier3" side(hun) period(early) cost(48.0))}
+{"mp/hun/early/elite3"				("inf_tier3" side(hun) period(early) cost(18.0))} 
+{"mp/hun/early/elite4"				("inf_tier3" side(hun) period(early) cost(13.0))}
+{"mp/hun/early/elite2_assist"		("inf_tier3" side(hun) period(early) cost(13.0))}
+{"mp/hun/early/elite_sl"			("inf_tier3" side(hun) period(early) cost(23.0))}	
+
+{"mp/hun/early/radioman"			("inf_signaller" side(hun) period(early) cost(200.0))}
+
+{"mp/hun/early/sturmovik"			("inf_tier4" side(hun) period(early) cost(23.0))}
+{"mp/hun/early/sturmovik2"			("inf_tier4" side(hun) period(early) cost(53.0))}
+{"mp/hun/early/sturmovik3"			("inf_tier4" side(hun) period(early) cost(23.0))} 
+{"mp/hun/early/sturmovik4"			("inf_tier4" side(hun) period(early) cost(58.0))}
+{"mp/hun/early/sturmovik2_assist"	("inf_tier4" side(hun) period(early) cost(18.0))}
+{"mp/hun/early/sturmovik4_assist"	("inf_tier4" side(hun) period(early) cost(23.0))}
+{"mp/hun/early/sturmovik_sl"		("inf_tier4" side(hun) period(early) cost(28.0))}																				
+
+{"mp/hun/early/medic"				("inf_medic" side(hun) period(early) cost(40.0))}
+
+{"mp/hun/early/officer"				("inf_officer" side(hun) period(early) cost(125.0))}
+
+{"mp/hun/early/sniper"				("inf_sniper" side(hun) period(early) cost(151.0))}

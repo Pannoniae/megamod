@@ -1,0 +1,35 @@
+{breed
+	{behaviour soldier}
+	{skin "ita-rsi-mas-rfl"}
+	{portrait "ita_elite4"}
+	{icon "stormtrooper"}
+	{icon_priority 2}
+	{tags "soldier"}
+	{nationality ita}
+	{armors
+		{head helmet_ita_m33_mas}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_4")
+		("tier4_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "panzershreck_54 weapon" filled}
+		{item "panzershreck ammo" 5.5 0.5}
+		{item "mab_38a" filled}
+		{item "ammo 9x19b" 360}
+		{item "bandage_ita" 4}
+		{item "grenade oto_mod35" 2}
+		{item "grenade breda42at" 1}
+		{item "grenade ccm34smoke" 1}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+   }
+}
+;Cost=63;
+

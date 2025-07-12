@@ -1,0 +1,31 @@
+{breed
+	{behaviour soldier}
+	{skin "pol-2cor-inf"}
+	{portrait "pol_late_soldier2"}
+	{tags "soldier_atr_grenade"}
+	{nationality pol}	
+	{icon "gr_launcher"}
+	{icon_priority 2}
+	{armors
+		{head "helmet_pol_mkii"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_3")
+		("tier3_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "mortar_mkvii" filled}
+		{item "ammo mortar50_eng" 16}
+		{item "bandage_pol" 3}
+		{item "sandbag_kit" 1}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}
+;Cost=33;
+

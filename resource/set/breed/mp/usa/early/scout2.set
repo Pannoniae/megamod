@@ -1,0 +1,34 @@
+{breed
+	{behaviour soldier}
+	{skin "us-inf-rfl"}
+	{portrait "us-elite4"}
+	{tags "soldier"}
+	{nationality usa}
+	{icon "scout"}
+	{icon_priority 5}
+	{armors
+		{head "cap_jeepcap"}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_4")
+		("at_rank_3")
+
+		("tier4_recon")
+	}
+	{inventory
+		{item "thompson_m1928a1_30" filled}
+		{item "ammo 11x23" 180}
+	    {item "dynamite" 1}	
+		{item "bandage" 5}
+		{item "grenade mk2" 4}
+		{item "smoke grenade" 3}
+		{item "grenade molotov_cocktail" 2}
+		{item "knife_union" 1}
+		{item "matchbox" 1}
+		{item "wirecutters"}
+		{in_hands 0}
+	}
+}
+;Cost=23;
+

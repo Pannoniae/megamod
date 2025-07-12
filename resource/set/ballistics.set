@@ -1,0 +1,95 @@
+; Profiles for various weapon classes. Defines how the damage to human health is adjusted over distance.
+; 1st value is distance (weapon range multiplied by value)(example: weapon range 100m & value 0.5 = 50m)
+; 2nd value is damage (weapon damage multiplied by value)(example: weapon damage 50 & value 0.5 = -25 health)
+;	{curve "example"
+;		{0.75	0.5}		at 75% of weapons max range, it does 50% of defined damage from weapon file
+
+{ballistics
+	{curve "bullet"			;// bolt action rifles with increased damage at close range
+		{0.1	2.00}		;// 6m   250d
+		{0.2	1.50}		;// 12m  140d
+		{0.3	1.00}		;// 36m  70d
+		{0.5	1.00}		;// 60m  46d
+		{1.0	0.5}		;// 108m 20d
+		{2.0	0.2}		;// 240m 13d
+	}
+
+	{curve "bullet_sniper"	;// sniper rifles
+		{0.05	2.00}		;// 6m   250d
+		{0.10	2.00}		;// 13m  140d
+		{0.3	2.00}		;// 36m  70d
+		{0.5	2.00}		;// 65m  46d
+		{1.0	1.00}		;// 130m 20d
+		{1.5	0.50}		;// 240m 15d
+	}
+
+	{curve "autorifle"		;// automatic, semi-automatic, battle, damage 70
+		{0.1	2.00}		;// 6m   210d
+		{0.2	1.50}		;// 12m  126d
+		{0.3	1.00}		;// 36m  63d
+		{0.5	0.9}		;// 60m  44d
+		{1.0	0.4}		;// 108m 20d
+		{2.0	0.2}		;// 240m 13d
+	}
+
+	{curve "assaultrifle"	;// assault rifles (stg), damage 65
+		{0.1	2.00}		;// 6m   140d
+		{0.2	1.50}		;// 12m  98d
+		{0.3	0.95}		;// 40m  55d
+		{0.5	0.85}		;// 50m  36d
+		{1.0	0.35}		;// 100m 20d
+		{2.0	0.15}		;// 200m 10d
+	}
+
+	{curve "bullet_mg"		;// machine guns, damage 80
+		{0.05	1.80}		;// 6m    100d
+		{0.2	1.50}		;// 22m   68d
+		{0.5	0.95}		;// 54m   44d
+		{1.0	0.35}		;// 120m  28d
+		{2.0	0.25}		;// 240m  13.6d
+	}
+
+	{curve "bullet_hmg"		;// heavy machine guns, damage 160
+		{0.07	1.50}		;// 10m   200d
+		{0.2	1.25}		;// 25m   136d
+		{0.5	1.00}		;// 70m   88d
+		{1.0	0.5}		;// 140m  64d
+		{2.0	0.3}		;// 280m  24d
+	}
+
+	{curve "bullet_smg"		;// sub-machine guns, damage 55
+		{0.0	2.00}		;// 0m   90d
+		{0.25	1.00}		;// 20m  55d
+		{0.5	0.50}		;// 40m  32d
+		{1.0	0.15}		;// 80m  11d
+		{1.5	0.10}		;// 120m 6d
+	}
+
+	{curve "bullet_pistol"	;// pistols
+		{0.05	1.5}
+		{0.2	1.0}
+		{0.5	0.5}
+		{1.0	0.1}
+		{2.0	0.1}
+	}
+
+	{curve "shotgun"
+		{0.1	5.0}
+		{0.3	3.0}
+		{0.5	1.0}
+		{1.0	0.75}
+		{2.0	0.2}
+	}
+
+	{curve "gun_autocannon"	;// 20-25mm auto cannons
+		{0		1.5}
+		{0.5	1.25}
+		{1		1.0}
+		{2		0.75}
+	}
+
+	{curve "gun_std"		;// all other weapons / cannons
+		{0		1.0}
+		{1		1.0}
+	}
+}

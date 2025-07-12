@@ -1,0 +1,433 @@
+;SDL
+
+;////////////////// INSTRUCTIONS //////////////////
+;Buttons go as follows, displayed in-game in this order:
+
+; inf1       - infantry squads
+; inf2       - infantry single units
+; empl       - Emplacements, AA, AT, Mortars, Howitzers
+; vehicles   - vehicles, armoured cars, supplies
+; tanks      - main battle tanks, TDs, SPGs
+; doctrine   - specific doctrine setups
+
+; TEMP: Note all levels have been brought down to 1 to remove unit locks.
+; Squads currently have an MP cost of 0 - their cost is currently calculated as the sum of their soldiers cost, see inf_ger.set
+; Check ../settings.set for syntax instructions!!
+; unit limits per game are not defined here but in gamemode presets
+
+;user defined set tags that should be featured on units:
+;all artillery heavyart cannon mediumcan heavycan light medium heavy infantry supply
+;these tags allow player to disable certain sets for custom setups like "no heavy artillery"
+;//////////////////////////////////////////////////
+
+
+;_________________________________________________
+;|             inf1                               |
+;|________________________________________________|
+
+("squad_with2types_conquest" side(jap) coalition(axis) period(mid) min_stage(1) max_stage(4)  name(squad_light)				c1(rifle:9) c2(squadleader:1))
+("squad_with2types_conquest" side(jap) coalition(axis) period(mid) min_stage(1) max_stage(99) name(single_at)				c1(at_rifle:1) c2(at_rifle2:1))
+("squad_with1types_conquest" side(jap) coalition(axis) period(mid) min_stage(1) max_stage(99) name(single_medic)			c1(medic:2))
+
+("squad_with5types_conquest" side(jap) coalition(axis) period(mid) min_stage(2) max_stage(99) name(squad_regular)			c1(rifle2:6) c2(smg2:1) c3(mgun:1) c4(mgun_assist:1) c5(squadleader:1))
+("squad_with4types_conquest" side(jap) coalition(axis) period(mid) min_stage(2) max_stage(99) name(squad_regular_heavy) 	c1(rifle2:6) c2(gr_launcher:2) c3(mgun:1) c4(mgun_assist:1))
+
+("squad_with3types_conquest" side(jap) coalition(axis) period(mid) min_stage(2) max_stage(99) name(squad_shanghai)			c1(shanghai_rifle:8) c2(shanghai_lmg:1) c3(shanghai_smg:1))
+
+
+
+("squad_with1types_conquest" side(jap) coalition(axis) period(mid) min_stage(7) max_stage(99) name(squad_kamikaze)		c1(kamikaze:4))
+("squad_with6types_conquest" side(jap) coalition(axis) period(mid) min_stage(3) max_stage(99) name(squad_pionier)			c1(elite:4) c2(elite2:1) c3(elite4:2) c4(elite3:1) c5(elite3_assist:1) c6(elite_sl:1))
+("squad_with5types_conquest" side(jap) coalition(axis) period(mid) min_stage(3) max_stage(99) name(squad_stormtrooper)	c1(sturmovik:5) c2(sturmovik3:2) c3(sturmovik2:1) c4(sturmovik2_assist:1) c5(sturmovik_sl:1))
+("squad_with2types_conquest" side(jap) coalition(axis) period(mid) min_stage(4) max_stage(99) name(squad_scout)				c1(scout:1) c2(scout2:3))
+("squad_with3types_conquest" side(jap) coalition(axis) period(mid) min_stage(5) max_stage(99) name(squad_imperialguard) c1(imperialguard1:5) c2(imperialguard2:4) c3(imperialguard3:1))
+("squad_with6types_conquest" side(jap) coalition(axis) period(mid) min_stage(5) max_stage(99) name(squad_snlf_elite)  c1(snlf_spec_ops_rifle:5) c2(snlf_spec_ops_mgun:1) c3(snlf_spec_ops_smg:1) c4(snlf_spec_ops_at:1) c5(snlf_spec_ops_smg:1) c6(snlf_spec_ops_grenade:1))
+
+{"mechanized_infantry_jap"
+	("squad_vehicle6"		 side(jap) coalition(axis) period(mid) min_stage(4) max_stage(99) cw(3) cp(5) vehicle(type1_ho-ki_mg) crew1(elite:4) crew2(elite2:2) crew3(elite3:1) crew4(elite3_assist:1) crew5(elite_at:1) crew6(elite_sl:1)) 
+}
+
+
+;_________________________________________________
+;|             inf2                               |
+;|________________________________________________|
+
+("squad_with2types_conquest" side(jap) coalition(axis) period(mid) min_stage(1) max_stage(99) name(single_auxiliary)  	c1(rifle2:2) c2(smg2:1))
+("squad_with2types_conquest" side(jap) coalition(axis) period(mid) min_stage(2) max_stage(99) name(single_mortar)		c1(gr_launcher:1) c2(at_rifle2:1))
+("squad_with2types_conquest" side(jap) coalition(axis) period(mid) min_stage(2) max_stage(99) name(single_mg) 			c1(mgun:1) c2(mgun_assist:1))
+("squad_with2types_conquest" side(jap) coalition(axis) period(mid) min_stage(2) max_stage(99) name(single_riflegrenade)	c1(rifle_grenade:1) c2(at_rifle2:1))
+("squad_with1types_conquest" side(jap) coalition(axis) period(mid) min_stage(2) max_stage(99) name(single_ap_miner)		c1(ap_miner:2))
+("squad_with1types_conquest" side(jap) coalition(axis) period(mid) min_stage(3) max_stage(99) name(single_at_miner)		c1(at_miner:2))
+("squad_with1types_conquest" side(jap) coalition(axis) period(mid) min_stage(3) max_stage(99) name(single_flamer)		c1(flamer:1))
+("squad_with1types_conquest" side(jap) coalition(axis) period(mid) min_stage(3) max_stage(99) name(single_engineer)		c1(saper:2))
+("squad_with2types_conquest" side(jap) coalition(axis) period(mid) min_stage(7) max_stage(99) name(single_engineer_arty) c1(engineer_arty:1) c2(vehicle_supporter:1) )
+("squad_with2types_conquest" side(jap) coalition(axis) period(mid) min_stage(0) max_stage(0)  name(single_tankman)		c1(tank_commander:1) c2(tankman:3))
+("squad_with1types_conquest" side(jap) coalition(axis) period(mid) min_stage(3) max_stage(99) name(single_sniper)		c1(sniper:1))
+("squad_with1types_conquest" side(jap) coalition(axis) period(mid) min_stage(3) max_stage(99) name(single_officer)		c1(officer:1))
+
+;_________________________________________________
+;|                  Emplacements                  |
+;|________________________________________________|
+
+
+{"inf_crate_jap"
+	("vehicle" side(jap) coalition(axis) period(mid) min_stage(1) max_stage(99) cw(0) cp(0) crew(rifle:2))
+	{cost 50}
+}
+
+;AUTOMATIC WEAPONRY
+{"heavy_mg_type92_lewis"
+	("emplacement" side(jap) coalition(axis) period(mid) min_stage(1) max_stage(99) cw(0) cp(0) crew(vehicle_supporter:0) condition(barricade) action(heavy_mg_type92_lewis))
+	{cost 85}{not_for_player_sale 1}
+}
+{"heavy_mg_20mm_type_2"
+	("emplacement" side(jap) coalition(axis) period(mid) min_stage(3) max_stage(99) cw(0) cp(6) cd(5) crew(vehicle_supporter:0) condition(barricade) action(20mm_type_2))
+	{cost 190}{not_for_player_sale 1}
+}
+{"heavy_mg_75mm_type_88"
+	("emplacement" side(jap) coalition(axis) period(mid) min_stage(2) max_stage(99) cw(0) cp(12) cd(5) crew(vehicle_supporter:0) condition(barricade) action(75mm_type_88))
+	{cost 360}{not_for_player_sale 1}
+}
+{"type92_stan"
+	("vehicle" side(jap) coalition(axis) period(mid) min_stage(1) max_stage(99) cw(2) cp(0) crew(vehicle_supporter:2))
+	{cost 75}
+}
+{"7_7mm_type92_lewis"
+	("vehicle" side(jap) coalition(axis) period(mid) min_stage(1) max_stage(99) cw(2) cp(0) crew(vehicle_supporter:2))
+	{cost 80}
+}
+{"13mm_type_93"
+	("vehicle" side(jap) coalition(axis) period(mid) min_stage(2) max_stage(99) cw(0) cp(3) crew(vehicle_supporter:2))
+	{cost 150}
+}
+{"20mm_type_98"
+	("vehicle" side(jap) coalition(axis) period(mid) min_stage(3) max_stage(99) cw(0) cp(6) crew(vehicle_supporter:2))
+	{cost 180}
+}
+{"20mm_type_2"
+	("vehicle" side(jap) coalition(axis) period(mid) min_stage(5) max_stage(99) cw(0) cp(6) crew(vehicle_supporter:2))
+	{cost 190}
+}
+
+
+; AT WEAPONRY
+{"20mm_type_97"
+	("vehicle" side(jap) coalition(axis) period(mid) min_stage(1) max_stage(99) cw(2) cp(3) crew(vehicle_supporter:2))
+	{cost 150}
+}
+{"37mm_type_11"
+	("vehicle" side(jap) coalition(axis) period(mid) min_stage(1) max_stage(99) cw(0) cp(6) crew(vehicle_supporter:2))
+	{cost 160}
+}
+{"37mm_type_94"
+	("vehicle" side(jap) coalition(axis) period(mid) min_stage(1) max_stage(9) cw(0) cp(6) crew(vehicle_supporter:2))
+	{cost 180}
+}
+{"47mm_type_1"
+	("vehicle" side(jap) coalition(axis) period(mid) min_stage(5) max_stage(99) cw(0) cp(6) crew(vehicle_supporter:4))
+	{cost 200}
+}
+{"57mm_type_2"
+	("vehicle" side(jap) coalition(axis) period(mid) min_stage(7) max_stage(12) cw(0) cp(6) crew(vehicle_supporter:4))
+	{cost 230}
+}
+{"75mm_type_88"
+	("vehicle" side(jap) coalition(axis) period(mid) min_stage(3) max_stage(99) cw(0) cp(12) crew(vehicle_supporter:4))
+	{cost 360}
+}
+{"75mm_type_90"
+	("vehicle" side(jap) coalition(axis) period(mid) min_stage(3) max_stage(99) cw(0) cp(16) crew(vehicle_supporter:4))
+	{cost 380}
+}
+{"75mm_type_4"
+	("vehicle" side(jap) coalition(axis) period(mid) min_stage(7) max_stage(99) cw(0) cp(21) crew(vehicle_supporter:2))
+	{cost 600}
+}
+{"88mm_type_99"
+	("vehicle" side(jap) coalition(axis) period(mid) min_stage(4) max_stage(99) cw(0) cp(26) crew(vehicle_supporter:4))
+	{cost 620}
+}
+
+;HOWITZERS
+{"70mm_type_92"
+	("vehicle" side(jap) coalition(axis) period(mid) min_stage(1) max_stage(99) cw(0) cp(10) crew(vehicle_supporter:4))
+	{cost 290}
+}
+{"75mm_type_41"
+	("vehicle" side(jap) coalition(axis) period(mid) min_stage(1) max_stage(99) cw(0) cp(12) crew(vehicle_supporter:4))
+	{cost 310}
+}
+{"81mm_brandt_jap"
+	("vehicle" side(jap) coalition(axis) period(mid) min_stage(1) max_stage(99) cw(0) cp(8) crew(vehicle_supporter:2))
+	{cost 250}
+}
+{"150mm_type_97"
+	("vehicle" side(jap) coalition(axis) period(mid) min_stage(5) max_stage(99) cw(0) cp(16) crew(vehicle_supporter:2))
+	{cost 400}
+}
+{"200mm_type_4"
+	("vehicle" side(jap) coalition(axis) period(mid) min_stage(7) max_stage(99) cw(0) cp(16) crew(vehicle_supporter:2))
+	{cost 550}
+}
+{"105mm_type_91"
+	("vehicle" side(jap) coalition(axis) period(mid) min_stage(3) max_stage(99) cw(0) cp(21) crew(vehicle_supporter:4))
+	{cost 700}
+}
+{"105mm_type_92"
+	("vehicle" side(jap) coalition(axis) period(mid) min_stage(3) max_stage(99) cw(0) cp(21) crew(vehicle_supporter:4))
+	{cost 750}
+}
+{"120mm_type_38"
+	("vehicle" side(jap) coalition(axis) period(mid) min_stage(3) max_stage(9) cw(0) cp(21) crew(vehicle_supporter:4))
+	{cost 750}
+}
+{"150mm_type_96"
+	("vehicle" side(jap) coalition(axis) period(mid) min_stage(6) max_stage(99) cw(0) cp(30) crew(vehicle_supporter:4))
+	{cost 800}
+}
+{"type4_ha-to"
+	("vehicle2" side(jap) coalition(axis) period(mid) min_stage(10) max_stage(99) cw(4) cp(40) crew1(tankman:2) crew2(vehicle_supporter:3))
+	{cost 1000}
+}
+;_________________________________________________
+;|               Wheeled vehicles                 |
+;|________________________________________________|
+
+
+{"type94"
+	("vehicle"  side(jap) coalition(axis) period(mid) min_stage(1) max_stage(99) cw(1) cp(2) crew(vehicle_supporter:1))
+	{cost 20}
+}
+{"type97_sidecar"
+	("vehicle"  side(jap) coalition(axis) period(mid) min_stage(1) max_stage(99) cw(1) cp(2) crew(vehicle_supporter:3))
+	{cost 40}
+}
+{"type94inf"
+	("vehicle"  side(jap) coalition(axis) period(mid) min_stage(1) max_stage(99) cw(1) cp(5) crew(vehicle_supporter:2))
+	{cost 50}
+}
+{"type95"
+	("vehicle"  side(jap) coalition(axis) period(mid) min_stage(1) max_stage(99) cw(1) cp(2) crew(rifle:3))
+	{cost 70}
+}
+{"type94_fuel"
+	("vehicle"  side(jap) coalition(axis) period(mid) min_stage(2) max_stage(99) cw(1) cp(5) crew(vehicle_supporter:1))
+	{cost 90}
+}
+{"type94art"
+	("vehicle"  side(jap) coalition(axis) period(mid) min_stage(2) max_stage(99) cw(1) cp(5) crew(vehicle_supporter:2))
+	{cost 190}
+}
+{"type94eng"
+	("vehicle2" side(jap) coalition(axis) period(mid) min_stage(2) max_stage(99) cw(1) cp(5) crew1(vehicle_supporter:1) crew2(saper:1))
+	{cost 80}
+}
+{"type1_ho-ki"
+	("vehicle"  side(jap) coalition(axis) period(mid) min_stage(3) max_stage(99) cw(2) cp(2) crew(vehicle_supporter:1))
+	{cost 80}
+}
+{"type1_ho-ki_mg" 
+	("vehicle2" side(jap) coalition(axis) period(mid) min_stage(2) max_stage(99) cw(2) cp(4) crew1(tankman:1) crew2(vehicle_supporter:2))
+	{cost 120}
+}
+{"type1_ho-ha"
+	("vehicle2" side(jap) coalition(axis) period(mid) min_stage(8) max_stage(99) cw(2) cp(4) crew1(tankman:1) crew2(vehicle_supporter:2))
+	{cost 150}
+}
+{"type87"
+	("vehicle2" side(jap) coalition(axis) period(mid) min_stage(2) max_stage(5) cw(2) cp(4) crew1(tankman:2) crew2(tankman2:1))
+	{cost 180}
+}
+{"type87_com"
+	("vehicle2" side(jap) coalition(axis) period(mid) min_stage(2) max_stage(5) cw(2) cp(-12) crew1(tankman:2) crew2(officer:1))
+	{cost 200}
+}
+{"type93"
+	("vehicle2" side(jap) coalition(axis) period(mid) min_stage(3) max_stage(99) cw(2) cp(4) crew1(tankman:4) crew2(tankman2:1))
+	{cost 200}
+}
+{"type94aa"
+	("vehicle2" side(jap) coalition(axis) period(mid) min_stage(3) max_stage(9) cw(2) cp(6) crew1(rifle:2) crew2(vehicle_supporter:2))
+	{cost 230}
+}
+{"toyota_rocket"
+	("vehicle" side(jap) coalition(axis) period(mid) min_stage(9) max_stage(99) cw(2) cp(30) crew(vehicle_supporter:2))
+	{cost 1000}
+}
+
+;_________________________________________________
+;|        Main Battle Tanks and SPGs              |
+;|________________________________________________|
+
+;ARMOURED RECOVERY VEHICLE
+
+{"type97_eng"
+	("vehicle" side(jap) coalition(axis) period(mid) min_stage(3) max_stage(99) cw(2) cp(4) crew(vehicle_supporter:2))
+	{cost 120}
+}
+
+
+;LIGHT
+{"type94_te-ke"
+	("vehicle2" side(jap) coalition(axis) period(mid) min_stage(2) max_stage(4) cw(4) cp(6) crew1(tankman:1) crew2(tankman2:1))
+	{cost 130}
+}
+{"renault_otsu"
+	("vehicle2" side(jap) coalition(axis) period(mid) min_stage(2) max_stage(6) cw(4) cp(10) crew1(tankman:1) crew2(tankman2:1))
+	{cost 210}
+}
+{"type97_te-ke"
+	("vehicle2" side(jap) coalition(axis) period(mid) min_stage(3) max_stage(9) cw(4) cp(12) crew1(tankman:1) crew2(tankman2:1))
+	{cost 240}
+}
+{"type95_ha-go"
+	("vehicle2" side(jap) coalition(axis) period(mid) min_stage(3) max_stage(9) cw(4) cp(12) crew1(tankman:2) crew2(tankman2:1))
+	{cost 250}
+}
+{"type4_ke-nu"
+	("vehicle2" side(jap) coalition(axis) period(mid) min_stage(7) max_stage(99) cw(4) cp(16) crew1(tankman:2) crew2(tankman2:1))
+	{cost 280}
+}
+
+;MEDIUM
+{"type97_shi-ki"
+	("vehicle2" side(jap) coalition(axis) period(mid) min_stage(6) max_stage(14) cw(6) cp(16) crew1(tankman:3) crew2(tankman2:1))
+	{cost 310}
+}
+{"type89_chi-ro"
+	("vehicle2" side(jap) coalition(axis) period(mid) min_stage(3) max_stage(4) cw(6) cp(16) crew1(tankman:3) crew2(tankman2:1))
+	{cost 320}
+}
+{"type89_i-go"
+	("vehicle2" side(jap) coalition(axis) period(mid) min_stage(4) max_stage(7) cw(6) cp(16) crew1(tankman:3) crew2(tankman2:1))
+	{cost 320}
+}
+{"type97_chi-ha"
+	("vehicle2" side(jap) coalition(axis) period(mid) min_stage(3) max_stage(10) cw(6) cp(20) crew1(tankman:3) crew2(tankman2:1))
+	{cost 340}
+}
+{"type97_shinhoto_47mm"
+	("vehicle2" side(jap) coalition(axis) period(mid) min_stage(6) max_stage(99) cw(6) cp(25) crew1(tankman:4) crew2(tankman2:1))
+	{cost 350}
+}
+{"type1_chi-he"
+	("vehicle2" side(jap) coalition(axis) period(mid) min_stage(5) max_stage(99) cw(6) cp(25) crew1(tankman:4) crew2(tankman2:1))
+	{cost 355}
+}
+{"type1_ho-i"
+	("vehicle2" side(jap) coalition(axis) period(mid) min_stage(5) max_stage(99) cw(6) cp(25) crew1(tankman:3) crew2(tankman2:1))
+	{cost 380} 
+}
+{"type2_ho-i"
+	("vehicle2" side(jap) coalition(axis) period(mid) min_stage(6) max_stage(99) cw(6) cp(30) crew1(tankman:4) crew2(tankman2:1))
+	{cost 380} 
+}
+{"type97_shinhoto_120mm"
+	("vehicle2" side(jap) coalition(axis) period(mid) min_stage(6) max_stage(99) cw(6) cp(30) crew1(tankman:4) crew2(tankman2:1))
+	{cost 570}
+}
+{"type2_ho-i_kou"
+	("vehicle2" side(jap) coalition(axis) period(mid) min_stage(7) max_stage(99) cw(6) cp(25) crew1(tankman:4) crew2(tankman2:1))
+	{cost 400}  
+}
+{"type3_chi-nu"
+	("vehicle2" side(jap) coalition(axis) period(mid) min_stage(7) max_stage(99) cw(6) cp(25) crew1(tankman:4) crew2(tankman2:1))
+	{cost 400}
+}
+{"type3_chi-nu2"
+	("vehicle2" side(jap) coalition(axis) period(mid) min_stage(9) max_stage(99) cw(6) cp(30) crew1(tankman:4) crew2(tankman2:1))
+	{cost 540}
+}
+;HEAVY
+{"type91_heavy"
+	("vehicle2" side(jap) coalition(axis) period(mid) min_stage(3) max_stage(6) cw(6) cp(20) crew1(tankman:5) crew2(tankman2:1))
+	{cost 400}
+}
+{"type95_ro-go"
+	("vehicle2" side(jap) coalition(axis) period(mid) min_stage(4) max_stage(10) cw(6) cp(20) crew1(tankman:5) crew2(tankman2:1))
+	{cost 500}
+}
+{"type5_chi-ri"
+	("vehicle2" side(jap) coalition(axis) period(mid) min_stage(9) max_stage(99) cw(8) cp(35) crew1(tankman:4) crew2(tankman2:1))
+	{cost 1000}
+}
+
+;SPG
+{"type1_ho-ni1"
+	("vehicle2" side(jap) coalition(axis) period(mid) min_stage(3) max_stage(99) cw(6) cp(25) crew1(tankman:1) crew2(vehicle_supporter:2))
+	{cost 430}
+}
+{"type1_ho-ni2"
+	("vehicle2" side(jap) coalition(axis) period(mid) min_stage(5) max_stage(99) cw(6) cp(25) crew1(tankman:1) crew2(vehicle_supporter:2))
+	{cost 590}
+}
+{"ijn_12cm_spg"
+	("vehicle2" side(jap) coalition(axis) period(mid) min_stage(9) max_stage(99) cw(6) cp(39) crew1(tankman:1) crew2(vehicle_supporter:3))
+	{cost 610}
+}
+{"type4_ho-ro"
+	("vehicle2" side(jap) coalition(axis) period(mid) min_stage(3) max_stage(99) cw(6) cp(36) crew1(tankman:1) crew2(vehicle_supporter:2))
+	{cost 800}
+}
+{"conquest_blank"
+	("vehicle" 	side(jap) coalition() period(mid) min_stage(1) max_stage(99) crew(tankman:0) cw(0) cp(0))
+	{cost 0} {not_for_player_sale 1}
+}
+
+;_______________________________________________
+;|					Aircraft					|
+;|______________________________________________|
+
+{"conquest_ki76"
+	("squad_vehicle" side(jap) coalition(axis) period(mid) min_stage(1) max_stage(99) cw(0) cp(0) crew(pilot:1) vehicle(ki76))
+	{cost 1}
+	{round_multiple 1.0}
+	{action "airstrike:reconnaissance_50"}
+}
+{"conquest_d3a_aichi_50"
+	("squad_vehicle" side(jap) coalition(axis) period(mid) min_stage(1) max_stage(99) cw(0) cp(0) crew(pilot:2) vehicle(d3a_aichi))
+	{cost 2}
+	{round_multiple 1.0}
+	{action "airstrike:sc_50"}
+}
+{"conquest_d3a_aichi"
+	("squad_vehicle" side(jap) coalition(axis) period(mid) min_stage(1) max_stage(99) cw(0) cp(0) crew(pilot:2) vehicle(d3a_aichi))
+	{cost 3}
+	{round_multiple 1.0}
+	{action "airstrike:sc_250_mp"}
+}
+{"d3a_aichi" {tags "conquest conquestonly"} {score 0} {cw 0} {cp 10} {cost 0} {not_for_sale 1}}
+{"ki76" {tags "conquest conquestonly"} {score 0} {cw 0} {cp 8} {cost 0} {not_for_sale 1}}
+
+{"81mm_brandt_jap_mortar_barrage"
+	("squad_vehicle" side(jap) coalition(axis) period(mid)  min_stage(1) max_stage(99) cw(0) cp(0) crew(vehicle_supporter:0) vehicle(81mm_brandt_jap))
+	{cost -248} ;81mm_brandt_jap cost 250 - 248 = 2
+	{round_multiple 1.0}
+	{action "airstrike:conquest_mortar_barrage_80"}
+}
+{"150mm_type_97_mortar_barrage"
+	("squad_vehicle" side(jap) coalition(axis) period(mid)  min_stage(4) max_stage(99) cw(0) cp(0) crew(vehicle_supporter:0) vehicle(150mm_type_97))
+	{cost -397} ;150mm_type_97 cost 400 - 397 = 3
+	{round_multiple 1.0}
+	{action "airstrike:conquest_mortar_barrage_120"}
+}
+
+{"105mm_type_91_smoke_barrage"
+	("squad_vehicle" side(jap) coalition(axis) period(mid)  min_stage(3) max_stage(99) cw(0) cp(0) crew(vehicle_supporter:0) vehicle(105mm_type_91))
+	{cost -698} ;105mm_type_91 cost 700 - 698 = 2
+	{round_multiple 1.0}
+	{action "airstrike:conquest_smoke_barrage_122_rus"}
+}
+{"105mm_type_91_artillery_barrage"
+	("squad_vehicle" side(jap) coalition(axis) period(mid)  min_stage(3) max_stage(99) cw(0) cp(0) crew(vehicle_supporter:0) vehicle(105mm_type_91))
+	{cost -697} ;105mm_type_91 cost 700 - 697 = 3
+	{round_multiple 1.0}
+	{action "airstrike:conquest_artillery_barrage_122_rus"}
+}
+
+{"150mm_type_96_artillery_barrage"
+	("squad_vehicle" side(jap) coalition(axis) period(mid)  min_stage(3) max_stage(99) cw(0) cp(0) crew(vehicle_supporter:0) vehicle(150mm_type_96))
+	{cost -796} ;1150mm_type_96 cost 800 - 796 = 4
+	{round_multiple 1.0}
+	{action "airstrike:conquest_artillery_barrage_152_rus"}
+}

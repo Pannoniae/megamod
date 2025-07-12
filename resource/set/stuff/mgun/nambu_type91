@@ -1,0 +1,16 @@
+{from "pattern mgun"
+	{tag "mgun_light"}
+	{filling "ammo 6x50" 45}
+	{entity "nambu_type91"}
+	{fireSound	"mgun/type11lmg_burst/"}
+	{fireSoundclose	"mgun/type11lmg_burst/3p"}
+	{reloadSound "type99lmg"}
+	{calibre 6.5}
+	{mass 9}
+	("fire rate" rpm(500))
+	("velocity" mps(730))
+	("burst_short")
+	("spreading_low")
+	{rechargeTime 5}
+}
+;Cost=40;

@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "fin_anorak_camo_hood_rifle"}
+	{portrait "fin_ranger"}
+	{icon "sniper"}
+	{icon_priority 0}
+	{nationality fin_sniper}
+	{armors
+		
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_4")("tier4_standard")
+		("stealth")
+		("sniper_vision")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_3")
+	}
+	{inventory
+		{item "mosin_m27_scope" filled}
+		{item "rifle_rus clip ammo" 60 5}
+
+		{item "m36 grenade" 1.25 0.5}
+		{item "molotov_cocktail_fin grenade" 0.75 0.5}
+
+		{item "bandage_fin" 4.5 0.5}
+		{item "knife_fin"}
+
+		{in_hands 0}
+	}
+}

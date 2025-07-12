@@ -1,0 +1,11 @@
+{from "pattern pistol"
+	{filling "ammo 9x17" 7}
+	{entity "beretta34"}
+	{mass 1.075}
+	{fireSound "smallarms/s1/d1/RUS/TT33/"}
+	{fireSoundclose "smallarms/s1/3p/RUS/TT33/"}
+	{reloadSound "tt"}
+	{calibre 9}
+	("velocity" mps(229))
+}
+;Cost=1;

@@ -1,0 +1,84 @@
+;SDL
+
+;{"mp/usaf/mid/home_guard"			("inf_tankman" side(usaf) period(mid) cost(5.0))}
+{"mp/usaf/mid/vehicle_supporter"	("inf_tankman" side(usaf) period(mid) cost(5.0))}
+{"mp/usaf/mid/tankman"				("inf_tankman" side(usaf) period(mid) cost(4.0))}
+{"mp/usaf/mid/tankman2"				("inf_tankman" side(usaf) period(mid) cost(12.0))}
+{"mp/usaf/mid/pilot"				("inf_tankman" side(usaf) period(mid) cost(0.0))}
+
+{"mp/usaf/mid/rifle"				("inf_tier1" side(usaf) period(mid) cost(12.0))} ; semi-auto rifle 
+{"mp/usaf/mid/rifle4"				("inf_tier1" side(usaf) period(mid) cost(7.0))} ; rifle
+{"mp/usaf/mid/smg"		    		("inf_tier1" side(usaf) period(mid) cost(12.0))} ; smg
+
+{"mp/usaf/mid/mgun"					("inf_tier2_lite" side(usaf) period(mid) cost(44.0))} ; has lmg
+{"mp/usaf/mid/mgun2"				("inf_tier2_lite" side(usaf) period(mid) cost(44.0))} ; has mg
+{"mp/usaf/mid/rifle2"				("inf_tier2_lite" side(usaf) period(mid) cost(13.0))} ; semi-auto rifle 
+{"mp/usaf/mid/smg2"		    		("inf_tier2_lite" side(usaf) period(mid) cost(13.0))} ; smg
+{"mp/usaf/mid/flamer2"				("inf_tier2_lite" side(usaf) period(mid) cost(13.0))} ; smg
+{"mp/usaf/mid/mgun_assist"			("inf_tier2_lite" side(usaf) period(mid) cost(13.0))}
+{"mp/usaf/mid/armor_mgun"			("inf_tier2_lite" side(usaf) period(mid) cost(43.0))} ; has lmg
+{"mp/usaf/mid/armor_rifle"			("inf_tier2_lite" side(usaf) period(mid) cost(13.0))} ; semi-auto rifle 	
+
+{"mp/usaf/mid/rifle_grenade"		("inf_tier2" side(usaf) period(mid) cost(29.0))} ; rifle grenade
+{"mp/usaf/mid/saper"				("inf_tier2" side(usaf) period(mid) cost(40.0))} 
+{"mp/usaf/mid/flamer"				("inf_tier2" side(usaf) period(mid) cost(53.0))}
+{"mp/usaf/mid/ap_miner"				("inf_tier2" side(usaf) period(mid) cost(40.0))}
+{"mp/usaf/mid/at_miner"				("inf_tier2" side(usaf) period(mid) cost(40.0))}
+{"mp/usaf/mid/gr_launcher"			("inf_tier2" side(usaf) period(mid) cost(33.0))}
+{"mp/usaf/mid/squadleader"			("inf_tier2" side(usaf) period(mid) cost(18.0))} ; smg
+{"mp/usaf/mid/squadleader2"			("inf_tier2" side(usaf) period(mid) cost(18.0))} ; smg
+{"mp/usaf/mid/bazooker"				("inf_tier2" side(usaf) period(mid) cost(63.0))} ; Bazooker
+{"mp/usaf/mid/bazooker2"			("inf_tier2" side(usaf) period(mid) cost(13.0))} ; smg
+{"mp/usaf/mid/armor_bazooker"		("inf_tier2" side(usaf) period(mid) cost(63.0))}
+{"mp/usaf/mid/armor_grenadier"		("inf_tier2" side(usaf) period(mid) cost(29.0))} ; rifle grenade
+{"mp/usaf/mid/armor_sl"				("inf_tier2" side(usaf) period(mid) cost(18.0))} ; rifle grenade
+
+{"mp/usaf/mid/elite"				("inf_tier3" side(usaf) period(mid) cost(23.0))}  ; semi-auto rifle 
+{"mp/usaf/mid/elite2"				("inf_tier3" side(usaf) period(mid) cost(23.0))}	 ; smg
+{"mp/usaf/mid/elite3"				("inf_tier3" side(usaf) period(mid) cost(53.0))}	 ; mg
+{"mp/usaf/mid/elite4"				("inf_tier3" side(usaf) period(mid) cost(18.0))}	 ; smg
+{"mp/usaf/mid/elite5"				("inf_tier3" side(usaf) period(mid) cost(18.0))}	 ; semi-auto rifle 
+{"mp/usaf/mid/elite6"				("inf_tier3" side(usaf) period(mid) cost(48.0))}	 ; mg
+{"mp/usaf/mid/elite7"				("inf_tier3" side(usaf) period(mid) cost(18.0))}  ; semi-auto rifle
+{"mp/usaf/mid/elite8"				("inf_tier3" side(usaf) period(mid) cost(23.0))}  ; semi-auto rifle
+{"mp/usaf/mid/elite_at"				("inf_tier3" side(usaf) period(mid) cost(68.0))}  ; Bazooker
+{"mp/usaf/mid/elite3_assist"		("inf_tier3" side(usaf) period(mid) cost(23.0))}
+{"mp/usaf/mid/elite6_assist"		("inf_tier3" side(usaf) period(mid) cost(18.0))}
+{"mp/usaf/mid/elite_sl"				("inf_tier3" side(usaf) period(mid) cost(23.0))}
+{"mp/usaf/mid/elite4_sl"			("inf_tier3" side(usaf) period(mid) cost(23.0))}
+{"mp/usaf/mid/scout"				("inf_tier3" side(usaf) period(mid) cost(14.0))}  ; smg
+{"mp/usaf/mid/scout2"				("inf_tier3" side(usaf) period(mid) cost(54.0))}	 ; Bazooker
+{"mp/usaf/mid/elite_d_grenadier"	("inf_tier3" side(usaf) period(mid) cost(38.0))} ; rifle grenade
+{"mp/usaf/mid/elite_grenadier"		("inf_tier3" side(usaf) period(mid) cost(39.0))} ; rifle grenade
+{"mp/usaf/mid/elite5_grenadier"		("inf_tier3" side(usaf) period(mid) cost(34.0))} ; rifle grenade
+{"mp/usaf/mid/paramarine_rfl"		("inf_tier3" side(usaf) period(mid) cost(18.0))}  ; semi-auto rifle 
+{"mp/usaf/mid/paramarine_grenadier"	("inf_tier3" side(usaf) period(mid) cost(34.0))} ; rifle grenade
+{"mp/usaf/mid/paramarine_sl"		("inf_tier3" side(usaf) period(mid) cost(23.0))}
+{"mp/usaf/mid/paramarine_smg"		("inf_tier3" side(usaf) period(mid) cost(18.0))}	 ; smg
+{"mp/usaf/mid/paramarine_mg"		("inf_tier3" side(usaf) period(mid) cost(48.0))}	 ; mg
+{"mp/usaf/mid/paramarine_assist"	("inf_tier3" side(usaf) period(mid) cost(18.0))}
+{"mp/usaf/mid/pathfinder"			("inf_tier3" side(usaf) period(mid) cost(18.0))}  ; semi-auto rifle 
+{"mp/usaf/mid/pathfinder2"			("inf_tier3" side(usaf) period(mid) cost(18.0))}  ; semi-auto rifle 
+{"mp/usaf/mid/pathfinder_sl"		("inf_tier3" side(usaf) period(mid) cost(23.0))}  ; semi-auto rifle 
+
+{"mp/usaf/mid/radioman"				("inf_signaller" side(usaf) period(mid) cost(200.0))}
+
+{"mp/usaf/mid/sturmovik"			("inf_tier4" side(usaf) period(mid) cost(23.0))} ; smg
+{"mp/usaf/mid/sturmovik_at"			("inf_tier4" side(usaf) period(mid) cost(68.0))} ; bazooka + smg
+{"mp/usaf/mid/sturmovik2"			("inf_tier4" side(usaf) period(mid) cost(53.0))} ; mg
+{"mp/usaf/mid/sturmovik3"			("inf_tier4" side(usaf) period(mid) cost(63.0))} ; semi-auto rifle + M18
+{"mp/usaf/mid/sturmovik4"			("inf_tier4" side(usaf) period(mid) cost(23.0))} ; semi-auto rifle
+{"mp/usaf/mid/sturmovik4b"			("inf_tier4" side(usaf) period(mid) cost(23.0))} ; semi-auto rifle
+{"mp/usaf/mid/sturmovik5"			("inf_tier4" side(usaf) period(mid) cost(68.0))} ; bazooka + smg
+{"mp/usaf/mid/sturmovik5b"			("inf_tier4" side(usaf) period(mid) cost(23.0))} ; smg
+{"mp/usaf/mid/sturmovik6"			("inf_tier4" side(usaf) period(mid) cost(53.0))} ; mg
+{"mp/usaf/mid/sturmovik6b"			("inf_tier4" side(usaf) period(mid) cost(23.0))} ; semi-auto rifle
+{"mp/usaf/mid/sturmovik2_assist"	("inf_tier4" side(usaf) period(mid) cost(23.0))}
+{"mp/usaf/mid/sturmovik_sl"			("inf_tier4" side(usaf) period(mid) cost(28.0))}
+{"mp/usaf/mid/sturmovik_grenadier"	("inf_tier4" side(usaf) period(mid) cost(39.0))}	; rifle grenade																		
+
+{"mp/usaf/mid/medic"				("inf_medic" side(usaf) period(mid) cost(40.0))}
+
+{"mp/usaf/mid/officer"				("inf_officer" side(usaf) period(mid) cost(125.0))}
+
+{"mp/usaf/mid/sniper"				("inf_sniper" side(usaf) period(mid) cost(150.0))}

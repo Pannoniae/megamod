@@ -1,0 +1,10 @@
+{from "pattern wp"
+	{tag "shell wp_size1"}
+	{inventory
+		{size 5 1}
+	}
+
+	("wp" cal(75))
+	{mass 12}
+	{entity "shell_75er_wp"}
+}

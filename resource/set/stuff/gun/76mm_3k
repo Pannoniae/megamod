@@ -1,0 +1,19 @@
+{from "pattern gun"			;
+	{filling "bulletrus_76"}
+	{fireSound "gun/gun_75_105"}
+	{fireSoundclose "gun/gun_75_105"}
+	{reloadSound "interior/large/medium_reload_interior"}
+	("range_210")
+	{calibre 76.2}
+	("heavy_aa")
+	("reload time" seconds(6))
+	{aimingTolerance 3}
+
+	("velocity m/s" ap(813) apcr(1) he(813) heat(1))
+	("armor health" damage(200))
+
+	; aphe
+	
+	("penetration_medium" shell(aphebc) range(210) a(119) b(109) c(98) d(88) e(79)) 
+	("accuracy_direct" r1(0.72) range_ap(210) range_he(210) range_heat(180))
+}

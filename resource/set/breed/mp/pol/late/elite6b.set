@@ -1,0 +1,31 @@
+{breed
+	{behaviour soldier}
+	{skin "pol-para-inf"}
+	{portrait "pol_late_elite2"}
+	{tags "soldier"}
+	{nationality pol}
+	{icon "elite6"}
+	{icon_priority 3}
+	{armors
+		{head helmet_pol_para_camo}
+	}
+	{perks
+		(include "ability.inc")
+		("mg_skill_rank_3")
+		("tier3_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "bar" filled}
+		{item "ammo 7x63" 280}
+		{item "bandage_pol" 5}
+		{item "grenade mk1" 2}
+		{item "sandbag_kit" 1}
+		{in_hands 0}
+	}
+}
+;Cost=48;
+

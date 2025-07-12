@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "hun_officer"}
+	{portrait "hun_officer"}
+	{tags "soldier"}
+	{nationality hun}
+	{icon "officers"}
+	{icon_priority 6}
+	{armors
+		{head "fieldcap2_hun"}
+	}
+	{tags "officer"}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_3")
+		("binocular_vision")
+		("tier3_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "frommer_37m" filled}
+		{item "ammo 9x17" 105}
+		{item "knife_ger"}
+		{item "binocular"}
+		{item "bandage_hun" 1}
+		{in_hands 0}
+	}
+}
+;Cost=9;
+

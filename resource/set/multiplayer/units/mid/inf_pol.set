@@ -1,0 +1,64 @@
+;SDL
+
+{"mp/pol/mid/vehicle_supporter"		("inf_tankman" side(pol)  period(mid) cost(5.0))}
+{"mp/pol/mid/tankman"				("inf_tankman" side(pol)  period(mid) cost(4.0))}
+{"mp/pol/mid/tankman2"				("inf_tankman" side(pol)  period(mid) cost(12.0))}
+{"mp/pol/mid/pilot"					("inf_tankman" side(pol)  period(mid) cost(0.0))}
+
+{"mp/pol/mid/rifle"					("inf_tier1" side(pol) period(mid) cost(7.0))} ; rifle
+{"mp/pol/mid/smg"		    		("inf_tier1" side(pol) period(mid) cost(12.0))} ; smg
+
+{"mp/pol/mid/mgun"					("inf_tier2_lite" side(pol) period(mid) cost(44.0))} ; has mg
+{"mp/pol/mid/mgun2"					("inf_tier2_lite" side(pol) period(mid) cost(44.0))} ; has mg
+{"mp/pol/mid/rifle2"				("inf_tier2_lite" side(pol) period(mid) cost(8.0))}
+{"mp/pol/mid/rifle3"				("inf_tier2_lite" side(pol) period(mid) cost(8.0))}
+{"mp/pol/mid/smg2"		    		("inf_tier2_lite" side(pol) period(mid) cost(13.0))}
+{"mp/pol/mid/smg3"		    		("inf_tier2_lite" side(pol) period(mid) cost(10.0))}
+{"mp/pol/mid/flamer2"				("inf_tier2_lite" side(pol) period(mid) cost(13.0))}
+{"mp/pol/mid/at_rifle2"				("inf_tier2_lite" side(pol) period(mid) cost(10.0))}
+{"mp/pol/mid/mgun_assist"			("inf_tier2_lite" side(pol) period(mid) cost(8.0))} 
+{"mp/pol/mid/mgun2_assist"			("inf_tier2_lite" side(pol) period(mid) cost(8.0))} 
+
+{"mp/pol/mid/rifle_grenade"			("inf_tier2" side(pol) period(mid) cost(29.0))} ; rifle grenade
+{"mp/pol/mid/saper"					("inf_tier2" side(pol) period(mid) cost(40.0))}
+{"mp/pol/mid/flamer"				("inf_tier2" side(pol) period(mid) cost(53.0))}
+{"mp/pol/mid/ap_miner"				("inf_tier2" side(pol) period(mid) cost(40.0))}
+{"mp/pol/mid/at_miner"				("inf_tier2" side(pol) period(mid) cost(40.0))}
+{"mp/pol/mid/gr_launcher"			("inf_tier2" side(pol) period(mid) cost(33.0))}
+{"mp/pol/mid/squadleader"			("inf_tier2" side(pol) period(mid) cost(18.0))}
+{"mp/pol/mid/squadleader2"			("inf_tier2" side(pol) period(mid) cost(33.0))}
+{"mp/pol/mid/bazooker"				("inf_tier2" side(pol) period(mid) cost(63.0))} ; Bazooker
+{"mp/pol/mid/bazooker2"				("inf_tier2" side(pol) period(mid) cost(13.0))} ; 
+{"mp/pol/mid/at_rifle"				("inf_tier2" side(pol) period(mid) cost(55.0))} ; has AT
+
+{"mp/pol/mid/elite"					("inf_tier3" side(pol) period(mid) cost(23.0))}
+{"mp/pol/mid/elite2"				("inf_tier3" side(pol) period(mid) cost(18.0))}
+{"mp/pol/mid/elite3"				("inf_tier3" side(pol) period(mid) cost(53.0))}
+{"mp/pol/mid/elite4"				("inf_tier3" side(pol) period(mid) cost(23.0))}
+{"mp/pol/mid/elite5"				("inf_tier3" side(pol) period(mid) cost(18.0))}
+{"mp/pol/mid/elite6"				("inf_tier3" side(pol) period(mid) cost(53.0))}
+{"mp/pol/mid/elite_at"				("inf_tier3" side(pol) period(mid) cost(68.0))}
+{"mp/pol/mid/elite3_assist"			("inf_tier3" side(pol) period(mid) cost(23.0))}
+{"mp/pol/mid/elite6_assist"			("inf_tier3" side(pol) period(mid) cost(18.0))}
+{"mp/pol/mid/elite_sl"				("inf_tier3" side(pol) period(mid) cost(28.0))}
+{"mp/pol/mid/elite4_sl"				("inf_tier3" side(pol) period(mid) cost(28.0))}														   
+
+{"mp/pol/mid/radioman"				("inf_signaller" side(pol) period(mid) cost(200.0))}
+
+{"mp/pol/mid/sturmovik"				("inf_tier4" side(pol) period(mid) cost(23.0))}
+{"mp/pol/mid/sturmovik2"			("inf_tier4" side(pol) period(mid) cost(53.0))}
+{"mp/pol/mid/sturmovik3"			("inf_tier4" side(pol) period(mid) cost(63.0))} 
+{"mp/pol/mid/sturmovik4"			("inf_tier4" side(pol) period(mid) cost(68.0))}
+{"mp/pol/mid/sturmovik4b"			("inf_tier4" side(pol) period(mid) cost(18.0))}
+{"mp/pol/mid/sturmovik5"			("inf_tier4" side(pol) period(mid) cost(68.0))}
+{"mp/pol/mid/sturmovik5b"			("inf_tier4" side(pol) period(mid) cost(23.0))}
+{"mp/pol/mid/sturmovik6"			("inf_tier4" side(pol) period(mid) cost(53.0))}
+{"mp/pol/mid/sturmovik6b"			("inf_tier4" side(pol) period(mid) cost(18.0))}
+{"mp/pol/mid/sturmovik2_assist"		("inf_tier4" side(pol) period(mid) cost(18.0))}
+{"mp/pol/mid/sturmovik_sl"			("inf_tier4" side(pol) period(mid) cost(28.0))}
+
+{"mp/pol/mid/medic"					("inf_medic" side(pol) period(mid) cost(40.0))}
+
+{"mp/pol/mid/officer"				("inf_officer" side(pol) period(mid) cost(125.0))}
+
+{"mp/pol/mid/sniper"				("inf_sniper" side(pol) period(mid) cost(150.0))}

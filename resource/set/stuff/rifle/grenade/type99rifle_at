@@ -1,0 +1,17 @@
+{from "pattern rifle_grenade"
+	{tag "at_rifle" "ap"}
+	{entity "type99rifle_g"}
+	{filling "ammo rifle_grenade_at" 1}
+	{fillingVisible "type2at_ammo"}
+	{fireSound "rifle/type99rifle_shot/"}
+	{fireSoundclose "rifle/type99rifle_shot/3p/"}
+	{reloadSound "mosin"}
+	{calibre 40}
+	{mass 6}
+
+	{range 60 60}
+
+	("penetration" args 50)
+	("armor health" damage(200))
+}
+;Cost=25;

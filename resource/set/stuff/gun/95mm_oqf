@@ -1,0 +1,21 @@
+{from "pattern gun"			; cromwell_mk_vi
+	{filling "bullet95_eng"}
+	{fireSound "gun/gun_75_105_short"}
+	{fireSoundclose "gun/gun_interior/size3"}
+	{reloadSound "interior/large/medium_reload_interior"}
+	("range_190_howitzer")
+	
+	("he_lowarc")
+
+	{calibre 95}
+
+	("reload time" seconds(8))
+
+	("velocity m/s" ap(1) apcr(1) he(220) heat(330))
+	("armor health" damage(200))
+	("90_slope_multipliers")
+
+	; No. 233
+	("penetration_medium" shell(heat) range(190) a(110) b(110) c(110) d(110) e(110))	
+	("accuracy_spg" r1(1.05) range_ap(190) range_he(190) range_heat(190))
+}

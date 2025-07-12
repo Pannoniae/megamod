@@ -1,0 +1,16 @@
+{from "pattern gun"			 ; "bs-75"
+	{filling "bullet75_fra_241r he"}
+	{fireSound "gun/gun_75_105_short"}
+	{fireSoundclose "gun/gun_interior/size3"}
+	{reloadSound "interior/large/medium_reload_interior"}
+	("range_180_howitzer")
+	{calibre 75}
+
+	("reload time" seconds(7))
+
+	("velocity m/s" ap(1) apcr(1) he(230) heat(1))
+	("armor health" damage(200))
+
+	("accuracy_spg" r1(1.20) range_ap(180) range_he(170) range_heat(170))
+	{unlimitedRangeTPC 0}   ;// restrict range in TPC/FPC
+}

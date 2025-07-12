@@ -1,0 +1,18 @@
+{from "pattern gun"			; Type 41
+	{filling "bullet75_jap"}
+	{fireSound "gun/57mm_type97"}
+	{fireSoundclose "gun/gun_75_105_short"}
+	{reloadSound "tank/reload_medium"}
+	("range_180_howitzer")
+	{calibre 75}
+
+	("reload time" seconds(6))
+
+	("velocity m/s" ap(1) apcr(1) he(220) heat(522))
+	("armor health" damage(200))
+	("75_slope_multipliers")
+
+	("penetration_medium" shell(heat) range(180) a(100) b(100) c(100) d(100) e(100))
+	("accuracy_direct" r1(1.25) range_ap(180) range_he(180) range_heat(180))
+	{SpreadTolerance 0}                      
+}

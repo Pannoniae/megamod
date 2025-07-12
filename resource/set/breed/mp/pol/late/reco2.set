@@ -1,0 +1,31 @@
+{breed
+	{skin "uk-commando"}
+	{portrait "eng_officer"}
+	{icon officer}
+	{icon_priority 1}
+	{tags "soldier"}
+	{nationality pol}
+	{tags "officer"}
+	{armors
+		{head "hat_no4"}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_4")
+		("tier4_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "sten_mk2" filled}
+		{item  "ammo 9x19b" 128}
+		{item "bandage_pol" 5}
+		{item "grenade mk1" 1}
+	    {item "smoke grenade" 2}
+		{in_hands 0}
+	}
+}
+;Cost=23;
+

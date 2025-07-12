@@ -1,0 +1,36 @@
+{breed
+	{behaviour soldier}
+	{skin "ita-rsi-inf-mgun"}
+	{portrait "ita_soldier6"}
+	{icon "at_rifle"}
+	{icon_priority 4}
+	{tags "soldier_atr"}
+	{nationality ita}
+	{armors
+		{head "helmet_ita_m33_rsi"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")
+		("at_rank_3")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "polish_ptr_ur" filled}
+		{item "ammo 7x107" 56}
+        {item "it_backpack"}
+		{item "oto_mod35" 1}
+		{item "breda42at"}
+		{item "beretta_m1934" filled}
+		{item "ammo 9x17" 105}
+		{item "small_inf_shovel"}
+		{item "bandage_ita" 1}
+		{in_hands 0}
+	}
+}
+;Cost=44;
+

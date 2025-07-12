@@ -1,0 +1,37 @@
+{breed
+	{behaviour soldier}
+	{skin "us-inf-rfl"}
+	{portrait "us-elite4"}
+	{tags "soldier"}
+	{nationality usa}
+	{icon "scout"}
+	{icon_priority 5}
+	{armors
+		{head "helmet_506th_camo_nco"}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_4")
+
+		("tier4_recon")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "hdm" filled}
+		{item  "ammo 5x15" 150}
+		{item "bandage" 5}
+		{item "grenade mk2" 6}
+		{item "smoke grenade" 2}
+		{item "grenade m14_incen" 2}
+		{item "dynamite" 2}
+		{item "knife_union" 1}
+		{item "matchbox" 1}
+		{item "wirecutters"}
+		{in_hands 0}
+	}
+}
+;Cost=14;
+

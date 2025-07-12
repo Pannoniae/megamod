@@ -1,0 +1,24 @@
+{from "pattern gun"      ; bl45
+	{filling "bullet114_eng" 1}
+	{fireSound "gun/gun_122_152"}
+	{fireSoundclose "gun/gun_122_152"}
+	{reloadSound "tank/reload_howitzer"}
+	("heavy_artillery")
+	{calibre 114}
+	{range 580 580} ;20.4km
+
+	("reload time" seconds(20))
+
+	("velocity m/s" ap(1) apcr(1) he(270) heat(1))
+	("armor health" damage(350))
+	("85-155_slope_multipliers")
+	("accuracy_indirect"   ; // Applies logic for accuracy of indirect weapons over 200m
+		r1(0.95) 				; // Accuracy radius for direct-fire munitions
+		r2(8) 					; // Accuracy radius for indirect fire
+		rmax(28) 				; // Accuracy radius for indirect fire at maximum range
+		range_ap(240) 			; // Range after which accuracy drops to prevent farshooting.
+		range_heat(240) 		; // Range after which accuracy drops to prevent farshooting.
+		range_he(580)			; // Range after which accuracy drops to prevent farshooting.
+	)
+
+}

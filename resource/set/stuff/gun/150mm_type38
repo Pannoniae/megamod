@@ -1,0 +1,14 @@
+{from "pattern gun"			; "Ho-Ro"
+	{tag "agf howitzer"}
+	{filling "bullet150_jap"}
+	{fireSound "gun/150mm_type38"}
+	{fireSoundclose "gun/gun_122_152_short"}
+	{reloadSound "tank/reload_howitzer"}
+	("range_190_howitzer")
+	{calibre 150}
+	("reload time" seconds(22))
+	("velocity m/s" ap(1) apcr(1) he(290) heat(1))
+	("armor health" damage(450))
+	("accuracy_spg" r1(1.25) range_ap(190) range_he(190) range_heat(190))
+    	{unlimitedRangeTPC 0}   ;// restrict range in TPC/FPC
+}

@@ -1,0 +1,36 @@
+{breed
+	{behaviour soldier}
+	{skin "uk-sas-inf"}
+	{portrait "uk-soldier6"}
+	{tags "soldier_pzscheck"}
+	{nationality eng}
+	{icon "elite"}
+	{icon_priority 3}
+	{armors
+		{head "beret_sas"}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_3")
+		("at_rank_3")
+		("tier3_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "weapon piat" filled}
+		{item "sten" filled}
+		{item  "ammo 9x19b" 288}
+		{item "bandage" 3}
+		{item "grenade n73at" 1}
+		{item "ammo piatrocket" 5}
+		{item "wirecutters"}
+		{in_hands 0}
+	}
+}
+;Cost=58;
+
+
+

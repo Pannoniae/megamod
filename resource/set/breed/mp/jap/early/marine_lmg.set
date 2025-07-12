@@ -1,0 +1,31 @@
+{breed
+	{behaviour soldier}
+	{skin "jap_sailor_rifle"}
+	{portrait "jap_marine"}
+	{icon smg}
+	{icon_priority 0}
+	{tags "soldier"}
+	{nationality jap}
+	{armors
+		{head "fieldcap1_jap_navy"}
+	}
+	{perks
+		(include "ability.inc")
+		("mg_skill_rank_3")
+		("tier3_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "type11lmg" filled}	
+		{item "ammo 6x50" 330}
+		{item "bandage_jap" 5}
+		{item "sandbag_kit"}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}
+;Cost=48;
+

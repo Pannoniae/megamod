@@ -1,0 +1,64 @@
+;SDL
+
+{"mp/jap/early/home_guard"			("inf_tankman" side(jap) period(early) cost(5.0))}
+{"mp/jap/early/vehicle_supporter"	("inf_tankman" side(jap) period(early) cost(5.0))}
+{"mp/jap/early/tankman"				("inf_tankman" side(jap) period(early) cost(4.0))}
+{"mp/jap/early/tankman2"			("inf_tankman" side(jap) period(early) cost(12.0))}
+{"mp/jap/early/pilot"				("inf_tankman" side(jap) period(early) cost(0.0))}
+
+{"mp/jap/early/rifle"				("inf_tier1" side(jap) period(early) cost(7.0))} ; rifle
+{"mp/jap/early/smg"		    		("inf_tier1" side(jap) period(early) cost(12.0))} ; smg
+
+{"mp/jap/early/mgun"				("inf_tier2_lite" side(jap) period(early) cost(44.0))} ; has mg
+{"mp/jap/early/rifle2"				("inf_tier2_lite" side(jap) period(early) cost(8.0))}
+{"mp/jap/early/smg2"		    	("inf_tier2_lite" side(jap) period(early) cost(13.0))}
+{"mp/jap/early/flamer2"				("inf_tier2_lite" side(jap) period(early) cost(13.0))}
+{"mp/jap/early/at_rifle2"			("inf_tier2_lite" side(jap) period(early) cost(8.0))}
+{"mp/jap/early/engineer_arty"		("inf_tier2_lite" side(jap) period(early) cost(8.0))} ; has tool
+{"mp/jap/early/mgun_assist"			("inf_tier2_lite" side(jap) period(early) cost(8.0))}
+
+{"mp/jap/early/at_rifle"			("inf_tier2" side(jap) period(early) cost(29.0))} ; has AT
+{"mp/jap/early/rifle_grenade"		("inf_tier2" side(jap) period(early) cost(29.0))} ; rifle grenade
+{"mp/jap/early/saper"				("inf_tier2" side(jap) period(early) cost(35.0))}
+{"mp/jap/early/flamer"				("inf_tier2" side(jap) period(early) cost(53.0))}
+{"mp/jap/early/ap_miner"			("inf_tier2" side(jap) period(early) cost(35.0))}
+{"mp/jap/early/at_miner"			("inf_tier2" side(jap) period(early) cost(35.0))}
+{"mp/jap/early/gr_launcher"			("inf_tier2" side(jap) period(early) cost(33.0))}
+{"mp/jap/early/squadleader"			("inf_tier2" side(jap) period(early) cost(18.0))}
+{"mp/jap/early/squadleader2"		("inf_tier2" side(jap) period(early) cost(18.0))}
+
+{"mp/jap/early/elite"				("inf_tier3" side(jap) period(early) cost(13.0))}
+{"mp/jap/early/elite2"				("inf_tier3" side(jap) period(early) cost(13.0))}
+{"mp/jap/early/elite3"				("inf_tier3" side(jap) period(early) cost(48.0))}
+{"mp/jap/early/elite4"				("inf_tier3" side(jap) period(early) cost(13.0))}
+{"mp/jap/early/elite3_assist"		("inf_tier3" side(jap) period(early) cost(13.0))}
+{"mp/jap/early/elite_sl"			("inf_tier3" side(jap) period(early) cost(23.0))}
+{"mp/jap/early/marine_rifle"		("inf_tier3" side(jap) period(early) cost(13.0))}
+{"mp/jap/early/marine_lmg"			("inf_tier3" side(jap) period(early) cost(48.0))}
+{"mp/jap/early/marine_lmg_assist"	("inf_tier3" side(jap) period(early) cost(13.0))}
+{"mp/jap/early/scout"				("inf_tier3" side(jap) period(early) cost(25.0))}
+{"mp/jap/early/scout2"				("inf_tier3" side(jap) period(early) cost(18.0))}	 
+{"mp/jap/early/imperialguard1"		("inf_tier3" side(jap) period(early) cost(13.0))}
+{"mp/jap/early/imperialguard2"		("inf_tier3" side(jap) period(early) cost(13.0))}
+{"mp/jap/early/imperialguard3"		("inf_tier3" side(jap) period(early) cost(48.0))}
+
+{"mp/jap/early/radioman"			("inf_signaller" side(jap) period(early) cost(200.0))}
+
+{"mp/jap/early/kamikaze"			("inf_tier4" side(jap) period(early) cost(35.0))}
+{"mp/jap/early/sturmovik"			("inf_tier4" side(jap) period(early) cost(18.0))}
+{"mp/jap/early/sturmovik2"			("inf_tier4" side(jap) period(early) cost(53.0))}
+{"mp/jap/early/sturmovik3"			("inf_tier4" side(jap) period(early) cost(25.0))} 
+{"mp/jap/early/sturmovik4"			("inf_tier4" side(jap) period(early) cost(18.0))}
+{"mp/jap/early/sturmovik4b"			("inf_tier4" side(jap) period(early) cost(18.0))}
+{"mp/jap/early/sturmovik5"			("inf_tier4" side(jap) period(early) cost(23.0))}
+{"mp/jap/early/sturmovik5b"			("inf_tier4" side(jap) period(early) cost(23.0))}
+{"mp/jap/early/sturmovik6"			("inf_tier4" side(jap) period(early) cost(53.0))}
+{"mp/jap/early/sturmovik6b"			("inf_tier4" side(jap) period(early) cost(18.0))}
+{"mp/jap/early/sturmovik2_assist"	("inf_tier4" side(jap) period(early) cost(18.0))}
+{"mp/jap/early/sturmovik_sl"		("inf_tier4" side(jap) period(early) cost(30.0))}		 
+
+{"mp/jap/early/medic"				("inf_medic" side(jap) period(early) cost(40.0))}
+
+{"mp/jap/early/officer"				("inf_officer" side(jap) period(early) cost(125.0))}
+
+{"mp/jap/early/sniper"				("inf_sniper" side(jap) period(early) cost(150.0))}

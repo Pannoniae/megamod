@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "ita-re-para-mgun"}
+	{portrait "ita_elite1"}
+	{icon "elite"}
+	{icon_priority 3}
+	{tags "soldier"}
+	{nationality ita}
+	{armors
+		{head helmet_ita_para}
+	}
+	{perks
+		(include "ability.inc")
+		("mg_skill_rank_3")
+		("tier3_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "breda_30" filled}
+		{item "ammo 6x52" 360}
+		{item "it_backpack"}
+		{item "bandage_ita" 4}
+		{item "oto_mod35"}
+		{item "tipo_l"}
+		{item "knife_ita"}
+		{in_hands 0}
+	}
+}
+;Cost=48;
+

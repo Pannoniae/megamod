@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "ita-re-inf-mgun"}
+	{portrait "ita_soldier4"}
+	{icon "mg"}
+	{icon_priority 3}
+	{tags "soldier"}
+	{nationality ita}
+	{armors
+		{head helmet_ita_m33}
+	}
+	{perks
+		(include "ability.inc")
+		("mg_skill_rank_2")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "breda_30" filled}
+		{item "beretta_m1934" filled}
+		{item "ammo 6x52" 195}
+		{item "ammo 9x17" 105}
+		{item "it_backpack"}
+		{item "bandage_ita" 2}
+		{item "sandbag_kit"}
+		{in_hands 0}
+	}
+}
+;Cost=44;
+

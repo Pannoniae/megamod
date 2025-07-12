@@ -1,0 +1,35 @@
+{breed
+	{behaviour soldier}
+	{skin "hun-elite-rfl"}
+	{portrait "hun_elite1"}
+	{tags "soldier"}
+	{nationality hun}
+	{icon "elite_rifles"}
+	{icon_priority 2}
+	{armors
+		{head "helmet2_hun"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_4")
+		("tier4_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "zh-29" filled}
+		{item "ammo 7x57" 160}
+		{item "bandage_hun" 4}
+		{item "grenade hungarian_36m" 2}
+		{item "dynamite" 1}
+		{item "smoke grenade" 2}
+		{item "brandflasche" 1}
+		{item "grenade m24_geballteladung" 1}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}
+;Cost=23;
+

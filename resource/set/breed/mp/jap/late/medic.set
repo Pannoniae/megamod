@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "jap_medic"}
+	{portrait "jap_medic"}
+	{tags "soldier"}
+	{nationality jap}
+	{icon "tech"}
+	{icon_priority 0}
+	{armors
+		{head "helmet1_jap"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")
+		("medic")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "type38carbine" filled}
+		{item  "ammo 6x50" 80}
+		{item "smoke grenade" 2}
+		{item "bandage_jap" 25}
+		{item "medkit_jap"}
+		{item "tent_kit" 2}
+		{in_hands 0}
+	}
+}
+;Cost=8;
+

@@ -1,0 +1,23 @@
+{from "pattern gun"			;
+	{filling "bullet105_hun"}
+	{fireSound "gun/gun_122_152_short"}
+	{fireSoundclose "gun/gun_122_152_short"}
+	{reloadSound "tank/reload_howitzer"}
+	("medium_artillery")
+	{calibre 105}
+	{range 360 360} ;11.8km
+	("reload time" seconds(15))
+	("velocity m/s" ap(1) apcr(1) he(200) heat(330)) ;// Real HE 515m/s
+	("armor health" damage(250))
+	("105_slope_multipliers")
+	("penetration_medium" shell(heat) range(190) a(104) b(104) c(104) d(104) e(104))
+	("accuracy_indirect"		; // Applies logic for accuracy of indirect weapons over 200m
+		r1(1.05) 				; // Accuracy radius for direct-fire munitions
+		r2(8) 					; // Accuracy radius for indirect fire
+		rmax(17) 				; // Accuracy radius for indirect fire at maximum range
+		range_ap(190) 			; // Range after which accuracy drops to prevent farshooting
+		range_heat(190) 		; // Range after which accuracy drops to prevent farshooting
+		range_he(360)			; // Range after which accuracy drops to prevent farshooting
+	)
+
+}

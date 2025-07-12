@@ -1,0 +1,12 @@
+{from "pattern sniper_rifle"
+	{filling "ammo 7x57" 5}
+	{entity "rifle_vz24_scope"}
+	{fireSound "smallarms/s3/d1/FIN/M39/"}
+	{fireSoundclose "smallarms/s3/3p/FIN/M39/"}
+	{reloadSound "mosin"}
+	{calibre 7.92}
+	{mass 4.08}
+	("velocity" mps(755))
+	("scopeview" scope(zoom_vignette_scope_ger_k98))
+}
+;Cost=142;

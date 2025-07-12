@@ -1,0 +1,35 @@
+{breed
+	{behaviour soldier}
+	{skin "us-inf-carbine"}
+	{portrait "us-soldier2"}
+	{tags "soldier"}
+	{nationality usa}
+	{icon "sapper"}
+	{icon_priority 3}
+	{armors
+		{head "helmet_nco"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")
+		("engineer")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "m3a" filled}
+		{item  "ammo 11x23" 270}
+		{item "mine_detector"}
+		{item "dynamite" 2}
+		{item "bandage" 1}
+		{item "small_inf_shovel"}
+		{item "pickaxe"}
+		{item "wirecutters"}
+		{in_hands 0}
+	}
+}
+;Cost=40;
+

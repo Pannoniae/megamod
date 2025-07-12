@@ -1,0 +1,32 @@
+{breed
+	{behaviour soldier}
+	{skin "hun_elite2"}
+	{portrait "hun_elite3"}
+	{icon "stormtrooper"}
+	{icon_priority 2}
+	{tags "soldier"}
+	{nationality hun}
+	{armors
+		{head "helmet1_hun"}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_4")
+		("tier4_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "solothurn" filled}
+		{item "ammo bullet20x105b ap" 10}
+		{item "bandage_hun" 5}
+		{item "grenade hungarian_42m" 3}            
+		{item "kasapanos grenade" 1}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}
+;Cost=58;
+

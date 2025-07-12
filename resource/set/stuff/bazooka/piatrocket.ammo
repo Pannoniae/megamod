@@ -1,0 +1,7 @@
+{from "pattern rpg_ammo"
+	{entity "piatrocket_ammo"}
+	{view "piatrocket_ammo"
+		{tail "bazooka_tail" "tail"}
+	}
+	{mass 1.1}
+}

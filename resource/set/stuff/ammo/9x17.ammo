@@ -1,0 +1,16 @@
+;// 9x17mm
+
+{bullet
+	{tag "bullet small_arms small stackable pierce pistol"}
+	{tag "bullet_fx size1"}
+	{inventory
+		{weight 6.6}
+		{block 15}
+		{size 1 1}
+		{fsm "belt"}
+	}
+	{mass 0.008}
+	{entity "pistol_ammo"}
+	{view "smg_bullet"}
+	;("pistol_trace")
+}

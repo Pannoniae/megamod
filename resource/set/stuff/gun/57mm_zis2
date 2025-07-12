@@ -1,0 +1,38 @@
+;_________________________________________
+; Russian medium AT gun
+;=========================================
+
+
+{from "pattern gun"			; L/73 "zis2"
+	{filling "bulletrus_57"}
+	{fireSound "cannon/s2/d1/Shared/Cannon_50to57mm_HV/"}	
+	{fireSoundClose "cannon/s2/3p/Shared/Cannon_50to57mm_HV/"}
+	{reloadSound "utility/"}
+	("range_200")
+	{calibre 57}
+
+	("reload time" seconds(4.8))
+
+	("velocity m/s" ap(990) apcr(1200) he(700) heat(1))
+	("armor health" damage(150))
+	("armor health custom" shell(aphe) damage(150) filler(24))
+	("armor health custom" shell(aphebc) damage(150) filler(24))
+	("57_rus_slope_multipliers")
+
+	; BR-271K  Higher Penetration than BR-271 on flat armor but less penetration against sloped armor
+	("penetration_medium" shell(aphe) range(200) a(140) b(124) c(102) d(83) e(68))  ;RHA
+ ;//("penetration_medium" shell(aphe) range(200) a(107) b(88)  c(69) d(55) e(43))  ;FHA
+
+	; BR-271
+	("penetration_medium" shell(aphebc) range(200) a(131) b(124) c(112)  d(101) e(92)) ;RHA
+ ;//("penetration_medium" shell(aphebc) range(200) a(121) b(113) c(103) d(94) e(86)) ;FHA
+
+	; BR-271N issued in Oct. '43. 8 rounds per vehicle where the Germans were expected to attack. Spring '44 all vehicles had at least 4 rounds.
+	("penetration_medium" shell(apcr) range(200) a(186) b(163) c(132) d(107) e(86))
+
+	{parameters "he"
+		{range 180 180}
+	}
+
+	("accuracy_direct_arrowhead" r1(0.66) range_ap(200) range_he(180) range_heat(180))
+}

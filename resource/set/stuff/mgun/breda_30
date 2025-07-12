@@ -1,0 +1,16 @@
+{from "pattern mgun"
+	{tag "mgun_light"}
+	{filling "ammo 6x52" 20}
+	{entity "breda30"}
+	{fireSound	"mgun/breda_30_burst/"}
+	{fireSoundclose "mgun/breda_30_burst/3p"}
+ 	{reloadSound "mg34"}
+	{inventory {size 6 2}}
+	{calibre 6.5}
+	{mass 13.3}
+	("fire rate" rpm(500))
+	("velocity" mps(620))
+	("burst_medium")
+	("spreading_low")
+}
+;Cost=40;

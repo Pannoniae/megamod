@@ -1,0 +1,24 @@
+{from "pattern gun"			; Semovente M75 46
+	{filling "bullet75_ita"}
+	{fireSound "gun/gun_75_105"}
+	{fireSoundclose "gun/gun_interior/size3"}
+	{reloadSound "interior/large/medium_reload_interior"}
+	("range_210")
+	{calibre 75}
+	("reload time" seconds(5.5))
+
+	("velocity m/s" ap(792) apcr(1) he(550) heat(550))
+	("armor health" damage(200))
+	("armor health custom" shell(apcbc) damage(200) filler(270))
+	("75_slope_multipliers")
+
+	; Granata Perforante mod.39
+	("penetration_medium" shell(apcbc) range(210) a(148) b(135) c(121) d(108) e(96))
+
+	; EPS M42
+	("penetration_medium" shell(heat) range(210) a(100) b(100) c(100) d(100) e(100))
+	
+	; Granata mod.34
+
+	("accuracy_direct" r1(0.64) range_ap(210) range_he(200) range_heat(210))
+}

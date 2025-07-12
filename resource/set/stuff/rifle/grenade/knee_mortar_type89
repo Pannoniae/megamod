@@ -1,0 +1,10 @@
+{from "pattern infantry_mortar"
+	{tag "at_rifle" "ap"}
+	{filling "ammo type_89_jap" 1}
+	{fireSound "mortar\mortar_shot"}
+	{entity "knee_mortar_type89"}
+	{calibre 50}
+	("penetration" args 10)
+	("armor health" damage(350))
+}
+;Cost=25;

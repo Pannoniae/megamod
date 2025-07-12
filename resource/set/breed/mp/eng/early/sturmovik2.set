@@ -1,0 +1,35 @@
+{breed
+	{behaviour soldier}
+	{skin "uk-commando"}
+	{portrait "uk-soldier5"}
+	{tags "soldier"}
+	{nationality eng}
+	{icon "stormtrooper2"}
+	{icon_priority 4}
+	{armors
+		{head "cap_beret_commando"}
+	}
+	{perks
+		(include "ability.inc")
+		("mg_skill_rank_4")
+		("tier4_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "lewis_gun" filled}
+		{item  "ammo 7x56" 474}
+		{item "bandage" 5}
+		{item "grenade mk1" 2}
+		{item "grenade n73at" 1}
+		{item "dynamite" 1}
+		{in_hands 0}
+	}
+}
+;Cost=53;
+
+
+
+

@@ -1,0 +1,8 @@
+{from "pattern smoke"
+	{tag "smoke"}
+	{inventory {size 3 1}}
+	{entity "grenade_ccm34smoke"}
+	{throw
+		{range 28.7}  ;in-game 30m
+	}
+}

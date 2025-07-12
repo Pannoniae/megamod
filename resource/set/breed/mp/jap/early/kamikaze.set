@@ -1,0 +1,31 @@
+{breed
+	{behaviour soldier}
+	{skin "jap_tankman"}
+	{portrait "jap_elite2"}
+	{tags "soldier"}
+	{nationality jap}
+	{icon "kamikaze"}
+	{icon_priority 0}
+	{armors
+		{body "kamikaze_bomb"}
+		{head "fieldcap_jap"}
+	}
+	{tags "stealth"}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_4")
+		("tier4_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory                
+		{item "type2smg" filled}
+		{item  "ammo 8x22" 400}
+		{item "bandage_jap" 1}
+		{in_hands 0}
+	}
+}
+;Cost=25;
+

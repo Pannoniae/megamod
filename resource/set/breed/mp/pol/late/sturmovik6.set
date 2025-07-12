@@ -1,0 +1,34 @@
+{breed
+	{behaviour soldier}
+	{skin "pol-commando"}
+	{portrait "pol_late_soldier5"}
+	{tags "soldier"}
+	{nationality pol}
+	{icon "stormtrooper6"}
+	{icon_priority 4}
+	{armors
+		{head "hat_no4"}
+	}
+	{perks
+		(include "ability.inc")
+		("mg_skill_rank_4")
+		("tier4_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "bren" filled}
+		{item  "ammo 7x56" 392}
+		{item "bandage_pol" 5}
+		{item "grenade mk1" 2}
+		{item "smoke grenade" 2}
+		{item "dynamite" 1}
+		{item "sandbag_kit" 1}
+		{item "ammo_box_inf_eng"}
+		{in_hands 0}
+	}
+}
+;Cost=53;
+

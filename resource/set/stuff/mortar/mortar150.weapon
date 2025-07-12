@@ -1,0 +1,5 @@
+{from "pattern mortar"
+	{filling "ammo mortar150" 1}
+	{calibre 150}
+	("heavy_mortar_range")
+}

@@ -1,0 +1,6 @@
+{from "pattern light_headgear"
+	{inventory
+		{weight 100}
+	}
+	{entity "fieldcap_hun"}
+}

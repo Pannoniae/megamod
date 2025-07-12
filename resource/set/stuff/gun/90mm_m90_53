@@ -1,0 +1,23 @@
+{from "pattern gun"     ; "90_53" 
+	{filling "bullet90_ita"}
+	{fireSound "gun/gun_75_105"}
+	{fireSoundclose "gun/gun_interior/size3"}
+	{reloadSound "interior/large/big_reload_interior"}
+	("range_230")
+	{calibre 90}
+
+	("reload time" seconds(10))
+
+	("velocity m/s" ap(773) apcr(1) he(850) heat(1))
+	("armor health" damage(162))
+	("armor health custom" shell(apcbc) damage(173) filler(180))
+	("90_slope_multipliers")
+	
+	; Granata Perforante mod.43
+	("penetration_long" shell(apcbc) range(230) a(156) b(146) c(134) d(124) e(114))
+	
+	{parameters "he"
+		{range 210 210}
+	}
+	("accuracy_direct" r1(0.50) range_ap(230) range_he(210) range_heat(210))
+}

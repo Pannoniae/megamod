@@ -1,0 +1,28 @@
+;_________________________________________
+; ARTY German medium field gun
+;=========================================
+
+
+{from "pattern gun"			; L/28 "stuh42"
+	{filling "bulletger_105_late"}
+	{fireSound "cannon/s4/d1/Shared/Cannon_105to130mm_LV/"}
+	{fireSoundclose "cannon/s2/1p/Shared/"}
+	{reloadSound "tank/1p/medium_long/"}
+	("range_190_howitzer_lowarc")
+	{calibre 105}
+
+	("reload time" seconds(12))
+
+	("velocity m/s" ap(765) apcr(1) he(360) heat(496))
+	("armor health" damage(310))
+	("armor health custom" shell(apcbche) damage(290) filler(29))
+	("105_slope_multipliers")
+
+	; 10cm Pzgr. 39 TS (10/7.5)
+	("penetration_medium" shell(apcbche) range(190) a(122) b(111) c(99) d(78) e(78))
+
+	; 10cm Gr.39 rot H1
+	("penetration_medium" shell(heat) range(190) a(140) b(140) c(140) d(140) e(140))
+
+	("accuracy_spg" r1(0.95) range_ap(190) range_he(190) range_heat(190))
+}

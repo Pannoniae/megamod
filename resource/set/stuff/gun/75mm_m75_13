@@ -1,0 +1,18 @@
+{from "pattern gun"			 ; 75/13
+	{filling "bullet75_ita"}
+	{fireSound "gun/gun_75_105_short"}
+	{fireSoundclose "gun/gun_interior/size3"}
+	{reloadSound "interior/large/medium_reload_interior"}
+	("range_180_howitzer")
+	{calibre 76.2}
+	("reload time" seconds(6))
+	("velocity m/s" ap(1) apcr(1) he(240) heat(290))
+	("armor health" damage(200))
+	("75_slope_multipliers")
+
+	("accuracy_spg" r1(1.25) range_ap(180) range_he(180) range_heat(170))
+
+	{SpreadTolerance 0}     ;// add because zeroing bug kept from firing
+    	{unlimitedRangeTPC 0}   ;// restrict range in TPC/FPC
+
+}

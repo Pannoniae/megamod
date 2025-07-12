@@ -1,0 +1,14 @@
+{from "browning_m19a4"
+	{filling "ammo 8x50" 249}
+	{entity "hotchkiss_1914"}
+	{fireSound	"mgun/reibel_burst/"}
+	{fireSoundclose "mgun/reibel_burst/3p"}
+	{reloadSound "dt"}
+	{calibre 7.5}
+	{mass 9}
+	("fire rate" rpm(600))
+	("velocity" mps(725))
+	("burst_long")
+	("spreading_low")
+}
+;Cost=40;

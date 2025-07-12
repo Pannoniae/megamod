@@ -1,0 +1,11 @@
+{from "pattern pistol"
+	{filling "ammo 8x27" 6}
+	{entity "revolver_mle_1892"}
+	{fireSound "smallarms/s1/d1/RUS/M1895/"}
+	{fireSoundclose "smallarms/s1/3p/RUS/M1895/"}
+	{reloadSound "p38"}
+	{calibre 8}
+	{mass 0.98}
+	("velocity" mps(225))
+}
+;Cost=1;

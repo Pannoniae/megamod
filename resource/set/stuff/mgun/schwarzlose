@@ -1,0 +1,16 @@
+{from "pattern mgun"
+	{filling "ammo 8x50b" 330}
+	{entity "schwarzlose"}
+	{fireSound	"mgun/fiat_65_burst/"}
+	{fireSoundclose "mgun/fiat_65_burst/3p"}
+ 	{reloadSound "ptrd"}
+	{inventory {size 6 2}}
+	{calibre 8}
+	{mass 18.1}
+	("fire rate" rpm(500))
+	("velocity" mps(610))
+	("burst_long")
+	("spreading_low")
+}
+
+;Cost=40;

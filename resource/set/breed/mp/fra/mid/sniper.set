@@ -1,0 +1,34 @@
+{breed
+	{behaviour soldier}
+	{skin "fra-us-inf-rfl"}
+	{portrait "fra_late_sniper"}
+	{tags "soldier"}
+      	{nationality fra}
+	{icon "sniper"}
+	{icon_priority 5}
+	{armors
+		{head "cap_fra_sidecap"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_3")
+		("sniper_vision")
+		("stealth")
+		("sniper_vision")
+		("tier3_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "em4_s" filled}
+		{item  "ammo 7x56" 148}
+		{item "bandage_fra" 5}
+		{item "plant" 3}
+		{item "knife_union"}
+		{in_hands 0}
+	}
+}
+;Cost=150;
+

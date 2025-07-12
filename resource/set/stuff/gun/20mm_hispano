@@ -1,0 +1,19 @@
+{from "pattern gun"	
+	{tag "aa" "-tank_gun"}
+	{filling "bullet_20_auto aphe" 200}
+	{fireSound "gun/gun_auto"}
+	{fireSoundclose "gun/gun_interior/size1"}
+	{reloadSound "interior/large/auto_reload_interior"}
+	("range_aircraft_gun")
+	{cursor "ironsights/aa"}
+	{AimingTolerance 10}
+	{calibre 20}
+
+	("fire rate" rpm(600))
+	("reload time" seconds(20))
+	("velocity" mps(700))
+	("armor health" damage(40))
+	("20_slope_multipliers")
+	("penetration" a(35) b(25) c(16) d(10) e(7))
+}
+

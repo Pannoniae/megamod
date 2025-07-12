@@ -1,0 +1,8 @@
+{bullet
+	{entity "placer"}
+	{inventory
+		{size 2 2}
+		{weight 500}
+	}
+	{mass 500}
+}

@@ -1,0 +1,13 @@
+{from "pattern gun"			
+	{filling "bullet37_fra"}
+	{fireSound "gun/37mm_sa18"}
+	{reloadSound "tank/reload_small"}
+	("range_170")
+	{calibre 37}
+	("reload time" seconds(7.5))
+	("velocity m/s" ap(600) apcr(1) he(600) heat(1))
+	("armor health" damage(95))
+	("37_slope_multipliers")
+	("penetration_medium" shell(ap) range(170) a(33) b(24) c(16) d(8) e(5))
+	("accuracy_direct" r1(0.88) range_ap(170) range_he(160) range_heat(160))
+}

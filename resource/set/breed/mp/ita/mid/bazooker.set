@@ -1,0 +1,32 @@
+{breed
+	{skin "ita-rsi-inf-rfl"}
+	{portrait "ita_soldier4"}
+	{tags "soldier_pzscheck"}
+	{nationality ita}
+	{icon "bazooker"}
+	{icon_priority 3}
+	{armors
+		{head "helmet_ita_m33_rsi"}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_2")
+		("at_rank_3")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "panzershreck_54 weapon" filled}
+		{item "beretta_m1934" filled}
+		{item "ammo 9x17" 70}
+		{item "bandage_ita" 3}
+		{item "grenade breda42at" 1}
+		{item "panzershreck ammo" 5.5 0.5}
+		{in_hands 0}
+	}
+}
+;Cost=75;
+

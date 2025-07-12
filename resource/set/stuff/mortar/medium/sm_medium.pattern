@@ -1,0 +1,11 @@
+{bullet
+	{tag "shell smoke smoke_size2"}
+	{inventory
+		{size 3 1}
+		{weight 70}
+	}
+	{mass 2}
+	{entity "mortar_ammo"}
+	{view "mortar_ammo"}	
+	{detonationThickness 1}
+}

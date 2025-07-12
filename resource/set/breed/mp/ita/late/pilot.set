@@ -1,0 +1,32 @@
+{breed
+	{behaviour soldier}
+	{skin "ita-re-tankcom"}
+	{portrait "ita_pilot"}
+	{icon "pilot"}
+	{icon_priority 0}
+	{tags "pilot"}
+	{tags "soldier"}
+	{nationality ita}
+	{tags "crew"}
+	{armors
+		{head cap_ita_bustina}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_2")
+		("skilled_repair")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "beretta_m1934" filled}
+		{item  "ammo 9x17" 105}
+		{item "bandage_ita" 1}
+		{in_hands 0}
+	}
+}
+;Cost=4;
+

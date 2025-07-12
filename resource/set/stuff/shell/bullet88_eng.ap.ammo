@@ -1,0 +1,12 @@
+{from "pattern ap"	; 25 Pr AP 
+	{tag "shell size2 88to105"}
+	{inventory {size 6 1}}
+	{entity "eng_shell_88x313_ap"}
+	{mass 11.63}
+
+	{view "howitzer_shell_88-100"
+		{tail "shell_tracer_rus_85_apcr" "tail"}
+	}
+
+	("apcr_blast" args 0.86)
+}

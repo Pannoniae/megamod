@@ -1,0 +1,12 @@
+{from "pattern sniper_rifle"
+	{filling "ammo 7x58" 5}
+	{entity "type99rifle_s"}
+	{fireSound "rifle/type99sniper_shot/"}
+	{fireSoundclose "rifle/type99sniper_shot/3p/"}
+	{reloadSound "rifle_bolt_five"}
+	{calibre 7.7}
+	{mass 3.9}
+	("velocity" mps(730))
+	("scopeview" scope(zoom_vignette_scope_ger_k98))
+}
+;Cost=142;

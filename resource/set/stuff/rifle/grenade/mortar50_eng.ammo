@@ -1,0 +1,33 @@
+{bullet
+	{tag "ammo fg dropboxed rifle_grenade grenade size1 all_he"}
+	{inventory
+		{weight 40}
+		{size 2 1}
+	}
+	{entity "eng_ammo_mortar50_fg"}
+	{view "eng_ammo_mortar50_fg"
+		{tail "shell_tail" "tail"}
+	}
+	{mass 0.515}
+
+	{detonationThickness 0.5}
+	
+	{damage blastwave
+
+		{energy 1}
+
+		{area 0.5 1}
+
+		{ground_interaction_radius 0.2}
+	}
+
+	{damage add blastwave
+
+		{energy 0.5}
+
+		{area 1 5}
+
+		{ground_interaction_radius 0} ;// value is multiplied by 2nd value of area to deterimine is blast is close enough to ground to trigger terrain fx
+
+	}
+}

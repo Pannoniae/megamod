@@ -1,0 +1,11 @@
+{from "pattern aphe"
+	{tag "shell size2 75to76_he_filler"}
+	{inventory {size 4 1}}
+	{entity "shell_apcr_75"}
+	{mass 11.9}
+
+	{view "howitzer_shell_105-150"
+		{tail "shell_tracer_105_ap" "tail"}
+	}
+	("ap_blast" args 0.9)
+}

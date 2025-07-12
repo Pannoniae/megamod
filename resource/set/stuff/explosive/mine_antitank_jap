@@ -1,0 +1,26 @@
+{from "pattern throwable"
+	{tag "smallitemin1hand" "mine_jap" "grenade" "dynanite"}
+	{special
+		{PrepareTime 10}
+		{PrepareCursor "grenade"}
+		{mode detonate}
+	}
+	{entity "mine_antitank_jap"}
+	{inventory
+		{weight 10}
+		{fsm "belt"}
+	}
+	{damage cumulative
+		{damage 19}
+		{distance 1}
+	}
+	{mass 7}	
+	{damage blastwave
+		{energy 7}
+		{area 2.4 2.5}
+	}
+	{throw
+		{range 6}
+		{startAngle 50}
+	}
+}

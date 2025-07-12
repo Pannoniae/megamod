@@ -1,0 +1,37 @@
+{breed
+	{behaviour soldier}
+	{skin "uk-commando"}
+	{portrait "uk-soldier5"}
+	{tags "soldier_pzscheck"}
+	{nationality eng}
+	{icon "stormtrooper3"}
+	{icon_priority 4}
+	{armors
+		{head "cap_beret_commando"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_4")
+		("at_rank_3")
+		("tier4_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "sten_mk2" filled}
+		{item  "ammo 9x19b" 128}
+		{item "bandage" 5}
+		{item "grenade mk1" 2}
+		{item "smoke grenade" 2}
+		{item "dynamite" 1}
+		{item "weapon piat" filled}
+		{item "ammo piatrocket" 5}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}
+;Cost=63;
+
+

@@ -1,0 +1,4 @@
+{from "pattern heavy_headgear"
+	{entity "fin_m40"}
+ {desc"M/40 Steel Helmet"}
+}

@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "ita-re-inf-medic"}
+	{portrait "ita_soldier3"}
+	{tags "soldier"}
+	{nationality ita}
+	{icon "medics"}
+	{icon_priority 5}
+	{armors
+		{head helmet_ita_m33_medic}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")
+		("medic")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "m9138_carcano" filled}
+		{item "ammo 6x52" 96}
+		{item "grenade ccm34smoke" 2}
+		{item "bandage_ita" 25}
+		{item "medkit_ita"}
+		{item "tent_kit" 2}
+		{in_hands 0}
+	}
+}
+;Cost=8;
+

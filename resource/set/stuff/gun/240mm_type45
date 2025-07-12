@@ -1,0 +1,21 @@
+{from "pattern gun"    ; "240mm Type45"
+	{tag "agf howitzer"}
+	{filling "bullet240 he"}
+	{fireSound "gun/gun_203_210"}
+	{fireSoundclose "gun/gun_203_210"}
+	{reloadSound "tank/reload_howitzer"}
+	("heavy_artillery")
+	{calibre 240}
+	{range 460 460} 
+	("reload time" seconds(90))
+	("velocity" mps(220));
+	("armor health" damage(30))
+	("accuracy_indirect"   ; // Applies logic for accuracy of indirect weapons over 200m
+		r1(1.25) 				; // Accuracy radius for direct-fire munitions
+		r2(10) 					; // Accuracy radius for indirect fire
+		rmax(49) 				; // Accuracy radius for indirect fire at maximum range
+		range_ap(210) 			; // Range after which accuracy drops to prevent farshooting.
+		range_heat(210) 		; // Range after which accuracy drops to prevent farshooting.
+		range_he(460)			; // Range after which accuracy drops to prevent farshooting.
+	)
+}

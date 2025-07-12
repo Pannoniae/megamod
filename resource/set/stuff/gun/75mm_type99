@@ -1,0 +1,17 @@
+{from "pattern gun"			; Ho-I
+	{filling "bullet75_jap"}
+	{fireSound "gun/75mm_type99"}
+	{fireSoundclose "gun/gun_interior/size3"}
+	{reloadSound "interior/large/medium_reload_interior"}
+	("range_180")
+	{calibre 75}
+	("reload time" seconds(7))
+	("velocity m/s" ap(450) apcr(1) he(522) heat(350))
+	("armor health" damage(200))
+	("armor health custom" shell(aphe) damage(200) filler(150))
+	("75_slope_multipliers")
+
+	("penetration_medium" shell(aphe) range(180) a(41) b(37) c(31) d(27) e(23))
+	("penetration_medium" shell(heat) range(180) a(90) b(90) c(90) d(90) e(90))	
+	("accuracy_direct" r1(1.10) range_ap(180) range_he(180) range_heat(180))
+}

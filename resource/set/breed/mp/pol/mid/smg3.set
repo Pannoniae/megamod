@@ -1,0 +1,24 @@
+{breed
+	{behaviour soldier}
+	{skin "pol-para-nco"}
+	{portrait "pol_late_elite4"}
+	{tags "soldier"}
+	{nationality pol}
+	{icon "smg3_eng"}
+	{icon_priority 1}
+	{armors
+		{head "helmet_pol_mkii"}
+	}
+	{inventory
+		{item "sten_mkii" filled}
+		{item  "ammo 9x19b" 288}
+		{item "bandage_pol" 3}
+		{item "grenade mk1" 2}
+		{item "grenade n73at" 1}
+		{item "smoke grenade" 1}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}
+;Cost=10;
+

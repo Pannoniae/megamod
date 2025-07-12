@@ -1,0 +1,32 @@
+{breed
+	{behaviour soldier}
+    {skin "fra-inf-rfl"}
+	{portrait "fra_home_guard"}
+	{tags "soldier"}
+	{nationality fra}
+	{icon "home_guard"}
+	{icon_priority 0}
+	{armors
+		{head "cap_fra_sidecap"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_1")
+		("tier1_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "lebel_m1886" filled}
+		{item  "ammo 8x50" 120}
+		{item "bandage_fra" 2}
+		{item "grenade fr_of37" 1}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}
+;Cost=7;
+
+

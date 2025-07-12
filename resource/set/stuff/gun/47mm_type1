@@ -1,0 +1,18 @@
+{from "pattern gun"			; Shinoto Chi-Ha, Chi-He
+	{filling "bullet47_jap"}
+	{fireSound "gun/47mm_type97"}
+    	{fireSoundclose "gun/gun_interior/size2"}
+	{reloadSound "interior/large/small_reload_interior"}
+	("range_180")
+	{calibre 47}
+	("reload time" seconds(3.5))
+
+	("velocity m/s" ap(808) apcr(1) he(822) heat(1))
+	("armor health" damage(125))
+	("armor health custom" shell(aphe) damage(125) filler(21))
+	("57_slope_multipliers")
+	("penetration_medium" shell(aphe) range(180) a(75) b(67) c(58) d(50) e(44))
+
+	("accuracy_direct" r1(0.62) range_ap(180) range_he(170) range_heat(170))
+}
+

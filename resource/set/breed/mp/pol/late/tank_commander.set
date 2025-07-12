@@ -1,0 +1,28 @@
+{breed
+	{behaviour soldier}
+	{skin "pol-1ad-tankcom"}
+	{portrait "pol_late_tankman"}
+	{tags "crew"}
+	{nationality pol}
+	{icon "tankman"}
+	{icon_priority 1}
+	{armors
+		{head "cap_pol_beret_eng_tank"}
+	}
+	{perks
+		(include "ability.inc")
+		("tank_commander")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "sten" filled}
+		{item  "ammo 9x19b" 288}
+		{item "bandage_pol" 1}
+		{in_hands 0}
+	}
+}
+;Cost=10;
+

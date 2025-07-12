@@ -1,0 +1,17 @@
+{bullet
+	{tag "dropboxed distributable"}
+	{tag "size1 shell pierce he fg 50to57 all_he"}
+	{inventory
+		{size 2 1}
+		{weight 100}
+		{fsm "belt"}
+	}
+	{mass 1}
+	{entity "ger_ammo_mortar50_fg"}
+	{view "ger_ammo_mortar50_fg"
+		{tail "shell_tail" "tail"}
+	}
+	{possibleDamageRadius 20}
+	(include "\set\blast.inc")
+	("he_level_1" weight(0.95) filler(0.1))
+}

@@ -1,0 +1,22 @@
+;_________________________________________
+; 230mm flying dustbin generator
+;=========================================
+{from "pattern gun"			
+	{filling "no1_demolition_bomb"}
+	{fireSound "cannon/s3/d1/Shared/Mortar/"}
+	{fireSoundclose ""}
+	{reloadSound "tank/avre/"}
+	("range_90")
+	{calibre 230.4}
+
+	("reload time" seconds(17))
+	{gravity 0.4}
+	("velocity" mps(50))
+	
+	;("accuracy_direct" r1(0.75) range_ap(90) range_he(90) range_heat(90))
+	; this doesn't work because it assumes 140m+ range
+	{spreading
+		{radiusTable {0 0} {25 1.5} {50 3} {90 4} {91 20}}
+	}
+	{unlimitedRangeTPC 0}	;// restrict range in TPC/FPC
+}

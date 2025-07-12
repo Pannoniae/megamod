@@ -1,0 +1,28 @@
+{breed
+	{behaviour soldier}
+	{skin "jap_tank_commander"}
+	{portrait "jap_tankman"}
+	{tags "crew"}
+	{nationality jap}
+	{icon "tankman"}
+	{icon_priority 1}
+	{armors
+		{head cap_jap_off}
+	}
+	{perks
+		(include "ability.inc")
+		("tank_commander")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "sigm1920" filled}
+		{item  "ammo 7x21" 270}
+		{item "bandage_jap" 1}
+		{in_hands 0}
+	}
+}
+;Cost=10;
+

@@ -1,0 +1,31 @@
+{breed
+	{behaviour soldier}
+	{skin "us-101st-bar"}
+	{portrait "us-elite1"}
+	{tags "soldier"}
+	{nationality usa}
+	{icon "elite3"}
+	{icon_priority 3}
+	{armors
+		{head "helmet_506th_camo"}
+	}
+	{perks
+		(include "ability.inc")
+		("mg_skill_rank_4")
+		("tier4_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "bar" filled}
+		{item  "ammo 7x63" 280}
+		{item "bandage" 5}
+		{item "grenade mk2" 3}
+		{item "sandbag_kit" 1}
+		{in_hands 0}
+	}
+}
+;Cost=53;
+

@@ -1,0 +1,26 @@
+{from "pattern reactive"	
+	{filling "ammo calliope" 8}
+	{fireSound "reactive/calliope_burst"}
+	{calibre 114}
+
+	("rocket_artillery")
+	{spreading
+		{radiusTable
+			{0 0}
+			{100 15}
+			{200 50}
+			{329.99 50}
+			{330 500}
+		}
+	}
+	{range 330 330}
+	{burst 
+		{min 8}
+		{noaiming}
+	}
+
+	("fire rate" rpm(120))
+	("velocity" mps(340))
+	("reload time" seconds(50))
+	{gravity 3}
+}

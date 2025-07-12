@@ -1,0 +1,25 @@
+{bullet
+	{tag "dropboxed distributable"}
+	{tag "shell wp_size3"}
+	{inventory
+		{weight 100}
+		{fsm "belt"}
+		{size 4 1}
+	}
+	{entity "120mm_rus_mortar_sm"}
+	{view "120mm_rus_mortar_sm"
+		{tail "shell_tail" "tail"}
+	}
+	{mass 16}
+	{damage fire
+		{radius (- (* 107 0.05) 1.5)}
+		{heating 10}
+		{time 0.5}
+	}
+	{damage blastwave
+		{energy 1.5}
+		{area (* 107 0.03) (* 107 0.05)}
+		{ground_interaction_radius 0.2}		;// value is multiplied by 2nd value of area to deterimine is blast is close enough to ground to trigger terrain fx
+	}
+
+}

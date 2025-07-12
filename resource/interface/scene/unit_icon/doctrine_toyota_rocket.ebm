@@ -1,0 +1,6 @@
+{bitmap
+    {frame "toyota_rocket_00.tga"}
+    {frame "toyota_rocket_01.tga"}
+    {frame "toyota_rocket_02.tga"}
+    {frame "toyota_rocket_03.tga"}
+}

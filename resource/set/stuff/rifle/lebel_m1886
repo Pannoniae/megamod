@@ -1,0 +1,12 @@
+{from "pattern rifle"
+	{entity "LebeL_m1886"}
+	{filling "ammo 8x50" 8}
+	{fireSound	"rifle/lebel/"}
+	{fireSoundclose	"rifle/lebel/3p/"}	
+	{reloadSound "kar98"}
+	{calibre 8}
+	{mass 4}
+	("velocity" mps(650))
+	("bolt_action")
+}
+;Cost=5;

@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "pol-inf-sum-rfl"}
+	{portrait "pol_soldier2"}
+	{icon "rifleman"}
+	{icon_priority 1}
+	{tags "crew"}
+	{nationality pol}
+	{armors
+		{head "helmet_pol_wz31"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")
+		("skilled_repair")
+		("expert_gun")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "karabinek_wz29" filled}
+		{item  "ammo 7x57b" 50}
+		{item "bandage_pol" 3}
+		{item "grenade poland_o33"}
+		{item "grenade poland_z33" 2}
+		{in_hands 0}
+	}
+}
+;Cost=8;
+

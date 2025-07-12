@@ -1,0 +1,125 @@
+;SDL
+
+{"mp/frabri/mid/tankman"		("inf_tankman" side(frabri) coalition() cost(4.0))}
+{"mp/frabri/mid/artilleryman"	("inf_tankman" side(frabri) coalition() cost(5.0))}
+{"mp/frabri/mid/tank_commander"	("inf_tankman" side(frabri) coalition() cost(10.0))}
+
+{"mp/fra/mid/home_guard"			("inf_tankman" side(fra) coalition(frabri) cost(5.0))}
+{"mp/fra/mid/vehicle_supporter"		("inf_tankman" side(fra) coalition(frabri) cost(5.0))}
+{"mp/fra/mid/tankman"				("inf_tankman" side(fra) coalition(frabri) cost(4.0))}
+{"mp/fra/mid/tankman2"				("inf_tankman" side(fra) coalition(frabri) cost(12.0))}
+{"mp/fra/mid/pilot"					("inf_tankman" side(fra) coalition(frabri) cost(0.0))}
+{"mp/fra/mid/artilleryman"			("inf_tankman" side(fra) coalition(frabri) cost(5.0))}
+{"mp/fra/mid/tank_commander"		("inf_tankman" side(fra) coalition(frabri) cost(12.0))}
+{"mp/fra/early/vehicle_supporter"	("inf_tankman" side(fra) coalition(frabri) cost(5.0))}
+{"mp/fra/early/tankman"				("inf_tankman" side(fra) coalition(frabri) cost(4.0))}
+{"mp/fra/early/tankman2"			("inf_tankman" side(fra) coalition(frabri) cost(12.0))}
+{"mp/fra/early/pilot"				("inf_tankman" side(fra) coalition(frabri) cost(0.0))}
+{"mp/fra/early/artilleryman"		("inf_tankman" side(fra) coalition(frabri) cost(5.0))}
+{"mp/fra/early/tank_commander"		("inf_tankman" side(fra) coalition(frabri) cost(10.0))}
+
+{"mp/fra/mid/rifle"					("inf_tier1" side(fra) coalition(frabri) r(8) rm(99) lvl(lvl1) cost(12.0))} ; rifle
+{"mp/fra/mid/smg"		    		("inf_tier1" side(fra) coalition(frabri) r(8) rm(99) lvl(lvl1) cost(12.0))} ; smg
+{"mp/fra/early/rifle"				("inf_tier1" side(fra) coalition(frabri) r(1) rm(7) lvl(lvl1) cost(8.0))}
+{"mp/fra/early/smg"		    		("inf_tier1" side(fra) coalition(frabri) r(1) rm(7) lvl(lvl1) cost(13.0))}
+
+{"mp/fra/mid/mgun"					("inf_tier2" side(fra) coalition(frabri) lvl(lvl1 lvl2 lvl3) r(8) rm(99) cost(44.0))} ; has mg
+{"mp/fra/mid/mgun2"					("inf_tier2" side(fra) coalition(frabri) lvl(lvl1 lvl2 lvl3) r(8) rm(99) cost(44.0))} ; has mg
+{"mp/fra/mid/rifle2"				("inf_tier2_lite" side(fra) coalition(frabri) lvl(lvl1 lvl2) r(8) rm(99) cost(13.0))}
+{"mp/fra/mid/rifle3"				("inf_tier2_lite" side(fra) coalition(frabri) lvl(lvl1 lvl2) r(8) rm(99) cost(13.0))}
+{"mp/fra/mid/smg2"		    		("inf_tier2_lite" side(fra) coalition(frabri) lvl(lvl1 lvl2) r(8) rm(99) cost(13.0))}
+{"mp/fra/mid/smg3"		    		("inf_tier2_lite" side(fra) coalition(frabri) lvl(lvl1 lvl2) r(8) rm(99) cost(13.0))}
+{"mp/fra/mid/flamer2"				("inf_tier2_lite" side(fra) coalition(frabri) lvl(lvl1 lvl2) r(8) rm(99) cost(13.0))}
+{"mp/fra/mid/mgun_assist"			("inf_tier2_lite" side(fra) coalition(frabri) lvl(lvl1 lvl2 lvl3) r(8) rm(99) cost(13.0))} 
+{"mp/fra/mid/mgun2_assist"			("inf_tier2_lite" side(fra) coalition(frabri) lvl(lvl1 lvl2 lvl3) r(8) rm(99) cost(13.0))} 
+{"mp/fra/mid/squadleader"			("inf_tier2_lite" side(fra) coalition(frabri) lvl(lvl1 lvl2 lvl3) r(8) rm(99) cost(13.0))}
+{"mp/fra/early/mgun"				("inf_tier2" side(fra) coalition(frabri) lvl(lvl1 lvl2 lvl3) r(1) rm(7) cost(44.0))} ; has mg
+{"mp/fra/early/mgun2"				("inf_tier2" side(fra) coalition(frabri) lvl(lvl1 lvl2 lvl3) r(1) rm(7) cost(44.0))}
+{"mp/fra/early/rifle2"				("inf_tier2_lite" side(fra) coalition(frabri) lvl(lvl1 lvl2) r(1) rm(7) cost(7.0))}
+{"mp/fra/early/rifle3"				("inf_tier2_lite" side(fra) coalition(frabri) lvl(lvl1 lvl2) r(1) rm(7) cost(13.0))}
+{"mp/fra/early/smg2"		    	("inf_tier2_lite" side(fra) coalition(frabri) lvl(lvl1 lvl2) r(1) rm(7) cost(12.0))}
+{"mp/fra/early/smg3"	        	("inf_tier2_lite" side(fra) coalition(frabri) lvl(lvl1 lvl2) r(1) rm(7) cost(13.0))}
+{"mp/fra/early/flamer2"				("inf_tier2_lite" side(fra) coalition(frabri) lvl(lvl1 lvl2) r(1) rm(7) cost(13.0))}
+{"mp/fra/early/at_rifle2"			("inf_tier2_lite" side(fra) coalition(frabri) lvl(lvl1 lvl2) r(1) rm(7) cost(13.0))}
+{"mp/fra/early/mgun_assist"			("inf_tier2_lite" side(fra) coalition(frabri) lvl(lvl1 lvl2 lvl3) r(1) rm(7) cost(8.0))} 
+{"mp/fra/early/mgun2_assist"		("inf_tier2_lite" side(fra) coalition(frabri) lvl(lvl1 lvl2 lvl3) r(1) rm(7) cost(8.0))} 
+
+{"mp/fra/mid/rifle_grenade"			("inf_tier2" side(fra) coalition(frabri)  lvl(lvl1 lvl2 lvl3) r(8) rm(99) cost(29.0))} ; rifle grenade
+{"mp/fra/mid/saper"					("inf_tier2" side(fra) coalition(frabri)  lvl() r(8) rm(99) cost(40.0))}
+{"mp/fra/mid/flamer"				("inf_tier2" side(fra) coalition(frabri)  lvl(lvl2 lvl3) r(8) rm(99) cost(53.0))}
+{"mp/fra/mid/ap_miner"				("inf_tier2" side(fra) coalition(frabri)  lvl() r(8) rm(99) cost(40.0))}
+{"mp/fra/mid/at_miner"				("inf_tier2" side(fra) coalition(frabri)  lvl() r(8) rm(99) cost(40.0))}
+{"mp/fra/mid/gr_launcher"			("inf_tier2" side(fra) coalition(frabri)  lvl(lvl2 lvl3) r(8) rm(99) cost(33.0))}
+{"mp/fra/mid/squadleader2"			("inf_tier2" side(fra) coalition(frabri)  lvl(lvl2 lvl3) r(8) rm(99) cost(18.0))}
+{"mp/fra/mid/bazooker"				("inf_tier2" side(fra) coalition(frabri)  lvl(lvl2 lvl3) r(11) rm(99) cost(63.0))} ; Bazooker
+{"mp/fra/mid/bazooker2"				("inf_tier2" side(fra) coalition(frabri)  lvl(lvl2 lvl3) r(11) rm(99) cost(13.0))} ; 
+{"mp/fra/early/at_rifle"			("inf_tier2" side(fra) coalition(frabri)  lvl(lvl1 lvl2 lvl3) r(1) rm(7) cost(58.0))} ; has AT
+{"mp/fra/early/rifle_grenade"		("inf_tier2" side(fra) coalition(frabri)  lvl(lvl1 lvl2 lvl3) r(1) rm(7) cost(29.0))} ; rifle grenade
+{"mp/fra/early/saper"				("inf_tier2" side(fra) coalition(frabri)  lvl() r(1) rm(7) cost(35.0))}
+{"mp/fra/early/saper2"				("inf_tier2" side(fra) coalition(frabri)  lvl() r(1) rm(7) cost(35.0))}
+{"mp/fra/early/flamer"				("inf_tier2" side(fra) coalition(frabri)  lvl(lvl2 lvl3) r(1) rm(7) cost(53.0))}
+{"mp/fra/early/ap_miner"			("inf_tier2" side(fra) coalition(frabri)  lvl() r(1) rm(7) cost(35.0))}
+{"mp/fra/early/at_miner"			("inf_tier2" side(fra) coalition(frabri)  lvl() r(1) rm(7) cost(35.0))}
+{"mp/fra/early/gr_launcher"			("inf_tier2" side(fra) coalition(frabri)  lvl(lvl2 lvl3) r(1) rm(7) cost(33.0))}
+{"mp/fra/early/squadleader"			("inf_tier2" side(fra) coalition(frabri)  lvl(lvl2 lvl3) r(1) rm(7) cost(18.0))}
+{"mp/fra/early/squadleader2"		("inf_tier2" side(fra) coalition(frabri)  lvl(lvl2 lvl3) r(1) rm(7) cost(18.0))}
+)
+{"mp/fra/mid/elite"					("inf_tier3" side(fra) coalition(frabri)  lvl(lvl2 lvl3 lvl4) r(8) rm(99) cost(18.0))}
+{"mp/fra/mid/elite2"				("inf_tier3" side(fra) coalition(frabri)  lvl(lvl2 lvl3 lvl4) r(8) rm(99) cost(18.0))}
+{"mp/fra/mid/elite3"				("inf_tier3" side(fra) coalition(frabri)  lvl(lvl2 lvl3 lvl4) r(8) rm(99) cost(48.0))}
+{"mp/fra/mid/elite4"				("inf_tier3" side(fra) coalition(frabri)  lvl(lvl2 lvl3 lvl4) r(8) rm(99) cost(18.0))}
+{"mp/fra/mid/elite5"				("inf_tier3" side(fra) coalition(frabri)  lvl(lvl2 lvl3 lvl4) r(8) rm(99) cost(18.0))}
+{"mp/fra/mid/elite6"				("inf_tier3" side(fra) coalition(frabri)  lvl(lvl2 lvl3 lvl4) r(8) rm(99) cost(48.0))}
+{"mp/fra/mid/elite3_assist"			("inf_tier3" side(fra) coalition(frabri)  lvl(lvl2 lvl3 lvl4) r(8) rm(99) cost(18.0))}
+{"mp/fra/mid/elite6_assist"			("inf_tier3" side(fra) coalition(frabri)  lvl(lvl2 lvl3 lvl4) r(8) rm(99) cost(18.0))}
+{"mp/fra/mid/elite_sl"				("inf_tier3" side(fra) coalition(frabri)  lvl(lvl2 lvl3 lvl4) r(8) rm(99) cost(23.0))}
+{"mp/fra/mid/elite4_sl"				("inf_tier3" side(fra) coalition(frabri)  lvl(lvl2 lvl3 lvl4) r(8) rm(99) cost(23.0))}
+{"mp/fra/mid/commando"				("inf_tier3" side(fra) coalition(frabri)  lvl(lvl2 lvl3 lvl4) r(8) rm(99) cost(23.0))} ; smg
+{"mp/fra/mid/commando2"				("inf_tier3" side(fra) coalition(frabri)  lvl(lvl2 lvl3 lvl4) r(8) rm(99) cost(23.0))} ; semi-auto rifle 
+{"mp/fra/mid/commando3"				("inf_tier3" side(fra) coalition(frabri)  lvl(lvl2 lvl3 lvl4) r(8) rm(99) cost(53.0))} ; lmg
+{"mp/fra/mid/commando_sl"			("inf_tier3" side(fra) coalition(frabri)  lvl(lvl2 lvl3 lvl4) r(8) rm(99) cost(28.0))} ; smg
+{"mp/fra/early/elite"				("inf_tier3" side(fra) coalition(frabri)  lvl(lvl2 lvl3 lvl4) r(1) rm(7) cost(23.0))}
+{"mp/fra/early/elite2"				("inf_tier3" side(fra) coalition(frabri)  lvl(lvl2 lvl3 lvl4) r(1) rm(7) cost(18.0))}
+{"mp/fra/early/elite3"				("inf_tier3" side(fra) coalition(frabri)  lvl(lvl2 lvl3 lvl4) r(1) rm(7) cost(53.0))}
+{"mp/fra/early/elite4"				("inf_tier3" side(fra) coalition(frabri)  lvl(lvl2 lvl3 lvl4) r(1) rm(7) cost(38.0))}
+{"mp/fra/early/elite3_assist"		("inf_tier3" side(fra) coalition(frabri)  lvl(lvl2 lvl3 lvl4) r(1) rm(7) cost(18.0))}
+{"mp/fra/early/elite_sl"			("inf_tier3" side(fra) coalition(frabri)  lvl(lvl2 lvl3 lvl4) r(1) rm(7) cost(28.0))}
+{"mp/fra/early/rifle4"				("inf_tier3" side(fra) coalition(frabri)  lvl(lvl2 lvl3 lvl4) r(1) rm(7) cost(13.0))}
+{"mp/fra/early/mgun3_assist"		("inf_tier3" side(fra) coalition(frabri)  lvl(lvl2 lvl3 lvl4) r(1) rm(7) cost(13.0))} 
+{"mp/fra/early/mgun3"				("inf_tier3" side(fra) coalition(frabri)  lvl(lvl2 lvl3 lvl4) r(1) rm(7) cost(49.0))}
+{"mp/fra/early/squadleader3"		("inf_tier3" side(fra) coalition(frabri)  lvl(lvl2 lvl3 lvl4) r(1) rm(7) cost(18.0))}
+
+{"mp/fra/mid/radioman"				("inf_tier3" side(fra) coalition(frabri)  lvl() r(8) rm(99) cost(200.0))}
+{"mp/fra/early/radioman"			("inf_tier3" side(fra) coalition(frabri)  lvl() r(1) rm(7) cost(200.0))}
+
+{"mp/fra/mid/sturmovik"				("inf_tier4" side(fra) coalition(frabri) lvl(lvl3 lvl4) r(8) rm(99) cost(23.0))}
+{"mp/fra/mid/sturmovik2"			("inf_tier4" side(fra) coalition(frabri) lvl(lvl3 lvl4) r(8) rm(99) cost(23.0))}
+{"mp/fra/mid/sturmovik3"			("inf_tier4" side(fra) coalition(frabri) lvl(lvl3 lvl4) r(8) rm(99) cost(53.0))} 
+{"mp/fra/mid/sturmovik4"			("inf_tier4" side(fra) coalition(frabri) lvl(lvl3 lvl4) r(8) rm(99) cost(68.0))}
+{"mp/fra/mid/sturmovik4b"			("inf_tier4" side(fra) coalition(frabri) lvl(lvl3 lvl4) r(8) rm(99) cost(23.0))}
+{"mp/fra/mid/sturmovik5"			("inf_tier4" side(fra) coalition(frabri) lvl(lvl3 lvl4) r(8) rm(99) cost(53.0))}
+{"mp/fra/mid/sturmovik5b"			("inf_tier4" side(fra) coalition(frabri) lvl(lvl3 lvl4) r(8) rm(99) cost(53.0))}
+{"mp/fra/mid/sturmovik6"			("inf_tier4" side(fra) coalition(frabri) lvl(lvl3 lvl4) r(8) rm(99) cost(23.0))}
+{"mp/fra/mid/sturmovik6b"			("inf_tier4" side(fra) coalition(frabri) lvl(lvl3 lvl4) r(8) rm(99) cost(30.0))}
+{"mp/fra/mid/sturmovik3_assist"		("inf_tier4" side(fra) coalition(frabri) lvl(lvl3 lvl4) r(8) rm(99) cost(23.0))}
+{"mp/fra/mid/sturmovik_sl"			("inf_tier4" side(fra) coalition(frabri) lvl(lvl3 lvl4) r(8) rm(99) cost(28.0))}
+{"mp/fra/early/sturmovik"			("inf_tier4" side(fra) coalition(frabri) lvl(lvl3 lvl4) r(1) rm(7) cost(23.0))}
+{"mp/fra/early/sturmovik2"			("inf_tier4" side(fra) coalition(frabri) lvl(lvl3 lvl4) r(1) rm(7) cost(18.0))}
+{"mp/fra/early/sturmovik2b"			("inf_tier4" side(fra) coalition(frabri) lvl(lvl3 lvl4) r(1) rm(7) cost(23.0))}
+{"mp/fra/early/sturmovik3"			("inf_tier4" side(fra) coalition(frabri) lvl(lvl3 lvl4) r(1) rm(7) cost(53.0))} 
+{"mp/fra/early/sturmovik4"			("inf_tier4" side(fra) coalition(frabri) lvl(lvl3 lvl4) r(1) rm(7) cost(63.0))}
+{"mp/fra/early/sturmovik4b"			("inf_tier4" side(fra) coalition(frabri) lvl(lvl3 lvl4) r(1) rm(7) cost(23.0))}
+{"mp/fra/early/sturmovik5"			("inf_tier4" side(fra) coalition(frabri) lvl(lvl3 lvl4) r(1) rm(7) cost(53.0))}
+{"mp/fra/early/sturmovik5b"			("inf_tier4" side(fra) coalition(frabri) lvl(lvl3 lvl4) r(1) rm(7) cost(53.0))}
+{"mp/fra/early/sturmovik6"			("inf_tier4" side(fra) coalition(frabri) lvl(lvl3 lvl4) r(1) rm(7) cost(23.0))} 
+{"mp/fra/early/sturmovik3_assist"	("inf_tier4" side(fra) coalition(frabri) lvl(lvl3 lvl4) r(1) rm(7) cost(18.0))}
+{"mp/fra/early/sturmovik_sl"		("inf_tier4" side(fra) coalition(frabri) lvl(lvl3 lvl4) r(1) rm(7) cost(28.0))}  
+
+{"mp/fra/mid/medic"					("inf_medic" side(fra) coalition(frabri) cost(40.0))}
+{"mp/fra/early/medic"				("inf_medic" side(fra) coalition(frabri) cost(40.0))}
+
+{"mp/fra/mid/officer"				("inf_officer" side(fra) coalition(frabri) r(8) rm(99) cost(60.0))}
+{"mp/fra/early/officer"				("inf_officer" side(fra) coalition(frabri) r(1) rm(7) cost(100.0))}
+
+{"mp/fra/mid/sniper"				("inf_sniper" side(fra) coalition(frabri) lvl(lvl3 lvl4) r(8) rm(99) cost(150.0))}
+{"mp/fra/early/sniper"				("inf_sniper" side(fra) coalition(frabri) lvl(lvl3 lvl4) r(1) rm(8) cost(150.0))}

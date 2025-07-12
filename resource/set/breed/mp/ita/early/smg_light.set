@@ -1,0 +1,34 @@
+{breed
+	{behaviour soldier}
+	{skin "ita-re-inf-smg"}
+	{portrait "ita_soldier4"}
+	{icon "smg"}
+	{icon_priority 0}
+	{tags "soldier"}
+	{nationality ita}
+	{armors
+		{head helmet_ita_m33}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_1")
+		("tier1_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "mab_38a" filled}
+		{item  "ammo 9x19b" 360}
+        {item "it_backpack"}
+		{item "bandage_ita" 2}
+		{item "grenade oto_mod35" 2}
+		{item "grenade tipo_l" 2}
+		{item "grenade ccm34smoke" 1}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}
+;Cost=13;
+

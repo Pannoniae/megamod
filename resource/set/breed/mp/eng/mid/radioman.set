@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "uk-inf"}
+	{portrait "uk-soldier3"}
+	{tags "soldier"}
+	{nationality eng}
+	{icon "radioman"}
+	{icon_priority 5}
+	{armors
+		{head "cap_radiohead"}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_3")
+		("tier3_standard")
+		("skilled_repair")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "sten" filled}
+		{item  "ammo 9x19b" 288}
+		{item "flaergun" filled}
+		{item "ammo flare" 20}
+		{item "bandage" 3}
+		{in_hands 0}
+	}
+}
+;Cost=14;
+
+

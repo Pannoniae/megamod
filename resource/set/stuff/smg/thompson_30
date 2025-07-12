@@ -1,0 +1,4 @@
+{from "thompson"
+	{filling "ammo 11x23" 30}
+}
+;Cost=10;

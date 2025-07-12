@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{skin "ita-re-inf-smg"}
+	{portrait "ita_soldier4"}
+	{tags "crew"}
+	{nationality ita}
+	{icon "tech"}
+	{icon_priority 0}
+	{armors
+		{head helmet_ita_m33}
+      	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")
+		("skilled_repair")
+		("expert_gun")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "mab_38a" filled}
+		{item "ammo 9x19b" 360}
+		{item "bandage_ita" 2}
+		{item "grenade oto_mod35" 1}
+		{item "grenade ccm34smoke" 1}
+		{in_hands 0}
+	}
+}
+;Cost=13;
+

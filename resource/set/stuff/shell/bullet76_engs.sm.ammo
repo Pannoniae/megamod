@@ -1,0 +1,10 @@
+{from "pattern sm"
+	{tag "shell size2 75to76"}
+	{entity "eng_shell_76x134r_sm"}
+	{inventory {size 5 1}}
+	{mass 19}
+
+	{view "howitzer_shell_105-150"
+		{tail "shell_tracer_100-152_he_long" "tail"}
+	}
+}

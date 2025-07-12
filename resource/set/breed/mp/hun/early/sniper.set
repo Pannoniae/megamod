@@ -1,0 +1,36 @@
+{breed
+	{behaviour soldier}
+	{skin "hun-inf-early-rfl"}
+	{portrait "hun_soldier3"}
+	{tags "soldier"}
+	{nationality hun}
+	{icon "snipers"}
+	{icon_priority 5}
+	{armors
+		{head "fieldcap2_hun"}
+	}
+	{tags "sniper"}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_3")
+		("stealth")
+		("sniper_vision")
+		("tier3_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "zb24_s" filled}
+		{item "frommer_37m" filled}
+		{item "ammo 7x57" 85}
+		{item "ammo 9x17" 105}
+		{item "bandage_hun" 6}
+		{item "knife_union"}
+		{item "plant" 3}
+		{in_hands 0}
+	}
+}
+;Cost=151;
+

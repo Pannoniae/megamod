@@ -1,0 +1,31 @@
+{breed
+	{behaviour soldier}
+	{skin "uk-tankcom"}
+	{portrait "uk-tankman"}
+	{tags "crew"}
+	{nationality eng}
+	{icon "tech"}
+	{icon_priority 0}
+	{armors
+		{head "beret_tank"}
+	}
+	{perks
+		(include "ability.inc")
+		("tank_commander")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "sten_mkii" filled}
+		{item  "ammo 9x19b" 288}
+		{item "bandage" 1}
+		{in_hands 0}
+	}
+}
+;Cost=10;
+
+
+
+

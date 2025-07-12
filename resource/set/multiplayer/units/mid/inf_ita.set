@@ -1,0 +1,63 @@
+;SDL
+
+{"mp/ita/mid/vehicle_supporter"		("inf_tankman" side(ita)  period(mid) cost(5.0))}
+{"mp/ita/mid/tankman"				("inf_tankman" side(ita)  period(mid) cost(4.0))}
+{"mp/ita/mid/tankman2"				("inf_tankman" side(ita)  period(mid) cost(12.0))}
+{"mp/ita/mid/pilot"					("inf_tankman" side(ita)  period(mid) cost(0.0))}
+
+{"mp/ita/mid/rifle_light"			("inf_tier1" side(ita) period(late) cost(7.0))} ; rifle
+{"mp/ita/mid/rifle2_light"		    ("inf_tier1" side(ita) period(late) cost(7.0))} ; rifle
+{"mp/ita/mid/smg_light"		    	("inf_tier1" side(ita) period(late) cost(12.0))} ; smg
+
+{"mp/ita/mid/mgun2"					("inf_tier2_lite" side(ita) period(mid) cost(44.0))} ; has mg
+{"mp/ita/mid/mgun3"					("inf_tier2_lite" side(ita) period(mid) cost(44.0))} ; has mg
+{"mp/ita/mid/rifle2"				("inf_tier2_lite" side(ita) period(mid) cost(8.0))}
+{"mp/ita/mid/rifle3"				("inf_tier2_lite" side(ita) period(mid) cost(13.0))} ; semi-auto
+{"mp/ita/mid/rifle3b"				("inf_tier2_lite" side(ita) period(mid) cost(8.0))}
+{"mp/ita/mid/rifle5"				("inf_tier2_lite" side(ita) period(mid) cost(8.0))}
+{"mp/ita/mid/smg2"		    		("inf_tier2_lite" side(ita) period(mid) cost(13.0))}
+{"mp/ita/mid/smg3"		    		("inf_tier2_lite" side(ita) period(mid) cost(13.0))}
+{"mp/ita/mid/smg4"		    		("inf_tier2_lite" side(ita) period(mid) cost(13.0))}
+{"mp/ita/mid/mgun2_assist"			("inf_tier2_lite" side(ita) period(mid) cost(8.0))}
+{"mp/ita/mid/mgun3_assist"			("inf_tier2_lite" side(ita) period(mid) cost(13.0))}														  
+
+{"mp/ita/mid/saper"					("inf_tier2" side(ita) period(mid) cost(35.0))}
+{"mp/ita/mid/flamer"				("inf_tier2" side(ita) period(mid) cost(53.0))}
+{"mp/ita/mid/ap_miner"				("inf_tier2" side(ita) period(mid) cost(35.0))}
+{"mp/ita/mid/at_miner"				("inf_tier2" side(ita) period(mid) cost(35.0))}
+;{"mp/ita/mid/gr_launcher"			("inf_tier2" side(ita) period(mid) cost(75.0))}
+{"mp/ita/mid/squadleader"			("inf_tier2" side(ita) period(mid) cost(18.0))}
+{"mp/ita/mid/squadleader3"			("inf_tier2" side(ita) period(mid) cost(18.0))}	
+{"mp/ita/mid/at_rifle"				("inf_tier2" side(ita) period(mid) cost(44.0))} ; has AT
+{"mp/ita/mid/reco_rifle"			("inf_tier2" side(ita) period(mid) cost(13.0))}
+{"mp/ita/mid/reco_sl"				("inf_tier2" side(ita) period(mid) cost(18.0))}
+
+{"mp/ita/mid/elite"					("inf_tier3" side(ita) period(mid) cost(18.0))}
+{"mp/ita/mid/elite2"				("inf_tier3" side(ita) period(mid) cost(48.0))}
+{"mp/ita/mid/elite3"				("inf_tier3" side(ita) period(mid) cost(13.0))}
+{"mp/ita/mid/elite4"				("inf_tier3" side(ita) period(mid) cost(53.0))}
+{"mp/ita/mid/elite2_assist"			("inf_tier3" side(ita) period(mid) cost(13.0))}
+{"mp/ita/mid/elite4_assist"			("inf_tier3" side(ita) period(mid) cost(18.0))}
+{"mp/ita/mid/elite_sl"				("inf_tier3" side(ita) period(mid) cost(23.0))}
+{"mp/ita/mid/rifle"					("inf_tier3" side(ita) period(late) cost(18.0))} ; rifle
+{"mp/ita/mid/rifle4"		    	("inf_tier3" side(ita) period(late) cost(12.0))} ; rifle
+{"mp/ita/mid/smg"		    		("inf_tier3" side(ita) period(late) cost(17.0))} ; smg
+{"mp/ita/mid/mgun"					("inf_tier3" side(ita) period(late) cost(49.0))} ; has mg
+{"mp/ita/mid/mgun_assist"			("inf_tier3" side(ita) period(late) cost(12.0))}
+{"mp/ita/mid/squadleader2"			("inf_tier3" side(ita) period(late) cost(18.0))}
+{"mp/ita/mid/mortar"				("inf_tier3" side(ita) period(late) cost(33.0))} ; mortar
+
+{"mp/ita/mid/radioman"				("inf_signaller" side(ita) period(mid) cost(200.0))}
+
+{"mp/ita/mid/sturmovik"				("inf_tier4" side(ita) period(mid) cost(23.0))}
+{"mp/ita/mid/sturmovik2"			("inf_tier4" side(ita) period(mid) cost(53.0))}
+{"mp/ita/mid/sturmovik3"			("inf_tier4" side(ita) period(mid) cost(23.0))} 
+{"mp/ita/mid/sturmovik4"			("inf_tier4" side(ita) period(mid) cost(63.0))}
+{"mp/ita/mid/sturmovik2_assist"		("inf_tier4" side(ita) period(mid) cost(23.0))}
+{"mp/ita/mid/sturmovik_sl"			("inf_tier4" side(ita) period(mid) cost(28.0))}																
+
+{"mp/ita/mid/medic"					("inf_medic" side(ita) period(mid) cost(40.0))}
+
+{"mp/ita/mid/officer"				("inf_officer" side(ita) period(mid) cost(125.0))}
+
+{"mp/ita/mid/sniper"				("inf_sniper" side(ita) period(mid) cost(151.0))}

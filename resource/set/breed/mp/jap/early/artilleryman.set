@@ -1,0 +1,32 @@
+{breed
+	{behaviour soldier}
+	{skin "jap_rifle"}
+	{portrait "jap_soldier2"}
+	{tags "crew"}
+	{nationality jap}
+	{icon "smg"}
+	{icon_priority 1}
+	{armors
+		{head helmet1_jap}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")
+		("skilled_repair")
+		("expert_gun")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "type44_carbine" filled}
+		{item  "ammo 6x50" 80}
+		{item "bandage_jap" 3}
+		{item "grenade type97" 1}
+		{in_hands 0}
+	}
+}
+;Cost=8;
+

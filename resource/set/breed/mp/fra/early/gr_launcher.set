@@ -1,0 +1,32 @@
+{breed
+	{behaviour soldier}
+	{skin "fra-inf-rfl"}
+	{portrait "fra_soldier2"}
+	{tags "soldier_atr_grenade"}
+    {nationality fra}
+	{icon "gr_launcher"}
+	{icon_priority 2}
+	{armors
+		{head "helmet_fra_m26"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_3")
+		("tier3_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "mortar_mkvii" filled}
+		{item "ammo mortar50_eng" 16}
+		{item "bandage_fra" 3}
+		{item "sandbag_kit" 1}
+		{item "small_inf_shovel"}
+		{in_hands 0}
+	}
+}
+;Cost=33;
+
+

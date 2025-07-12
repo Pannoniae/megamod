@@ -1,0 +1,29 @@
+{breed
+	{behaviour soldier}
+	{skin "pol-2cor-inf"}
+	{portrait "pol_late_soldier2"}
+	{tags "soldier"}
+	{nationality pol}
+	{icon "flamer"}
+	{icon_priority 3}
+	{armors
+		{head "helmet_pol_mkii"}
+	}
+	{perks
+		(include "ability.inc")
+		("rifle_skill_rank_2")
+		("tier2_standard")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "flame_thrower" filled}
+		{item "ammo flame_thrower" 70}
+		{item "bandage_pol" 1}
+		{in_hands 0}
+	}
+}
+;Cost=53;
+

@@ -1,0 +1,24 @@
+{from "pattern gun"			; "type88_75mm AA gun"
+	{filling "bullet75_jap"}
+	{fireSound "gun/75mm_type3"}
+	{fireSoundclose "gun/gun_75_105"}
+	{reloadSound "tank/reload_big"}
+	("range_220")
+	{calibre 75}
+
+	("velocity m/s" ap(720) apcr(850) he(720) heat(1))
+	("armor health" damage(200))
+	("armor health custom" shell(aphe) damage(200) filler(133))
+	("75_slope_multipliers")
+
+	("penetration_medium" shell(aphe) range(220) a(100) b(88) c(78) d(69) e(58)) 
+	("penetration_medium" shell(apcr) range(220) a(125) b(108) c(93) d(79) e(63)) 
+	("accuracy_direct" r1(0.72) range_ap(220) range_he(210) range_heat(210))
+
+	("heavy_aa")
+	("reload time" seconds(6))
+	{aimingTolerance 3}
+
+}
+
+

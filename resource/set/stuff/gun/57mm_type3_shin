@@ -1,0 +1,21 @@
+{from "pattern gun"		; "Ho-I TD"
+	{filling "bullet57_jap"}
+	{fireSound "gun/57mm_type97"}
+	{fireSoundclose "gun/gun_interior/size3"}
+	{reloadSound "interior/large/medium_reload_interior"}
+
+	("range_190")
+	{calibre 57}
+	("reload time" seconds(4.5))
+
+	("velocity m/s" ap(800) apcr(1) he(522) heat(522))
+	("armor health" damage(150))
+	("armor health custom" shell(aphe) damage(150) filler(103))
+	("penetration_medium" shell(aphe) range(190) a(131) b(98) c(85) d(75) e(45))
+	("penetration_medium" shell(heat) range(190) a(55) b(55) c(55) d(55) e(55))
+	("57_slope_multipliers")
+	{parameters "he"
+		{range 170 170}
+	}
+	("accuracy_direct" r1(0.80) range_ap(190) range_he(170) range_heat(170))
+}

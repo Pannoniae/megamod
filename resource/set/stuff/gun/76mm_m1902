@@ -1,0 +1,38 @@
+;_________________________________________
+; short barreled USSR infantry support gun
+;=========================================
+
+
+{from "pattern gun"			; L/30 "M1902"
+	{filling "bulletrus_76"}
+	{fireSound "cannon/s3/d1/Shared/Cannon_75to76mm/"}
+	{fireSoundclose "cannon/s3/3p/Shared/Cannon_75to76mm/"}
+	{reloadSound "utility/"}
+	("range_180")
+	{calibre 76.2}
+	("reload time" seconds(6.5))
+
+	("velocity m/s" ap(588) apcr(857) he(588) heat(290))
+	("armor health" damage(200))
+	("armor health custom" shell(sr) damage(200) filler(600))
+	("armor health custom" shell(aphebc) damage(200) filler(150))
+	("armor health custom" shell(aphebc2) damage(200) filler(88))
+	("76_rus_slope_multipliers")
+
+	; BR-350A
+	("penetration_medium" shell(aphebc) range(180) a(73) b(69) c(62) d(56) e(47))
+
+	; BR-350B
+	("penetration_medium" shell(aphebc2) range(180) a(78) b(73) c(65) d(58) e(52))
+	; Shrapnel
+	("penetration_medium" shell(sr) range(180) a(27) b(21) c(19) d(16) e(12)) ; Pen data for shrapnel shell 
+
+
+	; BR-350P		;// theoretial performance
+	("penetration_medium" shell(apcr) range(180) a(111) b(77) c(48) d(30) e(19))
+
+	; BP-350A
+	("penetration_medium" shell(heat) range(180) a(75) b(75) c(75) d(75) e(75))	; issued sometime in '43
+
+	("accuracy_direct_arrowhead" r1(1.01) range_ap(180) range_he(180) range_heat(180))
+}

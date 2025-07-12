@@ -1,0 +1,23 @@
+{from "pattern gun"			 ; 75/27 modello 11
+	{filling "bullet75_ita"}
+	{fireSound "gun/gun_75_105_short"}
+	{fireSoundclose "gun/gun_interior/size3"}
+	{reloadSound "interior/large/medium_reload_interior"}
+	("range_190_howitzer")
+	{calibre 76.2}
+	("reload time" seconds(6))
+	("velocity m/s" ap(500) apcr(1) he(240) heat(390))
+	("armor health" damage(200))
+	("75_slope_multipliers")
+
+	; Granata Perforante mod.32
+	("penetration_medium" shell(apcbc) range(190) a(58) b(50) c(45) d(39) e(33))
+
+	; EPS M42
+	("penetration_medium" shell(heat) range(190) a(87) b(87) c(87) d(87) e(87))
+
+	("accuracy_spg" r1(1.25) range_ap(190) range_he(190) range_heat(190))
+
+	{SpreadTolerance 0}     ;// add because zeroing bug kept from firing
+    	{unlimitedRangeTPC 0}   ;// restrict range in TPC/FPC
+}

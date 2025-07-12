@@ -1,0 +1,13 @@
+{from "pattern smoke"
+	{tag "smoke"}
+	{inventory {size 1 1}}
+	{entity "grenade_type91"}
+	{mass 1.5}
+	{throw
+		{range 23.7} ;in-game 25m
+		{startAngle 45}
+		{spreading 0.3
+			{SpreadPower 2}
+		}
+	}
+}

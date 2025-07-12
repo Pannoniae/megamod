@@ -1,0 +1,34 @@
+{breed
+	{behaviour soldier}
+	{skin "jap_sniper"}
+	{portrait "jap_soldier4"}
+	{tags "soldier"}
+	{nationality jap}
+	{icon "squadleader"}
+	{icon_priority 0}
+	{armors
+		{head cap_jap_off}
+	}
+	{perks
+		(include "ability.inc")
+		("smg_skill_rank_4")
+
+		("tier4_recon")
+	}
+	{veterancy
+		(include "ability.inc")
+		("veterancy_lvl_0")
+	}
+	{inventory
+		{item "type44_carbine" filled}
+		{item "ammo 6x50" 60}
+		{item "knife_japan" 1}
+		{item "bandage_jap" 5}
+		{item "grenade type97" 5}
+		{item "grenade type3at_a" 3}
+		{item "dynamite" 2}
+		{in_hands 0}
+	}
+}
+;Cost=18;
+

@@ -1,0 +1,19 @@
+{from "pattern mgun"
+	{filling "ammo 7x57b" 1600}
+	{entity "browning_wz_30"}
+	{fireSound "mgun/wz33_burst/"}
+	{fireSoundclose "mgun/wz33_burst/3p"}
+	{reloadSound "dt"}
+	{calibre 7.92}
+	{mass 9.12}
+
+	("fire rate" rpm(500))
+	("velocity" mps(845))
+	("burst_long")
+	("spreading_low")
+	{projectileDamageTable {15 5} {110 2} {150 0}}
+	{bullet_view "air_shell"
+		{tail "cannone_small_air" "root"}
+        }
+}
+;Cost=40;
