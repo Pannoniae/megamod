@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 ;SDL
 {PatherID  "vehicle.large"}
 {obstacleID "tank"}
@@ -1575,6 +1574,4 @@
 ("armor_tag" args "armor_front2")
 ("armor_tag" args "armor_front3")
 ("armor_tag" args "armor_front4")
-;/*========================================*/
->>>>>>> Stashed changes
 ;/*========================================*/

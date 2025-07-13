@@ -221,19 +221,11 @@
 ;		{apply "only_roster_late"}
 ;		("custom_all"			start_a(4500) finish_a(4500) reinforcement_a(470) start_b(2800) finish_b(2800) doctrine_a(300) doctrine_b(200) cp_a(0:175,900:200,1500:225) cp_b(0:110,900:140,1500:170))
 ;	}
-<<<<<<< Updated upstream
-	{"s:late_custom_80"
-		{gameMode "custom"}
-		{unitMode "late"}
-		{specMode "cp_80"}
-		{apply "only_roster_late"}
-=======
 	{"s:custom_80_44-45"
 		{gameMode "custom"}
 		{unitMode "44-45"}
 		{specMode "cp_80"}
 		{apply "only_roster_44-45"}
->>>>>>> Stashed changes
 		("custom_all"			start_a(8000) finish_a(8000) reinforcement_a(800) start_b(6000) finish_b(6000) doctrine_a(1) doctrine_b(1) cp_a(0:175,900:200,1500:225) cp_b(0:110,900:140,1500:170))
 		{ranked}
 	}
@@ -271,7 +263,7 @@
 ;		{apply "only_roster_late"}
 ;		("custom_all_46"			start_a(4500) finish_a(4500) reinforcement_a(470) start_b(2800) finish_b(2800) doctrine_a(300) doctrine_b(200) cp_a(0:175,900:200,1500:225) cp_b(0:110,900:140,1500:170))
 ;	}
-	{"s:custom_80_44-45"
+	{"s:custom_80_46"
 		{gameMode "custom"}
 		{unitMode "46"}
 		{specMode "cp_80"}
