@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/eng/afr/brit equipment"}
+	{blend none}
+}

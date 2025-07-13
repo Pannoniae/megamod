@@ -1,0 +1,92 @@
+;Exported by: Administrator
+;Date:        Tue Jan 25 23:39:22 2011
+;File:        F:\3dmax存档\FOR战争之人3D模型\WY武器制造公司\轻武器\提取的枪\38bq.max
+{Skeleton
+	{bone "38bq"
+		{Position 0.5	-0.5	-0.05}
+		{parameters "CommonMesh;"}
+		{Orientation
+			0.94	0	0
+			0	-0.94	0
+			0	0	0.94
+		}
+		{VolumeView "type38.ply"}
+		{bone "foresight12"
+			{Position 20.3922	1.24826	0}
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				8.05032	1.43015	0
+			}
+		}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "38bq"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		6.52404	-0.00917053	0.030956
+	}
+}
+{Volume "select"
+	{Polyhedron "select.vol"}
+	{Bone "38bq"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		6.51954	0.0298181	0.0272749
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 8.17615	-3.9554	32.3775}
+			{lookat 8.04069	-3.40287	29.0104}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0250696	0.117822	-0.485273}
+			}
+			{"1"
+				{type point}
+				{position 18.3918	0.539585	3.74537}
+			}
+			{"2"
+				{type point}
+				{position -3.37271	1.80636	3.72253}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 7.2926	-5.59907	33.0468}
+			{lookat 7.28694	-5.00745	29.545}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0100493	0.119811	-0.485329}
+			}
+			{"1"
+				{type point}
+				{position 17.1601	-1.11301	4.91969}
+			}
+			{"2"
+				{type point}
+				{position -3.19087	0.32554	4.50548}
+			}
+		}
+	}
+}

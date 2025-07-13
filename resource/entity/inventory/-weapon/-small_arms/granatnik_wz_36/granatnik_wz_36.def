@@ -1,0 +1,9 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{Extension "granatnik_wz_36.mdl"}
+	{extender "stuff"
+		{item "granatnik_wz36"}
+	}
+	{nogroupmesh 1}
+	{lodclass "human"}
+}

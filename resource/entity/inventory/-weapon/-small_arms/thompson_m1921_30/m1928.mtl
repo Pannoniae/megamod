@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "1st_tommy_m1928a1"}
+	{specular "1st_tommy_m1928a1_sp"}
+	{bump "1st_tommy_m1928a1_bp"}
+	{color "229 229 229 50"}
+	{blend none}
+}

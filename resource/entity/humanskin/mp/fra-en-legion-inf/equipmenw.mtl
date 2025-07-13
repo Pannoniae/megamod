@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/fra/brit equipment_fra"}
+	{blend test}
+}

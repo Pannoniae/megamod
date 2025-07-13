@@ -1,0 +1,81 @@
+;Exported by:	 Carlos
+;Date:			 03.01.2017 20:38:51
+;File:			 C:\Users\Carlos\Documents\3dsmax\scenes\GoH_resources\3d_work\weapons\30cal\30cal.max
+{skeleton
+	{bone "30cal"
+		{parameters "id=mgun;"}
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{LODView
+			{VolumeView "30cal.ply"}
+			{VolumeView "30cal_lod1.ply"}
+			{VolumeView "30cal_lod2.ply"}
+		}
+		{bone "foresight14"
+			{matrix34
+				1 	 0 	 0
+				0 	 1 	 0
+				0 	 0 	 1
+				26.091 	 0.9209 	 -0.0344
+			}
+		}
+		{bone "fxshell"
+			{matrix34
+				0 	 -0.866 	 0.5
+				0 	 0.5 	 0.866
+				-1 	 0 	 0
+				9.6946 	 1.8427 	 0.8448
+			}
+		}
+		{bone "handle"
+			{matrix34
+				1 	 0 	 0
+				0 	 0 	 -1
+				0 	 1 	 0
+				13.2535 	 1.6384 	 -0.0129
+			}
+		}
+	}
+}
+{volume "body"
+	{box 26.0924 3.11943 1.29169}
+	{bone "30cal"}
+	{matrix34
+		1 	 -0.0081 	 0
+		0.0081 	 1 	 0
+		0 	 0 	 1
+		12.7282 	 0.9761 	 -0.0137
+	}
+}
+{volume "select"
+	{box 29.8432 7.30748 2.95047}
+	{bone "30cal"}
+	{Position 13.1038 	 0.1542 	 0.1476}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin 15.7058 	 -0.9567 	 -33.8962}
+			{lookat 15.1564 	 -0.8951 	 -26.9789}
+			{fov 45}
+			{horizon 83.7992}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 15.4224 	 -12.5143 	 -4.6115}
+			}
+			{"1"
+				{type directional}
+				{direction -0.1649 	 0.0524 	 0.4691}
+			}
+			{"2"
+				{type point}
+				{position 15.1659 	 14.2338 	 -4.0705}
+			}
+		}
+	}
+}

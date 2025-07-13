@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "sten_mk3"}
+	{specular "sten_mk3_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/usa/usmc_paramarine"}
+	{blend none}
+}

@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "grenade_tipo_l" }
+	{specular "grenade_tipo_l_sp.dds"}
+	{color "229 229 229 152"}
+	{blend none}
+}

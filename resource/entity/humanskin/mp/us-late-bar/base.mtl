@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/usa/usa-m1943"}
+	{blend none}
+}

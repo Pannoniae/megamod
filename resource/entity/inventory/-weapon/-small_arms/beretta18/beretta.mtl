@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "beretta_m1918"}
+	{blend none}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "stockwood copy"}
+	{blend none}
+}

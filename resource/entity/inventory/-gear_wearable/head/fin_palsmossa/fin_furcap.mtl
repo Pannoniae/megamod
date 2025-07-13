@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_hum/legacy/fin/fin_palsmossa"}
+	{bump "$/_hum/legacy/fin/fin_fur_cap_bp"}
+	{specular "$/_hum/legacy/fin/fin_fur_cap_sp"}
+;	{color "230 230 230 25"}
+	{blend none}
+}

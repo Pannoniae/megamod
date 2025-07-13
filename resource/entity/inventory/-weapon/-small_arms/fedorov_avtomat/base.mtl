@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "fedorov_avtomat"}
+	{specular "fedorov_avtomat_sp"}
+	{color "230 230 230 25"}
+	{blend none}
+}

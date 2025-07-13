@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "mk2"}
+	;{bump "mk2_bp"}
+	{specular "mk2_sp"}
+	{color "229 229 229 152"}
+	{blend none}
+}

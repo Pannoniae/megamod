@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "snlf_ijn_sailor_cap1"}
+	{bump "snlf_ijn_sailor_cap1_bp"}
+	{specular "snlf_ijn_sailor_cap1_sp"}
+	{color "229 229 229 76"}
+	{blend test}
+}

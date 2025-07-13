@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/humanskin/rus_tankerwrap_diff"}
+	{bump "$/humanskin/rus_tankerwrap_bump"}
+	{specular "$/humanskin/rus_tankerwrap_spc"}
+	{color "229 229 229 25"}
+	{blend none}
+}

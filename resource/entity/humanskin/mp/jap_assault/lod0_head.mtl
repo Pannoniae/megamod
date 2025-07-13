@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/humanskin/jap/rikusentaib_lod0_head_normal"}
+	{specular "$/humanskin/jap/rikusentaib_lod0_head_normal_sp"}
+	{color "229 229 229 9"}
+	{blend none}
+}

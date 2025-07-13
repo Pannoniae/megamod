@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "glider_helmet"}
+	{specular "glider_helmet_specular"}
+	{color "229 229 229 79"}
+	{blend none}
+}

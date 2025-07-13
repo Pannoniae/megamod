@@ -1,0 +1,12 @@
+{entity
+	(include "/properties/stuff_grenade.ext")
+	{Extension "grenade_n77wp.mdl"}
+	{props "grenade" "contact"}
+	{extender "stuff"
+		{item "smoke_discharge"}
+	}	
+	{nogroupmesh 1}
+	{volume "body"
+		{able {contact}}
+	}
+}

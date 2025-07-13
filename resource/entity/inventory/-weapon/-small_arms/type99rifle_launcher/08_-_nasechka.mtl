@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "riflenka4"}
+	{bump "riflenka4_bp"}
+	{blend none}
+}

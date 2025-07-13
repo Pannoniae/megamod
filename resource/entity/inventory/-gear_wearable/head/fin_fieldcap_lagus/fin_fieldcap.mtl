@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_hum/legacy/fin/fin_fieldcap_lagus"}
+	{bump "$/_hum/legacy/fin/fin_fieldcap_bp"}
+	{specular "$/_hum/legacy/fin/fin_fieldcap_sp"}
+;	{color "230 230 230 25"}
+	{blend none}
+}

@@ -1,0 +1,52 @@
+;Exported by: Kalinski
+;Date:        Mon Jan 01 20:35:23 2018
+;File:        C:\Users\Kalinski\Desktop\modshit\pol\fs cap.max
+{Skeleton
+	{bone "cap_pol_eng_sidecap"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "cap_pol_eng_sidecap.ply"}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "cap_pol_eng_sidecap"}
+	{Position 0.703094	0.124126	3.3988}
+}
+{Volume "select"
+	{Box 5.59662 5.08766 5.14459}
+	{Bone "cap_pol_eng_sidecap"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		0.919993	0.260123	3.58528
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 5.22278	-0.270801	4.06815}
+			{lookat 1.10342	0.125464	4.00583}
+			{fov 45}
+			{horizon -0.239031}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.490762	0.0813506	-0.0503466}
+			}
+			{"1"
+				{type point}
+				{position 2.39624	-0.890256	4.47702}
+			}
+			{"2"
+				{type point}
+				{position 2.82903	0.838477	3.08308}
+			}
+		}
+	}
+}

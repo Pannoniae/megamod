@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "ccm34smoke"}
+	{blend test}
+}

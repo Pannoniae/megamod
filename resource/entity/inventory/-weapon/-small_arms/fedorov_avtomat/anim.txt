@@ -1,0 +1,114 @@
+-= Animation: recoil, Node barrel =-
+	Frame 10 {
+		Visibility 1
+		Position	9.54316	1.71785	0.0175003
+		Orientation	0 0 0 1
+	}
+	Frame 11 {
+		Position	9.30454	1.71785	0.0175003
+	}
+	Frame 12 {
+		Position	9.06592	1.71785	0.0175003
+	}
+	Frame 26 {
+		Position	9.18965	1.71785	0.0175003
+	}
+	Frame 27 {
+		Position	9.41943	1.71785	0.0175003
+	}
+	Frame 28 {
+		Position	9.54316	1.71785	0.0175003
+	}
+	Frame 29 {
+		Position	9.53623	1.71785	0.0175003
+	}
+	Frame 30 {
+		Visibility 1
+		Position	9.52929	1.71785	0.0175003
+		Orientation	0 0 0 1
+	}
+-= Animation: recoil, Node bolt =-
+	Frame 10 {
+		Visibility 1
+		Position	-5.47811	0.2004	0.339402
+		Orientation	0 0 0 1
+	}
+	Frame 11 {
+		Position	-5.60576	0.2004	0.339402
+	}
+	Frame 12 {
+		Position	-5.93497	0.2004	0.339402
+	}
+	Frame 13 {
+		Position	-6.3851	0.2004	0.339402
+	}
+	Frame 14 {
+		Position	-6.87556	0.2004	0.339402
+	}
+	Frame 15 {
+		Position	-7.32569	0.2004	0.339402
+	}
+	Frame 16 {
+		Position	-7.6549	0.2004	0.339402
+	}
+	Frame 17 {
+		Position	-7.78255	0.2004	0.339402
+	}
+	Frame 18 {
+		Position	-7.70352	0.2004	0.339402
+	}
+	Frame 19 {
+		Position	-7.49173	0.2004	0.339402
+	}
+	Frame 20 {
+		Position	-7.1851	0.2004	0.339402
+	}
+	Frame 21 {
+		Position	-6.82158	0.2004	0.339402
+	}
+	Frame 22 {
+		Position	-6.43908	0.2004	0.339402
+	}
+	Frame 23 {
+		Position	-6.07556	0.2004	0.339402
+	}
+	Frame 24 {
+		Position	-5.76893	0.2004	0.339402
+	}
+	Frame 25 {
+		Position	-5.55713	0.2004	0.339402
+	}
+	Frame 26 {
+		Position	-5.47811	0.2004	0.339402
+	}
+	Frame 30 {
+		Visibility 1
+		Position	-5.47811	0.2004	0.339402
+		Orientation	0 0 0 1
+	}
+-= Animation: recoil, Node bolt2 =-
+	Frame 10 {
+		Visibility 1
+		Position	2.03663	2.01234	0.0133002
+		Orientation	0 0 0 1
+	}
+	Frame 16 {
+		Position	1.53265	2.01234	0.0133002
+	}
+	Frame 17 {
+		Position	1.02866	2.01234	0.0133002
+	}
+	Frame 18 {
+		Position	1.28998	2.01234	0.0133002
+	}
+	Frame 19 {
+		Position	1.77531	2.01234	0.0133002
+	}
+	Frame 20 {
+		Position	2.03663	2.01234	0.0133002
+	}
+	Frame 30 {
+		Visibility 1
+		Position	2.03663	2.01234	0.0133002
+		Orientation	0 0 0 1
+	}

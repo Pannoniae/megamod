@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "carcano carbine 2"}
+	{blend none}
+}

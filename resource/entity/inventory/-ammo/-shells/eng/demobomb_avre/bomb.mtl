@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "demolition_bomb_c_demolition_bomb_c"}
+	{blend none}
+}

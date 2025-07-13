@@ -1,0 +1,10 @@
+{actor
+	(include "/properties/stuff_grenade.ext")
+	(include "/properties/shadow/round.inc")
+	{Extension "mine_antitank_jap.mdl"}
+	{extender "stuff"
+		{item "grenade type99at"}
+	}
+	{props "magnetic"}
+	{nogroupmesh 1}
+}

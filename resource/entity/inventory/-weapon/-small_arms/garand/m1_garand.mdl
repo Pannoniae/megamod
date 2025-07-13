@@ -1,0 +1,66 @@
+;Exported by: Andrew Peacock
+;Date:        Wed Apr 18 10:39:13 2012
+;File:        C:\Users\Andrew Peacock\Desktop\Models\Completed Full Models\BF2 Completed, Full Models\M1garand\complete\M1_GARAND.max
+{Skeleton
+	{bone "m1_garand"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "m1_garand.ply"}
+		{bone "foresight12"
+			{Position 16.8063	1.76027	-0.0121863}
+		}
+		{bone "handle"
+			{Matrix34
+				0.999892	-0.0101287	-0.0106147
+				-0.0106097	0.000546655	-0.999943
+				0.0101339	0.999949	0.000439518
+				6.4811	2.01269	-0.0421017
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0	1
+				0	1	0
+				-1	0	0
+				3.0806	1.87777	0.2994
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 1.09129 28.3822 3.72588}
+	{Bone "m1_garand"}
+	{Matrix34
+		0	0	0.895725
+		0.780217	2.30104e-005	0
+		-1.40211e-005	1.28256	0
+		5.10839	0.70763	-0.0711941
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 7.31503	-2.31815	-26.755}
+			{lookat 7.17182	-2.30228	-24.9723}
+			{fov 45}
+			{horizon 83.7992}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 7.24456	-3.51548	-24.1627}
+			}
+			{"1"
+				{type directional}
+				{direction -0.16522	0.0523773	0.468998}
+			}
+			{"2"
+				{type point}
+				{position 7.00189	-1.59124	-23.9459}
+			}
+		}
+	}
+}

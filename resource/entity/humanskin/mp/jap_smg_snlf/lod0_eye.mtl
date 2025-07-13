@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/jap/eye_tjeye_darkbrown_clean"}
+	{blend none}
+}

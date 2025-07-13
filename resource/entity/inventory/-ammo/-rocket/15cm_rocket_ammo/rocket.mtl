@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "15cm_rocket_ammo"}
+	{specular "15cm_rocket_ammo_sp"}
+	{color "229 229 229 152"}
+	{blend none}
+}

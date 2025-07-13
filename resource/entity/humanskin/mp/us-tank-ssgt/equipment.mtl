@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/usa/tanker jacket/us tanker holster"}
+	{blend none}
+}

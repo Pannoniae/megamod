@@ -1,0 +1,89 @@
+;Exported by: Normand
+;Date:        Sun Nov 07 23:55:40 2021
+;File:        C:\Users\Normand\beretta1918.max
+{Skeleton
+	{bone "bereta_m1918"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "bereta_m1918.ply"}
+		{bone "foresight11"
+			{Position 12.6033	1.15402	0.146743}
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				1.16987	-0.472598	0.145902
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0	1
+				0	1	0
+				-1	0	0
+				4.07598	1.21108	-0.131883
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 18 2.9 0.85}
+	{Bone "bereta_m1918"}
+	{Position 3.69271	-0.0163233	0.1561}
+}
+{Volume "select"
+	{Box 18 3.5 1}
+	{Bone "bereta_m1918"}
+	{Position 3.70741	-0.195557	0.0978279}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 5.82286	-5.49564	39.2429}
+			{lookat 5.15786	-2.7832	22.7135}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 16.2044	-2.96158	14.7275}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -2.00929	-2.35533	13.1581}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 8.4223	-5.57396	39.8055}
+			{lookat 7.7307	-2.75303	22.6149}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 16.2044	-2.96158	14.7275}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -2.00929	-2.35533	13.1581}
+			}
+		}
+	}
+}

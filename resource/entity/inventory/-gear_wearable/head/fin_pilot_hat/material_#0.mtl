@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "brit_pilot"}
+	{blend none}
+}

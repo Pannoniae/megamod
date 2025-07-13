@@ -1,0 +1,8 @@
+{Actor
+	(include "/properties/stuff_small.ext")
+	{Extension "m1917_enfield.mdl"}
+	{extender "stuff"
+		{item "enfield_p17"}
+	}
+	{nogroupmesh 1}	
+}

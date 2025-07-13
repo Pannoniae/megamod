@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/skr/brezent2"}
+	{bump "$/model/skr/riflenka3_nm"}
+	{specular "$/model/skr/riflenka3"}
+	{color "230 230 230 152"}
+	{blend none}
+}

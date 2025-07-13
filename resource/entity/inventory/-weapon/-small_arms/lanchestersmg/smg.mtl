@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "lanchestersmg"}
+	{bump "lanchestersmg_bp"}
+	{specular "lanchestersmg_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

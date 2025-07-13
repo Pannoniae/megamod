@@ -1,0 +1,89 @@
+;Exported by: Normand
+;Date:        Sun Nov 07 17:43:48 2021
+;File:        C:\Users\Normand\scotti_x.max
+{Skeleton
+	{bone "scotti"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "scotti.ply"}
+		{bone "foresight12"
+			{Position 16.7811	1.32399	-0.00568928}
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				1.82292	-0.0394183	0.379084
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0	1
+				0	1	0
+				-1	0	0
+				4.42138	1.3646	-0.00415739
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 20 2.9 0.85}
+	{Bone "scotti"}
+	{Position 5.05301	0.416855	0.00102767}
+}
+{Volume "select"
+	{Box 20.5 3.5 1}
+	{Bone "scotti"}
+	{Position 5.24559	0.237623	-0.0572453}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 6.15283	-5.92883	39.2716}
+			{lookat 5.48783	-3.21639	22.7422}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 16.5343	-3.39476	14.7562}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -1.67932	-2.78851	13.1869}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 8.75227	-6.00715	39.8342}
+			{lookat 8.06067	-3.18622	22.6437}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 16.5343	-3.39476	14.7562}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -1.67932	-2.78851	13.1869}
+			}
+		}
+	}
+}

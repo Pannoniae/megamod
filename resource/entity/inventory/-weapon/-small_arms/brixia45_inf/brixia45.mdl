@@ -1,0 +1,104 @@
+;Exported by: Normand
+;Date:        Sun Jun 04 23:54:08 2023
+;File:        C:\Users\Normand\brixia45.max
+{Skeleton
+	{bone "brixia45"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "brixia45.ply"}
+		{bone "fxshell"
+			{Matrix34
+				0	0	1
+				0	1	0
+				-1	0	0
+				4.43106	2.0841	-0.329696
+			}
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				1.52496	0.400423	-0.0519111
+			}
+		}
+		{bone "foresight3"
+			{Matrix34
+				0.913081	0.407777	0
+				-0.407777	0.913081	0
+				0	0	1
+				13.3503	6.96227	-0.0510703
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 18 2.9 0.85}
+	{Bone "brixia45"}
+	{Matrix34
+		0.914272	0.405101	0
+		-0.405101	0.914272	0
+		0	0	1
+		4.23065	2.86282	-0.0417134
+	}
+}
+{Volume "select"
+	{Box 18 3.5 1}
+	{Bone "brixia45"}
+	{Matrix34
+		0.914272	0.405101	0
+		-0.405101	0.914272	0
+		0	0	1
+		4.31671	2.70491	-0.0999854
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 6.17794	-6.36866	39.0451}
+			{lookat 5.51295	-3.65622	22.5157}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 16.5594	-3.8346	14.5296}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -1.6542	-3.22835	12.9603}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 8.77738	-6.44698	39.6077}
+			{lookat 8.08579	-3.62605	22.4171}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 16.5594	-3.8346	14.5296}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -1.6542	-3.22835	12.9603}
+			}
+		}
+	}
+}

@@ -1,0 +1,57 @@
+;Exported by: Kalinski
+;Date:        Tue Oct 31 22:34:03 2017
+;File:        C:\Users\Kalinski\Desktop\modshit\ita\helmet fin.max
+{Skeleton
+	{bone "helmet_ita_m33"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+                {Position -0.9 0.1 0}
+		{VolumeView "m33.ply"}
+	}
+}
+{Volume "body"
+	{Polyhedron "body.vol"}
+	{Bone "helmet_ita_m33"}
+	{matrix34
+		1 	 0 	 0
+		0 	 0 	 -1
+		0 	 1 	 0
+		-0.5011 	 -0.0174 	 4.2989
+	}
+}
+{Volume "select"
+	{Box 5.59662 5.08766 5.14459}
+	{Bone "helmet_ita_m33"}
+	{Matrix34
+		1 	 0 	 0
+		0 	 0 	 -1
+		0 	 1 	 0
+		-0.5011 	 -0.0174 	 4.2989
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -0.29459	-7.98893	2.40133}
+			{lookat -0.271207	-1.87693	2.40133}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.354828	0.33419	-0.11142}
+			}
+			{"1"
+				{type point}
+				{position 1.3762	-2.3209	3.85514}
+			}
+			{"2"
+				{type point}
+				{position 2.83572	-1.25747	3.08308}
+			}
+		}
+	}
+}

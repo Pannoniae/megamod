@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/fra/capote chasseur"}
+	{blend none}
+}

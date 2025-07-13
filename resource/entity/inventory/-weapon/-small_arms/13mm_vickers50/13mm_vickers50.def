@@ -1,0 +1,10 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{Extension "vickers_mk_i.mdl"}
+	{extender "stuff"
+		{item "13mm_vickers50"}
+	}
+	{nogroupmesh 1}
+	{lodclass "human"}
+}
+

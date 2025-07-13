@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/hun/boots puttees"}
+	{blend none}
+}

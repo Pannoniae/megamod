@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_hum/legacy/fin/fin_ushanka_dark"}
+	{bump "$/_hum/legacy/fin/fin_ushanka_bp"}
+	{specular "$/_hum/legacy/fin/fin_ushanka_sp"}
+;	{color "230 230 230 25"}
+	{blend none}
+}

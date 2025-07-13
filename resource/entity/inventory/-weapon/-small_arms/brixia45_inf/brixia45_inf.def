@@ -1,0 +1,9 @@
+{Actor
+	(include "/properties/stuff_small.ext")
+	{Extension "brixia45.mdl"}
+	{extender "stuff"
+		{item "brixia45_m35"}
+	}
+	{nogroupmesh 1}
+	{lodclass "human"}
+}

@@ -1,0 +1,85 @@
+;Exported by: Normand
+;Date:        Tue Jun 01 10:40:39 2021
+;File:        C:\Users\Normand\grenade_of37.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "of37"
+			{Position -0.00148548	-0.196941	0.00462522}
+			{VolumeView "of37.ply"}
+			{bone "handle"
+				{Position -1.2	0	0.48}
+			}
+		}
+	}
+}
+{Volume "body"
+	{Cylinder 0.602258 1.25}
+	{Bone "of37"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0.013486	0.0884024	-0.00470179
+	}
+}
+{Volume "select"
+	{Cylinder 0.602258 1.25}
+	{Bone "of37"}
+	{Matrix34
+		1	0	0
+		0	0	1
+		0	-1	0
+		0.013486	-0.143129	-0.00470191
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -3.49827	-0.579031	-4.50293}
+			{lookat 0.00772524	-0.340586	0.0138006}
+			{fov 22.6199}
+			{horizon -133.5}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0315301	-0.497695	0.0361248}
+			}
+			{"1"
+				{type directional}
+				{direction 0.459162	0.0419266	0.193422}
+			}
+			{"2"
+				{type directional}
+				{direction -0.257638	0.268367	0.334068}
+			}
+		}
+	}
+	{"Stuff_secondary"
+		{camera
+			{origin -4.98356	-0.653826	-6.1935}
+			{lookat 0.00149023	-0.314793	0.0177107}
+			{fov 22.6199}
+			{horizon -145.5}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.0315293	-0.497682	0.0362999}
+			}
+			{"1"
+				{type directional}
+				{direction 0.458432	0.0418599	0.195161}
+			}
+			{"2"
+				{type directional}
+				{direction -0.257213	0.267926	0.334749}
+			}
+		}
+	}
+}

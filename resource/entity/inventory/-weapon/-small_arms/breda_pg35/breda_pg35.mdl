@@ -1,0 +1,89 @@
+;Exported by: Norman
+;Date:        Sat Aug 03 19:13:55 2024
+;File:        \\VBoxSvr\nnn\max_project\breda_pg35_2.max
+{Skeleton
+	{bone "breda_pg35"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "breda_pg35.ply"}
+		{bone "foresight12"
+			{Position 14.1678	1.12035	0.00148165}
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				5.2	1.9	-0.5
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0	1
+				0	1	0
+				-1	0	0
+				2.64506	1.33549	0.537087
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 21 2.9 0.85}
+	{Bone "breda_pg35"}
+	{Position 3.76178	0.311706	-0.0111464}
+}
+{Volume "select"
+	{Box 20 3.5 1}
+	{Bone "breda_pg35"}
+	{Position 3.00559	0.302656	-0.0694188}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 4.32221	-6.16043	39.0756}
+			{lookat 3.65721	-3.44799	22.5463}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 14.7037	-3.62637	14.5602}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -3.50994	-3.02012	12.9909}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 6.92165	-6.23876	39.6383}
+			{lookat 6.23005	-3.41782	22.4477}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 14.7037	-3.62637	14.5602}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -3.50994	-3.02012	12.9909}
+			}
+		}
+	}
+}

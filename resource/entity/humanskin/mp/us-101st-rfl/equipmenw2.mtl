@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/usa/para/us army equipment para win"}
+	{blend none}
+}

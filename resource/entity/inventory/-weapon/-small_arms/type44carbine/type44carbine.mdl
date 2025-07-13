@@ -1,0 +1,96 @@
+;Exported by: Administrator
+;Date:        Thu Oct 06 21:36:26 2011
+;File:        C:\Documents and Settings\Administrator\My Documents\3dsMax\scenes\JPN44 3d.max
+{Skeleton
+	{bone "type44carbine"
+		{parameters "CommonMesh;ID=rifle;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "type44carbine.ply"}
+		{bone "handle"
+			{Matrix34
+				0.999975	3.08454e-005	0.00705366
+				0.00705381	-0.0043163	-0.999966
+				0	0.999991	-0.00431466
+				4.94017	0.572732	-0.0183485
+			}
+		}
+		{bone "foresight12"
+			{Matrix34
+				0.999975	3.04021e-005	0.00705381
+				-0.00705385	0.0043145	0.999966
+				0	-0.999991	0.00431462
+				15.1411	1.39314	-0.109157
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 17.126 5.90551 1.9685}
+	{Bone "type44carbine"}
+	{Matrix34
+		0.999975	2.96361e-005	0.00705213
+		0	0.999993	-0.00431297
+		-0.00705477	0.00431537	0.999967
+		6.76035	1.05991	0.0340779
+	}
+}
+{Volume "select"
+	{Box 19.685 7.87402 3.93701}
+	{Bone "type44carbine"}
+	{Matrix34
+		0.999975	2.96361e-005	0.00705213
+		0	0.999993	-0.00431297
+		-0.00705477	0.00431537	0.999967
+		6.843	1.05625	-0.050815
+	}
+}
+{Extender "preview"
+	{"Stuff_primary"
+		{camera
+			{origin 7.83059	-6.4072	30.2752}
+			{lookat 7.26026	-3.51208	13.0924}
+			{fov 40.7792}
+			{horizon 169.624}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 10.3144	-3.32074	0.155279}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0760826	0.199674	-0.452042}
+			}
+			{"2"
+				{type point}
+				{position 3.36121	-3.28017	0.207981}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin 7.72285	-6.24415	29.6258}
+			{lookat 7.17446	-3.46038	13.104}
+			{fov 34.645}
+			{horizon -178.376}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 10.3083	-3.32019	0.0268064}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0760826	0.199674	-0.452042}
+			}
+			{"2"
+				{type point}
+				{position 3.36121	-3.28017	0.207981}
+			}
+		}
+	}
+}

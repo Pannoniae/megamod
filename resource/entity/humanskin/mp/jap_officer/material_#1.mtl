@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/humanskin/jap/axis_lod0_gear_marineofficer"}
+	{specular "$/humanskin/jap/axis_lod0_gear_marineofficer-gg"}
+	{color "229 229 229 9"}
+	{blend test}
+}

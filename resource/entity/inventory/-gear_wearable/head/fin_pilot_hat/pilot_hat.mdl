@@ -1,0 +1,87 @@
+;Exported by: Administrator
+;Date:        Tue Feb 23 04:33:28 2016
+;File:        D:\FILE STORAGE\Models\Completed Full Models\BF2 Completed, Helmet & Equiptment\British_helmets\Pilot_hat.max
+{Skeleton
+	{bone "pilot_hat"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "pilot_hat.ply"}
+		{bone "handle"
+			{Matrix34
+				0.999892	0.0101345	0.0106094
+				-0.0101339	0.999949	-0.000107107
+				-0.01061	0	0.999944
+				-0.30604	-0.0208537	4.82133
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 1.09129 28.3822 3.72588}
+	{Bone "pilot_hat"}
+	{Matrix34
+		0	6.3833e-005	5.3547
+		0.215153	0	0
+		-3.14222e-005	1.67891	-2.00142e-005
+		-0.207989	0.0377107	2.5018
+	}
+}
+{Volume "select"
+	{Box 1.09129 28.3822 3.72588}
+	{Bone "pilot_hat"}
+	{Matrix34
+		0	6.3833e-005	5.3547
+		0.215153	0	0
+		-3.14222e-005	1.67891	-2.00142e-005
+		-0.207989	0.0377107	2.5018
+	}
+}
+{Extender "preview"
+	{"Stuff_preview"
+		{camera
+			{origin 6.03505	3.78242	3.00211}
+			{lookat 0.916603	0.441983	3.00732}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.0762438	0.0503717	0.0136238}
+				{ambient 0x5f5f5f}
+			}
+			{"1"
+				{type point}
+				{position 3.225	3.81369	2.89169}
+			}
+			{"2"
+				{type point}
+				{position 4.90437	1.26184	2.89568}
+			}
+		}
+	}
+	{"Stuff"
+		{camera
+			{origin 6.03505	3.78242	3.00211}
+			{lookat 0.916603	0.441983	3.00732}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.0762438	0.0503717	0.0136238}
+				{ambient 0x5f5f5f}
+			}
+			{"1"
+				{type point}
+				{position 3.225	3.81369	2.89169}
+			}
+			{"2"
+				{type point}
+				{position 4.90437	1.26184	2.89568}
+			}
+		}
+	}
+}

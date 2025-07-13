@@ -1,0 +1,65 @@
+;Exported by: 因诚之名
+;Date:        Mon Apr 30 23:28:44 2012
+;File:        C:\Documents and Settings\因诚之名\My Documents\3dsmax\scenes\navycapa.max
+{Skeleton
+	{bone "us_navy_cap1"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "us_navy_cap1.ply"}
+		{bone "handle"
+			{Matrix34
+				0	-1	0
+				1	0	0
+				0	0	1
+				-0.123213	-0.219856	3.15316
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 3.82767 3.54161 2.53713}
+	{Bone "us_navy_cap1"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-0.139993	0.102709	4.10182
+	}
+}
+{Volume "select"
+	{Box 8.33811 5.92873 4.67327}
+	{Bone "us_navy_cap1"}
+	{Matrix34
+		0	-1	0
+		1	0	0
+		0	0	1
+		-0.0931865	-0.00797701	3.78676
+	}
+}
+{Extender "preview"
+	{"stuff"
+		{camera
+			{origin 31.5727	23.5304	9.57269}
+			{lookat -0.245892	-0.111344	3.91455}
+			{fov 7.43102}
+			{horizon -5.00002}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 1.07214	0.64528	6.02922}
+			}
+			{"1"
+				{type spot}
+				{position 16.524	-3.9314	8.61895}
+				{direction -0.491267	0.0621123	-0.069276}
+				{theta 43}
+				{phi 45}
+			}
+		}
+	}
+}

@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/model/skr/metal_62"}
+	{specular "$/model/skr/metal_62_sp"}
+	{color "230 230 230 152"}
+	{blend none}
+}

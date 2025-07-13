@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "m1935pg_01"}
+	{specular "m1935pg_01_sp"}
+	{color "229 229 229 152"}
+	{blend none}
+}

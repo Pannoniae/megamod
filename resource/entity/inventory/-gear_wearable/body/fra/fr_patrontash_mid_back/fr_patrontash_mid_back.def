@@ -1,0 +1,8 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{extender "stuff"
+		{item "fr_patrontash_mid_back"}
+	}
+	{Extension "fr_patrontash_mid_back.mdl"}
+}
+

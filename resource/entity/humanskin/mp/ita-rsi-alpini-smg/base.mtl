@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/italian/rsi alpini"}
+	{blend none}
+}

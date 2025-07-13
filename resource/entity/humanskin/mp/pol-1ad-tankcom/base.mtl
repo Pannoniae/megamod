@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/pol/late/1ad_tank"}
+	{blend none}
+}

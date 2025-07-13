@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "furcap"}
+	{bump "furcap bp"}
+	{color "229 229 229 152"}
+	{blend test}
+}

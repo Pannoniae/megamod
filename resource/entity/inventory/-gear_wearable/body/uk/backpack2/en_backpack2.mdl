@@ -1,0 +1,57 @@
+;Exported by: Kalinski
+;Date:        Sun Sep 17 17:05:01 2017
+;File:        C:\Users\Kalinski\Desktop\fra\brit backpack.max
+{Skeleton
+	{bone "en_backpack"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "en_backpack.ply"}
+	}
+}
+{Volume "body"
+	{Box 1.85666 4.79019 4.74018}
+	{Bone "en_backpack"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		-4.11478	4.04386	0.143537
+	}
+}
+{Volume "select"
+	{Box 7.12156 10.0843 8.94763}
+	{Bone "en_backpack"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		-2.45682	3.50292	0.109252
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -14.7453	-3.94008	-0.0220547}
+			{lookat -2.5328	-3.8263	0.122517}
+			{fov 45}
+			{horizon -90.2265}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -7.11839	-7.16879	-3.11654}
+			}
+			{"1"
+				{type point}
+				{position -6.7257	0.5801	2.65881}
+			}
+			{"2"
+				{type directional}
+				{direction 0.499997	-0.00070763	-0.00145834}
+			}
+		}
+	}
+}

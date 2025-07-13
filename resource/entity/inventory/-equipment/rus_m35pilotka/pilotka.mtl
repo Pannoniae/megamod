@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/humanskin/rus_m35pilotka_diff"}
+	{bump "$/humanskin/rus_m35pilotka_bump"}
+	{specular "$/humanskin/rus_m35pilotka_spc"}
+	{color "229 229 229 25"}
+	{blend none}
+}

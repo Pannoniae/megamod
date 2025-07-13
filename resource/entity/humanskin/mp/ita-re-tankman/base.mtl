@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/humanskin/italian/tankman jacket overalls"}
+	{bump "$/humanskin/italian/tankman jacket overalls bp"}
+	{specular "$/humanskin/italian/tankman jacket overalls sp"}
+	{color "229 229 229 152"}
+	{blend test}
+}

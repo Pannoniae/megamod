@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/jap/axis_lod0_gear_marinemedic"}
+	{blend test}
+}

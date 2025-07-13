@@ -1,0 +1,57 @@
+;Exported by: Horten
+;Date:        Mon Sep 16 10:57:00 2024
+;File:        C:\Users\Professional\Desktop\mod\fedorov_avtomat\fedorov_avtomat_ammo.max
+{Skeleton
+	{bone "magazine"
+		{orientation
+			1 	 0 	 0
+			0 	 -1 	 0
+			0 	 0 	 1
+		}
+		{VolumeView "magazine.ply"}
+	}
+}
+{Volume "magazine"
+	{Box 1.70145 3.3431 0.469993}
+	{Bone "magazine"}
+	{Matrix34
+		0.965926	0.258819	0
+		0.258819	-0.965926	0
+		0	0	-1
+		-0.131718	-0.0329923	-0.0167106
+	}
+}
+{Volume "select"
+	{Box 1.70145 3.3431 0.469993}
+	{Bone "magazine"}
+	{Matrix34
+		0.965926	0.258819	0
+		0.258819	-0.965926	0
+		0	0	-1
+		-0.131718	-0.0329923	-0.0167106
+	}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin 1.3202 	 -18.7161 	 57.057}
+			{lookat 0.0114 	 -0.9136 	 2.507}
+			{fov 2.62178}
+			{horizon -176.649}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -1.7603 	 5.6922 	 7.4169}
+			}
+			{"1"
+				{type directional}
+				{direction -0.3159 	 0.0095 	 -0.3874}
+			}
+			{"2"
+				{type point}
+				{position 0.095 	 -17.7041 	 0.8086}
+			}
+		}
+	}
+}

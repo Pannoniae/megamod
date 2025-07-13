@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/humanskin/rus_parahelm_diff"}
+	{bump "$/humanskin/rus_parahelm_bump"}
+	{blend none}
+}

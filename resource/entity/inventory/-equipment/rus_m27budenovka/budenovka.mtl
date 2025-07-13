@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/humanskin/rus_budenovka_diff"}
+	{bump "$/humanskin/rus_budenovka_bump"}
+	{specular "$/humanskin/rus_budenovka_spc"}
+	{color "229 229 229 25"}
+	{blend none}
+}

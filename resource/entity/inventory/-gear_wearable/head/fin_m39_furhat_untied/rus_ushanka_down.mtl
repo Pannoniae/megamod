@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_hum/legacy/fin/fin_m39_untied"}
+	{bump "$/_hum/legacy/fin/fin_m39_untied_bp"}
+	{specular "$/_hum/legacy/fin/fin_m39_untied_sp"}
+	{color "230 230 230 117"}
+	{blend none}
+}

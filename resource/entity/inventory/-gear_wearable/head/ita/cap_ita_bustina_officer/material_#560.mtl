@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "bustina officer"}
+	{blend none}
+}

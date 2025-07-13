@@ -1,0 +1,7 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{extender "stuff"
+		{item "fin_officer_cap"}
+	}
+	{Extension "fin_officer_cap.mdl"}
+}

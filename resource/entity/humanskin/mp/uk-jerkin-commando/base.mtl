@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/humanskin/eng/brit jerkin_commando"}
+	{specular "$/humanskin/eng/brit jerkin sp"}
+	{color "229 229 229 152"}
+	{blend test}
+}

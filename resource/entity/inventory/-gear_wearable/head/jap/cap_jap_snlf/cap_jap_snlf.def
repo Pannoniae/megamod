@@ -1,0 +1,11 @@
+{Actor
+	(include "/properties/stuff_small.ext")
+	{extender "stuff"
+		{item "cap_jap_snlf"}
+	}
+	{Extension "cap_jap_snlf.mdl"}
+	{Volume "body"
+	}
+	{Volume "select"
+	}
+}

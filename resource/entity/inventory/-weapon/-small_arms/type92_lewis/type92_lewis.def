@@ -1,0 +1,9 @@
+{Actor
+	(include "/properties/stuff_small.ext")
+	{Extension "type92_lewis.mdl"}
+	{extender "stuff"
+		{item "type92lewis"}
+	}
+	{nogroupmesh 1}
+	{lodclass "human"}
+}

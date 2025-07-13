@@ -1,0 +1,98 @@
+;Exported by: user
+;Date:        Fri Jun 05 20:29:04 2015
+;File:        C:\Users\user\Documents\3dsMax\scenes\Type 89 grenade discharger\5 cm Grenade Discharger Type 89 Knee Mortar02.max
+{Skeleton
+	{bone "type89"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "type89.ply"}
+		{bone "handle"
+			{Matrix34
+				0.562255	0.826964	0
+				-0.826964	0.562255	0
+				0	0	1
+				-2.0153	1.23734	-1.01861
+			}
+		}
+		{bone "foresight3"
+			{Matrix34
+				;0.554129	0.832431	0
+				;-0.832431	0.554129	0
+				;0	0	1
+				0.978148	0.207912	0
+				-0.207912	0.978148	0
+				0	0	1
+				2.6292	3.77982	0
+			}
+		}
+	}
+}
+{Volume "body"
+	{Cylinder 0.65836 12.0123}
+	{Bone "type89"}
+	{Matrix34
+		0.832837	-0.553519	0
+		0	0	1
+		-0.553519	-0.832837	0
+		-0.723388	-1.24224	-0.00693979
+	}
+}
+{Volume "select"
+	{Cylinder 0.941961 12.5215}
+	{Bone "type89"}
+	{Matrix34
+		0.832837	-0.553519	0
+		0	0	1
+		-0.553519	-0.832837	0
+		-0.740268	-1.2938	-0.0069398
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -31.2133	-33.9497	63.6766}
+			{lookat -20.5951	-21.6509	42.2387}
+			{fov 9}
+			{horizon -127}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.161571	0.197948	-0.429781}
+			}
+			{"1"
+				{type point}
+				{position 21.692	-17.8185	-9.85194}
+			}
+			{"2"
+				{type point}
+				{position -1.04826	-16.1741	-9.92637}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin -16.7602	-9.39219	-2.14837}
+			{lookat 4.20523	5.41943	0.681906}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.411889	0.281918	0.0294852}
+			}
+			{"1"
+				{type point}
+				{position 123.351	149.42	19.802}
+			}
+			{"2"
+				{type point}
+				{position 184.734	69.7598	17.7951}
+			}
+		}
+	}
+}

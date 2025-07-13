@@ -1,0 +1,89 @@
+;Exported by: Sergey
+;Date:        Fri Sep 21 14:58:41 2012
+;File:        D:\Documents\3dsmax\scenes\3-Inch Mortar Bomb\Smoke 3-Inch Mortar Bomb.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "sm_3inch"
+			{parameters "CommonMesh;ID=body;"}
+			{Position 0	-0.00258946	0}
+			{VolumeView "sm_3inch.ply"}
+		}
+		{bone "tail"
+			{Position -0.0105781	2.24163	0}
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	1
+				0	-1	0
+				3.81818	0	3.45644
+			}
+		}
+		{bone "sound_mortar"}
+	}
+}
+{Volume "body"
+	{Cylinder 0.767717 6.88976}
+	{Bone "sm_3inch"}
+	{Matrix34
+		0	-1	0
+		0	0	1
+		-1	0	0
+		-0.210142	0.0148039	-0.00264937
+	}
+}
+{Volume "select"
+	{Cylinder 0.787402 6.88976}
+	{Bone "sm_3inch"}
+	{Matrix34
+		0	-1	0
+		0	0	1
+		-1	0	0
+		-0.201764	0.0148039	-0.00264937
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 1.03579	17.2294	-31.0935}
+			{lookat -0.13583	-0.190552	-0.0988194}
+			{fov 14.7453}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.000187147	0.376842	0.328618}
+				{diffuse 0xffeecb}
+			}
+			{"1"
+				{type directional}
+				{direction 0.00012033	-0.498486	0.0388878}
+				{diffuse 0xe2ecff}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 2.36573	13.7748	-24.6002}
+			{lookat 0.86576	-0.0425377	-0.0156453}
+			{fov 18.7453}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.000120337	-0.498485	0.0388878}
+				{diffuse 0xe2ecff}
+			}
+			{"1"
+				{type directional}
+				{direction -0.000187146	0.376842	0.328618}
+				{diffuse 0xffeecd}
+			}
+		}
+	}
+}

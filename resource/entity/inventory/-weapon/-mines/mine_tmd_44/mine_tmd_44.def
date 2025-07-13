@@ -1,0 +1,22 @@
+{actor
+	(include "/properties/stuff_mine.ext")
+	{extension "mine_tmd_44.mdl"}
+	{extender "stuff"
+		{item "mine tmd_44"}
+	}
+	{extender "mine"
+		{time 10}	;// actual mining time equals the lenght of time for the human animation + this value if value is less than animation lenght. Otherwise this value is an absolute and animation will loop.
+	}
+	{collider "mine.at"}
+	{props "antitank"}
+	
+	{Obstacle "body"
+		{Circle2
+			{Radius 7.5}
+		}
+	}
+	{Volume "body"
+		{density 0}
+	}
+}
+

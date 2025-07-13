@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "bren_c"}
+	{blend none}
+}

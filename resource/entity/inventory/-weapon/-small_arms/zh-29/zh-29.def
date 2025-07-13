@@ -1,0 +1,9 @@
+{Actor
+	(include "/properties/stuff_small.ext")
+	{Extension "ZH-29-10Clip.mdl"}
+	{extender "stuff"
+		{item "zh-29"}
+	}
+	{nogroupmesh 1}
+	{lodclass "human"}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/humanskin/eng/no4_hat"}
+	{bump "$/humanskin/eng/no4_hat_bp"}
+	{specular "$/humanskin/eng/no4_hat_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

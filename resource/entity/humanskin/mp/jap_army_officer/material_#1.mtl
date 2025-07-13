@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "axis_lod0_gear_marineofficer"}
+	{specular "axis_lod0_gear_marineofficer-gg"}
+	{color "229 229 229 9"}
+	{blend none}
+}

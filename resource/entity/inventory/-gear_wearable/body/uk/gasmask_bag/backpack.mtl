@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "brit gasmask"}
+	{blend none}
+}

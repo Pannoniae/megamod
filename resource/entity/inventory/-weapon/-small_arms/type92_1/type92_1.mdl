@@ -1,0 +1,76 @@
+;Exported by: w1
+;Date:        Fri Jan 22 14:04:22 2010
+;File:        C:\Users\w1\Desktop\92stand\2.max
+{Skeleton
+	{bone "type92"
+		{parameters "CommonMesh;ID=mgun;"}
+		{Orientation
+			0.95	0	0
+			0	-0.95	0
+			0	0	0.95
+		}
+		{VolumeView "type92.ply"}
+		{bone revolute "gun_rot"
+			{parameters "ID=gun;"}
+			{limits -15 30}
+			{speed 0.02}
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				11.6067	4.95121	-0.0197261
+			}
+		}
+		{bone "foresight3"
+			{Position 31.4275	3.50538	0}
+		}
+	}
+}
+{Volume "body"
+	{Box 30.4104 7.6451 6.06157}
+	{Bone "type92"}
+	{Position 13.2805	1.79001	0.448691}
+}
+{Volume "select_primary"
+	{Box 30.4104 7.6451 6.06157}
+	{Bone "type92"}
+	{Position 13.2889	1.79001	0.448691}
+}
+{Extender "preview"
+	{"stuff"
+		{camera
+			{origin 12.9069	-4.23681	39.4696}
+			{lookat 14.3177	-4.41392	-2.30262}
+			{fov 45}
+			{horizon -84.948}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 12.9156	-13.4474	6.30309}
+			}
+			{"1"
+				{type point}
+				{position 13.5444	8.79845	7.13423}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 12.9069	-4.23262	39.4696}
+			{lookat 14.3177	-4.41392	-2.30262}
+			{fov 45}
+			{horizon -84.948}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 13.5444	8.80169	7.13422}
+			}
+			{"1"
+				{type point}
+				{position 12.9156	-13.4441	6.30309}
+			}
+		}
+	}
+}

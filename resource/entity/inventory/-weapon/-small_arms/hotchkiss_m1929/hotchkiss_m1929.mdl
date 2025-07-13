@@ -1,0 +1,89 @@
+;Exported by: Norman
+;Date:        Sat Jul 06 11:38:28 2024
+;File:        C:\Users\Norman\Documents\3dsmax\scenes\hotchkiss_m1929.max
+{Skeleton
+	{bone "hotchkiss_m1929"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "hotchkiss_m1929.ply"}
+		{bone "foresight14"
+			{Position 22.6271	0.76762	0.00148165}
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				-0.0196213	-0.670701	-0.0213446
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0	1
+				0	1	0
+				-1	0	0
+				-4.23127	-1.45582	-0.565781
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 31 2.9 0.85}
+	{Bone "hotchkiss_m1929"}
+	{Position 3.87707	-0.23944	-0.0111463}
+}
+{Volume "select"
+	{Box 30 3.5 1}
+	{Bone "hotchkiss_m1929"}
+	{Position 3.96835	0.236455	-0.0694188}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 3.60569	-6.16043	39.0756}
+			{lookat 2.94069	-3.44799	22.5463}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 13.9872	-3.62637	14.5602}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -4.22646	-3.02012	12.9909}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 6.20513	-6.23876	39.6383}
+			{lookat 5.51353	-3.41782	22.4477}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 13.9872	-3.62637	14.5602}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -4.22646	-3.02012	12.9909}
+			}
+		}
+	}
+}

@@ -1,0 +1,31 @@
+;Exported by: Justano
+;Date:        Tue Dec 08 21:35:15 2020
+;File:        F:\3d projects etc\human\grc\grc_equipment\grc-patrontash2.max
+{Skeleton
+	{bone revolute "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "fr_patrontash2"
+			{Matrix34
+				0.5	0.866026	0
+				0	0	1
+				0.866026	-0.5	0
+				2.56454	-2.56208	0.0751076
+			}
+			{VolumeView "fr_patrontash2.ply"}
+		}
+	}
+}
+{Volume "select1"
+	{Box 0.886018 2.39851 1.95667}
+	{Bone "basis"}
+	{Matrix34
+		0.866025	-0.5	0
+		0.5	0.866025	0
+		0	0	1
+		2.89449	-2.72664	0.0686768
+	}
+}

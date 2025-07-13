@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "$/humanskin/rus_codwaw_gear_02b"}
+	{bump "$/humanskin/ger_furhat01_bump"}
+	{blend none}
+}

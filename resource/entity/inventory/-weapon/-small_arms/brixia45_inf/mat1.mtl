@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "brixia_45"}
+	{specular "brixia_45_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

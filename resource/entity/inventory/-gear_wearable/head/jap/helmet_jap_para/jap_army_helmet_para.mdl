@@ -1,0 +1,91 @@
+;Exported by: Joe
+;Date:        Thu Mar 21 20:02:32 2013
+;File:        C:\Users\Joe\Desktop\Models\Completed Full Models\BF2 Completed, Helmet & Equiptment\British_helmets\glider_helmet.max
+{Skeleton
+	{bone "glider_helmet"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{Position 0.20	0.08	0.22} ;ëOå„ ç∂âE è„â∫
+		{VolumeView "glider_helmet.ply"}
+		{bone "radio"
+			{VolumeView "radio.ply"}
+		}
+		{bone "handle"
+			{Matrix34
+				0.999895	0.0101253	0.010333
+				-0.0101432	0.999949	-0.000106276
+				-0.0108938	0	0.999941
+				-0.385201	-0.291528	2.15054
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 1.09129 28.3822 3.72588}
+	{Bone "glider_helmet"}
+	{Matrix34
+		0	9.46329e-005	4.71868
+		0.174269	0	0
+		-2.33415e-005	1.23617	-2.35594e-005
+		-0.308243	-0.193951	2.49546
+	}
+}
+{Volume "select"
+	{Box 1.09129 28.3822 3.72588}
+	{Bone "glider_helmet"}
+	{Matrix34
+		0	9.46329e-005	4.71868
+		0.174269	0	0
+		-2.33415e-005	1.23617	-2.35594e-005
+		-0.308243	-0.193951	2.49546
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -0.29459	-7.65393	2.55633}
+			{lookat -0.271207	-1.54193	2.55633}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.000145818	-0.0913688	0.0137025}
+				{ambient 0x5f5f5f}
+			}
+			{"1"
+				{type point}
+				{position 1.27646	-5.32387	2.44596}
+			}
+			{"2"
+				{type point}
+				{position -1.77841	-5.32387	2.44596}
+			}
+		}
+	}
+	{"Stuff_preview"
+		{camera
+			{origin -0.29459	-7.65393	2.55633}
+			{lookat -0.271207	-1.54193	2.55633}
+			{fov 45}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.000145818	-0.0913688	0.0137025}
+				{ambient 0x5f5f5f}
+			}
+			{"1"
+				{type point}
+				{position 1.27646	-5.32387	2.44596}
+			}
+			{"2"
+				{type point}
+				{position -1.77841	-5.32387	2.44596}
+			}
+		}
+	}
+}

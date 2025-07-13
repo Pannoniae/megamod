@@ -1,0 +1,12 @@
+{Actor
+	(include "/properties/stuff_small.ext")
+	{extender "stuff"
+		{item "type92_1"}
+	}
+	{nogroupmesh 1}
+	{Extension "type92_1.mdl"}
+	{Volume "body"
+	}
+	{Volume "select_primary"
+	}
+}

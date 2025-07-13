@@ -1,0 +1,9 @@
+{Actor
+	(include "/properties/stuff_small.ext")
+	{Extension "5cm_type89.mdl"}
+	{extender "stuff"
+		{item "knee_mortar_type89"}
+	}
+	{nogroupmesh 1}
+	{lodclass "human"}
+}

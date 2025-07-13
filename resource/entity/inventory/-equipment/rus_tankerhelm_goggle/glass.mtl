@@ -1,0 +1,8 @@
+{material bump
+	{diffuse "$/humanskin/glass_01"}
+	{bump "$/humanskin/glass_01_bump"}
+	{specular "$/humanskin/glass_01_spc"}
+	{color "229 229 229 25"}
+	{blend test}
+	{alphatocoverage}
+}

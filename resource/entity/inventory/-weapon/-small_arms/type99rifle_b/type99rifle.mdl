@@ -1,0 +1,68 @@
+;Exported by: w
+;Date:        Fri Mar 04 13:14:09 2011
+;File:        C:\Users\w\Desktop\1\模型\模型\99步机枪3dmax\bn\98ka2\98ka2\model\99type.max
+{Skeleton
+	{bone "type99"
+		{parameters "CommonMesh;ID=rifle;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "type99.ply"}
+		{bone "foresight12"
+			{Position 17.6597	1.46892	-0.00188173}
+		}
+		{bone "handle"
+			{Position 6.00533	2.15431	-0.00188173}
+		}
+	}
+}
+{Volume "body"
+	{Box 30 4 2.5}
+	{Bone "type99"}
+	{Position 8.38054	0.279279	-0.346832}
+}
+{Volume "select"
+	{Box 32.5 5 2.5}
+	{Bone "type99"}
+	{Position 9.53585	0.279279	-0.346832}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 7.64405	1.43051	32.0656}
+			{lookat 7.35853	-1.15515	0.03674}
+			{fov 45}
+			{horizon 7.86649}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -0.899315	-1.49336	10.9543}
+			}
+			{"1"
+				{type point}
+				{position 15.8979	-1.49336	11.1789}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 7.64405	1.43051	32.0656}
+			{lookat 7.35853	-1.15515	0.03674}
+			{fov 45}
+			{horizon 7.86649}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -0.899315	-1.49336	10.9543}
+			}
+			{"1"
+				{type point}
+				{position 15.8979	-1.49336	11.1789}
+			}
+		}
+	}
+}

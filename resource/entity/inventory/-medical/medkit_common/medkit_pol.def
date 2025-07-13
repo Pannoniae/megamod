@@ -1,0 +1,10 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{Extension "medkit.mdl"}
+	{extender "stuff"
+		{item "medkit_pol"}
+	}
+	{volume "body"
+		{thickness 1}
+	}
+}

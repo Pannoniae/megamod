@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "no77wp"}
+	{specular "no77wp_sp"}
+	{color "229 229 229 152"}
+	{blend test}
+}

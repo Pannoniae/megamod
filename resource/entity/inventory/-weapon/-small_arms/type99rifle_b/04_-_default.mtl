@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "tex1_0"}
+	{specular "tex1_0_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

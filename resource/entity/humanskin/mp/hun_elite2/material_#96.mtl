@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/hun/rus-ammo"}
+	{blend none}
+}

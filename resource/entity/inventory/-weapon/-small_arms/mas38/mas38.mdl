@@ -1,0 +1,84 @@
+;Exported by: Joe
+;Date:        Sun Jan 12 15:54:04 2014
+;File:        C:\Users\Joe\Desktop\Models\Completed Full Models\BF2 Completed, Full Models\Mas38\Completebk.max
+{Skeleton
+	{bone revolute "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "mas38"
+			{Matrix34
+				0	0	1
+				0.996906	0.0786049	0
+				-0.0786049	0.996906	0
+				1.36844	-0.0494753	-0.0167148
+			}
+			{VolumeView "mas38.ply"}
+		}
+		{bone "foresight11"
+			{Position 8.89902	1.91308	-0.107322}
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	-0.00530239	-0.999986
+				0	0.999986	-0.00530239
+				2.5715	2.24251	-0.0421001
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0	1
+				0	1	0
+				-1	0	0
+				2.49232	1.91114	0.38579
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 1.09129 28.3822 3.72588}
+	{Bone "basis"}
+	{Matrix34
+		0	0	0.54265
+		0.494314	2.3506e-005	0
+		0	1.31018	0
+		1.40666	0.0778065	-0.0431303
+	}
+}
+{Volume "select"
+	{Box 1.09129 28.3822 3.72588}
+	{Bone "basis"}
+	{Matrix34
+		0	0	0.54265
+		0.494314	2.3506e-005	0
+		0	1.31018	0
+		1.40666	0.0778065	-0.0431303
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 3.12364	-0.405434	-17.9446}
+			{lookat 2.98044	-0.389569	-16.1619}
+			{fov 45}
+			{horizon 83.7992}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 3.02135	-1.28575	-15.3577}
+			}
+			{"1"
+				{type directional}
+				{direction -0.165221	0.0523766	0.468998}
+			}
+			{"2"
+				{type point}
+				{position 2.77869	0.638487	-15.1408}
+			}
+		}
+	}
+}

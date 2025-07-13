@@ -1,0 +1,66 @@
+;Exported by: Joe
+;Date:        Tue Dec 25 01:42:02 2012
+;File:        C:\Users\Joe\Desktop\Models\Completed Full Models\BF2 Completed, Helmet & Equiptment\Grenades\BritishMillsgrenade.max
+{Skeleton
+	{bone "britishmills_grenade"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "britishmills_grenade.ply"}
+		{bone "handle"
+			{parameters "handle;"}
+			{Matrix34
+				0.975719	-0.219024	0
+				0.219024	0.975719	0
+				0	0	1
+				0.561101	-0.016169	3.53709
+			}
+		}
+	}
+}
+{Volume "body"
+	{Cylinder 0.932558 2.48207}
+	{Bone "britishmills_grenade"}
+	{Matrix34
+		0.22515	-0.443728	-0.867417
+		-0.462795	0.73473	-0.495977
+		0.857396	0.513106	-0.0399306
+		2.30628	-0.167516	2.56556
+	}
+}
+{Volume "select"
+	{Cylinder 0.932558 2.48207}
+	{Bone "britishmills_grenade"}
+	{Matrix34
+		0.22515	-0.443728	-0.867417
+		-0.462795	0.73473	-0.495977
+		0.857396	0.513106	-0.0399306
+		2.30628	-0.167516	2.56556
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 2.11588	0.506546	-3.75002}
+			{lookat 2.46988	0.260063	1.81558}
+			{fov 45}
+			{horizon 83.7991}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 2.64664	3.10688	4.40445}
+			}
+			{"1"
+				{type directional}
+				{direction 0.139798	-0.101403	0.469227}
+			}
+			{"2"
+				{type point}
+				{position 1.75943	-2.89096	4.98617}
+			}
+		}
+	}
+}

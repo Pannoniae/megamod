@@ -1,0 +1,57 @@
+;Exported by: Kalinski
+;Date:        Mon Aug 21 05:09:08 2017
+;File:        C:\Users\Kalinski\Desktop\fra\brit gas mask bag.max
+{Skeleton
+	{bone "en_gasmaskbag"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "en_gasmaskbag.ply"}
+	}
+}
+{Volume "body"
+	{Box 0.854063 3.01782 3.79214}
+	{Bone "en_gasmaskbag"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		2.85663	3.44137	-0.125862
+	}
+}
+{Volume "select"
+	{Box 7.12156 10.0843 8.94763}
+	{Bone "en_gasmaskbag"}
+	{Matrix34
+		1.0387	0	0
+		0	1.0387	0
+		0	0	1.0387
+		1.70484	3.75136	0.109252
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 13.1806	-4.78668	0.00154441}
+			{lookat 2.6914	-4.67291	-0.143026}
+			{fov 45}
+			{horizon 90.9471}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 7.27957	-7.16879	2.82446}
+			}
+			{"1"
+				{type point}
+				{position 6.88687	0.5801	-2.9509}
+			}
+			{"2"
+				{type directional}
+				{direction -0.499997	-0.00070763	0.00145841}
+			}
+		}
+	}
+}

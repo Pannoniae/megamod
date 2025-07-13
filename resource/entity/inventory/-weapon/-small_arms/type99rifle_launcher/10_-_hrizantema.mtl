@@ -1,0 +1,5 @@
+{material bump
+	{diffuse "arisaka-1_sp"}
+	{bump "arisaka-1_bp"}
+	{blend none}
+}

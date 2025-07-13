@@ -1,0 +1,10 @@
+{game_entity
+	(include "/properties/stuff_small.ext")
+	{collider "ammo"}
+	{extender "stuff"
+		{item "ammo 15cm_rocket"}
+	}
+	{Extension "15cm_rocket_ammo.mdl"}
+	{constrain none}
+	(include "/properties/shadow/round.inc")
+}

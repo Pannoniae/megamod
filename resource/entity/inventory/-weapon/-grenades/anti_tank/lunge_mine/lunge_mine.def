@@ -1,0 +1,13 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{Extension "lunge_mine.mdl"}
+	{volume "body"
+		{able clear {bullet} {select} {contact} {contact_ground} {touch} {blast}}
+		{thickness 1}
+	}
+	{Volume "select"
+	}
+	{extender "stuff"
+		{item "lunge_mine"}
+	}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "breada42at"}
+	{blend none}
+}

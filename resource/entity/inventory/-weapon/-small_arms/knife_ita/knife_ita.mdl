@@ -1,0 +1,44 @@
+;Exported by: Chato59
+;
+;
+{Skeleton
+	{bone "knife_ita"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "knife_ita.ply"}
+	}
+}
+{Volume "body"
+	{Box 8.25057 2.09992 1.2177}
+	{Bone "knife_ita"}
+	{Position -0.958285	0.0958643	0.0207861}
+}
+{Volume "select"
+	{Box 10.9142 6.69874 3.15385}
+	{Bone "knife_ita"}
+	{Position -0.958285	0.0958643	-0.0888366}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -2.208978	2.41773	7.1078}
+			{lookat -0.526568	0.38	2.936164}
+			{fov 43}
+			{horizon -110}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction -0.408693	-0.153009	-0.244046}
+				{ambient 0x595959}
+			}
+			{"1"
+				{type point}
+				{position -0.116032	2.07793	3.00788}
+			}
+		}
+	}
+}

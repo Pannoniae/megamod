@@ -1,0 +1,11 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{volume "body"
+		{thickness 1}
+	}
+	{props "capacity"}
+	{Extension "us_musette.mdl"}
+	{extender "stuff"
+		{item "musette"}
+	}
+}

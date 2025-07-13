@@ -1,0 +1,80 @@
+;Exported by: Sergey
+;Date:        Thu May 12 18:05:06 2016
+;File:        D:\Sergey\documents\3dsMax\scenes\_resource_MoW_old\-vehicle_mortar\Granatnik kal. 46mm wz. 36\Granatnik_wz36_weapon.max
+{Skeleton
+	{bone "granatnik"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "granatnik.ply"}
+		{bone "foresight3"
+			{Position 7.54692	3.49778	-1.15401}
+		}
+		{bone "handle"
+			{Matrix34
+				0.745842	0.666122	0
+				-0.666122	0.745842	0
+				0	0	1
+				1.95184	1.04674	-1.15401
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 12.3696 11.29 3.5534}
+	{Bone "granatnik"}
+	{Position 2.24421	-1.1348	-1.05674}
+}
+{Volume "select"
+	{Box 13.6637 12.5959 4.98391}
+	{Bone "granatnik"}
+	{Position 2.24421	-1.1348	-0.91558}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -30.2133	-35.9497	63.6766}
+			{lookat -19.5951	-23.6509	42.2387}
+			{fov 8}
+			{horizon -127}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.161571	0.197948	-0.429781}
+			}
+			{"1"
+				{type point}
+				{position 21.692	-17.8185	-9.85194}
+			}
+			{"2"
+				{type point}
+				{position -1.04826	-16.1741	-9.92637}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin -35.1144	-45.9507	77.8521}
+			{lookat -27.5849	-37.2293	62.65}
+			{fov 7}
+			{horizon -157}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -1.04826	-16.1741	-9.00232}
+			}
+			{"1"
+				{type point}
+				{position 21.692	-17.8185	-8.92789}
+			}
+			{"2"
+				{type directional}
+				{direction 0.16241	0.197074	-0.429866}
+			}
+		}
+	}
+}

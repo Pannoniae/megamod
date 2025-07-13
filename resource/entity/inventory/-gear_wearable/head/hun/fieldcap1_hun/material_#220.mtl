@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "cap lw"}
+	{blend none}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/usa/c_afr_mpla_boot_c"}
+	{blend none}
+}

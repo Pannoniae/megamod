@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/usa/tanker jacket/boots m1943 win"}
+	{blend none}
+}

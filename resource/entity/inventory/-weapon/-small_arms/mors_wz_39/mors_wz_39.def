@@ -1,0 +1,8 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{Extension "mors_wz_39.mdl"}
+	{extender "stuff"
+		{item "mors_wz39"}
+	}
+	{nogroupmesh 1}
+}

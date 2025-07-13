@@ -1,0 +1,8 @@
+;// US WW2 Weapon Pack by Fedor Chizh
+;// Author: Fedor Chizh
+{actor
+	(include "/properties/stuff_small.ext")
+	{Extension "thompson_m1928a1.mdl"}
+	{extender "stuff" {item "thompson_m1921_30"}}
+	{nogroupmesh 1}
+}

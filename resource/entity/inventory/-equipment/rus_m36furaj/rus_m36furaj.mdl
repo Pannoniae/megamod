@@ -1,0 +1,36 @@
+;Exported by: Admin
+;Date:        Mon Jul 13 18:18:04 2020
+;File:        C:\Users\Admin\Documents\3dsmax\scenes\rus_m36furaj.max
+{Skeleton
+	{bone "smdimport01"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "smdimport01.ply"}
+		{bone "handle"
+			{Position 0.276674	0	3.80438}
+		}
+	}
+}
+{Volume "body"
+	{Box 5.31614 4.65162 2.47262}
+	{Bone "smdimport01"}
+	{Matrix34
+		1	0	0
+		0	1.05395	0
+		0	0	1.34037
+		0.0638777	-0.0147858	3.56594
+	}
+}
+{Volume "select"
+	{Box 5.31614 4.65162 2.47262}
+	{Bone "smdimport01"}
+	{Matrix34
+		1	0	0
+		0	1.05395	0
+		0	0	1.34037
+		0.0638777	-0.0147858	3.56594
+	}
+}

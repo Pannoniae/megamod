@@ -1,0 +1,62 @@
+{Skeleton
+	{bone "grenade_tipo_l"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "grenade_tipo_l.ply"}
+		{bone "handle"
+			{Matrix34
+				0.58	0	0.81
+				0.81	0	-0.58
+				0	1	0
+				-3.63579	0.793599	-1.05111
+			}
+		}
+	}
+}
+{Volume "body"
+	{Cylinder 0.695903 6.96621}
+	{Bone "grenade_tipo_l"}
+	{Matrix34
+		0	1	0
+		0	0	1
+		1	0	0
+		-0.569807	0.0393488	0.0292102
+	}
+}
+{Volume "select"
+	{Cylinder 2.86712 13.8495}
+	{Bone "grenade_tipo_l"}
+	{Matrix34
+		0	1	0
+		0	0	1
+		1	0	0
+		-0.502178	0.0393497	0.0292095
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin -1.25	-9.5	-4.8}
+			{lookat 0.27	1.14	0.5}
+			{fov 45}
+			{horizon -160}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0.000330038	0.127965	0.483347}
+			}
+			{"1"
+				{type point}
+				{position -2.09498	-2.41082	-3.14612}
+			}
+			{"2"
+				{type point}
+				{position 5.70044	-2.50817	-3.16905}
+			}
+		}
+	}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "rus_codwaw_gear_01b"}
+	{bump "$/humanskin/rus_codwaw_gear_01b_bump"}
+	{specular "$/humanskin/rus_codwaw_gear_01b_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/humanskin/rus_paragog_diff"}
+	{bump "$/humanskin/rus_paragog_bump"}
+	{specular "$/humanskin/rus_paragog_spc"}
+	{color "229 229 229 25"}
+	{blend none}
+}

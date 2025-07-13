@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "no4_attachments_c"}
+	{blend none}
+}

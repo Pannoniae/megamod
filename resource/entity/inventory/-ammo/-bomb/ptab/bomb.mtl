@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "ptab_diffuse"}
+	{blend none}
+}

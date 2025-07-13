@@ -1,0 +1,105 @@
+;Exported by: ?????
+;Date:        Thu Jan 15 22:00:51 2015
+;File:        C:\Users\?????\Documents\3dsmax\scenes\S&W.max
+{Skeleton
+	{bone "thompson"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "thompson.ply"}
+		{bone "foresight11"
+			{Matrix34
+				0.999982	0	0.00602833
+				0	-1	2.08616e-005
+				0.00602889	-2.10404e-005	-0.999982
+				11.5593	1.12266	0.182581
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0.999982	0	0.00602833
+				0	-1	2.08616e-005
+				0.00602889	-2.10404e-005	-0.999982
+				2.98233	1.25762	0.626305
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 14.9461 2.36535 0.64559}
+	{Bone "thompson"}
+	{Matrix34
+		0.998261	0.0589535	0
+		-0.0589535	0.998261	0
+		0	0	1
+		1.36637	0.135231	0.322795
+	}
+}
+{Volume "select"
+	{Box 14.9461 2.36535 0.64559}
+	{Bone "thompson"}
+	{Matrix34
+		0.998261	0.0589535	0
+		-0.0589535	0.998261	0
+		0	0	1
+		1.36637	0.135231	0.322795
+	}
+}
+{Volume "handle"
+	{Box 3.43911 0.998702 0.573497}
+	{Bone "thompson"}
+	{Matrix34
+		0.422618	0.906308	0
+		-0.906308	0.422618	0
+		0	0	1
+		6.2629	-0.692713	0.286749
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 4.46929	-3.06828	21.7006}
+			{lookat 3.96724	-1.02047	9.22142}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 10.3533	-1.18131	-1.45918}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -3.39744	-0.723606	-2.04473}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 4.28058	-4.76185	24.5009}
+			{lookat 4.25961	-2.56916	11.5225}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 10.4512	-4.18625	-1.99492}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0319297	0.210615	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -2.82997	-0.594286	-3.17972}
+			}
+		}
+	}
+}

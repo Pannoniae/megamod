@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/inventory/shells/76mm_eng_he"}
+	{specular "$/inventory/shells/76mm_eng_he_sp"}
+	{color "229 229 229 163"}
+	{blend none}
+}

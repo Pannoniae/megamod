@@ -1,0 +1,89 @@
+;Exported by: Norman
+;Date:        Wed May 18 23:42:08 2022
+;File:        C:\Users\Norman\Desktop\max_project\sten_mk3_final.max
+{Skeleton
+	{bone "sten_mk3"
+		{parameters "CommonMesh;"}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "sten_mk3.ply"}
+		{bone "foresight11"
+			{Position 9.83944	1.35335	0.00148058}
+		}
+		{bone "handle"
+			{Matrix34
+				1	0	0
+				0	0	-1
+				0	1	0
+				1.81949	0.260665	-0.0213449
+			}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0	1
+				0	1	0
+				-1	0	0
+				6.05495	1.67892	-0.565782
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 18 2.9 0.85}
+	{Bone "sten_mk3"}
+	{Position 1.02628	0.613463	-0.0111466}
+}
+{Volume "select"
+	{Box 18 3.5 1}
+	{Bone "sten_mk3"}
+	{Position 1.11125	0.236455	-0.0694191}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 4.49572	-4.80938	30.2724}
+			{lookat 3.83072	-2.09694	13.743}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 12.2894	-2.30997	5.85539}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -5.92424	-1.70373	4.28605}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 4.50735	-4.92236	30.9334}
+			{lookat 3.81575	-2.10143	13.7429}
+			{fov 45}
+			{horizon -177.044}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 12.2894	-2.30997	5.85539}
+			}
+			{"1"
+				{type directional}
+				{direction -0.0792752	0.197722	-0.452351}
+			}
+			{"2"
+				{type point}
+				{position -5.92424	-1.70373	4.28605}
+			}
+		}
+	}
+}

@@ -1,0 +1,83 @@
+;Exported by: Horten
+;Date:        Mon Aug  5 17:23:44 2024
+;File:        C:\Users\Professional\Desktop\mod\PTAB\ptab.max
+{Skeleton
+	{animation
+		{sequence "start" {speed 1}}
+	}
+		{bone "bomb"
+			{Matrix34
+				0.999587	-0.0286658	0.00216522
+				0.0286827	0.999555	-0.0081929
+				-0.00192956	0.00825163	0.999964
+				-0.012397	0.000343322	-0.00067091
+			}
+			{VolumeView "bomb.ply"}
+		}
+}
+{Volume "body"
+	{Cylinder 0.635069 7.18504}
+	{Bone "bomb"}
+	{Matrix34
+		-0.0286663	0.999555	0.00825208
+		0.00216504	-0.00819331	0.999964
+		0.999586	0.0286833	-0.00193003
+		0.0900691	0.00223653	0.000490511
+	}
+}
+{Volume "select"
+	{Cylinder 0.981102 7.18504}
+	{Bone "bomb"}
+	{Matrix34
+		-0.0286663	0.999555	0.00825208
+		0.00216504	-0.00819331	0.999964
+		0.999586	0.0286833	-0.00193003
+		0.0900691	0.00223653	0.000490511
+	}
+}
+{extender "preview"
+	{"stuff"
+		{camera
+			{origin -0.1422 	 -23.2183 	 13.0158}
+			{lookat -0.3046 	 -0.5071 	 -0.6446}
+			{fov 45}
+			{horizon -0.528971}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 8.6191 	 -3.1245 	 51.2967}
+			}
+			{"1"
+				{type directional}
+				{direction -0.01 	 0.4999 	 0.0036}
+			}
+			{"2"
+				{type point}
+				{position 16.2276 	 -71.9536 	 -1.0182}
+			}
+		}
+	}
+	{"stuff_primary"
+		{camera
+			{origin -2.0758 	 -23.3206 	 12.6291}
+			{lookat -2.2382 	 -0.6095 	 -1.0314}
+			{fov 45}
+			{horizon -0.528971}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 8.6191 	 -3.1245 	 51.2967}
+			}
+			{"1"
+				{type directional}
+				{direction -0.01 	 0.4999 	 0.0036}
+			}
+			{"2"
+				{type point}
+				{position 16.2276 	 -71.9536 	 -1.0182}
+			}
+		}
+	}
+}

@@ -30,7 +30,7 @@
 	}
 
 	{bots
-		(include "global_parameters/last_stand/bots_standard.inc" period("44|45") start_a(%start_a) finish_a(%finish_a) start_b(%start_b) finish_b(%finish_b) doctrine(%doctrine) cp_a(%cp_a) cp_b(%cp_b))
+		(include "global_parameters/last_stand/bots_standard_44-45.inc" start_a(%start_a) finish_a(%finish_a) start_b(%start_b) finish_b(%finish_b) doctrine(%doctrine) cp_a(%cp_a) cp_b(%cp_b))
 	}
 )
 
@@ -63,7 +63,7 @@
 	}
 
 	{bots
-		(include "global_parameters/last_stand/bots_custom.inc" period("44|45") start_a(%start_a) finish_a(%finish_a) start_b(%start_b) finish_b(%finish_b) doctrine(%doctrine) cp_a(%cp_a) cp_b(%cp_b))
+		(include "global_parameters/last_stand/bots_custom_44-45.inc" start_a(%start_a) finish_a(%finish_a) start_b(%start_b) finish_b(%finish_b) doctrine(%doctrine) cp_a(%cp_a) cp_b(%cp_b))
 	}
 )
 
@@ -96,7 +96,7 @@
 	}
 
 	{bots
-		(include "global_parameters/last_stand/bots_standard.inc" period("44|45") start_a(%start_a) finish_a(%finish_a) start_b(%start_b) finish_b(%finish_b) doctrine(%doctrine) cp_a(%cp_a) cp_b(%cp_b))
+		(include "global_parameters/last_stand/bots_standard_44-45.inc" start_a(%start_a) finish_a(%finish_a) start_b(%start_b) finish_b(%finish_b) doctrine(%doctrine) cp_a(%cp_a) cp_b(%cp_b))
 	}
 )
 
@@ -131,7 +131,7 @@
 	}
 
 	{bots
-		(include "global_parameters/last_stand/bots_standard.inc" period("46") start_a(%start_a) finish_a(%finish_a) start_b(%start_b) finish_b(%finish_b) doctrine(%doctrine) cp_a(%cp_a) cp_b(%cp_b))
+		(include "global_parameters/last_stand/bots_standard_46.inc" start_a(%start_a) finish_a(%finish_a) start_b(%start_b) finish_b(%finish_b) doctrine(%doctrine) cp_a(%cp_a) cp_b(%cp_b))
 	}
 )
 
@@ -164,7 +164,7 @@
 	}
 
 	{bots
-		(include "global_parameters/last_stand/bots_custom.inc" period("46") start_a(%start_a) finish_a(%finish_a) start_b(%start_b) finish_b(%finish_b) doctrine(%doctrine) cp_a(%cp_a) cp_b(%cp_b))
+		(include "global_parameters/last_stand/bots_custom_46.inc" start_a(%start_a) finish_a(%finish_a) start_b(%start_b) finish_b(%finish_b) doctrine(%doctrine) cp_a(%cp_a) cp_b(%cp_b))
 	}
 )
 
@@ -197,7 +197,7 @@
 	}
 
 	{bots
-		(include "global_parameters/last_stand/bots_standard.inc" period("46") start_a(%start_a) finish_a(%finish_a) start_b(%start_b) finish_b(%finish_b) doctrine(%doctrine) cp_a(%cp_a) cp_b(%cp_b))
+		(include "global_parameters/last_stand/bots_standard_46.inc" start_a(%start_a) finish_a(%finish_a) start_b(%start_b) finish_b(%finish_b) doctrine(%doctrine) cp_a(%cp_a) cp_b(%cp_b))
 	}
 )
 

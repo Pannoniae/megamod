@@ -1,0 +1,105 @@
+;Exported by: Normand
+;Date:        Mon Nov 08 21:49:18 2021
+;File:        C:\Users\Normand\grenade_breda42at.max
+{Skeleton
+	{bone "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "breda42at"
+			{Matrix34
+				0	1	0
+				-1	0	0
+				0	0	1
+				-0.0112506	-0.46785	0.0112875
+			}
+			{VolumeView "breda42at.ply"}
+			{bone "handle"
+				{Matrix34
+					0	-1	0
+					1	0	0
+					0	0	1
+					0.06785	1.20384	0.07943
+				}
+			}
+		}
+	}
+}
+{Volume "body2"
+	{Cylinder 0.55 5}
+	{Bone "breda42at"}
+	{Matrix34
+		0	-1	0
+		0	0	1
+		-1	0	0
+		0.756975	-0.0232511	-0.0113646
+	}
+}
+{Volume "body"
+	{Sphere 0.904509}
+	{Bone "breda42at"}
+	{Matrix34
+		-1	0	0
+		0	0	1
+		0	1	0
+		3.93794	0.00304008	-0.0107859
+	}
+}
+{Volume "select"
+	{Cylinder 0.55 5}
+	{Bone "breda42at"}
+	{Matrix34
+		0	-1	0
+		0	0	1
+		-1	0	0
+		0.751142	-0.0232511	-0.0113646
+	}
+}
+{Extender "preview"
+	{"stuff_secondary"
+		{camera
+			{origin -0.619689	-0.244827	25.3626}
+			{lookat -0.619689	-0.244827	0.0360394}
+			{fov 23}
+			{horizon -76.1111}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 0.413091	2.5803	3.03604}
+			}
+			{"1"
+				{type point}
+				{position 0.323162	-3.02323	3.03604}
+			}
+			{"2"
+				{type directional}
+				{direction -0.0261338	-0.00898283	-0.499236}
+			}
+		}
+	}
+	{"stuff"
+		{camera
+			{origin -0.619598	-0.244791	25.3626}
+			{lookat -0.619598	-0.244791	0}
+			{fov 23}
+			{horizon -75.3945}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 0.323117	-3.02376	3}
+			}
+			{"1"
+				{type point}
+				{position 0.41312	2.58026	3}
+			}
+			{"2"
+				{type directional}
+				{direction -0.0258759	-0.00907251	-0.499248}
+			}
+		}
+	}
+}

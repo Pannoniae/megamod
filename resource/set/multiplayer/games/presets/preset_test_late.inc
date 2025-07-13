@@ -13,7 +13,7 @@
 		(include "global_parameters/budget.inc" s(%start) f(%finish) d(%doctrine))
 	}
 	{bots
-		(include "global_parameters/bots_generic.inc" period("44-45"))
+		(include "global_parameters/bots_generic_44-45.inc")
 	}
 )
 
@@ -31,7 +31,7 @@
 		(include "global_parameters/budget.inc" s(%start) f(%finish) d(%doctrine))
 	}
 	{bots
-		(include "global_parameters/bots_generic.inc" period("46"))
+		(include "global_parameters/bots_generic_46.inc")
 	}
 )
 

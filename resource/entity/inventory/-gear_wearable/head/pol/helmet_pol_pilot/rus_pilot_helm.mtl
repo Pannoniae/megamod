@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "pol_pilot_helm"}
+	{bump "pol_pilot_helm_nm"}
+	{specular "pol_pilot_helm_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

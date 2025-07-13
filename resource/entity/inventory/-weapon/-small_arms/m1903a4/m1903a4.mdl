@@ -1,0 +1,69 @@
+;Exported by: Andrew Peacock
+;Date:        Wed May 16 16:15:02 2012
+;File:        C:\Users\Andrew Peacock\Desktop\Models\Completed Full Models\BF2 Completed, Full Models\Springfield\Completed\Springfield_M1919_Scope.max
+{Skeleton
+	{bone "springfield_m1919_scope"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{VolumeView "springfield_scope.ply"}
+		{bone "scope"
+			{VolumeView "scope.ply"}
+		}
+		{bone "fxshell"
+			{Matrix34
+				0	0	1
+				0	1	0
+				-1	0	0
+				2.74541	1.80385	0.31678
+			}
+		}
+		{bone "foresight12"
+			{Position 18.2532	1.91166	-0.0128941}
+		}
+		{bone "handle"
+			{Matrix34
+				0.999892	-0.0101287	-0.0106147
+				-0.0106097	0.000546655	-0.999943
+				0.0101339	0.999949	0.000439518
+				6.36976	2.21218	-0.0445456
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 1.09129 28.3822 3.72588}
+	{Bone "springfield_m1919_scope"}
+	{Matrix34
+		0	0	0.947722
+		0.825509	1.48104e-005	0
+		-2.43866e-005	1.35702	0
+		5.4829	0.457239	-0.0753284
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 7.88779	-2.21467	-28.7843}
+			{lookat 7.73627	-2.19788	-26.898}
+			{fov 45}
+			{horizon 83.7992}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position 7.81323	-3.4815	-26.0415}
+			}
+			{"1"
+				{type directional}
+				{direction -0.16522	0.0523777	0.468998}
+			}
+			{"2"
+				{type point}
+				{position 7.55648	-1.44556	-25.812}
+			}
+		}
+	}
+}

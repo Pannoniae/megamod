@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "bulletb"}
+	{blend none}
+}

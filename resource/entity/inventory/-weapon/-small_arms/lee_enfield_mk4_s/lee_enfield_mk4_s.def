@@ -1,0 +1,8 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{extension "no4_scope.mdl"}
+	{extender "stuff"
+		{item "em4_s"}
+	}
+	{nogroupmesh 1}
+}

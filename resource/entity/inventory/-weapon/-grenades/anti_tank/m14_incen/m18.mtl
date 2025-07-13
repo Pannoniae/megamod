@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "incendiary"}
+	{specular "incendiary_sp"}
+	{color "229 229 229 152"}
+	{blend test}
+}

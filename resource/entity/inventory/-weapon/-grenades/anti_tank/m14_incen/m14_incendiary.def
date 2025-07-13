@@ -1,0 +1,13 @@
+{actor
+	(include "/properties/stuff_grenade.ext")
+	{extension "grenade_us_m14.mdl"}
+	{extender "stuff"
+		{item "grenade m14_incen"}
+	}
+	{nogroupmesh 1}
+	{props "contact" "incendiary"}
+	{volume "body"
+		{able {bullet} {contact} {blast}}
+	}
+}
+

@@ -1,0 +1,9 @@
+{actor
+	(include "/properties/stuff_weapon.ext")
+	{Extension "fedorov_avtomat.mdl"}
+	{props "svt" "wood_stock"}
+	{extender "stuff"
+		{item "fedorov_avtomat"}
+	}
+	{nogroupmesh 1}
+}

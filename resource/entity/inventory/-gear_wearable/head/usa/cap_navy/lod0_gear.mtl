@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "allied_lod0_gear_navysailorblue"}
+	{bump "allied_lod0_gear_navysailorblue_bp"}
+	{specular "allied_lod0_gear_navysailorblue_sp"}
+	{color "229 229 229 9"}
+	{blend none}
+}

@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/humanskin/fra/hands arab"}
+	{blend none}
+}

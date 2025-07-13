@@ -1,0 +1,7 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{Extension "en_backpack.mdl"}
+	{extender "stuff"
+		{item "backpack"}
+	}
+}

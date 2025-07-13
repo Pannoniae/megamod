@@ -1,0 +1,98 @@
+;Exported by: Joe
+;Date:        Fri Jul 06 19:35:06 2012
+;File:        C:\Users\Joe\Desktop\Models\Completed Full Models\BF2 Completed, Full Models\No4Scope\Completed\No4_SCOPE.max
+{Skeleton
+	{bone revolute "basis"
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "no4_scope"
+			{VolumeView "no4_scope.ply"}
+			{bone "foresight12"
+				{Matrix34
+					1	4.41904e-005	0
+					-4.4204e-005	1	0
+					0	0	1
+					17.6406	1.42429	-0.0121731
+				}
+			}
+			{bone "handle"
+				{Matrix34
+				        0.999892	-0.0101287	-0.0106147
+				        -0.0106097	0.000546655	-0.999943
+				        0.0101339	0.999949	0.000439518
+					6.26104	1.82648	-0.0420995
+				}
+			}
+			{bone "4"
+				{VolumeView "4.ply"}
+			}
+			{bone "fxshell"
+				{Matrix34
+					0	0	1
+					0	1	0
+					-1	0	0
+					2.96752	1.89087	0.2994
+				}
+			}
+		}
+	}
+}
+{Volume "body"
+	{Box 1.09129 28.3822 3.72588}
+	{Bone "no4_scope"}
+	{Matrix34
+		0	0	0.895725
+		0.780217	8.69967e-005	0
+		-5.28751e-005	1.28256	0
+		5.40536	0.707639	-0.0711936
+	}
+}
+{Extender "preview"
+	{"Stuff"
+		{camera
+			{origin 4.70894	-0.391545	41.4997}
+			{lookat 4.70894	-0.391545	0.0165689}
+			{fov 30.7899}
+			{horizon 16.9996}
+		}
+		{lights
+			{"0"
+				{type directional}
+				{direction 0	0.325948	-0.379154}
+			}
+			{"1"
+				{type point}
+				{position 14.7329	-4.61464	4.33873}
+			}
+			{"2"
+				{type point}
+				{position -8.00733	-2.97026	2.93727}
+			}
+		}
+	}
+	{"Stuff_primary"
+		{camera
+			{origin 4.55087	-0.302777	46.074}
+			{lookat 4.55087	-0.302779	0.016567}
+			{fov 30.7899}
+			{horizon 9.99963}
+		}
+		{lights
+			{"0"
+				{type point}
+				{position -8.00733	-2.97045	2.96135}
+			}
+			{"1"
+				{type point}
+				{position 14.7329	-4.61483	4.28027}
+			}
+			{"2"
+				{type directional}
+				{direction 0	0.325948	-0.379154}
+			}
+		}
+	}
+}

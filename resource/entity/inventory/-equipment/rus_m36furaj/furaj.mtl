@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/humanskin/rus_m36furaj"}
+	{bump "$/humanskin/rus_m36furaj_bump"}
+	{specular "$/humanskin/rus_m36furaj_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

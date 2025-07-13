@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "hotchkiss_m1929"}
+	{specular "hotchkiss_m1929"}
+	{color "229 229 229 25"}
+	{blend none}
+}

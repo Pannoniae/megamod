@@ -1,0 +1,8 @@
+{actor
+	(include "/properties/stuff_small.ext")
+	{extension "fm24-29_no_bipod.mdl"}
+	{extender "stuff"
+		{item "fm2429_no_bipod"}
+	}
+	{nogroupmesh 1}
+}

@@ -1,0 +1,18 @@
+{game_entity
+	{simulation {able 1} {state 1}}
+	{constrain none}
+	{collider "stuff"}
+	{mass 500}
+	{body {proper body sensible}}
+	{volume "body"
+		{able {obstacle 0} {contact 0}}
+		{thickness 1}
+	}
+	{props "air_bomb_ptab" "explosive_stuff" "steel"}
+	{lodclass "decor_landmark"}
+	{extender "stuff"
+		{item "air_bomb_ptab"}
+	}
+	{extension "ptab.mdl"}
+	{fogable never}
+}

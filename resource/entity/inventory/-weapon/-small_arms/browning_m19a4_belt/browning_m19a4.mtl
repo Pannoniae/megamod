@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "browning m1919a4"}
+	{blend test}
+}

@@ -1,0 +1,9 @@
+{Actor
+	(include "/properties/stuff_small.ext")
+	{Extension "type38rifle_s.mdl"}
+	{extender "stuff"
+		{item "type38rifle_s"}
+	}
+	{nogroupmesh 1}
+	{lodclass "human"}
+}

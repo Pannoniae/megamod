@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "rank2"}
+	{blend none}
+}

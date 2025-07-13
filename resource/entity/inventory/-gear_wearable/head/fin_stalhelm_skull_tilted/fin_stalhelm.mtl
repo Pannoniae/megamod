@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/_hum/legacy/fin/fin_stalhelm_skull"}
+	{bump "$/_hum/legacy/fin/fin_stalhelm_bp"}
+	{specular "$/_hum/legacy/fin/fin_stalhelm_sp"}
+;	{color "230 230 230 25"}
+	{blend none}
+}

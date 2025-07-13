@@ -1,0 +1,12 @@
+{Actor
+	(include "/properties/stuff_small.ext")
+	{Extension "type44carbine.mdl"}
+	{Volume "body"
+	}
+	{Volume "select"
+	}
+	{extender "stuff"
+		{item "type44_carbine"}
+	}
+	{nogroupmesh 1}
+}
