@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/model/105_mm_m2a1l/105mm m2a1_x"}
-	{bump "$/model/105mm m2a1_bp"}
-	{specular "$/model/105mm m2a1_sp"}
-	{color "229 229 229 25"}
-	{blend test}
-}

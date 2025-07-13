@@ -1,4 +1,0 @@
-{material envmap
-	{diffuse "$/model/matador_glass"}
-	{blend blend}
-}

@@ -1,9 +1,0 @@
-{game_entity
-	{extension "../../../../finland/cannon/x/105mm_k13_x/105mm_mle1913_x.mdl"}{Rimlight}
-	{volume "wheelleft"
-		{able {obstacle 0}}
-	}
-	{volume "wheelright"
-		{able {obstacle 0}}
-	}
-}

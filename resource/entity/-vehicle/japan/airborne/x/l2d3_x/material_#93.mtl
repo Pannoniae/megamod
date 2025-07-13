@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "nevada92body256"}
-	{bump "nevada92body256_bp"}
-	{specular "nevada92body256_bp"}
-	{color "229 229 229 25"}
-	{blend none}
-}

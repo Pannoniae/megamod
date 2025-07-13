@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/model/105_mm_m3/105mm_m3_wheel"}
-	{blend none}
-}

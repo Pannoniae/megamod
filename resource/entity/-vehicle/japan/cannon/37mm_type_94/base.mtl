@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "37mm-type94"}
-	{bump "$/model/37mm-type94_bp"}
-	{specular "$/model/37mm-type94_sp"}
-	{color "229 229 229 25"}
-	{blend test}
-}

@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "$/model/common_wiper"}
-	{specular "$/model/common_wiper"}
-	{color "229 229 229 25"}
-	{blend none}
-}

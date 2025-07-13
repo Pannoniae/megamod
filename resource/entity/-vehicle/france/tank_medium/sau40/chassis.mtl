@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "Somua_Sau_40_chassis_01_AM"}
-	{bump "$/model/somua_sau_40/Somua_Sau_40_chassis_01_ANM"}
-	{specular "$/model/somua_sau_40/Somua_Sau_40_chassis_01_AO"}
-	{color "229 229 229 25"}
-	{blend test}
-}

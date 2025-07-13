@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "$/model/Renault_R35_track_AM"}
-	{specular "$/model/Renault_R35_track_Metalness"}
-	{color "229 229 229 25"}
-	{blend test}
-}

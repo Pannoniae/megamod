@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "sgrw42"}
-	{bump "$/model/m2halftrack/sw42_bp"}
-	{specular "$/model/m2halftrack/sgrw42_sp"}
-	{color "229 229 229 25"}
-	{blend test}
-}

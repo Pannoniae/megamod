@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "7ba33121"}
-	{bump "7ba33121_bp"}
-	{specular "7ba33121_sp"}
-	{color "229 229 229 25"}
-	{blend test}
-}

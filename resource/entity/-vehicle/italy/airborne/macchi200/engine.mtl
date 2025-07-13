@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "engine"}
-	{bump "engine_bp"}
-	{specular "engine"}
-	{color "229 229 229 25"}
-	{blend none}
-}

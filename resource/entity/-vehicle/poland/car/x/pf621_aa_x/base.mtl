@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "$/model/pf621_x"}
-	{specular "$/model/pf621_sp"}
-	{color "230 230 230 152"}
-	{blend test}
-}

@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/model/pf621_glass"}
-	{blend blend}
-}

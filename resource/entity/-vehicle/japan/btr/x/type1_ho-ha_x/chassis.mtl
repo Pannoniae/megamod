@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "type_chassis"}
-	{blend test}
-}

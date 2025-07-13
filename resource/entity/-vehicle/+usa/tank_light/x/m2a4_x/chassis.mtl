@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "m2_lt_chassis_01_am_x"}
-	{bump "m2_lt_chassis_01_anm"}
-	{specular "m2_lt_chassis_01_gmm"}
-	{color "230 230 230 25"}
-	{blend none}
-}

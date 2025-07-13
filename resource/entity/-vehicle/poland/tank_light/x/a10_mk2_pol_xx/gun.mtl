@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "cs_gun"}
-	{specular "$/model/cs_gun_sp"}
-	{color "229 229 229 25"}
-	{blend none}
-}

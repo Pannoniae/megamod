@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "$/model/oerlikon_shield"}
-	{specular "$/model/oerlikon_shield_sp"}
-	{color "229 229 229 25"}
-	{blend none}
-}

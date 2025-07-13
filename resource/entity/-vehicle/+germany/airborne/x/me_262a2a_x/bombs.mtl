@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "sc250_c"}
-	{specular "sc250_n_s"}
-	{color "230 230 230 25"}
-	{blend none}
-}

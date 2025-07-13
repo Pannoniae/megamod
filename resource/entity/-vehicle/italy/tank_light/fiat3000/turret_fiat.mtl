@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "turret"}
-	{specular "$/model/fiat3000turret_sp"}
-	{color "229 229 229 25"}
-	{blend none}
-}

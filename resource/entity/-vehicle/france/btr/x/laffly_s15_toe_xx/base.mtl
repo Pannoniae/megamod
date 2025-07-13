@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "laffly_btr_xx"}
-	{specular "$/model/laffly_btr_sp"}
-	{color "255 255 255 25"}
-	{blend test}
-}

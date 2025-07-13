@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "m6_track"}
-	{specular "m6_track_sp"}
-	{color "229 229 229 128"}
-	{blend test}
-}

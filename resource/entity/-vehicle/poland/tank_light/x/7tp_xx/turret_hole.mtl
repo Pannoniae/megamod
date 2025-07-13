@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/model/turret_hole"}
-	{blend none}
-}

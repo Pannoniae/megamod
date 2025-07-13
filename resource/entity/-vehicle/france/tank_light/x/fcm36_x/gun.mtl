@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "FCM36_20t_guns_AM"}
-	{bump "$/model/fcm36/FCM36_20t_guns_ANM"}
-	{specular "$/model/fcm36/FCM36_20t_guns_AO"}
-	{color "229 229 229 25"}
-	{blend none}
-}

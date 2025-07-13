@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "skin_x"}
-	{specular "$/model/wz34_sp"}
-	{color "229 229 229 25"}
-	{blend test}
-}

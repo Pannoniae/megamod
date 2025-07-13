@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "hago_turret_xx"}
-	{specular "$/model/hago_turret_sp"}
-	{color "255 255 255 25"}
-	{blend none}
-}

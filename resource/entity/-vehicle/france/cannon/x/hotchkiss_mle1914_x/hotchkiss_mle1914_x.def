@@ -1,7 +1,0 @@
-{game_entity
-	{Extension "hotchkiss_mle1914_x.mdl"}
-	{Volume "body"
-	}
-	{Volume "turret"
-	}
-}

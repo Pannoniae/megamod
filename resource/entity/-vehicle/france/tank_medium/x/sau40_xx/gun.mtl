@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "Somua_Sau_40_guns_AM"}
-	{specular "$/model/sau40/Somua_Sau_40_guns_AO"}
-	{color "229 229 229 25"}
-	{blend none}
-}

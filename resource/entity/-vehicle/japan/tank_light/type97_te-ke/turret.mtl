@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "type97te-ke_turret"}
-	{bump "$/model/type97te-ke_turret_bp"}
-	{specular "$/model/type97te-ke_turret_sp"}
-	{color "229 229 229 152"}
-	{blend none}
-}

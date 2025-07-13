@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "antenna_x"}
-	{blend none}
-}

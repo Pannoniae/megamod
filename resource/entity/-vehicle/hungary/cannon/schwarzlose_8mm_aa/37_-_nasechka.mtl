@@ -1,5 +1,0 @@
-{material bump
-	{diffuse "$/model/skr/riflenka4small"}
-	{bump "$/model/skr/riflenka4small_nm"}
-	{blend none}
-}

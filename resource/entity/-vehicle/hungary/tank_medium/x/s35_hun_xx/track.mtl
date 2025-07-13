@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "$/model/Somua_S35_track_xx"}
-	{specular "$/model/Somua_S35_track_Metalness"}
-	{color "229 229 229 25"}
-	{blend test}
-}

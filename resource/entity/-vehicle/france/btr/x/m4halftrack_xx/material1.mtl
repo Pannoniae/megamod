@@ -1,5 +1,0 @@
-{material bump
-	{diffuse "sgrw42_x"}
-	{bump "$/model/m2halftrack/sw42_bp"}
-	{blend test}
-}

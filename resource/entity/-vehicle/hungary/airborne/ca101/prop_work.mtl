@@ -1,5 +1,0 @@
-{material envmap
-	{diffuse "ju-52_engine"}
-	{amount 0.5}
-	{blend blend}
-}

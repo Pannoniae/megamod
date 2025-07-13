@@ -1,7 +1,0 @@
-{game_entity
-	{Extension "type41_x.mdl"}
-	{Volume "wheelleft"
-	}
-	{Volume "wheelright"
-	}
-}

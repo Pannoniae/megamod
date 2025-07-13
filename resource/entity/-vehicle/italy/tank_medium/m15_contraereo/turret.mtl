@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "contraereo_turret"}
-	{specular "$/model/contraereo_turret_sp"}
-	{color "229 229 229 25"}
-	{blend test}
-}

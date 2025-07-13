@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "t3_hull_01_am_xx"}
-	{bump "t3_hull_01_anm"}
-	{specular "t3_hull_01_gmm2"}
-	{color "230 230 230 25"}
-	{blend none}
-}

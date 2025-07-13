@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "zis12_94km_guns_x"}
-	{bump "$/_vehicle/2698697209697094_94_km_zis_12_1945_gun_n_n"}
-	{specular "$/_vehicle/zis12_94km_guns_s"}
-	{color "230 230 230 25"}
-	{blend none}
-}

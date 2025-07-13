@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "$/model/Hotchkiss_H35_guns_xx"}
-	{specular "$/model/Hotchkiss_H35_guns_AO"}
-	{color "229 229 229 25"}
-	{blend none}
-}

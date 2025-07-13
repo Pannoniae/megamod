@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/_vehicle/t34s_gun_diffuse"}
-	{bump "$/_vehicle/t34s_gun_bump"}
-	{specular "$/_vehicle/t34s_gun_specular"}
-	{color "230 230 230 25"}
-	{blend none}
-}

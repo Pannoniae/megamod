@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "type_93_car"}
-	{bump "$/model/type_93_car_bp"}
-	{specular "$/model/type_93_car_sp"}
-	{color "255 255 255 25"}
-	{blend none}
-}

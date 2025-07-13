@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "type_95_guns"}
-	{bump "$/model/type95rogo/type_95_guns_bp"}
-	{specular "$/model/type95rogo/type_95_guns_sp"}
-	{color "229 229 229 25"}
-	{blend none}
-}

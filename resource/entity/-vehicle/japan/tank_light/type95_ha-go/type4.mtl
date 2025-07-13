@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "ha_go"}
-	{bump "$/model/ha_go_bp"}
-	{specular "$/model/ha_go_sp"}
-	{color "255 255 255 25"}
-	{blend test}
-}

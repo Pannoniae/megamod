@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/animation/tks_track"}
-	{blend test}
-}

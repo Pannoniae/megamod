@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "fab500"}
-	{bump ""}
-	{specular "fab500_sp"}
-	{color "230 230 230 25"}
-	{blend none}
-}

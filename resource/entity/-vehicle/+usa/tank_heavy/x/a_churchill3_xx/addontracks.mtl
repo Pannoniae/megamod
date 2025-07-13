@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/_vehicle/uk_a22b_mk_iii_churchill_1942_phys_track_c"}
-	{bump "$/_vehicle/uk_a22b_mk_iii_churchill_1942_phys_track_n_n"}
-	{specular "$/_vehicle/uk_a22b_mk_iii_churchill_1942_phys_track_n_s"}
-	{color "230 230 230 25"}
-	{blend none}
-}

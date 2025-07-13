@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/model/75mm1897_tex1_xx"}
-	{specular "$/model/skin_spec1"}
-	{color "229 229 229 25"}
-	{blend none}
-	{tile}
-}

@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "truck_toyota"}
-	{specular "$/model/truck_toyota_sp"}
-	{color "229 229 229 25"}
-	{blend test}
-}

@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "mtls-1g14_guns_am_xx"}
-	{bump "MTLS-1G14_guns_ANM"}
-	{specular "mtls-1g14_guns_gmm"}
-	{color "230 230 230 25"}
-	{blend none}
-}

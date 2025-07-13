@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/model/amr35/amr_35_track"}
-	{blend test}
-}

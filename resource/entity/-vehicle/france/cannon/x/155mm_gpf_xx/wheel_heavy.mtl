@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "$/model/wheel_us_heavy2"}
-	{specular "$/model/wheel_us_heavy2"}
-	{color "229 229 229 25"}
-	{blend test}
-}

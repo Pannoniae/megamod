@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "$/_vehicle/4806402769385561_rifled_barrel_d_c"}
-	{specular "$/_vehicle/4806402769385561_rifled_barrel_d_n_s"}
-	{color "230 230 230 25"}
-	{blend none}
-}

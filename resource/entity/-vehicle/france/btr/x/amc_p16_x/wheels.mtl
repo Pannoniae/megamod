@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "amr_p16_wheels"}
-	{specular "$/model/amr_p16_wheels_sp"}
-	{color "255 255 255 25"}
-	{blend none}
-}

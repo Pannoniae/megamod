@@ -1,5 +1,0 @@
-{material bump
-	{diffuse "krupp_x"}
-	{specular "$/model/krupp_sp"}
-	{blend none}
-}

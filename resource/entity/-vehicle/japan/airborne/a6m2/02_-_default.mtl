@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "a6m2"}
-	{bump "a6m2_bp"}
-	{specular "a6m2_sp"}
-	{color "229 229 229 25"}
-	{blend none}
-}

@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "$/model/75mm1897_support_xx"}
-	{specular "$/model/75mm1897_support"}
-	{color "229 229 229 25"}
-	{blend none}
-}

@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/model/laffly_wheel_xx"}
-	{blend none}
-}

@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "$/model/105_mm_m3/105mm_m3"}
-	{specular "$/model/105_mm_m3/105mm_m3_sp"}
-	{color "229 229 229 25"}
-	{blend none}
-}

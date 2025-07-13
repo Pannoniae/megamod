@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "turret13"}
-	{bump "$/model/amr35/turret13_bp"}
-	{specular "$/model/amr35/turret13_sp"}
-	{color "229 229 229 25"}
-	{blend test}
-}

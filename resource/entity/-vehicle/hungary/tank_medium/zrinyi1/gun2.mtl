@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "15cm_43m"}
-	{bump "$/model/15cm_43m_bp"}
-	{specular "$/model/15cm_43m_sp"}
-	{color "229 229 229 25"}
-	{blend none}
-}

@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/_vehicle/kv8s_1_xx"}
-	{bump "$/_vehicle/kv8_xx_bp"}
-	{specular "$/_vehicle/kv8_xx_sp"}
-	{color "230 230 230 25"}
-	{blend test}
-}

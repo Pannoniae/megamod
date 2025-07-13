@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "su76i_gun"}
-	{bump "$/_vehicle/su76i_guns_bp"}
-	{specular "$/_vehicle/su76i_gun_sp"}
-	{color "230 230 230 25"}
-	{blend none}
-}

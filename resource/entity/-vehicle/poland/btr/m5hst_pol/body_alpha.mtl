@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "m5"}
-	;{bump "$/model/m5hst_bp"}
-	{specular "$/model/m5hst_sp"}
-	{color "229 229 229 25"}
-	{blend blend}
-}

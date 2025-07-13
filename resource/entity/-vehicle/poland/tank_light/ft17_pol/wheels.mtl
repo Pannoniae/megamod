@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/model/ft17/wheel_ft17_1"}
-	{bump "$/model/ft17/wheel_ft17_bp"}
-	{specular "$/model/ft17/wheel_ft17_sp"}
-	{color "255 255 255 25"}
-	{blend none}
-}

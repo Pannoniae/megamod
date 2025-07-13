@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "7tp_chassis"}
-	{bump "$/model/t-26_1933_body_nm"}
-	{specular "$/model/t-26_1933_body_sp"}
-	{color "229 229 229 25"}
-	{blend none}
-}

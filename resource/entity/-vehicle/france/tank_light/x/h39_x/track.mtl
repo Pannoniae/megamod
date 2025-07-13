@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "$/model/Hotchkiss_track_AM"}
-	{specular "$/model/Hotchkiss_track_Metalness"}
-	{color "229 229 229 25"}
-	{blend test}
-}

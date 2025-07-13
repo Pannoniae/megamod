@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "ca101_xx"}
-	{bump "$/model/ca101_bp"}
-	{specular "$/model/ca101_sp"}
-	{color "229 229 229 25"}
-	{blend test}
-}

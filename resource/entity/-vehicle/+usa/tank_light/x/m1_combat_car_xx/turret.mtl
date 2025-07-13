@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "t7_combat_car_turret_01_am_xx"}
-	{bump "t7_combat_car_turret_01_anm"}
-	{specular "t7_combat_car_turret_01_gmm"}
-	{color "230 230 230 25"}
-	{blend none}
-}

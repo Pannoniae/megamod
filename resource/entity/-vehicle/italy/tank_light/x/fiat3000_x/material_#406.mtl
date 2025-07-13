@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/animation/fiat3000_tracks"}
-	{blend none}
-}

@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "j2m"}
-	{bump "$/model/j2m_bp"}
-	{specular "$/model/j2m_sp"}
-	{color "229 229 229 25"}
-	{blend none}
-}

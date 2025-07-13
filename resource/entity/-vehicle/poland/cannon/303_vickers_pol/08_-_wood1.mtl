@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/model/skr/wood20"}
-	{blend none}
-}

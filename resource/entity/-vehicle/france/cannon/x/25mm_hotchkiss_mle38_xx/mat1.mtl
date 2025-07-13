@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/model/skin1_flak38_xx"}
-	{blend none}
-}

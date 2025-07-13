@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/model/qf 25 pounder/qf17pounder_xx"}
-	{bump "$/model/qf 25 pounder/qf17pounder_bp"}
-	{specular "$/model/qf 25 pounder/qf17pounder_sp"}
-	{color "229 229 229 25"}
-	{blend none}
-}

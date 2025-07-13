@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/model/type_91/type_91_chassis_x"}
-	{bump "$/model/type_91/type_91_chassis_bp"}
-	{specular "$/model/type_91/type_91_chassis_sp"}
-	{color "229 229 229 25"}
-	{blend none}
-}

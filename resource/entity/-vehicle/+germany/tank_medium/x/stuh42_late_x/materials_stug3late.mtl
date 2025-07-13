@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/_vehicle/stug_iii_g_late_x"}
-	{bump "$/_vehicle/stug_iii_g_late_bp"}
-	{specular "$/_vehicle/stug_iii_g_late_sp"}
-	{color "230 230 230 25"}
-	{blend test}
-}

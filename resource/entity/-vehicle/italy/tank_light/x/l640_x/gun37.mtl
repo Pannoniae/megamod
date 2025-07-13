@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "l6_40_37mm"}
-	{bump "$/model/l640/l6_40_37mm_bp"}
-	{specular "$/model/l640/l6_40_37mm_sp"}
-	{color "229 229 229 25"}
-	{blend none}
-}

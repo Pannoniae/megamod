@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/_vehicle/headlight"}
-	{bump "$/_vehicle/3852769158692389_headlight_glass_n_n"}
-	{specular "$/_vehicle/headlight_s"}
-	{color "230 230 230 25"}
-	{blend none}
-}

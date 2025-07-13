@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/_vehicle/panther_g_early_camo"}
-	{bump "$/_vehicle/panther_g_early_bp"}
-	{specular "$/_vehicle/panther_g_early_sp"}
-	{color "255 255 255 152"}
-	{blend test}
-}

@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/_vehicle/tracks/MTLS1G14_track_AM"}
-	{bump "$/_vehicle/tracks/MTLS1G14_track_ANM"}
-	{specular "$/_vehicle/tracks/MTLS1G14_track_GMM"}
-	{color "230 230 230 25"}
-	{blend test}
-}

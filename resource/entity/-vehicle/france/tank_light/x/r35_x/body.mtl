@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/model/RenaultR35_hull_01_AM_x"}
-	{bump "$/model/RenaultR35_hull_01_ANM"}
-	{specular "$/model/RenaultR35_hull_01_AO"}
-	{color "229 229 229 25"}
-	{blend none}
-}

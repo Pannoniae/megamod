@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "track_ki"}
-	{blend test}
-}

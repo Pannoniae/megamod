@@ -1,5 +1,0 @@
-{material bump
-	{diffuse "$/model/wheel_aec_xx"}
-	{bump "$/model/wheel_aec_bp"}
-	{blend none}
-}

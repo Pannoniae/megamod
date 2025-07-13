@@ -1,5 +1,0 @@
-{material bump
-	{diffuse "$/model/tent_car"}
-	{bump "$/model/tent_car_bp"}
-	{blend none}
-}

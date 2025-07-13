@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "$/model/skr/metal1"}
-	{blend none}
-}

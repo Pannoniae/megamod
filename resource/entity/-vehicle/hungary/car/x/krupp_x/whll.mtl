@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "$/model/wheels_hun_x"}
-	{bump "$/model/wheels_hun_bp"}
-	{specular "$/model/wheels_hun_sp"}
-	{color "229 229 229 25"}
-	{blend none}
-}

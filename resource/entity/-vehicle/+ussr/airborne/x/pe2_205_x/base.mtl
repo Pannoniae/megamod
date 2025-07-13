@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "pe2_205"}
-	{bump "pe2_205_bp"}
-	{specular "pe2_205_sp"}
-	{color "230 230 230 25"}
-	{blend none}
-}

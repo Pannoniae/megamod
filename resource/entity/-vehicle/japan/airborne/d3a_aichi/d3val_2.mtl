@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "d3val"}
-	{bump "d3val_bp"}
-	{specular "d3val_sp"}
-	{color "229 229 229 25"}
-	{blend test}
-}

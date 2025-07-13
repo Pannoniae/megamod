@@ -1,6 +1,0 @@
-{material bump
-	{diffuse "t26_32_gun_diffuse_x"}
-	{specular "t26_32_gun_specular"}
-	{color "230 230 230 25"}
-	{blend none}
-}

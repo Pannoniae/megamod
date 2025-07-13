@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "ijn_12cm_x"}
-	{bump "$/model/ijn_12cm_bp"}
-	{specular "$/model/ijn_12cm_sp"}
-	{color "230 230 230 128"}
-	{blend none}
-}

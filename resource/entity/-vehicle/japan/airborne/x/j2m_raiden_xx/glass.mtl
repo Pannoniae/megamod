@@ -1,4 +1,0 @@
-{material simple
-	{diffuse "j2m_glass"}
-	{blend test}
-}

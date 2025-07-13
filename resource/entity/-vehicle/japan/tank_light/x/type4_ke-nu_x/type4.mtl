@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "type_4_ke_nu_x"}
-	{bump "$/model/type_4_ke_nu_bp"}
-	{specular "$/model/type_4_ke_nu_sp"}
-	{color "255 255 255 25"}
-	{blend test}
-}

@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "panzerivg2"}
-	{bump ""}
-	{specular "panzerivg2_sp"}
-	{color "230 230 230 25"}
-	{blend none}
-}

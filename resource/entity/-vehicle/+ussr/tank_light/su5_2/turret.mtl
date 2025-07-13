@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "su-5_turret_01_am"}
-	{bump "$/_vehicle/su-5_turret_01_anm"}
-	{specular "$/_vehicle/su-5_turret_01_gmm"}
-	{color "230 230 230 25"}
-	{blend none}
-}

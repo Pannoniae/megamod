@@ -1,7 +1,0 @@
-{material bump
-	{diffuse "D2_hull_01_AM"}
-	{bump "$/model/D2_hull_01_ANM"}
-	{specular "$/model/D2_hull_01_AO"}
-	{color "229 229 229 25"}
-	{blend none}
-}
