@@ -1,0 +1,15 @@
+{game_Entity
+	{Extension "h35_xx.mdl"}
+	{Volume "body1"
+	}
+	{Volume "gun"
+	}
+	{Volume "shieldl3"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "trackright"
+	}
+	{Volume "turret"
+	}
+}

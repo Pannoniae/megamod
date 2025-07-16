@@ -1,26 +1,9 @@
 {game_entity
 	(include "/properties/cannon_mgun.ext")
+	{Extension "hotchkiss_mg.mdl"}
 	{collider "cannon_small"}
 	{props"cannon_small" "round_sandbag2" "vision_cannon_minimum" }
-
-	{Weaponry
-		{place "mgun"
-			{type "main"}
-			{LinkBone ""}
-			{weapon "hotchkiss1914" filled}
-			{gunner "gunner"}
-			{charger "gunner"}
-		}
-	} 
-	{extender "inventory"
-		{box
-			{clear}
-			{item "ammo 8x50" 3000}
-			{item "plant" 5}
-		}
-	} 	
-	{Extension "hotchkiss_mle1914.mdl"}
-
+	
 	{boarder
 		{anm "gunner"
 			{forward	{end "pose_vicers_gunner" 10}}
@@ -30,27 +13,45 @@
 		}
 	
 	}
-
-	{sensor 
-		{visor "main" 
-			{vision "cannon_main"}
-			{bone "turret"}
-		}
-	}
 	
 	{extender "cannon"
+		;// "gunner" "commander"
 		{animation
 			{reload  "" "lie_take_small end lie_take_item_end"}
 		}
 		{move {obstacle "close"}}
 		{attack {obstacle "open"}}
-		{rotate_ik_Limit 0}
 	}
-
-	{Volume "body"
-		{tags "body"}
-		{able{obstacle 0}}
-		{thickness 1}
-		{component "body"}
+	
+	{extender "inventory"
+		{weapon "mgun" {mask "mountable"}}
+		{box
+			{item "hotchkiss_m1914" filled {user "mgun"}}
+			{item "ammo 8x50" 3000}
+		}
 	}
+	{Weaponry
+		{place "mgun"
+			{type "aa"}
+			{LinkBone "mgun"}
+			{LinkAnimation "off"}
+			{gunner "gunner"}
+			{charger "gunner"}
+		}
+	}
+	{mass 34}
+	{Chassis
+		("mobility_cannon"
+			speed(13) ;----------------------------------Max speed.
+			weight(34) ;---------------------------------Weight in Kilograms.
+		)
+	}
+	{bone "basis"
+		{speed2 20}
+	}
+	{bone "gun_rot"
+		{limits -10 15}
+		{speed2 40}
+	}
+	
 }

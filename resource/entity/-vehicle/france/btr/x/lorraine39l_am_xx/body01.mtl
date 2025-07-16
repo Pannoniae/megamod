@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/lorraine39l_am/lorraine39l_am_hull_xx"}
+	{bump "$/model/lorraine39l_am/lorraine39l_am_hull_bp"}
+	{specular "$/model/lorraine39l_am/lorraine39l_am_hull_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

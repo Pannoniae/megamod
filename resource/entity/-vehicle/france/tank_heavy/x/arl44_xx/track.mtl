@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/arl_44/arl_44_track_xx"}
+	{blend test}
+}

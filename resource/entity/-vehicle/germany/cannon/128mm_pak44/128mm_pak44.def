@@ -78,13 +78,13 @@
 			{forward	{end "AAgun_61k_charger" 10}} 
 		}
 		{anm "gunner2"
-			{forward	{end "pose_flak_gunner2" 10}} 
+			{forward	{end "pose_flak_charger" 10}} 
 		}
 		{anm "charger"
 			{forward {end "pose_flak_charger" 10}} 
 		}
 		{anm "charger2"
-			{forward {end "pose_flak_gunner" 10}}
+			{forward {end "pose_flak_gunner2" 10}}
 		}
 		{anm "commander"
 			{forward {end "pose_flak_commander" 10}}
@@ -177,7 +177,7 @@
 		{speed 0.002}
 	}
 	
-	{texmod "camo"}
+	;{texmod "camo"}
 }
 
 

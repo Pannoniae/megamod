@@ -1,0 +1,113 @@
+{game_entity
+	(include "/properties/tank_assaultgun.ext")
+	(include "/properties/shadow/tank.inc" scale(0.9))
+	(include "/properties/selection/vehicle.inc" scale(0.8))
+	{props "spg" "light" "vision_lev03" "muzzle_85mm_93mm" "shell_eject" "tractor" "tractor_medium" "open_top" "detect_artillery" "artillery_minimap_medium" "ammo_open_top"}
+	
+	{targetclass "tank_light"}
+	{targetSelector "tank_medium"}
+	{patherId "panzer1"}
+	{collider "tank.light"}
+	
+	("armoredcar_tier1")
+	("ammo" args "ammo1")
+	("tracks" repair(30) thickness(12))
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+		{thickness 9}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+		{thickness 9}
+	}
+	{volume "body3"
+		{tags "body"}
+		{component "body"}
+		{thickness 9}
+	}
+	{volume "turret2"
+		{tags "turret"}
+		{component "turret"}
+		{thickness 13}
+	}
+	{volume "turret"
+		{tags "turret"}
+		{component "turret"}
+		{thickness 13}
+	}
+	{volume "engine"
+		{thickness 9}
+	}
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_body"} {base "open2"}}
+			{reverse 	{end	"emit_tank_1_hold"} {base "open2" -1}}
+		}
+		{anm "left"
+			{forward {begin "board_tank_left"} {end "pose_vickers_gunlaeyr-R"} {base "open"}}
+			{reverse {end "emit_tank_1_hold"} {base "open" -1}}
+		}
+		{anm "right"
+			{forward {begin "board_tank_right"} {end "pose_m42_charger"} {base "open"}}
+			{reverse {end "emit_tank_1_hold"} {base "open" -1}}
+		}
+	}
+	
+	("crew_human" place(driver)	door1(emit1) door2(emit1) visor(driver) animation(driver))
+	("crew_human" place(commander)	door1(emit2) door2(emit1) visor(driver) animation(driver))
+	("crew_human_visible_anm"	place(charger) door(emit3) visor(around) anm_left(right)  anm_right(right))
+	("crew_human_visible_anm"	place(gunner) 	 door(emit3) visor(main)   anm_left(left)   anm_right(left))
+	
+	
+	{extender "inventory"
+		{box
+			{item "ammo bullet105_fra he" 24}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{weapon "105mm_mle34" filling "ammo bullet105_fra he" 1}
+			{RestoreIKAfterAim}
+			{charger "charger"}
+			("abm_dymamic_gun"
+				zeroing(1.7)
+				dispersion(0.12)
+			)
+		}
+	}
+	{mass 6300}
+	{Chassis "track"
+		("tank_trace" fx("tracks_sm") step(0.4) len(0.2))
+		("mobility_tank"
+			speed(35) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(7) ;--------Max speed in reverse on road, km/h.
+			traverse(35) ;-------Track traverse, per second, in degrees.
+			weight(6.3) ;-------Weight in Tonnes.
+			power(62) ;----------Engine Power, in hp.
+			track(5) ;-----------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(100) ;-----------Fuel capacity in Litres.
+			type(fuel) ;---------Fuel type. (diesel OR fuel)
+			range(135) ;---------Range in km, off-road.
+		)
+	}		
+	{Extension "lorraine39l_am.mdl"}
+	{bone "gun_rot"
+		{limits -8 35}
+		{speed2 8}
+	}
+	{bone "turret"
+		{limits -25 25}
+		{speed2 8}
+	}
+	(mod "mp"
+		{brain
+			{properties
+				{fire_mode hold}
+			}
+		}
+	)
+}
+

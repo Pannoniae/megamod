@@ -1,0 +1,208 @@
+;Exported by: Normand
+;Date:        Thu Jun 12 16:55:27 2025
+;File:        C:\Users\Normand\Documents\3dsmax\scenes\hotchkiss_m1914_2.max
+{Skeleton
+	{animation
+		{sequence "recoil" {speed 0.4}}
+		{sequence "close" {speed 0.4}}
+	}
+	{bone revolute "basis"
+		{speed 0.01}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "emit2"
+			{Position -16.077	-24.3093	0.231034}
+			{visibility 0}
+		}
+		{bone "emit1"
+			{Position -15.959	18.1011	0.231033}
+			{visibility 0}
+		}
+		{bone "driver1"
+			{Position 11.8174	-1.00	0.231033}
+		}
+		{bone "driver2"
+			{Position -14.432	-5.60418	0.231033}
+		}
+		{bone "commander"
+			{Position -9.86606	-12.7018	0.242261}
+		}
+		{bone "gunner"
+			{Position -14.3821	0.184054	0.242261}
+		}
+		{bone "visor2"
+			{Matrix34
+				1	0	-0.000130117
+				0.000130117	0	1
+				0	-1	0
+				-0.0221519	7.92326	26.4329
+			}
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{animation
+				{sequence "repair" {file "body_r.anm"} {speed 0.4}}
+			}
+			{Position 0.0375109	0.0496544	7.40304}
+			{VolumeView "body.ply"}
+			{bone "support_b"
+				{Position -1.01241	0	-1.1715}
+				{VolumeView "support_b.ply"}
+			}
+			{bone "support_l"
+				{Matrix34
+					0.491372	0.87095	0
+					-0.87095	0.491372	0
+					0	0	1
+					0.502717	0.758179	-1.17335
+				}
+				{VolumeView "support_l.ply"}
+			}
+			{bone "standc"
+				{Position -1.31129	0	1.05879}
+				{VolumeView "standc.ply"}
+			}
+			{bone "standl"
+				{Matrix34
+					0.538988	0.842313	0
+					-0.842313	0.538988	0
+					0	0	1
+					0.678859	1.10047	0.991909
+				}
+				{VolumeView "standl.ply"}
+			}
+			{bone "standr"
+				{Matrix34
+					0.510399	-0.859937	0
+					0.859937	0.510399	0
+					0	0	1
+					0.678809	-1.10051	0.991894
+				}
+				{VolumeView "standr.ply"}
+			}
+			{bone "support_r"
+				{Matrix34
+					0.484751	-0.874652	0
+					0.874652	0.484751	0
+					0	0	1
+					0.502717	-0.893226	-1.17334
+				}
+				{VolumeView "support_r.ply"}
+			}
+			{bone "turret"
+				{parameters "ID=turret;"}
+				{animation
+					{sequence "repair" {file "turret_r.anm"} {speed 0.4}}
+				}										  
+	 			{Position 8.08276e-005	-0.000977166	1.9947}
+				{VolumeView "turret.ply"}
+				{bone revolute "gun_rot"
+					{limits -5 10}
+					{speed 0.05}
+					{Matrix34
+						1	0	0
+						0	0	1
+						0	-1	0
+						0.00317931	0.341912	3.5984
+					}
+					{VolumeView "gun_rot.ply"}
+					{bone "mgun"
+						{Matrix34
+							1	0	0
+							0	1	0
+							0	0	1
+							-0.5	1.3	0.03
+						}
+					}
+				}
+				{bone "visor"
+					{Matrix34
+						1	0	-0.000130117
+						0.000130117	0	1
+						0	-1	0
+						-0.0514357	-2.88727	11.298
+					}
+				}
+			}
+		}
+	}
+}
+{obstacle "close"
+	{obb2
+		{center -0.102542 0}
+		{extent 13.5687 3.93701}
+		{axis -1 0}
+	}
+	{Tags "close"}
+}
+{obstacle "open"
+	{obb2
+		{center -2.71506 0}
+		{extent 8.98261 5.30512}
+		{axis -1 0}
+	}
+	{Tags "open"}
+}
+{Volume "body2"
+	{Polyhedron "gun2.vol"}
+	{Bone "gun_rot"}
+	{Matrix34
+		1	0	-1.41522e-005
+		0	1	-1.43051e-005
+		1.41522e-005	1.43051e-005	1
+		-1.55851	-1.26569	-0.108944
+	}
+}
+{Volume "body3"
+	{Polyhedron "gun.vol"}
+	{Bone "gun_rot"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		-0.297509	0.679255	-0.00951862
+	}
+}
+{Volume "body"
+	{Box 2 2 3}
+	{Bone "body"}
+	{Position 0.00642297	-0.00415499	-0.0911093}
+}
+{Volume "standc"
+	{Cylinder 0.481006 18}
+	{Bone "standc"}
+	{Matrix34
+		0	-1	0
+		0.461748	0	-0.887011
+		0.887011	0	0.461748
+		-7.4234	0.00513449	-3.87455
+	}
+}
+{Volume "standr"
+	{Cylinder 0.495 12}
+	{Bone "standr"}
+	{Matrix34
+		-0.527252	0.659552	-0.535721
+		0.467743	0.75164	0.465031
+		0.709381	-0.00539143	-0.704804
+		3.80016	0.00962211	-3.80843
+	}
+}
+{Volume "standl"
+	{Cylinder 0.495 12}
+	{Bone "standl"}
+	{Matrix34
+		-0.559925	0.63205	-0.535721
+		0.429141	0.774328	0.465031
+		0.708747	0.0304823	-0.704804
+		3.81602	0.137633	-3.80844
+	}
+}
+{Volume "turret"
+	{Polyhedron "turret.vol"}
+	{Bone "turret"}
+	{Position -0.0362947	-0.00466884	-0.133434}
+}

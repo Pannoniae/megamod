@@ -1,0 +1,98 @@
+{game_entity
+	(include "/properties/tank_assaultgun.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{props "heavy" "vision_lev05" "muzzle_85mm_93mm_sides" "detect_tank_heavy"}
+	{Extension "arl44_early.mdl"}
+	(include "arl44_early.ext")
+	{targetclass "tank_heavy"}
+	{targetSelector "tank_heavy"}
+	{collider "tank.heavy"}
+	
+	{extender "enumerator"}
+	{extender "shield" {on}}
+	{sensor
+		{visor "driver"
+			{vision "tank_driver"}
+			{bone "visor2"}
+		}
+		{visor "gun"
+			{vision "tank_main-l"}
+			{bone "visor1"}
+		}
+	}
+
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_sherman_left"} {end "pose_gunner_isu"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_sherman_right"} {end "pose_gunner_isu"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_HighArmor"} 	{end "seat_armor"}}
+			{reverse 	{end	"emit_tank_2"}}
+		}
+		{anm "armor1"
+			{forward	{begin	"board_HighArmor"} {end "seat_armor"}}
+			{reverse 	{end	"emit_body"}}
+		}
+	}
+
+	("crew_5_human")
+	{extender "inventory"
+		{box			
+			{item "ammo bullet75_fra apcbc" 24}
+			{item "ammo bullet75_fra he" 12}
+			{item "ammo 7,5x54" 5000}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "75mm_sa44" filling "ammo bullet75_fra apcbc" 1}
+			{gunner "gunner"}
+			{charger "charger"}
+			("abm_dymamic_td"
+				zeroing(2.5)
+				dispersion(0.25)
+			)
+		}
+		{place "mgun"
+			{type "coaxial"}
+			{weapon "reibel" filled}
+			{foresight "foresight3"}
+			{gunner "gunner"}
+			{charger "charger"}
+			("abm_mgun")
+			{basic}
+		}
+
+	}
+
+	{mass 47500}
+	{Chassis
+		("tank_trace" fx("tracks_big") step(0.52) len(0.5))
+		("mobility_tank"
+			speed(37) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(7) ;---------Max speed in reverse on road, km/h.
+			traverse(25) ;-------Track traverse, per second, in degrees.
+			weight(47.5) ;-------Weight in Tonnes.
+			power(600) ;---------Engine Power, in hp.
+			track(4.0) ;---------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(1200) ;----------Fuel capacity in Litres.
+			type(fuel) ;-------Fuel type. (diesel OR fuel)
+			range(300) ;---------Range in km, off-road.
+		)
+	}
+
+	{bone "gun_rot"
+		{speed2 10}
+	}
+	{bone "turret"
+		{speed2 8}
+	}
+
+}

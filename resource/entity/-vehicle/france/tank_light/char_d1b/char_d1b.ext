@@ -1,0 +1,86 @@
+;SDL
+	
+	; armor notes
+	; tracks and wheels 15mm
+	; gun 20mm
+
+	("tank_light_tier1")
+	("ammo" args "ammo")
+	("tracks" repair(30) thickness(15))
+
+
+	("transmission" args "transmission")
+
+	{volume "body"
+		{tags "body"}
+		{component "body"}
+		{thickness 30
+			{top 25}
+			{bottom 10}
+		}
+		{HighHardness}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+		{thickness 30
+			{top 10}
+			{bottom 10}
+		}
+		{HighHardness}
+	}
+	{volume "body3"
+		{tags "body"}
+		{component "body"}
+		{thickness 30
+			{top 10}
+			{bottom 10}
+		}
+		{HighHardness}
+	}
+	{volume "body4"
+		{tags "body"}
+		{component "body"}
+		{thickness 30
+			{top 10}
+			{bottom 10}
+		}
+		{HighHardness}
+	}
+	{volume "engine"
+		{thickness 20}
+	}
+	{volume "turret"		
+		{thickness 40
+			{top 10}
+			{bottom 10}
+		}
+		{HighHardness}
+		{CastSteel 0.8063}
+	}
+	{volume "turret2"		
+		{thickness 40
+			{top 10}
+			{bottom 10}
+		}
+		{HighHardness}
+		{CastSteel 0.8063}
+	}
+	{volume "turret3"		
+		{thickness 40}
+		{HighHardness}
+		{CastSteel 0.8063}
+	}
+	{volume "mantlet"
+		{thickness 40}
+		{HighHardness}
+		{CastSteel 0.8063}
+	}
+	{Volume "cupola"
+		{thickness 40}
+		{HighHardness}
+	}
+	{Volume "inventory"
+		{thickness 10}
+		{HighHardness}
+	}

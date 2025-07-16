@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/105mm_mle1934/105mm_mle34"}
+	{bump "$/model/105mm_mle1934/105mm_mle34_bp"}
+	{specular "$/model/105mm_mle1934/105mm_mle34_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

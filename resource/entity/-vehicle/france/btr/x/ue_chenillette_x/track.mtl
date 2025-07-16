@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/renaultUE/RenaultUE_track"}
+	{blend test}
+}

@@ -37,49 +37,41 @@
 					{speed 0.01}
 					{Position 0.0188704	0.458736	3.79609}
 					{VolumeView "turret.ply"}
-					{bone revolute "gun_rot1"
+					{bone revolute "gun_rot"
 						{parameters "ID=gun;"}
 						{limits -70 0}
 						{speed 0.02}
 						{Matrix34
-							0	1	0
+							0	-1	0
 							0	0	1
-							1	0	0
-							0.355537	-4.66438	13.1905
+							-1	0	0
+							0.0	-1.66438	10.1905
 						}
 						{VolumeView "gun_rot.ply"}
 						{bone "gun"
-							{parameters "ID=gun;"}
 							{Matrix34
-								0	0	1
-								1	0	0
-								0	1	0
-								-21.59	1.76725	-0.615914
+								0.98	0	0
+								0	0	-0.98
+								0	0.98	0
+								15.1825	2.64834	0.269295
 							}
 							{VolumeView "gun.ply"}
+							{bone "barrel"
+								{Position 10.3614	0.128759	1.70188}
+								{VolumeView "barrel.ply"}
+								{bone "foresight1"
+									{Position 16.5625	0.00691187	-0.00207901}
+								}
+								{bone "shooter00"
+									{Position 17.5625	0.00691187	-0.00207901}
+								}
+							}
+							{bone "magazine"
+								{Position -17.3848	-0.448385	6.1579}
+								{VolumeView "magazine.ply"}
+							}
 							{bone "visor1"
-								{Matrix34
-									0	-1	0
-									1	0	0
-									0	0	1
-									-0.157001	-0.871319	1.32239
-								}
-							}
-							{bone "shooter00"
-								{Matrix34
-									0	-1	0
-									1	0	0
-									0	0	1
-									-0.156293	-19.3246	-0.761803
-								}
-							}
-							{bone "foresight1"
-								{Matrix34
-									0	-1	0
-									1	0	0
-									0	0	1
-									-0.156293	-18.922	-0.76194
-								}
+								{Position 13.1332	0.127012	3.23056}
 							}
 						}
 					}
@@ -268,10 +260,40 @@
 		-0.21272	0.0561876	1.02738
 	}
 }
-{Volume "gun"
-	{Polyhedron "gun.vol"}
+{Volume "gun2"
+	{Box 16 2 3.29105}
 	{Bone "gun"}
-	{Position -0.157052	9.41161	-2.09164}
+	{Position 3.42137	0.0178125	-0.74537}
+}
+{Volume "gun3"
+	{Box 20 4.5 6.5}
+	{Bone "gun_rot"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		0.676215	2.12511	0.0217528
+	}
+}
+{Volume "gun"
+	{Cylinder 0.980735 31.5}
+	{Bone "gun"}
+	{Matrix34
+		0	-1	0
+		0	0	1
+		-1	0	0
+		11.2602	0.13178	1.70421
+	}
+}
+{Volume "magazine"
+	{Box 6.3 8.6 1.9}
+	{Bone "magazine"}
+	{Matrix34
+		0.984318	0	-0.176402
+		0.176402	0	0.984318
+		0	-1	0
+		5.07553	0.572949	0.928394
+	}
 }
 {Volume "lafet1"
 	{Box 21.4679 11.9528 4.24622}

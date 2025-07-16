@@ -1,0 +1,25 @@
+{game_entity
+	{Extension "lorraine39l_am_xx.mdl"}
+	{Volume "body1"
+	}
+	{Volume "body2"
+	}
+	{Volume "body3"
+	}
+	{Volume "engine"
+	}
+	{Volume "gun2"
+	}
+	{Volume "gun3"
+	}
+	{Volume "gun"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "trackright"
+	}
+	{Volume "turret"
+	}
+	{Volume "turret2"
+	}
+}

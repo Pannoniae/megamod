@@ -1,0 +1,52 @@
+	("tank_heavy_tier2")
+	
+	{Volume "body"
+		{component "body"}
+		{tags "body"}
+		{thickness 60
+			{front 120}		
+			{top 20}		
+			{rear 40}
+			{bottom 20}
+		}
+		{HighHardness}
+	}
+	{Volume "turret"
+		{tags "turret"}
+		{component "turret"}
+		{thickness 30
+			{front 110}		
+			{top 10}		
+			{bottom 10}
+		}
+		{HighHardness}
+	}
+	{Volume "mantlet"
+		{tags "gun"}
+		{component "gun"}
+		{thickness 60}
+		{HighHardness}
+	}
+	{Volume "engine"
+		{component "body"}
+		{tags "body"}
+		{thickness 60
+			{front 40}		
+			{top 20}		
+			{rear 40}
+			{bottom 20}
+		}
+		{HighHardness}
+	}
+
+	{component "shieldl1" {tags "shield"}}
+	{component "shieldl2" {tags "shield"}}
+	{component "shieldr1" {tags "shield"}}
+	{component "shieldr2" {tags "shield"}}
+
+	("shield" args "shieldl1" 20)
+	("shield" args "shieldl2" 20)
+	("shield" args "shieldr1" 20)
+	("shield" args "shieldr2" 20)
+	
+	("ammo" args "ammo1")

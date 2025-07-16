@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "$/model/fcm2c/fcm2c_track_x"}
+	{blend test}
+}

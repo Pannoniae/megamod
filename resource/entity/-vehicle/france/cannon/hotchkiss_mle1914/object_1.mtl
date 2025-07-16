@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/hotchkiss_1914/body"}
+	{bump "$/model/hotchkiss_1914/body_bp"}
+	{specular "$/model/hotchkiss_1914/body_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

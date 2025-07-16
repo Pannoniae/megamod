@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/arl_44/arl_44_turret2"}
+	{bump "$/model/arl_44/arl_44_turret2_bp"}
+	{specular "$/model/arl_44/arl_44_turret2_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

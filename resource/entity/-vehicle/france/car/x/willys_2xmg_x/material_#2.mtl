@@ -1,0 +1,4 @@
+{material simple
+	{diffuse "vickers_k_c"}
+	{blend none}
+}

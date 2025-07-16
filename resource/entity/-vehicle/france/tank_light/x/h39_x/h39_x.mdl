@@ -32,10 +32,44 @@
 				{sequence "break" {file "body_r.anm"}}
 			}
 			{Position -0.157479	0	16.6437}
-			{VolumeView "body.ply"}
-			{bone "int"
-				{Position 20.7372	-3.44439	3.66602}
-				{VolumeView "int.ply"}
+			{bone "hull_h39"
+				{Position -6.8	0.165619	0.51}
+				{VolumeView "hull_h39.ply"}
+				{bone "engine_cover"
+					{Position -24.5587	-5.134	9.30571}
+					{VolumeView "engine_h39.ply"}
+				}
+				{bone "door"
+					{Position 40.5059	-3.63599	1.09441}
+					{VolumeView "door_h39.ply"}
+				}
+				{bone "door1"
+					{Position 26.6103	-3.63	10.1972}
+					{VolumeView "door1_h39.ply"}
+				}
+				{bone "fxsmoke1"
+					{Matrix34
+						-0.696882	0.703128	-0.141303
+						-0.621593	-0.690435	-0.37003
+						-0.357738	-0.170034	0.918211
+						-33.0003	17.2495	5.07426
+					}
+				}
+				{bone "fxsmoke2"
+					{Matrix34
+						-0.255279	0.956486	-0.141303
+						0.909769	0.188145	-0.37003
+						0.327343	0.223014	0.918211
+						-32.9958	17.2583	5.00598
+					}
+				}
+			}
+			{bone "engine"
+				{parameters "ID=engine;"}
+				{animation
+					{sequence "repair" {file "engine.anm"}}
+				}
+				{Position -21.5453	7.44094	7.16535}
 			}
 			{bone revolute "turret"
 				{parameters "ID=turret;"}
@@ -195,38 +229,20 @@
 				{Position 20.315	-3.55315	10.502}
 				{VolumeView "open.ply"}
 			}
-			{bone "engine"
-				{parameters "ID=engine;"}
-				{animation
-					{sequence "break" {file "engine_r.anm"}}
-				}
-				{Position -21.5453	7.44094	7.16536}
-				{VolumeView "engine.ply"}
-			}
 			{bone "shieldr1"
 				{parameters "ID=shieldR1;"}
 				{Position 11.2598	-16.5059	3.6811}
-				{VolumeView "shieldr1.ply"}
+				;{VolumeView "shieldr1.ply"}
 			}
 			{bone "shieldl1"
 				{parameters "ID=shieldL1;"}
 				{Position 15.6693	16.4173	2.26378}
-				{VolumeView "shieldl1.ply"}
-			}
-			{bone "shieldl2"
-				{parameters "ID=shieldL2;"}
-				{Position -36.6339	0.19685	-0.275589}
-				{VolumeView "shieldl2.ply"}
+				;{VolumeView "shieldl1.ply"}
 			}
 			{bone "shieldr2"
 				{parameters "ID=shieldR2;"}
 				{Position -11.8898	-15.3642	5.97441}
-				{VolumeView "shieldr2.ply"}
-			}
-			{bone "shieldr3"
-				{parameters "ID=shieldR3;"}
-				{Position -37.3327	0.0196884	4.64567}
-				{VolumeView "shieldr3.ply"}
+				;{VolumeView "shieldr2.ply"}
 			}
 			{bone "fxfire1"
 				{Matrix34

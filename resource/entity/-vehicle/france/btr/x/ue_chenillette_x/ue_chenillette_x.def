@@ -1,0 +1,15 @@
+{game_Entity
+	{Extension "ue_chenillette_x.mdl"}
+	{Volume "body"
+	}
+	{Volume "engine"
+	}
+	{Volume "shieldl1"
+	}
+	{Volume "shieldr1"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "trackright"
+	}
+}

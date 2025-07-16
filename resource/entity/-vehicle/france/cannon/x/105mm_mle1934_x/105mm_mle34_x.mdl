@@ -1,0 +1,129 @@
+;Exported by: Normand
+;Date:        Sat Jul 12 21:52:01 2025
+;File:        C:\Users\Normand\Documents\3dsmax\scenes\105mm_mle1934_x.max
+{Skeleton
+	{bone revolute "basis"
+		{speed 0.002}
+		{Orientation
+			1	0	0
+			0	-1	0
+			0	0	1
+		}
+		{bone "pivot_front"
+			{Position -1.38323	-0.166365	10.2599}
+			{VolumeView "pivot_front.ply"}
+			{bone revolute "wheelr"
+				{Matrix34
+					-1	0	0
+					0	0	1
+					0	1	0
+					0.00719666	-13.0974	0.0102577
+				}
+				{VolumeView "wheelr.ply"}
+			}
+			{bone revolute "wheell"
+				{Matrix34
+					-1	0	0
+					0	0	1
+					0	1	0
+					0.00766659	13.6223	0.0112152
+				}
+				{VolumeView "wheell.ply"}
+			}
+			{bone "shield2"
+				{Position 8.08024	-0.0014457	-2.70988}
+				{VolumeView "shield2.ply"}
+			}
+		}
+		{bone "body"
+			{parameters "ID=body;"}
+			{animation
+				{sequence "break" {file "body_b.anm"} {speed 0.4}}
+			}
+			{Position -1.38323	-0.166365	10.2599}
+			{VolumeView "body.ply"}
+			{bone revolute "turret"
+				{parameters "ID=turret;"}
+				{animation
+					{sequence "break" {file "turret_b.anm"} {speed 0.4}}
+				}
+				{Position 0.0808218	0.0877501	1.94502}
+				{VolumeView "turret.ply"}
+				{bone revolute "gun_rot"
+					{Matrix34
+						1	0	0
+						0	0	1
+						0	-1	0
+						-1.75263	-0.0877503	2.93783
+					}
+					{VolumeView "gun_rot.ply"}
+					{bone "gun"
+						{parameters "ID=gun;"}
+						{animation
+							{sequence "break" {file "gun_b.anm"} {speed 0.4}}
+						}
+						{Matrix34
+							1	0	0
+							0	0	-1
+							0	1	0
+							9.19138	2.25701	-0.0168953
+						}
+						{VolumeView "gun.ply"}
+						{bone "beach"
+							{parameters "ID=gun;"}
+							{Position -16.4632	-0.177678	0.784401}
+							{VolumeView "beach.ply"}
+						}
+					}
+				}
+				{bone "sheild"
+					{Matrix34
+						1	0	0
+						0	0	1
+						0	-1	0
+						-6.15477	-0.0239081	7.74513
+					}
+					{VolumeView "sheild.ply"}
+				}
+			}
+			{bone "standr"
+				{Matrix34
+					0.965926	0.258819	0
+					-0.258819	0.965926	0
+					0	0	1
+					-2.97608	-8.11266	-0.350691
+				}
+				{VolumeView "standr.ply"}
+			}
+			{bone "standl"
+				{Matrix34
+					0.965926	-0.258819	0
+					0.258819	0.965926	0
+					0	0	1
+					-2.97505	8.62555	-0.350807
+				}
+				{VolumeView "standl.ply"}
+			}
+		}
+	}
+}
+{Volume "wheelleft"
+	{Cylinder 10.4688 1.75}
+	{Bone "wheell"}
+	{Matrix34
+		-1	0	0
+		0	1	0
+		0	0	-1
+		0.00795035	0.00163717	0.0441847
+	}
+}
+{Volume "wheelright"
+	{Cylinder 10.4688 1.75}
+	{Bone "wheelr"}
+	{Matrix34
+		-1	0	0
+		0	1	0
+		0	0	-1
+		0.00662045	0.0103881	-0.0740433
+	}
+}

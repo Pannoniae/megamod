@@ -1,0 +1,60 @@
+;SDL
+	
+	;notes
+	;tracks and wheels 20mm
+	;gun 20mm and 25mm
+
+	("tank_heavy_tier1")
+
+	("transmission" args "transmission")
+	("ammo" args "ammo1")
+	("ammo" args "ammo2")
+	("ammo" args "ammo3")
+
+	
+	{volume "body"
+		{tags "body"}
+		{component "body"}
+		{thickness 22
+			{front 45}
+			{top 13}
+			{bottom 10}
+		}
+	}
+	{volume "engine"
+		{thickness 22
+			{top 13}
+			{bottom 10}
+		}
+	}
+	{volume "turret"		
+		{thickness 35
+			{top 13}
+			{bottom 10}
+		}
+		{HighHardness}
+		{CastSteel 0.8063}
+	}
+	{Volume "turret2"
+		{tags "turret"}
+		{component "turret"}
+		{thickness 22
+			{top 13}
+			{bottom 10}
+		}
+	}
+	{Volume "gun"
+		{tags "gun"}
+		{component "gun"}
+	}
+	{Volume "gun2"
+		{tags "gun"}
+		{component "gun2"}
+	}
+	{Volume "cupola"
+		{thickness 35
+			{top 10}
+		}
+		{HighHardness}
+		{CastSteel 0.8063}
+	}

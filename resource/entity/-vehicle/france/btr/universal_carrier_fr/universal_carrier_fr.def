@@ -1,0 +1,183 @@
+{game_entity
+	(include "/properties/tank_unarmed.ext")
+	(include "/properties/shadow/tank.inc" scale(0.9))
+	(include "/properties/selection/vehicle.inc" scale(0.8))
+	{props "armored_car" "-turret" "explosion_throw_crew" "vision_lev02" "tractor" "tractor_heavy" "detect_tank_mg"}
+	{targetclass "armoredcar" "bullet"}
+	{targetSelector "tank_bullet"}
+	{patherId "universal"}
+	{collider "tank.light"}
+	
+	{Volume "body"
+		{component "body"}
+		{tags "body"}
+		{thickness 10}
+	}
+	{volume "body1"
+		{component "body"}
+		{tags "body"}
+		{thickness 10}
+	}
+	{volume "body2"
+		{component "body"}
+		{tags "body"}
+		{thickness 10}
+	}
+	{volume "body3"
+		{component "body"}
+		{tags "body"}
+		{thickness 10}
+	}
+	{volume "body4"
+		{component "body"}
+		{tags "body"}
+		{thickness 10}
+	}
+	{volume "body5"
+		{component "body"}
+		{tags "body"}
+		{thickness 10}
+	}
+	{volume "body6"
+		{component "body"}
+		{tags "body"}
+		{thickness 10}
+	}
+	{volume "body7"
+		{component "body"}
+		{tags "body"}
+		{thickness 10}
+	}
+	{volume "body8"
+		{component "body"}
+		{tags "body"}
+		{thickness 10}
+	}
+	{volume "body9"
+		{component "body"}
+		{tags "body"}
+		{thickness 10}
+	}
+	{volume "body10"
+		{component "body"}
+		{tags "body"}
+		{thickness 10}
+	}
+	{volume "body11"
+		{component "body"}
+		{tags "body"}
+		{thickness 10}
+	}
+	{volume "body12"
+		{component "body"}
+		{tags "body"}
+		{thickness 10}
+	}
+	{Volume "engine"
+		{component "engine"}
+		{tags "engine"}
+		{thickness 15}
+	}
+	{volume "sticky"
+		{tags "grenade_fg_target"}
+		{able clear {contact} {touch}}
+		{component "sticky_body"}
+	}
+	
+
+	{boarder
+		{anm "driver"
+			{forward	{begin	"board_tank_right"} {end "seat_passenger"}}
+			{reverse 	{end	"emit_body" 1} }
+		}
+		{anm "gunner"
+			{forward	{begin	"board_tank_right"} {end "seat_driver_car"}}
+			{reverse 	{end	"emit_tank_2_hold"} }
+		}
+		{anm "seat2"
+			{forward	{begin	"board_tank_right"} {end "seat_passenger"} }
+			{reverse 	{end	"emit_body" 1} }
+		}
+		{anm "seat1"
+			{forward	{begin	"board_tank_right"} {end "seat_passenger"} }
+			{reverse 	{end	"emit_body" 1}}
+		}
+	}
+
+	(define "crew_human"
+		{placer
+			{place "%place" {group "crew"} {linkbone "%place"} {turnoff {sensor} {shadow}}}
+		}
+		{boarder
+			{door "%door1"}
+			{door "%door2"}
+			{link "%door1" "%place" {anm "%place"} {forward putoff} {reverse puton}}
+			{link "%door2" "%place" {anm "%place"} {forward putoff} {reverse puton}}
+		}
+	)
+
+	{sensor
+		{visor "main"
+			{vision "human"}
+		}
+		{visor "gunner"
+			{bone "foresight4"}
+			{vision "human"}
+		}
+	}
+	{boarder
+		{door "emit0"}
+		{door "emit1"}
+		{link "emit0" "driver" {anm "driver"} {forward putoff} {reverse puton}}
+	}
+	("crew_human" place(driver)	door1(emit2))
+	("crew_human" place(gunner)	door1(emit1))
+	("crew_human" place(seat1)	door1(emit4))
+	("crew_human" place(seat2)	door1(emit3))
+	{placer
+		{place "driver" {visor "main"} {group "crew"}} 
+		{place "gunner" {visor "gunner"} {group "crew"}}
+		{place "seat1" {visor "main"}}
+		{place "seat2" {visor "main"}} 
+	}
+	{extender "shield"
+		{on}
+	}
+	{extender "inventory"
+		{weapon "mgun" {mask "mountable"}}
+		{box
+			{item "repair_kit" 1}
+			{item "ammo 7x56" 3300}
+			{item "bren_no_bipod" filled {user "mgun"}}
+		}
+	}
+	{Weaponry
+		{place "mgun"
+			{type "main"}
+			{LinkBone "mgun2"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+			{gunner "gunner"}
+			{charger "gunner"}
+			{Rotate}
+		}
+	}
+
+	{mass 3750}
+	{Chassis "track"
+		("tank_trace" fx("tracks_mid") step(0.32) len(0.5))
+		("mobility_tank"
+			speed(48) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(20) ;--------Max speed in reverse on road, km/h.
+			traverse(35) ;-------Track traverse, per second, in degrees.
+			weight(3.75) ;-------Weight in Tonnes.
+			power(85) ;----------Engine Power, in hp.
+			track(5) ;-----------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(91) ;-----------Fuel capacity in Litres.
+			type(fuel) ;---------Fuel type. (diesel OR fuel)
+			range(150) ;---------Range in km, off-road.
+		)
+	}
+
+	{Extension "universal_carrier.mdl"}
+}

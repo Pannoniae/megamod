@@ -91,7 +91,7 @@
 			weight(800) ;-------------------------------Weight in Kilograms.
 		)
 	}
-	{bone "gun_rot1"
+	{bone "gun_rot"
 	      {limits -10 70}
 	}
 	{bone "basis"

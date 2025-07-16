@@ -1,0 +1,15 @@
+{game_Entity
+	{Extension "arl44_xx.mdl"}
+	{Volume "body1"
+	}
+	{Volume "gun"
+	}
+	{Volume "mantlet"
+	}
+	{Volume "trackleft"
+	}
+	{Volume "trackright"
+	}
+	{Volume "turret"
+	}
+}

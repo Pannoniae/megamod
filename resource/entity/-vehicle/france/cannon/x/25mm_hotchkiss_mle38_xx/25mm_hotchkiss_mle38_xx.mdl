@@ -33,26 +33,34 @@
 					{speed 0.01}
 					{Position 0.0188704	0.458736	3.79609}
 					{VolumeView "turret.ply"}
-					{bone revolute "gun_rot1"
+					{bone revolute "gun_rot"
 						{parameters "ID=gun;"}
 						{limits -70 0}
 						{speed 0.02}
 						{Matrix34
-							0	1	0
+							0	-1	0
 							0	0	1
-							1	0	0
-							0.355537	-4.66438	13.1905
+							-1	0	0
+							0.0	-1.66438	10.1905
 						}
 						{VolumeView "gun_rot.ply"}
 						{bone "gun"
-							{parameters "ID=gun;"}
 							{Matrix34
-								0	0	1
-								1	0	0
-								0	1	0
-								-21.59	1.76725	-0.615914
+								0.98	0	0
+								0	0	-0.98
+								0	0.98	0
+								15.1825	2.64834	0.269295
 							}
 							{VolumeView "gun.ply"}
+							{bone "barrel"
+								{Matrix34
+									0.989689	-0.0256789	-0.140911
+									0.0259377	0.999664	0
+									0.140864	-0.00365444	0.990022
+									10.3614	0.128759	1.70188
+								}
+								{VolumeView "barrel.ply"}
+							}
 						}
 					}
 				}
@@ -70,10 +78,30 @@
 		-0.21272	0.0561876	1.02738
 	}
 }
-{Volume "gun"
-	{Polyhedron "gun.vol"}
+{Volume "gun2"
+	{Box 16 2 3.29105}
 	{Bone "gun"}
-	{Position -0.157052	9.41161	-2.09164}
+	{Position 3.42137	0.0178125	-0.74537}
+}
+{Volume "gun3"
+	{Box 20 4.5 6.5}
+	{Bone "gun_rot"}
+	{Matrix34
+		1	0	0
+		0	0	-1
+		0	1	0
+		0.676215	2.12511	0.0217528
+	}
+}
+{Volume "gun"
+	{Cylinder 0.980735 31.5}
+	{Bone "gun"}
+	{Matrix34
+		0	-1	0
+		0	0	1
+		-1	0	0
+		11.2602	0.13178	1.70421
+	}
 }
 {Volume "turret"
 	{Polyhedron "turret.vol"}

@@ -1,0 +1,7 @@
+{game_entity
+	{Extension "arl44_early_x.mdl"}
+	{Volume "trackleft"
+	}
+	{Volume "trackright"
+	}
+}

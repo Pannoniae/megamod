@@ -1,0 +1,6 @@
+{material bump
+	{diffuse "$/model/lorraine_37l/lorraine_37l_track"}
+	{specular "$/model/lorraine_37l/lorraine_37l_track"}
+	{color "229 229 229 25"}
+	{blend test}
+}

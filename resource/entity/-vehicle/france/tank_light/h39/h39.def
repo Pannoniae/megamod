@@ -64,19 +64,19 @@
 		}
 	}
 
-	{mass 12000}
+	{mass 12800}
 	{Chassis
 		("tank_trace" fx("tracks_sm2") step(0.2) len(0.37))
 		("mobility_tank"
 			speed(28) ;----------Max speed when fully accelerated on road, km/h.
 			reverse(9) ;--------Max speed in reverse on road, km/h.
 			traverse(25) ;-------Track traverse, per second, in degrees.
-			weight(12) ;--------Weight in Tonnes.
-			power(78) ;----------Engine Power, in hp.
+			weight(12.8) ;--------Weight in Tonnes.
+			power(120) ;----------Engine Power, in hp.
 			track(7.0) ;---------Track performance: (0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
 			fuel(182) ;----------Fuel capacity in Litres.
 			type(fuel) ;---------Fuel type. (diesel OR fuel)
-			range(129) ;----------Range in km, off-road.
+			range(120) ;----------Range in km, off-road.
 		)
 	}
 

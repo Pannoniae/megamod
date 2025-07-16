@@ -1,0 +1,202 @@
+{game_entity
+	(include "/properties/tank_assaultgun.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{props "heavy" "vision_lev04" "muzzle_75mm_76mm"}
+	{Extension "fcm2c.mdl"}
+	(include "fcm2c.ext")
+	{targetclass "tank_heavy"}
+	{targetSelector "tank_medium"}
+	{PatherId "bis"}
+	{collider "tank.heavy"}
+		
+;SDL
+{boarder
+
+	{anm "driver"
+		{forward	{begin	"board_daimler_gunner"}{base "open"}}
+		{reverse 	{end	"emit_body"} {base "open" -1}}
+	}
+	{anm "commander"
+		{forward	{begin	"board_daimler_gunner"}{base "open"}}
+		{reverse 	{end	"emit_body"} {base "open" -1}}
+	}	
+	{anm "charger"
+		{forward	{begin	"board_daimler_gunner"}{base "open"}}
+		{reverse 	{end	"emit_body"} {base "open" -1}}
+	}	
+	{anm "gunner"
+		{forward	{begin	"board_daimler_gunner"}{base "open"}}
+		{reverse 	{end	"emit_body"} {base "open" -1}}
+	}
+	{anm "gunner1"
+		{forward	{begin	"board_daimler_gunner"}{base "open"}}
+		{reverse 	{end	"emit_body"} {base "open" -1}}
+	}	
+	{anm "gunner3"
+		{forward	{begin	"board_daimler_gunner"}{base "open"}}
+		{reverse 	{end	"emit_body"} {base "open" -1}}
+	}
+	{anm "gunner4"
+		{forward	{begin	"board_daimler_gunner"}{base "open"}}
+		{reverse 	{end	"emit_body"} {base "open" -1}}
+	}
+	{anm "gunner5"
+		{forward	{begin	"board_daimler_gunner"}{base "open2"}}
+		{reverse 	{end	"emit_body"} {base "open2" -1}}
+	}	
+}
+
+
+(define "crew_human"
+	{placer
+		{place "%place" {group "%group"} {visor "%visor"}}
+	}
+	{boarder
+		{door "%door"}
+		{link "%door" "%place" {anm "%animation"} {forward putoff} {reverse puton}}
+	}
+)
+
+("crew_human" place(driver)	door(emit1) group(crew)		animation(driver)	    visor(driver))
+("crew_human" place(commander)	door(emit1) group(crew)	animation(commander)	    visor(gun))
+("crew_human" place(charger)	door(emit1) group(crew)		animation(charger)	    visor(gun))
+("crew_human" place(gunner)	door(emit1) group(crew)	    	animation(gunner)	    visor(gun))
+("crew_human" place(gunner1)	door(emit1) group(crew)	    	animation(gunner1)	    visor(mgun))
+("crew_human" place(gunner3)	door(emit1) group(crew)	    	animation(gunner3)	    visor(mgun1))
+("crew_human" place(gunner4)	door(emit1) group(crew)	    	animation(gunner4)	    visor(mgun2))
+("crew_human" place(gunner5)	door(emit2) group(crew)	    	animation(gunner5)	    visor(mgun3))
+("crew_human" place(charger1)	door(emit1) group(crew)	    	animation(gunner1)	    visor(mgun))
+("crew_human" place(charger3)	door(emit1) group(crew)	    	animation(gunner3)	    visor(mgun1))
+("crew_human" place(charger4)	door(emit1) group(crew)	    	animation(gunner4)	    visor(mgun2))
+("crew_human" place(charger5)	door(emit2) group(crew)	    	animation(gunner5)	    visor(mgun3))
+
+	{Volume "gun"
+		{thickness 40}
+	}
+	{volume "body"
+		{component "body"}
+		{tags "body"}
+	}
+	{volume "turret"
+		{component "turret"}
+		{tags "turret"}	
+	}			
+	{volume "turret2"
+		{component "turret2"}
+		{tags "turret2"}
+		{thickness 22
+			{front  30}
+		}
+	}		
+
+	{sensor
+		{visor "driver"
+			{vision "tank_main-l"}
+			{bone "visor1"}
+		}
+		{visor "gun"
+			{vision "tank_main-l"}
+			{bone "foresight1"}
+		}
+		{visor "mgun"
+			{vision "tank_main-m"}
+			{bone "foresight3"}
+		}
+		{visor "mgun1"
+			{vision "tank_main-m"}
+			{bone "foresight4"}
+		}
+		{visor "mgun2"
+			{vision "tank_main-m"}
+			{bone "foresight5"}
+		}
+		{visor "mgun3"
+			{vision "tank_main-m"}
+			{bone "foresight6"}
+		}
+	}
+	
+	{extender "inventory"
+		{box
+			{item "ammo bullet75_fra_241r aphe" 63}
+			{item "ammo bullet75_fra_241r he" 64}
+			{item "ammo 8x50" 9400}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "75mm_apx" filling "bullet75_fra_241r aphe" 1}
+			{gunner "gunner"}
+			{charger "charger"}
+			("abm_dymamic"
+				zeroing(3)
+				dispersion(0.3)
+			)
+		}
+		{place "mgun"
+				{type "hull"}
+				{weapon "hotchkiss" filled}
+				{foresight "foresight3"}
+				{gunner "gunner1"}
+				{charger "charger1"}
+				("abm_mgun")
+				{basic}
+				{ai_in_manual}
+		}
+		{place "mgun1"
+				{type "left"}
+				{weapon "hotchkiss" filled}
+	    		{foresight "foresight4"}
+				{gunner "gunner3"}
+				{charger "charger3"}
+				("abm_mgun")
+				{basic}
+				{ai_in_manual}
+		}
+		{place "mgun2"
+				{type "right"}
+				{weapon "hotchkiss" filled}
+	    		{foresight "foresight5"}
+				{gunner "gunner4"}
+				{charger "charger4"}
+				("abm_mgun")
+				{basic}
+				{ai_in_manual}
+		}				  
+		{place "mgun3"
+				{type "rear"}
+				{weapon "hotchkiss" filled}
+	    		{foresight "foresight6"}
+				{gunner "gunner5"}
+				{charger "charger5"}
+				("abm_mgun")
+				{basic}
+				{ai_in_manual}
+		}			  
+	}		
+	{mass 69000}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.52) len(0.6))
+		("mobility_tank"
+			speed(15) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(15) ;---------Max speed in reverse on road, km/h.
+			traverse(25) ;-------Track traverse, per second, in degrees.
+			weight(69) ;-------Weight in Tonnes.
+			power(500) ;---------Engine Power, in hp.
+			track(3.5) ;---------Track performance: [0,10], 10=ideal. Sluggish tanks and vehicles with narrow and non-gripping tracks have a lower performance.
+			fuel(600) ;----------Fuel capacity in Litres.
+			type(fuel) ;-------Fuel type. (diesel OR fuel)
+			range(150) ;---------Range in km, off-road.
+		)
+	}
+	{bone "gun_rot"
+		{speed2 8}
+		{limits -20 20}
+	}
+	{bone "turret"
+		{speed2 10}
+
+	}
+}

@@ -17,18 +17,29 @@
 				-15.7287	-25.3294	0
 			}
 		}
-		{bone "emit1"
-			{Matrix34
-				-1	0	0
-				0	-1	0
-				0	0	1
-				45.5536	-3.57965	-1.68768e-005
-			}
-		}
 		{bone "body"
 			{parameters "ID=body;"}
 			{Position -0.157479	0	15.0981}
-			{VolumeView "body.ply"}
+			{bone "hull_h39"
+				{Position -6.8	0.165619	0.51}
+				{VolumeView "hull_h39.ply"}
+				{bone "engine_cover"
+					{Position -24.5587	-5.134	9.30571}
+					{VolumeView "engine_h39.ply"}
+				}
+				{bone "door"
+					{Position 40.5059	-3.63599	1.09441}
+					{VolumeView "door_h39.ply"}
+				}
+				{bone "door1"
+					{Position 26.6103	-3.63	10.1972}
+					{VolumeView "door1_h39.ply"}
+				}
+			}
+			{bone "engine"
+				{parameters "ID=engine;"}
+				{Position -21.5453	7.44094	7.16535}
+			}
 			{bone "int"
 				{Position 20.7372	-3.44439	3.66602}
 				{VolumeView "int.ply"}
@@ -107,46 +118,12 @@
 					}
 				}
 			}
-			{bone "shieldl3"
-				{parameters "ID=shieldR3;"}
-				{Matrix34
-					0.999848	0	-0.0174524
-					0	1	0
-					0.0174524	0	0.999848
-					20.4951	-3.55315	9.67914
-				}
-				{VolumeView "shieldl3.ply"}
-			}
 			{bone "fxfire1"
 				{Matrix34
 					-0.999848	0	0.0174523
 					0	-1	0
 					0.0174523	0	0.999848
 					-21.5602	1.3374	8.70376
-				}
-			}
-			{bone "fxsmoke2"
-				{Matrix34
-					-0.86821	0	0.496197
-					0	-1	0
-					0.496197	0	0.86821
-					5.71821	18.0884	4.43538
-				}
-			}
-			{bone "fxsmoke1"
-				{Matrix34
-					-0.86821	0	0.496197
-					0	-1	0
-					0.496197	0	0.86821
-					6.03347	18.0008	4.4299
-				}
-			}
-			{bone "visor2"
-				{Matrix34
-					0.999848	0	-0.0174524
-					0	1	0
-					0.0174524	0	0.999848
-					23.4304	-3.58268	7.52136
 				}
 			}
 		}
@@ -224,14 +201,6 @@
 						0	-1	0
 						0.169514	0	0.985528
 						-22.6943	0.171528	-8.76002
-					}
-				}
-				{bone "fxtracel1"
-					{Matrix34
-						-1	0	0
-						0	-1	0
-						0	0	1
-						22.6594	0.171685	-8.76002
 					}
 				}
 			}
@@ -312,19 +281,10 @@
 						-22.6943	0.041378	-8.76
 					}
 				}
-				{bone "fxtracer1"
-					{Matrix34
-						-1	0	0
-						0	-1	0
-						0	0	1
-						22.6594	0.041379	-8.75999
-					}
-				}
 			}
 		}
 	}
 }
-;{Extension "/properties/damage_components_vol.ext"}
 {Volume "body1"
 	{Polyhedron "body1.vol"}
 	{Bone "body"}
@@ -353,16 +313,6 @@
 		-1	0	0
 		0	1	0
 		2.36221	-0.431479	-0.0476894
-	}
-}
-{Volume "shieldl3"
-	{Polyhedron "shieldl3.vol"}
-	{Bone "shieldl3"}
-	{Matrix34
-		0.999848	0	0.0174523
-		0	1	0
-		-0.0174523	0	0.999848
-		-0.000175476	0.000150204	-0.000198364
 	}
 }
 {Volume "trackleft"

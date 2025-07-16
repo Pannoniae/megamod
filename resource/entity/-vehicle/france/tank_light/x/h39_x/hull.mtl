@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/h39/h39_hull"}
+	{bump "$/model/h39/h39_hull_bp"}
+	{specular "$/model/h39/h39_hull_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

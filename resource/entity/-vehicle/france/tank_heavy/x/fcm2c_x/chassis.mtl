@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/fcm2c/fcm_2c_chassis"}
+	{bump "$/model/fcm2c/fcm_2c_chassis_bp"}
+	{specular "$/model/fcm2c/fcm_2c_chassis_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

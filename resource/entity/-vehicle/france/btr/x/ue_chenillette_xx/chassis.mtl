@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "RenaultUE_chassis"}
+	{bump "$/model/renaultUE/RenaultUE_chassis_bp"}
+	{specular "$/model/renaultUE/RenaultUE_chassis_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

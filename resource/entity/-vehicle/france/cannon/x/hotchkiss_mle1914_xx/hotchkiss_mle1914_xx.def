@@ -1,10 +1,16 @@
 {game_entity
-	{Extension "hotchkiss_mle1914_xx.mdl"}
+	{Extension "hotchkiss_mg_xx.mdl"}
 	{Volume "body"
 	}
-	{Volume "mgun"
+	{Volume "body2"
 	}
-	{Volume "part2"
+	{Volume "body3"
+	}
+	{Volume "standc"
+	}
+	{Volume "standr"
+	}
+	{Volume "stantl"
 	}
 	{Volume "turret"
 	}

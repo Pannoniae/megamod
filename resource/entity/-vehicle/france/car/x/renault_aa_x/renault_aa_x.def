@@ -1,0 +1,16 @@
+{game_entity
+	{extension "../../../../generic/car/x/renault_agr_civ_x/renault_aa_x.mdl"}{Rimlight}
+	{volume "wheelleft1"
+		{able {obstacle 0}}
+	}
+	{volume "wheelright1"
+		{able {obstacle 0}}
+	}
+	{volume "wheelleft2"
+		{able {obstacle 0}}
+	}
+	{volume "wheelright2"
+		{able {obstacle 0}}
+	}
+	{texmod "fra"}
+}

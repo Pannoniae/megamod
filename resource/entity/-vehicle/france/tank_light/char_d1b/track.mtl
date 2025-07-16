@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/Char_D1b/char_d1b_track"}
+	{bump "$/model/Char_D1b/char_d1b_track_bp"}
+	{specular "$/model/Char_D1b/char_d1b_track_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

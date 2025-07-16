@@ -1,5 +1,7 @@
 {material bump
 	{diffuse "hotchkiss"}
 	{bump "$/model/25mm_hotchkiss_bp"}
+	{specular "$/model/25mm_hotchkiss_sp"}
+	{color "229 229 229 25"}
 	{blend none}
 }

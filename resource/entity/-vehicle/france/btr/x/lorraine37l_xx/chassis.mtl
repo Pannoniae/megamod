@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "$/model/lorraine_37l/lorraine_37l_chassis_xx"}
+	{bump "$/model/lorraine_37l/lorraine_37l_chassis_bp"}
+	{specular "$/model/lorraine_37l/lorraine_37l_chassis_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

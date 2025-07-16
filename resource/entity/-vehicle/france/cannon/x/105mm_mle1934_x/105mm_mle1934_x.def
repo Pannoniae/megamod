@@ -1,0 +1,7 @@
+{game_entity
+	{Extension "105mm_mle34_x.mdl"}
+	{Volume "wheelleft"
+	}
+	{Volume "wheelright"
+	}
+}
