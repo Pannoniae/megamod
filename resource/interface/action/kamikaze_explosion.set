@@ -1,0 +1,13 @@
+{action
+	{target ground}
+	{notifyselect}
+	{button "bomber"}
+	{item "kamikaze_bomb"}
+	{item_in_box}
+	{instant ; only instant instructions supported
+		{if props "human"
+			{effect "kamikaze_explosion"}
+		}
+	}
+}
+

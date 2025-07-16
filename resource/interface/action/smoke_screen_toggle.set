@@ -1,0 +1,8 @@
+{action
+	{able_vehicle}
+	{NotifySelect}
+	{button "smoke_screen_toggle"}
+	{instant
+		{effect "smoke_screen_toggle"}
+	}
+}

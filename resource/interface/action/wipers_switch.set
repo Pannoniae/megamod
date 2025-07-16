@@ -1,0 +1,9 @@
+{action
+	{target ground}
+	{button "vehicle/wipers_switch"}
+	{able_vehicle}
+	{NotifySelect}
+	{instant
+		{effect "manjumpup"}
+	}
+}

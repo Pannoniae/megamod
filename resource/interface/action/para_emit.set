@@ -1,0 +1,12 @@
+{action
+	{target ground}
+	{able_vehicle}
+	{button "vehicle/para_emit"}
+	{NotifySelect}
+	{AimEntities}
+	{instant
+		{if props "airborne"
+			{effect "para_emit"}
+		}
+	}
+}

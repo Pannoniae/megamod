@@ -1,0 +1,8 @@
+{action
+	{able_vehicle}
+	{NotifySelect}
+	{button "lights_toggle"}
+	{instant
+		{effect "lights_toggle"}
+	}
+}

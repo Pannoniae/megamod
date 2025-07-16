@@ -1,0 +1,8 @@
+{action
+	{able_vehicle}
+	{NotifySelect}
+	{button "horn"}
+	{instant
+		{effect "horn"}
+	}
+}
