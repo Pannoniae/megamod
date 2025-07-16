@@ -43,84 +43,87 @@
 	{signal shot 120}
 	{SignalPeriod 2}
 	{tag effects}
-	{volume 0.45}
+	{volume 0.5}
 )
 (define "Small-Arms_S2_close"
 	{loudness "Small-Arms_S2_close"}
 	{signal shot 130}
 	{SignalPeriod 2}
 	{tag effects}
-	{volume 0.45}
+	{volume 0.5}
 )
 (define "Small-Arms_S3_close"
 	{loudness "Small-Arms_S3_close"}
 	{signal shot 140}
 	{SignalPeriod 3}
 	{tag effects}
-	{volume 0.45}
+	{volume 0.5}
 )
 (define "Small-Arms_S4_close"
 	{loudness "Small-Arms_S4_close"}
 	{signal shot 150}
 	{SignalPeriod 3}
 	{tag effects}
-	{volume 0.45}
+	{volume 0.5}
 )
 (define "Launcher_S1_close"
 	{loudness "Launcher_S1_close"}
 	{signal shot 160}
 	{SignalPeriod 4}
 	{tag effects}
+	{volume 1}
 )
 ;----------------------------------------------	MID -----------------------------------------------------
 (define "Small-Arms_S1_mid"
 	{loudness "Small-Arms_S1_mid"} 
 	{tag effects}
-	{volume 0.45}
+	{volume 0.2}
 )
 (define "Small-Arms_S2_mid"
 	{loudness "Small-Arms_S2_mid"}
 	{tag effects}
-	{volume 0.45}
+	{volume 0.2}
 )
 (define "Small-Arms_S3_mid"
 	{loudness "Small-Arms_S3_mid"}
 	{tag effects}
-	{volume 0.45}
+	{volume 0.2}
 )
 (define "Small-Arms_S4_mid"
 	{loudness "Small-Arms_S4_mid"}
 	{tag effects}
-	{volume 0.45}
+	{volume 0.2}
 )
 (define "Launcher_S1_mid"
 	{loudness "Launcher_S1_mid"}
 	{tag effects}
+	{volume 0.4}
 )
 ;----------------------------------------------	FAR -----------------------------------------------------
 (define "Small-Arms_S1_far"
 	{loudness "Small-Arms_S1_far"}
 	{tag effects}
-	{volume 0.4}
+	{volume 0.1}
 )
 (define "Small-Arms_S2_far"
 	{loudness "Small-Arms_S2_far"}
 	{tag effects}
-	{volume 0.4}
+	{volume 0.1}
 )
 (define "Small-Arms_S3_far" 
 	{loudness "Small-Arms_S3_far"}
 	{tag effects}
-	{volume 0.4}
+	{volume 0.1}
 )
 (define "Small-Arms_S4_far"
 	{loudness "Small-Arms_S4_far"}
 	{tag effects}
-	{volume 0.4}
+	{volume 0.1}
 )
 (define "Launcher_S1_far"
 	{loudness "Launcher_S1_far"}
 	{tag effects}
+	{volume 0.2}
 )
 ;**********************************************	CANNONS  ***************************************
 (define "Autocannon_3p"
@@ -238,43 +241,43 @@
 )
 (define "Cannon_S1_mid"
 	{loudness "Cannon_S1_mid"}
-	{volume 1.5}
+	{volume 0.5}
 	{tag effects}
 )
 (define "Cannon_S2_mid"
 	{loudness "Cannon_S2_mid"}
-	{volume 1.5}
+	{volume 0.5}
 	{tag effects}
 )
 (define "Cannon_S3_mid"
 	{loudness "Cannon_S3_mid"}
-	{volume 1.5}
+	{volume 0.5}
 	{tag effects}
 )
 (define "Cannon_S4_mid" 
 	{loudness "Cannon_S4_mid"}
-	{volume 1.5}
+	{volume 0.5}
 	{tag effects}
 )
 (define "Cannon_S5_mid"
 	{loudness "Cannon_S5_mid"}
-	{volume 1.5}
+	{volume 0.5}
 	{tag effects}
 )
 (define "Cannon_S6_mid"
 	{loudness "Cannon_S6_mid"}
-	{volume 1.5}
+	{volume 0.5}
 	{tag effects}
 )
 (define "Launcher_S2_mid"
 	{loudness "Launcher_S2_mid"}
-	{volume 1.75}
+	{volume 0.5}
 	{tag effects}
 )
 ;----------------------------------------------	FAR -----------------------------------------------------
 (define "Autocannon_far"
 	{loudness "Cannon-Auto_far"}
-	{volume 0.8}
+	{volume 0.2}
  
 							
 								
@@ -282,41 +285,42 @@
 )
 (define "Cannon-Auto_S2_far"
 	{loudness "Cannon-Auto_S2_far"}
+	{volume 0.2}
 	{tag effects}
 )
 (define "Cannon_S1_far"
 	{loudness "Cannon_S1_far"}
-	{volume 1.75}
+	{volume 0.2}
 	{tag effects}
 )
 (define "Cannon_S2_far"
 	{loudness "Cannon_S2_far"}
-	{volume 1.75}
+	{volume 0.2}
 	{tag effects}
 )
 (define "Cannon_S3_far"
 	{loudness "Cannon_S3_far"}
-	{volume 1.75}
+	{volume 0.2}
 	{tag effects}
 )
 (define "Cannon_S4_far" 
 	{loudness "Cannon_S4_far"}
-	{volume 1.75}
+	{volume 0.2}
 	{tag effects}
 )
 (define "Cannon_S5_far"
 	{loudness "Cannon_S5_far"}
-	{volume 1.75}
+	{volume 0.2}
 	{tag effects}
 )
 (define "Cannon_S6_far"
 	{loudness "Cannon_S6_far"}
-	{volume 1.75}
+	{volume 0.2}
 	{tag effects}
 )
 (define "Launcher_S2_far"
 	{loudness "Launcher_S2_far"}
-	{volume 1.75}
+	{volume 0.2}
 	{tag effects}
 )
 ;**********************************************	EXPLOSIONS  ***************************************
@@ -392,80 +396,73 @@
 ;----------------------------------------------	MID -----------------------------------------------------
 (define "Explosion-Auto_mid"
 	{loudness "Explosion_Auto_mid"}
-	{volume 0.8}
+	{volume 0.4}
 	{tag effects}
-			 
 )
 (define "Explosion_S1_mid"
 	{loudness "Explosion_S1_mid"}
-	{volume 1.75}
+	{volume 0.5}
 	{tag effects}
-			 
 )
 (define "Explosion_S2_mid"
 	{loudness "Explosion_S2_mid"}
-	{volume 1.75}
+	{volume 0.5}
 	{tag effects}
-			 
 )
 (define "Explosion_S3_mid"
 	{loudness "Explosion_S3_mid"}
-	{volume 1.75}
+	{volume 0.5}
 	{tag effects}
-			 
 )
 (define "Explosion_S4_mid" 
 	{loudness "Explosion_S4_mid"}
-	{volume 1.75}
+	{volume 0.5}
 	{tag effects}
-			 
 )
 (define "Explosion_S5_mid"
 	{loudness "Explosion_S5_mid"}
-	{volume 1.75}
+	{volume 0.5}
 	{tag effects}
-			 
 )
 (define "Explosion_S6_mid"
 	{loudness "Explosion_S6_mid"}
-	{volume 1.75}
+	{volume 0.5}
 	{tag effects}
-			 
 )
 ;----------------------------------------------	FAR -----------------------------------------------------
 (define "Explosion-Auto_far"
 	{loudness "Explosion_Auto_far"}
-	{volume 0.8}
+	{volume 0.1}
 	{tag effects}
 )
 (define "Explosion_S1_far"
 	{loudness "Explosion_S1_far"}
-	{volume 1.75}
+	{volume 0.2}
 	{tag effects}
 )
 (define "Explosion_S2_far"
 	{loudness "Explosion_S2_far"}
-	{volume 1.75}
+	{volume 0.2}
 	{tag effects}
 )
 (define "Explosion_S3_far"
 	{loudness "Explosion_S3_far"}
-	{volume 1.75}
+	{volume 0.2}
 	{tag effects}
 )
 (define "Explosion_S4_far" 
 	{loudness "Explosion_S4_far"}
-	{volume 1.75}
+	{volume 0.2}
 	{tag effects}
 )
 (define "Explosion_S5_far"
 	{loudness "Explosion_S5_far"}
-	{volume 1.75}
+	{volume 0.2}
 	{tag effects}
 )
 (define "Explosion_S6_far"
 	{loudness "Explosion_S6_far"}
-	{volume 1.75}
+	{volume 0.2}
 	{tag effects}
 )
 ;----------------------------------------------	IMPACT SIGNALS	--------------------------------------
@@ -1026,7 +1023,7 @@
 
 (define "talk"
 	{loudness "talk"}
-	{volume 1}
+	{volume 3}
 	{tag emotions}
 )
 (define "talk_low"
@@ -1037,12 +1034,12 @@
 
 (define "talk_normal"
 	{loudness "talk_normal"}
-	{volume 1}
+	{volume 2}
 	{tag emotions}
 )
 (define "talk_shout"
 	{loudness "talk_shout"}
-	{volume 1}
+	{volume 3}
 	{tag emotions}
 )
 (define "breath"
@@ -1067,31 +1064,31 @@
 (define "vehicle_engine"
 	{signal movement 30}
 	{loudness "vehicle_engine"}
-	{volume 0.40}
+	{volume 1.80}
 	{tag effects}
 )
 (define "vehicle_engine_idle"
 	{signal movement 15}
-	{volume 0.30}
+	{volume 1.70}
 	{loudness "vehicle_engine_idle"}
 	{tag effects}
 )
 (define "vehicle_engine_small"
 	{signal movement 30}
 	{loudness "vehicle_engine_small"}
-	{volume 0.30}
+	{volume 2.50}
 	{tag effects}
 )
 (define "vehicle_engine_small_idle"
 	{signal movement 15}
-	{volume 0.25}
+	{volume 2.50}
 	{loudness "vehicle_engine_small_idle"}
 	{tag effects}
 )
 (define "vehicle_engine_car"
 	{signal movement 30}
 	{loudness "vehicle_engine_car"}
-	{volume 0.50}
+	{volume 1.50}
 	{tag effects}
 )
 (define "vehicle_engine_car_idle"

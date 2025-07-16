@@ -828,3 +828,19 @@ msgstr ""
 msgctxt "desc/squad/inf_crate_ger_late"
 msgid "German Ammo Crate"
 msgstr ""
+
+msgctxt "desc/squad/inf_crate_ger_44-45_wehr"
+msgid "Wehrmacht Ammo Crate"
+msgstr ""
+
+msgctxt "desc/squad/inf_crate_ger_46_wehr"
+msgid "Wehrmacht Ammo Crate"
+msgstr ""
+
+msgctxt "desc/squad/inf_crate_ger_44-45_ss"
+msgid "SS Ammo Crate"
+msgstr ""
+
+msgctxt "desc/squad/inf_crate_ger_46_ss"
+msgid "SS Ammo Crate"
+msgstr ""

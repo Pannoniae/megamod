@@ -26,6 +26,8 @@
 		("velocity" mps(270))
 		{range 160 160}
 	}
+	
+	("he_lowarc")
 
 	;("accuracy_direct" r1(0.80) range_ap(200) range_he(200) range_heat(200))
 	("accuracy_dual" ; // Applies logic for accuracy of dual direct-indirect weapons

@@ -2284,7 +2284,7 @@ msgid "Easy"
 msgstr ""
 
 msgctxt "version_short_string"
-msgid "Call to Arms - Gates of Hell - version %1% - Megamod Mayhem 0.1.0 dev"
+msgid "Call to Arms - Gates of Hell - version %1% - Megamod Mayhem 0.1.1"
 msgstr ""
 
 msgctxt "options/keys/interface/toggle_equipment"
@@ -8729,10 +8729,6 @@ msgstr ""
 
 msgctxt "options/game/difficulty#/easy"
 msgid "Easy"
-msgstr ""
-
-msgctxt "version_short_string"
-msgid "Call to Arms - Gates of Hell - version %1% - Megamod Mayhem 0.1.0 dev"
 msgstr ""
 
 msgctxt "options/keys/interface/toggle_equipment"

@@ -6,6 +6,8 @@
 {from "76mm_m1a1"			; L/52 "M4 sherman late"
 	("penetration_medium" shell(ap) range(200) a(154) b(132) c(110) d(91) e(75))		; M79 AP
 	("penetration_medium" shell(apcbche) range(200) a(125) b(117) c(107) d(98) e(90))	; M62 APC
+	
+	("he_lowarc")
 
 	;("accuracy_direct" r1(0.78) range_ap(200) range_he(200) range_heat(200))
 	("accuracy_dual" ; // Applies logic for accuracy of dual direct-indirect weapons
