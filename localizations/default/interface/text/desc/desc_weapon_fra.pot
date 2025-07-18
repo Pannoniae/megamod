@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Gates of Hell Extra ammo\n"
+"Project-Id-Version: Gates of Hell French weaponry\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
@@ -12,10 +12,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-msgctxt "desc/ammo/raketenwerfer43"
-msgid "Raketenwerfer43"
-msgstr ""
-
-msgctxt "desc/stuff/rus_parahelm"
-msgid "Parachutist helmet"
+msgctxt "desc/weapon/chauchat"
+msgid "Chauchat M/15"
 msgstr ""

@@ -15,31 +15,40 @@ WEAPON_OVERRIDES = {
     "k98": "K98",
     "kar98k": "K98",
     "mp40": "MP40",
-    "stg44": "StG44",
+    "stg44": "StG 44",
     "mp44": "MP44",
     "mg42": "MG42",
-    "mg34": "MG34",
-    "pzf": "Panzerfaust",
-    "panzerfaust": "Panzerfaust",
-    "panzerschreck": "Panzerschreck",
-    "flam": "Flammenwerfer",
-    "flammenwerfer": "Flammenwerfer",
-    "g43": "G43",
-    "fg42": "FG42",
-    "luger": "Luger",
-    "walther": "Walther",
-    "mauser": "Mauser",
-    "gewehr": "Gewehr",
-    "rifle": "Rifle",
-    "smg": "SMG",
-    "lmg": "LMG",
-    "hmg": "HMG",
-    "at": "AT",
-    "rpg": "RPG",
-    "grenade": "Grenade",
-    "pistol": "Pistol",
-    "scope": "Scoped",
-    "sniper": "Sniper"
+    "mg34": "MG34"
+}
+
+# Blacklisted factions - these will be skipped entirely
+BLACKLISTED_FACTIONS = {
+    # "ger": "German",
+    # "rus": "Russian", 
+    # "usa": "American",
+    # "ita": "Italian",
+    # "hun": "Hungarian",
+    # "jap": "Japanese",
+    # "fin": "Finnish",
+    # "fra": "French",
+    # "pol": "Polish",
+    # "eng": "British"
+}
+
+# Suffix stripping configuration
+# By default, strips common suffixes like (Drum), (Stick), etc.
+# Set to False for specific weapons to keep their suffixes
+STRIP_WEAPON_SUFFIXES = True
+WEAPON_SUFFIX_EXCEPTIONS = {
+    # Example: "ppsh41": False,  # Keep PPSH-41 (Drum) as is
+    # "thompson": False,         # Keep Thompson (Stick) as is
+}
+
+# Suffixes that should NOT be stripped (blacklisted from removal)
+SUFFIX_BLACKLIST = {
+    "(Scope)",
+    "(Sniper)",
+    "(Scoped)",
 }
 
 def get_weapon_localization(weapon_id, weapon_loc_files):
@@ -120,16 +129,47 @@ def get_weapon_display_name(weapon_id, weapon_loc_files):
     # Try to get localized name
     localized_name = get_weapon_localization(weapon_id, weapon_loc_files)
     if localized_name:
+        # Clean up the localized name - remove everything after |
+        if '|' in localized_name:
+            localized_name = localized_name.split('|')[0].strip()
+        
+        # Strip suffixes if enabled and not excepted
+        if STRIP_WEAPON_SUFFIXES:
+            # Check if this weapon is excepted from suffix stripping
+            weapon_excepted = False
+            for exception_key in WEAPON_SUFFIX_EXCEPTIONS.keys():
+                if exception_key in weapon_lower and not WEAPON_SUFFIX_EXCEPTIONS[exception_key]:
+                    weapon_excepted = True
+                    break
+            
+            if not weapon_excepted:
+                # Strip parenthetical suffixes, but only if not in blacklist
+                import re
+                # Find all parenthetical expressions
+                parenthetical_pattern = r'\s*\([^)]+\)$'
+                match = re.search(parenthetical_pattern, localized_name)
+                if match:
+                    suffix = match.group(0).strip()
+                    # Only strip if not in blacklist
+                    if suffix not in SUFFIX_BLACKLIST:
+                        localized_name = re.sub(parenthetical_pattern, '', localized_name).strip()
+        
         return localized_name
     
-    # Fallback to weapon ID
-    return weapon_id.upper()
+    # Error if no localization found
+    raise ValueError(f"No localization found for weapon ID: {weapon_id}")
 
 def process_soldier_localization_file(loc_file_path, weapon_loc_files, breed_dir):
     """Process a single soldier localization file."""
     try:
         with open(loc_file_path, 'r', encoding='utf-8') as f:
             content = f.read()
+        
+        # Create backup
+        backup_path = loc_file_path + '.backup'
+        with open(backup_path, 'w', encoding='utf-8') as f:
+            f.write(content)
+        print(f"Created backup: {backup_path}")
         
         # Find all soldier entries
         pattern = r'msgctxt "(desc/human/[^"]+)"\s*\nmsgid "([^"]+)"\s*\nmsgstr ""'
@@ -159,16 +199,20 @@ def process_soldier_localization_file(loc_file_path, weapon_loc_files, breed_dir
                 if set_files:
                     primary_weapon = get_primary_weapon_from_set(set_files[0])
                     if primary_weapon:
-                        weapon_display_name = get_weapon_display_name(primary_weapon, weapon_loc_files)
-                        new_name = f"{current_name} [{weapon_display_name}]"
-                        
-                        # Replace in content
-                        old_entry = f'msgctxt "{soldier_context}"\nmsgid "{current_name}"\nmsgstr ""'
-                        new_entry = f'msgctxt "{soldier_context}"\nmsgid "{new_name}"\nmsgstr ""'
-                        new_content = new_content.replace(old_entry, new_entry)
-                        modified = True
-                        
-                        print(f"Updated: {current_name} -> {new_name}")
+                        try:
+                            weapon_display_name = get_weapon_display_name(primary_weapon, weapon_loc_files)
+                            new_name = f"{current_name} [{weapon_display_name}]"
+                            
+                            # Replace in content
+                            old_entry = f'msgctxt "{soldier_context}"\nmsgid "{current_name}"\nmsgstr ""'
+                            new_entry = f'msgctxt "{soldier_context}"\nmsgid "{new_name}"\nmsgstr ""'
+                            new_content = new_content.replace(old_entry, new_entry)
+                            modified = True
+                            
+                            print(f"Updated: {current_name} -> {new_name}")
+                        except ValueError as e:
+                            print(f"ERROR: {e} for soldier '{current_name}' in {soldier_context}")
+                            # Don't modify this entry, continue with others
         
         # Write back if modified
         if modified:
@@ -192,8 +236,8 @@ def main():
     # Find all soldier localization files
     soldier_loc_files = glob.glob(os.path.join(soldier_loc_dir, "desc_breed_*.pot"))
     
-    # Find all weapon localization files
-    weapon_loc_files = glob.glob(os.path.join(weapon_loc_dir, "desc_weapon_*.pot"))
+    # Find all .pot files that might contain weapon localizations
+    weapon_loc_files = glob.glob(os.path.join(weapon_loc_dir, "*.pot"))
     
     if not soldier_loc_files:
         print("No soldier localization files found!")
@@ -208,7 +252,20 @@ def main():
     
     # Process each soldier localization file
     for loc_file in soldier_loc_files:
-        print(f"\nProcessing: {os.path.basename(loc_file)}")
+        filename = os.path.basename(loc_file)
+        print(f"\nProcessing: {filename}")
+        
+        # Check if faction is blacklisted
+        faction_found = False
+        for faction_code in BLACKLISTED_FACTIONS.keys():
+            if faction_code in filename.lower():
+                print(f"Skipping {filename} - faction '{faction_code}' is blacklisted")
+                faction_found = True
+                break
+        
+        if faction_found:
+            continue
+            
         process_soldier_localization_file(loc_file, weapon_loc_files, breed_dir)
     
     print("\nDone!")

@@ -34,7 +34,7 @@ msgid "Precision Strike Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_jag_at_late_con(fin)"
-msgid "Panzerj‰ger Squad"
+msgid "Panzerj√§ger Squad"
 msgstr ""
 
 msgctxt "desc/squad/squad_light4(fin)"
