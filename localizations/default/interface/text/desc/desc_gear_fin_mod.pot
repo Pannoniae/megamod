@@ -16,32 +16,32 @@ msgctxt "desc/stuff/fin_palsmossa"
 msgid "Palsmössa M/09"
 msgstr ""
 
-msgctxt "desc/stuff/fin_nco_cap"
+msgctxt "desc/stuff/cap_fin_officer_nco"
 msgid "Kesälakki M/39"
 msgstr ""
 
-msgctxt "desc/stuff/fin_officer_cap_tank"
+msgctxt "desc/stuff/cap_fin_officer_tank"
 msgid "Kesälakki M/39"
 msgstr ""
 
-msgctxt "desc/stuff/fin_officer_cap_lagus"
+msgctxt "desc/stuff/cap_fin_officer_lagus"
 msgid "Kesälakki M/39"
 msgstr ""
 
-msgctxt "desc/stuff/fin_officer_cap"
+msgctxt "desc/stuff/cap_fin_officer"
 msgid "Kesälakki M/39"
 msgstr ""
 
 msgctxt "desc/stuff/fin_pilot_hat"
-msgid "Pilot hat"
+msgid "Pilotti lakki"
 msgstr ""
 
 msgctxt "desc/stuff/fin_m39_furhat"
-msgid "Karvalakki M/39"
+msgid "Karvahattu M/39"
 msgstr ""
 
 msgctxt "desc/stuff/fin_m39_furhat_untied"
-msgid "Karvalakki M/39"
+msgid "Karvahattu M/39"
 msgstr ""
 
 msgctxt "desc/stuff/fin_fieldcap_brown"
@@ -64,5 +64,104 @@ msgctxt "desc/stuff/fin_fieldcap_lagus"
 msgid "Verikauha M/36"
 msgstr ""
 
+msgctxt "desc/stuff/fin_stalhelm"
+msgid "M/38 Steel Helmet"
+msgstr ""
+
+msgctxt "desc/stuff/fin_stalhelm_buckled"
+msgid "M/38 Steel Helmet"
+msgstr ""
+
+msgctxt "desc/stuff/fin_stalhelm_tilted"
+msgid "M/38 Steel Helmet"
+msgstr ""
+
+msgctxt "desc/stuff/fin_stalhelm_dirt"
+msgid "M/38 Steel Helmet"
+msgstr ""
+
+msgctxt "desc/stuff/fin_stalhelm_dirt_buckled"
+msgid "M/38 Steel Helmet"
+msgstr ""
+
+msgctxt "desc/stuff/fin_stalhelm_dirt_tilted"
+msgid "M/38 Steel Helmet"
+msgstr ""
+
+msgctxt "desc/stuff/fin_stalhelm_dark"
+msgid "M/38 Steel Helmet"
+msgstr ""
+
+msgctxt "desc/stuff/fin_stalhelm_dark_tilted"
+msgid "M/38 Steel Helmet"
+msgstr ""
+
+msgctxt "desc/stuff/fin_stalhelm_dark_buckled"
+msgid "M/38 Steel Helmet"
+msgstr ""
+
+msgctxt "desc/stuff/fin_stalhelm_mud"
+msgid "M/38 Steel Helmet"
+msgstr ""
+
+msgctxt "desc/stuff/fin_stalhelm_mud_buckled"
+msgid "M/38 Steel Helmet"
+msgstr ""
+
+msgctxt "desc/stuff/fin_stalhelm_mud_tilted"
+msgid "M/38 Steel Helmet"
+msgstr ""
+
+msgctxt "desc/stuff/fin_stalhelm_camo"
+msgid "M/38 Steel Helmet"
+msgstr ""
+
+msgctxt "desc/stuff/fin_stalhelm_camo_buckled"
+msgid "M/38 Steel Helmet"
+msgstr ""
+
+msgctxt "desc/stuff/fin_stalhelm_camo_tilted"
+msgid "M/38 Steel Helmet"
+msgstr ""
+
+msgctxt "desc/stuff/fin_stalhelm_mud_camo"
+msgid "M/38 Steel Helmet"
+msgstr ""
+
+msgctxt "desc/stuff/fin_stalhelm_ww1_dirt"
+msgid "Stahlhelm M16 helmet"
+msgstr ""
+
+msgctxt "desc/stuff/fin_stalhelm_ww1_dirt_tilted"
+msgid "Stahlhelm M16 helmet"
+msgstr ""
+
+msgctxt "desc/stuff/fin_stalhelm_ww1_mud_camo"
+msgid "Stahlhelm M16 helmet"
+msgstr ""
+
+msgctxt "desc/stuff/fin_stalhelm_ww1_mud_tilted"
+msgid "Stahlhelm M16 helmet"
+msgstr ""
+
+msgctxt "desc/stuff/fin_stalhelm_ww1_green"
+msgid "Stahlhelm M16 helmet"
+msgstr ""
+
+msgctxt "desc/stuff/fin_ushanka"
+msgid "Karvalakki M/22"
+msgstr ""
+
+msgctxt "desc/stuff/fin_ushanka_normal"
+msgid "Karvalakki M/22"
+msgstr ""
+
+msgctxt "desc/stuff/fin_ushanka_grey"
+msgid "Karvalakki M/22"
+msgstr ""
+
+msgctxt "desc/stuff/fin_ushanka_tank"
+msgid "Karvalakki M/22"
+msgstr ""
 
 

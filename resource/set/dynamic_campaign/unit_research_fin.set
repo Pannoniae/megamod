@@ -96,8 +96,8 @@
 
 	{"squad_volunteers(fin)"			requires	"squad_rifle_early_con(fin)"			costs 1  position 2 17}
 
-	{"squad_light4(fin)" 				requires	"squad_border_guard_early_con(fin)"		costs 1  position 3 20}
-	{"squad_hq_long_range_patrol(fin)"		requires	"squad_sissi_mid_con(fin)"			costs 1  position 4 13}
+	{"squad_light4(fin)" 				requires	"squad_vet_scout_mid_con(fin)"			costs 3  position 2 13}
+	{"squad_hq_long_range_patrol(fin)"		requires	"squad_sissi_mid_con(fin) squad_jag_scout_late_con(fin)" costs 1  position 4 13}
 	{"squad_stormtroop(fin)"			requires	"squad_vet_jag_mid_con(fin)"			costs 1  position 9 11}
 
 ;TOTAL:

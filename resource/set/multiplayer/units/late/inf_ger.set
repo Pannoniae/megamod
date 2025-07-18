@@ -486,6 +486,14 @@
 
 
 ; ITF
+{"mp/ger/late/mgun_1_34"						("inf_tier2" side(ger) period(late) year(44 45 46) cost(40.0))} ; MG34 drum
+{"mp/ger/late/mgun_2_34"						("inf_tier2" side(ger) period(late) year(44 45 46) cost(8.0))} ; k98
+
+
+{"mp/ger/late/gd_mg_34"						("inf_tier3" side(ger) period(late) year(44 45 46) cost(50.0))} ; mg34 belt
+{"mp/ger/late/gd_mg_asst_34"					("inf_tier3" side(ger) period(late) year(44 45 46) cost(16.0))} ; k98
+
+
 {"mp/ger/late/fallsch_vet_mg"				("inf_tier4" side(ger) period(late) year(44 45 46) cost(75.0))} ; mg42 belt (100 round)
 {"mp/ger/late/fallsch_vet_mg_asst"			("inf_tier4" side(ger) period(late) year(44 45 46) cost(18.0))} ; k98
 {"mp/ger/late/fallsch_vet_mg34"				("inf_tier4" side(ger) period(late) year(44 45 46) cost(68.0))} ; mg42 belt (100 round)

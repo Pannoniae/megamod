@@ -18,7 +18,7 @@ msgid "\"One should never trust quotes on the internet, as one cannot verify the
 msgstr ""
 
 msgctxt "tip35"
-msgid "\"Success is not final, failure is not fatal, it is the courage to continue that counts.\"\n\n<s(18)e(shadow)b+c(dacba2)>Winston Churchill"
+msgid "\"Fortifications, artillery, foreign aid - will be of no value, unless the ordinary soldier knows that it is HE guarding his country.\"\n\n<s(18)e(shadow)b+c(dacba2)>C.G.E. Mannerheim"
 msgstr ""
 
 msgctxt "tip12"
@@ -50,7 +50,7 @@ msgid "\"No amount of study or learning will make a man a leader unless he has t
 msgstr ""
 
 msgctxt "tip04"
-msgid "\"In preparing for battle I have always found that plans are useless, but planning is indispensable.\"\n\n<s(18)e(shadow)b+c(dacba2)>Dwight D. Eisenhower"
+msgid "\"Officers don't run, only corporals do that.\"\n\n<s(18)e(shadow)b+c(dacba2)>C.G.E. Mannerheim"
 msgstr ""
 
 msgctxt "tip06"

@@ -218,7 +218,27 @@
 												</PercentPanel>
 											</Content>
 										</FrameView>
-										
+										<PercentPanel percent="0.4" stretch="true" gap="2">
+											<!--<Insets all="10"/>-->
+											<Children>
+												<PercentPanel percent="0.5" gap="2" direction="vertical">
+													<Children>
+														<DialogRef resource="components/MenuChat.xml" placement="center"  />
+													</Children>
+												</PercentPanel>
+												<PercentPanel percent="0.4" gap="2" direction="horizontal">
+													<Children>
+														<FrameView percent="0.5" resource="/interface/skin/game/frame/window">
+															<Children>
+																<ClickablePictureDialog id="minimap_preview" zoomMode="fit" centerX="true" centerY="true" placement="center">
+																<Ables mouse="false"/>
+																</ClickablePictureDialog>
+															</Children>
+														</FrameView>
+													</Children>
+												</PercentPanel>
+											</Children>
+										</PercentPanel>
 									</Children>
 								</PercentPanel>
 							</Children>

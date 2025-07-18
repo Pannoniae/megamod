@@ -31,14 +31,14 @@
 (include "late/inf_pol.set")
 (include "late/inf_usa.set")
 
-(include "mid/inf_ger.set") 
-(include "mid/inf_rus.set")
-(include "mid/inf_fin.set")
-(include "mid/inf_usa.set")
+;(include "mid/inf_ger.set") 
+;(include "mid/inf_rus.set")
+;(include "mid/inf_fin.set")
+;(include "mid/inf_usa.set")
 
-(include "early/inf_ger.set") 
-(include "early/inf_rus.set")
-(include "early/inf_fin.set")
+;(include "early/inf_ger.set") 
+;(include "early/inf_rus.set")
+;(include "early/inf_fin.set")
 ;(include "early/inf_usa.set")
 
 ;_________________________________________________________
