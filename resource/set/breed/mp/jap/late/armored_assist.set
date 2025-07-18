@@ -11,7 +11,7 @@
 	}
 	{perks
 		(include "ability.inc")
-		("rifle_skill_rank_3")
+		("loader_skill_rank_3")
 		("tier3_standard")
 	}
 	{veterancy
@@ -32,4 +32,3 @@
 	}
 }
 ;Cost=8;
-

@@ -21,7 +21,7 @@
 		("veterancy_lvl_0")
 	}
 	{inventory
-		{item "webley" filled}
+		{item "uk-webley" filled}
 		{item  "ammo 11x21" 90}
 		{item "knife_union"}
 		{item "binocular"}
@@ -30,4 +30,3 @@
 	}
 }
 ;Cost=9;
-

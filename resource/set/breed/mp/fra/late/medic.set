@@ -21,7 +21,7 @@
 	}
 	{inventory
 		{item "garand" filled}
-		{item  "ammo 7x63" 128}
+		{item  "ammo rifle_usa" 128}
 		{item "smoke grenade" 2}
 		{item "bandage_fra" 25}
 		{item "medkit_fra"}

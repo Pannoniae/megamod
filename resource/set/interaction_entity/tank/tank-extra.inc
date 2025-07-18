@@ -188,7 +188,8 @@
 		{link_sound "move"				"vehicle/tracks/sdkfz251"}
 	}
 	{on "add_weapon_sound" overload
-		("Autocannon_s1")
+		;("Autocannon_s1")
+		("2cm_Flakvierling")
 		{link_sound "action_recoil_Cannon"	"weapon/shot/cannon/s1/recoil/Shared/Autocannon_20to30mm/"}
 	}
 }
@@ -248,7 +249,26 @@
 		("MG34")
 	}
 }
+{"sdkfz251b_10 tank"
+	("hanomag_sound")
 
+	{on "event_no_crew" overload}
+	{on "event_with_crew" overload}
+
+	{on "gunner4_hatch_open" overload
+		{ani_play "mgun_aa_2" +1.0 resume}
+	}
+	{on "gunner4_hatch_close" overload
+		{ani_play "mgun_aa_2" -1.0 resume}
+	}
+	{on "add_weapon_sound" overload
+		("Cannon_37to40mm")
+		("Cannon_Breech")
+	}
+	{on "spawn_shell_delay" overload
+		("shell_eject_delay" args 1.5 0.25)
+	}
+}
 ;/*=========== Extra German Vehicles End ===========*/
 
 ;/*=========== Extra Soviet Vehicles Begin ===========*/
@@ -512,6 +532,133 @@
 	}
 }
 ;/*=========== Extra Soviet Vehicles end ===========*/
+;/*=========== Extra US Vehicles Begin ===========*/
+{"m3a1_satan" 
+	("m3_stuart_sound")
+	{on "add_weapon_sound" overload
+		("M1919A4")
+	}
+	{on spawn
+		{add_view "flamer_fire_tank" "flame" "foresight1"}
+		{add_view "flamer_fire_barrel" "fire" "foresight1"}
+	}
+	{on operatable on
+		{view start "fire"}
+	}
+	{on operatable off
+		{view stop "fire"}
+	}
+	{on "_explosion"
+		{spawn "fuel_die"}
+		{blastwave c4 5 r0 4 r1 15}
+		{fire radius 5 time 15 heating 10}
+	}
+	("flame_weapon" args gun 60 1 40)
+}
+
+{"m4a2_75 tank"
+	("m4_sherman_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
+		("M2HB")
+		("M1919A4")
+	}
+	{on spawn
+		{link_sound "move"				"vehicle/tracks/M4_Sherman/Steel/"}
+		{if tex_mod "winter"
+			{delay 0.1
+				{tex_mod "usa_winter"}
+			}
+		else tex_mod "desert"
+			{delay 0.1
+				{tex_mod "usa"}
+			}
+		else tex_mod "camo"
+			{delay 0.1
+				{tex_mod "usa"}
+			}
+		else
+			{delay 0.1
+				{tex_mod "usa"}
+			}
+		}
+	}
+	{on "commander_hatch_open" overload
+		{ani_play "mgun_aa" +1.0 resume}
+	}
+	{on "commander_hatch_close" overload
+		{ani_play "mgun_aa" -1.0 resume}
+	}
+}
+{"m3_lee_m3 tank"
+	("m3_lee_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_37to40mm")
+		{link_sound 		"action_recoil_Cannon2"	"weapon/shot/cannon/s2/recoil/Shared/Cannon/"}
+		{link_sound	 	"Cannon_Mid2"		"weapon/shot/cannon/s3/d2/Shared/Cannon_75to76mm/"}
+		{link_sound 		"Cannon_Far2"		"weapon/shot/cannon/s3/d3/Shared/Cannon_75to76mm/"}
+		("M1919A4")
+	}
+	{on spawn
+		{add_view	"flash_gun_big"	"flashbarrel00"	"shooter00"}
+		{add_view	"flash_gun_big"	"flashbarrel01"	"shooter01"}
+		{link_sound "move" "vehicle/tracks/M4_Sherman/Rubber/"}
+	}
+	{on fire "mgun1" overload
+		{play_sound "MG_Mid"}
+		{play_sound "MG_Far"}
+		{if  name "00"
+			{view start "flashbarrel00"}
+			{delay 0.2
+				{view pause "flashbarrel00"}
+			}
+		else name "01"
+			{view start "flashbarrel01"}
+			{delay 0.2
+				{view pause "flashbarrel01"}
+			}
+		}
+	}
+	{on break_armor					;// volume breaks
+		{if volume "aux_turret2"
+			{call "kill_commander"}
+		}
+	}
+	{on break_armor_again			;// volume is broken again before related component is repaired
+		{if volume "aux_turret2"
+			{call "kill_commander"}
+		}
+	}
+	{on break 
+		{if component "aux_turret2"
+			{weapon_work "mgun3" 0}
+		}
+	}
+	{on repair
+		{if component "aux_turret2"
+			{weapon_work "mgun3" 1}
+		}
+	}
+	(define "multi_turret_rotate"
+		{on ik begin "%0" overload
+			{kill_delay "rotate_turret%1"}
+			{if not "rotate_turret%1"
+				{play_sound "rotate_turret%1" 1}
+				{set "rotate_turret%1" 1}
+			}
+		}
+		{on ik end "%0" overload
+			{delay 0.25 "rotate_turret%1"
+				{stop_sound "rotate_turret%1"}
+				{set "rotate_turret%1" 0}
+			}
+		}
+	)
+	("multi_turret_rotate" args aux_turret1 1)
+	("multi_turret_rotate" args aux_turret2 2)
+	("multi_gun_rotate" args gun1_rot)
+}		
+;/*=========== Extra US Vehicles end ===========*/
 
 
 

@@ -19,7 +19,7 @@
 		("veterancy_lvl_0")
 	}
 	{inventory
-		{item "mortar_mkvii" filled}
+		{item "uk-mortar_mkvii" filled}
 		{item "ammo mortar50_eng" 16}
 		{item "bandage_pol" 3}
 		{item "sandbag_kit" 1}
@@ -28,4 +28,3 @@
 	}
 }
 ;Cost=33;
-

@@ -1802,6 +1802,11 @@
 	("animation_sound" args "open_right")
 }
 
+{"kfz70"
+	("Kfz70_sound")
+	("animation_sound" args "open_rear")
+	("animation_sound" args "close_rear")
+}
 {"opel_maultier"
 	("opel_maultier_sound")
 	("animation_sound" args "open_left")

@@ -83,7 +83,9 @@
 			{exclude "*/ussr/airborne/li-2/li-2.def"}
 			{exclude "*/japan/airborne/l2d3/l2d3.def"}
 			{exclude "*/germany/airborne/ju-52/ju-52.def"}
-			
+			{exclude "*/usa/tank_medium/m4a2_75/m4a2_75.def"}
+			{exclude "*/usa/airborne/b25_mitchell/b25_mitchell.def"}
+			{exclude "*/france/tank_heavy/arl44/arl44.def"}
 		}
 		{optLoc "mp/army/"}
 		{rotation "-40.0 20.0"}
@@ -162,6 +164,8 @@
 				{exclude "*browning_m2_x4"}
 				{exclude "*hotchkiss_m1929_x2"}
 				{exclude "*hotchkiss_m1929t"}
+				{exclude "*hotchkiss"}
+				{exclude "*hotchkiss1914"}
 				{exclude "*hotchkiss1914t"}
 				{exclude "*type93hmg_x2"}
 			}

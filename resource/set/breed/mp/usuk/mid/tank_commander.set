@@ -7,7 +7,7 @@
 	{icon "tech"}
 	{icon_priority 0}
 	{armors
-		{head "beret_tank"}
+		{head "uk-beret_tank"}
 	}
 	{perks
 		(include "ability.inc")
@@ -18,12 +18,11 @@
 		("veterancy_lvl_0")
 	}
 	{inventory
-		{item "sten" filled}
+		{item "uk-sten" filled}
 		{item  "ammo 9x19b" 288}
-		{item "bandage" 1}
+		{item "uk-bandage" 1}
 		{in_hands 0}
 	}
 }
 ;Cost=10;
-
 

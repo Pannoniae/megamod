@@ -14,15 +14,15 @@ msgstr ""
 "X-Generator: Poedit 2.3\n"
 
 msgctxt "desc/human/mp/hun/early/ap_miner"
-msgid "Combat Engineer (AP mines)"
+msgid "Combat Engineer (AP mines) [Steyr Mannlicher M1895]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/at_miner"
-msgid "Combat Engineer (AT mines)"
+msgid "Combat Engineer (AT mines) [Steyr Mannlicher M1895]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/at_rifle"
-msgid "AT infantry"
+msgid "AT infantry [Solothurn S/100]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/bazooker"
@@ -30,19 +30,19 @@ msgid "Panzerschreck Infantry"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/elite"
-msgid "Commando Rifleman"
+msgid "Commando Rifleman [FEG 35M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/elite2"
-msgid "Commando MG Operator"
+msgid "Commando MG Operator [Solothurn 31M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/elite3"
-msgid "Commando SMG"
+msgid "Commando SMG [ZH-29]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/elite4"
-msgid "Commando Squadleader assist."
+msgid "Commando Squadleader assist. [FEG 35M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/elite5"
@@ -58,35 +58,35 @@ msgid "Field Engineer"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/flamer"
-msgid "Flamethrower infantry"
+msgid "Flamethrower infantry [Flamethrower]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/home_guard"
-msgid "Conscript"
+msgid "Conscript [Steyr Mannlicher M1895]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/medic"
-msgid "Medic"
+msgid "Medic [Steyr Mannlicher M1895]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/mgun"
-msgid "MG Operator"
+msgid "MG Operator [MG-13]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/mgun2"
-msgid "MG Operator"
+msgid "MG Operator [FEG 37M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/officer"
-msgid "Officer"
+msgid "Officer [FEG 37M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/rifle"
-msgid "Rifleman"
+msgid "Rifleman [FEG 35M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/rifle2"
-msgid "Rifleman"
+msgid "Rifleman [Steyr Mannlicher M1895]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/rifle3"
@@ -94,15 +94,15 @@ msgid "Rifleman"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/saper"
-msgid "Field Engineer"
+msgid "Field Engineer [Steyr Mannlicher M1895]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/smg"
-msgid "SMG infantry"
+msgid "SMG infantry [Danuvia 39M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/smg2"
-msgid "SMG infantry"
+msgid "SMG infantry [Danuvia 39M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/smg3"
@@ -110,67 +110,67 @@ msgid "SMG infantry"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/sniper"
-msgid "Sniper"
+msgid "Sniper [ZB 24/s]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/tankman"
-msgid "Tankman"
+msgid "Tankman [FEG 37M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/tankman2"
-msgid "Tank Commander"
+msgid "Tank Commander [Danuvia 39M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/radioman"
-msgid "Radio Operator"
+msgid "Radio Operator [Danuvia 39M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/squadleader"
-msgid "Squad Leader"
+msgid "Squad Leader [Danuvia 39M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/sturmovik"
-msgid "Assault SMG infantry"
+msgid "Assault SMG infantry [Danuvia 39M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/sturmovik2"
-msgid "Assault MG Operator"
+msgid "Assault MG Operator [Solothurn 31M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/sturmovik3"
-msgid "Assault SMG infantry"
+msgid "Assault SMG infantry [Danuvia 39M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/sturmovik4"
-msgid "Assault AT Rifleman"
+msgid "Assault AT Rifleman [Solothurn S/100]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/vehicle_supporter"
-msgid "Rifleman"
+msgid "Rifleman [Steyr Mannlicher M1895]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/pilot"
-msgid "Pilot"
+msgid "Pilot [FEG 37M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/gr_launcher"
-msgid "Mortarman"
+msgid "Mortarman [5cm leGrW 36]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/rifle_grenade"
-msgid "Pistol grenadier"
+msgid "Pistol grenadier [Kampfpistole]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/ap_miner"
-msgid "Combat Engineer (AP mines)"
+msgid "Combat Engineer (AP mines) [Steyr Mannlicher M1895]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/at_miner"
-msgid "Combat Engineer (AT mines)"
+msgid "Combat Engineer (AT mines) [Steyr Mannlicher M1895]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/at_rifle"
-msgid "AT infantry"
+msgid "AT infantry [Solothurn S/100]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/bazooker"
@@ -178,19 +178,19 @@ msgid "Panzerschreck Infantry"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/elite"
-msgid "Commando Rifleman"
+msgid "Commando Rifleman [FEG 35M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/elite2"
-msgid "Commando MG Operator"
+msgid "Commando MG Operator [Solothurn 31M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/elite3"
-msgid "Commando Rifleman (Semi-auto)"
+msgid "Commando Rifleman (Semi-auto) [ZH-29]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/elite4"
-msgid "Commando Rifleman"
+msgid "Commando Rifleman [FEG 35M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/elite5"
@@ -206,35 +206,35 @@ msgid "Field Engineer"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/flamer"
-msgid "Flamethrower infantry"
+msgid "Flamethrower infantry [Flamethrower]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/home_guard"
-msgid "Conscript"
+msgid "Conscript [Steyr Mannlicher M1895]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/medic"
-msgid "Medic"
+msgid "Medic [Steyr Mannlicher M1895]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/mgun"
-msgid "MG Operator"
+msgid "MG Operator [MG-13]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/mgun2"
-msgid "MG Operator"
+msgid "MG Operator [FEG 37M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/officer"
-msgid "Officer"
+msgid "Officer [FEG 37M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/rifle"
-msgid "Rifleman"
+msgid "Rifleman [FEG 35M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/rifle2"
-msgid "Rifleman"
+msgid "Rifleman [Steyr Mannlicher M1895]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/rifle3"
@@ -242,15 +242,15 @@ msgid "Rifleman"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/saper"
-msgid "Field Engineer"
+msgid "Field Engineer [Steyr Mannlicher M1895]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/smg"
-msgid "SMG infantry"
+msgid "SMG infantry [Danuvia 39M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/smg2"
-msgid "SMG infantry"
+msgid "SMG infantry [Danuvia 39M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/smg3"
@@ -258,91 +258,91 @@ msgid "SMG infantry"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/sniper"
-msgid "Sniper"
+msgid "Sniper [ZB 24/s]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/tankman"
-msgid "Tankman"
+msgid "Tankman [FEG 37M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/tankman2"
-msgid "Tank Commander"
+msgid "Tank Commander [Danuvia 39M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/radioman"
-msgid "Radio Operator"
+msgid "Radio Operator [Danuvia 39M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/squadleader"
-msgid "Squad Leader"
+msgid "Squad Leader [Danuvia 39M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/sturmovik"
-msgid "Assault SMG infantry"
+msgid "Assault SMG infantry [Danuvia 39M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/sturmovik2"
-msgid "Assault MG Operator"
+msgid "Assault MG Operator [Solothurn 31M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/sturmovik3"
-msgid "Assault Rifleman"
+msgid "Assault Rifleman [FEG 35M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/sturmovik4"
-msgid "Assault AT Rifleman"
+msgid "Assault AT Rifleman [Solothurn S/100]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/vehicle_supporter"
-msgid "Rifleman"
+msgid "Rifleman [Steyr Mannlicher M1895]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/pilot"
-msgid "Pilot"
+msgid "Pilot [FEG 37M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/gr_launcher"
-msgid "Mortar"
+msgid "Mortar [5cm leGrW 36]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/rifle_grenade"
-msgid "Pistol grenadier"
+msgid "Pistol grenadier [Kampfpistole]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/ap_miner"
-msgid "Combat Engineer (AP mines)"
+msgid "Combat Engineer (AP mines) [Steyr Mannlicher M1895]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/at_miner"
-msgid "Combat Engineer (AT mines)"
+msgid "Combat Engineer (AT mines) [Steyr Mannlicher M1895]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/at_rifle"
-msgid "AT infantry"
+msgid "AT infantry [Solothurn S/100]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/bazooker"
-msgid "Panzerschreck Infantry"
+msgid "Panzerschreck Infantry [RPzB 54 'Panzerschreck']"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/bazooker2"
-msgid "Panzerfaust Infantry"
+msgid "Panzerfaust Infantry [Danuvia 39M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/elite"
-msgid "Commando Rifleman"
+msgid "Commando Rifleman [FEG 35M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/elite2"
-msgid "Commando MG Operator"
+msgid "Commando MG Operator [Solothurn 31M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/elite3"
-msgid "Commando"
+msgid "Commando [ZH-29]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/elite4"
-msgid "Commando"
+msgid "Commando [FEG 35M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/elite5"
@@ -358,35 +358,35 @@ msgid "Field Engineer"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/flamer"
-msgid "Flamethrower infantry"
+msgid "Flamethrower infantry [Flamethrower]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/home_guard"
-msgid "Conscript"
+msgid "Conscript [Steyr Mannlicher M1895]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/medic"
-msgid "Machine Gunner"
+msgid "Machine Gunner [Steyr Mannlicher M1895]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/mgun"
-msgid "MG Operator"
+msgid "MG Operator [MG-13]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/mgun2"
-msgid "MG Operator"
+msgid "MG Operator [FEG 37M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/officer"
-msgid "Officer"
+msgid "Officer [FEG 37M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/rifle"
-msgid "Rifleman"
+msgid "Rifleman [FEG 35M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/rifle2"
-msgid "Rifleman"
+msgid "Rifleman [Steyr Mannlicher M1895]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/rifle3"
@@ -394,15 +394,15 @@ msgid "Rifleman"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/saper"
-msgid "Field Engineer"
+msgid "Field Engineer [Steyr Mannlicher M1895]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/smg"
-msgid "SMG infantry"
+msgid "SMG infantry [Danuvia 39M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/smg2"
-msgid "SMG infantry"
+msgid "SMG infantry [Danuvia 39M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/smg3"
@@ -410,253 +410,253 @@ msgid "SMG infantry"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/sniper"
-msgid "Sniper"
+msgid "Sniper [ZB 24/s]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/tankman"
-msgid "Tankman"
+msgid "Tankman [FEG 37M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/tankman2"
-msgid "Tank Commander"
+msgid "Tank Commander [Danuvia 39M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/radioman"
-msgid "Radio Operator"
+msgid "Radio Operator [Danuvia 39M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/squadleader"
-msgid "Squad Leader"
+msgid "Squad Leader [Danuvia 39M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/sturmovik"
-msgid "Assault SMG infantry"
+msgid "Assault SMG infantry [Danuvia 39M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/sturmovik2"
-msgid "Assault MG Operator"
+msgid "Assault MG Operator [Solothurn 31M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/sturmovik3"
-msgid "Assault SMG infantry"
+msgid "Assault SMG infantry [FEG 35M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/sturmovik4"
-msgid "Assault AT Rifle infantry"
+msgid "Assault AT Rifle infantry [Solothurn S/100]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/vehicle_supporter"
-msgid "Rifleman"
+msgid "Rifleman [Steyr Mannlicher M1895]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/pilot"
-msgid "Pilot"
+msgid "Pilot [FEG 37M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/gr_launcher"
-msgid "Mortar"
+msgid "Mortar [5cm leGrW 36]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/rifle_grenade"
-msgid "Pistol grenadier"
+msgid "Pistol grenadier [Kampfpistole]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/tank_commander"
-msgid "Tank Commander"
+msgid "Tank Commander [Danuvia 39M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/artilleryman"
-msgid "Artilleryman"
+msgid "Artilleryman [Steyr Mannlicher M1895]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/laszlo"
-msgid "Airborne Assault SMG"
+msgid "Airborne Assault SMG [Danuvia 43M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/laszlo2"
-msgid "Airborne Assault MG"
+msgid "Airborne Assault MG [Solothurn 31M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/laszlo3"
-msgid "Airborne Assault Rifle"
+msgid "Airborne Assault Rifle [FEG 35M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/elite2_assist"
-msgid "Commando MG assist."
+msgid "Commando MG assist. [FEG 35M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/mgun_assist"
-msgid "MG assist."
+msgid "MG assist. [FEG 35M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/mgun2_assist"
-msgid "MG assist."
+msgid "MG assist. [MG-13]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/sturmovik2_assist"
-msgid "Assault MG assist."
+msgid "Assault MG assist. [FEG 35M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/elite_sl"
-msgid "Commando Squad leader"
+msgid "Commando Squad leader [ZH-29]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/sturmovik_sl"
-msgid "Assault Squad leader"
+msgid "Assault Squad leader [Danuvia 39M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/laszlo"
-msgid "Airborne Assault SMG"
+msgid "Airborne Assault SMG [Danuvia 43M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/laszlo2"
-msgid "Airborne Assault MG"
+msgid "Airborne Assault MG [Solothurn 31M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/laszlo3"
-msgid "Airborne Assault Rifle"
+msgid "Airborne Assault Rifle [FEG 35M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/laszlo_sl"
-msgid "Airborne Assault Squad leader"
+msgid "Airborne Assault Squad leader [Danuvia 43M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/laszlo2_assist"
-msgid "Airborne Assault MG assist."
+msgid "Airborne Assault MG assist. [FEG 35M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/elite2_assist"
-msgid "Commando MG assist."
+msgid "Commando MG assist. [FEG 35M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/mgun_assist"
-msgid "MG assist."
+msgid "MG assist. [FEG 35M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/mgun2_assist"
-msgid "MG assist."
+msgid "MG assist. [MG-13]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/sturmovik2_assist"
-msgid "Assault MG assist."
+msgid "Assault MG assist. [FEG 35M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/elite_sl"
-msgid "Commando Squad leader"
+msgid "Commando Squad leader [ZH-29]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/sturmovik_sl"
-msgid "Assault Squad leader"
+msgid "Assault Squad leader [Danuvia 39M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/laszlo_sl"
-msgid "Airborne Assault Squad leader"
+msgid "Airborne Assault Squad leader [Danuvia 43M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/laszlo2_assist"
-msgid "Airborne Assault MG assist."
+msgid "Airborne Assault MG assist. [FEG 35M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/elite2_assist"
-msgid "Commando MG assist."
+msgid "Commando MG assist. [FEG 35M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/mgun_assist"
-msgid "MG assist."
+msgid "MG assist. [FEG 35M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/mgun2_assist"
-msgid "MG assist."
+msgid "MG assist. [MG-13]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/sturmovik2_assist"
-msgid "Assault MG assist."
+msgid "Assault MG assist. [FEG 35M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/elite_sl"
-msgid "Commando Squad leader"
+msgid "Commando Squad leader [ZH-29]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/sturmovik_sl"
-msgid "Assault Squad leader"
+msgid "Assault Squad leader [Danuvia 39M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/tank_commander"
-msgid "Tank Commander"
+msgid "Tank Commander [Danuvia 39M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/artilleryman"
-msgid "Artilleryman"
+msgid "Artilleryman [Steyr Mannlicher M1895]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/militarty-police"
-msgid "Militarty-police SMG"
+msgid "Militarty-police SMG [Danuvia 43M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/militarty-police2"
-msgid "Militarty-police MG"
+msgid "Militarty-police MG [Solothurn 31M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/militarty-police3"
-msgid "Militarty-police Rifle"
+msgid "Militarty-police Rifle [FEG 35M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/militarty-police_sl"
-msgid "Militarty-police Squad leader"
+msgid "Militarty-police Squad leader [Danuvia 43M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/militarty-police2_assist"
-msgid "Militarty-police MG assist."
+msgid "Militarty-police MG assist. [FEG 35M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/reco_sl"
-msgid "Reconnaissance Leader"
+msgid "Reconnaissance Leader [ZH-29]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/reco_rifle"
-msgid "Reconnaissance infantry"
+msgid "Reconnaissance infantry [FEG 35M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/reco_sl"
-msgid "Reconnaissance Leader"
+msgid "Reconnaissance Leader [ZH-29]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/reco_rifle"
-msgid "Reconnaissance infantry"
+msgid "Reconnaissance infantry [FEG 35M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/early/sturmovik4_assist"
-msgid "Assault AT assist."
+msgid "Assault AT assist. [Danuvia 39M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/late/sturmovik4_assist"
-msgid "Assault AT assist."
+msgid "Assault AT assist. [Danuvia 39M]"
 msgstr ""
 
 msgctxt "desc/human/mp/hun/mid/sturmovik4_assist"
-msgid "Assault AT assist."
+msgid "Assault AT assist. [Danuvia 39M]"
 msgstr ""
 
 msgctxt "desc/human/mp/ost/early/tankman"
-msgid "Tank crew"
+msgid "Tank crew [Walther P38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ost/mid/tankman"
-msgid "Tank crew"
+msgid "Tank crew [Walther P38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ost/early/tank_commander"
-msgid "Crew commander"
+msgid "Crew commander [MP 38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ost/mid/tank_commander"
-msgid "Crew commander"
+msgid "Crew commander [MP 38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ost/early/artilleryman"
-msgid "Artilleryman"
+msgid "Artilleryman [K98]"
 msgstr ""
 
 msgctxt "desc/human/mp/ost/mid/artilleryman"
-msgid "Artilleryman"
+msgid "Artilleryman [K98]"
 msgstr ""

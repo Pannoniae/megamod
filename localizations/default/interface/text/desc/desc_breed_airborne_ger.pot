@@ -175,7 +175,7 @@ msgid "SS-Panzer Aufklärer Asst. [StG 44]"
 msgstr ""
 
 msgctxt "desc/human/mp/ger/late/waffen_pzgren_at"
-msgid "SS-Panzergrenadier AT Inf."
+msgid "SS-Panzergrenadier AT Inf. [RPzB 54 'Panzerschreck']"
 msgstr ""
 
 msgctxt "desc/human/mp/ger/late/waffen_pzgren_mg"

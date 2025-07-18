@@ -7,7 +7,7 @@
 	{nationality pol}
 	{tags "officer"}
 	{armors
-		{head "hat_no4"}
+		{head "uk-hat_no4"}
 	}
 	{perks
 		(include "ability.inc")
@@ -19,13 +19,12 @@
 		("veterancy_lvl_0")
 	}
 	{inventory
-		{item "sten_mk2" filled}
+		{item "uk-sten_mk2" filled}
 		{item  "ammo 9x19b" 128}
 		{item "bandage_pol" 5}
-		{item "grenade mk1" 1}
+		{item "grenade uk-mk1" 1}
 	    {item "smoke grenade" 2}
 		{in_hands 0}
 	}
 }
 ;Cost=23;
-

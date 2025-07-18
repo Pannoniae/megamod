@@ -20,7 +20,7 @@
 		("veterancy_lvl_0")
 	}
 	{inventory
-		{item "sten_mk2" filled}
+		{item "uk-sten_mk2" filled}
 		{item  "ammo 9x19b" 128}
 		{item "flaergun" filled}
 		{item "ammo flare" 20}
@@ -29,4 +29,3 @@
 	}
 }
 ;Cost=14;
-

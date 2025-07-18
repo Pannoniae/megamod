@@ -20,7 +20,7 @@
 		("veterancy_lvl_0")
 	}
 	{inventory
-		{item "em3" filled}
+		{item "uk-em3" filled}
 		{item  "ammo 7x56" 160}
 		{item "smoke grenade" 2}
 		{item "bandage_pol" 25}
@@ -30,4 +30,3 @@
 	}
 }
 ;Cost=8;
-

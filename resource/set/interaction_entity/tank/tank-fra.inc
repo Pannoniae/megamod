@@ -141,6 +141,19 @@
 {"lorraine39"
 	("amr35_sound")
 }
+{"lorraine37l tank"
+	("amr35_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_45to47mm")
+	}		
+}
+{"lorraine39l_am tank"
+	("amr35_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_105to130mm_LV")
+	}		
+}
+
 {"amr35-13mm tank"
 	("amr35_sound")
 	{on "add_weapon_sound" overload
@@ -169,6 +182,16 @@
 		("MAC31")
 	}
 }
+{"h35 tank"
+	("h39_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_37to40mm")
+		("MAC31")
+	}
+	{on fire "gun" 
+		{ani_play "fire_35"}
+	}
+}
 {"h39 tank"
 	("h39_sound")
 	{on "add_weapon_sound" overload
@@ -177,6 +200,13 @@
 	}
 }
 {"s35 tank"
+	("s35_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_45to47mm")
+		("MAC31")
+	}
+}
+{"char_d1b tank"
 	("s35_sound")
 	{on "add_weapon_sound" overload
 		("Cannon_45to47mm")
@@ -208,6 +238,30 @@
 		}
 	}
 }
+{"fcm2c tank"
+	("b1bis_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_75to76mm_LV")
+		("Hotchkiss_MG")
+	}
+}
+{"arl44 tank"
+	("b1bis_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_85to100mm")
+		("MAC31")
+	}
+}
+{"arl44_early tank"
+	("b1bis_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
+		("MAC31")
+	}
+	{on fire "gun" 
+		{ani_play "fire2"}
+	}
+}
 {"bs-75 tank"
 	("t26_sound")
 	{on "add_weapon_sound" overload
@@ -219,6 +273,12 @@
 	{on "add_weapon_sound" overload
 		("Autocannon_s1")
 		("MAC31")
+	}
+}
+{"panhard_sa35"
+	("sdkfz234_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_45to47mm")
 	}
 }
 {"amc_p16 tank"

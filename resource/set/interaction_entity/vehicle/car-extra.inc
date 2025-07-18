@@ -70,4 +70,16 @@
 		{call "spawn_shell"}
 	}
 }
+{"cckw_2xt27"
+	("studebaker_sound")
+}
+{"cckw_m33"
+	("studebaker_sound")
+	{on "add_weapon_sound" overload
+		("M2HB_M33_Mount")
+	}
+
+	("multi_barrel_loop" flash(flash_gun_big) smoke(ejectsmoke_big) shell(shell_hmgun) weapon(mgun) head(0.115))
+
+}
 ;/*=========== Extra Car Specifics End  ===========*/

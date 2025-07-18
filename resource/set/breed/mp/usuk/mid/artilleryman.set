@@ -7,7 +7,7 @@
 	{icon "tech"}
 	{icon_priority 0}
 	{armors
-		{head "helmet_mkii"}
+		{head "uk-helmet_mkii"}
 	}
 	{perks
 		(include "ability.inc")
@@ -21,14 +21,13 @@
 		("veterancy_lvl_0")
 	}
 	{inventory
-		{item "sten_mkii" filled}
+		{item "uk-sten_mkii" filled}
 		{item  "ammo 9x19b" 288}
-		{item "bandage" 3}
-		{item "grenade mk1" 1}
+		{item "uk-bandage" 3}
+		{item "grenade uk-mk1" 1}
 		{item "smoke grenade" 1}
 		{in_hands 0}
 	}
 }
 ;Cost=13;
-
 

@@ -19,13 +19,12 @@
 		("veterancy_lvl_0")
 	}
 	{inventory
-		{item "bar" filled}
+		{item "us-bar" filled}
 		{item "ammo 7x63" 280}
 		{item "bandage_pol" 5}
-		{item "grenade mk1" 2}
+		{item "grenade uk-mk1" 2}
 		{item "sandbag_kit" 1}
 		{in_hands 0}
 	}
 }
 ;Cost=53;
-

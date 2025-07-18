@@ -277,8 +277,11 @@
 	}
 	{"schwimmwagen"
 		{vehicle_view "schwimmwagen"}
-	}	
-	
+	}
+	{"kfz70"
+		{vehicle_view "kfz70"}
+	}
+
 	;German BTR's
 	{"p204_f"
 		{vehicle_view "p204"}
@@ -604,6 +607,10 @@
 	{"il-2"
 		{vehicle_view "airborne"}
 	}
+	;Soviet Marine Units
+	{"mo4"
+		{vehicle_view "mo4"}
+	}
 
 	;Soviet Trailers
 	{"ap_2"
@@ -658,6 +665,9 @@
 	}
 	{"45mm_m42"
 		{vehicle_view "cannon_m37"}
+	}
+	{"45mm_21k_naval"
+		{vehicle_view "45mm_21k_naval"}
 	}
 	{"57mm_zis2"
 		{vehicle_view "cannon"}
@@ -1124,10 +1134,10 @@
 		{vehicle_view "cannon_50mm_krh38"}
 	}
 	{"50mm_pstk38"
-		{vehicle_view "cannon"}
+		{vehicle_view "cannon_50mm_pak38"}
 	}
 	{"50mm_pstk38_late"
-		{vehicle_view "cannon"}
+		{vehicle_view "cannon_50mm_pak38"}
 	}
 	{"75mm_pstk9738"
 		{vehicle_view "cannon_75mm_pstk9738"}
@@ -1142,6 +1152,12 @@
 		{vehicle_view "cannon_75mm_itk37"}
 	}
 	{"75mm_itk37_stat"
+		{vehicle_view "cannon_75mm_itk37_stat"}
+	}
+	{"75mm_itk37_stat_early"
+		{vehicle_view "cannon_75mm_itk37_stat"}
+	}
+	{"75mm_itk37_stat_late"
 		{vehicle_view "cannon_75mm_itk37_stat"}
 	}
 	{"76mm_k02"
@@ -1330,7 +1346,7 @@
 	{"drg_class75_rus"
 		{vehicle_view "drg_class75"}
 	}
-
+	
 	;Airborne Units
 	{"p47_d22"
 		{vehicle_view "p47_d22"}
@@ -1718,6 +1734,9 @@
 	{"m4a3_76w"
 		{vehicle_view "m4a3_76w"}
 	}
+	{"m4a3e4_rus"
+		{vehicle_view "m4a3_75w"}
+	}
 	{"m4a3_76w_field1"
 		{vehicle_view "m4a3_76w_hvss"}
 	}
@@ -2001,6 +2020,9 @@
 	{"22cm_mortier"
 		{vehicle_view "cannon_sig33"}
 	}
+	{"ue_chenillette"
+		{vehicle_view "t27"}
+	}
 	{"citroen_23r"
 		{vehicle_view "car"}
 	}
@@ -2014,10 +2036,13 @@
 		{vehicle_view "car"}
 	}
 	{"laffly_v15t"
-		{vehicle_view "car"}
+		{vehicle_view "wc52_50cal"}
 	}
 	{"laffly_v15t_mg"
-		{vehicle_view "car"}
+		{vehicle_view "wc52_50cal"}
+	}
+	{"laffly_v15t_hmg"
+		{vehicle_view "wc52_50cal"}
 	}
 	{"laffly15tcc"
 		{vehicle_view "gaz"}
@@ -2028,6 +2053,9 @@
 	{"panhard"
 		{vehicle_view "p204"}
 	}
+	{"panhard_sa35"
+		{vehicle_view "p204"}
+	}
 	{"bs-75"
 		{vehicle_view "ft17_fin"}
 	}
@@ -2036,6 +2064,9 @@
 	}
 	{"amr35-25mm"
 		{vehicle_view "t37a"}
+	}
+	{"h35"
+		{vehicle_view "pz38h_735"}
 	}
 	{"h39"
 		{vehicle_view "pz38h_735"}
@@ -2051,6 +2082,24 @@
 	}
 	{"s35"
 		{vehicle_view "pz35s"}
+	}
+	{"char_d1b"
+		{vehicle_view "pz35s"}
+	}
+	{"char_d2"
+		{vehicle_view "pz35s"}
+	}
+	{"b1bis"
+		{vehicle_view "b2_bis"}
+	}
+	{"fcm2c"
+		{vehicle_view "b2_bis"}
+	}
+	{"arl44"
+		{vehicle_view "tiger2h"}
+	}
+	{"arl44_early"
+		{vehicle_view "tiger2h"}
 	}
 	{"char_d2"
 		{vehicle_view "pz35s"}
@@ -2181,6 +2230,9 @@
 	{"crusader_fr"
 		{vehicle_view "crusader"}
 	}
+	{"renault_aa"
+		{vehicle_view "opel_flak30"}
+	}
 	{"renault_agk"
 		{vehicle_view "car"}
 	}
@@ -2204,6 +2256,9 @@
 	}
 	{"m4hst_fr"
 		{vehicle_view "m4hst"}
+	}
+	{"105mm_mle1934"
+		{vehicle_view "cannon"}
 	}
 	{"155mm_gpf"
 		{vehicle_view "cannon"}
@@ -2243,6 +2298,12 @@
 	}
 	{"lorraine39"
 		{vehicle_view "t20"}
+	}
+	{"lorraine37l"
+		{vehicle_view "panzerjager1"}
+	}
+	{"lorraine39l_am"
+		{vehicle_view "panzerjager1"}
 	}
 	;=================== French vehicles END ===================
 	
@@ -3286,6 +3347,9 @@
 	{"np_churchill_mk_ii"
 		{vehicle_view "churchill3"}
 	}
+	{"np_churchill_mk_iii"
+		{vehicle_view "churchill3"}
+	}
 	{"np_churchill_mk_iv"
 		{vehicle_view "churchill3"}
 	}
@@ -3390,6 +3454,9 @@
 	}
 	{"np_willys"
 		{vehicle_view "gaz67"}
+	}
+	{"np_willys_2xmg"
+		{vehicle_view "uk_willys"}
 	}
 	{"np_75_mm_m1a1"
 		{vehicle_view "cannon_sig33"}
@@ -3850,6 +3917,21 @@
 	}
 	{"np_m30kangaroo"
 		{vehicle_view "t20"}
+	}
+	{"np_-a25_harry"
+		{vehicle_view "m5a1_stuart"}
+	}
+	{"matilda_mkii_fr"
+		{vehicle_view "valentine2"}
+	}
+	{"qf2pdr_fr"
+		{vehicle_view "cannon"}
+	}
+	{"universal_carrier_fr"
+		{vehicle_view "universal"}
+	}
+	{"willys_2xmg"
+		{vehicle_view "uk_willys"}
 	}
 	(include "unit_extra.inc")
 }

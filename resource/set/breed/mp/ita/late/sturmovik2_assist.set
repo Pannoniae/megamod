@@ -11,7 +11,7 @@
 	}
 	{perks
 		(include "ability.inc")
-		("rifle_skill_rank_4")
+		("loader_skill_rank_4")
 		("at_rank_3")
 		("tier4_standard")
 	}
@@ -34,4 +34,3 @@
 	}
 }
 ;Cost=23;
-

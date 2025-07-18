@@ -19,7 +19,7 @@
 		("veterancy_lvl_0")
 	}
 	{inventory
-		{item "sten_mkii" filled}
+		{item "uk-sten_mkii" filled}
 		{item  "ammo 9x19b" 288}
 		{item "mine antipersonnel" 15}
 		{item "barbwire_kit" 1}
@@ -29,4 +29,3 @@
 	}
 }
 ;Cost=40;
-

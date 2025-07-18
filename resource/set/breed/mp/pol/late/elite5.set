@@ -19,11 +19,11 @@
 		("veterancy_lvl_0")
 	}
 	{inventory
-		{item "em4" filled}
+		{item "uk-em4" filled}
 		{item  "ammo 7x56" 160}
 		{item "bandage_pol" 5}
-		{item "grenade mk1" 2}
-		{item "grenade n73at" 1}
+		{item "grenade uk-mk1" 2}
+		{item "grenade uk-n73at" 1}
 		{item "smoke grenade" 2}
 		{item "mine antitank" 1}
 		{item "sandbag_kit" 1}
@@ -32,4 +32,3 @@
 	}
 }
 ;Cost=13;
-

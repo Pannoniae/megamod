@@ -8,7 +8,7 @@
 	{calibre 75}
 	("curved_firing_arc")
 	("reload time" seconds(7))
-	("velocity m/s" ap(400) apcr(1) he(450) heat(450))
+	("velocity m/s lowarc" ap(400) apcr(1) he(450) heat(450))
 	("armor health" damage(200))
 	("75_slope_multipliers")
 	("penetration_medium" shell(ap) range(190) a(62) b(55) c(47) d(41) e(35))

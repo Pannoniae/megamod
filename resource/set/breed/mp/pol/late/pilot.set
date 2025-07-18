@@ -21,11 +21,10 @@
 		("veterancy_lvl_0")
 	}
 	{inventory
-		{item "webley" filled}
+		{item "uk-webley" filled}
 		{item  "ammo 11x21" 90}
 		{item "bandage_pol" 1}
 		{in_hands 0}
 	}
 }
 ;Cost=4;
-

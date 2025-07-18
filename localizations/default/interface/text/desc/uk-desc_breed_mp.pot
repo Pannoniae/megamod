@@ -15,55 +15,55 @@ msgstr ""
 
 
 msgctxt "desc/human/mp/eng/mid/ap_miner"
-msgid "Combat Engineer (AP mines)"
+msgid "Combat Engineer (AP mines) [Sten Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/at_miner"
-msgid "Combat Engineer (AT mines)"
+msgid "Combat Engineer (AT mines) [Sten Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/at_rifle"
-msgid "AT infantry"
+msgid "AT infantry [Boyes .55 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/at_rifle2"
-msgid "AT infantry"
+msgid "AT infantry [Sten Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/bazooker"
-msgid "AT infantry"
+msgid "AT infantry [P.I.A.T. Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/bazooker2"
-msgid "AT support infantry"
+msgid "AT support infantry [Sten Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/elite"
-msgid "Scout SMG"
+msgid "Scout SMG [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/elite2"
-msgid "Scout Rifleman"
+msgid "Scout Rifleman [M1 Garand]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/elite3"
-msgid "Scout MG Operator"
+msgid "Scout MG Operator [Bren]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/elite4"
-msgid "Para SMG"
+msgid "Para SMG [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/elite5"
-msgid "Para Rifleman"
+msgid "Para Rifleman [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/elite6"
-msgid "Para MG Operator"
+msgid "Para MG Operator [Bren]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/elite_at"
-msgid "Scout AT infantry"
+msgid "Scout AT infantry [P.I.A.T. Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/engineer"
@@ -71,183 +71,183 @@ msgid "Engineer"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/flamer"
-msgid "Flamethrower infantry"
+msgid "Flamethrower infantry [Flamer E5R2-M3]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/flamer2"
-msgid "Flamethrower support"
+msgid "Flamethrower support [Sten Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/gr_launcher"
-msgid "Mortarman"
+msgid "Mortarman [Mortar MK VII]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/mgun"
-msgid "MG Operator"
+msgid "MG Operator [Bren]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/mgun2"
-msgid "MG Operator"
+msgid "MG Operator [Bren]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/medic"
-msgid "Medic"
+msgid "Medic [Lee-Enfield Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/officer"
-msgid "Officer"
+msgid "Officer [Webley]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/pilot"
-msgid "Pilot"
+msgid "Pilot [Webley]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/radioman"
-msgid "Radio Operator"
+msgid "Radio Operator [Sten Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/rifle"
-msgid "Rifleman"
+msgid "Rifleman [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/rifle_grenade"
-msgid "Rifle grenadier"
+msgid "Rifle grenadier [Rifle grenade No.4]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/rifle2"
-msgid "Rifleman"
+msgid "Rifleman [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/rifle3"
-msgid "Rifleman"
+msgid "Rifleman [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/saper"
-msgid "Field Engineer"
+msgid "Field Engineer [Sten Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/smg"
-msgid "SMG infantry"
+msgid "SMG infantry [Sten Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/smg2"
-msgid "SMG infantry"
+msgid "SMG infantry [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/smg3"
-msgid "SMG infantry"
+msgid "SMG infantry [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/sniper"
-msgid "Sniper"
+msgid "Sniper [Lee-Enfield No. 4 sniper]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/squadleader"
-msgid "Squad Leader"
+msgid "Squad Leader [Sten Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/squadleader2"
-msgid "Squad Leader"
+msgid "Squad Leader [Rifle grenade No.4]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/sturmovik"
-msgid "Commando SMG"
+msgid "Commando SMG [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/sturmovik2"
-msgid "Commando MG operator"
+msgid "Commando MG operator [Lewis Gun]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/sturmovik3"
-msgid "Commando PIAT operator"
+msgid "Commando PIAT operator [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/sturmovik4"
-msgid "Commando Boyes operator"
+msgid "Commando Boyes operator [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/sturmovik4b"
-msgid "Commando Rifleman"
+msgid "Commando Rifleman [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/sturmovik4c"
-msgid "Commando Rifleman"
+msgid "Commando Rifleman [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/sturmovik5"
-msgid "Commando PIAT operator"
+msgid "Commando PIAT operator [P.I.A.T. Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/sturmovik5b"
-msgid "Commando SMG"
+msgid "Commando SMG [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/sturmovik6"
-msgid "Commando MG operator"
+msgid "Commando MG operator [Bren]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/sturmovik6b"
-msgid "Commando MG assist."
+msgid "Commando MG assist. [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/tankman"
-msgid "Tank crew"
+msgid "Tank crew [Webley]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/tankman2"
-msgid "Tank commander"
+msgid "Tank commander [Sten Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/vehicle_supporter"
-msgid "Rifleman"
+msgid "Rifleman [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/ap_miner"
-msgid "Combat Engineer (AP mines)"
+msgid "Combat Engineer (AP mines) [Sten Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/at_miner"
-msgid "Combat Engineer (AT mines)"
+msgid "Combat Engineer (AT mines) [Sten Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/at_rifle"
-msgid "AT infantry"
+msgid "AT infantry [Boyes .55 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/at_rifle2"
-msgid "AT support infantry"
+msgid "AT support infantry [Sten Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/bazooker"
-msgid "AT infantry"
+msgid "AT infantry [P.I.A.T. Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/bazooker2"
-msgid "AT support infantry"
+msgid "AT support infantry [Sten Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/elite"
-msgid "Scout SMG"
+msgid "Scout SMG [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/elite2"
-msgid "Scout Rifleman"
+msgid "Scout Rifleman [M1 Garand]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/elite3"
-msgid "Scout MG Operator"
+msgid "Scout MG Operator [Bren]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/elite4"
-msgid "Para SMG"
+msgid "Para SMG [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/elite5"
-msgid "Para Rifleman"
+msgid "Para Rifleman [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/elite6"
-msgid "Para MG Operator"
+msgid "Para MG Operator [Bren]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/engineer"
@@ -255,191 +255,191 @@ msgid "Field Engineer"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/flamer"
-msgid "Flamethrower infantry"
+msgid "Flamethrower infantry [M2 Flamethrower]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/gr_launcher"
-msgid "Mortarman"
+msgid "Mortarman [Mortar MK VII]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/mgun"
-msgid "MG Operator"
+msgid "MG Operator [Bren]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/mgun2"
-msgid "MG Operator"
+msgid "MG Operator [Bren]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/medic"
-msgid "Medic"
+msgid "Medic [Lee-Enfield Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/officer"
-msgid "Officer"
+msgid "Officer [Webley]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/pilot"
-msgid "Pilot"
+msgid "Pilot [Webley]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/radioman"
-msgid "Radio Operator"
+msgid "Radio Operator [Sten Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/rifle"
-msgid "Rifleman"
+msgid "Rifleman [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/rifle_grenade"
-msgid "Grenade rifleman"
+msgid "Grenade rifleman [Rifle grenade No.4]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/rifle2"
-msgid "Rifleman"
+msgid "Rifleman [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/rifle3"
-msgid "Rifleman"
+msgid "Rifleman [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/saper"
-msgid "Field Engineer"
+msgid "Field Engineer [Sten Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/smg"
-msgid "SMG infantry"
+msgid "SMG infantry [Sten Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/smg2"
-msgid "SMG infantry"
+msgid "SMG infantry [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/sniper"
-msgid "Sniper"
+msgid "Sniper [Lee-Enfield No. 4 sniper]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/squadleader"
-msgid "Squad Leader"
+msgid "Squad Leader [Sten Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/squadleader2"
-msgid "Squad Leader"
+msgid "Squad Leader [Rifle grenade No.4]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/sturmovik"
-msgid "Commando SMG"
+msgid "Commando SMG [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/sturmovik2"
-msgid "Commando MG operator"
+msgid "Commando MG operator [Lewis Gun]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/sturmovik3"
-msgid "Commando PIAT operator"
+msgid "Commando PIAT operator [Sten Mk.V]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/sturmovik4"
-msgid "Commando Boyes operator"
+msgid "Commando Boyes operator [Sten Mk.V]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/sturmovik4b"
-msgid "Commando Rifleman"
+msgid "Commando Rifleman [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/sturmovik5"
-msgid "Commando PIAT operator"
+msgid "Commando PIAT operator [P.I.A.T. Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/sturmovik5b"
-msgid "Commando PIAT assist."
+msgid "Commando PIAT assist. [Sten Mk.V]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/sturmovik6"
-msgid "Commando MG operator"
+msgid "Commando MG operator [Bren]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/sturmovik6b"
-msgid "Commando MG assist."
+msgid "Commando MG assist. [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/tankman"
-msgid "Tank crew"
+msgid "Tank crew [Webley]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/tankman2"
-msgid "Tank commander"
+msgid "Tank commander [Sten Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/vehicle_supporter"
-msgid "Rifleman"
+msgid "Rifleman [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/tank_commander"
-msgid "Crew commander"
+msgid "Crew commander [Sten Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/artilleryman"
-msgid "Artilleryman"
+msgid "Artilleryman [Lee-Enfield Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/tank_commander"
-msgid "Tank commander"
+msgid "Tank commander [Sten Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/artilleryman"
-msgid "Artilleryman"
+msgid "Artilleryman [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/tank_commander"
-msgid "Crew commander"
+msgid "Crew commander [Sten Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/artilleryman"
-msgid "Artilleryman"
+msgid "Artilleryman [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/ap_miner"
-msgid "Combat Engineer (AP mines)"
+msgid "Combat Engineer (AP mines) [Lee-Enfield Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/at_miner"
-msgid "Combat Engineer (AT mines)"
+msgid "Combat Engineer (AT mines) [Lee-Enfield Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/at_rifle"
-msgid "AT infantry"
+msgid "AT infantry [Boyes .55 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/at_rifle2"
-msgid "AT support infantry"
+msgid "AT support infantry [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/elite"
-msgid "Scout SMG"
+msgid "Scout SMG [Lanchester Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/elite2"
-msgid "Scout Rifleman"
+msgid "Scout Rifleman [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/elite3"
-msgid "Scout MG Operator"
+msgid "Scout MG Operator [Bren]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/elite4"
-msgid "Para SMG"
+msgid "Para SMG [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/elite5"
-msgid "Para Rifleman"
+msgid "Para Rifleman [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/elite6"
-msgid "Para MG Operator"
+msgid "Para MG Operator [Bren]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/elite_at"
-msgid "Scout AT infantry"
+msgid "Scout AT infantry [Boyes .55 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/engineer"
@@ -447,239 +447,239 @@ msgid "Field Engineer"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/flamer"
-msgid "Flamethrower infantry"
+msgid "Flamethrower infantry [Flamer E5R2-M3]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/flamer2"
-msgid "Flamethrower support"
+msgid "Flamethrower support [Lee-Enfield Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/gr_launcher"
-msgid "Mortarman"
+msgid "Mortarman [Mortar MK VII]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/mgun"
-msgid "MG Operator"
+msgid "MG Operator [Bren]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/mgun2"
-msgid "MG Operator"
+msgid "MG Operator [Bren]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/medic"
-msgid "Medic"
+msgid "Medic [Lee-Enfield Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/officer"
-msgid "Officer"
+msgid "Officer [Webley]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/pilot"
-msgid "Pilot"
+msgid "Pilot [Webley]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/radioman"
-msgid "Radio Operator"
+msgid "Radio Operator [Sten Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/rifle"
-msgid "Rifleman"
+msgid "Rifleman [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/rifle_grenade"
-msgid "Rifle grenadier"
+msgid "Rifle grenadier [Rifle grenade No.4]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/rifle2"
-msgid "Rifleman"
+msgid "Rifleman [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/rifle3"
-msgid "Rifleman"
+msgid "Rifleman [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/saper"
-msgid "Field Engineer"
+msgid "Field Engineer [Sten Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/smg"
-msgid "SMG infantry"
+msgid "SMG infantry [Lanchester Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/smg2"
-msgid "SMG infantry"
+msgid "SMG infantry [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/smg3"
-msgid "SMG infantry"
+msgid "SMG infantry [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/sniper"
-msgid "Sniper"
+msgid "Sniper [Lee-Enfield No. 4 sniper]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/squadleader"
-msgid "Squad Leader"
+msgid "Squad Leader [Sten Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/squadleader2"
-msgid "Squad Leader"
+msgid "Squad Leader [Rifle grenade No.4]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/sturmovik"
-msgid "Commando SMG"
+msgid "Commando SMG [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/sturmovik2"
-msgid "Commando MG operator"
+msgid "Commando MG operator [Lewis Gun]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/sturmovik3"
-msgid "Commando Boyes operator"
+msgid "Commando Boyes operator [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/sturmovik4"
-msgid "Commando AT infantry"
+msgid "Commando AT infantry [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/sturmovik4b"
-msgid "Commando Rifleman"
+msgid "Commando Rifleman [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/sturmovik4c"
-msgid "Commando Rifleman"
+msgid "Commando Rifleman [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/sturmovik5"
-msgid "Commando Boyes operator"
+msgid "Commando Boyes operator [Boyes .55 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/sturmovik5b"
-msgid "Commando AT infantry"
+msgid "Commando AT infantry [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/sturmovik6"
-msgid "Commando MG operator"
+msgid "Commando MG operator [Bren]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/sturmovik6b"
-msgid "Commando MG assist."
+msgid "Commando MG assist. [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/tankman"
-msgid "Tank crew"
+msgid "Tank crew [Webley]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/tankman2"
-msgid "Tank commander"
+msgid "Tank commander [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/vehicle_supporter"
-msgid "Soldier"
+msgid "Soldier [Lee-Enfield Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/vehicle_supporter2"
-msgid "BEF Artilleryman"
+msgid "BEF Artilleryman [Lee-Enfield Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/mgun3"
-msgid "Highlander MG operator"
+msgid "Highlander MG operator [Bren]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/rifle4"
-msgid "Highlander Rifleman"
+msgid "Highlander Rifleman [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/smg4"
-msgid "Highlander SMG infantry"
+msgid "Highlander SMG infantry [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/squadleader3"
-msgid "Highlander Section Leader"
+msgid "Highlander Section Leader [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/mgun3"
-msgid "Highlander MG Operator"
+msgid "Highlander MG Operator [Bren]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/rifle4"
-msgid "Highlander Rifleman"
+msgid "Highlander Rifleman [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/smg4"
-msgid "Highlander SMG infantry"
+msgid "Highlander SMG infantry [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/squadleader3"
-msgid "Highlander Section Leader"
+msgid "Highlander Section Leader [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/reco"
-msgid "Reconnaissance Leader"
+msgid "Reconnaissance Leader [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/reco2"
-msgid "Reconnaissance infantry"
+msgid "Reconnaissance infantry [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/reco3"
-msgid "Reconnaissance sniper"
+msgid "Reconnaissance sniper [Lee-Enfield No. 4 sniper]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/elite3_assist"
-msgid "Scout MG assist."
+msgid "Scout MG assist. [M1 Garand]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/elite6_assist"
-msgid "Para MG assist."
+msgid "Para MG assist. [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/mgun_assist"
-msgid "MG assistant"
+msgid "MG assistant [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/mgun2_assist"
-msgid "MG assistant"
+msgid "MG assistant [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/mgun3_assist"
-msgid "Highlander MG assist."
+msgid "Highlander MG assist. [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/sturmovik2_assist"
-msgid "Commando MG assist."
+msgid "Commando MG assist. [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/elite_sl"
-msgid "Scout Commander"
+msgid "Scout Commander [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/elite4_sl"
-msgid "Para Commander"
+msgid "Para Commander [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/sturmovik_sl"
-msgid "Commando Squad leader"
+msgid "Commando Squad leader [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/elite3_assist"
-msgid "Scout MG assist."
+msgid "Scout MG assist. [M1903A3 Springfield]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/elite6_assist"
-msgid "Para MG assist."
+msgid "Para MG assist. [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/mgun_assist"
-msgid "MG assistant"
+msgid "MG assistant [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/mgun2_assist"
-msgid "MG assistant"
+msgid "MG assistant [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/sturmovik2_assist"
-msgid "Commando MG assist."
+msgid "Commando MG assist. [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/elite_sl"
@@ -687,59 +687,59 @@ msgid "Scout Commander"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/elite4_sl"
-msgid "Para Commander"
+msgid "Para Commander [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/sturmovik_sl"
-msgid "Commando Squad leader"
+msgid "Commando Squad leader [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/elite3_assist"
-msgid "Scout MG assist."
+msgid "Scout MG assist. [M1 Garand]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/elite6_assist"
-msgid "Para MG assist."
+msgid "Para MG assist. [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/mgun_assist"
-msgid "MG assistant"
+msgid "MG assistant [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/mgun2_assist"
-msgid "MG assistant"
+msgid "MG assistant [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/mgun3_assist"
-msgid "Highlander MG assist."
+msgid "Highlander MG assist. [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/sturmovik2_assist"
-msgid "Commando MG assist."
+msgid "Commando MG assist. [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/elite_sl"
-msgid "Scout Commander"
+msgid "Scout Commander [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/elite4_sl"
-msgid "Para Commander"
+msgid "Para Commander [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/sturmovik_sl"
-msgid "Commando Squad leader"
+msgid "Commando Squad leader [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/mgun_can"
-msgid "Canadian MG Operator"
+msgid "Canadian MG Operator [Bren]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/rifle_can"
-msgid "Canadian Rifleman"
+msgid "Canadian Rifleman [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/smg_can"
-msgid "Canadian SMG infantry"
+msgid "Canadian SMG infantry [M1928A1 Thompson]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/smg2_can"
@@ -747,24 +747,24 @@ msgid "Canadian SMG infantry"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/squadleader_can"
-msgid "Canadian Section Leader"
+msgid "Canadian Section Leader [Lee-Enfield Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/mgun_assist_can"
-msgid "Canadian MG assistant"
+msgid "Canadian MG assistant [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 
 msgctxt "desc/human/mp/eng/late/mgun_can"
-msgid "Canadian MG Operator"
+msgid "Canadian MG Operator [Bren]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/rifle_can"
-msgid "Canadian Rifleman"
+msgid "Canadian Rifleman [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/smg_can"
-msgid "Canadian SMG infantry"
+msgid "Canadian SMG infantry [M1928A1 Thompson]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/smg2_can"
@@ -772,99 +772,99 @@ msgid "Canadian SMG infantry"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/squadleader_can"
-msgid "Canadian Section Leader"
+msgid "Canadian Section Leader [Lee-Enfield Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/mgun_assist_can"
-msgid "Canadian MG assistant"
+msgid "Canadian MG assistant [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/mgun3"
-msgid "BEF MG Operator"
+msgid "BEF MG Operator [Bren]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/rifle4"
-msgid "BEF Rifleman"
+msgid "BEF Rifleman [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/squadleader3"
-msgid "BEF Section Leader"
+msgid "BEF Section Leader [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/early/mgun3_assist"
-msgid "BEF MG assistant"
+msgid "BEF MG assistant [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/vehicle_supporter2"
-msgid "BEF Artilleryman"
+msgid "BEF Artilleryman [Lee-Enfield Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/reco"
-msgid "Reconnaissance Leader"
+msgid "Reconnaissance Leader [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/reco2"
-msgid "Reconnaissance infantry"
+msgid "Reconnaissance infantry [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/reco3"
-msgid "Reconnaissance sniper"
+msgid "Reconnaissance sniper [Lee-Enfield No. 4 sniper]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/reco_nco"
-msgid "Reconnaissance Leader"
+msgid "Reconnaissance Leader [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/reco_rifle"
-msgid "Reconnaissance infantry"
+msgid "Reconnaissance infantry [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/reco_nco"
-msgid "Reconnaissance Leader"
+msgid "Reconnaissance Leader [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/reco_rifle"
-msgid "Reconnaissance infantry"
+msgid "Reconnaissance infantry [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/elite_at"
-msgid "Scout AT infantry"
+msgid "Scout AT infantry [P.I.A.T. Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/flamer2"
-msgid "Flamethrower support"
+msgid "Flamethrower support [Sten Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/smg3"
-msgid "SMG infantry"
+msgid "SMG infantry [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/sturmovik4c"
-msgid "Commando Rifleman"
+msgid "Commando Rifleman [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/allies/early/tankman"
-msgid "Tank crew"
+msgid "Tank crew [Webley]"
 msgstr ""
 
 msgctxt "desc/human/mp/allies/mid/tankman"
-msgid "Tank crew"
+msgid "Tank crew [Webley]"
 msgstr ""
 
 msgctxt "desc/human/mp/allies/early/tank_commander"
-msgid "Crew commander"
+msgid "Crew commander [Sten Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/allies/mid/tank_commander"
-msgid "Crew commander"
+msgid "Crew commander [Sten Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/allies/early/artilleryman"
-msgid "Artilleryman"
+msgid "Artilleryman [Lee-Enfield Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/allies/mid/artilleryman"
-msgid "Artilleryman"
+msgid "Artilleryman [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/useng/early/tankman"
@@ -892,109 +892,109 @@ msgid "Artilleryman"
 msgstr ""
 
 msgctxt "desc/human/mp/frabri/early/tankman"
-msgid "Tank crew"
+msgid "Tank crew [Webley]"
 msgstr ""
 
 msgctxt "desc/human/mp/frabri/mid/tankman"
-msgid "Tank crew"
+msgid "Tank crew [Webley]"
 msgstr ""
 
 msgctxt "desc/human/mp/frabri/early/tank_commander"
-msgid "Crew commander"
+msgid "Crew commander [Sten Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/frabri/mid/tank_commander"
-msgid "Crew commander"
+msgid "Crew commander [Sten Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/frabri/early/artilleryman"
-msgid "Artilleryman"
+msgid "Artilleryman [Lee-Enfield Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/frabri/mid/artilleryman"
-msgid "Artilleryman"
+msgid "Artilleryman [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/sas_mgun"
-msgid "SAS MG Operator"
+msgid "SAS MG Operator [Bren]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/sas_rfl"
-msgid "SAS Rifleman"
+msgid "SAS Rifleman [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/sas_smg"
-msgid "SAS SMG infantry"
+msgid "SAS SMG infantry [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/sas_sl"
-msgid "SAS Section Leader"
+msgid "SAS Section Leader [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/sas_assist"
-msgid "SAS MG assistant"
+msgid "SAS MG assistant [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/sas_mgun"
-msgid "SAS MG Operator"
+msgid "SAS MG Operator [Bren]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/sas_rfl"
-msgid "SAS Rifleman"
+msgid "SAS Rifleman [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/sas_smg"
-msgid "SAS SMG infantry"
+msgid "SAS SMG infantry [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/sas_sl"
-msgid "SAS Section Leader"
+msgid "SAS Section Leader [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/sas_assist"
-msgid "SAS MG assistant"
+msgid "SAS MG assistant [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/mid/sas_at"
-msgid "SAS AT infantry"
+msgid "SAS AT infantry [P.I.A.T. Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/sas_at"
-msgid "SAS AT infantry"
+msgid "SAS AT infantry [P.I.A.T. Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/pioneer_at"
-msgid "Pioneer PIAT"
+msgid "Pioneer PIAT [P.I.A.T. Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/pioneer_rifle"
-msgid "Pioneer Rifle"
+msgid "Pioneer Rifle [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/pioneer_flamer"
-msgid "Pioneer Flamer"
+msgid "Pioneer Flamer [Flamer E5R2-M3]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/pioneer_grenadier"
-msgid "Pioneer Grenadier"
+msgid "Pioneer Grenadier [Rifle grenade No.4]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/pioneer_sl"
-msgid "Pioneer Section Leader"
+msgid "Pioneer Section Leader [Sten Mk.III]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/para1st_smg"
-msgid "1st Para Battalion SMG"
+msgid "1st Para Battalion SMG [Sten Mk.II]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/para1st_rfl"
-msgid "1st Para Battalion Rifle"
+msgid "1st Para Battalion Rifle [Lee-Enfield No. 4 Mk.I]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/para1st_mg"
-msgid "1st Para Battalion MG"
+msgid "1st Para Battalion MG [Bren]"
 msgstr ""
 
 msgctxt "desc/human/mp/eng/late/para1st_assist"
-msgid "1st Para Battalion MG assistant"
+msgid "1st Para Battalion MG assistant [Lee-Enfield No. 4 Mk.I]"
 msgstr ""

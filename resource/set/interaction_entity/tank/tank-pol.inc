@@ -913,3 +913,13 @@
 		("ZB37")
 	}
 }
+{"matilda_mkii_fr" 
+	("cromwell_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_37to40mm")
+		("ZB37")
+	}
+}
+{"universal_carrier_fr tank"
+	("universal_carrier_sound")
+}

@@ -11,7 +11,7 @@
 	}
 	{perks
 		(include "ability.inc")
-		("rifle_skill_rank_4")
+		("loader_skill_rank_4")
 		("tier4_standard")
 	}
 	{veterancy
@@ -19,11 +19,11 @@
 		("veterancy_lvl_0")
 	}
 	{inventory
-		{item "m1903" filled}
+		{item "us-m1903" filled}
 		{item "ammo 7x63" 80}
 		{item "bandage_pol" 5}
-		{item "grenade mk1" 2}
-		{item "grenade n73at" 1}
+		{item "grenade uk-mk1" 2}
+		{item "grenade uk-n73at" 1}
 		{item "smoke grenade" 2}
 		{item "sandbag_kit" 1}
 		{item "small_inf_shovel"}
@@ -32,4 +32,3 @@
 	}
 }
 ;Cost=18;
-

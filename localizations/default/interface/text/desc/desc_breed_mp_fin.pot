@@ -14,71 +14,71 @@ msgstr ""
 "X-Generator: Poedit 2.3\n"
 
 msgctxt "desc/human/mp/fin/early/antitank_asst"
-msgid "AT support inf."
+msgid "AT support inf. [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/antitank_rifle"
-msgid "AT rifle inf."
+msgid "AT rifle inf. [Boys Mk.I AT rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/artilleryman"
-msgid "Artilleryman"
+msgid "Artilleryman [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/border_guard_mg"
-msgid "Rajavartija MG Operator"
+msgid "Rajavartija MG Operator [Lahti-Saloranta M/26]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/border_guard_mg_asst"
-msgid "Rajavartija MG Asst."
+msgid "Rajavartija MG Asst. [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/border_guard_rifle"
-msgid "Rajavartija"
+msgid "Rajavartija [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/border_guard_sa"
-msgid "Rajavartija"
+msgid "Rajavartija [SVT-38]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/border_guard_sl"
-msgid "Rajavartija Squadleader"
+msgid "Rajavartija Squadleader [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/border_guard_smg"
-msgid "Rajavartija"
+msgid "Rajavartija [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/border_guard_smg_stick"
-msgid "Rajavartija"
+msgid "Rajavartija [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/cav_mg"
-msgid "Ratsuväki MG Operator"
+msgid "Ratsuväki MG Operator [Lahti-Saloranta M/26]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/cav_mg_asst"
-msgid "Ratsuväki MG Asst."
+msgid "Ratsuväki MG Asst. [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/cav_rifle"
-msgid "Ratsuväki"
+msgid "Ratsuväki [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/cav_sa"
-msgid "Ratsuväki"
+msgid "Ratsuväki [SVT-38]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/cav_sl"
-msgid "Ratsuväki Squadleader"
+msgid "Ratsuväki Squadleader [Bergmann M1920]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/cav_smg"
-msgid "Ratsuväki"
+msgid "Ratsuväki [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/cav_smg_stick"
-msgid "Ratsuväki"
+msgid "Ratsuväki [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/chauchat"
@@ -86,259 +86,259 @@ msgid "MG Operator"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/civil_guard_mg"
-msgid "Civil Guard MG Operator"
+msgid "Civil Guard MG Operator [Madsen M20]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/civil_guard_rifle"
-msgid "Civil Guard Rifleman"
+msgid "Civil Guard Rifleman [Mosin Nagant]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/civil_guard_rifle_helm"
-msgid "Civil Guard Rifleman"
+msgid "Civil Guard Rifleman [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/civil_guard_sl"
-msgid "Civil Guard Squadleader"
+msgid "Civil Guard Squadleader [Bergmann M1920]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/engineer_builder"
-msgid "Pioneeri Engineer"
+msgid "Pioneeri Engineer [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/engineer_heavy"
-msgid "Pioneeri Heavy Engineer"
+msgid "Pioneeri Heavy Engineer [Lahti L-35]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/engineer_mine_at"
-msgid "Pioneeri AT Miner"
+msgid "Pioneeri AT Miner [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/engineer_mine_d"
-msgid "Pioneeri"
+msgid "Pioneeri [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/engineer_rifle"
-msgid "Pioneeri"
+msgid "Pioneeri [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/engineer_sl"
-msgid "Pioneeri Squadleader"
+msgid "Pioneeri Squadleader [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/jag_mg"
-msgid "Jääkäri MG Operator"
+msgid "Jääkäri MG Operator [Lahti-Saloranta M/26]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/jag_mg_asst"
-msgid "Jääkäri MG Asst."
+msgid "Jääkäri MG Asst. [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/jag_rifle"
-msgid "Jääkäri"
+msgid "Jääkäri [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/jag_sa"
-msgid "Jääkäri"
+msgid "Jääkäri [SVT-38]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/jag_sl"
-msgid "Jääkäri Squadleader"
+msgid "Jääkäri Squadleader [Bergmann M1920]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/jag_smg"
-msgid "Jääkäri"
+msgid "Jääkäri [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/jag_smg_stick"
-msgid "Jääkäri"
+msgid "Jääkäri [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/marksman"
-msgid "Marksman"
+msgid "Marksman [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/marksman_sa"
-msgid "Marksman"
+msgid "Marksman [SVT-38]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/medic"
-msgid "Medic"
+msgid "Medic [Lahti L-35]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/mg"
-msgid "MG Operator"
+msgid "MG Operator [Lahti-Saloranta M/26]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/mg_asst"
-msgid "MG Asst."
+msgid "MG Asst. [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/mg_crew"
-msgid "MG crew"
+msgid "MG crew [Lahti L-35]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/mg_crew_asst"
-msgid "MG crew Asst."
+msgid "MG crew Asst. [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/mg_madsen"
-msgid "MG Operator"
+msgid "MG Operator [Madsen M20]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/officer"
-msgid "Officer"
+msgid "Officer [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/officer_drum"
-msgid "Officer"
+msgid "Officer [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/rifleman"
-msgid "Rifleman"
+msgid "Rifleman [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/rifleman_avs"
-msgid "Automatic Rifleman"
+msgid "Automatic Rifleman [AVT-40]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/rifleman_cap"
-msgid "Rifleman"
+msgid "Rifleman [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/rifleman_sa"
-msgid "Rifleman"
+msgid "Rifleman [SVT-38]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/scout"
-msgid "Scout"
+msgid "Scout [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/scout_sl"
-msgid "Scout Squadleader"
+msgid "Scout Squadleader [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/signaller"
-msgid "Artillery Signaller"
+msgid "Artillery Signaller [OSP-30 Flare Pistol]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/sissi_mg"
-msgid "Sissi MG Operator"
+msgid "Sissi MG Operator [Lahti-Saloranta M/26]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/sissi_mg_asst"
-msgid "Sissi MG Asst."
+msgid "Sissi MG Asst. [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/sissi_rifle"
-msgid "Sissi"
+msgid "Sissi [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/sissi_sa"
-msgid "Sissi"
+msgid "Sissi [SVT-38]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/sissi_sl"
-msgid "Sissi Squadleader"
+msgid "Sissi Squadleader [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/sissi_smg_m20"
-msgid "Sissi"
+msgid "Sissi [Bergmann M1920]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/sissi_smg_stick"
-msgid "Sissi"
+msgid "Sissi [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/smg_drum"
-msgid "SMG inf."
+msgid "SMG inf. [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/smg_m20"
-msgid "SMG inf."
+msgid "SMG inf. [Bergmann M1920]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/smg_stick"
-msgid "SMG inf."
+msgid "SMG inf. [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/sniper"
-msgid "Sniper"
+msgid "Sniper [Mosin M27 (Scope)]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/squadleader"
-msgid "Squadleader"
+msgid "Squadleader [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/summer_mg"
-msgid "MG Operator"
+msgid "MG Operator [Lahti-Saloranta M/26]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/summer_mg_asst"
-msgid "MG Asst."
+msgid "MG Asst. [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/summer_rifle"
-msgid "Rifleman"
+msgid "Rifleman [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/summer_rifle_cap"
-msgid "Rifleman"
+msgid "Rifleman [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/summer_smg_drum"
-msgid "SMG inf."
+msgid "SMG inf. [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/summer_smg_stick"
-msgid "SMG inf."
+msgid "SMG inf. [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/tank_commander"
-msgid "Tank commander"
+msgid "Tank commander [Lahti L-35]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/tankman"
-msgid "Tankman"
+msgid "Tankman [Lahti L-35]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/white_death"
-msgid "Elite sniper"
+msgid "Elite sniper [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/pilot"
-msgid "Pilot"
+msgid "Pilot [FN High-Power M/35]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/antitank_asst"
-msgid "AT support Inf."
+msgid "AT support Inf. [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/antitank_faust"
-msgid "AT inf."
+msgid "AT inf. [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/antitank_ptrd"
-msgid "AT inf."
+msgid "AT inf. [PTRD-41]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/antitank_ptrd_asst"
-msgid "AT support Inf."
+msgid "AT support Inf. [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/antitank_pzs"
-msgid "AT inf."
+msgid "AT inf. [RPzB 54 'Panzerschreck']"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/antitank_pzs_ammo"
-msgid "AT support Inf."
+msgid "AT support Inf. [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/antitank_rifle"
-msgid "AT inf."
+msgid "AT inf. [Boys Mk.I AT rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/artilleryman"
-msgid "Artilleryman"
+msgid "Artilleryman [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/border_jag_ap_mine"
@@ -354,387 +354,387 @@ msgid "Rajajääkäri Engineer"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/border_jag_mg"
-msgid "Rajajääkäri MG Operator"
+msgid "Rajajääkäri MG Operator [DP-27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/border_jag_mg_asst"
-msgid "Rajajääkäri MG Asst."
+msgid "Rajajääkäri MG Asst. [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/border_jag_rifle"
-msgid "Rajajääkäri"
+msgid "Rajajääkäri [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/border_jag_rifle_pzfaust"
-msgid "Rajajääkäri AT inf."
+msgid "Rajajääkäri AT inf. [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/border_jag_sa"
-msgid "Rajajääkäri"
+msgid "Rajajääkäri [SVT-40]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/border_jag_sl"
-msgid "Rajajääkäri Squadleader"
+msgid "Rajajääkäri Squadleader [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/border_jag_smg"
-msgid "Rajajääkäri"
+msgid "Rajajääkäri [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/border_jag_smg_stick"
-msgid "Rajajääkäri"
+msgid "Rajajääkäri [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/engineer_builder"
-msgid "Pioneeri Engineer"
+msgid "Pioneeri Engineer [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/engineer_flamer"
-msgid "Pioneeri Flamer inf."
+msgid "Pioneeri Flamer inf. [ROKS-2 Flamethrower]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/engineer_heavy"
-msgid "Pioneeri Heavy Engineer"
+msgid "Pioneeri Heavy Engineer [Lahti L-35]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/engineer_mine_ap"
-msgid "Pioneeri AP Miner"
+msgid "Pioneeri AP Miner [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/engineer_mine_at"
-msgid "Pioneeri AT Miner"
+msgid "Pioneeri AT Miner [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/engineer_mine_d"
-msgid "Pioneeri"
+msgid "Pioneeri [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/engineer_rifle"
-msgid "Pioneeri"
+msgid "Pioneeri [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/engineer_sl"
-msgid "Pioneeri Squadleader"
+msgid "Pioneeri Squadleader [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/jag_crew"
-msgid "Jääkäri Crew"
+msgid "Jääkäri Crew [Lahti L-35]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/jag_crew_asst"
-msgid "Jääkäri Crew Asst."
+msgid "Jääkäri Crew Asst. [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/jag_engineer_flamer"
-msgid "Jääkäri Engineer Flamer inf."
+msgid "Jääkäri Engineer Flamer inf. [ROKS-2 Flamethrower]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/jag_engineer_sl"
-msgid "Jääkäri Engineer Squadleader"
+msgid "Jääkäri Engineer Squadleader [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/jag_mg"
-msgid "Jääkäri MG Operator"
+msgid "Jääkäri MG Operator [DP-27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/jag_mg_asst"
-msgid "Jääkäri MG Asst."
+msgid "Jääkäri MG Asst. [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/jag_pzfaust"
-msgid "Jääkäri AT inf."
+msgid "Jääkäri AT inf. [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/jag_pzs"
-msgid "Jääkäri AT inf."
+msgid "Jääkäri AT inf. [RPzB 54 'Panzerschreck']"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/jag_pzs_asst"
-msgid "Jääkäri AT Support inf."
+msgid "Jääkäri AT Support inf. [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/jag_rifle"
-msgid "Jääkäri"
+msgid "Jääkäri [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/jag_sa"
-msgid "Jääkäri"
+msgid "Jääkäri [SVT-40]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/jag_sl"
-msgid "Jääkäri Squadleader"
+msgid "Jääkäri Squadleader [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/jag_sl_smg"
-msgid "Jääkäri Squadleader"
+msgid "Jääkäri Squadleader [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/jag_smg"
-msgid "Jääkäri"
+msgid "Jääkäri [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/jag_smg_pzfaust"
-msgid "Jääkäri AT inf."
+msgid "Jääkäri AT inf. [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/jag_smg_stick"
-msgid "Jääkäri"
+msgid "Jääkäri [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/marksman"
-msgid "Marksman"
+msgid "Marksman [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/marksman_sa"
-msgid "Marksman"
+msgid "Marksman [SVT-40]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/medic"
-msgid "Medic"
+msgid "Medic [Lahti L-35]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/mg"
-msgid "MG Operator"
+msgid "MG Operator [Lahti-Saloranta M/26]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/mg_asst"
-msgid "MG Asst."
+msgid "MG Asst. [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/mg_crew"
-msgid "MG crew"
+msgid "MG crew [Lahti L-35]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/mg_crew_asst"
-msgid "MG crew Asst."
+msgid "MG crew Asst. [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/mg_dp"
-msgid "MG Operator"
+msgid "MG Operator [DP-27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/mg_dp_asst"
-msgid "MG Asst."
+msgid "MG Asst. [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/officer"
-msgid "Officer"
+msgid "Officer [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/reservist_mg"
-msgid "Reserve MG Operator"
+msgid "Reserve MG Operator [Lahti-Saloranta M/26]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/reservist_mg_asst"
-msgid "Reserve MG Asst."
+msgid "Reserve MG Asst. [Mosin Nagant]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/reservist_rifle"
-msgid "Reserve Rifleman"
+msgid "Reserve Rifleman [Mosin Nagant]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/reservist_rifle_helm"
-msgid "Reserve Rifleman"
+msgid "Reserve Rifleman [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/reservist_sl"
-msgid "Reserve Squadleader"
+msgid "Reserve Squadleader [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/reservist_smg_helm"
-msgid "Reserve SMG inf."
+msgid "Reserve SMG inf. [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/rifleman"
-msgid "Rifleman"
+msgid "Rifleman [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/rifleman_cap"
-msgid "Rifleman"
+msgid "Rifleman [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/rifleman_sa"
-msgid "Rifleman"
+msgid "Rifleman [SVT-40]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/scout"
-msgid "Scout"
+msgid "Scout [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/scout_sl"
-msgid "Scout Squadleader"
+msgid "Scout Squadleader [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/signaller"
-msgid "Artillery Signaller"
+msgid "Artillery Signaller [OSP-30 Flare Pistol]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/sissi_mg"
-msgid "Sissi MG Operator"
+msgid "Sissi MG Operator [DP-27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/sissi_mg_asst"
-msgid "Sissi MG Asst."
+msgid "Sissi MG Asst. [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/sissi_rifle"
-msgid "Sissi"
+msgid "Sissi [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/sissi_sa"
-msgid "Sissi"
+msgid "Sissi [SVT-40]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/sissi_sl"
-msgid "Sissi Squadleader"
+msgid "Sissi Squadleader [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/sissi_smg_stick"
-msgid "Sissi"
+msgid "Sissi [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/smg_drum"
-msgid "SMG inf."
+msgid "SMG inf. [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/smg_pps"
-msgid "SMG inf."
+msgid "SMG inf. [PPS-43]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/smg_ppsh"
-msgid "SMG inf."
+msgid "SMG inf. [PPSH-41]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/smg_stick"
-msgid "SMG inf."
+msgid "SMG inf. [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/sniper"
-msgid "Sniper"
+msgid "Sniper [Mosin M27 (Scope)]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/squadleader"
-msgid "Squadleader"
+msgid "Squadleader [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/summer_mg"
-msgid "MG Operator"
+msgid "MG Operator [Lahti-Saloranta M/26]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/summer_mg_asst"
-msgid "MG Asst."
+msgid "MG Asst. [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/summer_rifle"
-msgid "Rifleman"
+msgid "Rifleman [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/summer_rifle_cap"
-msgid "Rifleman"
+msgid "Rifleman [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/summer_smg_drum"
-msgid "SMG inf."
+msgid "SMG inf. [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/summer_smg_stick"
-msgid "SMG inf."
+msgid "SMG inf. [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/tank_commander"
-msgid "Tank commander"
+msgid "Tank commander [Lahti L-35]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/tankman"
-msgid "Tankman"
+msgid "Tankman [Lahti L-35]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/white_death"
-msgid "Elite sniper"
+msgid "Elite sniper [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/pilot"
-msgid "Pilot"
+msgid "Pilot [FN High-Power M/35]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/antitank_asst"
-msgid "AT support inf."
+msgid "AT support inf. [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/antitank_rifle"
-msgid "AT rifle inf."
+msgid "AT rifle inf. [Boys Mk.I AT rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/artilleryman"
-msgid "Artilleryman"
+msgid "Artilleryman [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/border_jag_ap_mine"
-msgid "Rajajääkäri AP Miner"
+msgid "Rajajääkäri AP Miner [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/border_jag_at_mine"
-msgid "Rajajääkäri AT Miner"
+msgid "Rajajääkäri AT Miner [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/border_jag_builder"
-msgid "Rajajääkäri Engineer"
+msgid "Rajajääkäri Engineer [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/border_jag_mg"
-msgid "Rajajääkäri MG Operator"
+msgid "Rajajääkäri MG Operator [DP-27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/border_jag_mg_asst"
-msgid "Rajajääkäri MG Asst."
+msgid "Rajajääkäri MG Asst. [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/border_jag_rifle"
-msgid "Rajajääkäri"
+msgid "Rajajääkäri [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/border_jag_sa"
-msgid "Rajajääkäri"
+msgid "Rajajääkäri [SVT-40]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/border_jag_sl"
-msgid "Rajajääkäri Squadleader"
+msgid "Rajajääkäri Squadleader [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/border_jag_smg"
-msgid "Rajajääkäri"
+msgid "Rajajääkäri [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/border_jag_smg_stick"
-msgid "Rajajääkäri"
+msgid "Rajajääkäri [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/cav_mg"
-msgid "Ratsuväki MG Operator"
+msgid "Ratsuväki MG Operator [DP-27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/cav_mg_asst"
-msgid "Ratsuväki MG Asst."
+msgid "Ratsuväki MG Asst. [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/cav_rifle"
-msgid "Ratsuväki"
+msgid "Ratsuväki [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/cav_sa"
-msgid "Ratsuväki"
+msgid "Ratsuväki [SVT-40]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/cav_sl"
-msgid "Ratsuväki Squadleader"
+msgid "Ratsuväki Squadleader [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/cav_smg"
-msgid "Ratsuväki"
+msgid "Ratsuväki [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/cav_smg_stick"
-msgid "Ratsuväki"
+msgid "Ratsuväki [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/chauchat"
@@ -742,103 +742,103 @@ msgid "MG Operator"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/engineer_builder"
-msgid "Pioneeri Engineer"
+msgid "Pioneeri Engineer [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/engineer_flamer"
-msgid "Pioneeri Flamer inf."
+msgid "Pioneeri Flamer inf. [ROKS-2 Flamethrower]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/engineer_heavy"
-msgid "Pioneeri Heavy Engineer"
+msgid "Pioneeri Heavy Engineer [Lahti L-35]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/engineer_mine_ap"
-msgid "Pioneeri AP Miner"
+msgid "Pioneeri AP Miner [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/engineer_mine_at"
-msgid "Pioneeri AT Miner"
+msgid "Pioneeri AT Miner [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/engineer_mine_d"
-msgid "Pioneeri"
+msgid "Pioneeri [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/engineer_rifle"
-msgid "Pioneeri"
+msgid "Pioneeri [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/engineer_sl"
-msgid "Pioneeri Squadleader"
+msgid "Pioneeri Squadleader [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/jag_mg"
-msgid "Jääkäri MG Operator"
+msgid "Jääkäri MG Operator [DP-27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/jag_mg_asst"
-msgid "Jääkäri MG Asst."
+msgid "Jääkäri MG Asst. [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/jag_rifle"
-msgid "Jääkäri"
+msgid "Jääkäri [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/jag_sa"
-msgid "Jääkäri"
+msgid "Jääkäri [SVT-40]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/jag_sl"
-msgid "Jääkäri Squadleader"
+msgid "Jääkäri Squadleader [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/jag_smg"
-msgid "Jääkäri"
+msgid "Jääkäri [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/jag_smg_stick"
-msgid "Jääkäri"
+msgid "Jääkäri [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/marksman"
-msgid "Marksman"
+msgid "Marksman [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/marksman_sa"
-msgid "Marksman"
+msgid "Marksman [SVT-38]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/medic"
-msgid "Medic"
+msgid "Medic [Lahti L-35]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/mg"
-msgid "MG Operator"
+msgid "MG Operator [Lahti-Saloranta M/26]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/mg_asst"
-msgid "MG Asst."
+msgid "MG Asst. [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/mg_crew"
-msgid "MG crew"
+msgid "MG crew [Lahti L-35]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/mg_crew_asst"
-msgid "MG crew Asst."
+msgid "MG crew Asst. [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/mg_dp"
-msgid "MG Operator"
+msgid "MG Operator [DP-27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/mg_dp_asst"
-msgid "MG Asst."
+msgid "MG Asst. [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/officer"
-msgid "Officer"
+msgid "Officer [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/reservist_mg"
@@ -846,155 +846,155 @@ msgid "Reserve MG Operator"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/reservist_rifle"
-msgid "Reserve Rifleman"
+msgid "Reserve Rifleman [Mosin Nagant]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/reservist_rifle_helm"
-msgid "Reserve Rifleman"
+msgid "Reserve Rifleman [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/reservist_sl"
-msgid "Reserve Squadleader"
+msgid "Reserve Squadleader [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/rifleman"
-msgid "Rifleman"
+msgid "Rifleman [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/rifleman_avs"
-msgid "Automatic Rifleman"
+msgid "Automatic Rifleman [AVT-40]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/rifleman_cap"
-msgid "Rifleman"
+msgid "Rifleman [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/rifleman_sa"
-msgid "Rifleman"
+msgid "Rifleman [SVT-38]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/scout"
-msgid "Scout"
+msgid "Scout [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/scout_sl"
-msgid "Scout Squadleader"
+msgid "Scout Squadleader [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/signaller"
-msgid "Artillery Signaller"
+msgid "Artillery Signaller [OSP-30 Flare Pistol]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/sissi_mg"
-msgid "Sissi MG Operator"
+msgid "Sissi MG Operator [Lahti-Saloranta M/26]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/sissi_mg_asst"
-msgid "Sissi MG Asst."
+msgid "Sissi MG Asst. [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/sissi_rifle"
-msgid "Sissi"
+msgid "Sissi [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/sissi_sa"
-msgid "Sissi"
+msgid "Sissi [SVT-38]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/sissi_sl"
-msgid "Sissi Squadleader"
+msgid "Sissi Squadleader [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/sissi_smg_stick"
-msgid "Sissi"
+msgid "Sissi [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/smg_drum"
-msgid "SMG inf."
+msgid "SMG inf. [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/smg_m20"
-msgid "SMG inf."
+msgid "SMG inf. [Bergmann M1920]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/smg_stick"
-msgid "SMG inf."
+msgid "SMG inf. [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/sniper"
-msgid "Sniper"
+msgid "Sniper [Mosin M27 (Scope)]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/squadleader"
-msgid "Squadleader"
+msgid "Squadleader [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/summer_mg"
-msgid "MG Operator"
+msgid "MG Operator [Lahti-Saloranta M/26]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/summer_mg_asst"
-msgid "MG Asst."
+msgid "MG Asst. [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/summer_rifle"
-msgid "Rifleman"
+msgid "Rifleman [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/summer_rifle_cap"
-msgid "Rifleman"
+msgid "Rifleman [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/summer_smg_drum"
-msgid "SMG inf."
+msgid "SMG inf. [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/summer_smg_stick"
-msgid "SMG inf."
+msgid "SMG inf. [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/tank_commander"
-msgid "Tank commander"
+msgid "Tank commander [Lahti L-35]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/tankman"
-msgid "Tankman"
+msgid "Tankman [Lahti L-35]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/white_death"
-msgid "Elite sniper"
+msgid "Elite sniper [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/pilot"
-msgid "Pilot"
+msgid "Pilot [FN High-Power M/35]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/jag_scout_rifle"
-msgid "Jääkäri Scout"
+msgid "Jääkäri Scout [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/jag_scout_sa"
-msgid "Jääkäri Scout"
+msgid "Jääkäri Scout [SVT-38]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/jag_scout_sl"
-msgid "Jääkäri Scout Squadleader"
+msgid "Jääkäri Scout Squadleader [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/vet_mg"
-msgid "Veteran MG Operator"
+msgid "Veteran MG Operator [Lahti-Saloranta M/26]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/vet_mg_asst"
-msgid "Veteran MG Asst."
+msgid "Veteran MG Asst. [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/vet_squadleader"
-msgid "Veteran Squadleader"
+msgid "Veteran Squadleader [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/pio_builder"
-msgid "Pioneeri Engineer"
+msgid "Pioneeri Engineer [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/pio_mg"
@@ -1002,15 +1002,15 @@ msgid "Pioneeri"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/pio_rifle"
-msgid "Pioneeri"
+msgid "Pioneeri [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/pio_sa"
-msgid "Pioneeri"
+msgid "Pioneeri [SVT-38]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/early/pio_sl"
-msgid "Pioneeri Squadleader"
+msgid "Pioneeri Squadleader [AVT-40]"
 msgstr ""
 
 
@@ -1018,119 +1018,119 @@ msgstr ""
 
 
 msgctxt "desc/human/mp/fin/mid/jag_scout_rifle"
-msgid "Jääkäri Scout"
+msgid "Jääkäri Scout [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/jag_scout_sa"
-msgid "Jääkäri Scout"
+msgid "Jääkäri Scout [SVT-38]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/jag_scout_sl"
-msgid "Jääkäri Scout Squadleader"
+msgid "Jääkäri Scout Squadleader [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/elite_mg_dp"
-msgid "Elite MG Operator"
+msgid "Elite MG Operator [DP-27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/elite_mg_dp_asst"
-msgid "Elite MG Asst."
+msgid "Elite MG Asst. [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/elite_rifleman"
-msgid "Elite Rifleman"
+msgid "Elite Rifleman [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/elite_rifleman_sa"
-msgid "Elite Automatic Rifleman"
+msgid "Elite Automatic Rifleman [SVT-38]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/elite_smg_drum"
-msgid "Elite SMG inf."
+msgid "Elite SMG inf. [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/elite_smg_stick"
-msgid "Elite SMG inf."
+msgid "Elite SMG inf. [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/elite_squadleader"
-msgid "Elite Squadleader"
+msgid "Elite Squadleader [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/mg_dt"
-msgid "MG Operator"
+msgid "MG Operator [DT]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/mg_dt_asst"
-msgid "MG Asst."
+msgid "MG Asst. [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/vet_cav_mg"
-msgid "Veteran Ratsuväki MG Operator"
+msgid "Veteran Ratsuväki MG Operator [DP-27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/vet_cav_mg_asst"
-msgid "Veteran Ratsuväki MG Asst."
+msgid "Veteran Ratsuväki MG Asst. [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/vet_cav_rifle"
-msgid "Veteran Ratsuväki"
+msgid "Veteran Ratsuväki [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/vet_cav_sa"
-msgid "Veteran Ratsuväki"
+msgid "Veteran Ratsuväki [SVT-40]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/vet_cav_sl"
-msgid "Veteran Ratsuväki Squadleader"
+msgid "Veteran Ratsuväki Squadleader [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/vet_cav_smg"
-msgid "Veteran Ratsuväki"
+msgid "Veteran Ratsuväki [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/vet_cav_smg_stick"
-msgid "Veteran Ratsuväki"
+msgid "Veteran Ratsuväki [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/vet_mg_dp"
-msgid "Veteran MG Operator"
+msgid "Veteran MG Operator [DP-27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/vet_mg_dp_asst"
-msgid "Veteran MG Asst."
+msgid "Veteran MG Asst. [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/vet_rifleman"
-msgid "Veteran Rifleman"
+msgid "Veteran Rifleman [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/vet_rifleman_sa"
-msgid "Veteran Rifleman"
+msgid "Veteran Rifleman [SVT-38]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/vet_scout"
-msgid "Veteran Scout"
+msgid "Veteran Scout [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/vet_scout_sl"
-msgid "Veteran Scout Squadleader"
+msgid "Veteran Scout Squadleader [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/vet_smg_drum"
-msgid "Veteran SMG inf."
+msgid "Veteran SMG inf. [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/vet_smg_stick"
-msgid "Veteran SMG inf."
+msgid "Veteran SMG inf. [Suomi KP/31]"
 msgstr "" 
 
 msgctxt "desc/human/mp/fin/mid/vet_squadleader"
-msgid "Veteran Squadleader"
+msgid "Veteran Squadleader [Suomi KP/31]"
 msgstr "" 
 
 msgctxt "desc/human/mp/fin/mid/pio_builder"
-msgid "Pioneeri Engineer"
+msgid "Pioneeri Engineer [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/pio_mg"
@@ -1138,157 +1138,157 @@ msgid "Pioneeri"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/pio_rifle"
-msgid "Pioneeri"
+msgid "Pioneeri [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/pio_sa"
-msgid "Pioneeri"
+msgid "Pioneeri [SVT-38]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/pio_sl"
-msgid "Pioneeri Squadleader"
+msgid "Pioneeri Squadleader [AVT-40]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/vet_jag_mg"
-msgid "Veteran Jääkäri MG Operator"
+msgid "Veteran Jääkäri MG Operator [DP-27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/vet_jag_mg_asst"
-msgid "Veteran Jääkäri MG Asst."
+msgid "Veteran Jääkäri MG Asst. [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/vet_jag_rifle"
-msgid "Veteran Jääkäri"
+msgid "Veteran Jääkäri [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/vet_jag_sa"
-msgid "Veteran Jääkäri"
+msgid "Veteran Jääkäri [SVT-40]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/vet_jag_sl"
-msgid "Veteran Jääkäri Squadleader"
+msgid "Veteran Jääkäri Squadleader [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/mid/vet_jag_smg"
-msgid "Veteran Jääkäri"
+msgid "Veteran Jääkäri [Suomi KP/31]"
 msgstr ""
 
 
 
 msgctxt "desc/human/mp/fin/late/jag_scout_rifle"
-msgid "Jääkäri Scout"
+msgid "Jääkäri Scout [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/jag_scout_sa"
-msgid "Jääkäri Scout"
+msgid "Jääkäri Scout [SVT-38]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/jag_scout_sl"
-msgid "Jääkäri Scout Squadleader"
+msgid "Jääkäri Scout Squadleader [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/border_jag_ptrd"
-msgid "Rajajääkäri AT rifle inf."
+msgid "Rajajääkäri AT rifle inf. [PTRD-41]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/border_jag_ptrd_asst"
-msgid "Rajajääkäri AT support Inf."
+msgid "Rajajääkäri AT support Inf. [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/border_jag_pzs"
-msgid "Rajajääkäri AT inf."
+msgid "Rajajääkäri AT inf. [RPzB 54 'Panzerschreck']"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/border_jag_pzs_ammo"
-msgid "Rajajääkäri AT support Inf."
+msgid "Rajajääkäri AT support Inf. [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/border_jag_sl_smg"
-msgid "Rajajääkäri Squadleader"
+msgid "Rajajääkäri Squadleader [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/cav_mg"
-msgid "Ratsuväki MG Operator"
+msgid "Ratsuväki MG Operator [DP-27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/cav_mg_asst"
-msgid "Ratsuväki MG Asst."
+msgid "Ratsuväki MG Asst. [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/cav_rifle"
-msgid "Ratsuväki"
+msgid "Ratsuväki [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/cav_sa"
-msgid "Ratsuväki"
+msgid "Ratsuväki [SVT-40]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/cav_sl"
-msgid "Ratsuväki Squadleader"
+msgid "Ratsuväki Squadleader [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/cav_smg"
-msgid "Ratsuväki"
+msgid "Ratsuväki [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/cav_smg_stick"
-msgid "Ratsuväki"
+msgid "Ratsuväki [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/elite_mg"
-msgid "Elite MG Operator"
+msgid "Elite MG Operator [Lahti-Saloranta M/26]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/elite_mg_asst"
-msgid "Elite MG Asst."
+msgid "Elite MG Asst. [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/elite_mg_dp"
-msgid "Elite MG Operator"
+msgid "Elite MG Operator [DP-27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/elite_mg_dp_asst"
-msgid "Elite MG Asst."
+msgid "Elite MG Asst. [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/elite_rifle"
-msgid "Elite Rifleman"
+msgid "Elite Rifleman [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/elite_rifle_sa"
-msgid "Elite Automatic Rifleman"
+msgid "Elite Automatic Rifleman [SVT-40]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/elite_smg_drum"
-msgid "Elite SMG inf."
+msgid "Elite SMG inf. [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/elite_smg_pps"
-msgid "Elite SMG inf."
+msgid "Elite SMG inf. [PPS-43]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/elite_smg_ppsh"
-msgid "Elite SMG inf."
+msgid "Elite SMG inf. [PPSH-41]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/elite_smg_stick"
-msgid "Elite SMG inf."
+msgid "Elite SMG inf. [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/elite_squadleader"
-msgid "Elite Squadleader"
+msgid "Elite Squadleader [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/mg_dt"
-msgid "MG Operator"
+msgid "MG Operator [DT]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/mg_dt_asst"
-msgid "MG Asst."
+msgid "MG Asst. [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/pio_builder"
-msgid "Pioneeri Engineer"
+msgid "Pioneeri Engineer [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/pio_mg"
@@ -1296,67 +1296,67 @@ msgid "Pioneeri"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/pio_rifle"
-msgid "Pioneeri"
+msgid "Pioneeri [Mosin M27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/pio_sa"
-msgid "Pioneeri"
+msgid "Pioneeri [SVT-38]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/pio_sl"
-msgid "Pioneeri Squadleader"
+msgid "Pioneeri Squadleader [AVT-40]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/vet_cav_mg"
-msgid "Veteran Ratsuväki MG Operator"
+msgid "Veteran Ratsuväki MG Operator [DP-27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/vet_cav_mg_asst"
-msgid "Veteran Ratsuväki MG Asst."
+msgid "Veteran Ratsuväki MG Asst. [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/vet_cav_rifle"
-msgid "Veteran Ratsuväki"
+msgid "Veteran Ratsuväki [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/vet_cav_sa"
-msgid "Veteran Ratsuväki"
+msgid "Veteran Ratsuväki [SVT-40]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/vet_cav_sl"
-msgid "Veteran Ratsuväki Squadleader"
+msgid "Veteran Ratsuväki Squadleader [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/vet_cav_smg"
-msgid "Veteran Ratsuväki"
+msgid "Veteran Ratsuväki [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/vet_cav_smg_stick"
-msgid "Veteran Ratsuväki"
+msgid "Veteran Ratsuväki [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/vet_mg"
-msgid "Veteran MG Operator"
+msgid "Veteran MG Operator [Lahti-Saloranta M/26]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/vet_mg_asst"
-msgid "Veteran MG Asst."
+msgid "Veteran MG Asst. [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/vet_mg_dp"
-msgid "Veteran MG Operator"
+msgid "Veteran MG Operator [DP-27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/vet_mg_dp_asst"
-msgid "Veteran MG Asst."
+msgid "Veteran MG Asst. [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/vet_rifle"
-msgid "Veteran Rifleman"
+msgid "Veteran Rifleman [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/vet_rifle_sa"
-msgid "Veteran Rifleman"
+msgid "Veteran Rifleman [SVT-40]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/vet_scout"
@@ -1368,45 +1368,45 @@ msgid "Veteran Scout Squadleader"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/vet_smg_drum"
-msgid "Veteran SMG inf."
+msgid "Veteran SMG inf. [Suomi KP/31]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/vet_smg_pps"
-msgid "Veteran SMG inf."
+msgid "Veteran SMG inf. [PPS-43]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/vet_smg_ppsh"
-msgid "Veteran SMG inf."
+msgid "Veteran SMG inf. [PPSH-41]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/vet_smg_stick"
-msgid "Veteran SMG inf."
+msgid "Veteran SMG inf. [Suomi KP/31]"
 msgstr "" 
 
 msgctxt "desc/human/mp/fin/late/vet_squadleader"
-msgid "Veteran Squadleader"
+msgid "Veteran Squadleader [Suomi KP/31]"
 msgstr "" 
 
 msgctxt "desc/human/mp/fin/late/vet_jag_mg"
-msgid "Veteran Jääkäri MG Operator"
+msgid "Veteran Jääkäri MG Operator [DP-27]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/vet_jag_mg_asst"
-msgid "Veteran Jääkäri MG Asst."
+msgid "Veteran Jääkäri MG Asst. [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/vet_jag_rifle"
-msgid "Veteran Jääkäri"
+msgid "Veteran Jääkäri [Mosin M39]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/vet_jag_sa"
-msgid "Veteran Jääkäri"
+msgid "Veteran Jääkäri [SVT-40]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/vet_jag_sl"
-msgid "Veteran Jääkäri Squadleader"
+msgid "Veteran Jääkäri Squadleader [AVT-40]"
 msgstr ""
 
 msgctxt "desc/human/mp/fin/late/vet_jag_smg"
-msgid "Veteran Jääkäri"
+msgid "Veteran Jääkäri [Suomi KP/31]"
 msgstr ""

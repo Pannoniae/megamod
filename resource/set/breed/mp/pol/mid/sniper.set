@@ -22,7 +22,7 @@
 		("veterancy_lvl_0")
 	}
 	{inventory
-		{item "em4_s" filled}
+		{item "uk-em4_s" filled}
 		{item  "ammo 7x56" 128}
 		{item "bandage_pol" 5}
 		{item "plant" 3}
@@ -31,4 +31,3 @@
 	}
 }
 ;Cost=150;
-

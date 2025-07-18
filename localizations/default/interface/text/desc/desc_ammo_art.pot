@@ -85,12 +85,24 @@ msgctxt "desc/ammo/bullet75_fra ap"
 msgid "AP 75mm Mle1935 [FR]"
 msgstr ""
 
+msgctxt "desc/ammo/bullet75_fra apcbc"
+msgid "APCBC 75mm [FR]"
+msgstr ""
+
 msgctxt "desc/ammo/bullet75_fra cu"
 msgid "HEAT 75mm [FR]"
 msgstr ""
 
 msgctxt "desc/ammo/bullet75_fra he"
 msgid "HE 75mm Mle1935 [FR]"
+msgstr ""
+
+msgctxt "desc/ammo/bullet90_fra apcbc"
+msgid "APCBC 90mm [FR]"
+msgstr ""
+
+msgctxt "desc/ammo/bullet90_fra he"
+msgid "HE 90mm [FR]"
 msgstr ""
 
 msgctxt "desc/ammo/bullet75_fra heat"
@@ -896,8 +908,16 @@ msgctxt "desc/ammo/eng mortar76 he"
 msgid "3-Inch H.E. Mortar shell"
 msgstr ""
 
+msgctxt "desc/ammo/eng mortar76 sm"
+msgid "3-Inch Smoke Mortar shell"
+msgstr ""
+
 msgctxt "desc/ammo/eng mortar107 he"
 msgid "4,2-Inch H.E. Mortar Bomb FG"
+msgstr ""
+
+msgctxt "desc/ammo/eng mortar107 sm"
+msgid "4,2-Inch Smoke Mortar Bomb SM"
 msgstr ""
 
 msgctxt "desc/ammo/brixia45 he"

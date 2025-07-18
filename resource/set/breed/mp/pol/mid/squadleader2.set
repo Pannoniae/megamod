@@ -19,12 +19,12 @@
 		("veterancy_lvl_0")
 	}
 	{inventory
-		{item "em4_mark1" filling "ammo em3_grenade he" 1}
+		{item "uk-em4_mark1" filling "ammo em3_grenade he" 1}
 		{item "ammo em3_grenade he" 21}
 		{item "ammo em3_grenade ap" 4}
 		{item "bandage_pol" 3}
-		{item "grenade mk1" 3}
-		{item "grenade n73at" 1}
+		{item "grenade uk-mk1" 3}
+		{item "grenade uk-n73at" 1}
 		{item "smoke grenade" 1}
 		{item "small_inf_shovel"}
 		{item "ammo_box_inf_eng"}
@@ -32,4 +32,3 @@
 	}
 }
 ;Cost=33;
-

@@ -19,15 +19,14 @@
 		("veterancy_lvl_0")
 	}
 	{inventory
-		{item "sten_mk2" filled}
+		{item "uk-sten_mk2" filled}
 		{item  "ammo 9x19b" 128}
 		{item "bandage_pol" 5}
-		{item "grenade mk1" 4}
-		{item "grenade n73at" 2}
+		{item "grenade uk-mk1" 4}
+		{item "grenade uk-n73at" 2}
 		{item "smoke grenade" 2}
 		{item "mine antitank" 1}
 		{in_hands 0}
 	}
 }
 ;Cost=18;
-

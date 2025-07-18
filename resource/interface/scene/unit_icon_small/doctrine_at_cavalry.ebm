@@ -1,6 +1,6 @@
 {bitmap
-    {frame "bmw_r71_00.tga"}
-    {frame "bmw_r71_01.tga"}
-    {frame "bmw_r71_02.tga"}
-    {frame "bmw_r71_03.tga"}
+    {frame "kubelwagen_dak_00.tga"}
+    {frame "kubelwagen_dak_01.tga"}
+    {frame "kubelwagen_dak_02.tga"}
+    {frame "kubelwagen_dak_03.tga"}
 }

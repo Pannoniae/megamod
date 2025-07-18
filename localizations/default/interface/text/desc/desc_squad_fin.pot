@@ -583,3 +583,28 @@ msgstr ""
 msgctxt "desc/squad/squad_jag_late_vet(fin)"
 msgid "Veteran Jäger Squad"
 msgstr ""
+
+msgctxt "desc/squad/squad_volunteers(fin)"
+msgid "Swedish Volunteer Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_hq_long_range_patrol(fin)"
+msgid "HQ Long-range Patrol"
+msgstr ""
+
+msgctxt "desc/squad/squad_stormtroop(fin)"
+msgid "Precision Strike Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_light4(fin)"
+msgid "Light Detachment 4"
+msgstr ""
+
+msgctxt "desc/squad/squad_militia(fin)"
+msgid "Winter War Militia Squad"
+msgstr ""
+
+msgctxt "desc/squad/conquest_po2_fin"
+msgid "Po-2 Recon"
+msgstr ""

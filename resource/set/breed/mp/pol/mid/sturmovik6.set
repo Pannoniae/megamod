@@ -7,7 +7,7 @@
 	{icon "stormtrooper6"}
 	{icon_priority 4}
 	{armors
-		{head "hat_no4"}
+		{head "uk-hat_no4"}
 	}
 	{perks
 		(include "ability.inc")
@@ -19,10 +19,10 @@
 		("veterancy_lvl_0")
 	}
 	{inventory
-		{item "bren" filled}
+		{item "uk-bren" filled}
 		{item  "ammo 7x56" 392}
 		{item "bandage_pol" 5}
-		{item "grenade mk1" 2}
+		{item "grenade uk-mk1" 2}
 		{item "smoke grenade" 2}
 		{item "dynamite" 1}
 		{item "sandbag_kit" 1}
@@ -31,4 +31,3 @@
 	}
 }
 ;Cost=53;
-

@@ -19,8 +19,8 @@
 		("veterancy_lvl_0")
 	}
 	{inventory
-		{item "bren" filled}
-		{item "webley" filled}
+		{item "uk-bren" filled}
+		{item "uk-webley" filled}
 		{item  "ammo 7x56" 142}
 		{item  "ammo 11x21" 90}
 		{item "bandage_pol" 3}
@@ -29,4 +29,3 @@
 	}
 }
 ;Cost=44;
-

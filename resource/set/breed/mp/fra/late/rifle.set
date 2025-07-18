@@ -20,7 +20,7 @@
 	}
 	{inventory
 		{item "garand" filled}
-		{item  "ammo 7x63" 128}
+		{item  "ammo rifle_usa" 128}
 		{item "bandage_fra" 3}
 		{item "grenade mk2" 1}
 		{item "sandbag_kit" 1}

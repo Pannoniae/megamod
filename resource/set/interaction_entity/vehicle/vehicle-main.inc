@@ -183,6 +183,7 @@
 				{call "disable_all_seats"}
 				{call "engine stop view"}
 				{call "deactivate_vehicle"}
+				{call "friendly_fire_check"}
 			}
 			{if component "engine"
 				{call "engine stop view"}
@@ -345,6 +346,8 @@
 				{call "update_lights"}
 				{add_view	"exhaust_dark_big_startup"	"exhaust_start"	"FXsmoke1"}
 				{add_view	"exhaust_dark_big_startup"	"exhaust_start"	"FXsmoke2"}
+				{add_view	"exhaust_dark_big_startup"	"exhaust_start"	"FXsmoke3"}
+				{add_view	"exhaust_dark_big_startup"	"exhaust_start"	"FXsmoke4"}
 				{delay 1.5 "engine_startup"
 					{view start "exhaust_start"}
 					{delay 0.5
@@ -670,11 +673,13 @@
 					{call_synced "check_burn_emit"}
 				}
 				{delay 10 2
-					{components "engine" break}
-					{start_sound "crush/medium/metal"}
+					{if not tagged "engine_brake"
+						{components "engine" break}
+					}
 					{delay 5 4
 						{call_synced "hull_destroyed"}
 						{call_synced "car_destroyed"}
+						{call_synced "railway_destroyed"}
 					}
 				}
 				{delay 180
@@ -849,22 +854,22 @@
 					{view start "on_%1_fast"}
 					{view pause "on_%1_medium"}
 					{view pause "on_%1_slow"}
-					{view start "on_%1"}		;// presevers fx for non-tank vehicles
+					{view start "on_%1"}		;// preserves fx for non-tank vehicles
 				else velocity 15
 					{view pause "on_%1_fast"}
 					{view start "on_%1_medium"}
 					{view pause "on_%1_slow"}
-					{view start "on_%1"}		;// presevers fx for non-tank vehicles
+					{view start "on_%1"}		;// preserves fx for non-tank vehicles
 				else velocity 5
 					{view pause "on_%1_fast"}
 					{view pause "on_%1_medium"}
 					{view start "on_%1_slow"}
-					{view start "on_%1"}		;// presevers fx for non-tank vehicles
+					{view start "on_%1"}		;// preserves fx for non-tank vehicles
 				else
 					{view pause "on_%1_fast"}
 					{view pause "on_%1_medium"}
 					{view pause "on_%1_slow"}
-					{view pause "on_%1"}		;// presevers fx for non-tank vehicles
+					{view pause "on_%1"}		;// preserves fx for non-tank vehicles
 				}
 			}
 		)
@@ -1211,6 +1216,13 @@
 		{tags add "deactivated"}
 	}
 
+	{on "friendly_fire_check" ;// added to stop MP users from breaking body component of their own vehicles to exploit CP limits
+		{if friendly_fire
+			{delay 0
+				{components "body" destroy}
+			}
+		}
+	}
 	{on "emit_crew"
 		{delay 4
 			{if not tagged "_abandoned"
@@ -1243,7 +1255,6 @@
 		{crew_enable group "crew" 1}
 		{crew_enable group "passenger" 1}
 	}
-
 	{on animation_end "start"					;// Removes interaction check when animation is over allowing "stop" animation to play
 		{set "animated" 0}
 	}
@@ -1308,6 +1319,7 @@
 			{play_sound %0}
 		}
 	)
+	
 	{on "lights_switch"
 		{if "engine_on"
 			{if tagged "lightison"		
@@ -1846,7 +1858,7 @@
 	}
 	{on move on
 		{kill_delay "move_off"}
-		{ani_play "support_close" 1.0 resume}
+		{ani_play "support_open" -1.0 resume}
 	}
 	{on move off
 		{delay 1 "move_off"
@@ -1863,10 +1875,16 @@
 	{on "add_exhaustview" overload
 		{add_view	"exhaust_dark_big_diesel"		"exhaust"			   "FXsmoke1"} ;// engine exhaust
 		{add_view	"exhaust_dark_big_diesel"		"exhaust"			   "FXsmoke2"} ;// engine exhaust
+		{add_view	"exhaust_dark_big_diesel"		"exhaust"			   "FXsmoke3"} ;// engine exhaust
+		{add_view	"exhaust_dark_big_diesel"		"exhaust"			   "FXsmoke4"} ;// engine exhaust
 		;{add_view	"exhaust_dark_small2_diesel"	"exhaust2"			   "FXsmoke1"} ;// idle exhaust
 		;{add_view	"exhaust_dark_small2_diesel"	"exhaust2"			   "FXsmoke2"} ;// idle exhaust
+		;{add_view	"exhaust_dark_small2_diesel"	"exhaust2"			   "FXsmoke3"} ;// idle exhaust
+		;{add_view	"exhaust_dark_small2_diesel"	"exhaust2"			   "FXsmoke4"} ;// idle exhaust
 		{add_view	"exhaust_dark_small2"			"exhaust2"			   "FXsmoke1"} ;// idle exhaust
 		{add_view	"exhaust_dark_small2"			"exhaust2"			   "FXsmoke2"} ;// idle exhaust
+		{add_view	"exhaust_dark_small2"			"exhaust2"			   "FXsmoke3"} ;// idle exhaust
+		{add_view	"exhaust_dark_small2"			"exhaust2"			   "FXsmoke4"} ;// idle exhaust
 	}
 }
 

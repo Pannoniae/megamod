@@ -1115,6 +1115,25 @@
 	}
 }
 
+{"flare_signal_detection"		;// for mission scripts to detect flare location
+	{on spawn
+		{tags add "flare_signal_detection"}
+		{volumes disable contact}
+		{delay 0.1
+			{volumes enable contact}
+		}
+	}
+	{on contact
+		{delete}
+	}
+	{on grounded on			;// entity completely stopped moving on the ground and physics is disabled
+		{delete}
+	}
+	{on ground_hit
+		{delete}
+	}
+}
+
 {"inventory_box"			;// used by ammo boxes and crates
 	{on "break"
 		{explode_inventory
@@ -2069,6 +2088,15 @@
 	}
 	
 }
+
+{"medic_zone"				;// icon/helper for medic revive place-able location 
+	{on spawn
+		{tags add "medic_zone"}
+		;{add_view "automedic_fx" "automedic_fx" "upper"}
+		;{view start "automedic_fx"}
+	}
+}
+
 {"pointer_bait"				;// mission objective icon/helper
 	{on spawn
 		{tags add "pointer_bait"}
@@ -2336,7 +2364,8 @@
 {"tractor"}
 {"tow_vehicle"}
 {"turn_over"}
-{"captor"} 			;// source code: used for bots move orders and stop distance from flags
+{"captor"}			;// source code: used for bots move orders and stop distance from flags
+{"no_mouse_hint"}	;// source code: disable the mouse hint text on specific units/vehicles
 
 {"round_sandbag"}
 {"round_sandbag2"}

@@ -22,7 +22,7 @@
 	}
 	{inventory
 		{item "m1_carbine" filled}
-		{item  "ammo 7x33" 150}
+		{item  "ammo m1_carbine_mag" 150}
 		{item "bandage_fra" 3}
 		{item "grenade mk2" 2}
 		{item "smoke grenade" 2}

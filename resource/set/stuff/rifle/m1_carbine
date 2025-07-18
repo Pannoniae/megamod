@@ -12,7 +12,7 @@
 	("reload time" seconds(4.5))
 	("fire rate" rpm(150))
 	("velocity" mps(590))
-	("assault_rifle")
+	("carbine_rifle")
 
 	("penetration" args 5 3 1 0.5 0)
 	("armor health" damage(3))

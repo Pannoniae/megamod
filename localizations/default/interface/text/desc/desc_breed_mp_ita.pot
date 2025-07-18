@@ -14,39 +14,39 @@ msgstr ""
 "X-Generator: Poedit 2.3\n"
 
 msgctxt "desc/human/mp/ita/mid/ap_miner"
-msgid "Combat Engineer (AP mines)"
+msgid "Combat Engineer (AP mines) [Carcano M91/38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/at_miner"
-msgid "Combat Engineer (AT mines)"
+msgid "Combat Engineer (AT mines) [Carcano M91/38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/at_rifle"
-msgid "AT infantry"
+msgid "AT infantry [wz. 35 UR]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/bazooker"
-msgid "AT infantry"
+msgid "AT infantry [RPzB 54 'Panzerschreck']"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/bazooker2"
-msgid "AT support infantry"
+msgid "AT support infantry [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/elite"
-msgid "Paratrooper SMG"
+msgid "Paratrooper SMG [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/elite2"
-msgid "Paratrooper MG Operator"
+msgid "Paratrooper MG Operator [Breda M30]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/elite3"
-msgid "Paratrooper Rifleman"
+msgid "Paratrooper Rifleman [Carcano M91/38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/elite4"
-msgid "Paratrooper AT infantry"
+msgid "Paratrooper AT infantry [Carcano M91/38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/engineer"
@@ -54,179 +54,179 @@ msgid "Field Engineer"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/flamer"
-msgid "Flamethrower infantry"
+msgid "Flamethrower infantry [Flamethrower]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/mgun"
-msgid "Alpini MG Operator"
+msgid "Alpini MG Operator [Breda M30]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/mgun2"
-msgid "MG Operator"
+msgid "MG Operator [Breda M30]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/mgun3"
-msgid "MG Operator"
+msgid "MG Operator [Breda M30]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/medic"
-msgid "Medic"
+msgid "Medic [Carcano M91/38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/officer"
-msgid "Officer"
+msgid "Officer [Beretta M34]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/rifle_light"
-msgid "Rifleman"
+msgid "Rifleman [Carcano M91]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/rifle2_light"
-msgid "Rifleman"
+msgid "Rifleman [Carcano M91/38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/rifle_light"
-msgid "Rifleman"
+msgid "Rifleman [Carcano M91]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/rifle2_light"
-msgid "Rifleman"
+msgid "Rifleman [Carcano M91/38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/rifle_light"
-msgid "Rifleman"
+msgid "Rifleman [Scotti X]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/rifle2_light"
-msgid "Rifleman"
+msgid "Rifleman [Carcano M91/38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/rifle"
-msgid "Alpini Rifleman"
+msgid "Alpini Rifleman [Carcano M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/rifle2"
-msgid "Rifleman"
+msgid "Rifleman [Carcano M91]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/rifle3"
-msgid "Rifleman"
+msgid "Rifleman [Scotti X]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/rifle3b"
-msgid "Rifleman"
+msgid "Rifleman [Carcano M91/38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/rifle4"
-msgid "Alpini Rifleman"
+msgid "Alpini Rifleman [Carcano M91/38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/rifle5"
-msgid "Rifleman"
+msgid "Rifleman [Carcano M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/saper"
-msgid "Sapper"
+msgid "Sapper [Carcano M91/38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/smg_light"
-msgid "SMG infantry"
+msgid "SMG infantry [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/smg_light"
-msgid "SMG infantry"
+msgid "SMG infantry [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/smg_light"
-msgid "SMG infantry"
+msgid "SMG infantry [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/smg"
-msgid "Alpini SMG infantry"
+msgid "Alpini SMG infantry [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/smg2"
-msgid "SMG infantry"
+msgid "SMG infantry [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/smg3"
-msgid "SMG infantry"
+msgid "SMG infantry [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/smg4"
-msgid "SMG infantry"
+msgid "SMG infantry [Beretta M18]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/sniper"
-msgid "Sniper"
+msgid "Sniper [Carcano M91 scoped]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/tankman"
-msgid "Tankman"
+msgid "Tankman [Beretta M34]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/tankman2"
-msgid "Tank commander"
+msgid "Tank commander [Beretta M34]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/squadleader"
-msgid "Squad Leader"
+msgid "Squad Leader [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/radioman"
-msgid "Radio Operator"
+msgid "Radio Operator [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/sturmovik"
-msgid "MVSN SMG infantry"
+msgid "MVSN SMG infantry [Beretta M18]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/sturmovik2"
-msgid "MVSN MG Operator"
+msgid "MVSN MG Operator [Breda M30]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/sturmovik3"
-msgid "MVSN Rifle"
+msgid "MVSN Rifle [Scotti X]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/sturmovik4"
-msgid "MVSN AT infantry"
+msgid "MVSN AT infantry [wz. 35 UR]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/vehicle_supporter"
-msgid "Rifleman"
+msgid "Rifleman [Carcano M91/38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/pilot"
-msgid "Pilot"
+msgid "Pilot [Beretta M34]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/ap_miner"
-msgid "Combat Engineer (AP mines)"
+msgid "Combat Engineer (AP mines) [Carcano M91/38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/at_miner"
-msgid "Combat Engineer (AT mines)"
+msgid "Combat Engineer (AT mines) [Carcano M91/38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/at_rifle"
-msgid "AT infantry"
+msgid "AT infantry [wz. 35 UR]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/elite"
-msgid "Paratrooper SMG"
+msgid "Paratrooper SMG [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/elite2"
-msgid "Paratrooper MG Operator"
+msgid "Paratrooper MG Operator [Breda M30]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/elite3"
-msgid "Paratrooper Rifleman"
+msgid "Paratrooper Rifleman [Scotti X]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/elite4"
-msgid "Paratrooper"
+msgid "Paratrooper [Carcano M91/38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/engineer"
@@ -234,147 +234,147 @@ msgid "Field Engineer"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/flamer"
-msgid "Flamethrower infantry"
+msgid "Flamethrower infantry [Flamethrower]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/mgun"
-msgid "Alpini MG Operator"
+msgid "Alpini MG Operator [Breda M30]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/mgun2"
-msgid "MG Operator"
+msgid "MG Operator [Breda M30]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/mgun3"
-msgid "MG Operator"
+msgid "MG Operator [Breda M30]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/medic"
-msgid "Medic"
+msgid "Medic [Carcano M91/38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/officer"
-msgid "Officer"
+msgid "Officer [Beretta M34]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/rifle"
-msgid "Alpini Rifleman"
+msgid "Alpini Rifleman [Carcano M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/rifle2"
-msgid "Rifleman"
+msgid "Rifleman [Carcano M91]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/rifle3"
-msgid "Rifleman"
+msgid "Rifleman [Scotti X]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/rifle4"
-msgid "Alpini Rifleman"
+msgid "Alpini Rifleman [Carcano M91/38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/rifle5"
-msgid "Rifleman"
+msgid "Rifleman [Carcano M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/saper"
-msgid "Sapper"
+msgid "Sapper [Carcano M91/38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/smg"
-msgid "Alpini SMG infantry"
+msgid "Alpini SMG infantry [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/smg2"
-msgid "SMG infantry"
+msgid "SMG infantry [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/smg3"
-msgid "SMG infantry"
+msgid "SMG infantry [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/smg4"
-msgid "SMG infantry"
+msgid "SMG infantry [Beretta M18]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/sniper"
-msgid "Sniper"
+msgid "Sniper [Carcano M91 scoped]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/tankman"
-msgid "Tankman"
+msgid "Tankman [Beretta M34]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/tankman2"
-msgid "Tank commander"
+msgid "Tank commander [Beretta M34]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/squadleader"
-msgid "Squad Leader"
+msgid "Squad Leader [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/radioman"
-msgid "Radio Operator"
+msgid "Radio Operator [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/sturmovik"
-msgid "MVSN SMG infantry"
+msgid "MVSN SMG infantry [Beretta M18]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/sturmovik2"
-msgid "MVSN MG Operator"
+msgid "MVSN MG Operator [Breda M30]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/sturmovik3"
-msgid "MVSN Rifleman"
+msgid "MVSN Rifleman [Scotti X]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/sturmovik4"
-msgid "MVSN AT infantry"
+msgid "MVSN AT infantry [wz. 35 UR]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/vehicle_supporter"
-msgid "Rifleman"
+msgid "Rifleman [Carcano M91/38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/pilot"
-msgid "Pilot"
+msgid "Pilot [Beretta M34]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/ap_miner"
-msgid "Combat Engineer (AP mines)"
+msgid "Combat Engineer (AP mines) [Carcano M91/38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/at_miner"
-msgid "Combat Engineer (AT mines)"
+msgid "Combat Engineer (AT mines) [Carcano M91/38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/bazooker"
-msgid "AT infantry"
+msgid "AT infantry [RPzB 54 'Panzerschreck']"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/bazooker2"
-msgid "AT support infantry"
+msgid "AT support infantry [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/at_rifle"
-msgid "AT infantry"
+msgid "AT infantry [wz. 35 UR]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/elite"
-msgid "Paratrooper SMG"
+msgid "Paratrooper SMG [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/elite2"
-msgid "Paratrooper MG Operator"
+msgid "Paratrooper MG Operator [Breda M30]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/elite3"
-msgid "Paratrooper Rifleman"
+msgid "Paratrooper Rifleman [Carcano M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/elite4"
-msgid "Paratrooper AT Infantry"
+msgid "Paratrooper AT Infantry [Carcano M91/38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/engineer"
@@ -382,303 +382,303 @@ msgid "Field Engineer"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/flamer"
-msgid "Flamethrower infantry"
+msgid "Flamethrower infantry [Flamethrower]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/mgun"
-msgid "Alpini MG Operator"
+msgid "Alpini MG Operator [Breda M30]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/mgun2"
-msgid "MG Operator"
+msgid "MG Operator [Breda M30]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/mgun3"
-msgid "MG Operator"
+msgid "MG Operator [Breda M30]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/medic"
-msgid "Medic"
+msgid "Medic [Carcano M91/38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/officer"
-msgid "Officer"
+msgid "Officer [Beretta M34]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/rifle"
-msgid "Alpini Rifleman"
+msgid "Alpini Rifleman [Carcano M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/rifle2"
-msgid "Rifleman"
+msgid "Rifleman [Carcano M91]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/rifle3"
-msgid "Rifleman"
+msgid "Rifleman [Scotti X]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/rifle4"
-msgid "Alpini Rifleman"
+msgid "Alpini Rifleman [Carcano M91/38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/rifle5"
-msgid "Rifleman"
+msgid "Rifleman [Carcano M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/saper"
-msgid "Sapper"
+msgid "Sapper [Carcano M91/38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/smg"
-msgid "Alpini SMG infantry"
+msgid "Alpini SMG infantry [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/smg2"
-msgid "SMG infantry"
+msgid "SMG infantry [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/smg3"
-msgid "SMG infantry"
+msgid "SMG infantry [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/smg4"
-msgid "SMG infantry"
+msgid "SMG infantry [Beretta M18]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/sniper"
-msgid "Sniper"
+msgid "Sniper [Carcano M91 scoped]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/tankman"
-msgid "Tankman"
+msgid "Tankman [Beretta M34]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/tankman2"
-msgid "Tank commander"
+msgid "Tank commander [Beretta M34]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/squadleader"
-msgid "Squad Leader"
+msgid "Squad Leader [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/radioman"
-msgid "Radio Operator"
+msgid "Radio Operator [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/sturmovik"
-msgid "X MAS SMG infantry"
+msgid "X MAS SMG infantry [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/sturmovik2"
-msgid "X MAS MG Operator"
+msgid "X MAS MG Operator [Breda M30]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/sturmovik3"
-msgid "X MAS Rifleman"
+msgid "X MAS Rifleman [Carcano M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/sturmovik4"
-msgid "X MAS AT infantry"
+msgid "X MAS AT infantry [RPzB 54 'Panzerschreck']"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/vehicle_supporter"
-msgid "Rifleman"
+msgid "Rifleman [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/pilot"
-msgid "Pilot"
+msgid "Pilot [Beretta M34]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/tank_commander"
-msgid "Tank commander"
+msgid "Tank commander [Beretta M34]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/artilleryman"
-msgid "Artilleryman"
+msgid "Artilleryman [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/elite2_assist"
-msgid "Paratrooper MG assist."
+msgid "Paratrooper MG assist. [Carcano M91/38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/elite4_assist"
-msgid "Paratrooper AT assist."
+msgid "Paratrooper AT assist. [Scotti X]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/mgun_assist"
-msgid "Alpini MG assist."
+msgid "Alpini MG assist. [Carcano M91]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/mgun2_assist"
-msgid "MG assist."
+msgid "MG assist. [Carcano M91]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/mgun3_assist"
-msgid "MG assist."
+msgid "MG assist. [Scotti X]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/sturmovik2_assist"
-msgid "MVSN MG assist."
+msgid "MVSN MG assist. [Scotti X]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/elite_sl"
-msgid "Paratrooper Squad leader"
+msgid "Paratrooper Squad leader [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/squadleader2"
-msgid "Alpini Squad leader"
+msgid "Alpini Squad leader [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/squadleader3"
-msgid "Squad leader"
+msgid "Squad leader [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/sturmovik_sl"
-msgid "MVSN Squad leader"
+msgid "MVSN Squad leader [Beretta M18]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/nembo_para1"
-msgid "Para Nembo SMG"
+msgid "Para Nembo SMG [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/nembo_para2"
-msgid "Para Nembo MG operator"
+msgid "Para Nembo MG operator [Breda M30]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/nembo_para3"
-msgid "Para Nembo MG assist"
+msgid "Para Nembo MG assist [Scotti X]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/nembo_para3b"
-msgid "Para Nembo Rifleman"
+msgid "Para Nembo Rifleman [Carcano M91/38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/nembo_para4"
-msgid "Para Nembo AT infantry"
+msgid "Para Nembo AT infantry [Carcano M91/38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/nembo_para_sl"
-msgid "Para Nembo Squad leader"
+msgid "Para Nembo Squad leader [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/elite2_assist"
-msgid "Paratrooper MG assist."
+msgid "Paratrooper MG assist. [Carcano M91/38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/elite4_assist"
-msgid "Paratrooper AT assist."
+msgid "Paratrooper AT assist. [Scotti X]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/mgun_assist"
-msgid "Alpini MG assist."
+msgid "Alpini MG assist. [Breda PG M35]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/mgun2_assist"
-msgid "MG assist."
+msgid "MG assist. [Carcano M91]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/mgun3_assist"
-msgid "MG assist."
+msgid "MG assist. [Breda PG M35]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/sturmovik2_assist"
-msgid "X MAS MG assist."
+msgid "X MAS MG assist. [Breda PG M35]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/elite_sl"
-msgid "Paratrooper Squad leader"
+msgid "Paratrooper Squad leader [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/squadleader2"
-msgid "Alpini Squad leader"
+msgid "Alpini Squad leader [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/squadleader3"
-msgid "Squad leader"
+msgid "Squad leader [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/sturmovik_sl"
-msgid "X MAS Squad leader"
+msgid "X MAS Squad leader [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/nembo_para1"
-msgid "Para Nembo SMG"
+msgid "Para Nembo SMG [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/nembo_para2"
-msgid "Para Nembo MG operator"
+msgid "Para Nembo MG operator [Breda M30]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/nembo_para3"
-msgid "Para Nembo MG assist"
+msgid "Para Nembo MG assist [Scotti X]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/nembo_para3b"
-msgid "Para Nembo Rifleman"
+msgid "Para Nembo Rifleman [Carcano M91/38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/nembo_para4"
-msgid "Para Nembo AT infantry"
+msgid "Para Nembo AT infantry [Carcano M91/38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/nembo_para_sl"
-msgid "Para Nembo Squad leader"
+msgid "Para Nembo Squad leader [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/elite2_assist"
-msgid "Paratrooper MG assist."
+msgid "Paratrooper MG assist. [Carcano M91/38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/elite4_assist"
-msgid "Paratrooper AT assist."
+msgid "Paratrooper AT assist. [Scotti X]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/mgun_assist"
-msgid "Alpini MG assist."
+msgid "Alpini MG assist. [Carcano M91]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/mgun2_assist"
-msgid "MG assist."
+msgid "MG assist. [Carcano M91]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/mgun3_assist"
-msgid "MG assist."
+msgid "MG assist. [Scotti X]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/sturmovik2_assist"
-msgid "MVSN MG assist."
+msgid "MVSN MG assist. [Scotti X]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/elite_sl"
-msgid "Paratrooper Squad leader"
+msgid "Paratrooper Squad leader [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/squadleader2"
-msgid "Alpini Squad leader"
+msgid "Alpini Squad leader [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/squadleader3"
-msgid "Squad leader"
+msgid "Squad leader [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/sturmovik_sl"
-msgid "MVSN Squad leader"
+msgid "MVSN Squad leader [Beretta M18]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/rifle3b"
-msgid "Rifleman"
+msgid "Rifleman [Carcano M91/38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/rifle3b"
-msgid "Rifleman"
+msgid "Rifleman [Carcano M91/38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/tank_commander"
-msgid "Tank commander"
+msgid "Tank commander [Beretta M34]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/artilleryman"
-msgid "Artilleryman"
+msgid "Artilleryman [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/tank_commander_ger"
@@ -698,133 +698,133 @@ msgid "Tankman [Panzerwaffe]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/reco_sl"
-msgid "Reconnaissance Leader"
+msgid "Reconnaissance Leader [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/reco_rifle"
-msgid "Reconnaissance infantry"
+msgid "Reconnaissance infantry [Carcano M91]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/reco_sl"
-msgid "Reconnaissance Leader"
+msgid "Reconnaissance Leader [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/reco_rifle"
-msgid "Reconnaissance infantry"
+msgid "Reconnaissance infantry [Carcano M91]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/tank_commander"
-msgid "Tank commander"
+msgid "Tank commander [Beretta M34]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/artilleryman"
-msgid "Artilleryman"
+msgid "Artilleryman [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/axis/early/tankman"
-msgid "Tank crew"
+msgid "Tank crew [Walther P38]"
 msgstr ""
 
 msgctxt "desc/human/mp/axis/mid/tankman"
-msgid "Tank crew"
+msgid "Tank crew [Walther P38]"
 msgstr ""
 
 msgctxt "desc/human/mp/axis/early/tank_commander"
-msgid "Crew commander"
+msgid "Crew commander [MP 38]"
 msgstr ""
 
 msgctxt "desc/human/mp/axis/mid/tank_commander"
-msgid "Crew commander"
+msgid "Crew commander [MP 38]"
 msgstr ""
 
 msgctxt "desc/human/mp/axis/early/artilleryman"
-msgid "Artilleryman"
+msgid "Artilleryman [K98]"
 msgstr ""
 
 msgctxt "desc/human/mp/axis/mid/artilleryman"
-msgid "Artilleryman"
+msgid "Artilleryman [K98]"
 msgstr ""
 
 msgctxt "desc/human/mp/gerita/early/tankman"
-msgid "Tank crew"
+msgid "Tank crew [Walther P38]"
 msgstr ""
 
 msgctxt "desc/human/mp/gerita/mid/tankman"
-msgid "Tank crew"
+msgid "Tank crew [Walther P38]"
 msgstr ""
 
 msgctxt "desc/human/mp/gerita/early/tank_commander"
-msgid "Crew commander"
+msgid "Crew commander [MP 38]"
 msgstr ""
 
 msgctxt "desc/human/mp/gerita/mid/tank_commander"
-msgid "Crew commander"
+msgid "Crew commander [MP 38]"
 msgstr ""
 
 msgctxt "desc/human/mp/gerita/early/artilleryman"
-msgid "Artilleryman"
+msgid "Artilleryman [K98]"
 msgstr ""
 
 msgctxt "desc/human/mp/gerita/mid/artilleryman"
-msgid "Artilleryman"
+msgid "Artilleryman [K98]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/gnr_smg"
-msgid "GNR SMG"
+msgid "GNR SMG [FNAB-43]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/gnr_mgun"
-msgid "GNR MG Operator"
+msgid "GNR MG Operator [Breda M30]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/gnr_rifle"
-msgid "GNR Rifleman"
+msgid "GNR Rifleman [Carcano M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/gnr_rifle2"
-msgid "GNR Rifleman"
+msgid "GNR Rifleman [Breda PG M35]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/gnr_sl"
-msgid "GNR Squad leader"
+msgid "GNR Squad leader [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/gnr_mgun_assist"
-msgid "GNR MG assist."
+msgid "GNR MG assist. [Carcano M91]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/brigade_nere_assist"
-msgid "Brigade Nere MG assist."
+msgid "Brigade Nere MG assist. [Carcano M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/brigade_nere_at"
-msgid "Brigade Nere AT infantry"
+msgid "Brigade Nere AT infantry [RPzB 54 'Panzerschreck']"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/brigade_nere_mgun"
-msgid "Brigade Nere MG Operator"
+msgid "Brigade Nere MG Operator [Breda M30]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/brigade_nere_rifle"
-msgid "Brigade Nere Rifleman"
+msgid "Brigade Nere Rifleman [Carcano M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/brigade_nere_sl"
-msgid "Brigade Nere Squad leader"
+msgid "Brigade Nere Squad leader [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/brigade_nere_smg"
-msgid "Brigade Nere SMG"
+msgid "Brigade Nere SMG [Beretta M38]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/early/mortar"
-msgid "Alpini Mortar"
+msgid "Alpini Mortar [45mm Brixia]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/mid/mortar"
-msgid "Alpini Mortar"
+msgid "Alpini Mortar [45mm Brixia]"
 msgstr ""
 
 msgctxt "desc/human/mp/ita/late/mortar"
-msgid "Alpini Mortar"
+msgid "Alpini Mortar [45mm Brixia]"
 msgstr ""

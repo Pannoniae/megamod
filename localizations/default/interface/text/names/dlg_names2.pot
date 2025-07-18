@@ -12,6 +12,14 @@ msgstr ""
 "Last-Translator: \n"
 "Language-Team: \n"
 
+msgctxt "names/fra/first"
+msgid "Anri\nFransua\nJean\nMishel\nMaks\nDaniel\nBernard\nChristian\nNapoleon\nGirard\nLeon\nNicolas\n"
+msgstr ""
+
+msgctxt "names/fra/last"
+msgid "Dupont\nPejo\nReno\nSimon\nBuonaparte\nRishard\nDe Morel\nGarcia\nMartin\nDe Leroy\nDe Martines\nRoberd\nDurand\nFournier\nLefebvre\n"
+msgstr ""
+
 msgctxt "names/pol/first" 
 msgid "Henryk\nFranciszek\nMieczyslaw\nAleksander\nStefan\nJozef\nEdward\nBogdan\nLeonard\nKazimierz\nAlojzy\nIgnacy\nJan\nZdzislaw\nZenon\nIgnacy\nDonat\nAlfons\nAntoni\nEugeniusz\nLeon\nBronislaw\nStefan\nMarian\nTeodor\nJulian\nKonstanty\nRyszard\nIgor\nWladyslaw\nInnocenty\nKarol\nPiotr\nStanislaw\nBoleslaw\nWiktor\nRoman\nMichal\nAndrzej\nCzeslaw\nBernard\nEmilian\nFeliks\nZygmunt\nMarek\nWincenty\nAleksy\nMiroslaw\nWaclaw\nWojciech\nTomasz\nAdrian\nPawel\nNikodem\nMikolaj\nMaciej\nMarcin\nKrystian\nKacper\nBartosz\nBartlomiej\nJaroslaw\nJanusz\nTobiasz\nFryderyk\nFerdynand\nSebastian\nSzczepan\nJacek\nKonrad\nJerzy\nKlemens\nAdam\nLengasz\nMaksymilian\nWalenty\nWalery\nGrzegorz\nDamian\nDaniel\nDariusz\nGabriel\nRobert\nEdward\nAugustyn\nJeremi\nZbigniew\nLech\nLeszek\nMieszko\nZiemowit\nLucjan\nKrzysztof\n"
 msgstr ""

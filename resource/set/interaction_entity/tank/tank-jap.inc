@@ -42,6 +42,12 @@
 		("Cannon_105to130mm_LV")
 		("Type1_MG")
 	}
+	{on "commander_hatch_open" overload
+		{ani_wind "open" end}
+	}
+	{on "commander_hatch_close" overload
+		{ani_play "open" -1.0 resume}
+	}
 }
 {"type97_shinhoto_47mm tank"
 	("chi-ha_sound")

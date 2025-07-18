@@ -20,7 +20,7 @@
 	}
 	{inventory
 		{item "browning_m19a6" filled}
-		{item  "ammo 7x63" 500}
+		{item  "ammo mgun_usa" 500}
 		{item "bandage_fra" 5}
 		{item "grenade mk2" 2}
 		{item "sandbag_kit" 1}

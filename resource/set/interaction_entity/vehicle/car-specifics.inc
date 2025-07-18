@@ -1,4 +1,69 @@
 ;/*=========== Car Specifics Begin  ===========*/
+(define "french_car"
+	{on spawn
+		{link_sound "flame" "fire/metal"}
+
+		{add_view	"dustrun_car"			"on_grass"			"FXtraceR1"}
+		{add_view	"dustrun_car"			"on_grass"			"FXtraceL1"}
+		{add_view	"dustrun_sand_car"		"on_sand"			"FXtraceR1"}
+		{add_view	"dustrun_sand_car"		"on_sand"			"FXtraceL1"}
+		{add_view	"dustrun_snow_car"		"on_snow"			"FXtraceR1"}
+		{add_view	"dustrun_snow_car"		"on_snow"			"FXtraceL1"}
+		{add_view	"dustrun_car"			"on_country_road"	"FXtraceR1"}
+		{add_view	"dustrun_car"			"on_country_road"	"FXtraceL1"}
+		{add_view	"dustrun_car"			"on_ground"			"FXtraceR1"}
+		{add_view	"dustrun_car"			"on_ground"			"FXtraceL1"}
+
+		{add_view	"drops_water"			"on_water"			"FXtraceR1"}
+		{add_view	"drops_water"			"on_water"			"FXtraceL1"}
+		{add_view	"drops_water_moto"		"on_puddle"			"FXtraceR1"}
+		{add_view	"drops_water_moto"		"on_puddle"			"FXtraceL1"}
+
+		{add_view	"smoke_broken_engine"	"smoke1"			"FXfire1"}
+		{add_view	"steam"					"steam"				"FXsteam"}
+		{add_view	"exhaust_dark_small"	"exhaust"			"FXsmoke1"}
+		{add_view	"exhaust_dark_small2"	"exhaust2"			"FXsmoke1"}
+		{add_view	"smoke_fire_fuel"		"fire_fuel"			"fuel"}
+		{add_view	"smoke_fire_fuel"		"fire_fuel1"		"fuel"}
+		{add_view	"smoke_fire_fuel"		"fire_fuel2"		"fuel"}
+
+		{link_sound "wheel_ground"		"vehicle/wheels/overlay/wheel_overlay_ground"}
+		{link_sound "wheel_sand"		"vehicle/wheels/overlay/wheel_overlay_ground"}
+		{link_sound "wheel_grass"		"vehicle/wheels/overlay/wheel_overlay_ground"}
+		{link_sound "wheel_water"		"vehicle/wheels/overlay/wheel_overlay_water"}
+		{link_sound "wheel_puddle"		"vehicle/wheels/overlay/wheel_overlay_water"}
+		{link_sound "wheel_mud"			"vehicle/wheels/overlay/wheel_overlay_mud_snow"}
+		{link_sound "wheel_snow"		"vehicle/wheels/overlay/wheel_overlay_mud_snow"}
+		{link_sound "wheel_road"		"vehicle/wheels/overlay/wheel_overlay_road"}
+		{link_sound "wheel_rock"		"vehicle/wheels/overlay/wheel_overlay_rock"}
+		{link_sound "wheel_wood"		"vehicle/wheels/overlay/wheel_overlay_wood"}
+
+		{link_sound "truck_open"		"vehicle/doors/truck/open"}
+		{link_sound "truck_close"		"vehicle/doors/truck/close"}
+		{link_sound "tailgate_open"		"vehicle/doors/tailgate/open"}
+		{link_sound "tailgate_close"	"vehicle/doors/tailgate/close"}
+		{link_sound "car_open"			"vehicle/doors/car/open"}
+		{link_sound "car_close"			"vehicle/doors/car/close"}
+		{if tex_mod "winter"
+			{delay 0.1
+				{tex_mod "fra_winter"}
+			}
+		else tex_mod "desert"
+			{delay 0.1
+				{tex_mod "fra"}
+			}
+		else tex_mod "camo"
+			{delay 0.1
+				{tex_mod "fra"}
+			}
+		else
+			{delay 0.1
+				{tex_mod "fra"}
+			}
+		}
+	}
+)
+
 (define "shell_ejection"
 	{on fire "gun"
 		{ani_play "fire"}
@@ -52,10 +117,79 @@
 	("animation_sound" args "open_left")
 	("animation_sound" args "open_right")
 }
+{"renault_aa"
+	("french_car")
+	("cckw_sound")
+	("animation_sound" args "open_left")
+	("animation_sound" args "open_right")
+	("animation_sound" args "open_rear")
+	("animation_sound" args "close_rear")
+	{on "init_gun"
+		{add_view "flash_gun_hmg_dshk"			"flashbarrel00"	"shooter00"}
+		{add_view "flash_gun_hmg_dshk"			"flashbarrel01"	"shooter01"}
+		{add_view "zenit_gilz"			"shell"			"FXshell1"}
+		{add_view "zenit_gilz"			"shell"			"FXshell2"}
+		{call "update_gun"}
+	}
+	{on "add_weapon_sound" overload
+		("Autocannon_s1")
+		{link_sound "action_recoil_Cannon"	"weapon/shot/cannon/s1/recoil/Shared/Autocannon_20to30mm/"}
+	}
+	{on "reload" overload
+		{call "magazine_delay"}
+		{call "crew_reload_ani"}
+	}
+	{on fire "gun" overload
+		(define "fire_barrel"
+			name "%0"
+				{call "fire_barrel%0"}
+				{view start "flashbarrel%0"}
+				{ani_play "fire%0"}
+				{delay 0.2
+					{view pause "flashbarrel%0"}
+				}
+		)
+		{if	("fire_barrel" args 00)
+		else ("fire_barrel" args 01)
+		}
+		{call "spawn_shell"}
+	}
+	(define "magazine_type_93"
+		{on "magazine_delay" %override
+			{delay %cut
+				{tear "piece_small_steel" bone "magazine%no1" copy
+					%impulse
+				}
+				{delay 0
+					{view hide "magazine%no1"}
+					{delay %show
+						{view show "magazine%no1"}
+					}
+				}
+				{tear "piece_small_steel" bone "magazine%no2" copy
+					%impulse
+				}
+				{delay 0
+					{view hide "magazine%no2"}
+					{delay %show
+						{view show "magazine%no2"}
+					}
+				}
+			}
+		}
+	)
+	("magazine_type_93" no1(1) no2(2) cut(0) show(1.8) override() impulse({impulse up -0.01 com}))
+}
 {"laffly_v15t"
 	("kubel_sound")
 }
 {"laffly_v15t_mg"
+	("kubel_sound")
+	{on "add_weapon_sound" overload
+		("Hotchkiss_MG")
+	}
+}
+{"laffly_v15t_hmg"
 	("kubel_sound")
 	{on "add_weapon_sound" overload
 		("M2HB")
@@ -372,6 +506,30 @@
 {"np_morris_cs8"
 	("opel_sound")
 }
+{"np_willys_2xmg"
+	("gaz_sound")
+	{on "add_weapon_sound" overload
+		("M1919A4")
+	}
+	{on spawn
+		{add_view	"flash_gun_big"	"flashbarrel00"	"shooter00"}
+		{add_view	"flash_gun_big"	"flashbarrel01"	"shooter01"}
+	}
+	{on fire "mgun" overload
+		{play_sound "bkg_mg"}
+		{if  name "00"
+			{view start "flashbarrel00"}
+			{delay 0.2
+				{view pause "flashbarrel00"}
+			}
+		else name "01"
+			{view start "flashbarrel01"}
+			{delay 0.2
+				{view pause "flashbarrel01"}
+			}
+		}
+	}
+}
 {"lancia"
 	("zis5_sound")
 	("animation_sound" args "open_left")
@@ -589,6 +747,30 @@
 		{play_sound "bkg_hmg"}
 		{ani_play "recoil"}
 		{call "spawn_shell"}
+	}
+}
+{"willys_2xmg"
+	("gaz_sound")
+	{on "add_weapon_sound" overload
+		("M1919A4")
+	}
+	{on spawn
+		{add_view	"flash_gun_big"	"flashbarrel00"	"shooter00"}
+		{add_view	"flash_gun_big"	"flashbarrel01"	"shooter01"}
+	}
+	{on fire "mgun" overload
+		{play_sound "bkg_mg"}
+		{if  name "00"
+			{view start "flashbarrel00"}
+			{delay 0.2
+				{view pause "flashbarrel00"}
+			}
+		else name "01"
+			{view start "flashbarrel01"}
+			{delay 0.2
+				{view pause "flashbarrel01"}
+			}
+		}
 	}
 }
 (include "car-extra.inc")

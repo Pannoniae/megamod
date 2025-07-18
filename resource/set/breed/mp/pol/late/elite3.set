@@ -19,15 +19,14 @@
 		("veterancy_lvl_0")
 	}
 	{inventory
-		{item "bren" filled}
+		{item "uk-bren" filled}
 		{item  "ammo 7x56" 392}
 		{item "bandage_pol" 5}
-		{item "grenade mk1" 2}
-		{item "grenade n73at" 1}
+		{item "grenade uk-mk1" 2}
+		{item "grenade uk-n73at" 1}
 		{item "sandbag_kit" 1}
 		{item "wirecutters"}
 		{in_hands 0}
 	}
 }
 ;Cost=53;
-

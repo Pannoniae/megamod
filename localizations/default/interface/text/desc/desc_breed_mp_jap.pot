@@ -14,19 +14,19 @@ msgstr ""
 "X-Generator: Poedit 2.3\n"
 
 msgctxt "desc/human/mp/jap/early/at_miner"
-msgid "<c(cfcfcf)>Combat engineer (AP mines)"
+msgid "<c(cfcfcf)>Combat engineer (AP mines) [Type 99 rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/ap_miner"
-msgid "<c(cfcfcf)>Combat engineer (AT mines)"
+msgid "<c(cfcfcf)>Combat engineer (AT mines) [Type 99 rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/at_rifle"
-msgid "<c(cfcfcf)>AT-Rifle infantry"
+msgid "<c(cfcfcf)>AT-Rifle infantry [Type 99 rifle/Type 2 grenade launcher]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/at_rifle2"
-msgid "<c(cfcfcf)>AT-Rifle support infantry"
+msgid "<c(cfcfcf)>AT-Rifle support infantry [Type 99 rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/bazooker"
@@ -42,19 +42,19 @@ msgid "<c(cfcfcf)>AT infantry"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/elite"
-msgid "<c(cfcfcf)>Teishin Rifleman"
+msgid "<c(cfcfcf)>Teishin Rifleman [Type 2 rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/elite2"
-msgid "<c(cfcfcf)>Teishin SMG infantry"
+msgid "<c(cfcfcf)>Teishin SMG infantry [Type 2 rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/elite3"
-msgid "<c(cfcfcf)>Teishin MG Operator"
+msgid "<c(cfcfcf)>Teishin MG Operator [Type 11 MG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/elite4"
-msgid "<c(cfcfcf)>Teishin Rifleman"
+msgid "<c(cfcfcf)>Teishin Rifleman [Type 2 rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/elite_at"
@@ -62,67 +62,67 @@ msgid "<c(cfcfcf)>Teishin AT infantry"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/flamer"
-msgid "<c(cfcfcf)>Flamethrower infantry"
+msgid "<c(cfcfcf)>Flamethrower infantry [Flamethrower]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/flamer2"
-msgid "<c(cfcfcf)>Flamethrower support infantry"
+msgid "<c(cfcfcf)>Flamethrower support infantry [SIG Bergmann 1920]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/home_guard"
-msgid "<c(cfcfcf)>Recruit"
+msgid "<c(cfcfcf)>Recruit [Type 99 rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/gr_launcher"
-msgid "<c(cfcfcf)>Mortarman"
+msgid "<c(cfcfcf)>Mortarman [Knee Mortar Type 89]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/kamikaze"
-msgid "<c(cfcfcf)>Kamikaze"
+msgid "<c(cfcfcf)>Kamikaze [Type 2 SMG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/medic"
-msgid "<c(cfcfcf)>Medic"
+msgid "<c(cfcfcf)>Medic [Type 38 Carbine]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/mgun"
-msgid "<c(cfcfcf)>MG Operator"
+msgid "<c(cfcfcf)>MG Operator [Type 99 MG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/officer"
-msgid "<c(cfcfcf)>Officer"
+msgid "<c(cfcfcf)>Officer [Type 14 Nambu]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/pilot"
-msgid "<c(cfcfcf)>Pilot"
+msgid "<c(cfcfcf)>Pilot [Type 14 Nambu]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/radioman"
-msgid "<c(cfcfcf)>Radio operator"
+msgid "<c(cfcfcf)>Radio operator [Type 38 Carbine]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/rifle"
-msgid "<c(cfcfcf)>Rifleman"
+msgid "<c(cfcfcf)>Rifleman [Type 38 Rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/rifle_grenade"
-msgid "<c(cfcfcf)>Rifle Grenadier"
+msgid "<c(cfcfcf)>Rifle Grenadier [Type 99 rifle/Type 100 grenade launcher]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/rifle2"
-msgid "<c(cfcfcf)>Assault Rifleman"
+msgid "<c(cfcfcf)>Assault Rifleman [Type 38 Rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/saper"
-msgid "<c(cfcfcf)>Mine disposal expert"
+msgid "<c(cfcfcf)>Mine disposal expert [Type 38 Carbine]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/smg"
-msgid "<c(cfcfcf)>SMG infantry"
+msgid "<c(cfcfcf)>SMG infantry [SIG Bergmann 1920]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/smg2"
-msgid "<c(cfcfcf)>Assault SMG infantry"
+msgid "<c(cfcfcf)>Assault SMG infantry [SIG Bergmann 1920]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/smg3"
@@ -130,19 +130,19 @@ msgid "<c(cfcfcf)>SMG infantry"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/sniper"
-msgid "<c(cfcfcf)>Sniper"
+msgid "<c(cfcfcf)>Sniper [Type 99 sniper]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/sturmovik"
-msgid "<c(cfcfcf)>SNLF Rifleman"
+msgid "<c(cfcfcf)>SNLF Rifleman [Type 38 Rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/sturmovik2"
-msgid "<c(cfcfcf)>SNLF MG operator"
+msgid "<c(cfcfcf)>SNLF MG operator [Type 99 MG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/sturmovik3"
-msgid "<c(cfcfcf)>SNLF SMG Infantry"
+msgid "<c(cfcfcf)>SNLF SMG Infantry [Type 2 SMG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/sturmovik3b"
@@ -150,63 +150,63 @@ msgid "<c(cfcfcf)>SNLF Rifleman"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/sturmovik4"
-msgid "<c(cfcfcf)>SNLF Rifleman"
+msgid "<c(cfcfcf)>SNLF Rifleman [Type 38 Rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/sturmovik4b"
-msgid "<c(cfcfcf)>SNLF Rifleman"
+msgid "<c(cfcfcf)>SNLF Rifleman [Type 38 Carbine]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/sturmovik5"
-msgid "<c(cfcfcf)>SNLF AT infantry"
+msgid "<c(cfcfcf)>SNLF AT infantry [SIG Bergmann 1920]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/sturmovik5b"
-msgid "<c(cfcfcf)>SNLF AT infantry"
+msgid "<c(cfcfcf)>SNLF AT infantry [SIG Bergmann 1920]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/sturmovik6"
-msgid "<c(cfcfcf)>SNLF MG operator"
+msgid "<c(cfcfcf)>SNLF MG operator [Type 96 MG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/sturmovik6b"
-msgid "<c(cfcfcf)>SNLF MG assist."
+msgid "<c(cfcfcf)>SNLF MG assist. [Type 38 Carbine]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/squadleader"
-msgid "<c(cfcfcf)>Squad leader"
+msgid "<c(cfcfcf)>Squad leader [SIG Bergmann 1920]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/squadleader2"
-msgid "<c(cfcfcf)>Assault squad leader"
+msgid "<c(cfcfcf)>Assault squad leader [SIG Bergmann 1920]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/tankman"
-msgid "<c(cfcfcf)>Tankman"
+msgid "<c(cfcfcf)>Tankman [Type 14 Nambu]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/tankman2"
-msgid "<c(cfcfcf)>Tank commander"
+msgid "<c(cfcfcf)>Tank commander [SIG Bergmann 1920]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/vehicle_supporter"
-msgid "<c(cfcfcf)>Soldier"
+msgid "<c(cfcfcf)>Soldier [Type 44 Carbine]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/at_miner"
-msgid "<c(cfcfcf)>Combat engineer (AP mines)"
+msgid "<c(cfcfcf)>Combat engineer (AP mines) [Type 99 rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/ap_miner"
-msgid "<c(cfcfcf)>Combat engineer (AT mines)"
+msgid "<c(cfcfcf)>Combat engineer (AT mines) [Type 38 Carbine]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/at_rifle"
-msgid "<c(cfcfcf)>AT Rifleman"
+msgid "<c(cfcfcf)>AT Rifleman [Type 99 rifle/Type 2 grenade launcher]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/at_rifle2"
-msgid "<c(cfcfcf)>AT Support infantry"
+msgid "<c(cfcfcf)>AT Support infantry [Type 100 SMG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/bazooker"
@@ -222,87 +222,87 @@ msgid "<c(cfcfcf)>AT infantry"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/elite"
-msgid "<c(cfcfcf)>Teishin Rifleman"
+msgid "<c(cfcfcf)>Teishin Rifleman [Type 2 rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/elite2"
-msgid "<c(cfcfcf)>Teishin SMG"
+msgid "<c(cfcfcf)>Teishin SMG [Type 100 SMG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/elite3"
-msgid "<c(cfcfcf)>Teishin MG operator"
+msgid "<c(cfcfcf)>Teishin MG operator [Type 11 MG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/elite4"
-msgid "<c(cfcfcf)>Teishin Rifleman"
+msgid "<c(cfcfcf)>Teishin Rifleman [Type 2 rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/elite_at"
-msgid "<c(cfcfcf)>Teishin AT Infantry"
+msgid "<c(cfcfcf)>Teishin AT Infantry [Type 4 RPG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/flamer"
-msgid "<c(cfcfcf)>Flamethrower infantry"
+msgid "<c(cfcfcf)>Flamethrower infantry [Flamethrower]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/flamer2"
-msgid "<c(cfcfcf)>Flamethrower support infantry"
+msgid "<c(cfcfcf)>Flamethrower support infantry [SIG Bergmann 1920]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/home_guard"
-msgid "<c(cfcfcf)>Recruit"
+msgid "<c(cfcfcf)>Recruit [Type 99 rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/gr_launcher"
-msgid "<c(cfcfcf)>Mortarman"
+msgid "<c(cfcfcf)>Mortarman [Knee Mortar Type 89]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/kamikaze"
-msgid "<c(cfcfcf)>Kamikaze"
+msgid "<c(cfcfcf)>Kamikaze [Type 2 SMG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/medic"
-msgid "<c(cfcfcf)>Medic"
+msgid "<c(cfcfcf)>Medic [Type 38 Carbine]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/mgun"
-msgid "<c(cfcfcf)>MG Operator"
+msgid "<c(cfcfcf)>MG Operator [Type 99 MG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/officer"
-msgid "<c(cfcfcf)>Officer"
+msgid "<c(cfcfcf)>Officer [Type 14 Nambu]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/pilot"
-msgid "<c(cfcfcf)>Pilot"
+msgid "<c(cfcfcf)>Pilot [Type 14 Nambu]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/radioman"
-msgid "<c(cfcfcf)>Radio operator"
+msgid "<c(cfcfcf)>Radio operator [Type 38 Carbine]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/rifle"
-msgid "<c(cfcfcf)>Rifleman"
+msgid "<c(cfcfcf)>Rifleman [Type 38 Rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/rifle_grenade"
-msgid "<c(cfcfcf)>Rifle Grenadier"
+msgid "<c(cfcfcf)>Rifle Grenadier [Type 99 rifle/Type 100 grenade launcher]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/rifle2"
-msgid "<c(cfcfcf)>Assault rifleman"
+msgid "<c(cfcfcf)>Assault rifleman [Type 99 rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/saper"
-msgid "<c(cfcfcf)>Mine disposal expert"
+msgid "<c(cfcfcf)>Mine disposal expert [Type 38 Carbine]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/smg"
-msgid "<c(cfcfcf)>SMG infantry"
+msgid "<c(cfcfcf)>SMG infantry [Type 100 SMG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/smg2"
-msgid "<c(cfcfcf)>Assault SMG infantry"
+msgid "<c(cfcfcf)>Assault SMG infantry [Type 100 SMG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/smg3"
@@ -310,19 +310,19 @@ msgid "<c(cfcfcf)>SMG infantry"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/sniper"
-msgid "<c(cfcfcf)>Sniper"
+msgid "<c(cfcfcf)>Sniper [Type 99 sniper]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/sturmovik"
-msgid "<c(cfcfcf)>SNLF Rifleman"
+msgid "<c(cfcfcf)>SNLF Rifleman [Type 38 Rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/sturmovik2"
-msgid "<c(cfcfcf)>SNLF MG Operator"
+msgid "<c(cfcfcf)>SNLF MG Operator [Type 99 MG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/sturmovik3"
-msgid "<c(cfcfcf)>SNLF SMG"
+msgid "<c(cfcfcf)>SNLF SMG [Type 2 SMG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/sturmovik3b"
@@ -330,71 +330,71 @@ msgid "<c(cfcfcf)>SNLF soldier"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/sturmovik4"
-msgid "<c(cfcfcf)>SNLF Rifleman"
+msgid "<c(cfcfcf)>SNLF Rifleman [Type 38 Rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/sturmovik4b"
-msgid "<c(cfcfcf)>SNLF Rifleman"
+msgid "<c(cfcfcf)>SNLF Rifleman [Type 38 Carbine]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/sturmovik5"
-msgid "<c(cfcfcf)>SNLF AT infantry"
+msgid "<c(cfcfcf)>SNLF AT infantry [Type 100 SMG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/sturmovik5b"
-msgid "<c(cfcfcf)>SNLF AT support infantry"
+msgid "<c(cfcfcf)>SNLF AT support infantry [Type 100 SMG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/sturmovik6"
-msgid "<c(cfcfcf)>SNLF MG operator"
+msgid "<c(cfcfcf)>SNLF MG operator [Type 96 MG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/sturmovik6b"
-msgid "<c(cfcfcf)>SNLF MG assist."
+msgid "<c(cfcfcf)>SNLF MG assist. [Type 38 Carbine]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/squadleader"
-msgid "<c(cfcfcf)>Squad leader"
+msgid "<c(cfcfcf)>Squad leader [Type 100 SMG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/squadleader2"
-msgid "<c(cfcfcf)>Assault squad leader"
+msgid "<c(cfcfcf)>Assault squad leader [Type 100 SMG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/tankman"
-msgid "<c(cfcfcf)>Tankman"
+msgid "<c(cfcfcf)>Tankman [Type 14 Nambu]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/tankman2"
-msgid "<c(cfcfcf)>Tank commander"
+msgid "<c(cfcfcf)>Tank commander [SIG Bergmann 1920]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/vehicle_supporter"
-msgid "<c(cfcfcf)>Rifleman"
+msgid "<c(cfcfcf)>Rifleman [Type 44 Carbine]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/at_miner"
-msgid "<c(cfcfcf)>Combat engineer (AP mines)"
+msgid "<c(cfcfcf)>Combat engineer (AP mines) [Type 99 rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/ap_miner"
-msgid "<c(cfcfcf)>Combat engineer (AT mines)"
+msgid "<c(cfcfcf)>Combat engineer (AT mines) [Type 38 Carbine]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/at_rifle"
-msgid "<c(cfcfcf)>AT Rifleman"
+msgid "<c(cfcfcf)>AT Rifleman [Type 99 rifle/Type 2 grenade launcher]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/at_rifle2"
-msgid "<c(cfcfcf)>AT support infantry"
+msgid "<c(cfcfcf)>AT support infantry [Type 100 SMG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/bazooker"
-msgid "<c(cfcfcf)>AT infantry"
+msgid "<c(cfcfcf)>AT infantry [Type 4 RPG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/bazooker2"
-msgid "<c(cfcfcf)>AT support infantry"
+msgid "<c(cfcfcf)>AT support infantry [Type 100 SMG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/bazooker3"
@@ -402,87 +402,87 @@ msgid "<c(cfcfcf)>AT infantry"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/elite"
-msgid "<c(cfcfcf)>Teishin Rifleman"
+msgid "<c(cfcfcf)>Teishin Rifleman [Type 2 rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/elite2"
-msgid "<c(cfcfcf)>Teishin SMG infantry"
+msgid "<c(cfcfcf)>Teishin SMG infantry [Type 100 SMG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/elite3"
-msgid "<c(cfcfcf)>Teishin MG operator"
+msgid "<c(cfcfcf)>Teishin MG operator [Type 11 MG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/elite4"
-msgid "<c(cfcfcf)>Teishin Rifleman"
+msgid "<c(cfcfcf)>Teishin Rifleman [Type 2 rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/elite_at"
-msgid "<c(cfcfcf)>Teishin AT infantry"
+msgid "<c(cfcfcf)>Teishin AT infantry [Type 4 RPG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/flamer"
-msgid "<c(cfcfcf)>Flamethrower infantry"
+msgid "<c(cfcfcf)>Flamethrower infantry [Flamethrower]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/flamer2"
-msgid "<c(cfcfcf)>Flamethrower support infantry"
+msgid "<c(cfcfcf)>Flamethrower support infantry [SIG Bergmann 1920]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/home_guard"
-msgid "<c(cfcfcf)>Recruit"
+msgid "<c(cfcfcf)>Recruit [Type 99 rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/gr_launcher"
-msgid "<c(cfcfcf)>Mortarman"
+msgid "<c(cfcfcf)>Mortarman [Knee Mortar Type 89]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/kamikaze"
-msgid "<c(cfcfcf)>Kamikaze"
+msgid "<c(cfcfcf)>Kamikaze [Type 2 SMG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/medic"
-msgid "<c(cfcfcf)>Medic"
+msgid "<c(cfcfcf)>Medic [Type 38 Carbine]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/mgun"
-msgid "<c(cfcfcf)>MG Operator"
+msgid "<c(cfcfcf)>MG Operator [Type 99 MG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/officer"
-msgid "<c(cfcfcf)>Officer"
+msgid "<c(cfcfcf)>Officer [Type 14 Nambu]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/pilot"
-msgid "<c(cfcfcf)>Pilot"
+msgid "<c(cfcfcf)>Pilot [Type 14 Nambu]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/radioman"
-msgid "<c(cfcfcf)>Radio operator"
+msgid "<c(cfcfcf)>Radio operator [Type 38 Carbine]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/rifle"
-msgid "<c(cfcfcf)>Rifleman"
+msgid "<c(cfcfcf)>Rifleman [Type 99 rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/rifle_grenade"
-msgid "<c(cfcfcf)>Rifle Grenadier"
+msgid "<c(cfcfcf)>Rifle Grenadier [Type 99 rifle/Type 100 grenade launcher]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/rifle2"
-msgid "<c(cfcfcf)>Assault rifleman"
+msgid "<c(cfcfcf)>Assault rifleman [Type 99 rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/saper"
-msgid "<c(cfcfcf)>Mine disposal expert"
+msgid "<c(cfcfcf)>Mine disposal expert [Type 38 Carbine]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/smg"
-msgid "<c(cfcfcf)>SMG infantry"
+msgid "<c(cfcfcf)>SMG infantry [Type 100 SMG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/smg2"
-msgid "<c(cfcfcf)>Assault SMG infantry"
+msgid "<c(cfcfcf)>Assault SMG infantry [Type 100 SMG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/smg3"
@@ -490,19 +490,19 @@ msgid "<c(cfcfcf)>SMG infantry"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/sniper"
-msgid "<c(cfcfcf)>Sniper"
+msgid "<c(cfcfcf)>Sniper [Type 99 sniper]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/sturmovik"
-msgid "<c(cfcfcf)>SNLF Rifleman"
+msgid "<c(cfcfcf)>SNLF Rifleman [Type 38 Rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/sturmovik2"
-msgid "<c(cfcfcf)>SNLF MG operator"
+msgid "<c(cfcfcf)>SNLF MG operator [Type 99 MG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/sturmovik3"
-msgid "<c(cfcfcf)>SNLF SMG Infantry"
+msgid "<c(cfcfcf)>SNLF SMG Infantry [Type 2 SMG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/sturmovik3b"
@@ -510,301 +510,301 @@ msgid "<c(cfcfcf)>SNLF soldier"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/sturmovik4"
-msgid "<c(cfcfcf)>SNLF Rifleman"
+msgid "<c(cfcfcf)>SNLF Rifleman [Type 38 Rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/sturmovik4b"
-msgid "<c(cfcfcf)>SNLF Rifleman"
+msgid "<c(cfcfcf)>SNLF Rifleman [Type 38 Carbine]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/sturmovik5"
-msgid "<c(cfcfcf)>SNLF AT infantry"
+msgid "<c(cfcfcf)>SNLF AT infantry [Type 100 SMG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/sturmovik5b"
-msgid "<c(cfcfcf)>SNLF AT support"
+msgid "<c(cfcfcf)>SNLF AT support [Type 100 SMG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/sturmovik6"
-msgid "<c(cfcfcf)>SNLF  MG operator"
+msgid "<c(cfcfcf)>SNLF  MG operator [Type 96 MG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/sturmovik6b"
-msgid "<c(cfcfcf)>SNLF MG assist."
+msgid "<c(cfcfcf)>SNLF MG assist. [Type 38 Carbine]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/squadleader"
-msgid "<c(cfcfcf)>Squad leader"
+msgid "<c(cfcfcf)>Squad leader [Type 100 SMG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/squadleader2"
-msgid "<c(cfcfcf)>Assault squad leader"
+msgid "<c(cfcfcf)>Assault squad leader [Type 100 SMG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/tankman"
-msgid "<c(cfcfcf)>Tankman"
+msgid "<c(cfcfcf)>Tankman [Type 14 Nambu]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/tankman2"
-msgid "<c(cfcfcf)>Tank commander"
+msgid "<c(cfcfcf)>Tank commander [SIG Bergmann 1920]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/tankman_ace"
-msgid "<c(cfcfcf)>Tankman ace"
+msgid "<c(cfcfcf)>Tankman ace [Type 14 Nambu]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/tankman2_ace"
-msgid "<c(cfcfcf)>Tank commander ace"
+msgid "<c(cfcfcf)>Tank commander ace [SIG Bergmann 1920]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/vehicle_supporter"
-msgid "<c(cfcfcf)>Rifleman"
+msgid "<c(cfcfcf)>Rifleman [Type 44 Carbine]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/tank_commander"
-msgid "Crew commander"
+msgid "Crew commander [SIG Bergmann 1920]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/artilleryman"
-msgid "Artilleryman"
+msgid "Artilleryman [Type 44 Carbine]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/tank_commander"
-msgid "Crew commander"
+msgid "Crew commander [SIG Bergmann 1920]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/artilleryman"
-msgid "Artilleryman"
+msgid "Artilleryman [Type 44 Carbine]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/tank_commander"
-msgid "Tank commander"
+msgid "Tank commander [SIG Bergmann 1920]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/artilleryman"
-msgid "Artilleryman"
+msgid "Artilleryman [Type 44 Carbine]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/engineer_arty"
-msgid "<c(cfcfcf)>Engineer Type 45"
+msgid "<c(cfcfcf)>Engineer Type 45 [Type 38 Carbine]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/engineer_arty2"
-msgid "<c(cfcfcf)>Engineer Type 3"
+msgid "<c(cfcfcf)>Engineer Type 3 [Type 38 Carbine]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/elite3_assist"
-msgid "<c(cfcfcf)>Teishin MG assist."
+msgid "<c(cfcfcf)>Teishin MG assist. [Type 2 rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/mgun_assist"
-msgid "<c(cfcfcf)>MG assist."
+msgid "<c(cfcfcf)>MG assist. [Type 38 Rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/sturmovik2_assist"
-msgid "<c(cfcfcf)>SNLF MG assist."
+msgid "<c(cfcfcf)>SNLF MG assist. [Type 38 Rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/elite_sl"
-msgid "<c(cfcfcf)>Teishin Squad leader"
+msgid "<c(cfcfcf)>Teishin Squad leader [Type 100 SMG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/sturmovik_sl"
-msgid "<c(cfcfcf)>SNLF Squad leader"
+msgid "<c(cfcfcf)>SNLF Squad leader [Type 2 SMG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/snlf_spec_ops_smg"
-msgid "<c(cfcfcf)>SNLF Elite Support infantry"
+msgid "<c(cfcfcf)>SNLF Elite Support infantry [Type 2 SMG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/snlf_spec_ops_rifle"
-msgid "<c(cfcfcf)>SNLF Elite Rifleman"
+msgid "<c(cfcfcf)>SNLF Elite Rifleman [Type 4 rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/snlf_spec_ops_mgun"
-msgid "<c(cfcfcf)>SNLF Elite MG Operator"
+msgid "<c(cfcfcf)>SNLF Elite MG Operator [Type 99 MG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/snlf_spec_ops_at"
-msgid "<c(cfcfcf)>SNLF Elite AT infantry"
+msgid "<c(cfcfcf)>SNLF Elite AT infantry [Type 2 SMG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/snlf_spec_ops_grenade"
-msgid "<c(cfcfcf)>SNLF Elite Squad Leader"
+msgid "<c(cfcfcf)>SNLF Elite Squad Leader [Type 99 rifle/Type 2 grenade launcher]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/engineer_arty"
-msgid "<c(cfcfcf)>Artillery Engineer"
+msgid "<c(cfcfcf)>Artillery Engineer [Type 38 Carbine]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/elite3_assist"
-msgid "<c(cfcfcf)>Teishin MG assist."
+msgid "<c(cfcfcf)>Teishin MG assist. [Type 2 rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/mgun_assist"
-msgid "<c(cfcfcf)>MG assist."
+msgid "<c(cfcfcf)>MG assist. [Type 99 rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/sturmovik2_assist"
-msgid "<c(cfcfcf)>SNLF MG assist."
+msgid "<c(cfcfcf)>SNLF MG assist. [Type 38 Rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/elite_sl"
-msgid "<c(cfcfcf)>Teishin Squad leader"
+msgid "<c(cfcfcf)>Teishin Squad leader [Type 100 SMG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/sturmovik_sl"
-msgid "<c(cfcfcf)>SNLF Squad leader"
+msgid "<c(cfcfcf)>SNLF Squad leader [Type 2 SMG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/snlf_spec_ops_smg"
-msgid "<c(cfcfcf)>SNLF Elite Support infantry"
+msgid "<c(cfcfcf)>SNLF Elite Support infantry [Type 2 SMG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/snlf_spec_ops_rifle"
-msgid "<c(cfcfcf)>SNLF Elite Rifleman"
+msgid "<c(cfcfcf)>SNLF Elite Rifleman [Type 4 rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/snlf_spec_ops_mgun"
-msgid "<c(cfcfcf)>SNLF Elite MG Operator"
+msgid "<c(cfcfcf)>SNLF Elite MG Operator [Type 99 MG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/snlf_spec_ops_at"
-msgid "<c(cfcfcf)>SNLF Elite AT infantry"
+msgid "<c(cfcfcf)>SNLF Elite AT infantry [Type 2 SMG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/snlf_spec_ops_grenade"
-msgid "<c(cfcfcf)>SNLF Elite Squad Leader"
+msgid "<c(cfcfcf)>SNLF Elite Squad Leader [Type 99 rifle/Type 2 grenade launcher]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/elite3_assist"
-msgid "<c(cfcfcf)>Teishin MG assist."
+msgid "<c(cfcfcf)>Teishin MG assist. [Type 2 rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/mgun_assist"
-msgid "<c(cfcfcf)>MG assist."
+msgid "<c(cfcfcf)>MG assist. [Type 38 Rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/sturmovik2_assist"
-msgid "<c(cfcfcf)>SNLF MG assist."
+msgid "<c(cfcfcf)>SNLF MG assist. [Type 38 Rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/elite_sl"
-msgid "<c(cfcfcf)>Teishin Squad leader"
+msgid "<c(cfcfcf)>Teishin Squad leader [Type 100 SMG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/sturmovik_sl"
-msgid "<c(cfcfcf)>SNLF Squad leader"
+msgid "<c(cfcfcf)>SNLF Squad leader [Type 2 SMG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/scout"
-msgid "<c(cfcfcf)>IJA Tokumu Kikan Agent"
+msgid "<c(cfcfcf)>IJA Tokumu Kikan Agent [Type 2 SMG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/scout2"
-msgid "<c(cfcfcf)>IJA Tokumu Kikan Agent"
+msgid "<c(cfcfcf)>IJA Tokumu Kikan Agent [Type 44 Carbine]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/scout"
-msgid "<c(cfcfcf)>IJA Tokumu Kikan Agent"
+msgid "<c(cfcfcf)>IJA Tokumu Kikan Agent [Type 2 SMG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/scout2"
-msgid "<c(cfcfcf)>IJA Tokumu Kikan Agent"
+msgid "<c(cfcfcf)>IJA Tokumu Kikan Agent [Type 44 Carbine]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/shanghai_lmg"
-msgid "<c(cfcfcf)>IJN Shanghai-SNLF LMG"
+msgid "<c(cfcfcf)>IJN Shanghai-SNLF LMG [Type 11 MG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/shanghai_rifle"
-msgid "<c(cfcfcf)>IJN Shanghai-SNLF Rifle"
+msgid "<c(cfcfcf)>IJN Shanghai-SNLF Rifle [Type 38 Rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/shanghai_smg"
-msgid "<c(cfcfcf)>IJN Shanghai-SNLF LMG assist"
+msgid "<c(cfcfcf)>IJN Shanghai-SNLF LMG assist [SIG Bergmann 1920]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/scout"
-msgid "<c(cfcfcf)>IJA Tokumu Kikan Agent"
+msgid "<c(cfcfcf)>IJA Tokumu Kikan Agent [Type 2 SMG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/scout2"
-msgid "<c(cfcfcf)>IJA Tokumu Kikan Agent"
+msgid "<c(cfcfcf)>IJA Tokumu Kikan Agent [Type 44 Carbine]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/marine_rifle"
-msgid "<c(cfcfcf)>Marine - Rifle"
+msgid "<c(cfcfcf)>Marine - Rifle [Type 38 Rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/marine_lmg"
-msgid "<c(cfcfcf)>Marine - LMG"
+msgid "<c(cfcfcf)>Marine - LMG [Type 11 MG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/marine_lmg_assist"
-msgid "<c(cfcfcf)>Marine - LMG assist"
+msgid "<c(cfcfcf)>Marine - LMG assist [Type 38 Rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/engineer_arty"
-msgid "<c(cfcfcf)>Engineer"
+msgid "<c(cfcfcf)>Engineer [Type 38 Carbine]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/marine_rifle"
-msgid "<c(cfcfcf)>Marine - Rifle"
+msgid "<c(cfcfcf)>Marine - Rifle [Type 38 Rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/marine_lmg"
-msgid "<c(cfcfcf)>Marine - LMG"
+msgid "<c(cfcfcf)>Marine - LMG [Type 11 MG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/marine_lmg_assist"
-msgid "<c(cfcfcf)>Marine - LMG assist"
+msgid "<c(cfcfcf)>Marine - LMG assist [Type 38 Rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/imperialguard1"
-msgid "<c(cfcfcf)>Imperial Guard - Rifle"
+msgid "<c(cfcfcf)>Imperial Guard - Rifle [Type 99 rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/imperialguard2"
-msgid "<c(cfcfcf)>Imperial Guard - Rifle"
+msgid "<c(cfcfcf)>Imperial Guard - Rifle [Type 38 rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/mid/imperialguard3"
-msgid "<c(cfcfcf)>Imperial Guard - LMG"
+msgid "<c(cfcfcf)>Imperial Guard - LMG [Type 96 MG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/armored_smg"
-msgid "<c(cfcfcf)>Armored SMG infantry"
+msgid "<c(cfcfcf)>Armored SMG infantry [Type 100 SMG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/armored_rifle"
-msgid "<c(cfcfcf)>Armored Rifle"
+msgid "<c(cfcfcf)>Armored Rifle [Type 4 rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/armored_at"
-msgid "<c(cfcfcf)>Armored AT infantry"
+msgid "<c(cfcfcf)>Armored AT infantry [Type 4 RPG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/armored_mg"
-msgid "<c(cfcfcf)>Armored MG operator"
+msgid "<c(cfcfcf)>Armored MG operator [Type 99 MG]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/armored_assist"
-msgid "<c(cfcfcf)>Armored MG assist"
+msgid "<c(cfcfcf)>Armored MG assist [Type 99 rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/late/armored_grenadier"
-msgid "<c(cfcfcf)>Armored grenadier"
+msgid "<c(cfcfcf)>Armored grenadier [Type 99 rifle/Type 100 grenade launcher]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/imperialguard1"
-msgid "<c(cfcfcf)>Imperial Guard - Rifle"
+msgid "<c(cfcfcf)>Imperial Guard - Rifle [Type 99 rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/imperialguard2"
-msgid "<c(cfcfcf)>Imperial Guard - Rifle"
+msgid "<c(cfcfcf)>Imperial Guard - Rifle [Type 38 rifle]"
 msgstr ""
 
 msgctxt "desc/human/mp/jap/early/imperialguard3"
-msgid "<c(cfcfcf)>Imperial Guard - LMG"
+msgid "<c(cfcfcf)>Imperial Guard - LMG [Type 96 MG]"
 msgstr ""

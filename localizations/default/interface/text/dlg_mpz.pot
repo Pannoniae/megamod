@@ -92,6 +92,10 @@ msgctxt "mp/presets/browser/tags/officer"
 msgid "Officer"
 msgstr ""
 
+msgctxt "mp/presets/browser/tags/supply"
+msgid "Supply"
+msgstr ""
+
 msgctxt "mp/presets/browser/tags/cannon"
 msgid "Cannon"
 msgstr ""
@@ -184,6 +188,14 @@ msgctxt "actionbar/type3/usage"
 msgid "Click on the button to construct Type 3 position."
 msgstr ""
 
+msgctxt "mp/army/usaf"
+msgid "US Armed Forces"
+msgstr ""
+
+msgctxt "mp/army/usaf"
+msgid "US Armed Forces"
+msgstr ""
+
 msgctxt "mp/army/fra_early"
 msgid "France (early)"
 msgstr ""
@@ -254,6 +266,10 @@ msgstr ""
 
 msgctxt "mp/army/usaf_late"
 msgid "US Armed Forces (late)"
+msgstr ""
+
+msgctxt "main_menu2/dynamic_campaign/region_hint_talvisota"
+msgid "Northern Europe - (Talvisota Maps)"
 msgstr ""
 
 msgctxt "mp/presets/game/mow_style"

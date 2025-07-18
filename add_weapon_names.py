@@ -18,7 +18,9 @@ WEAPON_OVERRIDES = {
     "stg44": "StG 44",
     "mp44": "MP44",
     "mg42": "MG42",
-    "mg34": "MG34"
+    "mg34": "MG34",
+    "dynamite_ger_x7": "Dynamite",
+    "lewis_gun": "Lewis Gun"
 }
 
 # Blacklisted factions - these will be skipped entirely
@@ -55,8 +57,19 @@ def get_weapon_localization(weapon_id, weapon_loc_files):
     """Get the localized name for a weapon ID."""
     for loc_file in weapon_loc_files:
         try:
-            with open(loc_file, 'r', encoding='utf-8') as f:
-                content = f.read()
+            # Try multiple encodings
+            content = None
+            for encoding in ['utf-8', 'cp1252', 'iso-8859-1', 'latin-1']:
+                try:
+                    with open(loc_file, 'r', encoding=encoding) as f:
+                        content = f.read()
+                    break
+                except UnicodeDecodeError:
+                    continue
+            
+            if content is None:
+                print(f"Warning: Could not decode {loc_file} with any encoding")
+                continue
                 
             # Look for the weapon context
             pattern = rf'msgctxt "desc/weapon/{re.escape(weapon_id)}"\s*\nmsgid "([^"]+)"'
@@ -81,10 +94,19 @@ def get_primary_weapon_from_set(set_file_path):
         
         inventory_content = inventory_match.group(1)
         
-        # Find the first item with "filled" (primary weapon)
-        item_match = re.search(r'\{item\s+"([^"]+)"\s+filled\}', inventory_content)
+        # Find the first item with "filled" or "filling" (primary weapon)
+        # Try "filling" first as it's more specific to weapons
+        item_match = re.search(r'\{item\s+"([^"]+)"\s+filling', inventory_content)
+        if not item_match:
+            item_match = re.search(r'\{item\s+"([^"]+)"\s+filled\}', inventory_content)
+        
         if item_match:
-            return item_match.group(1)
+            weapon_id = item_match.group(1)
+            # Clean up weapon ID - remove common prefixes and suffixes
+            weapon_id = weapon_id.replace('weapon ', '').replace(' weapon', '')
+            # Skip if this is armor/equipment (not a weapon), continue to fallback logic
+            if not any(skip in weapon_id.lower() for skip in ['cap', 'helm', 'hat', 'uniform', 'armor', 'sidecap', 'fieldcap']):
+                return weapon_id
         
         # If no "filled" item, get the first item that's not ammo/equipment
         lines = inventory_content.split('\n')
@@ -93,7 +115,12 @@ def get_primary_weapon_from_set(set_file_path):
             if item_match:
                 item_name = item_match.group(1)
                 # Skip common non-weapon items
-                if not any(skip in item_name.lower() for skip in ['ammo', 'grenade', 'bandage', 'shovel', 'clip', 'belt']):
+                if not any(skip in item_name.lower() for skip in ['ammo', 'grenade', 'bandage', 'shovel', 'clip', 'belt', 'dynamite']):
+                    # Clean up weapon ID - remove common prefixes and suffixes
+                    item_name = item_name.replace('weapon ', '').replace(' weapon', '')
+                    # Skip if this is armor/equipment (not a weapon)
+                    if any(skip in item_name.lower() for skip in ['cap', 'helm', 'hat', 'uniform', 'armor', 'sidecap', 'fieldcap']):
+                        continue
                     return item_name
         
         return None
@@ -159,15 +186,28 @@ def get_weapon_display_name(weapon_id, weapon_loc_files):
     # Error if no localization found
     raise ValueError(f"No localization found for weapon ID: {weapon_id}")
 
-def process_soldier_localization_file(loc_file_path, weapon_loc_files, breed_dir):
+def process_soldier_localization_file(loc_file_path, weapon_loc_files, breed_dir, localization_errors):
     """Process a single soldier localization file."""
     try:
-        with open(loc_file_path, 'r', encoding='utf-8') as f:
-            content = f.read()
+        # Try multiple encodings
+        content = None
+        used_encoding = None
+        for encoding in ['utf-8', 'cp1252', 'iso-8859-1', 'latin-1']:
+            try:
+                with open(loc_file_path, 'r', encoding=encoding) as f:
+                    content = f.read()
+                used_encoding = encoding
+                break
+            except UnicodeDecodeError:
+                continue
+        
+        if content is None:
+            print(f"Error: Could not decode {loc_file_path} with any encoding")
+            return
         
         # Create backup
         backup_path = loc_file_path + '.backup'
-        with open(backup_path, 'w', encoding='utf-8') as f:
+        with open(backup_path, 'w', encoding=used_encoding) as f:
             f.write(content)
         print(f"Created backup: {backup_path}")
         
@@ -211,12 +251,14 @@ def process_soldier_localization_file(loc_file_path, weapon_loc_files, breed_dir
                             
                             print(f"Updated: {current_name} -> {new_name}")
                         except ValueError as e:
-                            print(f"ERROR: {e} for soldier '{current_name}' in {soldier_context}")
+                            error_msg = f"{e} for soldier '{current_name}' in {soldier_context}"
+                            print(f"ERROR: {error_msg}")
+                            localization_errors.append(error_msg)
                             # Don't modify this entry, continue with others
         
         # Write back if modified
         if modified:
-            with open(loc_file_path, 'w', encoding='utf-8') as f:
+            with open(loc_file_path, 'w', encoding=used_encoding) as f:
                 f.write(new_content)
             print(f"Modified: {loc_file_path}")
         
@@ -234,7 +276,7 @@ def main():
     breed_dir = os.path.join(base_dir, "resource", "set", "breed")
     
     # Find all soldier localization files
-    soldier_loc_files = glob.glob(os.path.join(soldier_loc_dir, "desc_breed_*.pot"))
+    soldier_loc_files = glob.glob(os.path.join(soldier_loc_dir, "*desc_breed_*.pot"))
     
     # Find all .pot files that might contain weapon localizations
     weapon_loc_files = glob.glob(os.path.join(weapon_loc_dir, "*.pot"))
@@ -250,9 +292,17 @@ def main():
     print(f"Found {len(soldier_loc_files)} soldier localization files")
     print(f"Found {len(weapon_loc_files)} weapon localization files")
     
+    # Track statistics
+    total_files = 0
+    processed_files = 0
+    skipped_files = 0
+    error_count = 0
+    localization_errors = []
+    
     # Process each soldier localization file
     for loc_file in soldier_loc_files:
         filename = os.path.basename(loc_file)
+        total_files += 1
         print(f"\nProcessing: {filename}")
         
         # Check if faction is blacklisted
@@ -261,14 +311,46 @@ def main():
             if faction_code in filename.lower():
                 print(f"Skipping {filename} - faction '{faction_code}' is blacklisted")
                 faction_found = True
+                skipped_files += 1
                 break
         
         if faction_found:
             continue
-            
-        process_soldier_localization_file(loc_file, weapon_loc_files, breed_dir)
+        
+        # Process the file and track if it completed successfully
+        try:
+            process_soldier_localization_file(loc_file, weapon_loc_files, breed_dir, localization_errors)
+            processed_files += 1
+        except Exception as e:
+            print(f"CRITICAL ERROR processing {filename}: {e}")
+            error_count += 1
     
-    print("\nDone!")
+    # Print final summary
+    print(f"\n{'='*50}")
+    print("PROCESSING COMPLETE")
+    print(f"{'='*50}")
+    print(f"Total files found: {total_files}")
+    print(f"Files processed: {processed_files}")
+    print(f"Files skipped (blacklisted): {skipped_files}")
+    print(f"Files with critical errors: {error_count}")
+    print(f"Weapon localization errors: {len(localization_errors)}")
+    
+    if error_count > 0:
+        print(f"\n⚠️  COMPLETED WITH {error_count} CRITICAL ERRORS")
+        print("Check the output above for details on failed files.")
+    elif len(localization_errors) > 0:
+        print(f"\n⚠️  COMPLETED WITH {len(localization_errors)} LOCALIZATION ERRORS")
+        print("Some weapons could not be localized. Missing weapon definitions:")
+        for error in localization_errors[:10]:  # Show first 10 errors
+            print(f"  - {error}")
+        if len(localization_errors) > 10:
+            print(f"  ... and {len(localization_errors) - 10} more")
+    elif processed_files == 0:
+        print("\n⚠️  NO FILES WERE PROCESSED")
+        print("All files were either skipped or had errors.")
+    else:
+        print(f"\n✅ COMPLETED SUCCESSFULLY")
+        print(f"All {processed_files} files processed without errors.")
 
 if __name__ == "__main__":
     main()

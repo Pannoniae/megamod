@@ -1,0 +1,21 @@
+{from "pattern gun"
+	{filling "bullet75_fra"}
+	{fireSound "gun/75mm_sa35_l17"}
+	{reloadSound "tank/reload_medium"}
+	("range_210")
+	{calibre 75}
+	("curved_firing_arc")
+	("reload time" seconds(8.5))
+
+	("velocity m/s lowarc" ap(715) apcr(1) he(700) heat(700))
+	("armor health" damage(230))
+	("armor health custom" shell(apcbc) damage(230) filler(102))
+	("75_slope_multipliers")
+
+	("penetration_medium" shell(apcbc) range(210) a(122) b(108) c(93) d(80) e(69))
+	
+	{parameters "he"
+		{range 200 200}
+	}
+	("accuracy_direct" r1(0.50) range_ap(210) range_he(200) range_heat(200))
+}

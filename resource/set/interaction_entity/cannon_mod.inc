@@ -838,6 +838,16 @@
 	}
 	("cannon_small")
 }
+{"qf2pdr_fr"
+	{on "add_weapon_sound" overload
+		("Cannon_37to40mm")
+		("Cannon_Breech")
+	}
+	{on "spawn_shell_delay" overload
+		("shell_eject_delay" args 0.4 0.05)
+	}
+	("cannon_small")
+}
 {"40_mm_m1_fr"
 	{on "add_weapon_sound" overload
 		("Autocannon_s2")
@@ -937,6 +947,23 @@
 	}
 }
 {"105mm_mle1913"
+	{on "add_weapon_sound" overload
+		("Cannon_105to130mm_LV")
+		("Cannon_Breech")
+	}
+	{on "construction_sandbag_cannon_standard" overload
+		("cannon_sandbag" args "sandbag_cannon_standard" "sandbag")
+	}
+	
+	{on "spawn_shell_delay" overload
+		("shell_eject_delay" args 2.0 0.3)
+	}
+	{on "reload_delay" overload
+		("reload_time" args 15)
+	}
+	("cannon_big")
+}
+{"105mm_mle1934"
 	{on "add_weapon_sound" overload
 		("Cannon_105to130mm_LV")
 		("Cannon_Breech")
@@ -2242,6 +2269,35 @@
 	{on "reload_delay" overload
 		("reload_time" args 70)
 	}
+	("cannon_big")
+}
+{"85mm_52k_armor"
+	{on "add_weapon_sound" overload
+		("Cannon_85to100mm")
+		("Cannon_Breech")
+	}
+	{on "construction_sandbag_cannon_standard" overload
+		("cannon_sandbag" args "sandbag_cannon_standard" "sandbag")
+	}
+
+	{on "spawn_shell_delay" overload
+		("shell_eject_delay" args 1 0.3)
+	}
+
+	{on "reload_delay" overload
+		("reload_time" args 4.0)
+	}
+
+	{on "cut_parts" overload
+		("cut_part" args "part1" 1)
+		("cut_part" args "part2" 1)
+		("cut_part" args "part3" 1)
+		("cut_part" args "part4" 1)
+		("cut_part" args "part5" 1)
+		("cut_part" args "part6" 1)
+		{inherited}
+	}
+
 	("cannon_big")
 }
 

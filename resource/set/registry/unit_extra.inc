@@ -80,6 +80,15 @@
 	{"sdkfz251b"
 		{vehicle_view "sdkfz251c"}
 	}
+	{"stug3f8"
+		{vehicle_view "stug3f"}
+	}
+	{"sdkfz251b_2"
+		{vehicle_view "sdkfz251c_2"}
+	}
+	{"sdkfz251b_10"
+		{vehicle_view "sdkfz251c"}
+	}
 ;-----------Soviet:
 	{"ba11"
 		{vehicle_view "ba6"}
@@ -170,4 +179,41 @@
 	}
 	{"zis6_61k"
 		{vehicle_view "zis5_dshk"}
+	}
+	{"85mm_52k_armor"
+		{vehicle_view "52k"}
+	}
+;----US:
+	{"m3a1_stuart_late"
+		{vehicle_view "m3a1_stuart"}
+	}
+	{"t26e2"
+		{vehicle_view "m26_pershing"}
+	}
+	{"m26e1"
+		{vehicle_view "m26_pershing"}
+	}
+	{"m18_superhellcat"
+		{vehicle_view "m18_hellcat"}
+	}
+	{"m8a1"
+		{vehicle_view "m8_hmc"}
+	}
+	{"cckw_2xt27"
+		{vehicle_view "cckw"}
+	}
+	{"m4a2_75"
+		{vehicle_view "m4_75_early"}
+	}
+	{"m10_gmc_42"
+		{vehicle_view "m10_gmc"}
+	}
+	{"m3a1_satan"
+		{vehicle_view "m3a1_stuart"}
+	}
+	{"cckw_m33"
+		{vehicle_view "cckw"}
+	}
+	{"m3_lee_m3"
+		{vehicle_view "m3_lee"}
 	}

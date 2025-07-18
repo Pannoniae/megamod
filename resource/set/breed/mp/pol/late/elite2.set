@@ -19,11 +19,11 @@
 		("veterancy_lvl_0")
 	}
 	{inventory
-		{item "garand" filled}
+		{item "us-garand" filled}
 		{item  "ammo 7x63" 112}
 		{item "bandage_pol" 5}
-		{item "grenade mk1" 2}
-		{item "grenade n73at" 1}
+		{item "grenade uk-mk1" 2}
+		{item "grenade uk-n73at" 1}
 		{item "smoke grenade" 2}
 		{item "mine antitank" 1}
 		{item "wirecutters"}
@@ -31,4 +31,3 @@
 	}
 }
 ;Cost=23;
-
