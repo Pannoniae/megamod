@@ -231,6 +231,9 @@
 			{burn fx "smoke_molot_vehicle" time 20 fake}
 			{start_sound "detonation/small/molotov_break"}
 			{talk "burning"}
+			{with_effector
+				{call "contact_detonate"}
+			}
 		}
 		{if effector "burn_piece"		;// ic shell
 			{burn fx "smoke_molot_vehicle" time 20 fake}

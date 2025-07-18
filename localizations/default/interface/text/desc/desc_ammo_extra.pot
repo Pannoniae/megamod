@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
 msgctxt "desc/ammo/raketenwerfer43"
-msgid "Raketenwerfer43"
+msgid "RPzB. Gr. 4312"
 msgstr ""
 
 msgctxt "desc/stuff/rus_parahelm"

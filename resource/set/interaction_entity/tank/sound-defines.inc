@@ -155,6 +155,25 @@
 		{link_sound "close_rear"		"vehicle/doors/blitz/close_rear"}
 	}
 )
+(define "Kfz70_sound"
+	{on "add_movement_sound" overload
+		{link_sound "engine_start"		"vehicle/engine/Kfz70/start"}
+		{link_sound "engine_stop"		"vehicle/engine/Kfz70/stop"}
+		{link_sound "engine_idle"		"vehicle/engine/Kfz70/idle"}
+		{link_sound "engine_full"		"vehicle/engine/Kfz70/full"}
+		{link_sound "exhaust"			"vehicle/engine/Kfz70/exhaust"}
+		{link_sound "move"				"vehicle/wheels/truck"}
+		{link_sound "brake"				"vehicle/wheels/brake"}
+		{link_sound "rotate_turret"		"vehicle/turret/cannon/small"}
+		{link_sound "rotate_gun"		"vehicle/turret/cannon/small"}
+
+		{link_sound "open_left"			"vehicle/doors/blitz/open_left"}
+		{link_sound "open_right"		"vehicle/doors/blitz/open_right"}
+		{link_sound "open_rear"			"vehicle/doors/blitz/open_rear"}
+		{link_sound "close_rear"		"vehicle/doors/blitz/close_rear"}
+		{link_sound "open_radio"		"vehicle/doors/blitz/open_radio"}
+	}
+)
 
 (define "hanomag_sound"
 	{on "add_movement_sound" overload
@@ -534,7 +553,8 @@
 		{link_sound "engine_full"		"vehicle/engine/t28/full"}
 		{link_sound "exhaust"			"vehicle/engine/t28/exhaust"}
 		{link_sound "move"				"vehicle/tracks/t28/"}
-		{link_sound "rotate_turret"		"vehicle/turret/handcrank/handcrank_light"}
+		{link_sound "rotate_turret"		"vehicle/turret/electric/electric_heavy"}
+		{link_sound "rotate_turret1"	"vehicle/turret/handcrank/handcrank_light"}
 	}
 )
 

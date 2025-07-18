@@ -2184,6 +2184,23 @@
 		}
 		{inherited}
 	}
+	(define "multi_turret_rotate"
+		{on ik begin "%0" overload
+			{kill_delay "rotate_turret%1"}
+			{if not "rotate_turret%1"
+				{play_sound "rotate_turret%1" 1}
+				{set "rotate_turret%1" 1}
+			}
+		}
+		{on ik end "%0" overload
+			{delay 0.25 "rotate_turret%1"
+				{stop_sound "rotate_turret%1"}
+				{set "rotate_turret%1" 0}
+			}
+		}
+	)
+	("multi_turret_rotate" args aux_turret1 1)
+	("multi_turret_rotate" args aux_turret2 1)
 }
 {"t35 tank"
 	("t28_sound")
@@ -2239,6 +2256,25 @@
 		}
 		{inherited}
 	}
+	(define "multi_turret_rotate"
+		{on ik begin "%0" overload
+			{kill_delay "rotate_turret%1"}
+			{if not "rotate_turret%1"
+				{play_sound "rotate_turret%1" 1}
+				{set "rotate_turret%1" 1}
+			}
+		}
+		{on ik end "%0" overload
+			{delay 0.25 "rotate_turret%1"
+				{stop_sound "rotate_turret%1"}
+				{set "rotate_turret%1" 0}
+			}
+		}
+	)
+	("multi_turret_rotate" args aux_turret1 1)
+	("multi_turret_rotate" args aux_turret2 1)
+	("multi_turret_rotate" args aux_turret3 1)
+	("multi_turret_rotate" args aux_turret4 1)
 }
 
 {"smk tank"
@@ -2821,6 +2857,21 @@
 	{on "add_weapon_sound" overload
 		("Cannon_75to76mm")
 		("DT")
+	}
+}
+
+{"isu152_fin tank"
+	{on "add_weapon_sound" overload
+		("Cannon_150to210mm")
+	}
+	{on "add_movement_sound" overload
+		{link_sound "engine_start"		"vehicle/engine/is/start"}
+		{link_sound "engine_stop"		"vehicle/engine/is/stop"}
+		{link_sound "engine_idle"		"vehicle/engine/is/idle"}
+		{link_sound "engine_full"		"vehicle/engine/is/full"}
+		{link_sound "exhaust"			"vehicle/engine/is/exhaust"}
+		{link_sound "move"				"vehicle/tracks/is/"}
+		{link_sound "rotate_turret"		"vehicle/turret/gun/gun_horizontal"}
 	}
 }
 
@@ -3637,6 +3688,19 @@
 	}
 	{on spawn
 		("rand_cut_else" args "bench1" "bench2")
+		{link_sound "move"				"vehicle/tracks/M4_Sherman/Steel/"}
+	}
+	{on "gunner2_hatch_open" overload}
+	{on "gunner2_hatch_close" overload}
+}
+{"m4a3e4 tank"
+	("m4a3_sherman_sound")
+	{on "add_weapon_sound" overload
+		("Cannon_75to76mm")
+		("M2HB")
+		("M1919A4")
+	}
+	{on spawn
 		{link_sound "move"				"vehicle/tracks/M4_Sherman/Steel/"}
 	}
 	{on "gunner2_hatch_open" overload}

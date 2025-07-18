@@ -1589,7 +1589,7 @@ msgid "<c(c3baae)>Medium Halftrack</c>"
 msgstr ""
 
 msgctxt "desc/entity/sdkfz251_20"
-msgid "SdKfz 251/20 'Uhu'"
+msgid "Sd.Kfz 251/20 'Uhu'"
 msgstr ""
 
 msgctxt "info/special/sdkfz251_20"

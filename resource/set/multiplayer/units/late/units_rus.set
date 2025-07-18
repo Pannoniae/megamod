@@ -815,6 +815,10 @@
 	("vehicle"  period(late) year(44 45 46) cd(1200) ci(10) t(heavyart artillery) side(rus) crew(artilleryman:5) g(empl12) b(art) cw(1) cp(30)
 	cost(900))
 }
+{"152mm_d1"
+	("vehicle"  period(late) year(44 45 46) cd(1200) ci(30) t(heavyart artillery) side(rus) crew(artilleryman:5) g(empl12) b(art) cw(1) cp(30)
+	cost(950))
+}
 {"152mm_br2"
 	("vehicle"  period(late) year(44 45 46) cd(1320) ci(10) t(cannon artillery heavyart) side(rus) crew(artilleryman:5) g(empl20) b(art) cw(1) cp(30)
 	cost(1200))
@@ -839,6 +843,10 @@
 {"zis6_bm8_48"
 	("vehicle"  period(late) year(44 45 46) cd(900) ci(10) g(wheel7) side(rus) t(vehicle) crew(tankman:2) b(art) cw(2) cp(34)
 	cost(850))
+}
+{"bm8-48"
+	("vehicle"  period(late) year(44 45 46) cd(900) ci(10) t(heavyart artillery vehicle) side(rus) crew(tankman:2) g(wheel5) b(art) cw(2) cp(33)
+	cost(900))
 }
 {"zis6_bm13_16"
 	("vehicle"  period(late) year(44 45 46) cd(1320) ci(10) g(wheel7) side(rus) t(vehicle) crew(tankman:2) b(art) cw(2) cp(40)

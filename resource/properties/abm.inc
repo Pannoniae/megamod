@@ -113,7 +113,13 @@
 		disorder_time(%dispersion) order_time(%zeroing)
 	)
 )
-
+(define "abm_dymamic_gun_boat"
+	("accuracy_by_motion"
+		max_linear(30) accuracy_by_linear(0.5)
+		max_angular(15) accuracy_by_angular(0.5)
+		disorder_time(%dispersion) order_time(%zeroing)
+	)
+)
 
 ;-----------------------------------------Small--------------------------------
 
@@ -129,6 +135,13 @@
 (define "abm_mgun_noik"
 	("accuracy_by_motion"
 		max_linear(8) accuracy_by_linear(0.4)
+		max_angular(30) accuracy_by_angular(0.5)
+		disorder_time(0.6) order_time(2)
+	)
+)
+(define "abm_mgun_boat"
+	("accuracy_by_motion"
+		max_linear(30) accuracy_by_linear(0.4)
 		max_angular(30) accuracy_by_angular(0.5)
 		disorder_time(0.6) order_time(2)
 	)

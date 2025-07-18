@@ -14,10 +14,11 @@
 
 	("velocity m/s" ap(710) apcr(990) he(706) heat(450))
 	("armor health" damage(200))
-	("armor health custom" shell(aphebc) damage(200) filler(150))
+	("armor health custom" shell(apcbche) damage(200) filler(150))
 
 	; Pzgr.39 rot
-	("penetration_medium" shell(apcbc) range(200) a(135) b(124) c(112) d(101) e(91)) 
+	("penetration_medium" shell(apcbche) range(200) a(135) b(124) c(112) d(101) e(91))
+	("penetration_medium" shell(apcbc) range(200) a(135) b(124) c(112) d(101) e(91))
 
 	; Pzgr.40
 	("penetration_medium" shell(apcr) range(200) a(178) b(160) c(140) d(122) e(107))

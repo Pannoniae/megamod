@@ -470,3 +470,44 @@
 	}
 }
 
+{"construction searchlight"			;// code for searchlight cannons
+	{on spawn
+		{add_view "light_searchlight" "lights" "lamp_light_spot1"}
+		{add_view "light_searchlight_wide" "lights" "lamp_light_spot1"}
+		{view hide "lights"}
+		{delay 0.1	;// without delay it does not check tags properly
+			{call "update_lights"}
+		}
+	}
+	{on break_armor
+		{if volume "lamp"
+			{tags add "lamp_broken"}
+			{call "update_lights"}
+			{call "break_lamp_fx"}
+		}
+	}
+
+	{on "update_lights" overload
+		{if tagged "lamp_broken"
+			{call "lights_off"}
+		else
+			{call "lights_on"}
+		}
+	}
+	{on "break_lamp_fx"
+		{spawn "glass_break" "lamp_light_spot1"}
+		{volumes "lamp" disable all}
+	}
+	{on "lights_on" overload
+		{call "lights_off"}		;// resets vfx so they don't layer
+		{view start "lights"}
+		{view show "lights"}
+		{ani_play "start" loop}
+	}
+	{on "lights_off" overload
+		{view stop "lights"}
+		{view hide "lights"}
+		{ani_stop "start"}
+	}
+}
+

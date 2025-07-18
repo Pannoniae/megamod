@@ -76,8 +76,12 @@ msgctxt "info/special/dicker_max"
 msgid "<c(c3baae)>Tank Destroyer</c>"
 msgstr ""
 
+msgctxt "desc/squad/88mm_raketenwerfer_ss"
+msgid "8.8cm Raketenwerfer 43"
+msgstr ""
+
 msgctxt "desc/entity/88mm_raketenwerfer"
-msgid "88mm Raketenwerfer 43 Puppchen"
+msgid "88mm Raketenwerfer 43 'Puppchen'"
 msgstr ""
 
 msgctxt "desc/entity/76mm_pak36r"
@@ -109,7 +113,7 @@ msgid "210mm Morser 16"
 msgstr ""
 
 msgctxt "desc/entity/88mmflak37sfl"
-msgid "88mm Flak37 Sfl."
+msgid "8.8 cm Flak 18 (Sf.) auf Zugkraftwagen 12t"
 msgstr ""
 
 msgctxt "desc/entity/pz5g_m10"
