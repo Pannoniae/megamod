@@ -1,0 +1,5 @@
+{sound
+(include "\sound\defines.inc")
+("pistol")
+{volume 0.6}
+}
