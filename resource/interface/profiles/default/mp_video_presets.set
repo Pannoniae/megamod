@@ -54,7 +54,7 @@
 			{water_quality high}
 			{grass}
 			{vls 0}
-			{dof}
+			{dof 0}
 			{fxaa 1}
 			{softIntersection}
 			{_ssao off}

@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "su76i_hull_xx"}
+	{bump "$/model/su76i_hull_nm"}
+	{specular "$/model/su76i_hull_sp"}
+	{color "229 229 229 25"}
+	{blend test}
+}

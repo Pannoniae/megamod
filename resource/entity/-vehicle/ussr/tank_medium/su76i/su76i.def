@@ -1,0 +1,146 @@
+{game_entity
+	(include "/properties/tank_assaultgun.ext")
+	(include "/properties/shadow/tank.inc" scale(1.2))
+	(include "/properties/selection/vehicle.inc" scale(1.1))
+	{props "td" "medium" "-turret" "mantlet" "vision_lev03" "muzzle_75mm_76mm" }
+
+	{PatherId "panzer3"}
+	{targetclass "tank_medium"}
+	{targetSelector "tank_medium"}
+
+	{extender "enumerator"
+		{digit_folder "ru1"}
+	}
+
+	("tank_medium_tier1")
+
+	("tracks" repair(30) thickness(20))
+	("gun" repair(30) thickness(25))
+
+
+	{volume "body1"
+		{tags "body"}
+		{component "body"}
+		{thickness 30
+			{front 50}
+			{top 25}
+			{bottom 16}
+		}
+	}
+	{volume "body2"
+		{tags "body"}
+		{component "body"}
+		{thickness 30
+			{front 50}
+			{top 16}
+			{bottom 16}
+		}
+	}
+	{volume "body3"
+		{tags "body"}
+		{component "body"}
+		{thickness 25
+			{front 35}
+		}
+	}
+	{volume "gun2"
+		{tags "gun"}
+		{component "gun"}
+		{thickness 25}
+	}
+	{volume "engine"	
+		{thickness 30
+			{front 10}
+			{top 16}
+			{rear 30}
+			{bottom 15}
+		}
+	}
+	{volume "mantlet"
+		{thickness 50}
+	}
+
+	{extender "shield"
+			{on}
+	}
+	("shield" args "shield1" 20)	
+	{component "shield" {tags "shieldl1"}}
+	("ammo" args "ammo1")
+	("crew_4_human")
+
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_tank_right"} {end "pose_mgun_pz6"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_left"} {end "pose_mgun_pz6"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_lowArmor"} 	{end "pose_seat_armor_2"}}
+			{reverse 	{end	"emit_tank_2"}}
+		}
+		{anm "armor1"
+			{forward	{begin	"board_lowArmor"} {end "pose_seat_armor_2"}}
+			{reverse 	{end	"emit_body"}}
+		}
+		{anm "armor2"
+			{forward	{begin	"board_lowArmor"} {end "pose_seat_armor_1"}}
+			{reverse 	{end	"emit_body"}}
+		}
+	}
+
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor1))
+	("seat_human" place(seat3) bone(seat03) door(emit5)  animation(armor2))
+	("seat_human" place(seat4) bone(seat04) door(emit6)  animation(armor1))
+
+	{extender "inventory"
+		{box
+			{item "bulletrus_76 aphebc2" 25}		;60 rounds
+			{item "bulletrus_76 apcr" 4}
+			{item "bulletrus_76 he" 25}
+			{item "bulletrus_76 heat" 5}
+			{item "satchel_charge_rus" 1}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "76mm_s-1" filling "bulletrus_76 aphebc2" 1}
+			("abm_dymamic_td"
+				zeroing(2.5)
+				dispersion(0.25)
+			)
+		}
+	}
+
+	{mass 22500}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.52) len(1.05))
+		("mobility_tank"
+			speed(38) ;----------Max speed when fully accelerated on road, km/h.
+			reverse(8) ;---------Max speed in reverse on road, km/h.
+			traverse(30) ;-------Track traverse, per second, in degrees.
+			weight(22.5) ;-------Weight in Tonnes.
+			power(265) ;---------Engine Power, in hp. //engine under normal use was rated 265hp at 2600 rpm
+			track(5) ;-----------Track performance: (0,10], 10=ideal. 
+			fuel(310) ;----------Fuel capacity in Litres.
+			type(fuel) ;---------Fuel type. (diesel OR fuel)
+			range(85) ;----------Range in km, off-road.
+		)
+	}
+
+	{Extension "su76i.mdl"}
+
+	{bone "gun_rot"
+		{speed2 8}
+	}
+	{bone "gun_rot1"
+		{speed2 8}
+	}
+}
+

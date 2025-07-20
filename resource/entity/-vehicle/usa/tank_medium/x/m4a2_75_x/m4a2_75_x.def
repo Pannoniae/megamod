@@ -1,0 +1,6 @@
+{game_entity
+	{extension "../../../../ussr/tank_medium/x/m4a2_75_early_rus_x/m4a2_75_early_rus_x.mdl"}
+	{volume "breech"
+	}
+	{texmod "usa"}
+}

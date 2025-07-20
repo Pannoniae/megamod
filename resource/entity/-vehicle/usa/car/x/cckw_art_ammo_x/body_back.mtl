@@ -1,0 +1,7 @@
+{material bump
+	{diffuse "body_back_x"}
+	{bump "$/_vehicle/body_back_aa_bp"}
+	{specular "$/_vehicle/body_back_aa_sp"}
+	{color "229 229 229 25"}
+	{blend none}
+}

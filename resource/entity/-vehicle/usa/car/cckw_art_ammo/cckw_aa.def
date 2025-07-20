@@ -1,0 +1,130 @@
+{game_entity
+	(include "/properties/car.ext")
+	(include "/properties/selection/vehicle_elongated.inc" scale(1.15))
+	{props "aa" "turret" "automatic" "truck" "vision_lev02" "with_gun vehicle open_top" "muzzle_37mm_40mm_auto" "tractor" "tractor_heavy" "detect_tank_light"}
+	{able "emit_on_attack"}
+	{extension "cckw_aa.mdl"}
+	{collider "truck"}
+	{targetclass "cannon_zenite"}
+	{targetSelector "tank_zenite"}
+	{patherId "cckw"}
+
+	("wheel" args "wheelright1")
+	("wheel" args "wheelleft1")
+	("wheel" args "wheelright2")
+	("wheel" args "wheelleft2")
+	("wheel" args "wheelright3")
+	("wheel" args "wheelleft3")
+
+	("glass" args "window1")
+	("glass" args "window2")
+	("fuel" args "fuel")
+	("transmission" args "transmission")
+
+	("bodyback" repair(30))
+
+	{volume "body2" {able {holed}}}
+	{volume "body3" {able {holed}}}
+	{volume "body4" {able {holed}}}
+	{volume "fuel" {able {NoWoundDecal 0}}}
+	{Volume "barrel1"
+		{component "gun"}
+		{thickness 10}
+	}
+	{Volume "barrel2"
+		{component "gun"}
+		{thickness 10}
+	}
+	{Volume "barrel3"
+		{component "gun"}
+		{thickness 10}
+	}
+	{Volume "turret1"
+		{component "turret"}
+		{thickness 10}
+	}
+	{Volume "turret2"
+		{component "turret"}
+		{thickness 10}
+	}
+	("wood" args "body5")
+
+	("crew_2_human")
+
+	("board_animation"
+		place(driver)
+		board_begin(board_big-midcar_driver)
+		board_end(seat_driver_car)
+		base(doorleft)
+	)
+	("board_animation"
+		place(commander)
+		board_begin(board_big-midcar)
+		board_end(seat_passenger)
+		base(doorright)
+	)
+	
+	{boarder
+		{anm "gunner"
+			{forward {begin "board_MiddleArmor"} {end "AAgun_61k_gunner"}}
+			{reverse {end "emit_tank_1"}}
+		}
+		{anm "charger"
+			{forward {begin "board_MiddleArmor"} {end "AAgun_61k_charger"}}
+			{reverse {end "emit_tank_1"}}
+		}
+		{anm "charger2"
+			{forward {begin "board_MiddleArmor"} {end "AAgun_flak37_commander"}}
+			{reverse {end "emit_tank_1"}}
+		}
+	}
+
+	("crew" place(gunner)		bone(gunner)	door(emit3)	animation(gunner)	 visor(main) off())
+	("crew" place(charger)		bone(charger)	door(emit4)	animation(charger)	 visor(main) off())
+	("crew" place(charger2)		bone(charger2)	door(emit4)	animation(charger2)	 visor(main) off())
+	
+	{extender "inventory"
+		{box
+			{item "bullet_40x331_auto usa apbc" 152}		; 76 clips (4 rounds each)
+			{item "bullet_40x331_auto usa he" 152}
+			{item "repair_kit" 5}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "40mm_m1" filling "bullet_40x331_auto usa he" 4}
+			{gunner "gunner"}
+			{charger "charger"}
+			("abm_dymamic_aa"
+				zeroing(2.9)
+				dispersion(0.08)
+			)
+		}
+	}
+
+	{mass 4800} ;// 4000 + 800
+	{Chassis
+		("car_trace" fx("tracewheel03") step(0.08) wheell("wlf") wheelr("wrf") bonel("FXtraceL1") boner("FXtraceR1"))
+		("car_trace" fx("tracewheel03d") step(0.08) wheell("wlr") wheelr("wrr") bonel("FXtraceL2") boner("FXtraceR2"))
+		("mobility_car"
+			speed(72) ;----------------------------------Max speed.
+			speedatmaxturn(15) ;-------------------------Max speed at max turn.
+			reverse(22) ;--------------------------------Max speed in Reverse.
+			weight(4.8) ;--------------------------------Weight in Tonnes.
+			power(104) ;---------------------------------Horse Power.
+			fuel(150) ;----------------------------------Fuel capacity in Litres.
+			type(fuel) ;---------------------------------Fuel type.
+			range(480) ;---------------------------------Range in Kilometers.
+		)
+	}
+	{bone "gun_rot"
+		{limits -5 85}
+		{speed2 50}
+	}
+	{bone "turret"
+		{speed2 50}
+	}
+}

@@ -98,7 +98,7 @@
 			{grass}
 			{lens_effects_options high}
 			{lens_refraction}
-			{dof}
+			{dof 0}
 			{softIntersection}
 			{_ssao off}
 			{fake_translucency}
@@ -125,7 +125,7 @@
 			{grass}
 			{lens_effects_options high}
 			{lens_refraction}
-			{dof}
+			{dof 0}
 			{softIntersection}
 			{_ssao off}
 			{fake_translucency}
